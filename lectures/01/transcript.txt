@@ -1,0 +1,2339 @@
+[00:00:16] testing. Okay, cool.
+[00:01:44] Testing online. Can you hear me? Can you
+[00:01:47] hear me? Testing.
+[00:01:50] Testing. Can you hear me?
+[00:01:57] Testing. Testing. Testing for online.
+[00:02:01] Online. Can you hear me?
+[00:02:09] Testing
+[00:02:11] testing
+[00:02:18] testing testing.
+[00:02:31] >> [snorts]
+[00:02:35] >> Okay. Um our lecture will start in three
+[00:02:38] minutes. So uh in the future of our of a
+[00:02:41] lecture will start from 6:05. So this is
+[00:02:45] to accommodate for students who have
+[00:02:47] another lecture before this one. So we
+[00:02:49] all lost some time for them to like
+[00:02:52] travel from another lecture to this
+[00:02:53] lecture theater. So today's lecture will
+[00:02:56] be the same. We'll study in about three
+[00:02:58] minutes. So feel free to have a chat u
+[00:03:00] with people next to you and we'll get
+[00:03:01] started um at 6:05
+[00:03:45] >> [clears throat]
+[00:04:05] >> Is anyone celebrating the Luna New Year
+[00:04:08] today?
+[00:04:11] >> I think it's the Luna New Year's Eve,
+[00:04:13] right?
+[00:04:14] Yay. [laughter]
+[00:04:17] Thank you so so much for coming today.
+[00:04:19] Actually, I didn't expect so many
+[00:04:21] students to be here.
+[00:04:23] Um, do you have any plan after the
+[00:04:26] lecture?
+[00:04:29] >> Yes. No, no time for that.
+[00:04:33] Um, anyone from online, do you have any
+[00:04:37] plan for tonight?
+[00:04:40] >> What's your plan?
+[00:04:43] A big dinner.
+[00:04:44] >> Big dinner.
+[00:04:45] >> Oh, nice.
+[00:04:48] >> Oh.
+[00:04:50] >> So, what's your traditional food for
+[00:04:52] like Luna New Year's Eve?
+[00:04:57] >> Dumplings.
+[00:04:58] >> Yeah. I know from different parts of the
+[00:05:01] world like people celebrate Luna New
+[00:05:03] Year differently like they have
+[00:05:05] different type of traditional food. So
+[00:05:07] dumpling is one of the misenic different
+[00:05:09] ones or are you all having dumplings
+[00:05:12] tonight?
+[00:05:19] Like I think some people uh are having
+[00:05:22] like the balls made of noodle and they
+[00:05:26] kind of fry the noodle balls, right? Um,
+[00:05:30] and other people I I talk with people
+[00:05:32] and they have uh they will have fish for
+[00:05:35] the Luna New Year's live uh Luna New
+[00:05:38] Year's Eve, sorry. Um Yeah. So, uh Ewan
+[00:05:44] from online said that they having dinner
+[00:05:46] with friends. Yeah. Um, anyone's having
+[00:05:52] like videos with their families from
+[00:05:54] overseas tonight, like say happy new
+[00:05:57] year.
+[00:06:00] Yay. Happy new year. Okay, cool. Um,
+[00:06:04] amazing. Now it's uh six or six now. So,
+[00:06:08] we are a little bit over like one minute
+[00:06:09] over. So, um, this lecture is about
+[00:06:13] software project management.
+[00:06:16] Um
+[00:06:18] so you may have known that this is a new
+[00:06:20] course. So in the past our post-graduate
+[00:06:23] student they take the GSOE 9820 but from
+[00:06:27] this term we are going to have a new
+[00:06:29] course uh which is for like master of IT
+[00:06:32] or software uh information system
+[00:06:35] related uh students. So the reason that
+[00:06:38] we are having this new course is because
+[00:06:41] in the past uh we have got feedback from
+[00:06:43] students or from industry people and
+[00:06:45] saying like people graduate from those
+[00:06:47] degrees they lack of the knowledge on
+[00:06:50] this specific management not just very
+[00:06:53] broad general engineering project
+[00:06:56] management but more about like software
+[00:06:59] or IT system
+[00:07:02] project management. So more specific
+[00:07:04] skills. Uh so this is the reason that we
+[00:07:07] introduce this new course. Um and also
+[00:07:10] because this is a new course. It's my
+[00:07:12] first time teaching this course,
+[00:07:13] designing this course. So I'm hoping
+[00:07:15] that you really enjoy this course. Uh I
+[00:07:18] love the topic. This is a very very
+[00:07:20] important topic like software project
+[00:07:21] are huge you know like in industry like
+[00:07:24] for alas project for YouTube project for
+[00:07:27] Netflix project those project are huge
+[00:07:29] right. So how can we manage those
+[00:07:31] projects? It's a very important topic.
+[00:07:35] This is not just only important to those
+[00:07:38] project managers but all the developers.
+[00:07:41] Everyone on the software project team
+[00:07:44] should know about this. So this is why I
+[00:07:46] think this is very important. Um okay so
+[00:07:50] let's get on to the topic.
+[00:07:54] Um welcome again. I know I sent an email
+[00:07:58] last week saying welcome and also I
+[00:08:00] posted uh introduction about myself on
+[00:08:02] the forum. Uh so now just a very brief
+[00:08:05] introduction about myself again. Um so
+[00:08:08] I'm Dr. Icha Jang. So this is my name.
+[00:08:12] You can just call mecha. Um I'm a senior
+[00:08:15] lecturer at the school of computer
+[00:08:17] science and engineering. Um I had my PhD
+[00:08:21] in software engineering. uh and now my
+[00:08:24] research is about education for software
+[00:08:27] engineering. So I'm an education focused
+[00:08:31] lecturer here at uh UNW which means
+[00:08:34] everything I do for my work is about
+[00:08:37] education and education for software
+[00:08:40] engineering specifically. So that's me.
+[00:08:43] Um
+[00:08:44] and we also have 12 fantastic tutors for
+[00:08:48] this course. Um they are from very
+[00:08:50] diverse backgrounds. So about onethird
+[00:08:53] of them are from industry like who are
+[00:08:56] working in industry as a software
+[00:08:59] developer or in software companies.
+[00:09:02] Um another third of the tutors are like
+[00:09:06] post-graduate students like here but
+[00:09:09] they are quite close to finish uh and
+[00:09:12] they had learned the skills that um we
+[00:09:16] are teaching in this course although
+[00:09:17] from like their own maybe personal
+[00:09:20] learning experience but they know
+[00:09:22] exactly what this course is about. So
+[00:09:25] they have very recent learning
+[00:09:26] experience as you. So they know how it
+[00:09:29] looks like learning those concepts and
+[00:09:31] skills. Um we also have another third of
+[00:09:34] tutors who are um like learned those
+[00:09:38] skills and topic from their
+[00:09:40] undergraduate courses. So um there's
+[00:09:43] some topic in this course for example
+[00:09:45] git like version control. So these are
+[00:09:48] topic that we also teach in
+[00:09:50] undergraduate courses. So some of our
+[00:09:51] tutors are from uh like tutors from
+[00:09:55] those courses. So they have experience
+[00:09:56] teaching those topics that we learn in
+[00:09:59] this course. So we our tutors have very
+[00:10:02] diverse background and we also match
+[00:10:04] them in pairs for each class. So each
+[00:10:06] class we will have two tutors. So you
+[00:10:09] will have a diver set of like people of
+[00:10:12] with different expertise uh to help you
+[00:10:15] in this course.
+[00:10:16] Um and we also have you like the most
+[00:10:20] amazing fantastic you. So thank you so
+[00:10:23] much for everyone who introduced
+[00:10:25] yourself on the forum. Uh if you haven't
+[00:10:27] got the chance to do that feel free to
+[00:10:30] do that at any time when you have like I
+[00:10:32] have five minutes I don't know what to
+[00:10:33] do. Uh then introduce yourself on there
+[00:10:36] and try to interact with other people.
+[00:10:38] Make friends with each other networking
+[00:10:40] with people.
+[00:10:43] Okay. Um yeah. So, how about we make
+[00:10:48] good use of today's opportunity to get
+[00:10:51] to know more people in your cohort? So,
+[00:10:54] how about we talk with people
+[00:10:59] on the on your left hand side and ask
+[00:11:02] them what's your name? Uh which degree
+[00:11:06] are taking like what what do you expect
+[00:11:09] from this course? Anything. Have a chat
+[00:11:11] with people next to you. If you don't
+[00:11:13] have a people sitting to the right, you
+[00:11:15] can also talking with people sitting to
+[00:11:17] the left hand side.
+[00:11:20] Two minutes or people online, feel free
+[00:11:23] to introduce yourself in the chat.
+[00:12:27] Happy Christmas.
+[00:12:58] Yeah.
+[00:13:03] Alrighty time.
+[00:13:06] I know two minutes is not enough, but I
+[00:13:10] hope that's a good starting point for
+[00:13:12] you to networking with uh students in
+[00:13:14] your same cohort and you can continue
+[00:13:16] that conversation after the class. Okay.
+[00:13:19] Um, so now who [snorts]
+[00:13:22] wants to introduce
+[00:13:25] your friend
+[00:13:27] sitting next to you?
+[00:13:30] Hands up if you want to introduce the
+[00:13:33] people who are sitting next to you to
+[00:13:35] the rest of the class, not yourself.
+[00:13:41] Hey, hey, hey.
+[00:13:45] Let me see who is brave.
+[00:13:50] Do we have anyone who's brave?
+[00:13:55] >> Yeah. Great. Amazing.
+[00:13:57] >> My new friend right here, her name is
+[00:13:59] Mercy. She's found out
+[00:14:01] >> and she's almost finishing her degree.
+[00:14:03] So that's last. Congratulations, Mercy.
+[00:14:07] >> Thank you. Thanks.
+[00:14:10] >> Anyone else?
+[00:14:12] >> Yeah.
+[00:14:16] >> Sorry. Uh
+[00:14:26] very similar experience and background
+[00:14:28] from you. Oh, great. Sorry. What's your
+[00:14:30] name?
+[00:14:32] >> Sorry, what's your name?
+[00:14:35] >> Sonet.
+[00:14:37] >> Zerin.
+[00:14:38] >> Yeah. How about your friend's name?
+[00:14:42] >> Guang.
+[00:14:43] >> Oh, nice to meet you both of you.
+[00:14:45] Amazing. So let's continue these
+[00:14:48] conversations during the break in the
+[00:14:50] middle. So we are going to have a break.
+[00:14:52] So we are going to have a one hour
+[00:14:54] lecture, five minutes break. Feel free
+[00:14:56] to use the toilet, have some water, have
+[00:14:57] some chat and then we'll come back for
+[00:14:59] another hour. Okay. So let's continue
+[00:15:01] this conversation. Uh getting to know
+[00:15:04] people um and yeah. Okay, cool. Back to
+[00:15:08] the topic. Why are we here?
+[00:15:12] So why are you here?
+[00:15:15] Is it because it's a core course that we
+[00:15:18] have to take? Yes and no. Um, so if it's
+[00:15:23] not a just because it's a core course,
+[00:15:25] but you are just taking the course. So
+[00:15:27] why are you here? Or like although it's
+[00:15:30] a core course, right? We have to take
+[00:15:32] it, but what do you want to get from it?
+[00:15:35] Like why are we here? Like what do you
+[00:15:36] want to learn from it?
+[00:15:40] >> Industry experience. Fantastic. What
+[00:15:43] else?
+[00:15:49] How to work with groups? Wow, that's a
+[00:15:51] big topic. [laughter]
+[00:15:54] Anything else?
+[00:15:58] Or you just want to figure out what this
+[00:16:00] course is about? [laughter]
+[00:16:03] Um, cool. So we will have some like not
+[00:16:08] real industry experience but we'll try
+[00:16:10] to simulate some industry experience or
+[00:16:14] um teach you some skills that we you
+[00:16:15] will need for your future industry uh
+[00:16:18] career and we will definitely also learn
+[00:16:20] about how we can manage groups how to
+[00:16:22] lead a group from diverse background uh
+[00:16:25] how can we manage software projects.
+[00:16:29] So why software project uh project
+[00:16:32] management matters?
+[00:16:35] Okay. So here are some questions for
+[00:16:37] you. I assume all of you have some like
+[00:16:39] coding background because it shouldn't
+[00:16:41] be your first term uh and you have
+[00:16:44] learned some like coding programming. So
+[00:16:47] let's have a look at those questions.
+[00:16:49] Have you ever tried to fix a bug in your
+[00:16:52] own code only to break um something
+[00:16:56] else? Have that happened to you?
+[00:17:00] Yeah. Um, now imagine working with
+[00:17:03] millions of lines code. How are you
+[00:17:06] going to manage that? Right. Second
+[00:17:09] question. Imagine working on a huge
+[00:17:11] team. How do you keep track of who
+[00:17:14] changes what,
+[00:17:17] right? Very important things to answer
+[00:17:20] to think about. Uh, next question. Why
+[00:17:24] do apps like Instagram, Spotify or
+[00:17:28] Google Doc get updates every few weeks?
+[00:17:32] It's very common like when you open a
+[00:17:35] computer, open a app and say like
+[00:17:38] updates needed or new software updates.
+[00:17:41] It's very often. Why? The last question.
+[00:17:45] What happens if a banking app
+[00:17:48] miscalculates transactions
+[00:17:50] or a self-driving car misinter interact
+[00:17:54] data?
+[00:17:56] Wow, that was so bad, right? So, how
+[00:17:59] could we manage our software projects to
+[00:18:03] avoid that to happen? How to manage it
+[00:18:06] properly so we know who changes what,
+[00:18:08] what's going on there, and making sure
+[00:18:10] there's less bugs in there. So this is
+[00:18:14] what we are trying to we will try to
+[00:18:16] answer in this course and why this is so
+[00:18:19] important.
+[00:18:21] What we are going to learn is how to
+[00:18:23] manage from small projects to big
+[00:18:26] impact.
+[00:18:27] So in the past you may have some small
+[00:18:30] student projects where you write a small
+[00:18:32] game or class project it works you
+[00:18:34] submit it that's it you never touch the
+[00:18:37] code again
+[00:18:38] right like throw away that code and no
+[00:18:41] one else need to maintain it and voil
+[00:18:43] matter after submission that's it that's
+[00:18:46] finished that's that's the end of the
+[00:18:47] project however in the real world when
+[00:18:50] you have a when you work in for example
+[00:18:53] Alassen or like Google your code will be
+[00:18:56] used by real people,
+[00:18:59] right? And other people in your team
+[00:19:02] will build on top of your code. Other
+[00:19:04] people will need to maintain other
+[00:19:06] people's code. So, how do we manage all
+[00:19:09] of this?
+[00:19:12] What if your program has millions of
+[00:19:13] user? It needs to work on different uh
+[00:19:16] devices and to be secure. If something
+[00:19:19] goes wrong, the company loses money or
+[00:19:21] worse, people get hurt. Okay. So um
+[00:19:26] cool any questions so far like why are
+[00:19:29] we here? What we are trying to get from
+[00:19:32] this course what we are learning. Yep.
+[00:19:33] Question.
+[00:19:34] >> So we are here to practice some code.
+[00:19:40] >> The question is are we here to practice
+[00:19:42] some code? That's a really good
+[00:19:45] question. So um yes and no.
+[00:19:49] >> Yes. [laughter]
+[00:19:51] Uh the reason that I said no is because
+[00:19:54] the course is not a coding course. So we
+[00:19:57] do not teach programming. We don't teach
+[00:19:59] coding. We assume you that you already
+[00:20:01] have that knowledge from courses like
+[00:20:04] 9021 or 9020 or something equivalent
+[00:20:08] maybe from your experience uh past like
+[00:20:11] working experience and others. So this
+[00:20:13] is not our focus. We do not we do do not
+[00:20:16] teach coding or programming. It's not
+[00:20:17] about management. But here we talk about
+[00:20:20] how do we manage the code base
+[00:20:25] like it's not a small personal project
+[00:20:28] but more like a big project like how do
+[00:20:30] we manage it when it has a lot of code
+[00:20:33] when there's a lot of people working on
+[00:20:34] it how do we manage the project
+[00:20:38] and the people
+[00:20:40] >> so actually we're learning to how to be
+[00:20:44] manager
+[00:20:45] >> the question is do we are we here to
+[00:20:48] learn about management. Um
+[00:20:52] again yes and no. So um so everyone on
+[00:20:56] the team working on a project should be
+[00:20:59] responsible for that project
+[00:21:02] not just the manager.
+[00:21:04] >> So everyone should be responsible for
+[00:21:06] the project. So everyone should know
+[00:21:08] what they should do to make sure that
+[00:21:10] the project is going properly like the
+[00:21:12] code is safe there's lot less bug and
+[00:21:15] stuff. So um you can ro of course you'll
+[00:21:19] be a leader for each team and you can
+[00:21:22] rotate the royal leader in your group
+[00:21:24] and you can uh like practice how to lead
+[00:21:27] a software project but that's not the
+[00:21:30] only thing like you also learn how to be
+[00:21:32] a good member in the project to manage
+[00:21:35] the project collaboratively with others.
+[00:21:38] So this is what we are going to learn
+[00:21:41] is that
+[00:21:42] answers your question.
+[00:21:44] >> Yes.
+[00:21:44] >> Okay cool. Amazing. Any other questions?
+[00:21:48] >> Yeah.
+[00:21:59] on top.
+[00:22:02] >> Uh the question is will we rotate the
+[00:22:05] rows throughout the term? Is that right?
+[00:22:07] Um my suggestion is yes. So everyone on
+[00:22:11] the team get a different experience
+[00:22:13] right because um during the course
+[00:22:16] during the 10 weeks we are going to have
+[00:22:18] one project and it's divided into three
+[00:22:21] sprints
+[00:22:22] like three uh
+[00:22:26] three iterations like three sprint
+[00:22:28] divided into three parts and you can
+[00:22:31] rotate your rows
+[00:22:34] um when you change the spread. So for
+[00:22:36] example uh
+[00:22:38] sorry what's your name again? Mercy.
+[00:22:41] >> Mercy. So for example, Mercy act as the
+[00:22:44] leader uh for the first sprint and then
+[00:22:47] in the next uh sprint. So Zelink
+[00:22:49] volunteer say I wanted to be the leader.
+[00:22:52] But there are different roles. So I'm
+[00:22:53] just making an example and saying you
+[00:22:55] can rotate your rows.
+[00:23:00] Any other question?
+[00:23:06] Any question online?
+[00:23:10] Okay. So
+[00:23:13] um
+[00:23:15] so to to be able to know how to manage
+[00:23:19] big software projects the first thing is
+[00:23:22] to understand the software process. So
+[00:23:26] you know how you can actually manage it
+[00:23:29] because software project uh software
+[00:23:32] development is a very uh big thing like
+[00:23:35] there are a lot of things involved in a
+[00:23:37] software process right uh so we are
+[00:23:40] going to have a brief introduction on
+[00:23:42] how's the process um and then we'll um
+[00:23:46] going through all the stages in more
+[00:23:49] details later in the term. So today is
+[00:23:51] just a very overall introduction to the
+[00:23:53] different stages and then we'll go
+[00:23:56] through them one by one in the following
+[00:23:58] weeks.
+[00:23:59] >> Oopsie.
+[00:24:01] Cool. So
+[00:24:06] >> question
+[00:24:22] Sorry, can you repeat your question
+[00:24:24] again?
+[00:24:24] >> So my question is I know that I'm
+[00:24:26] jumping the gun to ask about the final
+[00:24:33] >> projected.
+[00:24:37] >> Yeah, no problem. So your question is
+[00:24:40] about assignments like what is a final?
+[00:24:42] Is that right?
+[00:24:44] >> Sorry. Uh so we don't have a final exam.
+[00:24:48] [laughter]
+[00:24:50] We don't have a final exam in this
+[00:24:52] course. Uh the only assessment uh in
+[00:24:54] this course is a project. That's it. So
+[00:24:57] everything finishes by the end of week
+[00:25:00] 10. Nothing beyond week 10. That's it.
+[00:25:04] Yay. [laughter]
+[00:25:07] I hate exam as well. I know how
+[00:25:10] stressful it is. Um, [laughter]
+[00:25:15] cool. Okay.
+[00:25:18] So, why do we need to know the process?
+[00:25:22] Um, because we wanted to have some
+[00:25:24] logic. So, we want to know what's going
+[00:25:27] on next, right? So, when you manage it,
+[00:25:30] you need to plan it, right? So, you need
+[00:25:32] to make sure that you are on the right
+[00:25:33] track. So to know the software process
+[00:25:35] will help you being more efficient like
+[00:25:38] you know the work is done in a logical
+[00:25:41] and step-by-step manner. Uh and it's
+[00:25:43] also predictable. You know what's going
+[00:25:46] on next, right? It also help with
+[00:25:48] quality insurance. You know you are
+[00:25:51] maintaining it. You know you are writing
+[00:25:53] some maintainable projects so that in
+[00:25:55] the future you you won't go back and say
+[00:25:57] oh why why there's a code like this? I
+[00:25:59] don't know why the code is here. Right?
+[00:26:02] Um it's like building a house. You need
+[00:26:05] to have a plan first. You know, you need
+[00:26:06] to know what's going on here and there.
+[00:26:09] So this is why we need a software
+[00:26:11] process.
+[00:26:14] So um the process has different models.
+[00:26:17] So the most traditional one is called
+[00:26:20] waterfall model. A waterfall model is
+[00:26:23] very linear. It's structured. So you
+[00:26:25] need to finish step one so that you can
+[00:26:29] start step two. Once you finish step
+[00:26:31] two, you can start step three. So that's
+[00:26:34] called the waterfall model. So let's
+[00:26:36] have a look at this waterfall model
+[00:26:38] first. So there are a few stages in the
+[00:26:41] waterfall model. The first stage is
+[00:26:44] about gathering the requirements.
+[00:26:47] So for example,
+[00:26:49] your client give your company or your
+[00:26:54] startup or your group a task saying that
+[00:26:58] um can you please develop a software for
+[00:27:03] uh timetable management?
+[00:27:09] What's your question next?
+[00:27:12] So you may ask what do you mean by
+[00:27:15] timetable management
+[00:27:18] right? So what do you want in this
+[00:27:21] project man uh uh timetable management
+[00:27:24] app
+[00:27:26] or what are the users for this app right
+[00:27:29] so you need to ask them these questions
+[00:27:31] to understand their requirement before
+[00:27:33] you start actually coding anything
+[00:27:37] right so this is called requirement uh
+[00:27:39] engineering or requirement gathering so
+[00:27:42] in a traditional waterfall motor so this
+[00:27:44] is the first step you need to gather the
+[00:27:47] requirement first and then when you know
+[00:27:50] who are the potential users, what are
+[00:27:52] the use cases like how the users are
+[00:27:55] going to use this app or like software
+[00:27:57] product is that to design the overall
+[00:28:00] system. It's like the house. Are you
+[00:28:02] going to have just one uh flat layer or
+[00:28:08] are you going to have some stairs climb
+[00:28:09] up? How many rooms are you going to
+[00:28:11] have? Are you going to have a kitchen?
+[00:28:14] Are you going to have a toilet for your
+[00:28:16] house? Right? So you are going to do
+[00:28:18] this overall design for the house. So
+[00:28:21] this is the step two which is the system
+[00:28:23] design. And then when you say well I'm
+[00:28:26] going to have three bedrooms, two
+[00:28:28] toilets, one kitchen and one laundry.
+[00:28:33] And then here are the they are going to
+[00:28:35] be here here and here. And next step
+[00:28:38] will be you implement that house. You
+[00:28:40] implement that code. You write that
+[00:28:42] codes to achieve. Well here's the
+[00:28:44] laundry. Those are the blocks, right?
+[00:28:47] So, I built uh the laundry, the kitchen,
+[00:28:49] the toilet, everything. So, that's the
+[00:28:51] implementation.
+[00:28:52] And then you're going to make sure that
+[00:28:54] the house is safe.
+[00:28:56] Um it meets with the client's
+[00:29:00] requirements,
+[00:29:02] everything works, the toilet works, it
+[00:29:04] won't stuck very easily, right? So, you
+[00:29:07] are going to do some testing. So
+[00:29:08] similarly with your code P your software
+[00:29:10] product you're going to do some testing
+[00:29:13] too checking everything works
+[00:29:16] and then
+[00:29:18] the house is just a house standing there
+[00:29:21] people needs to use it there should be
+[00:29:23] people living in there and using the
+[00:29:25] things in the kitchen right so this is
+[00:29:28] called deployment in our software
+[00:29:30] projects so you need to deliver your
+[00:29:33] code to the users so that your users can
+[00:29:36] use your application
+[00:29:38] So the code or your project not only
+[00:29:41] sitting on your own laptop but other
+[00:29:44] people can use it.
+[00:29:46] How can we do that? So that's called
+[00:29:49] deployment.
+[00:29:50] And the final step is called
+[00:29:52] maintenance. So once your application
+[00:29:55] your software is ready for people to use
+[00:29:58] people may report well um like the
+[00:30:01] toilet most of the time it works well
+[00:30:02] but still occasionally is like not
+[00:30:05] functioning properly. can you fix that
+[00:30:07] for me? Like you need to maintain that
+[00:30:09] house and similarly with our core
+[00:30:12] projects like software projects you will
+[00:30:14] also need to maintain your software
+[00:30:16] project. People may report well there's
+[00:30:18] a bug can you fix that please or people
+[00:30:21] will say um I need this new feature for
+[00:30:24] my timetable management application. Can
+[00:30:26] you add that feature for me? Right? So
+[00:30:29] this is called maintenance. So these six
+[00:30:32] stages are the stages for traditional
+[00:30:35] waterfall not traditional but yet
+[00:30:38] traditional waterfall model uh process.
+[00:30:40] So those are the stages.
+[00:30:43] Um but have you heard the term of a
+[00:30:48] >> yes
+[00:30:49] >> some yes some no. Uh so is a more
+[00:30:53] flexible way of managing of software
+[00:30:56] process. So it doesn't necessarily have
+[00:30:58] to be like the requirement gathering is
+[00:31:01] perfect and then we can start the design
+[00:31:03] process and not that like the design
+[00:31:06] process perfect and then we can start
+[00:31:08] the implementation. So means like uh
+[00:31:12] like faster turnaround
+[00:31:14] um caring more about like work like uh
+[00:31:19] like workable software not like
+[00:31:22] documentation.
+[00:31:23] So this is because um people notice that
+[00:31:27] like nowadays
+[00:31:29] the tech world is changing so fast and
+[00:31:32] if we have a great idea and we just
+[00:31:35] stuck on the requirement engineering
+[00:31:37] phase and never start working on
+[00:31:39] implementation everything and people
+[00:31:40] other people will do it right and
+[00:31:43] people's um ideas people's needs would
+[00:31:46] also change and they also noticed that
+[00:31:49] the requirement can never be perfect
+[00:31:51] like there will always something or when
+[00:31:54] they start implementation or design or
+[00:31:56] testing and they found that some of the
+[00:31:58] requirements they g at the beginning was
+[00:32:01] not correct.
+[00:32:04] So this is very common. So nowadays more
+[00:32:07] people are using a way to do their
+[00:32:10] software uh projects means that there's
+[00:32:12] more flexibility. It's not like
+[00:32:14] waterfall like you can always go back
+[00:32:17] just like more iterations.
+[00:32:21] uh this may sound a little bit weight to
+[00:32:23] you but we'll get to more uh about like
+[00:32:26] a in the later weeks but here we are
+[00:32:28] just giving you a very over information
+[00:32:31] about what are the stages in software
+[00:32:33] process and uh the traditional waterfall
+[00:32:36] model and a very high level introduction
+[00:32:38] about
+[00:32:40] soil is not about a methodology but more
+[00:32:43] about people's mindset like how people
+[00:32:46] think about software management software
+[00:32:48] process Any
+[00:32:52] question?
+[00:32:54] Confused or is it all good?
+[00:32:59] All good.
+[00:33:02] Okay, cool. Um online people, if you
+[00:33:06] have any question, feel free to put in
+[00:33:08] the chat. Okay, I'm monitoring the
+[00:33:10] online chat as well.
+[00:33:14] Um yes, so I is a software development
+[00:33:17] methodology that emphasize uh
+[00:33:19] flexibility, collaboration and
+[00:33:22] continuous improvement. So collaboration
+[00:33:25] here not only means collaboration with
+[00:33:27] your team member but also collaboration
+[00:33:30] with other stakeholders for example your
+[00:33:33] client.
+[00:33:35] Uh you keep updating your client, your
+[00:33:37] progress, anything you have got, get
+[00:33:40] feedback from them, asking questions,
+[00:33:42] anything. And you also collaborate with
+[00:33:44] for example experts in the field. For
+[00:33:46] example, if you are building a clinical
+[00:33:49] application or clinical software, right?
+[00:33:51] So, you want to get a clinical experts
+[00:33:54] involved in the design process um like
+[00:33:58] the whole process as well because there
+[00:33:59] may be something you don't know. There
+[00:34:01] may be some privacy concerns. There may
+[00:34:03] be special uh requirement from like the
+[00:34:06] clinical background or things. So,
+[00:34:09] collaboration means much broader than
+[00:34:11] collaboration within your team members.
+[00:34:16] Um
+[00:34:17] yes so it's based on the idea that
+[00:34:20] selfware development is a process of
+[00:34:21] continuous learning and improvement.
+[00:34:26] Amazing. Any questions so far about the
+[00:34:29] general process.
+[00:34:33] So we will follow this process uh in our
+[00:34:37] project as well. So you will have a
+[00:34:39] chance to practice all the stages in
+[00:34:41] your uh project in this course too. So
+[00:34:44] we will go into more details into each
+[00:34:47] of them.
+[00:34:49] Oh good. Yep. Question.
+[00:34:51] >> Can you explain more about
+[00:34:55] approach?
+[00:34:58] >> Um can I explain more about this modern
+[00:35:01] approach?
+[00:35:02] >> Yeah sure. So this modern approach is
+[00:35:04] called ael.
+[00:35:06] So the difference between a and
+[00:35:09] waterfall model is for waterfall model
+[00:35:13] you need to complete one stage so that
+[00:35:15] you can start start the next stage. For
+[00:35:18] example you need to finish you say done
+[00:35:21] then done this is done done like
+[00:35:23] completely done the requirement engine
+[00:35:26] uh gathering stage I think my
+[00:35:28] requirements are perfect I've got
+[00:35:30] everything my clients need. I've know
+[00:35:32] exactly what I'm going to build. And
+[00:35:34] then you move on to like design the
+[00:35:38] overall structure of your software like
+[00:35:40] I'm going to have two bedrooms, one
+[00:35:42] toilet or whatever. So if you haven't
+[00:35:44] finished requirement gathering, you
+[00:35:46] can't go to the next stage. So that's
+[00:35:48] like traditional strict waterfall model.
+[00:35:51] But for a it means more flexibility.
+[00:35:55] It emphasize like um
+[00:35:59] continuous improvement. I may have MVP
+[00:36:03] like uh uh it's work. I may have some
+[00:36:07] code written to achieve some of the
+[00:36:09] requirements. It may not be perfect.
+[00:36:12] It's okay but it's functioning and I
+[00:36:14] show this product to my clients
+[00:36:17] stakeholders potential and users and ask
+[00:36:20] question like how do you feel about this
+[00:36:22] one and then continue improving.
+[00:36:26] So similarly with testing and
+[00:36:29] maintaining everything. So uh it's more
+[00:36:32] iterative rather than linear but it's
+[00:36:35] more about mindset not just the process
+[00:36:38] and approach means that we are
+[00:36:39] continually improving the projects. It's
+[00:36:43] never done then done. Yeah. And never
+[00:36:46] aim for like a lot of documentations but
+[00:36:49] more about work uh working software.
+[00:36:54] >> Okay. Um no problem if you are still
+[00:36:56] confused. I know I'm only introducing a
+[00:36:59] very high level general
+[00:37:01] uh concepts but we'll uh we'll do the
+[00:37:04] project. We'll have some like practice
+[00:37:07] using the um methods and process so you
+[00:37:10] have better understanding of what it
+[00:37:12] means.
+[00:37:15] Okay. All good.
+[00:37:19] Cool. Um
+[00:37:21] before we move on to the next topic
+[00:37:24] where we are going to answer the
+[00:37:26] question at the beginning like one of
+[00:37:28] those questions at the beginning which
+[00:37:30] is uh how do we know who changed the
+[00:37:32] what how to keep track of the code how
+[00:37:34] do we go back the time machine to go
+[00:37:36] back to a previous version of the code
+[00:37:38] like how do we collaborate manage our
+[00:37:41] codebase so that's the question that we
+[00:37:43] are going to answer uh during our the
+[00:37:46] rest of today's lecture but before that
+[00:37:49] I'm going to talk about some general
+[00:37:52] stuff. Um so in this course we'll form
+[00:37:56] groups. So as I mentioned earlier
+[00:37:57] there's only one assignment in this
+[00:37:59] course. No fenoid, no quizzes, no lab,
+[00:38:02] only one assignment. Yay I know only one
+[00:38:06] assignment which is the uh the project.
+[00:38:08] So we'll form groups uh to design and
+[00:38:11] develop software projects following the
+[00:38:13] software project management practices.
+[00:38:16] Um so the groups will be formed in your
+[00:38:19] week one lab. So please please join your
+[00:38:22] week week one lab. Uh in case you can't
+[00:38:25] join it for whatever reason, please
+[00:38:28] email your tutor and telling them like
+[00:38:31] you are not dropping the course, you are
+[00:38:33] still in the class, please give you an
+[00:38:35] allocation like a space of spot in one
+[00:38:38] of the groups letting them know. Um and
+[00:38:42] then the course will not teach web
+[00:38:45] development or coding. So this is very
+[00:38:47] very important. Uh this is not the focus
+[00:38:50] of the course. I know there's no like
+[00:38:52] required prerequest for the course. Um
+[00:38:56] but like coding or like web development
+[00:38:58] is not the focus of the course. So you
+[00:39:01] are suggested to uh take the course
+[00:39:04] after finishing at least COP 9021 or
+[00:39:08] something equivalent or if you have any
+[00:39:11] background like from your personal
+[00:39:13] career or work experience you know how
+[00:39:15] to code program great perfect you do not
+[00:39:18] need to have you do not have to finish
+[00:39:20] the course but you need to know
+[00:39:21] something equivalent you need to have
+[00:39:23] the knowledge background otherwise it
+[00:39:25] will be very very challenging for you
+[00:39:27] I'm not saying that you can't do the
+[00:39:29] course before having having those coding
+[00:39:31] experience but it will be very very
+[00:39:32] challenging for you.
+[00:39:35] Um yeah so if you haven't complete NY21
+[00:39:39] or something equivalent we recommend you
+[00:39:41] come back to this course as a later
+[00:39:43] stage. So uh I think I need to tell you
+[00:39:46] this to you as early as possible so you
+[00:39:49] can plan ahead.
+[00:39:51] Okay. Um there are other things that I
+[00:39:55] wanted you to know like some UNW
+[00:39:58] services uh like health and uh
+[00:40:01] well-being. So UNW provide a lot of
+[00:40:04] service about that like students health
+[00:40:06] and well-being. So at any time you feel
+[00:40:09] like oh I'm too stressed there's too
+[00:40:11] much homework I'm taking too many
+[00:40:13] courses I'm not feeling well. uh do not
+[00:40:15] struggle yourself. USW has a great
+[00:40:18] service for that to help you to get
+[00:40:20] through those. Um another thing that I
+[00:40:23] want to make sure that you know of is
+[00:40:25] the special considerations and short
+[00:40:27] extensions. Uh are you aware of special
+[00:40:30] consideration?
+[00:40:32] Do you know? Yeah. So for anyone who
+[00:40:35] doesn't know about special
+[00:40:36] consideration, have a look at that. So
+[00:40:39] for example uh if you are in hospital or
+[00:40:42] like I don't want it to happen but just
+[00:40:44] in case uh there's something happen
+[00:40:46] during like one week of your one sprint
+[00:40:49] you cannot contribute to your project uh
+[00:40:51] you can apply for special consideration
+[00:40:54] and when we mark we'll take that into
+[00:40:56] consideration as well. So we will assume
+[00:40:58] you have less time to do that sprint. So
+[00:41:02] when we mark we'll take that into
+[00:41:03] consideration.
+[00:41:05] Okay. So your well-being, your health is
+[00:41:08] the priority.
+[00:41:10] So this is always the priority.
+[00:41:13] Um,
+[00:41:15] cool. Another topic, huh? Chivity and
+[00:41:19] other generative AI tools. Uh, so I
+[00:41:22] always get this question like, can we
+[00:41:24] use uh like AI agents to support my
+[00:41:29] project? Uh what do you think
+[00:41:35] >> to what extent?
+[00:41:39] >> Uhhuh.
+[00:41:41] Yeah. So uh because this is not a
+[00:41:45] fundamental course and it's not a like
+[00:41:48] um we're not teaching very very
+[00:41:50] fundamental things. So I don't want to
+[00:41:52] be too strict about using those tools
+[00:41:55] because I'm also using those tools. I
+[00:41:57] know those tools can sometime be very
+[00:41:59] very helpful and sometimes when you go
+[00:42:01] to industry they will also ask you like
+[00:42:04] do you have those AI literacy right so I
+[00:42:07] think this is also a very important
+[00:42:08] skill to learn uh but I want to make
+[00:42:10] sure that you are using those tools
+[00:42:13] properly
+[00:42:15] [laughter]
+[00:42:17] so by properly I mean you are not using
+[00:42:20] those tools to complete your assignments
+[00:42:23] doing your job so uh as me you mentioned
+[00:42:29] like I'm happy for you to use those
+[00:42:30] tools from research purposes or learning
+[00:42:33] purposes but you need to know what you
+[00:42:36] are doing
+[00:42:39] right so you need to be ex you need to
+[00:42:41] be able to explain why you are doing
+[00:42:43] what you are doing
+[00:42:46] and you will need to acknowledge your
+[00:42:48] use of these tools in your submissions
+[00:42:52] you need to acknowledge how you use
+[00:42:54] those tools for which specific ific part
+[00:42:57] of your submission
+[00:42:59] and why like you need to justify how you
+[00:43:01] use that and you need to be able to
+[00:43:03] explain your project like why you make
+[00:43:05] that decision why I want to have that
+[00:43:07] feature right like why do I design that
+[00:43:09] feature to be like that so we are going
+[00:43:12] to have project checking throughout the
+[00:43:14] week so um so tutors may ask you
+[00:43:17] questions about those
+[00:43:21] okay all good
+[00:43:24] cool I hope that makes sense Cool.
+[00:43:28] Um, and there's no exam. So,
+[00:43:31] um, ELP. So, if you have a registered
+[00:43:35] ELP, uh, I will reach out to you
+[00:43:37] individually either this week or next
+[00:43:39] week to let you know what adjustments
+[00:43:41] uh, we make um, for you in this course.
+[00:43:46] Um, yeah. So, be and I wanted to thank
+[00:43:49] you for your patience in adas because
+[00:43:52] this is a new course. So almost every
+[00:43:54] piece of the course is designed from
+[00:43:56] scratch. Uh some of the materials I
+[00:43:59] student from another course which I
+[00:44:01] taught in the past uh which is the
+[00:44:03] software engineering fundamental for
+[00:44:04] undergraduate students. So there are
+[00:44:06] some like um overlaps in the concept. So
+[00:44:10] I got those concept uh those uh
+[00:44:12] materials from my previous course. But
+[00:44:14] the majority of the material material in
+[00:44:17] this course are designed from scratch.
+[00:44:19] So I may not be able to provide you with
+[00:44:21] all the slides for all the 10 weeks. So
+[00:44:25] and all the material for the rest 10
+[00:44:27] weeks. So I'm like um I'm releasing it
+[00:44:30] gradually. So thank you so much for your
+[00:44:32] patience in this process. Uh and I know
+[00:44:35] it's not perfect. Although I hope it's
+[00:44:37] perfect but I know it's not going to be
+[00:44:38] perfect. Uh so uh for any of the
+[00:44:41] material components of the course you
+[00:44:43] feel like wow this can be better in this
+[00:44:45] way. Let me know. I would love to hear
+[00:44:47] about that. or I feel like, oh, this
+[00:44:49] doesn't make sense to me. Let me know.
+[00:44:51] I'd love to know like why it doesn't
+[00:44:53] make sense and how we can improve it
+[00:44:55] together. Um, yeah. Okay. So, general
+[00:45:00] stuff. So, at the end of each topic
+[00:45:03] lecture slides, uh, you will see this QR
+[00:45:06] code. Uh, feel free to scan it and we
+[00:45:09] ask you for feedback on the lecture, uh,
+[00:45:12] the lab sessions and the project and
+[00:45:14] anything else. So, if you have any
+[00:45:16] feedback for you, I love it. I really
+[00:45:19] love feedback. I I hope the course is
+[00:45:21] perfect. But yeah, I'm hoping to improve
+[00:45:24] the course together with you. Um the
+[00:45:26] lecture slides are all released on here
+[00:45:30] will be released here on the course
+[00:45:32] website. So you notice that there are
+[00:45:34] already three slides uploaded uh which
+[00:45:36] are the three topics we are going to
+[00:45:38] talk about today. I'm not sure if I can
+[00:45:40] finish it today because I'm feeling I'm
+[00:45:42] talking too much but I will try. But I
+[00:45:44] don't want to rush too much. If there's
+[00:45:46] any topic that we can't finish today, we
+[00:45:48] can continue ne continue next week. So,
+[00:45:50] no problem. So, I uh for each week, I'll
+[00:45:54] break down the slides based on the
+[00:45:56] topic.
+[00:45:58] Uh you can also find the YouTube uh live
+[00:46:01] stream link here on the course of as
+[00:46:04] well. Uh the recording will also be on
+[00:46:06] YouTube. Um for YouTube recording, there
+[00:46:09] may be one concern like there are some
+[00:46:11] advertisements.
+[00:46:13] So this is something that I don't have
+[00:46:16] control of. So I can't remove the ads
+[00:46:19] from YouTube. So if you prefer to use
+[00:46:21] the YouTube reporting, uh click on that
+[00:46:24] link. What I'm going to do is I'm also
+[00:46:26] going to provide uh a recording on the
+[00:46:30] SharePoint like USW SharePoint. No uh
+[00:46:34] advertisements for sure, but like the
+[00:46:37] accessibility is not as good as YouTube.
+[00:46:40] But you can choose which one you want to
+[00:46:42] use. I'll provide you with those two
+[00:46:44] options. Okay.
+[00:46:47] Amazing. Okay. Let's get started with
+[00:46:50] this one. So remember the question that
+[00:46:53] we asked at the beginning which was
+[00:47:01] here.
+[00:47:03] How do you keep track of who changes
+[00:47:05] what? What if you break something else
+[00:47:08] like how can you go back to use the time
+[00:47:10] machine to go back to another previous
+[00:47:12] version right? Um
+[00:47:15] yes this is the questions that we are
+[00:47:18] going to answer in this next topic which
+[00:47:22] is called version control. So
+[00:47:26] talking about version control what are
+[00:47:29] you thinking about?
+[00:47:38] >> Sorry.
+[00:47:39] >> Huh?
+[00:47:42] >> Saving the
+[00:47:44] code.
+[00:47:46] >> Uh yes. So how are going to save the
+[00:47:50] code?
+[00:47:54] >> Yep. So for anyone who don't know
+[00:47:56] GitHub, imagine just know GitHub.
+[00:47:59] Are you going to save your code using
+[00:48:01] Google Doc
+[00:48:03] >> to collaborate with other people?
+[00:48:06] Are you going to have like multiple
+[00:48:08] version like you have uh code version
+[00:48:11] one.1
+[00:48:14] code version 2.0 or something to control
+[00:48:18] the version and take notes of like what
+[00:48:20] is this version 1.1 what is that version
+[00:48:23] 1.2 to Is that what you are going to do
+[00:48:26] or are you going to use for example
+[00:48:28] Google Drive to collaborate sharing toys
+[00:48:32] with others
+[00:48:34] right so those are also version control
+[00:48:36] actually
+[00:48:38] right but it's just not that convenient
+[00:48:42] it's so complicated it's not designed
+[00:48:44] for cold version control but more for
+[00:48:47] like documents
+[00:48:48] right
+[00:48:50] so this is what the problem that we are
+[00:48:52] trying to solve like how can we control
+[00:48:55] the versions of code? How do we manage
+[00:48:58] over code
+[00:49:00] and how can we have multiple people to
+[00:49:03] working on the same piece of code? It's
+[00:49:05] so common, right? So maybe we are um
+[00:49:09] implementing the same feature like user
+[00:49:11] login. Everyone on the team is working
+[00:49:14] on user login.
+[00:49:16] How can you collaborate
+[00:49:19] the code on the code when multiple
+[00:49:21] people are working on it
+[00:49:24] Google doc but is there a way that can
+[00:49:28] be more efficient when it comes to code
+[00:49:33] g so git is the solution so you may have
+[00:49:37] heard like gitlab github bit bucket what
+[00:49:41] are they so fundamentally they are all
+[00:49:44] git
+[00:49:46] So fundamentally they are all the same
+[00:49:47] thing. [snorts] So G is a version
+[00:49:49] control tool that en enables people to
+[00:49:52] work concurrently on the same code base.
+[00:49:55] G is a program just like we code GCC and
+[00:49:58] others but it's built specifically for
+[00:50:02] programmers and designed for managing
+[00:50:04] code across lots of people. And it has a
+[00:50:07] very detailed history.
+[00:50:11] Still quite vague. No idea what is it?
+[00:50:13] No problem. We'll have a look at the
+[00:50:15] details. Um, and more importantly, G is
+[00:50:19] a distributed version control software
+[00:50:21] means that you can have multiple vers uh
+[00:50:24] multiple people working on different
+[00:50:25] laptops, but you are collaboratively
+[00:50:27] working together.
+[00:50:29] Okay, still so I know this is so high
+[00:50:33] level. So what I'm going to do next to
+[00:50:38] show you how g works and what exactly is
+[00:50:41] this G. I'm going to do a lot of
+[00:50:43] demonstrations for the rest of the
+[00:50:45] lecture. I'm going to show you how git
+[00:50:47] works and how g helps you with managing
+[00:50:50] your software projects.
+[00:50:54] Okay.
+[00:51:00] What about we take a break?
+[00:51:03] Okay. Uh let's have a break for five
+[00:51:05] minutes. Uh let's come back at 656
+[00:51:11] roughly. Okay. Have a break and we'll
+[00:51:13] start the demonstrations.
+[00:58:21] Hello. Hello. Hello. Hello.
+[00:58:26] Hello. Hello. Welcome back. Welcome
+[00:58:28] back. Welcome back. Welcome back.
+[00:58:30] Welcome back. I know five minutes is
+[00:58:33] very very short but we do have a lot of
+[00:58:35] things to cover so I had to call you
+[00:58:38] back um during the break um
+[00:58:43] I got a lot of questions and almost all
+[00:58:46] of them are about the uh uh the
+[00:58:48] assignment so I think it'll be a good
+[00:58:50] idea for me to answer the questions as a
+[00:58:52] group for all of you so you know what
+[00:58:54] kind of questions we'll ask maybe you
+[00:58:56] also have that question in mind okay so
+[00:58:59] since we have so many questions
+[00:59:00] questions about the uh the assignment.
+[00:59:03] So let me just quickly go through the
+[00:59:05] assignment. So on the course website you
+[00:59:09] can see this assignment overview. Uh so
+[00:59:12] the project will be divided into three
+[00:59:15] springs.
+[00:59:17] So the first uh spring will be due on
+[00:59:20] week four Monday and then week seven
+[00:59:23] Monday and then week 10 Friday. So at
+[00:59:27] each at the end of each sprint you are
+[00:59:30] going to get some feedback from your
+[00:59:32] tutor. So you will not be surprised you
+[00:59:35] not you'll be you will know how you are
+[00:59:37] progressing.
+[00:59:39] Um further than that
+[00:59:42] for the first sprint or all the other
+[00:59:45] spring I will also release the project
+[00:59:48] guideline by stages
+[00:59:52] which means for example for here sprint
+[00:59:55] one there's already a guideline like
+[00:59:58] initial guideline for sprint one on the
+[01:00:00] course website let me show you so uh
+[01:00:03] what I'm going to do for each sprint I
+[01:00:05] will give you a weekly planner for each
+[01:00:08] sprint
+[01:00:09] So you know what to expect for that
+[01:00:12] week. So you know whether you are on
+[01:00:14] track so you can plan ahead.
+[01:00:18] So as long as you are on track for that
+[01:00:21] one you're not like falling behind.
+[01:00:25] Um you can have a look at this later so
+[01:00:27] you can use your lap time to read
+[01:00:29] through the details. Um but another
+[01:00:31] question that I had during the break is
+[01:00:34] how can we make sure that you are uh
+[01:00:36] like because everyone has different
+[01:00:38] expectations uh like time availability
+[01:00:41] for the course. So we do have some group
+[01:00:44] marks and individual marks for each
+[01:00:48] sprint. So this is the example for
+[01:00:50] sprint one. But then for sprint two
+[01:00:54] group mark, individual mark, sprint
+[01:00:56] three group mark and individual mark
+[01:01:00] because this is a group project. So we
+[01:01:02] expect you to support and help each
+[01:01:05] other each other like think of your
+[01:01:07] group like a startup.
+[01:01:10] You want success as an individual,
+[01:01:12] right? You success as a startup as a
+[01:01:14] company. Um so we are a group. So uh we
+[01:01:18] learn from each other, we support each
+[01:01:20] other. um we help each other right we
+[01:01:24] learn from each other right so some
+[01:01:27] people may be more talented on coding
+[01:01:30] programming other people may have more
+[01:01:32] talent on for example managing conflicts
+[01:01:35] or other things like planning task
+[01:01:37] allocation or other things so uh as long
+[01:01:41] as you are doing your best to contribute
+[01:01:43] to the pro uh project
+[01:01:47] that would be great
+[01:01:50] right But um some people may ask like
+[01:01:52] how about I don't code at all in this
+[01:01:55] project like am I going to get some so
+[01:01:58] you need to code unfortunately like
+[01:01:59] everyone needs to code so you know how
+[01:02:02] to manage code if you don't code how can
+[01:02:04] you know how to manage code like how do
+[01:02:06] you manage code conflicts if you don't
+[01:02:09] code at all right so
+[01:02:11] um so yep so this is about that uh
+[01:02:16] another question that I got during the
+[01:02:18] break is about the uh group member
+[01:02:20] members members like how many people per
+[01:02:22] group? Each group is going to have four
+[01:02:25] to five members.
+[01:02:29] Uh and we have randomly allocated groups
+[01:02:33] for equity reasons. So we don't want
+[01:02:37] like have some very strong groups and
+[01:02:40] very weak groups. Uh that will be like
+[01:02:43] not that good. So we randomly allocated
+[01:02:45] groups for you already. Um, however, if
+[01:02:50] you have any concern about your group,
+[01:02:52] please please let your tutor know during
+[01:02:55] your week one lab. Uh, we will figure
+[01:02:58] things out for you. Um, your tutor may
+[01:03:02] also have a look at your background in
+[01:03:04] your week one lab as well. May shuffle
+[01:03:07] your groups around. That's possible. Uh,
+[01:03:10] we also have some principles that
+[01:03:12] guiding the uh, group formation. for
+[01:03:14] example, no single girl in any group.
+[01:03:19] So any group will have either no girl or
+[01:03:21] more than one girls. Um but if you're
+[01:03:24] happy like I'm okay with me just myself
+[01:03:27] as a single girl in that group that's
+[01:03:29] also fine but we want to make sure that
+[01:03:32] you are okay with it. Uh there are other
+[01:03:34] principles to get the group formation as
+[01:03:36] well. Um but uh during your week one lab
+[01:03:40] have a look at your group. Any concern,
+[01:03:41] let your tutor know and we'll figure
+[01:03:43] things out for you. Do not wait till
+[01:03:45] like sprint two three and then raise
+[01:03:47] your concern. Risk concern if you have
+[01:03:49] any as early as possible so that we can
+[01:03:52] help you as early as possible.
+[01:03:55] Uh okay, another question that we got
+[01:03:58] about the assignment was about the um
+[01:04:01] project topic. So to make sure that we
+[01:04:04] can get started straight away or as
+[01:04:06] early as possible, we give you a topic
+[01:04:08] that to start with. So you do not need
+[01:04:10] to struggle. Oh, should I do this
+[01:04:11] project? Should I use that topic? So we
+[01:04:14] give you a topic uh which is about
+[01:04:18] uh which is about this story. So I just
+[01:04:22] made it up. So uh have fun reading it.
+[01:04:26] But in overall it's about task tracker.
+[01:04:30] So you can add a task, delete a task,
+[01:04:34] edit a task, allocate a task, uh put a
+[01:04:38] task to different stages or whatever
+[01:04:40] feature that you feel like uh having um
+[01:04:44] so this is the project spec um in your
+[01:04:48] GitLab. So everyone should have a GitLab
+[01:04:51] repo set up for you already. So we have
+[01:04:53] already done that for you. Um and you
+[01:04:57] should have something in your repo
+[01:04:59] already. For example, for Adhi. So uh
+[01:05:03] there's two reports created for you
+[01:05:05] already. One is the lab git. So this is
+[01:05:09] a stepbystep instruction or lab helping
+[01:05:12] you to set up your GitLab uh practice
+[01:05:15] using uh Git and everything about Git.
+[01:05:18] So uh the lab is not marked. Do not
+[01:05:20] worry about that. So the lab is only
+[01:05:23] designed to help you practice and set up
+[01:05:26] your GitLab. Although it's not marked, I
+[01:05:29] strongly encourage everyone to do that
+[01:05:32] because it's super super important,
+[01:05:34] super super helpful uh for your future
+[01:05:37] career, for your uh project in this
+[01:05:39] course is very important. Yeah.
+[01:05:41] Question.
+[01:05:42] >> So for the project that you mentioned,
+[01:05:45] is that going to also carry on to the
+[01:05:47] other sprints or is that just for one?
+[01:05:49] The question is for the project topic
+[01:05:52] will this be the project topic for
+[01:05:54] spring one only or will it carry over
+[01:05:57] for other springs? The answer is this is
+[01:05:59] the topic for your whole projects.
+[01:06:02] So different spring will have different
+[01:06:04] focus. So for example um spring one is
+[01:06:09] uh you can have a look at here actually.
+[01:06:11] So each spring will have a different
+[01:06:13] focus. So spring one is mainly about
+[01:06:15] setting up the foundations having the
+[01:06:17] first flight like practicing IGL team
+[01:06:20] practice principles collaboration blah
+[01:06:22] blah blah and uh translate your ideas to
+[01:06:25] user storage which we will talk about
+[01:06:27] that in week three don't need to worry
+[01:06:28] about that if you don't know what that
+[01:06:30] is yet and establish good gabase uh at
+[01:06:34] the end of the spring each group should
+[01:06:36] have a functioning project structure the
+[01:06:38] it's mainly about setting up the
+[01:06:40] foundation get the project kickstart the
+[01:06:42] project so This is about the spring one
+[01:06:45] and spring two is more about like uh
+[01:06:49] more tooling for project management like
+[01:06:52] how there's [snorts] one thing called
+[01:06:54] pepline. So there are this is a tool
+[01:06:57] that help you with some like
+[01:06:59] automatically manage your project to
+[01:07:01] some extent and other tooling as well.
+[01:07:04] Uh we also learn about deployment like
+[01:07:07] how to make your project available for
+[01:07:09] other people to use. So that is about
+[01:07:12] sprint two. Um and sprint three is more
+[01:07:15] about like I want to do something that
+[01:07:17] I'm interested in. I'm more interested
+[01:07:20] in learning about like sessions, users,
+[01:07:23] registration, other things. So uh we
+[01:07:25] have more flexibility in sprints, right?
+[01:07:28] So each sprint will have a focus. For
+[01:07:30] now, you only need to worry about sprint
+[01:07:32] one, which is getting started. So spring
+[01:07:36] one is the easiest marks to get in the
+[01:07:39] whole project. So spring one is the
+[01:07:42] easiest mask marks. Spring two a little
+[01:07:45] bit harder, a little bit more
+[01:07:46] challenging and spring three will be the
+[01:07:48] most challenging part. It's like getting
+[01:07:51] more and more challenging. But spring
+[01:07:53] one is more about like getting started
+[01:07:56] the foundations
+[01:07:57] but the whole project is the same um
+[01:08:00] topic.
+[01:08:03] Any other question? Oh, we haven't got
+[01:08:05] started on Git yet, but it's okay. Uh
+[01:08:08] question.
+[01:08:14] All good. What was the other questions
+[01:08:16] that you asked in the break?
+[01:08:19] Uh I think I kind of mentioned
+[01:08:23] everything.
+[01:08:27] Oh, there's a question online from
+[01:08:29] Troublemaker. Um, hi just wondering if
+[01:08:33] cloud and or
+[01:08:36] might be covering the unfortunately
+[01:08:38] those are not for the focus of the
+[01:08:40] course but feel free to learn it uh on
+[01:08:42] yourself. Sorry. Any other question?
+[01:08:47] >> Yep.
+[01:08:56] >> Uh the question is do we have a schedule
+[01:08:58] for the uh
+[01:09:03] The lab one. This one. This one.
+[01:09:09] >> Where can you find that one?
+[01:09:13] >> Uh,
+[01:09:14] I'm working on a newsletter that will be
+[01:09:16] sent tonight. So, I'll give you the
+[01:09:18] link. But if you go to
+[01:09:22] uh I don't think you have a link yet.
+[01:09:25] I'll send everyone the link. I'm
+[01:09:27] preparing the newsletter. So from week
+[01:09:29] one from this week I will send weekly
+[01:09:31] newsletters about things that you need
+[01:09:34] to know for that week like things to be
+[01:09:36] get done for that week. So I'll send
+[01:09:38] weekly newsletters on every Monday.
+[01:09:42] >> Yeah. Question.
+[01:09:48] >> When are we forming the groups?
+[01:09:51] >> During your week one lab class.
+[01:09:54] >> Yeah. Make sure you can go to your lab
+[01:09:57] class this week. Very important.
+[01:10:01] Other question.
+[01:10:03] >> Yeah.
+[01:10:12] >> Uh how do we form the team? Is it
+[01:10:14] randomly or do we form the teams uh with
+[01:10:16] friends?
+[01:10:17] >> Uh we randomly formed the teams for
+[01:10:20] equity reasons.
+[01:10:23] >> Yeah.
+[01:10:25] But you will know your group during your
+[01:10:27] lab one class. If you have any concern
+[01:10:29] with your assigned group, let your tutor
+[01:10:32] know and we'll figure things out for
+[01:10:34] you.
+[01:10:36] >> Yeah.
+[01:10:41] All good.
+[01:10:43] All good. Okay. Cool. Let's get started
+[01:10:47] with Git. Um
+[01:10:52] Okay. So can anyone tell me why do we
+[01:10:56] need g? Why are we learning it?
+[01:11:00] >> To keep track of everything. What else?
+[01:11:04] >> To manage your program.
+[01:11:07] >> To manage your program project. Yes, for
+[01:11:11] sure. Anything else?
+[01:11:17] And also for concurrent programming
+[01:11:21] means like working on the same code base
+[01:11:24] at the same time with other people.
+[01:11:28] Okay. So this is why we are learning g.
+[01:11:30] Okay. So let's get started. So um to
+[01:11:35] learn g uh there are two ways to
+[01:11:38] interact and use g. One is through
+[01:11:41] terminal.
+[01:11:43] Do you know what terminal is?
+[01:11:46] Yes. Okay.
+[01:11:48] Yeah. And the other way is through some
+[01:11:50] GUIs like GitLab, GitHub, Bitbucket.
+[01:11:55] So um fundamentally all these three
+[01:11:59] things are just g. It's the same as how
+[01:12:01] we do it on through terminal but it just
+[01:12:04] provide you with some interface that you
+[01:12:07] can use to use git. So today we are
+[01:12:10] going to use both ways to use git. So
+[01:12:12] you know what g is and how it helps you
+[01:12:14] with your project.
+[01:12:16] Okay. So first of all what I'm going to
+[01:12:19] do is I'm going to create a project. So
+[01:12:22] I'm start a project first on GitLab. So
+[01:12:26] a project will be on GitLab not on
+[01:12:28] GitHub not on not on Bitbucket. So you
+[01:12:32] can also go to your GitLab through http
+[01:12:36] do back slashback
+[01:12:38] slashgitlab.csse.usw.edu.auu.
+[01:12:44] AU.
+[01:12:46] So you will be able to see something
+[01:12:48] similar as what I see here. Uh but you
+[01:12:52] may have le less things here because you
+[01:12:54] just started on your GitLab.
+[01:12:57] And then on the top right there's a plus
+[01:13:01] icon button. Click on that. You can
+[01:13:05] create a new project on GitLab.
+[01:13:11] Let's create a blank project. Let's
+[01:13:14] starting from scratch
+[01:13:16] and let's name this project. Uh how
+[01:13:19] should we name this project? Um how
+[01:13:23] about just welcome
+[01:13:26] 9820.
+[01:13:28] Okay. So this name the project and you
+[01:13:32] also uh need to pick like where your
+[01:13:35] project is located.
+[01:13:37] You need to give them like it should be
+[01:13:39] on this folder under that directory. For
+[01:13:42] me, I'll just put on under my personal
+[01:13:44] one. So, you can also do the same. Put a
+[01:13:47] Z ID here.
+[01:13:49] And then you can select like visibility
+[01:13:52] level of this project either be private
+[01:13:54] means that people will need to be
+[01:13:57] granted access so that they can view,
+[01:14:00] edit or manage this project. You need to
+[01:14:03] grant them access.
+[01:14:06] uh for internal it means that the
+[01:14:08] project can be accessed by any login
+[01:14:10] user except external user. So anyone can
+[01:14:12] log into this cse gitlab can have access
+[01:14:16] to this project. So I'll put it as
+[01:14:17] internal so you can have a look at my
+[01:14:19] project later and I'll create this
+[01:14:22] project.
+[01:14:24] Amazing. So now I have a project now on
+[01:14:27] GitLab. Perfect. Yay. First step then
+[01:14:30] yay. Okay. So um but normally when we
+[01:14:36] code our program we don't do it on web
+[01:14:41] browser right we use visual code studio
+[01:14:45] or other like code editors that you
+[01:14:47] prefer. So how can we make sure that we
+[01:14:50] have this project locally as well
+[01:14:55] so the way we do that is uh I already
+[01:14:58] have my visual code studio ready. So
+[01:15:01] what you can do is you need to clone
+[01:15:04] your project. So g clone means you are
+[01:15:09] copying the project from gitlab to your
+[01:15:14] own laptop your own computer. That is
+[01:15:17] what g col clone means.
+[01:15:20] Clone like you have that project the
+[01:15:22] same one on your computer as well. The
+[01:15:25] way that you can the way that git knows
+[01:15:28] which project that you wanted to clone,
+[01:15:31] which project you want to copy is
+[01:15:33] through this here. You can click on
+[01:15:36] this, it will copy the URL for you.
+[01:15:38] Click on that button, copy it,
+[01:15:42] and then what you can do is open a
+[01:15:45] terminal, go to the directory that you
+[01:15:48] wanted to clone this ripple to, go to
+[01:15:52] that directory. So for me, I think I'm
+[01:15:55] at the right directory. Okay, perfect.
+[01:15:57] There's ah no,
+[01:16:00] what did I do?
+[01:16:03] Sorry, I need to go to the directory
+[01:16:07] again. I accidentally used CD.
+[01:16:11] Sorry, one second. I'll find my report.
+[01:16:14] Where is it? Lecture demo.
+[01:16:18] Uh
+[01:16:20] get info.
+[01:16:22] Copy the pass name and then cd here.
+[01:16:32] Okay, cool. Amazing. Then I'm going to
+[01:16:34] the directory called lecture demo. I'm
+[01:16:37] going to get clone that repo to my
+[01:16:40] lecture demo directory. And what I'm
+[01:16:43] doing here on my terminal, the command
+[01:16:45] that I'm going to use is called g
+[01:16:49] clone.
+[01:16:51] And then
+[01:16:53] copy this one. Pass it here.
+[01:16:58] It's called get clone. Can you see
+[01:17:00] clearly from the back? Is it too all
+[01:17:02] good? What about the back? All good.
+[01:17:04] Everyone okay? Okay. Perfect. Let me
+[01:17:07] know at any time that you can't see
+[01:17:09] clearly. I'll make it larger. Okay. Uh
+[01:17:12] it will ask you to enter the passphrase.
+[01:17:15] So I can get clone properly because I
+[01:17:18] have set up my GitLab. So if you try now
+[01:17:21] it may ask you like uh asking for
+[01:17:23] fingerprints and other like like it's
+[01:17:25] like key uh password it will ask you for
+[01:17:28] that you may not have that yet to set up
+[01:17:30] your gitlab follow the lab git it will
+[01:17:34] help you or guide you to set up your
+[01:17:36] gitlab and you can do git clone so now I
+[01:17:39] have gone let's me see now I have this
+[01:17:43] project here
+[01:17:45] in this directory is cloned here.
+[01:17:50] So let us have a look what's in there.
+[01:17:53] So CD welcome
+[01:17:57] it has one file which is called
+[01:17:59] readme.md.
+[01:18:02] So this is a markdown file. It's called
+[01:18:04] readme. So it's exactly the same as what
+[01:18:08] we have on gitlab.
+[01:18:13] Is everyone okay so far?
+[01:18:16] Like do everyone know how to use
+[01:18:18] terminal?
+[01:18:23] Um,
+[01:18:25] who knows how to use terminal?
+[01:18:29] Okay, cool. Relieved. [laughter] Okay,
+[01:18:32] cool. That's great. So, you should be on
+[01:18:34] track. So, any questions so far about
+[01:18:37] BitLab?
+[01:18:44] So what we just did was we created new
+[01:18:48] project on GitLab. So this is a
+[01:18:51] platform. You can think of like a Google
+[01:18:54] cloud. You started a project. You
+[01:18:56] started a word document, a spreadsheet
+[01:18:59] there. But now it's a like code project,
+[01:19:02] a software project,
+[01:19:05] but the project was remotely on GitLab.
+[01:19:08] It's like at their server. It's not on
+[01:19:11] our own computer. But we want to work
+[01:19:14] locally on our own code editor such as
+[01:19:16] Visual Code Studio. So we need to have
+[01:19:19] those locally. So we copy that project
+[01:19:23] locally. And the way we do that is
+[01:19:25] through git clone. And by telling them
+[01:19:28] which project to clone from GitLab, we
+[01:19:31] give them the the copied as a um URL.
+[01:19:35] This one. All good.
+[01:19:39] Okay. Cool. So now you can open your own
+[01:19:43] like favorite code editor for example uh
+[01:19:48] like visual code studio by doing that
+[01:19:50] but for me my computer is not working
+[01:19:52] properly so I open it from here. So now
+[01:19:56] uh you can see well this is the only
+[01:19:58] file that we have in this project and we
+[01:20:02] have cloned it locally. So here it is it
+[01:20:05] is the readme file and now we can start
+[01:20:08] playing with it. So for example, I'll
+[01:20:12] have something called
+[01:20:16] um
+[01:20:18] how about just gd.
+[01:20:21] So md file means markdown file.
+[01:20:25] So it's not like a code that you can
+[01:20:27] run. It cannot do some like you cannot
+[01:20:30] run it just displaying some data some
+[01:20:32] information for you. It's like text
+[01:20:36] but it's more formatted.
+[01:20:38] Okay. Okay. So what we have learned so
+[01:20:40] far we have learned g clone right. So I
+[01:20:43] have quit this created this new file
+[01:20:47] called g.md.
+[01:20:48] I made some edits to this uh g.md right.
+[01:20:53] Oh it's not in the proper
+[01:20:57] ripple. Okay cool. Great. So now let's
+[01:21:00] have a look at our gitlab. Let's refresh
+[01:21:03] it.
+[01:21:06] Where is that gmd?
+[01:21:11] I add it right
+[01:21:15] but it's not there.
+[01:21:18] The reason is like we are only making
+[01:21:21] those changes locally. So those changes
+[01:21:25] are only sitting on your local computer.
+[01:21:28] It's like it's not synced to GitLab
+[01:21:33] yet.
+[01:21:36] Okay. Um so let's have a look at this
+[01:21:38] one.
+[01:21:41] So these are some
+[01:21:43] stages
+[01:21:45] how you can have your code to GitLab
+[01:21:49] and so this is your machine. So what we
+[01:21:52] have been working on is called working
+[01:21:54] directory.
+[01:21:56] So this change is made on your working
+[01:21:59] directly working directory like locally
+[01:22:02] only on your laptop nothing else. So
+[01:22:05] your changes, your play with the code,
+[01:22:07] anything you make change will not have
+[01:22:09] impact
+[01:22:11] on other people's repo. Like for
+[01:22:13] example, you have like a project, right?
+[01:22:16] It's a working software. There are users
+[01:22:18] who are using the code, right? They are
+[01:22:20] using your project and you're making
+[01:22:22] some changes. Maybe you're fixing a bug,
+[01:22:24] you're adding some features, maybe or
+[01:22:25] you're just playing with it. So your
+[01:22:28] change will not have direct impact
+[01:22:31] on the project for people who are
+[01:22:33] actually using the project using the
+[01:22:35] product the software. So your change
+[01:22:38] your addis your playing with the code
+[01:22:41] only sits on your own computer
+[01:22:44] and it will also not having any impact
+[01:22:46] on your team members work. It's only
+[01:22:50] sitting on your own computer. So this is
+[01:22:52] the working directory
+[01:22:55] and uh this is the remote repo which is
+[01:22:59] what we see on gitlab here. So this is
+[01:23:02] the remote repo remotely at gitlab. So
+[01:23:06] that's the remote ripple.
+[01:23:08] So everyone on the team who have access
+[01:23:10] to the project sees the same for this
+[01:23:12] one. And in the middle there are a few
+[01:23:15] different stages. One is called staging
+[01:23:18] area. The other one is called local repo
+[01:23:21] and the other one is called remote repo.
+[01:23:24] So why do we need those different stages
+[01:23:28] right? Why do we need those? Um let me
+[01:23:32] show you something. So for example you
+[01:23:35] make one
+[01:23:37] uh
+[01:23:39] g.md. Well in the meantime you wanted to
+[01:23:42] do some different features. For example,
+[01:23:46] you may want to have um
+[01:23:50] you want to make an announcements about
+[01:23:52] week one MD. So this is something else.
+[01:23:54] They are unrelated to each other. So
+[01:23:56] week one what we are going to do
+[01:23:58] practicing
+[01:23:59] gate kickstart
+[01:24:03] project
+[01:24:05] form groups
+[01:24:07] right so you make changes to different
+[01:24:10] things. So for your project for your
+[01:24:12] software maybe there are different
+[01:24:14] features. One is about user login. The
+[01:24:17] other one is about fixing a specific
+[01:24:19] bug,
+[01:24:20] right? And you feel like well g this one
+[01:24:23] I'm not done yet. I'm still learning. I
+[01:24:25] may add more like get other commands.
+[01:24:27] But week one I feel like that's are the
+[01:24:29] main focus for this week. I've already
+[01:24:31] done the list. So you can only push this
+[01:24:35] one this change to the remote ripple
+[01:24:38] while leaving this one behind. You can
+[01:24:42] push that later when I feel well that's
+[01:24:44] ready. I can push that to remote repo to
+[01:24:46] share with my other team members or make
+[01:24:49] it available to use for my users. You
+[01:24:50] can leave that for later. You can do
+[01:24:53] this by uh um how you can do that you
+[01:24:58] can do that by using get add and I'm
+[01:25:02] only adding week one MD.
+[01:25:09] So only week one MD is get add. So what
+[01:25:13] that means is your change about uh at
+[01:25:19] new
+[01:25:21] uh g.md. So this change still sits at
+[01:25:26] your working directory while your
+[01:25:29] another change which is at uh week
+[01:25:33] one.md has been g added from your
+[01:25:37] working directory to staging area.
+[01:25:44] However, when you check the remote repo,
+[01:25:47] are you going to see the week one MD?
+[01:25:50] Not yet. Because they are still sitting
+[01:25:54] at staging area. It's not pushed to
+[01:25:58] GitLab yet.
+[01:26:02] Okay. So,
+[01:26:04] um you have a week one MD. Oh, and then
+[01:26:08] you feel like, oh, all right. Um I feel
+[01:26:11] like for week one there's something
+[01:26:12] missing. I wanted to have another file
+[01:26:15] uh about this feature for example uh for
+[01:26:19] example uh oh I want to have a like a
+[01:26:22] kickstart code
+[01:26:24] kickstart.md this is also about week one
+[01:26:27] like it's about the same feature but I
+[01:26:29] want to separate them in different files
+[01:26:31] because they are doing different things
+[01:26:33] for example I'll say kickstart file will
+[01:26:35] have some python uh code to familiar
+[01:26:41] with
+[01:26:42] Okay. So I want to uh put them together
+[01:26:45] as a package because they are about one
+[01:26:48] feature about one um theme. So what you
+[01:26:52] can do is you can add a uh the kick
+[01:26:58] start.md
+[01:27:01] and now
+[01:27:03] on your project it will have two things
+[01:27:06] add kick
+[01:27:08] start.md.
+[01:27:10] So both of them are now at the staging
+[01:27:13] area
+[01:27:14] and then if you have other changes to
+[01:27:16] make feel free to do that and then just
+[01:27:18] get at them and when you feel well this
+[01:27:21] is ready now so everything about week
+[01:27:24] one is there I'm happy to make them a
+[01:27:28] package take a picture of them and say
+[01:27:30] well all these changes are about week
+[01:27:34] one
+[01:27:36] about one single feature one same
+[01:27:38] feature so how you can to do that you
+[01:27:40] can use g commit.
+[01:27:44] G commit will move
+[01:27:47] those at the staging area to your local
+[01:27:50] repo and you need to give it a commit
+[01:27:52] message so that in the future like one
+[01:27:56] week later, one year later or even five
+[01:27:58] years later, you know what you are
+[01:28:00] doing.
+[01:28:03] Okay. So let's give them a message. So
+[01:28:05] what I've been doing here so all this
+[01:28:07] atw week1.md kickstart md is about
+[01:28:11] things to do about week one
+[01:28:15] put them as a package
+[01:28:19] and there will be a long long message
+[01:28:21] here so I'll go back to that later so
+[01:28:24] now both of them uh oh are packed
+[01:28:29] together and move to local message and I
+[01:28:33] uh local repo and there's is also a
+[01:28:35] commit message about things to do for
+[01:28:38] week one.
+[01:28:40] Okay. So this is ready now. So they are
+[01:28:42] all here. So all these two changes and
+[01:28:45] this message they are together.
+[01:28:48] Now I think they are ready for other
+[01:28:51] people to know about my
+[01:28:54] change group like this group of change.
+[01:28:56] What I can do is I can use
+[01:29:01] tell me get push right. So what you can
+[01:29:05] do now is you can use git push. It will
+[01:29:08] ask you for a pass phrase which is just
+[01:29:11] your pin. And then when you refresh your
+[01:29:14] GitLab, you will notice kickstart.md
+[01:29:18] week 1.mmd are on your gitlab now
+[01:29:21] and they have a commit to it and they
+[01:29:24] share the same commit which is things to
+[01:29:27] do about week one.
+[01:29:32] >> Yeah. Question.
+[01:29:35] >> Why do we need gad?
+[01:29:39] >> Uhhuh.
+[01:29:42] That's a very good question. Yeah. Why
+[01:29:45] do we need eat at? Any thoughts?
+[01:29:53] >> Yeah. Oh, one by one. Sorry, two people
+[01:29:55] talking. Yeah. Do you want to start
+[01:29:56] first? Lady first.
+[01:29:57] >> Yes.
+[01:29:59] Has to know what file it is. They need
+[01:30:01] to know which file you want to pack to
+[01:30:04] pack like put into the package because
+[01:30:07] if you only have g commit they don't
+[01:30:10] know which one which change you wanted
+[01:30:12] to commit or put into the package.
+[01:30:15] If you don't have this staging area, you
+[01:30:17] start from here. You have git at new.
+[01:30:20] You have at new git.md
+[01:30:23] at week1.md atk kickstart md. But
+[01:30:26] they're about different things.
+[01:30:29] And you commit them all together. It
+[01:30:32] will be very messy
+[01:30:36] and other people will be very confused
+[01:30:38] like what are you doing here? Right?
+[01:30:40] Like every every all the changes are
+[01:30:42] together. I don't know what what's your
+[01:30:44] purpose. what's your goal here
+[01:30:46] and when long time pass like when you go
+[01:30:48] back to your project you will also have
+[01:30:50] no idea what was I doing right so you
+[01:30:53] want to put relevant things together as
+[01:30:56] one commit rather than put all changes
+[01:30:58] together
+[01:31:00] because you may work on like uh I make
+[01:31:03] some changes to g and then you realize
+[01:31:05] well there are some other things I want
+[01:31:07] to change although it's about another
+[01:31:08] feature you create another file you make
+[01:31:10] changes to here and there here and there
+[01:31:12] but in the history. You wanted the
+[01:31:14] history to be clear like commit message
+[01:31:16] or commits is like history. It's like
+[01:31:19] the history of your project. So for
+[01:31:21] example, let's have a look at here. Let
+[01:31:23] me click on the last commit. You can see
+[01:31:27] all the
+[01:31:30] commits here. Where's my commits?
+[01:31:35] Uh code commits. Yep, you can see all
+[01:31:39] the commits that they have made. And the
+[01:31:43] first one was the initial commit where
+[01:31:45] we kickstart the initial project. So
+[01:31:47] that's automatically created for us the
+[01:31:49] initial one and the second commit is
+[01:31:52] about things to do about week one. And
+[01:31:54] when you click on that we see there are
+[01:31:56] two changed files in this commit and
+[01:31:59] what are the changes. So it's crit uh
+[01:32:02] very clear which uh like what changes
+[01:32:06] you have made like the history is very
+[01:32:07] clear. So this is why we need a staging
+[01:32:10] area. Any other question? Yep.
+[01:32:24] >> The question is what if we accidentally
+[01:32:27] added something that doesn't belong to
+[01:32:30] the package or thing. I will leave this
+[01:32:34] question to all of you. Do the research
+[01:32:37] yourself after the lecture. homework.
+[01:32:39] Yay. [laughter]
+[01:32:41] Any other question?
+[01:32:47] So, something to think about after the
+[01:32:49] lecture, which is great. Uh, anything
+[01:32:52] else?
+[01:32:57] Okay, cool. So, where are we? So,
+[01:33:02] let me go back to the slides.
+[01:33:07] So this is how uh we start from uh like
+[01:33:10] gitlab start a new project get clone it
+[01:33:14] to local repo and then make changes
+[01:33:16] locally package them add them commit
+[01:33:21] them push them.
+[01:33:24] Okay so this is what we have learned so
+[01:33:28] far. Uh another important g command to
+[01:33:32] learn is called g status. So g status
+[01:33:36] shows the status of your git repo. For
+[01:33:39] example here when we use g status it
+[01:33:42] will tell us we are on branch main. I
+[01:33:44] will explain what that means later. And
+[01:33:46] there are also an unttracked file which
+[01:33:49] is the g.md.
+[01:33:50] Remember that this git md is still at
+[01:33:53] working directory. Working directory is
+[01:33:55] not tracked by git yet. So it's never
+[01:33:57] been g added gate nothing. It's not
+[01:34:00] tracked by git yet.
+[01:34:03] Uh nothing else. So nothing added to
+[01:34:07] commit. So nothing on the staging area.
+[01:34:11] So you can use git status to track the
+[01:34:13] status of your git repo.
+[01:34:17] Okay. Well done. Congratulations. So now
+[01:34:20] you have learned how to use git on a
+[01:34:23] single machine. So [snorts] now the
+[01:34:25] question is what if
+[01:34:29] sometimes you work on the project on
+[01:34:31] your own laptop at home sometimes you
+[01:34:34] work on the campus on the computers uh
+[01:34:38] from the school like the school
+[01:34:39] computers
+[01:34:41] how can you do that so now this is uh
+[01:34:45] let me push this gmd
+[01:34:49] as well so there's nothing and track get
+[01:34:53] uh gd
+[01:34:55] get commit-m
+[01:34:57] um initial
+[01:35:00] g.md
+[01:35:02] and then get push.
+[01:35:06] Yep, perfect. Let me double check my
+[01:35:09] remote repo.
+[01:35:13] Great. It's here. So now um what if we
+[01:35:18] are working on different machines? the
+[01:35:19] question. Have you ever used the Tiger
+[01:35:22] VNC?
+[01:35:25] The CSC? Oh, never. Okay, no problem.
+[01:35:28] So, quickly explain what that is. So,
+[01:35:31] Tiger VNC is a CSC server machine. So,
+[01:35:36] I've logged on Tiger VNC here. Uh it's
+[01:35:40] like I'm controlling an remote machine
+[01:35:43] on my computer. You don't need to worry
+[01:35:45] about that. So, it just this is just for
+[01:35:47] demonstrating purpose. So I don't have
+[01:35:49] two computers now. So uh I'm using a
+[01:35:52] remote machine to demonstrate.
+[01:35:55] So now I'm on a remote rile. H sorry I'm
+[01:35:59] on another computer. So now I'm not on
+[01:36:01] my own computer. Right. So this is I'm
+[01:36:03] using tag to control another machine
+[01:36:06] sitting at CSSE building. So this is
+[01:36:09] what I'm doing now. So imagine that I'm
+[01:36:11] on another computer. Okay. So uh like so
+[01:36:16] to work on this project I need to know
+[01:36:18] where this project is right. So the URL
+[01:36:20] of this GitLab repo uh let me get uh
+[01:36:24] sorry Ctrl C to copy uh open the browser
+[01:36:31] control V.
+[01:36:35] Oh my goodness.
+[01:36:42] Sorry,
+[01:36:44] this is complicated.
+[01:36:56] Okay, to make things easier so we are
+[01:36:59] not wasting time on this one. So, what
+[01:37:02] I'm going to do
+[01:37:05] is
+[01:37:12] Okay. So, you can see when I Can you see
+[01:37:14] from the back? Is it too small or is it
+[01:37:16] okay?
+[01:37:18] Back. Back. Back. Can you see my screen?
+[01:37:23] Okay, I'll make it larger. How can I
+[01:37:25] make it larger? Okay. Is it better?
+[01:37:30] The other one is not loading. But what
+[01:37:32] you can do, how can you copy the project
+[01:37:35] from GitLab to your local repo?
+[01:37:40] Gitcoin. Yes, Gitcoin.
+[01:37:43] And cop pass it here. Put in the
+[01:37:46] passphrase.
+[01:37:48] Amazing. So when I list, you can see
+[01:37:49] there's a new project that is like
+[01:37:52] downloaded on your remote uh on on the
+[01:37:55] other machine. Right. So now I'm working
+[01:37:57] at CSSE. I'm on CSC computer. Let me cd
+[01:38:01] do this. Welcome home dash
+[01:38:05] and then code.
+[01:38:08] to open tech v uh to open visual code
+[01:38:12] studio.
+[01:38:15] Great. So uh you can see that although
+[01:38:18] I'm on another computer, I also have
+[01:38:21] access to this project. I can see all
+[01:38:23] the files here.
+[01:38:26] Any question here about why I can see
+[01:38:28] all the files on another computer?
+[01:38:31] Because I keep cl it right.
+[01:38:34] Cool. So now I'm working at cse I want
+[01:38:37] to make some changes to it. So now we
+[01:38:39] have learned gone. What else have we
+[01:38:42] learned about g
+[01:38:45] from the back? Anyone from the back?
+[01:38:51] What have we learned? Can you remind me
+[01:38:54] please? I forgot.
+[01:38:57] Get add. What else?
+[01:39:02] >> Get commit. What else?
+[01:39:05] Get push. Perfect. So this is what we
+[01:39:08] have uh what we have learned.
+[01:39:13] Amazing. So I made those changes on a
+[01:39:17] CSC machine. Now right so now I have
+[01:39:21] finished my work at CSC lab. I'm going
+[01:39:23] home. What should I do now?
+[01:39:29] I need to
+[01:39:32] Yep. Anyone from the back? Sorry. What
+[01:39:36] should I do now?
+[01:39:38] I finished my work.
+[01:39:45] Anyone from over there?
+[01:39:48] Get add. Yes. G add followed by the name
+[01:39:52] G.m MD.
+[01:39:56] Next.
+[01:39:58] Get commit. Okay. Now I have a question.
+[01:40:02] Can anyone give me a commit message?
+[01:40:13] Can anyone give me a commit message?
+[01:40:15] Anyone from the left hand side?
+[01:40:22] >> Sorry, I can't hear you.
+[01:40:27] >> Add get document. Yes. So, this is a
+[01:40:30] good one. So when you write commit
+[01:40:32] message, make sure that your commit
+[01:40:35] message is meaningful. It carries
+[01:40:38] something not just for example fix fix.
+[01:40:41] Who knows what do you mean by fix? What
+[01:40:43] bug, right? Or add new feature like what
+[01:40:46] feature, right? Or something like uh
+[01:40:50] random commit random. Who knows what
+[01:40:53] that's random? So that's not a
+[01:40:54] meaningful history, right? So when you
+[01:40:57] write commit message make sure that it
+[01:41:00] carries some meaning. So when people
+[01:41:03] read that commit message people knows
+[01:41:04] what you are doing here. Okay. So what's
+[01:41:09] next?
+[01:41:14] Next. Next. Next. Last one.
+[01:41:17] Push. Yes. Perfect. Deep push. I know
+[01:41:20] you are tired. Almost 8:00 p.m. So late.
+[01:41:23] Okay. So now I've done my work. I see.
+[01:41:26] CSC machine. Now I go back home.
+[01:41:30] I refreshed um my remote repo. It looks
+[01:41:33] great. So I've got all the changes that
+[01:41:35] I made at a CSC machine. Now I want to
+[01:41:38] continue working on this project.
+[01:41:41] However, when I open the project
+[01:41:44] locally,
+[01:41:45] it still only has G clone.
+[01:41:48] Why?
+[01:41:55] because those changes are sitting at a
+[01:41:57] remote rile. To get it from the remote
+[01:42:00] rile to our local rile, there's a new
+[01:42:04] command called get pull.
+[01:42:07] Okay, let's try it.
+[01:42:11] I think it's ready. Magic. Magic. Look
+[01:42:13] at my screen. Okay, look at the screen.
+[01:42:15] I'm going to use get p. Ready? Everyone
+[01:42:20] ready? I'm hitting return.
+[01:42:23] Oh, password. Sorry.
+[01:42:26] Yay. Magic. Did you see it?
+[01:42:30] So using git pull, we are pulling the
+[01:42:34] changes from remote ripple to our local
+[01:42:37] ripple. So this is the first thing you
+[01:42:40] need to do
+[01:42:42] when you go back home before making any
+[01:42:46] new changes,
+[01:42:48] right? Gp get pool. What if you forgot
+[01:42:51] to get pool and you made some changes
+[01:42:54] and you didn't say get add here you said
+[01:42:56] like something different like I learned
+[01:42:57] gpool I learn get something randomly or
+[01:43:02] blah blah blah what will what will
+[01:43:04] happen
+[01:43:06] let's have a look okay so what if that
+[01:43:08] happens don't worry you can still solve
+[01:43:10] that problem okay so when you
+[01:43:14] uh accidentally so let me make some
+[01:43:17] changes here for now so let's Okay,
+[01:43:19] what's the new G command we just
+[01:43:21] learned?
+[01:43:23] Get pull, right? Um, there's another G
+[01:43:27] command we actually have learned, but I
+[01:43:29] haven't added here yet. What's that?
+[01:43:33] Status. Perfect. So, let me get add
+[01:43:40] and then get commit. Can anyone give me
+[01:43:42] a quick commit message, please?
+[01:43:49] >> [snorts]
+[01:43:51] >> uh add pull and status to g.md. So it's
+[01:43:57] very specific, right? So what are the
+[01:43:59] changes that you made
+[01:44:01] and then let's get push.
+[01:44:07] Great. So I finished my work at home
+[01:44:12] and now
+[01:44:14] second day I'm on campus. I'm on CSC
+[01:44:18] machine again, but I forgot to get pull
+[01:44:24] and I make something. I make some
+[01:44:27] changes to my GMD. So, silly me forgot
+[01:44:33] pool. So, this is the change I made. And
+[01:44:36] I also make some other changes. For
+[01:44:38] example, I deleted something.
+[01:44:41] Okay. And then I finished my work. I
+[01:44:45] feel like, oh, I'm so smart. I did the
+[01:44:48] most perfect thing in the whole wide
+[01:44:49] world. And then I get add
+[01:44:54] and I get commit
+[01:44:56] silly work.
+[01:45:00] And then I get push.
+[01:45:03] What's going to happen?
+[01:45:07] Let's have a look.
+[01:45:10] Tada.
+[01:45:12] Rejected.
+[01:45:14] So, GitLab rejected your push. It says
+[01:45:19] that failed to push to
+[01:45:23] updates were rejected because the remote
+[01:45:26] contains work that you do not have
+[01:45:28] locally. This is usually caused by
+[01:45:31] another repository pushing to the same
+[01:45:33] reference. If you want to integrate the
+[01:45:35] remote changes, use pull before pushing
+[01:45:38] again.
+[01:45:40] So, actually g is so helpful. It tries
+[01:45:43] its best to help you give you a lot of
+[01:45:45] hints. So let's just follow their hints
+[01:45:48] by using g pool
+[01:45:51] what's going to happen.
+[01:45:54] Tada. Let me put in the password.
+[01:46:01] Okay. Did you see the change here? So
+[01:46:04] this is what
+[01:46:07] uh this is what g did for you. So it
+[01:46:11] post the remote changes while keeping
+[01:46:14] your local changes.
+[01:46:17] It helps. So I was worried like what if
+[01:46:20] I deleted your local changes but those
+[01:46:22] local changes are very important for
+[01:46:24] you. I don't know what to keep for you.
+[01:46:26] Right? So what g does it keeps all the
+[01:46:29] changes you had here but also pull pull
+[01:46:32] the remote uh thing from the remote
+[01:46:34] repo. So, it puts everything here for
+[01:46:37] you. And all you need to do is to delete
+[01:46:41] the things that you don't want and keep
+[01:46:43] the things you want.
+[01:46:46] So, I don't want to keep the silly me uh
+[01:46:50] these things. I can just delete and
+[01:46:52] delete. So, this is actually what I
+[01:46:54] want.
+[01:46:58] Save the file. Go to here. Let me get
+[01:47:02] status to double check everything. Okay.
+[01:47:09] Did I pull? Probably.
+[01:47:12] Okay, let's get So, I'll fix the
+[01:47:14] problem. Get MD get commit dashm. The
+[01:47:19] commit message will be
+[01:47:22] um
+[01:47:24] fix silly me conflict
+[01:47:30] and then
+[01:47:34] Let me just pull again to double check.
+[01:47:38] Okay, perfect. Everything all good. So,
+[01:47:41] let me get push.
+[01:47:45] Great. Problem solved. So, if in case
+[01:47:49] you forgot to get pull before making
+[01:47:51] changes, don't worry. You can still
+[01:47:54] solve that problem. And this is called
+[01:47:57] conflict called merge conflict. So this
+[01:48:00] is conflict not happening be between
+[01:48:01] people but between the code in a code
+[01:48:04] base. So this is how you can solve the
+[01:48:06] conflicts uh the merge conflicts. Any
+[01:48:10] question about the merge conflict?
+[01:48:17] Oh someone said there's no dear
+[01:48:21] suddenly.
+[01:48:23] What's going on here?
+[01:48:26] Um,
+[01:48:29] that's bad.
+[01:48:31] Testing. Testing. Can you hear me now?
+[01:48:38] Sorry, one second. I'll just fix the
+[01:48:39] audio for online.
+[01:48:42] Testing.
+[01:48:50] Okay, perfect.
+[01:48:54] Uh, someone can hear, someone cannot
+[01:48:57] hear. Okay, that's interesting. Okay,
+[01:49:00] anyway, let's keep going.
+[01:49:05] Thanks for confirming. Thanks everyone.
+[01:49:08] Thank you. Okay, any questions so far
+[01:49:10] about the merge conflict?
+[01:49:14] >> Um,
+[01:49:16] all good. Yeah, question.
+[01:49:20] change.
+[01:49:24] >> Uh the question is will merge conflicts
+[01:49:28] happen when we change the same file or
+[01:49:32] when will it also happen when we add
+[01:49:35] different files? What do you mean by add
+[01:49:37] different files?
+[01:49:41] >> So what if we create a new MD files? Uh
+[01:49:45] it's okay. It will merge for you. So G
+[01:49:48] is quite smart. Uh unless there's some
+[01:49:51] conflict that they cannot solve, it will
+[01:49:54] solve it for you.
+[01:49:56] Yeah. Another practice to do for like uh
+[01:50:01] let dash g that lab to practice.
+[01:50:06] Cool. Amazing. So that's about how we
+[01:50:10] can use g on a single machine by oh
+[01:50:13] sorry by multiple machine by a single
+[01:50:15] person. So now the question is how we
+[01:50:19] can actually use git for our team. So
+[01:50:22] this is actually what we really wanted
+[01:50:25] right. So we wanted to code concurrently
+[01:50:27] we wanted to to uh collaborate with
+[01:50:30] others on our code projects. How can we
+[01:50:33] manage our software project using g. So
+[01:50:37] g is actually primarily useful when
+[01:50:39] working with others and working with
+[01:50:40] others effectively is very important. So
+[01:50:43] here we are going to introduce another
+[01:50:46] new topic called branching. So this
+[01:50:49] branching thing may be a little bit
+[01:50:51] confusing at the m at the beginning.
+[01:50:53] It's very very common. If you don't get
+[01:50:55] it in the next 10 minutes, no problem.
+[01:50:57] No worries at all. It's very common. Use
+[01:50:59] the lab to practice and you'll get
+[01:51:01] better understanding about it. So uh a
+[01:51:04] lot of things about software engineering
+[01:51:06] is like practice. So only listen to the
+[01:51:09] lectures or watching me doing it may not
+[01:51:11] make that much sense for you. But when
+[01:51:13] you actually practice yourself, you'll
+[01:51:15] know what that means. Okay. So now the g
+[01:51:17] tree model. So g can actually be
+[01:51:20] understood as a tree like structure.
+[01:51:23] What is that? Uh try to get as much as
+[01:51:26] you can in the lecture. So when you use
+[01:51:28] the lab will be easier for you. Okay. So
+[01:51:31] the branch that we have been working on
+[01:51:34] so far is called main or master. So some
+[01:51:38] project they use main, some use master.
+[01:51:41] So if you see men or master don't worry
+[01:51:44] like although I say master here but in
+[01:51:46] your in your g project you will see main
+[01:51:50] but they're just meaning the most
+[01:51:53] important branch like all the working
+[01:51:56] code should be there. You shouldn't put
+[01:51:59] any broken code in main. But if you want
+[01:52:02] to have a new feature or you want to fix
+[01:52:05] about like you are actually changing the
+[01:52:07] code, it's very
+[01:52:11] um
+[01:52:12] often that the code because you are
+[01:52:15] making changes to it, right? It's quite
+[01:52:18] okay that it's not perfect,
+[01:52:21] but you don't want it to you don't want
+[01:52:23] to disturb the main branch. So what you
+[01:52:26] can do is you can create a new branch
+[01:52:31] like starting from the main as a
+[01:52:33] specific commit. You check out to a new
+[01:52:36] branch
+[01:52:38] and you work on that feature
+[01:52:42] and you do not need to worry about the
+[01:52:44] main being like impacted by your
+[01:52:47] non-perfect code.
+[01:52:50] So main is your main, right? But you
+[01:52:53] check out to another separate branch and
+[01:52:56] you work on your feature
+[01:52:59] and you feel like you have you tested
+[01:53:01] the feature everything works like the
+[01:53:03] new feature you feel like it's ready for
+[01:53:05] it to be merged into main you can then
+[01:53:08] merge this feature branch to main.
+[01:53:14] Does that make sense? So for example now
+[01:53:19] what we had in the project was
+[01:53:22] um we have g uh kickstart readd and week
+[01:53:27] one and now I want to have a new feature
+[01:53:30] called project
+[01:53:32] and I'm afraid that adding this new
+[01:53:34] feature will have like make the main
+[01:53:38] branch not working perfectly anymore.
+[01:53:41] I'm going to do what I'm going to do is
+[01:53:43] I'm going to check out. So create a copy
+[01:53:47] of the current main. So check out
+[01:53:51] check out to a new branch means create a
+[01:53:53] copy of the current branch. So let's
+[01:53:57] have a try so you have better
+[01:53:58] understanding of what I mean. So before
+[01:54:01] I do do anything, I need to get pull
+[01:54:04] first. Remember that.
+[01:54:06] Um. Yep. So let me get pull first.
+[01:54:10] Perfect. It merged automatically for me.
+[01:54:13] So G is very smart. It will merge for
+[01:54:16] you wherever it can. But when there's
+[01:54:19] something that really conflict, they
+[01:54:20] don't know what to keep, what to delete.
+[01:54:22] It will ask you to make the decisions.
+[01:54:25] Okay. So now let me get status to double
+[01:54:29] check. So you can see that I'm on branch
+[01:54:32] main. So this is the original branch
+[01:54:35] that was created by GitLab when we init
+[01:54:38] the uh git project. [snorts] So now I
+[01:54:40] wanted to check out to a new branch
+[01:54:44] which means that I'm going to create a
+[01:54:46] copy
+[01:54:48] of the current ripple on a new branch so
+[01:54:52] that I can feel free to make changes to
+[01:54:55] it. So the new command that I'm putting
+[01:54:58] here is called get checkout
+[01:55:01] dashb
+[01:55:04] and then give a name for it. So here are
+[01:55:07] some examples.
+[01:55:10] Oh there's new new branch. It's just new
+[01:55:13] branch. Okay. So let's call this uh
+[01:55:15] project info branch.
+[01:55:20] So naming the branch is also important
+[01:55:22] like naming your commit message. So your
+[01:55:24] branch name should also carry some
+[01:55:26] meaning.
+[01:55:27] Okay. So you can see that we are now
+[01:55:29] switched to a new branch called project
+[01:55:32] info.
+[01:55:34] Yay.
+[01:55:36] So uh let's have a look here. So you can
+[01:55:39] see that it still has everything. So
+[01:55:42] although we are now on a different
+[01:55:44] branch, it also has all the files that
+[01:55:47] we had from the main branch. And then
+[01:55:50] then you can make changes on this um new
+[01:55:54] project info brand. So for example, I
+[01:55:56] can have a a project MD. I can say uh
+[01:56:00] our project is about task tracker.
+[01:56:06] Okay. So I made some changes but this
+[01:56:10] change is only made on the project info
+[01:56:15] branch.
+[01:56:17] is not made on the main branch. So let's
+[01:56:20] check. So to go back to the main branch
+[01:56:23] or go to another branch, you can use uh
+[01:56:26] get check out main.
+[01:56:29] And you can see there's
+[01:56:34] where am I? Where's why this project is
+[01:56:37] here? Weird.
+[01:56:41] Huh?
+[01:56:42] >> Visual
+[01:56:44] visual code studio does that.
+[01:56:47] did that for me.
+[01:56:50] It shouldn't be that. Let me double
+[01:56:54] check. Get status.
+[01:56:57] I hate you. Visual code studio. I don't
+[01:57:00] want that. Okay. So,
+[01:57:07] let me double check. I must have done
+[01:57:09] something wrong.
+[01:57:12] Get check or switch to new project.
+[01:57:14] switch to uh
+[01:57:23] let me double check.
+[01:57:31] >> Yeah, I'm track because I've never get
+[01:57:33] add that project MD on any branch.
+[01:57:38] Let me get check out project info.
+[01:57:42] switch to the
+[01:57:45] I hate you.
+[01:57:49] Okay. Um
+[01:57:54] >> I didn't push. So checking there doesn't
+[01:57:57] make sense, right? Anyway, so um this
+[01:58:00] shouldn't be happen. It must be
+[01:58:02] something wrong with my visual code
+[01:58:04] studio. I'll double check for for that.
+[01:58:06] So it may be also a great opportunity
+[01:58:08] for you to explore this week uh using
+[01:58:10] your lab again and then maybe some of
+[01:58:13] you can tell me
+[01:58:16] how this happened but this shouldn't
+[01:58:18] happen. Um
+[01:58:20] yeah anyway um let me check again. So
+[01:58:25] get check how project info. So we are
+[01:58:27] now on project info. Let me test test.
+[01:58:32] Uh I'm on
+[01:58:35] this
+[01:58:37] uh project info.
+[01:58:44] Sorry, one second. Get check out main.
+[01:58:50] How about we close it and get check just
+[01:58:55] in case it was Visual Code Studio doing
+[01:58:57] the stuff. G project info
+[01:59:03] and then
+[01:59:06] blah
+[01:59:08] blah
+[01:59:10] and then I get check out
+[01:59:14] main
+[01:59:17] still there that's so weird um anyway
+[01:59:22] so what get checkout dashb means that
+[01:59:24] you are creating a new branch so I'll
+[01:59:26] I'll figure out what's going on here uh
+[01:59:29] But normally uh what it should happen is
+[01:59:31] that when this uh branch is ready like
+[01:59:34] when this feature is ready you can merge
+[01:59:37] this branch [snorts]
+[01:59:38] into main. And the way that you merge a
+[01:59:42] feature branch into a main branch is
+[01:59:45] through peer reviewing.
+[01:59:47] The reason is because merging any code
+[01:59:51] into main needs to be double checked.
+[01:59:56] Okay. So, let's have a get. Sorry, I
+[01:59:59] know it's a little bit over time. So, if
+[02:00:01] you need to leave, feel free to do so.
+[02:00:03] I'll just do another five minutes and
+[02:00:04] that's it. Um, oh, sorry, check out to
+[02:00:07] the wrong one. G check out project info
+[02:00:13] and then let me get status on what I
+[02:00:15] changes here. So, I get app project.md
+[02:00:19] get commit-m
+[02:00:22] uh at new project.
+[02:00:24] I'll quickly do it MD and then get push.
+[02:00:28] So there will be a error message when we
+[02:00:30] get push on this new branch.
+[02:00:35] It says that the current branch project
+[02:00:38] info has no upstream branch to push the
+[02:00:41] current branch and set remote as
+[02:00:43] upstream use. So the reason is on your
+[02:00:47] our remote repo there's only main branch
+[02:00:50] there's no project info branch yet. So
+[02:00:53] when we push the project MD uh onto the
+[02:00:58] remote uh the project info branch they
+[02:01:00] don't know where to push it because on
+[02:01:03] the remote GitLab repo there's no that
+[02:01:06] branch yet. So GitLab is again trying to
+[02:01:09] help us. So it actually tells us what we
+[02:01:12] need to do. So let's just copy and pass
+[02:01:15] here. So get push set upstream origin
+[02:01:18] project info. It asks for the
+[02:01:20] passphrase.
+[02:01:22] Amazing. So now when we refresh here,
+[02:01:25] you will notice that other than the
+[02:01:28] selected main stream, there's also
+[02:01:29] another stream called project info.
+[02:01:34] Okay. And automatically there will also
+[02:01:36] be a like something here. So you push
+[02:01:39] the project info just now asking whether
+[02:01:42] you want to create a merge request. So
+[02:01:45] the merge request means that it's asking
+[02:01:47] whether your project info branch is
+[02:01:49] ready to be merged to main or any other
+[02:01:52] branch.
+[02:01:54] So this merge request from a feature
+[02:01:56] branch to the main branch needs to be
+[02:01:59] done on GitLab GUI. Let me show you how
+[02:02:02] to do it. So create merge request and
+[02:02:06] then let's create a title for this merge
+[02:02:10] request. uh create new project MD as the
+[02:02:15] new project feature. So you can also
+[02:02:19] describe what do you add? You added this
+[02:02:22] file called project.md.
+[02:02:25] There may be other things that you
+[02:02:26] delete. I don't have anything here uh
+[02:02:30] blah blah blah and you may have other
+[02:02:32] changes I made. So you can describe this
+[02:02:35] merge commit because um merge request
+[02:02:37] because this merge request is even more
+[02:02:39] important than a commit message because
+[02:02:42] it's like a more bigger building block.
+[02:02:45] It's about one feature new feature or
+[02:02:48] fix a new bug. It's bigger than one
+[02:02:50] commit message. So in one merge require
+[02:02:52] there may be multiple commit messages
+[02:02:56] and you assign another people to review
+[02:02:58] it. because it is project I only help
+[02:03:00] myself. But in your group project, you
+[02:03:02] will have your group members. Uh select
+[02:03:04] one of them uh as reviewers asking them
+[02:03:07] to review this project
+[02:03:11] and then create this merge request
+[02:03:14] ready to merge. So your team members job
+[02:03:18] is to review your merge request making
+[02:03:22] sure that your feature is ready, your
+[02:03:24] bug fix is ready, your branch is ready
+[02:03:26] to be merged into main. It's safe to do
+[02:03:28] that. So this is the role of your team
+[02:03:30] member the reviewer but you need to
+[02:03:33] merge the merge request into main
+[02:03:36] yourself. So you are taking
+[02:03:38] responsibilities of your code. So your
+[02:03:41] team members role is to help you to
+[02:03:44] review to double check give you feedback
+[02:03:46] but your job is to actually merge it. Uh
+[02:03:48] you can also leave comments here to
+[02:03:51] interact with your team member. Your
+[02:03:52] team member may say oh uh can you change
+[02:03:55] something or can you add something? So
+[02:03:57] you can give feedback peer review in
+[02:03:59] this way. So now when we go to the
+[02:04:03] mainstream you'll notice that there's
+[02:04:05] also this project.md on the remote
+[02:04:08] ripple.
+[02:04:09] Okay sorry about the delay the extra
+[02:04:12] four minutes. Uh so this is everything
+[02:04:14] about team usage. Use the lab to
+[02:04:17] practice use the lab to practice
+[02:04:19] practice practice practice and you will
+[02:04:21] practice merge conflicts branching
+[02:04:23] everything. Any question, put on the
+[02:04:25] forum and we'll help you out there.
+[02:04:28] Okay. Thank you. Thank you so much.
+[02:04:32] Thanks.
+[02:04:34] Sorry, I'll just

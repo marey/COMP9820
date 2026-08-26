@@ -1,0 +1,2232 @@
+[00:05:10] Okay. Um,
+[00:05:13] hello, hello, hello, hello everyone. Um,
+[00:05:16] welcome to week two. So, how's
+[00:05:20] everyone's last week going?
+[00:05:24] Have you joined our group?
+[00:05:27] Yeah. Um, have you started practicing G?
+[00:05:31] >> Yes. How do you feel about G so far?
+[00:05:38] >> All good. Still a little bit confused.
+[00:05:42] Um, if you feel like um you
+[00:05:48] um know what it is for and how to use it
+[00:05:52] basically, that's pretty good. It's
+[00:05:55] really good actually. um because you
+[00:05:57] have just practiced it for only one week
+[00:06:00] and it's something that's very new for
+[00:06:02] everyone. So it's very very normal. If
+[00:06:04] you are still a little bit confused and
+[00:06:06] not sure how to use it exactly, no
+[00:06:08] problem at all. So we'll continue
+[00:06:10] practicing it throughout the next few
+[00:06:13] weeks. So you still have time practicing
+[00:06:14] it. Uh but the first lab the lab that g
+[00:06:19] that one is really really important
+[00:06:21] although it's not marked. So although it
+[00:06:23] doesn't come much like in that sense of
+[00:06:24] importance but it's very very important
+[00:06:26] for your whole project. So every single
+[00:06:29] step, every single contribution that you
+[00:06:31] make to your group project will be using
+[00:06:34] g like everything it's like how we
+[00:06:37] submit our work like in industry we
+[00:06:39] don't submit our work by uploading a
+[00:06:41] file to mudo right or through like um
+[00:06:45] cse g so this is something specific at
+[00:06:48] the uni but in real life how you submit
+[00:06:51] your work using g so this is how you
+[00:06:54] submit so you will be using it
+[00:06:56] throughout the term so if you feel like
+[00:06:58] you're not that confident in it yet. Uh
+[00:07:01] continue uh working on g using that lab
+[00:07:04] activity. Okay. Um and I also like to
+[00:07:08] thank everyone for your feedback uh from
+[00:07:10] last week. Uh especially those who are
+[00:07:13] saying that my lecture is good. I'm
+[00:07:14] super happy about that. Uh uh another
+[00:07:18] thing is uh another feedback that I got
+[00:07:20] from not students but tutors like
+[00:07:22] collectively feedback from the tutors is
+[00:07:24] that uh for students who are using
+[00:07:27] window system like struggle a little bit
+[00:07:29] about setting up. So I've provided a new
+[00:07:33] guide for setting up especially for
+[00:07:36] those who are using window system. So if
+[00:07:39] you struggled with setting up kit uh
+[00:07:42] here's a new guide for you. I'll send
+[00:07:43] this link in today's newsletter. So
+[00:07:46] every week after the lecture, I'll send
+[00:07:48] a newsletter about the important notice
+[00:07:51] for the week. So I'll also put this link
+[00:07:53] in that notice in that week uh
+[00:07:54] newsletter. So uh before your lab this
+[00:07:57] week, make sure that you have set up you
+[00:07:59] know what g is and how to use git. Okay.
+[00:08:03] Um this is one thing. the other one
+[00:08:08] before we start the content.
+[00:08:13] Yep. So here I updated the lecture and
+[00:08:17] resources page. You can find that page
+[00:08:19] here on the course website as well. So
+[00:08:22] for each week I've have the topics here
+[00:08:24] already. Uh I will upload the slides
+[00:08:27] before the lecture. Uh I have already
+[00:08:30] put all the live stream link for all the
+[00:08:32] weeks here. uh and I will also upload
+[00:08:35] the other resources that is relevant for
+[00:08:38] that week. So for example week one here
+[00:08:40] are the topic here are the slides here
+[00:08:42] are the recording as we mentioned
+[00:08:44] earlier that we we have two recordings
+[00:08:46] they are exactly the same but one is on
+[00:08:49] YouTube one is on shareepoint choose the
+[00:08:51] one that you prefer but the contents is
+[00:08:53] the same and these are the resources
+[00:08:55] that are relevant for week one uh this
+[00:08:57] is the g practice is on course website
+[00:08:59] as well it tells you how to write good
+[00:09:02] commits and how to make good quality
+[00:09:04] merge requests is on course website uh
+[00:09:07] please have a look Kata if you haven't
+[00:09:09] realized it is there um another
+[00:09:12] important resource for week one is the
+[00:09:14] lab activity about g okay so for today
+[00:09:19] this week so this week what we are going
+[00:09:22] to talk about so we'll talk a little bit
+[00:09:24] more about so last week I gave a very
+[00:09:27] brief overview about what I is but today
+[00:09:31] I'm going to expand a little bit more on
+[00:09:33] what is agile why agile and how to be
+[00:09:35] agile um here are the slides guys
+[00:09:38] already there. Other than that, I'll
+[00:09:40] also talk about the project. So, you may
+[00:09:43] have already realized the project spec
+[00:09:45] is already on the course website and you
+[00:09:48] may also have noticed that there's a
+[00:09:49] starter code in your personal GitLab
+[00:09:52] report. So, today I'm going to walk
+[00:09:54] through the getline for sprint one and
+[00:09:57] also the starter code and also tell
+[00:09:59] about the expectation for sprint one.
+[00:10:01] So, this is the plan for today. Uh there
+[00:10:04] are other resources um that you can have
+[00:10:07] a look after the lecture. Uh now you may
+[00:10:10] not know what a standup is but after the
+[00:10:11] lecture you'll know. And here's the uh
+[00:10:14] spring one guideline setting up guide
+[00:10:16] teamwork contract and help sessions.
+[00:10:18] Okay talking about help sessions. So
+[00:10:21] starting from this week uh we are going
+[00:10:24] to have help sessions. So help sessions
+[00:10:27] are drop in sessions that you can get
+[00:10:30] some help on your co like course content
+[00:10:32] on your project. I need like course
+[00:10:34] related things. Um here's the course
+[00:10:37] schedule uh help session schedule. So
+[00:10:40] you may notice that we have a lot of
+[00:10:42] help sessions throughout the weeks. Uh
+[00:10:44] but they are all in person because the
+[00:10:46] course is in person only. It's not habit
+[00:10:49] course. So all the help sessions also uh
+[00:10:51] in person as well. Uh if you have any
+[00:10:54] questions, if you are at stuck at any
+[00:10:56] stage, any day, uh feel free to drop
+[00:10:58] into any of these help sessions and find
+[00:11:01] one of the tutors there.
+[00:11:04] Okay. So, uh they are basically at the
+[00:11:07] end of all the lab sessions. So after
+[00:11:10] your uh tutors finishing helping your
+[00:11:14] groups like all the groups in the class
+[00:11:16] there no more questions and then we
+[00:11:19] welcome students from other classes to
+[00:11:21] drop in and ask questions as well. But
+[00:11:23] the tutors will prioritize answering
+[00:11:26] questions from their class but we don't
+[00:11:29] think there's that many questions. So
+[00:11:31] feel free to join at the tail of the lab
+[00:11:33] sessions and the schedule their
+[00:11:34] locations and the tutors. If you have
+[00:11:36] any preferred tutors uh join that class
+[00:11:40] uh no problem.
+[00:11:42] Okay. So let's come back to the content
+[00:11:47] for today
+[00:11:49] uh which is first of all the
+[00:11:54] a software team practice. So why why do
+[00:11:58] we need to learn this? So explains why
+[00:12:02] agile. So last week we explained very
+[00:12:04] briefly a the terminology but why agile
+[00:12:08] and how it helps software team develop
+[00:12:10] real value in complex uncertain projects
+[00:12:13] and why is complex why is uncertain. So
+[00:12:16] we will talk about that as well. Um more
+[00:12:19] specifically why how
+[00:12:22] why so this is the structure of all
+[00:12:25] lectures basically. So we will explain
+[00:12:26] why that is important and how we can do
+[00:12:29] it. Okay. So, so what's your
+[00:12:33] understanding about IGL like coming from
+[00:12:35] last lecture?
+[00:12:37] Very high level, very general, still
+[00:12:39] confused.
+[00:12:41] >> Any thoughts, any guess?
+[00:12:45] >> Yep.
+[00:12:54] >> Uh
+[00:13:02] Uhhuh. Yep. So people put their project
+[00:13:05] large project into small uh like slots.
+[00:13:10] >> Yeah. And then it to make sure that it
+[00:13:13] brings some value.
+[00:13:14] >> Yeah.
+[00:13:14] >> Canail in your term. Yeah. That's right.
+[00:13:17] So that's one uh key principle of a but
+[00:13:21] it is actually more than that.
+[00:13:23] >> Any other thoughts about
+[00:13:27] >> it's a modern approach. It's more
+[00:13:28] flexible.
+[00:13:29] >> It's more flexible.
+[00:13:30] >> There's no strict rules.
+[00:13:32] >> There's no strict rules for it. Um. Yep.
+[00:13:36] So, there are some rules actually, but
+[00:13:39] >> yes, it's not as strict at waterfall.
+[00:13:42] Yeah, we'll talk about that today as
+[00:13:43] well. Any other thoughts about
+[00:13:50] >> uh it's not that strict on
+[00:13:52] documentation.
+[00:13:55] fibility changes.
+[00:13:58] >> Yeah, they prefer more flexibility.
+[00:14:01] Yeah, like startup. Yeah, that's all
+[00:14:03] correct. Perfect. But it's actually more
+[00:14:05] than that. So today I'm going to explain
+[00:14:07] uh what is agile. Okay. Um some people
+[00:14:10] may also heard about some terms like
+[00:14:12] sprints maybe from our project, right?
+[00:14:16] Uh some people may also heard about
+[00:14:18] scrum master. Um these are all some
+[00:14:21] terminologies coming from a but a is
+[00:14:23] more than that. So where did agile
+[00:14:26] actually coming from? So uh a little bit
+[00:14:29] history not too much in the 1990s. So uh
+[00:14:33] there's software development the world
+[00:14:36] of software development was described as
+[00:14:38] a software crisis. Have you heard about
+[00:14:40] that the crisis? No. Um yes. So that at
+[00:14:44] that time our school also struggled a
+[00:14:46] lot. [laughter]
+[00:14:47] So uh what happened at that time? So
+[00:14:50] nearly onethird of the project, the
+[00:14:52] software project were cancelled.
+[00:14:55] Many were late, over budget or underd
+[00:14:58] delivered.
+[00:15:00] So people were saying your software is
+[00:15:02] not good enough like you spent too much
+[00:15:04] money or you spent too long delivering
+[00:15:06] that or the quality is not good. Like
+[00:15:08] people are saying that this project are
+[00:15:10] not good enough or they don't need it
+[00:15:12] anymore so they canled it.
+[00:15:15] So to get control to make sure that um
+[00:15:19] people going through this crisis uh
+[00:15:22] organizations responded with some
+[00:15:24] strategies. So for example adding more
+[00:15:26] documentations
+[00:15:27] like the projects are not successful
+[00:15:29] maybe because it's not enough
+[00:15:31] documentations like people are not
+[00:15:32] following the rules. Uh people are
+[00:15:35] saying like let's add more sign offs
+[00:15:38] like the manager signing off and saying
+[00:15:40] okay let's go on to the next stage or
+[00:15:42] people are saying let's add more control
+[00:15:44] like quality control it's kind of is it
+[00:15:47] because the quality is not good let's
+[00:15:49] add more quality control at the first
+[00:15:51] side like makes sense right u people
+[00:15:54] other people may saying defining more
+[00:15:56] rigid face- based project and this
+[00:15:59] project this kind of uh respond um
+[00:16:02] people describe it as waterfall or face
+[00:16:04] gates uh face gate development. So this
+[00:16:07] is actually the process that we
+[00:16:09] discussed the last week. We say that um
+[00:16:13] a software project start from
+[00:16:16] understanding the requirements like
+[00:16:18] understanding what a customer's needs
+[00:16:20] and then when it's done we get all the
+[00:16:22] requirements we move on to the next
+[00:16:24] stage which is designing like how many
+[00:16:26] rooms in that house like how many
+[00:16:28] toilets and then actually coding it and
+[00:16:31] then testing it and then um making sure
+[00:16:34] it's available to use for users and then
+[00:16:36] maintain it. So there are a lot of
+[00:16:38] stages and phases and they are very
+[00:16:40] strict uh there are there are a lot of
+[00:16:43] very uh strict rules like when you can
+[00:16:46] move on to the next phase. So this is
+[00:16:48] the waterfall uh development.
+[00:16:53] Uh [sighs] so this is like when project
+[00:16:56] falls fails the solution was add more
+[00:16:59] process.
+[00:17:01] Did it work?
+[00:17:03] >> No. Unfortunately no. Although it sounds
+[00:17:06] like all makes sense right like for some
+[00:17:09] engineering process like following the
+[00:17:11] process having documentations it makes a
+[00:17:13] lot of sense but for software
+[00:17:15] engineering for software projects for
+[00:17:18] that software crisis
+[00:17:20] this response this solution didn't work
+[00:17:24] so some developers they came together
+[00:17:27] and say like how do we solve this
+[00:17:29] problem like we need to move on if this
+[00:17:31] problem if this solution doesn't work we
+[00:17:33] need another solution
+[00:17:36] So they came up with this new
+[00:17:39] idea and it's called the ael manifesto.
+[00:17:43] Sorry I'm not sure how to pronounce it
+[00:17:45] but it has a few core values to
+[00:17:49] it. It emphasize more about individual
+[00:17:52] and interaction over the process and
+[00:17:54] tools. It emphasize more about working
+[00:17:56] software over comprehensive
+[00:17:58] documentation.
+[00:18:00] Emphasize customer collaboration over
+[00:18:02] contract negotiation and emphasize
+[00:18:04] responding to change over following a
+[00:18:07] plan. So this is completely different
+[00:18:10] from the previous solution
+[00:18:14] and it worked
+[00:18:18] right surprise surprise. Um so these are
+[00:18:21] the core value of a you may notice well
+[00:18:25] this is not a process
+[00:18:28] right it's also not a methodology
+[00:18:31] it's a value like it's a value of how we
+[00:18:34] develop software um and also it doesn't
+[00:18:37] mean that the um the values on the right
+[00:18:41] hand side doesn't uh they are not
+[00:18:43] important so it's not it's not true so
+[00:18:45] they are still important so there are
+[00:18:47] still some process and tools there still
+[00:18:50] documentation, still a plan, but they
+[00:18:52] emphasize the left hand side more than
+[00:18:55] the right hand side. So what are they?
+[00:18:57] Why is it important? So why do you think
+[00:19:00] the waterfall model didn't work, but
+[00:19:02] this new
+[00:19:04] works?
+[00:19:09] Why
+[00:19:14] >> bureaucracy?
+[00:19:15] >> Less bureaucracy. Why?
+[00:19:19] sign offs.
+[00:19:20] >> Uhhuh.
+[00:19:21] >> Responsibility.
+[00:19:22] >> So they don't need to get approvals from
+[00:19:25] a lot of managers.
+[00:19:27] >> Yeah. So there's not uh not that much
+[00:19:30] signups anymore and they do not need to
+[00:19:33] get approvals from appro uh like
+[00:19:35] managers. Yeah. So it save some time.
+[00:19:38] That's right. But like review is still
+[00:19:40] important. But like people share the
+[00:19:42] responsibility, right? Like it's not the
+[00:19:45] only the managers taking the
+[00:19:46] responsibility but everyone takes the
+[00:19:48] responsibility.
+[00:19:50] Any other idea like why this works? Why
+[00:19:52] the traditional like the the most
+[00:19:55] logistic way doesn't didn't work?
+[00:19:59] >> Sorry.
+[00:20:01] >> More rigid. Which one is more rigid? The
+[00:20:04] other one. Why more rigid didn't work?
+[00:20:07] Like for it's an engineering project,
+[00:20:10] right?
+[00:20:13] It sounds very weird, right? Any other
+[00:20:15] thoughts about why this works? But the
+[00:20:18] the the waterfall model
+[00:20:19] >> they can give customer feedback
+[00:20:23] and they can ensure their work.
+[00:20:26] >> Yes. So that's a very important thing.
+[00:20:28] Uh so what uh they just mentioned is
+[00:20:31] that uh it emphasize more about feedback
+[00:20:34] like um the feedback is a very important
+[00:20:36] thing here. So feedback is from the
+[00:20:39] customer from the actual users who are
+[00:20:42] going to use the software project not
+[00:20:44] the feedback from the managers who
+[00:20:47] thought they understand the customers
+[00:20:49] they you the users in in reality like
+[00:20:52] the developer developer team even the
+[00:20:54] manager they may not really understand
+[00:20:56] the user's need so they thought they
+[00:20:59] understand the user need they thought
+[00:21:00] this is the correct uh direction like
+[00:21:03] I'm really professional I'm very
+[00:21:04] experienced software development like
+[00:21:06] I'm right But in reality a lot of times
+[00:21:09] the managers they don't really
+[00:21:10] understand the users's need. So who
+[00:21:12] understand the users's needs the most
+[00:21:16] the users right like who who are
+[00:21:19] actually going to use it. So emphasizing
+[00:21:22] customer collaboration is very important
+[00:21:25] like contract. So at so where's where
+[00:21:28] does contract coming from? is coming
+[00:21:30] from at the beginning when uh the
+[00:21:32] software developers and the client and
+[00:21:35] the manager they come together and they
+[00:21:37] negotiate a contract is setting up at
+[00:21:39] the beginning but things may change this
+[00:21:41] contract may not reflect the real users
+[00:21:44] needs.
+[00:21:46] Any other thoughts about why agile
+[00:21:48] works?
+[00:22:00] Yes. So you are actually mentioning
+[00:22:02] about this one. So responding to change.
+[00:22:05] So um why there's always change. Change
+[00:22:09] is everywhere in software development,
+[00:22:12] software managements all the time. And
+[00:22:14] this change coming from a lot of
+[00:22:16] different resources. So this change may
+[00:22:19] coming from well uh the one that we
+[00:22:21] mentioned earlier like they didn't
+[00:22:23] really understand the users's needs at
+[00:22:24] the beginning. So later on they may
+[00:22:26] notice well this feature is not that
+[00:22:28] important right but another feature that
+[00:22:31] we ignored at the beginning is more
+[00:22:33] important. So we need to reflect to that
+[00:22:35] change as soon as possible rather than
+[00:22:38] sticking to that contract at the
+[00:22:40] beginning. So these other change um
+[00:22:42] other change maybe like the world is
+[00:22:45] changing so fast right especially
+[00:22:48] nowadays with AI like every day is
+[00:22:51] changing so people's needs may change so
+[00:22:55] even though at the beginning we
+[00:22:56] understand the users's needs perfectly
+[00:22:59] like this feature is real indeed
+[00:23:01] important at that stage but after six
+[00:23:03] months they changed so we need to
+[00:23:07] respond to that change
+[00:23:10] Right? And other changes including for
+[00:23:12] example the people's change. So people
+[00:23:15] in your team changed
+[00:23:18] like you may have a very good people uh
+[00:23:21] sorry very uh a team member a member in
+[00:23:24] your team who is very good at coding and
+[00:23:27] they are helping with everything about
+[00:23:29] coding in your project but they left.
+[00:23:32] How can we do that? Or there's some
+[00:23:34] people new joining they may bring in new
+[00:23:36] skills. How do we respond to that
+[00:23:38] change? So the contract at the beginning
+[00:23:41] it doesn't work anymore. So I emphasize
+[00:23:44] more about responding to those changes
+[00:23:46] as as soon as possible rather than
+[00:23:48] sticking to the contract and sign off
+[00:23:51] going back to the managers. Can you
+[00:23:52] approve this please? Now so everyone is
+[00:23:55] a manager in an agile word. Okay. Um
+[00:23:59] yeah how about this one? Working
+[00:24:02] software over comprehensive
+[00:24:04] documentation.
+[00:24:06] Why is this important? Why does this
+[00:24:10] principle make a work?
+[00:24:18] Do you like documentation? By the way,
+[00:24:21] [laughter]
+[00:24:22] no one likes it and it's very time
+[00:24:24] consuming, right? So rather than
+[00:24:27] emphasizing too much about those
+[00:24:29] documentation, let's emphasize more
+[00:24:30] about bringing real value to the
+[00:24:32] customers. Will the documentation brings
+[00:24:35] value to the customer?
+[00:24:37] No right let so I emphasize more about
+[00:24:42] let's do something that can bring real
+[00:24:44] value to the customers to the user so it
+[00:24:47] works right um and here individual
+[00:24:51] interactions of process and tools
+[00:24:55] so in a in the values of agile people is
+[00:24:59] the center of everything
+[00:25:02] so people means not only the customers
+[00:25:05] the managers but everyone on the team.
+[00:25:08] So how do we collaborate? People is very
+[00:25:10] different, right? All the groups are
+[00:25:12] different. No matter whether it's in
+[00:25:14] this course or industry or any setup,
+[00:25:16] the people are different. So you need to
+[00:25:18] do something that is more suitable. It's
+[00:25:20] the most suitable for those people. So
+[00:25:24] every group may have their different
+[00:25:26] preferences, skills, um way of working,
+[00:25:29] way of collaborating. So you need to
+[00:25:32] figure out a way that suits the best for
+[00:25:34] your group. And people is more important
+[00:25:37] than those tools and process anything.
+[00:25:39] So if you have the most fancy tools in
+[00:25:42] the whole world but people doesn't use
+[00:25:45] it or like they tool doesn't fit for
+[00:25:49] those people it's not like good right so
+[00:25:53] people is the core of everything but
+[00:25:55] still there are still tools and process
+[00:25:57] that can help the people help the
+[00:25:59] process. So it doesn't means that we
+[00:26:01] don't use any tools. We don't follow any
+[00:26:03] process. That's not the case. It's still
+[00:26:06] important but there's something more
+[00:26:07] important. Okay. So it does we so does
+[00:26:11] it does that mean that we don't need any
+[00:26:12] documentation? We still need some
+[00:26:15] documentation right. So for example some
+[00:26:17] code some how to run your code. So these
+[00:26:19] are basic documentations that we still
+[00:26:21] need. So this documentation important
+[00:26:24] for example when you have new members
+[00:26:26] join your group.
+[00:26:28] This documentation can be very
+[00:26:29] important, very helpful for them to get
+[00:26:31] started on the project as soon as
+[00:26:32] possible. Right? So we still need
+[00:26:34] documentation but it just something more
+[00:26:37] important. Again contract negotiation
+[00:26:39] plan plan is still important like still
+[00:26:42] engineering project right. So we still
+[00:26:44] need plan but we do not need to stick to
+[00:26:47] that plan like the plan can be changed
+[00:26:50] as well. Okay cool. So here are the
+[00:26:54] values of agile. So you may notice that
+[00:26:56] there's no unified ideal method. So
+[00:27:00] people are saying like I process a
+[00:27:02] method but in reality there's no single
+[00:27:06] ideal method or there's no single only
+[00:27:09] true a process. So I is mainly some
+[00:27:14] values, some principles, some
+[00:27:18] you can also say it's a philosophy,
+[00:27:20] right? It's not a tool. It's not a
+[00:27:22] checklist, not a framework or not
+[00:27:24] something that you can actually do. You
+[00:27:26] can practice agile, you can follow this
+[00:27:28] agile values, principles, but you cannot
+[00:27:31] do agile or there's no agile
+[00:27:33] methodologies. So agile is a philosophy.
+[00:27:36] It's a way of thinking about software
+[00:27:38] development. So you may thinking wow
+[00:27:41] this is so hard right there's no process
+[00:27:45] for me to follow there's no methodology
+[00:27:47] even no framework like how can I
+[00:27:49] practice a like what is a is a
+[00:27:52] philosophy so hard for me to do in this
+[00:27:53] project
+[00:27:55] but we can try our and we will we can
+[00:27:57] practice and there are actually some uh
+[00:28:01] um like starting point that we can
+[00:28:03] follow and I will explain the house
+[00:28:06] later but before that um to summarize
+[00:28:09] ize what is a there are two key
+[00:28:13] um
+[00:28:17] principles should I call it principles
+[00:28:19] so I development is adaptive rather than
+[00:28:22] predictive and people oriented rather
+[00:28:24] than processor oriented I think we uh
+[00:28:27] you have already summarized and
+[00:28:29] explained why uh those are the case very
+[00:28:31] good but here I'm just uh summarizing
+[00:28:33] here again uh why adaptive rather than
+[00:28:37] pract uh predictive.
+[00:28:41] So why the traditional one failed?
+[00:28:45] Because if you in the traditional one it
+[00:28:47] says that if you follow the plan you're
+[00:28:49] success but if you don't follow the plan
+[00:28:52] you're failure but the plan may be not
+[00:28:54] true right plan may need to be changed.
+[00:28:57] So this predictive mindset doesn't work
+[00:29:00] but I is more um flexible.
+[00:29:05] So emphasizing more about delivering
+[00:29:07] value not con confirmed to a plan.
+[00:29:12] So we don't ask did we follow the plan
+[00:29:14] we asked did we deliver value. So the
+[00:29:18] second principle is people oriented
+[00:29:19] rather than process uh oriented.
+[00:29:24] So people are the most important factor
+[00:29:25] in software success.
+[00:29:29] It doesn't so talking about this one
+[00:29:31] like people are the most important
+[00:29:32] factor in software success. So what do
+[00:29:35] you think make the most successful team
+[00:29:39] or group? Like we are saying that people
+[00:29:42] are important, right? Like what kind of
+[00:29:44] people
+[00:29:46] or what kind of group may have a better
+[00:29:49] chance to be successful like delivering
+[00:29:52] the best value at the end
+[00:29:55] >> and they work together.
+[00:29:57] >> They work together. They collaborate
+[00:29:59] together. Yes. What else?
+[00:30:06] They contribute
+[00:30:08] based on their skills.
+[00:30:09] >> They contribute based on their skills.
+[00:30:12] Great. Great. Great. Great. So I'm so
+[00:30:15] glad that you are not saying that they
+[00:30:17] are all genius. [laughter]
+[00:30:19] Um like different people bring different
+[00:30:21] skills and what they want to learn into
+[00:30:24] each group. So a diverse team has a like
+[00:30:27] the best chance to be successful rather
+[00:30:30] than a group of people who are all
+[00:30:31] experts in coding or all experts in like
+[00:30:34] customer uh experience or other things
+[00:30:37] like we we need to have diverse skills.
+[00:30:39] We need to contribute something
+[00:30:41] different to the team and people need to
+[00:30:43] be eager to collaborate with each other.
+[00:30:44] We will talk more about that later.
+[00:30:47] Okay. So here uh what is important not
+[00:30:51] just their skills but how well they
+[00:30:53] collaborate. Oh psychological safety.
+[00:30:56] Have you heard about psychological
+[00:30:58] safety before?
+[00:31:01] So Google, Amazon, a lot of these big
+[00:31:04] tech companies nowadays they talk a lot
+[00:31:07] about psychological safety. So what it
+[00:31:10] actually means is that people feel safe
+[00:31:14] to speak up.
+[00:31:17] So for example, if you have any concern
+[00:31:20] about the plan,
+[00:31:23] speak up. Like tell your group members
+[00:31:26] that you have some concern rather than
+[00:31:27] just keep selling and thinking,
+[00:31:29] [clears throat] oh, I'm not the most
+[00:31:30] smart people in the team. They must have
+[00:31:32] made the most smartest decision on the
+[00:31:34] plan. So if you have anything um any
+[00:31:38] concern, you have any idea, a good team
+[00:31:41] should enable every group member to
+[00:31:44] speak up and feel safe. So psychological
+[00:31:47] safety is very important um because
+[00:31:50] different people bring different
+[00:31:51] expertise and skills and experience
+[00:31:53] background very different things to the
+[00:31:55] team. So if you are not the expert the
+[00:31:58] most most smart people in the team on
+[00:32:00] coding you may have other things that
+[00:32:02] you are better uh at right other than
+[00:32:04] people. So everyone should feel safe to
+[00:32:08] speak up. So um to enable this
+[00:32:11] psychological safety in groups, people
+[00:32:14] should encourage people to speak up
+[00:32:18] right when people are saying and talking
+[00:32:20] about their concerns. Group members
+[00:32:22] needs to be patient and listening
+[00:32:26] so that you can create an environment
+[00:32:29] that has the psychological safety so
+[00:32:31] that other people can feel safe to speak
+[00:32:34] up. So this is very very important in
+[00:32:36] group success.
+[00:32:38] If you if you just say, "Oh, I'm the
+[00:32:41] smartest people. Everyone listen to me."
+[00:32:44] So, and not only um it's very
+[00:32:49] discouraging, right? Like people will
+[00:32:52] feel like, "Oh, I'm not contributing. Uh
+[00:32:54] oh, I can't contribute." So, you'll be
+[00:32:57] working alone, right? And you only have
+[00:32:59] one skill set. Most people cannot be
+[00:33:01] like, "I'm perfect in this one, I'm
+[00:33:03] perfect in that skill." Like, nobody can
+[00:33:05] do that, right? So, collaboration. Okay.
+[00:33:08] Motivation,
+[00:33:10] communication and trust. Um, what do you
+[00:33:14] think we mean by communication here?
+[00:33:20] >> Speaking.
+[00:33:21] >> Speaking up. Yeah, that's one aspect of
+[00:33:23] that. Another thing,
+[00:33:29] communication frequently and regularly.
+[00:33:34] All right.
+[00:33:35] on the same page.
+[00:33:37] >> Make sure everyone's on the same page.
+[00:33:38] Perfect. Anything else?
+[00:33:48] I think this is actually relevant or
+[00:33:50] related to this psychological safety,
+[00:33:52] right? Um like the course has 10 weeks
+[00:33:56] and it's okay if there's a couple of
+[00:33:58] days you are just not feeling well or
+[00:34:01] you are not seeing any progress. It's
+[00:34:04] okay. Just communicate to your team
+[00:34:06] members. Seek help for uh seek help from
+[00:34:08] each other and support each other right
+[00:34:11] communication be transparent.
+[00:34:14] Just not holding back like if you are
+[00:34:16] stuck at any point tell your team
+[00:34:18] members people can help right otherwise
+[00:34:21] people don't know you are stuck there
+[00:34:22] right and people are assuming that you
+[00:34:24] are working towards the feature or
+[00:34:26] whatever and then at a due date you
+[00:34:28] suddenly tell your screw member say oh I
+[00:34:31] stuck there for one week or two weeks
+[00:34:33] already like people say oh it's too late
+[00:34:36] right uh keep communicating frequently
+[00:34:39] and regularly
+[00:34:42] any questions so
+[00:34:45] Oh, good. Okay,
+[00:34:48] cool. Uh, process serves people. Find
+[00:34:51] the process, find the tools that fits
+[00:34:53] the well for people. So, that's what it
+[00:34:56] means here. Rather than people try to
+[00:34:59] serve the tools or serve the process.
+[00:35:04] Okay. Now the question, how to be agile?
+[00:35:08] So now we know like a is important.
+[00:35:11] Agile is useful for software success.
+[00:35:14] But how to be agile?
+[00:35:17] We mentioned that agile is a philosophy.
+[00:35:19] It's not a process. It's so tricky. Like
+[00:35:22] how can we actually be agile? Uh it
+[00:35:25] actually requires a lot of real world
+[00:35:27] experience. You need to try to practice
+[00:35:30] a following those agile principles,
+[00:35:34] values so that you can actually be
+[00:35:36] agile. But it sounds so vague.
+[00:35:40] So um today I'm going to introduce some
+[00:35:43] like uh steps that you can start with
+[00:35:47] and then you can customize that uh steps
+[00:35:50] like customize how it works for best for
+[00:35:54] you and your group. But there's needs to
+[00:35:57] be something that can help you start
+[00:35:58] with. So here are something to start
+[00:36:01] with. Um they are daily planning,
+[00:36:04] iterations, retro, fast feedback,
+[00:36:06] continuous integration, taskdriven
+[00:36:08] development. Uh a lot of those will be
+[00:36:11] covered in the following weeks. So we
+[00:36:14] cannot cover all of them today, but we
+[00:36:17] will talk about them in the uh like next
+[00:36:20] few weeks. But today I'm going to talk
+[00:36:22] about a few of them. Um daily planning
+[00:36:26] iterations, Rachel will be next week.
+[00:36:29] next week
+[00:36:32] week five or six
+[00:36:35] seven something I can't remember but we
+[00:36:37] we will talk about them one by one okay
+[00:36:40] so first of all springs so springs is
+[00:36:44] relevant to this fast feedback and
+[00:36:48] iterations
+[00:36:50] so uh I mentioned that our project had
+[00:36:53] three springs three springs but what
+[00:36:56] actually means
+[00:36:58] So sprint is a fixed amount of time. So
+[00:37:02] normally a week for nightly fornately
+[00:37:05] means two weeks or even longer but
+[00:37:08] normally it's short like very short. So
+[00:37:10] you do not need to plan for what happens
+[00:37:12] next year. You do not need to plan for
+[00:37:15] that long time later. You just plan for
+[00:37:18] the most nearest future like what are
+[00:37:20] you going to do next week or what are
+[00:37:22] you going to do next two weeks. So it
+[00:37:24] becomes very relevant because things may
+[00:37:27] change in the future right but the most
+[00:37:29] relevant the most prioritized in the
+[00:37:31] near future are the most important. So
+[00:37:33] this is a sprint and you set a number of
+[00:37:35] tasks to be completed in the team for
+[00:37:37] that sprint.
+[00:37:40] So this is a sprint and after that
+[00:37:43] sprint so uh another uh part of fast
+[00:37:47] feedback is feedback within your own
+[00:37:50] groups. So after that sprint you provide
+[00:37:53] feedback to each other. You do some like
+[00:37:56] review within the team like how did we
+[00:37:58] go this week or how did we go this
+[00:38:01] sprint? Did this tool work the best for
+[00:38:03] us? How was the process? Do we need to
+[00:38:07] change something? Remember that agile
+[00:38:09] emphasize flexibility like always
+[00:38:11] respond to changes. Right? So this is
+[00:38:14] why sprint is also important here. So uh
+[00:38:18] you have a review, you have some ritual
+[00:38:21] within your group and uh see like how
+[00:38:23] did things go and what needs to be
+[00:38:25] changed for next um sprint and also you
+[00:38:29] can set task for next sprint.
+[00:38:33] Time is fixed, scope is flexible and
+[00:38:36] only plan for the next sprint. Typically
+[00:38:38] have a release at the end of each
+[00:38:40] sprint. So at the end of each sprint you
+[00:38:42] should aim to bring some value
+[00:38:46] right remember that I emphasize value
+[00:38:49] right in documentation. So at the end of
+[00:38:51] each sprint you should bring some value
+[00:38:53] and typically
+[00:38:55] bring this value through a release but
+[00:38:58] we are not doing the real release in
+[00:38:59] this course but we are doing some demo.
+[00:39:02] So it's like a a release. It's showing
+[00:39:04] to the potential client that you are
+[00:39:07] making some value in that rate. Okay,
+[00:39:11] your question.
+[00:39:14] >> Sorry.
+[00:39:17] >> Uh are we going to test the release? Is
+[00:39:19] that
+[00:39:20] >> test the code?
+[00:39:21] >> Test the code. Um
+[00:39:24] good question. So for sprint one, uh we
+[00:39:27] haven't talked about testing yet. So uh
+[00:39:31] the way that you demonstrating that you
+[00:39:33] are bringing some value is through
+[00:39:35] showing what your project can do to your
+[00:39:38] project tutor.
+[00:39:40] So they will act as the class and did
+[00:39:43] you bring some value? Uh something like
+[00:39:45] that or what kind of value did you bring
+[00:39:48] after this spring?
+[00:39:51] Okay.
+[00:39:53] Um yep. Any question about sprint?
+[00:39:59] All good. Okay. Cool. Teamwork.
+[00:40:03] So uh I emphasize a lot about people. So
+[00:40:08] we'll also talk a bit about people. So
+[00:40:11] people people teamwork. So teamwork is
+[00:40:13] about people. So some key important
+[00:40:16] parts of teamwork. So how can we be
+[00:40:18] agile? How can we um help those people
+[00:40:21] in a first of all um teamwork contract?
+[00:40:28] Did we say that we don't want contract?
+[00:40:30] But now you're talking about contract.
+[00:40:33] So this contract is more like a living
+[00:40:36] living document. So it doesn't mean that
+[00:40:38] you can't change it when it's written
+[00:40:41] down or sent off like it's something
+[00:40:44] that you can always change but you need
+[00:40:47] to have a rule right so agile doesn't
+[00:40:49] means no process no rule there's still
+[00:40:51] some rules some process um so a contract
+[00:40:54] outlines the expectations and
+[00:40:56] responsibilities of the team member can
+[00:41:00] be changed right uh it should be a
+[00:41:02] living document that can be updated as
+[00:41:04] the team progresses it should be stored
+[00:41:06] in the team's uh repository it should be
+[00:41:09] agreed by all team members.
+[00:41:12] So I have prepared a teamwork contract
+[00:41:15] template for you on the course website
+[00:41:18] here. Um you do not need to strictly
+[00:41:21] follow this template. It's just for when
+[00:41:25] you are feeling lost, you don't know
+[00:41:27] where to start with. This is something
+[00:41:29] to help you kickstart this teamwork
+[00:41:31] contract. But you can have your own
+[00:41:33] version. Remember that we don't like
+[00:41:35] documentation or strict rules. We can be
+[00:41:37] flexible. Find something that is more
+[00:41:39] suitable for your own group. That's the
+[00:41:41] most important thing. But this is
+[00:41:42] something to help you get started. Okay.
+[00:41:45] So, purpose of this document is to set
+[00:41:48] Can you see clearly from the back?
+[00:41:52] Yep.
+[00:41:54] Okay. Cool.
+[00:41:56] So, set clear expectations about how you
+[00:41:59] your team work together, how you
+[00:42:01] communicate, and how you deliver. Treat
+[00:42:03] it as a living document. update it as
+[00:42:05] your team learns what works. Team name
+[00:42:09] that created this is for sprint one. Um
+[00:42:12] okay so traditionally uh each team
+[00:42:16] member will have a role
+[00:42:19] like who is the manager, who is the
+[00:42:22] developer. For developer there may be
+[00:42:24] also front- end developer, backend
+[00:42:26] developer, there may be also like
+[00:42:28] product owner. So this is um still very
+[00:42:32] popular use in industry but for more mo
+[00:42:35] more than a it emphasize more about
+[00:42:38] skills rather than roles. So people
+[00:42:41] share the responsibilities.
+[00:42:43] It doesn't means that I'm a front- end
+[00:42:45] developer. I do not need to take any
+[00:42:46] responsibility for back end or other
+[00:42:49] things like we share the same goals
+[00:42:52] right people share the responsibility.
+[00:42:54] So here uh we will I recommend so if you
+[00:42:58] prefer using rows no problem but my
+[00:43:00] recommendation is do not use rows but
+[00:43:03] use your primary skills and additional
+[00:43:06] skills like we share the roles.
+[00:43:10] Okay. Uh for the primary skills and
+[00:43:12] additional skills if you are not sure
+[00:43:14] you can also put something that you want
+[00:43:16] to learn. So for example you want to
+[00:43:18] learn about like the customer skills no
+[00:43:22] problem you can put that there. So you
+[00:43:24] can put more uh time on the customer
+[00:43:26] skills or you want to put more emphasis
+[00:43:29] on managing or leadership skills no
+[00:43:31] problem. Um so here are some recommended
+[00:43:35] skills that you can use. The first one
+[00:43:37] is called customer skill like
+[00:43:39] understanding user need product
+[00:43:41] management requirement ga gathering and
+[00:43:44] user experience. Um so next week we'll
+[00:43:48] talk about requirement and customer
+[00:43:50] needs. So spring one will also uh cover
+[00:43:54] some like deliverables about the
+[00:43:56] customer needs. So I recommend each
+[00:44:00] group has at least one person that can
+[00:44:03] focus a little bit more on this one. Um
+[00:44:07] yep especially if this is some few that
+[00:44:09] you want to deliver uh develop through
+[00:44:12] the course. Uh the next one is
+[00:44:14] development skills. This include
+[00:44:16] programming, testing, design,
+[00:44:18] architecture, technical implementation.
+[00:44:21] Uh if this is something that you want to
+[00:44:23] learn, practice, contribute in the group
+[00:44:26] for sprint one. Uh put that uh under
+[00:44:30] your name. Coaching skills. This include
+[00:44:32] facilitation, mentoring, process
+[00:44:34] improvement, team coordination. You may
+[00:44:36] feel like I'm not the most smart,
+[00:44:38] smartest person in the group. Can I use
+[00:44:40] these skills? No problem. So uh this
+[00:44:44] people uh who are like focusing more on
+[00:44:48] their skills will coordinate the team
+[00:44:50] meetings, coordinate a team standups
+[00:44:53] like uh catch up with people. It's a
+[00:44:55] great opportunity to develop leaders
+[00:44:57] leadership skills,
+[00:45:00] right? It doesn't need you to be the
+[00:45:02] smartest or the people who are best at
+[00:45:04] coding in your group. Doesn't have to
+[00:45:06] be.
+[00:45:08] Okay? There may be other skills that you
+[00:45:10] want to add. So here are just some
+[00:45:11] recommendations for you to start with
+[00:45:14] and uh each sprint you can change your
+[00:45:18] prior uh like what do you want to
+[00:45:20] prioritize. So you can have like I want
+[00:45:23] to prioritize on customer skills for
+[00:45:25] sprint one. No problem. Sprint two you
+[00:45:28] may want to say like I want to focus
+[00:45:30] more on development. You can do that. So
+[00:45:33] uh all you need to do is have a
+[00:45:34] discussion within your group and make
+[00:45:36] sure that you have people covering all
+[00:45:38] aspects.
+[00:45:40] But again people share the
+[00:45:42] responsibilities.
+[00:45:43] Any question about here so far?
+[00:45:50] All good. Okay. Cool. Um online people
+[00:45:54] if you have any question please feel
+[00:45:56] free to put in the chat and I'll get
+[00:45:58] back to you as soon as I see it.
+[00:46:03] Okay. So talking about communication
+[00:46:05] plan um the primary communication
+[00:46:09] platform you need to agree with one uh
+[00:46:13] strongly recommending Microsoft teams uh
+[00:46:16] because this is the platform or channel
+[00:46:19] that that your project tutor will look
+[00:46:21] after if you use WhatsApp or discord
+[00:46:25] like your tutor will have no access and
+[00:46:28] in case just in case there's any
+[00:46:30] conflicts happen in the later stage like
+[00:46:33] we cannot take that into consideration
+[00:46:36] if it's outside of Microsoft Teams,
+[00:46:39] but hopefully there's no conflict and we
+[00:46:41] do not need to have a look at any
+[00:46:43] communication history, but just in case.
+[00:46:47] Okay, cool. Uh we also recommend setting
+[00:46:51] up some meeting schedule so that
+[00:46:54] everyone can block that time slot in
+[00:46:56] their calendar and make sure that
+[00:46:57] everyone can attend that meeting. Um,
+[00:47:01] and I also recommend setting up a respon
+[00:47:03] time expectation like when like
+[00:47:07] within how many hours you expect a
+[00:47:10] response from your team member
+[00:47:13] recommendation again choose the best way
+[00:47:15] for your group. What if someone can't
+[00:47:17] attend a meeting? What would you do?
+[00:47:20] Okay. How are you going to uh distribute
+[00:47:23] work? What if someone can't complete
+[00:47:27] their task? Right. So something you need
+[00:47:30] to think ahead of time. Uh do and also
+[00:47:35] do you need a code review process?
+[00:47:39] Okay. Uh some team grant rules different
+[00:47:43] team may have different rules. We agreed
+[00:47:45] to we will not
+[00:47:48] uh conflict resolution. What if there's
+[00:47:50] a conflict? How are you going to resolve
+[00:47:52] it? Think ahead of time. Okay. Plan
+[00:47:55] ahead. uh quality standard. We'll talk
+[00:47:58] more about quality standard uh for
+[00:48:01] sprint two, but for now you can just put
+[00:48:03] whatever you think fit for your sprint
+[00:48:05] one for now. Uh if you update your
+[00:48:08] contract in sprint one, no problem. So
+[00:48:10] for example, you may have a first
+[00:48:11] version uh this week and next Monday you
+[00:48:14] feel like oh there's something need to
+[00:48:16] be changed or added, no problem. Update
+[00:48:18] it. Okay? But you need a history like
+[00:48:20] when you update it, why you update it so
+[00:48:23] people are on the same page.
+[00:48:26] Okay. Question. All good.
+[00:48:30] Any question?
+[00:48:34] Okay. No worries.
+[00:48:38] Where are we?
+[00:48:41] Cool. So, that's about the contract. So,
+[00:48:43] contract is one of uh teamwork contract
+[00:48:45] is one of the deliverables for spring
+[00:48:47] one. So, you can start working on that
+[00:48:49] in your week one lab and your tutor can
+[00:48:52] help you with that. Another
+[00:48:57] uh great starting point for agile is
+[00:48:59] called standups. So what is standup?
+[00:49:03] Standup means frequent often daily short
+[00:49:06] progress update meetings.
+[00:49:09] Does it have to be real meetings?
+[00:49:12] No. Like meetings is very time consuming
+[00:49:15] and you need to make sure that everyone
+[00:49:17] has time at that specific time every
+[00:49:19] day. That's so hard like but it is the
+[00:49:22] case in like a traditional software
+[00:49:24] teams people in the morning 10 am
+[00:49:27] everyone sit in the meeting room and
+[00:49:29] then talk about what you did yesterday
+[00:49:32] and how's your progress and share things
+[00:49:35] so this is the traditional way um but
+[00:49:38] nowadays people just do it whenever they
+[00:49:41] are available it doesn't have to be at
+[00:49:43] the same time for example I can update
+[00:49:45] in the morning like my work habit is
+[00:49:47] working in the morning I can update in
+[00:49:49] my like 8:00 a.m. And then some people
+[00:49:52] may like have like working habits. They
+[00:49:54] work at late night so they can do their
+[00:49:56] up day at like 12 p 12 a.m. or whatever,
+[00:50:00] right? So it's much more flexible.
+[00:50:04] And in the stand labs you answer three
+[00:50:07] questions.
+[00:50:09] What did I do? What problems did I face?
+[00:50:13] What am I going to do?
+[00:50:16] Why is this important?
+[00:50:20] Sorry.
+[00:50:24] Make sure everyone's on the same page.
+[00:50:26] Yes, that's one reason. Another reason,
+[00:50:31] why is this important? Why do we need to
+[00:50:33] do that? And we do it every day.
+[00:50:38] >> Uhhuh.
+[00:50:43] >> Yeah. Uhhuh. So in case everyone's
+[00:50:47] facing any problem, challenges,
+[00:50:49] obstacles and make sure that people are
+[00:50:51] aware of it and can help solve the
+[00:50:53] problem as soon as possible. Right? uh
+[00:50:56] because in industry or in software
+[00:50:58] groups a lot of the times like people
+[00:51:00] working on the features or things that
+[00:51:03] are dep are dependent on each other. So
+[00:51:06] this is very often so if I got stuck
+[00:51:09] someone who are waiting for my
+[00:51:11] deliverable may also get stuck and
+[00:51:13] people who are working on this one may
+[00:51:15] also get stuck. So any obstacles needs
+[00:51:17] to be solved as soon as possible. So
+[00:51:20] this is why it is important.
+[00:51:23] Yep. And also the last question, what am
+[00:51:25] I going to do? Making sure that people
+[00:51:27] other people on our team knows what
+[00:51:29] you're going to do tomorrow, right? So
+[00:51:31] that they can plan based on your plan.
+[00:51:36] Okay. Um and you do not need to spend
+[00:51:38] too long for these standups. So maximum
+[00:51:42] maximum maximum 15 minutes per day. So I
+[00:51:45] think two or three minutes per day will
+[00:51:47] be quite enough. you just need to
+[00:51:49] reflect a little bit on how everything's
+[00:51:52] going, right? But for sprint one, we
+[00:51:55] will not require you to do this every
+[00:51:57] day because first of all, there's not
+[00:51:59] much to do in sprint one. Like there's
+[00:52:01] not much uh task or updates that you
+[00:52:04] need to do. So we only ask for two
+[00:52:06] standup per week that will be enough and
+[00:52:09] there's not that much like uh
+[00:52:11] dependencies among each other's work. So
+[00:52:14] we don't ask you to do that every day.
+[00:52:16] Um, okay.
+[00:52:20] >> Yeah, sure.
+[00:52:28] >> How do a manager deal with people who
+[00:52:30] are not submitting anything?
+[00:52:34] >> Uhhuh.
+[00:52:36] >> Yeah.
+[00:52:38] >> Uhhuh.
+[00:52:40] >> Uhhuh.
+[00:52:42] >> Uhhuh. So
+[00:52:44] how do
+[00:52:48] >> Yeah. So how do we how do we address
+[00:52:50] this problem? Any thoughts
+[00:52:54] for people who had some group project
+[00:52:56] experience?
+[00:52:59] >> Sorry.
+[00:53:03] >> Okay. So they got performance
+[00:53:05] improvements fans. Yeah. Any other
+[00:53:08] thoughts? That's very formal. [laughter]
+[00:53:11] Yeah. Any other ones?
+[00:53:15] G contribution?
+[00:53:20] Yes. So, uh this is something that I use
+[00:53:24] for my another course. Uh like we check
+[00:53:27] their g contribution with marking. So, g
+[00:53:30] a lot checking contribution for uh each
+[00:53:33] one's uh what but that course is more
+[00:53:36] like web development or coding course.
+[00:53:39] about this course there are a lot of
+[00:53:40] ways to contribute right not just coding
+[00:53:43] programming but there are other ways to
+[00:53:44] contribute
+[00:53:46] um yeah that's a way uh any other
+[00:53:49] thoughts like what do you do like
+[00:53:51] thinking about in your group right
+[00:53:54] there's one group member who's not
+[00:53:57] responding to things who's not
+[00:53:58] contributing anything is there anything
+[00:54:01] that you can do
+[00:54:13] Uh
+[00:54:14] >> we can skip this part. [laughter]
+[00:54:17] >> If it's not responding at all, we can
+[00:54:19] just skip their part. So um
+[00:54:27] >> talk to the tutor.
+[00:54:29] >> Yeah. Communicate. Yeah. So my
+[00:54:32] recommendation is try to get in touch
+[00:54:34] with them first of all. Uh try to
+[00:54:38] connect with uh contact them through
+[00:54:40] teams message emails. Um but if they are
+[00:54:44] not responding 24 72 hours. Uh my first
+[00:54:49] thing is a little bit concerned about
+[00:54:52] their safety
+[00:54:55] like um yeah so yeah there are cases
+[00:54:59] here happen in US like students are not
+[00:55:01] responding in 72 hours we are really
+[00:55:04] actually concerned about their safety. I
+[00:55:06] called security last term because of a
+[00:55:09] student like not responding to anything
+[00:55:12] for more than 72 hours.
+[00:55:14] So if it happens to your group, report
+[00:55:17] to your tutor. We'll double check if
+[00:55:19] they are active
+[00:55:22] like making sure that they are safe. Um
+[00:55:25] the other thing is
+[00:55:28] skip their work for that period. So
+[00:55:32] remember that we are a group like you
+[00:55:35] can think of your group as a startup,
+[00:55:38] right? Individual success is not success
+[00:55:41] for the startup. A group success is a
+[00:55:44] real success,
+[00:55:46] right? Just thinking about how you can
+[00:55:48] actually bring value at the end of the
+[00:55:50] sprint. That's the goal. That's the
+[00:55:52] focus. Like how you can bring value at
+[00:55:55] the end of the sprint.
+[00:55:57] So that's the end goal. And you work
+[00:55:59] back from that.
+[00:56:02] Does that make sense? But talking with
+[00:56:04] our tutor is for sure, but it it's for
+[00:56:06] marking purposes. Yeah. But for the
+[00:56:09] group success, you think from the end
+[00:56:12] value of that sprint, right? How you can
+[00:56:14] actually get the most from that sprint.
+[00:56:17] That's the goal.
+[00:56:19] Okay. For a perspective, but for
+[00:56:21] marketing perspective, talk to your
+[00:56:23] tutor. For safety perspective, risk to
+[00:56:25] me or tutor. Okay.
+[00:56:29] Any other questions so far about
+[00:56:31] standups?
+[00:56:35] Cool. Uh for stand up, I also prepared a
+[00:56:40] standup guide here. Again, this is a
+[00:56:43] general guide. Find the best way for
+[00:56:45] your group. Okay. Um but we are going to
+[00:56:48] do standups for the rest of the week
+[00:56:50] starting from this week till the end of
+[00:56:52] the term which is week 10. And for each
+[00:56:55] spring will require different number of
+[00:56:57] sprint. And spring one is the easiest
+[00:56:59] one only two sprint. That's it. And
+[00:57:02] actually you can do one stand up during
+[00:57:05] your lab class
+[00:57:07] and you can have your tutor involved in
+[00:57:09] that stand up. So your tutor can provide
+[00:57:12] feedback on how is your progress, how to
+[00:57:15] solve the potential blockers
+[00:57:18] um and other things. So your tutor can
+[00:57:20] also be on the same page as how your
+[00:57:22] group uh works together.
+[00:57:26] Okay. So but it's not a status report to
+[00:57:28] the tutor. is more for the team to be on
+[00:57:32] the same page. It's not a long meeting
+[00:57:36] up to 50 minutes. I feel like two to
+[00:57:38] three minutes per person is plenty. Not
+[00:57:41] only one convenient, it's a
+[00:57:46] and here's the example stand up in teams
+[00:57:48] channel. So this example I did put some
+[00:57:52] uh rows uh after each name but you do
+[00:57:55] not need to put that. Uh you can just
+[00:57:57] put like p uh primary skills or
+[00:58:00] whatever. Um so this is there you can
+[00:58:03] see some examples about join like or
+[00:58:05] join did set up the repo help team with
+[00:58:07] g today work on user story estimation
+[00:58:10] blocker none. Uh there's a block I need
+[00:58:13] clarification on requirement. There's a
+[00:58:15] blocker stuck on merge request conflict
+[00:58:17] need help and some update and at the end
+[00:58:22] recommendation is to have a action
+[00:58:24] items.
+[00:58:27] You notice the blockers some people are
+[00:58:30] stuck. You need actions
+[00:58:32] otherwise stand up is just a document.
+[00:58:34] It's not helpful,
+[00:58:36] right? So you need actions. So here are
+[00:58:38] the action items. So you need a one
+[00:58:42] person. So normally the one who want to
+[00:58:44] develop their leadership skills or
+[00:58:46] coaching skills to initiate this
+[00:58:48] standups. So you need to allocate one
+[00:58:51] person based on discussion. So who are
+[00:58:53] going to initiate the standups right? So
+[00:58:55] normally it's the person who want to
+[00:58:56] work on the leadership skills.
+[00:58:59] Um so if you want to do three springs uh
+[00:59:02] sorry three stand up per spring that's
+[00:59:04] perfect. You can do a Monday one,
+[00:59:06] Wednesday one, Friday one but minimum is
+[00:59:08] two for spring one.
+[00:59:11] uh some like questions to answer for
+[00:59:14] each screen, some ideas on how to make
+[00:59:16] good quality stand out. For example, be
+[00:59:19] specific, right? So, this is example,
+[00:59:22] write two user stories, not work on some
+[00:59:24] stuff or wrote some code. Who knows what
+[00:59:28] you did, right? Um and what is blocking
+[00:59:31] me? Saying none if nothing is blocking
+[00:59:34] you. However, if you got stuck, just be
+[00:59:37] transparent,
+[00:59:39] right?
+[00:59:40] communicate, letting people know that
+[00:59:42] you are stuck, people will help. Okay.
+[00:59:46] Uh there are some really bad examples
+[00:59:48] I'm going to show you. So, this is a
+[00:59:49] very bad one. Super super long. Uh it's
+[00:59:52] hard for people to rate and catch up
+[00:59:55] with your progress. So, keep it short,
+[00:59:58] very briefly. And this is another one
+[01:00:00] that's really not good, like very vague.
+[01:00:03] Yesterday, worked on the project. We
+[01:00:06] know you are working on a project,
+[01:00:07] right? today. Keep working. What are you
+[01:00:10] keep working on? Right? And bloggers,
+[01:00:13] man. So, we need to be specific so
+[01:00:16] people can know what you're doing and
+[01:00:18] can actually help you.
+[01:00:22] And there need to be a person to post
+[01:00:24] these standups. Ensure everyone
+[01:00:26] participate. So, if one of them is not
+[01:00:30] participating, reach out to them
+[01:00:32] personally and letting them know
+[01:00:34] reminding them to do it. However, we
+[01:00:36] can't force them to do it. Your role is
+[01:00:39] just reminding them to make sure that
+[01:00:41] they know there's standups going on.
+[01:00:44] >> Yeah. Question.
+[01:00:45] >> From a perspective, these standups are
+[01:00:48] supposed to be
+[01:00:50] like
+[01:00:51] >> you just post on the team. Yeah. Yeah.
+[01:00:54] So, here's a template for the leadership
+[01:00:57] role to post in their teams.
+[01:00:59] >> Yeah. A synchronous. Yeah, that's a good
+[01:01:01] term. Yeah. A synchronous. Yeah. But if
+[01:01:03] you want to do it in a meeting like
+[01:01:05] synchronous version synchronous no
+[01:01:07] problem if you can figure out time to do
+[01:01:09] it. Yep.
+[01:01:13] >> Mhm.
+[01:01:16] >> Meeting we can also see like meeting
+[01:01:18] minutes recordings is also okay. Yep. So
+[01:01:21] as long as you have something to show
+[01:01:23] it's okay.
+[01:01:25] >> Yeah. Yeah. You can record that. You can
+[01:01:27] have a recording for if you do a meeting
+[01:01:29] for the standup. Uh record that. Yeah.
+[01:01:34] >> Yeah. Okay. All good. Are some more uh
+[01:01:39] tips? Uh red flags. These are for you to
+[01:01:42] read after the lecture. If I read it
+[01:01:44] now, it would be too boring for
+[01:01:45] everyone.
+[01:01:48] Any other question about standups?
+[01:01:53] >> How do
+[01:01:57] how do the stand up be marked? So tutors
+[01:02:00] needs to see standups at least twice per
+[01:02:03] week to see that it's happening and see
+[01:02:06] everyone is contributing to standups.
+[01:02:10] So let me show you.
+[01:02:17] >> Mhm.
+[01:02:19] Yep. So stand up is individual marked.
+[01:02:25] Okay. Yeah. Any
+[01:02:30] other question about standups?
+[01:02:35] Oh, good.
+[01:02:37] I forgot recording. Oh my goodness.
+[01:02:45] >> Uh the question is when do we need to
+[01:02:47] start stand up? From this week.
+[01:02:51] >> Yeah. Other question.
+[01:02:53] >> Anytime.
+[01:02:55] >> Yeah. Anytime. You just
+[01:02:58] uh discuss with your team.
+[01:03:01] Any other question?
+[01:03:06] No, no, no, no. Okay, cool. So, this is
+[01:03:11] standups
+[01:03:12] uh weekly meetings. So, we are not
+[01:03:14] requiring any requiring any weekly
+[01:03:17] meetings for sprint one simply because
+[01:03:19] there's not much things to do for sprint
+[01:03:21] one. But starting from sprint two uh at
+[01:03:25] least one weekly meeting per week. Uh
+[01:03:28] it's just a longer standup like people
+[01:03:31] can do some par coding can have somehow
+[01:03:34] discussions planning solve problems
+[01:03:37] together or anything. So these are just
+[01:03:40] longer standups. Uh it's synchronous and
+[01:03:44] standup is a synchronous right? Uh meet
+[01:03:46] at least a week. You can do this during
+[01:03:48] your lab session for sure. Uh but you
+[01:03:50] need to have a meeting minutes. So what
+[01:03:52] is a meeting minutes? So it's the notes
+[01:03:56] after your meeting.
+[01:03:58] So that's meeting minutes, right?
+[01:04:03] >> You can do it during your t tutorial.
+[01:04:05] Yeah.
+[01:04:07] >> Yes. Yes. Yeah. Yeah.
+[01:04:10] So you can take notes about who attended
+[01:04:13] that meeting, optional agenda,
+[01:04:15] discussion points, actions. So you can
+[01:04:17] have those in your meeting minutes. But
+[01:04:20] again, be flexible. You do not need to
+[01:04:22] strict following this. You can have
+[01:04:24] something that fits the best for your
+[01:04:26] group.
+[01:04:28] Okay. So, let's have a break and we will
+[01:04:31] talk about task and ticket board. Come
+[01:04:34] back at 710 10 7
+[01:04:39] 5 minutes. Oh, six minutes break.
+[01:18:32] Sorry online. Sorry, sorry, sorry. I
+[01:18:34] forgot about you.
+[01:18:40] Yes, we are we have started. So, um just
+[01:18:42] repeat what we are talking about. So, we
+[01:18:44] are talking about how to add issues. So,
+[01:18:47] issues is a way of organizing tasks. So,
+[01:18:50] you can go to your group projects, click
+[01:18:53] on uh manage. Oh, sorry. Plan. And
+[01:18:56] here's the issue. So, here I have one
+[01:18:58] issue and you can add another one by
+[01:19:00] clicking on new item. Give it a title. I
+[01:19:04] can say uh
+[01:19:06] feature
+[01:19:08] adding tasks.
+[01:19:11] And you can give it a description. For
+[01:19:14] example, you can say a task leak uh task
+[01:19:18] leak research
+[01:19:21] um
+[01:19:23] flask
+[01:19:25] and you can do uh back end
+[01:19:30] for adding tasks
+[01:19:34] and front end but you can uh but my
+[01:19:37] recommendation is not putting everything
+[01:19:39] here that will be a very big issue. So
+[01:19:42] I'm just
+[01:19:43] doing some list here but my
+[01:19:45] recommendation is having multiple uh
+[01:19:48] issues like maybe one issue for one of
+[01:19:52] them like one issue for research on
+[01:19:53] flask one issue on back end um for
+[01:19:56] adding tasks so it's more um easier it's
+[01:20:01] easier to track and then you can create
+[01:20:03] this issue okay and you can see this
+[01:20:06] issue board here you can have open close
+[01:20:09] you can move things around you can drag
+[01:20:12] Yep. So this is the issue board. So uh
+[01:20:15] you can start working on this from this
+[01:20:17] week uh in your next meeting. So you can
+[01:20:21] start like I want to work on for example
+[01:20:24] uh development skills. So I'm going to
+[01:20:25] assign some issues for myself on this
+[01:20:28] one and you may have assign other people
+[01:20:31] to review it. You can say oh please
+[01:20:33] review it when I finish uh doing this
+[01:20:35] feature or whatever. So this looks like
+[01:20:38] a
+[01:20:39] >> it's like Jerro but the easier one,
+[01:20:41] simpler one.
+[01:20:43] >> Yeah. So uh the question is it's like a
+[01:20:45] jerro board. Yes, it's like a Jerobo or
+[01:20:48] cabin board or like there a lot of
+[01:20:50] different versions for this. But the
+[01:20:52] reason that we are using the GitLab
+[01:20:54] issue board is because it's integrated
+[01:20:56] with GitLab. You don't need to go to
+[01:20:58] another platform yet. So GitLab is
+[01:21:00] plenty enough for this purpose.
+[01:21:04] Sorry, I'll keep track of online.
+[01:21:10] Okay, cool. So, this is issue board. So,
+[01:21:14] you may notice that under each issue
+[01:21:16] there's a number.
+[01:21:19] This is the issue number. How can you
+[01:21:21] use this issue number? You can actually
+[01:21:24] use it in your commit messages.
+[01:21:28] When you commit a message or when you
+[01:21:30] merge a feature branch to your main
+[01:21:33] branch, you can say close
+[01:21:36] number two and number two will be
+[01:21:39] automatically closed.
+[01:21:42] So this is how you can use g together
+[01:21:45] with issue bot.
+[01:21:49] Okay. So when you commit something, when
+[01:21:51] you merge and feature branch, uh people
+[01:21:54] know which issue this is about.
+[01:21:59] Okay,
+[01:22:01] cool. Uh I'm not sure if I have time to
+[01:22:03] demo that, but it's pretty
+[01:22:05] straightforward. Uh you can also find
+[01:22:08] some instructions on the slides.
+[01:22:11] It looks like this. So when you uh write
+[01:22:14] your commit message at one line about
+[01:22:17] close dash one or -2 it means that close
+[01:22:21] issue one or issue two and it will
+[01:22:23] automatically close on Gitlab.
+[01:22:26] Okay. So issues represent the work
+[01:22:29] commits recommend represent the
+[01:22:31] implementation and merge requests
+[01:22:33] represent review and integration. So
+[01:22:35] everything comes together now
+[01:22:38] right? So everyone's connected and
+[01:22:40] linked with each other. Pair
+[01:22:42] programming. Uh so this is not required
+[01:22:45] in the course as well. But if your goal
+[01:22:47] for one of your goals for this course is
+[01:22:49] to learn programming or coding. Uh what
+[01:22:52] you can do is you can do pair
+[01:22:54] programming with someone in your group.
+[01:22:56] Uh how it works is uh two programmers,
+[01:22:59] one computer and one keyboard and they
+[01:23:01] take turns uh to write code but discuss
+[01:23:04] as they go. It's called peer
+[01:23:06] programming.
+[01:23:08] is for learning purposes. If this is
+[01:23:10] your bow, uh you can use this
+[01:23:12] methodology
+[01:23:14] handling conflict.
+[01:23:17] So people are messy, right? So uh every
+[01:23:21] where like not just student groups but
+[01:23:24] everywhere when there's people there's
+[01:23:27] some messy. So um the most important
+[01:23:32] thing you can do in a group work
+[01:23:33] situation is constantly communicate with
+[01:23:35] your team members and tutor. So
+[01:23:37] communication, communication,
+[01:23:38] communication, communication,
+[01:23:39] communication. So I found like
+[01:23:41] communication can solve the majority of
+[01:23:43] the conflicts. And I once found on
+[01:23:46] Reddit a student post that in my group
+[01:23:48] project I haven't heard from or haven't
+[01:23:51] connect communicate with my group member
+[01:23:52] for three weeks. I was like what like
+[01:23:56] even if no progress even if you are
+[01:23:59] stuck or what for whatever reason you
+[01:24:01] need to communicate
+[01:24:03] right like other people will know how
+[01:24:06] you are going um yeah so communicate
+[01:24:08] communicate okay so here are some
+[01:24:10] situations that I want you to think
+[01:24:12] ahead of time the first one I know more
+[01:24:15] than my group members what if this is
+[01:24:18] your
+[01:24:26] What would you do?
+[01:24:29] >> Yes. Take a break
+[01:24:33] or learn something different, develop
+[01:24:35] some other skills, right? In this
+[01:24:37] course, in this group project, there are
+[01:24:39] a lot of skills that you can develop.
+[01:24:41] Choose something that you want to learn
+[01:24:44] and you can spend your time, right?
+[01:24:47] um or work on other assignments.
+[01:24:51] Um yeah,
+[01:24:54] what if my crew members aren't doing
+[01:24:56] enough? So this is related to the
+[01:24:59] question that were asked earlier like
+[01:25:00] what if my team members not
+[01:25:02] contributing? Communicate, communicate,
+[01:25:05] communicate, communicate. Try to
+[01:25:06] communicate with them. Right? If nothing
+[01:25:09] works, talk with your tutor.
+[01:25:11] Okay? But just keep communicating. It
+[01:25:14] doesn't mean that they do not response
+[01:25:16] for once. They may respond the second
+[01:25:18] time. Okay. Micro members have just
+[01:25:22] disappeared.
+[01:25:25] Oh my goodness. Message your disappeared
+[01:25:28] group members
+[01:25:30] asking them where they are. Making sure
+[01:25:33] that they are safe. If no respondents
+[01:25:36] from them for more than 72 hours,
+[01:25:39] report, right? I I will need to contact
+[01:25:42] them. uh micro members are merging in
+[01:25:46] broken code. They are not like assigning
+[01:25:48] anyone to review their code but they
+[01:25:50] merge directly into men. What should I
+[01:25:53] do?
+[01:25:57] >> Revert.
+[01:25:59] What else?
+[01:26:03] >> Ask them. Yeah. Why? Why did you do
+[01:26:05] that? Right? Maybe they didn't realize
+[01:26:08] that. Maybe that's the case. they need
+[01:26:10] help but they are just too shy or they
+[01:26:13] don't want to feel like idiot so they
+[01:26:15] are not asking but no one's idiot just
+[01:26:17] ask for help right so message them and
+[01:26:20] politely asking them to stop doing that
+[01:26:23] uh if they don't respond positively or
+[01:26:26] uh you can email your tutor but just
+[01:26:28] checking in with them and making sure
+[01:26:30] that they know what they are doing maybe
+[01:26:32] they are just don't know how g works
+[01:26:35] they accidentally merged in something
+[01:26:39] Um, oh, what if my group members are
+[01:26:41] being rude?
+[01:26:45] What would you do?
+[01:26:48] Cheetah. Yeah. What else?
+[01:26:54] Politfully ask them to stop doing that.
+[01:26:58] If they don't respond positively or
+[01:27:00] change, email your tutor. Yep. And if
+[01:27:04] you are noticing any trend like they are
+[01:27:07] not changing their behavior
+[01:27:10] message your tutor [laughter]
+[01:27:12] or change your own plan right be
+[01:27:16] flexible like the end goal is the value
+[01:27:19] of your project right so that's the end
+[01:27:23] goal
+[01:27:25] okay so here are everything about the
+[01:27:28] aio software team practices so uh we are
+[01:27:32] going to use what we learned today from
+[01:27:35] this week till the end of the term till
+[01:27:38] week 10. So everything standard blah
+[01:27:41] blah blah issue blah blah blah blah. So
+[01:27:43] everything okay cool. Um okay okay so
+[01:27:48] the plan any questions about this
+[01:27:51] lecture?
+[01:27:54] Okay. So, the plan uh was to talk about
+[01:27:58] the sprint one.
+[01:28:01] Uh
+[01:28:04] I won't be able to finish everything in
+[01:28:06] this lecture. So, uh I will continue
+[01:28:09] talking about doing demos, explaining
+[01:28:12] the code and stuff in our next lecture.
+[01:28:14] Okay. So, have anyone read this
+[01:28:17] guideline?
+[01:28:20] Yeah. Okay. So, can anyone tell me what
+[01:28:23] the project is about?
+[01:28:26] >> Task tracker. Taskport. Yeah. What else?
+[01:28:33] Yeah.
+[01:28:35] No. Okay. I thought you raised your
+[01:28:37] hand. Uh, oh, good. So, yes, this is a
+[01:28:40] task. So, this is what we are going to
+[01:28:42] do in this project. Uh, and for now, I
+[01:28:47] only released the sprint one guideline.
+[01:28:50] The reason is because I don't want you
+[01:28:52] to overwhelm you with too much
+[01:28:54] information that you haven't learned
+[01:28:56] yet. Um, but the f I think this is a
+[01:29:00] very useful part of the spring one
+[01:29:02] guidelines. So I break it down for like
+[01:29:05] week week by week. So you have a weekly
+[01:29:07] planner. So as long as you are on track
+[01:29:10] for this weekly planner, you have no
+[01:29:14] problem. Okay? It'll be all good. So if
+[01:29:17] you fall feel like you fall behind a
+[01:29:19] little bit, no worries at all. We we are
+[01:29:22] still just in week two. We just started
+[01:29:25] week two. Actually, we only have one
+[01:29:26] week left. So catch up with week one
+[01:29:29] content and then get started with the
+[01:29:32] week two uh things. Uh and if you can't
+[01:29:36] finish everything for week two, you do
+[01:29:38] not need to worry or like stress too
+[01:29:41] much yet. uh you still have weeks three
+[01:29:44] because sprint one is due on week four
+[01:29:48] Monday. So there's no weekly
+[01:29:50] deliverable. So we will not ask you to
+[01:29:52] demonstrate what do you do in week two?
+[01:29:54] Have you finished everything for week
+[01:29:55] two? We will not do that. So we we you
+[01:29:58] have some flexibility. So sprint one is
+[01:30:00] due on week four Monday. So if you fall
+[01:30:03] behind a little bit, no worries. Just
+[01:30:04] try to keep up to date, keep on track.
+[01:30:08] Okay. Um so this week's task is actually
+[01:30:12] a mix of easy and challenging tasks. The
+[01:30:16] easy ones are group contract at task on
+[01:30:20] issue board uh and standups. So these
+[01:30:23] are like easy marks, super super easy.
+[01:30:26] As long as you follow the practices, the
+[01:30:29] process, you do the things you'll get
+[01:30:31] the marks very easy. But this one is
+[01:30:34] challenging. So add new features to
+[01:30:36] start a code. uh like following Git
+[01:30:38] practice is not challenging but this
+[01:30:40] part is the challenging one especially
+[01:30:42] for those who do not have any front end
+[01:30:45] and the back end development experience.
+[01:30:48] Uh if you don't know various at all you
+[01:30:51] do not need to stress again not need to
+[01:30:52] stress uh so you can have a look at the
+[01:30:55] marking criteria for sprint one you will
+[01:30:58] notice that the feature demo which is
+[01:31:00] about the add and delete stuff so adding
+[01:31:02] new features it only takes five marks
+[01:31:05] out of 30 marks. So this is these are
+[01:31:08] the challenging marks. You can still get
+[01:31:10] good marks from other parts. For
+[01:31:12] example, git merge request user throw
+[01:31:15] user throw we will talk about next week
+[01:31:17] issue board spring retro and your
+[01:31:19] individual marks. So if you cannot get
+[01:31:22] full marks for features, you do not need
+[01:31:25] to stress too much. You still can get a
+[01:31:28] good marks.
+[01:31:30] Okay. So this is I want to make sure
+[01:31:32] that you are not stressed because I know
+[01:31:34] this can be challenging for people with
+[01:31:36] no front end back end development
+[01:31:38] experience. So what you can do is you
+[01:31:40] can use the time during sprint one to
+[01:31:43] catch up with some front and backend
+[01:31:45] development things like this is not the
+[01:31:47] focus of the course like web development
+[01:31:50] is not what we want to teach in this
+[01:31:52] course. However, I know there are people
+[01:31:54] who enrolled in this course have no
+[01:31:56] prior experience in that. So I will
+[01:31:58] teach a bit every week. So every week I
+[01:32:01] will teach a little bit about front and
+[01:32:03] back end development
+[01:32:05] but some self-arning still required. If
+[01:32:08] you have no prior experience but no
+[01:32:11] stress uh it doesn't mean that you have
+[01:32:13] no prior experience in that you cannot
+[01:32:15] get a good marks you can still get a
+[01:32:16] good marks. This is what I want to
+[01:32:18] emphasize. Okay. So this week's task had
+[01:32:21] some challenging ones. If you cannot
+[01:32:23] finish this task you can continue
+[01:32:25] working on that next week. Remember that
+[01:32:27] spring one is due in week four Monday.
+[01:32:29] It's not due at the end of this week.
+[01:32:32] Okay, cool. So, let's talk about the
+[01:32:35] task for spring one. Uh, next week we'll
+[01:32:39] talk about user stories and sprint
+[01:32:42] retro. So, you do not need to worry
+[01:32:44] about that yet. Um, so what we have
+[01:32:47] learned for sprint one including the g
+[01:32:50] practice important important important
+[01:32:53] important important important very very
+[01:32:55] important. So if you haven't mastered it
+[01:32:57] yet, have a look at that uh the first
+[01:33:00] week content. So uh everything you do,
+[01:33:03] everything you pushed to your gitlab
+[01:33:05] report needs to follow those g practice
+[01:33:08] like for example merge requests, commit
+[01:33:10] message, everything.
+[01:33:13] So um I'll not repeat that again but
+[01:33:17] I'll try to do the demo again if we have
+[01:33:19] time. Okay. So participation and
+[01:33:22] standups. So this is an important one.
+[01:33:25] Um
+[01:33:27] so I think I p so two standups per week
+[01:33:32] during week two to three is required. We
+[01:33:35] are only talking about spring one. Okay.
+[01:33:36] So we'll talk more about spring two
+[01:33:38] later later later later. And during a
+[01:33:40] lab class in week two to three you and
+[01:33:42] your team will conduct short one short
+[01:33:44] stand up in present of your tutor. So
+[01:33:46] this is to make your life easier. So you
+[01:33:49] can do one stand up during your lab
+[01:33:50] session and you only have one more to do
+[01:33:54] in another day of the week. So this is
+[01:33:55] to make your life easier. Each member of
+[01:33:58] the team will briefly state what you
+[01:33:59] have what they have done in the past
+[01:34:01] week or past day or past few days, what
+[01:34:04] they intending to do during the next
+[01:34:05] week or next couple of days, what issues
+[01:34:08] they have faced and currently facing.
+[01:34:10] You can use the standup guide from here
+[01:34:13] at a corner here.
+[01:34:15] Uh yep. So your tutors may also make
+[01:34:20] notes of your presence and ask you to
+[01:34:22] elaborate on the work you have done.
+[01:34:24] They may ask you questions like why you
+[01:34:27] are doing what you are doing something
+[01:34:29] like that. So they just want to make
+[01:34:30] sure that you know what you are doing.
+[01:34:33] Okay? Because the course is like the
+[01:34:36] first spring is the easiest part like
+[01:34:38] the marks are easiest to get for spring
+[01:34:41] one. Spring two a little bit more
+[01:34:42] challenging and spring three is the most
+[01:34:45] challenging part. So you need to build a
+[01:34:48] solid foundation in sprint one. So your
+[01:34:50] tutor will be there to make sure that
+[01:34:52] you are building a solid foundation.
+[01:34:56] Okay. Uh and project checkins or those
+[01:34:59] standups during the lab sessions are
+[01:35:00] excellent opportunities for a tutor to
+[01:35:02] provide you with both technical and
+[01:35:04] nontechnical guidance. So for
+[01:35:05] nontechnical guidance they may include
+[01:35:07] like teamwork contract issue board uh
+[01:35:10] group anything right. So any question,
+[01:35:14] any concern, raise with your tutor as
+[01:35:16] early as possible. Can you see clearly
+[01:35:18] from the back? Sorry, I forgot to ask.
+[01:35:20] Do you need me to make it larger?
+[01:35:24] Yes. Okay. Next time, feel free to raise
+[01:35:27] your hand. Okay. Um.
+[01:35:31] Yep. Cool. Uh, another task you need to
+[01:35:34] do for iteration one is the teamwork
+[01:35:37] contract. So uh template is provided
+[01:35:40] here through this link on the course
+[01:35:42] website. Uh another thing about teamwork
+[01:35:44] is at the end of each iteration we are
+[01:35:48] going to do a teamwork evaluation. So
+[01:35:51] this teamwork evaluation is not for
+[01:35:53] marking. It's for one the children know
+[01:35:57] how your groups are going.
+[01:36:00] Two help your group to reflect and plan
+[01:36:04] for the next sprint.
+[01:36:07] Okay. So try to make sure that you are
+[01:36:10] following this. So for example, you are
+[01:36:12] participating. Your team members will
+[01:36:15] review your participation at the end of
+[01:36:17] that sprint. Okay. Make sure that you
+[01:36:19] are being dependable like when people
+[01:36:23] need your help, need your deliver, need
+[01:36:25] your something, you are being dependent.
+[01:36:28] Team well-being. So you are not being
+[01:36:30] rude.
+[01:36:32] Okay? you are trying to communicate or
+[01:36:35] you are helping with other people
+[01:36:37] listening to concerns providing
+[01:36:39] feedback. So these are about team uh
+[01:36:42] well-being and work contribution like
+[01:36:44] how much work you have contributed. So
+[01:36:46] this is about the teamwork contri uh
+[01:36:48] teamwork evaluation. Um next week we'll
+[01:36:51] talk about planning.
+[01:36:54] Okay. Um question
+[01:36:58] >> about that practice. We were doing the
+[01:37:01] practice.
+[01:37:08] >> Uh which practice did you mean
+[01:37:12] >> gate practice?
+[01:37:13] >> Yeah.
+[01:37:14] >> Uh
+[01:37:15] like by practice I'm not mean the
+[01:37:18] exercise the activity but the how you do
+[01:37:22] gate.
+[01:37:23] >> So that is what I mean. So, uh, here's a
+[01:37:26] link. You can click on that and you can
+[01:37:28] see it. It shows you what makes good
+[01:37:31] commit good commit messages, some
+[01:37:34] examples, and how to make good commit
+[01:37:36] merge requests. So, I have talked about
+[01:37:39] this in last week's lecture. So, there's
+[01:37:41] nothing new. This is just to summarize
+[01:37:44] what I mentioned in last week's lecture.
+[01:37:49] by
+[01:37:51] >> uh you can read it whenever you are
+[01:37:52] afraid but these are actually already
+[01:37:54] covered in last week's lecture.
+[01:37:57] >> Yeah.
+[01:38:00] Cool.
+[01:38:03] All righty.
+[01:38:06] Um in terms of marking rubric this is
+[01:38:10] for anyone who is interested in knowing
+[01:38:12] the rubrics but the important thing is
+[01:38:15] some group marks and some individual
+[01:38:17] marks and submission deadline for sprint
+[01:38:20] one is week 4 Monday 12 p.m.
+[01:38:24] To submit your work, simply push
+[01:38:27] everything to GitLab main branch.
+[01:38:32] That is how we submit. Uh there are some
+[01:38:35] age cases for example uh standups. So
+[01:38:39] standups happens on your team's channel.
+[01:38:42] So you do not need to push that again to
+[01:38:44] your gitlab report. Your tutor already
+[01:38:46] have access to that. other things you
+[01:38:49] push that to your main brand including
+[01:38:52] teamwork contract.
+[01:38:55] Uh for your teamwork contract what you
+[01:38:57] can do is for example I this is my
+[01:39:00] starter code. What you can do is you can
+[01:39:03] add a new file called teamwork.
+[01:39:07] So MD means markdown file.
+[01:39:11] Uh so you may notice that readme file.
+[01:39:14] So this readme file is also markdown
+[01:39:16] file. So markdown file is very easy to
+[01:39:19] read. So let me show you how it works.
+[01:39:31] So this is you can see that readme file
+[01:39:34] is a markdown file and it's very easy to
+[01:39:36] read. It has some structure some formats
+[01:39:39] that you do not need to spend a lot of
+[01:39:41] time doing the formatting and stuff. So
+[01:39:43] MD file is very useful when you want to
+[01:39:45] push some documents to G library or
+[01:39:49] GitHub or like this um for software
+[01:39:53] projects. It's very very useful. So but
+[01:39:55] this is optional. This is for when you
+[01:39:57] wanted to learn MD file. Uh but if you
+[01:40:01] don't want to use MD file, you can also
+[01:40:03] push a PDF file. You can drag a PDF file
+[01:40:05] here and then push that file to your uh
+[01:40:08] main branch. is also a way of submitting
+[01:40:11] the teamwork uh contract. But the
+[01:40:14] benefits of using MD file is you can
+[01:40:16] track changes. It's like how you added
+[01:40:19] the the like other text file or
+[01:40:21] whatever. So when you make a change to
+[01:40:23] the MD file, you can commit add that MD
+[01:40:27] file, commit a message and specifying
+[01:40:29] what has been changed in this MD file.
+[01:40:31] But for PDF, you can't do that, right?
+[01:40:34] You can just upload another new file.
+[01:40:37] like MD file is much more useful. I
+[01:40:41] strongly recommend using that. But you
+[01:40:43] will not lose marks if you're using PDF
+[01:40:45] or other documents.
+[01:40:48] But this will be easier for you at a
+[01:40:49] later stage when you want to update it,
+[01:40:51] you want to make some changes to it,
+[01:40:52] when you move on to sprint two, it will
+[01:40:54] be easier for you.
+[01:40:58] Okay. Uh
+[01:41:01] yep. So this is about how we submit.
+[01:41:05] The way we submit is push everything to
+[01:41:07] main. It's equivalent to submitting. So
+[01:41:10] when marking, we take the most recent
+[01:41:12] submission on your main branch that is
+[01:41:14] prior to the deadline. So tutors will
+[01:41:17] not take commits pushed to main after
+[01:41:20] the deadline. So everything you pushed
+[01:41:23] before the deadline will be taken into
+[01:41:26] consideration. But recommendation is do
+[01:41:29] not wait till the last minute to push in
+[01:41:33] push to the remote ripple. The reason is
+[01:41:36] because for the for our course is
+[01:41:38] actually okay not like not too big. Uh
+[01:41:41] the course that I taught before is a
+[01:41:42] very large course and we have like more
+[01:41:44] than 1,000 students per term and every
+[01:41:48] time before the deadline everyone's
+[01:41:49] pushing, everyone's committing so the
+[01:41:51] server becomes really really slow. Uh
+[01:41:54] but for our course it should be okay.
+[01:41:57] Um, yep. So, um, there's no late
+[01:42:01] submission for spring one.
+[01:42:05] Uh, if you have special consideration
+[01:42:08] approved, still no late submission. So,
+[01:42:11] that line is deadline. The reason is
+[01:42:13] because if we extend your spring one
+[01:42:16] that line that time actually eat into
+[01:42:20] your spring two time because spring two
+[01:42:23] will start straight
+[01:42:25] uh directly after spring one deadline.
+[01:42:28] So if we extend your spring one deadline
+[01:42:30] you have shorter time for spring two.
+[01:42:33] Right? So if you have any approved
+[01:42:35] special consideration we'll take that
+[01:42:37] into consideration when marking. That's
+[01:42:39] it. But no extension. no extension.
+[01:42:43] Um,
+[01:42:45] in terms of your demonstration for
+[01:42:47] spring one work, uh, you are going to
+[01:42:49] demonstrate
+[01:42:51] during your week four lab session to
+[01:42:53] your tutor. So, attending week four lab
+[01:42:58] in person is compulsory.
+[01:43:02] missing that demonstration will make you
+[01:43:06] have zero mark for that sprint
+[01:43:09] unless you have a approved the special
+[01:43:11] consideration. Uh the reason for that is
+[01:43:15] we want to make sure that your work is
+[01:43:16] your work. So demonstration like it's
+[01:43:19] very helpful for marking purpose. So we
+[01:43:21] know you understand what you are doing
+[01:43:24] and you actually did your own work
+[01:43:27] right. So if you do not attend a demo,
+[01:43:29] how could we know that? So this is the
+[01:43:31] reason why we say it is compulsory.
+[01:43:34] Okay. Uh and it's also a great
+[01:43:36] opportunity to uh provide feedback like
+[01:43:38] our tutor can provide feedback making
+[01:43:40] sure everyone's there providing feedback
+[01:43:41] so you can plan ahead for your next
+[01:43:43] sprint.
+[01:43:45] Okay.
+[01:43:46] Uh you do not need to plan any
+[01:43:48] presentation for spring one demo. It's
+[01:43:50] not the formal presentation. It's just a
+[01:43:53] like very informal demo. Just show your
+[01:43:57] tutor what your project like what kind
+[01:43:59] of value does your project bring to the
+[01:44:02] client, the customer, the user
+[01:44:04] and how you got to uh that that value
+[01:44:09] like what kind of effort did you make
+[01:44:10] and why are you doing what you're doing?
+[01:44:12] That's it. It's informal. You do not
+[01:44:14] need to prepare any like formal
+[01:44:17] presentation.
+[01:44:20] Okay. Um about plagiarism and academic
+[01:44:23] misconduct. I think these are just very
+[01:44:26] uh normal things nothing special only
+[01:44:29] one thing is that if you are using AI to
+[01:44:31] support your project for some research
+[01:44:33] purposes or whatever you need to
+[01:44:35] formally acknowledge that you need to
+[01:44:38] acknowledge well this part of the code
+[01:44:40] is supported by blah in which way
+[01:44:46] right but even if you got support from
+[01:44:49] JAI tools you still need to be able to
+[01:44:51] explain your code.
+[01:44:55] Your tutor may ask you a question like,
+[01:44:57] can you make some changes to this piece
+[01:44:59] of code? They will see whether you can
+[01:45:01] make changes to your own code and they
+[01:45:04] will ask question like why you had this
+[01:45:06] line here. You need to be able to
+[01:45:07] explain it.
+[01:45:11] Yeah, they will they may give you some
+[01:45:13] some tasks during your demo session like
+[01:45:16] change this to that, change this or add
+[01:45:18] a new row, add a new feature. Can you do
+[01:45:20] that?
+[01:45:22] Okay, if you can't, you may get like
+[01:45:24] plagiarism
+[01:45:26] means that you don't know your own work
+[01:45:29] and you'll get a zero mark for that
+[01:45:30] sprint.
+[01:45:33] Okay,
+[01:45:35] cool.
+[01:45:37] Okay,
+[01:45:40] so this is about the gutline. Now let's
+[01:45:42] have a look at the starter code. So I
+[01:45:45] have got my starter code here.
+[01:45:49] Uh, have anyone got a chance to look at
+[01:45:52] the starter code?
+[01:45:55] Yeah. Um, how do you feel about the
+[01:45:58] starter code?
+[01:46:03] >> It's neat.
+[01:46:04] >> It's neat. [laughter]
+[01:46:06] Thanks. What else?
+[01:46:11] Um, yeah. Um,
+[01:46:15] here. So uh in the readme file for the
+[01:46:19] starter code uh I have provide some like
+[01:46:22] some guidance to understand the code
+[01:46:25] especially for those who have no
+[01:46:27] priority experience about web
+[01:46:28] development. So the structure of this
+[01:46:32] project so you can see that there's one
+[01:46:35] major file which is called app. py. So
+[01:46:39] this is a python file. So this Python
+[01:46:43] file is the back end of your web
+[01:46:46] application
+[01:46:48] and the things in this templates is the
+[01:46:51] uh now we only have index or HTML is the
+[01:46:55] front end of your web application. So
+[01:46:58] what are they like what is back end what
+[01:47:01] is front end and how does the things
+[01:47:03] work together. So uh actually what we
+[01:47:07] are doing here is we are having
+[01:47:09] something called web server.
+[01:47:12] What is a web server? Sorry too many
+[01:47:14] techn terminologies uh I will explain.
+[01:47:16] So when you write some Python code right
+[01:47:21] uh you have some functions
+[01:47:24] those functions can do some actions for
+[01:47:26] you right you give it an input it give
+[01:47:30] you an output. So this is a function.
+[01:47:36] But when users use software or web
+[01:47:39] applications,
+[01:47:41] how do they call those action functions,
+[01:47:46] right? Like how can the users tell
+[01:47:50] your code to do something?
+[01:47:54] You need an interface, right? It's like
+[01:47:56] you have a restaurant, right? In your
+[01:47:59] restaurant, you have a lot of cookware.
+[01:48:01] have uh this pan, that pan, that oven,
+[01:48:04] that oven, a lot of tools in your
+[01:48:06] kitchen.
+[01:48:07] But how can your tools in your kitchen
+[01:48:11] make food for the customer?
+[01:48:15] There needs to be something in the
+[01:48:16] middle,
+[01:48:19] right? Can take the order. So the
+[01:48:21] customer say, "Well, can I have a pizza,
+[01:48:24] please?" and then
+[01:48:27] go to the something go to the kitchen
+[01:48:30] use or tell someone someone use the
+[01:48:33] tools in the kitchen to make the pizza
+[01:48:35] and then deliver it back to the
+[01:48:38] customers.
+[01:48:40] So the restaurant is actually like the
+[01:48:43] server that do all of the service. So
+[01:48:47] your functions are like the tools in the
+[01:48:49] kitchen and the user who use your web
+[01:48:53] web application is like the customers
+[01:48:55] going to the restaurant and order
+[01:48:57] something and then use the tools use the
+[01:49:00] functions to make the pizza and then
+[01:49:04] coming back with something with a pizza
+[01:49:06] or whatever. So this is a server. Server
+[01:49:08] is like a restaurant and you have some
+[01:49:10] tools functions in your restaurants.
+[01:49:14] So we now we now need to make a
+[01:49:17] restaurant using those functions.
+[01:49:21] Okay. So let me give you another
+[01:49:22] example. Um
+[01:49:27] uh
+[01:49:28] so for example here uh I have the
+[01:49:32] lecture slice. It's not uh it's it also
+[01:49:35] has a server right. You can see it's on
+[01:49:38] a browser. So my slides are on a
+[01:49:40] browser. But how do my browser knows
+[01:49:44] which page to show me?
+[01:49:47] I send them a request.
+[01:49:49] >> URL.
+[01:49:50] >> URLs. Correct. So I send this server my
+[01:49:54] request through URL.
+[01:49:59] With this URL,
+[01:50:01] my server knows like this is the slice
+[01:50:03] that I need to show to my client, my
+[01:50:05] user. And if I change this URL, change
+[01:50:08] from two to one here, it shows a
+[01:50:11] different page, it respond with
+[01:50:14] something different.
+[01:50:16] So this is one way to send request.
+[01:50:18] There are other ways. For example,
+[01:50:21] uh let's go to our course website,
+[01:50:25] right? I can click on a button.
+[01:50:30] The page changed. So this is another way
+[01:50:33] to send a request and get something is
+[01:50:36] by clicking a button.
+[01:50:40] There are also other ways to send a
+[01:50:42] request. For example,
+[01:50:45] uh let me go to our forum. Uh our forum
+[01:50:48] is on Discord.
+[01:50:51] Uh
+[01:50:54] this one. So here's a forum. Let me find
+[01:51:00] the welcome one. Where's the welcome
+[01:51:03] one? Yep, this one. So, what I can do is
+[01:51:07] I can click on this one. So, I click on
+[01:51:10] the like button. It changed the color.
+[01:51:14] I send a request. I got something back,
+[01:51:18] right? I can also respond to something.
+[01:51:21] I can say hello.
+[01:51:26] I reply
+[01:51:31] it changed it responded with something.
+[01:51:34] Right? So this is what the server does.
+[01:51:37] A client a user make a request through
+[01:51:40] one of these ways
+[01:51:42] and then the web server go to the back
+[01:51:44] end and return something different to
+[01:51:47] the front end. So front end is actually
+[01:51:49] what we can see here. So this is what we
+[01:51:51] can see is the front end.
+[01:51:55] But what changed the front end is
+[01:51:57] actually happened at the back end. A lot
+[01:52:00] of time is through the back end. So for
+[01:52:03] example this one is like back end has
+[01:52:05] changed the database changed the data on
+[01:52:08] this web server on this website has
+[01:52:11] changed now has a new post in their
+[01:52:14] database. It happens at the back end.
+[01:52:16] But for this one it only changes the
+[01:52:18] front end. Um
+[01:52:21] this one there's nothing changing at the
+[01:52:23] back end. When I go back to that page
+[01:52:25] again, it's still the same. So nothing's
+[01:52:27] changed at the back end. Only I change
+[01:52:30] which page to display.
+[01:52:32] I only switched which front end to show.
+[01:52:40] Any questions so far?
+[01:52:44] You can think about the web application
+[01:52:46] or the server as a kitchen and there's
+[01:52:48] something cooking at the back and it it
+[01:52:52] shows you with something You send a
+[01:52:54] request, you get a response. It's like a
+[01:52:56] bigger function
+[01:52:59] which has a lot of function in it. Yeah.
+[01:53:01] Question
+[01:53:01] >> whether we can use different
+[01:53:06] program
+[01:53:07] >> uh or we must use and
+[01:53:12] >> yeah the question is can we use other
+[01:53:15] programming language not Python and uh
+[01:53:18] not using HTML for the front end. Um
+[01:53:22] unfortunately we ask everyone to use
+[01:53:24] Python and HTML. Uh the reason is that
+[01:53:28] uh this is the only support that we can
+[01:53:30] provide through the course and also uh I
+[01:53:34] know some of you have programming uh
+[01:53:36] background maybe JavaScript and others
+[01:53:38] in the past. However, team members may
+[01:53:40] not have like we want to make sure that
+[01:53:42] everyone on the team can contribute, not
+[01:53:45] just one person. Even though there may
+[01:53:48] be one or two person experts in
+[01:53:50] JavaScript or whatever, we want everyone
+[01:53:52] to be able to contribute if they want to
+[01:53:53] contribute.
+[01:53:55] Yep.
+[01:53:57] Cool. Okay. So, this is the front end,
+[01:54:03] back end, and server. So, let's go back
+[01:54:07] to
+[01:54:10] here.
+[01:54:12] So um this apy so this Tyson file is the
+[01:54:17] back end
+[01:54:19] which starts the server and sending
+[01:54:21] getting requests and sending requests.
+[01:54:24] So the reason that we can see
+[01:54:29] oh you are not seeing this one yet. So
+[01:54:32] what you can see is everything about
+[01:54:34] here right? So I added something. So the
+[01:54:37] reason that you are seeing that was
+[01:54:39] because the URL that I currently sending
+[01:54:42] is this one.
+[01:54:45] It's just the uh the back dash. But if I
+[01:54:49] change it to info
+[01:54:52] uh and refresh, it will be not found
+[01:54:54] because there's no URL. There's no ro
+[01:54:57] defined for this one anymore. But if I
+[01:55:00] add info here, it will shows again. So
+[01:55:05] um we are def so what we are doing here
+[01:55:08] is we are defining like given a request
+[01:55:11] like given this URL respond with this
+[01:55:14] one.
+[01:55:17] So in this so this is the core of the
+[01:55:21] back end but there are other parts like
+[01:55:23] if we have time we can we can explain
+[01:55:25] them although we don't have time we only
+[01:55:26] have five minutes left but this is the
+[01:55:28] most important part of back end it
+[01:55:31] defines like given a request I'm
+[01:55:34] responding something
+[01:55:36] and similarly you can add other things
+[01:55:38] for example you can add another rows uh
+[01:55:41] you can say about and you can return
+[01:55:45] something different you can have another
+[01:55:47] htm HTML you can say about.html but you
+[01:55:50] need to change this name as well and
+[01:55:53] then you can add another HTML about.html
+[01:55:58] and then when you uh back dash about
+[01:56:00] rather than info you'll see another
+[01:56:02] page. So this is how you get the request
+[01:56:06] send a response.
+[01:56:10] Okay. So this is the most important
+[01:56:12] thing about uh this uh stat code but
+[01:56:15] there are other things as well.
+[01:56:19] Um
+[01:56:21] I'll delete this part for now. Um so
+[01:56:25] this is the back end and this index.html
+[01:56:28] is the front end page for that ro. So
+[01:56:32] that index html you can add more HTMLs
+[01:56:34] for more like different pages. You can
+[01:56:37] have a bot. HTML you can have
+[01:56:39] contact.htm HTML and when you use like
+[01:56:43] send request to respond with those
+[01:56:45] pages, those pages will be responded and
+[01:56:48] in your HTML file um there are a few
+[01:56:53] important things. So at the beginning
+[01:56:56] all of these are about spelling. So you
+[01:56:59] can personalize the spelling for your
+[01:57:02] own project. Uh but we do not it's not
+[01:57:06] like if you have super super fancy
+[01:57:10] website but not functioning well so it's
+[01:57:14] not worth well. So uh the main focus is
+[01:57:17] bring value to the customer. Remember
+[01:57:19] that. So that's the core goal for the
+[01:57:22] project. So you do not need to aim for
+[01:57:24] fancy things or like fancy features
+[01:57:27] front end or colors pictures
+[01:57:31] emojis or whatever. So value thinking
+[01:57:33] about the value. So what are the things
+[01:57:35] that a user care the most about? Okay.
+[01:57:38] But anyway here is where you are
+[01:57:41] defining the style. Uh for example font
+[01:57:45] size, color. Uh you can change the
+[01:57:48] color. For example, if you don't like
+[01:57:49] color, you can change to blue for the
+[01:57:52] hiding. And when you refresh,
+[01:57:56] uh it's not changing. Did I change
+[01:58:00] properly?
+[01:58:03] Oh, sorry. Is this the right one? Info.
+[01:58:09] Oh, yeah. See, I changed the color of
+[01:58:11] the background. So, you can play with
+[01:58:14] it. Um, uh, at the front end, you can
+[01:58:17] also change the text. So, now it shows,
+[01:58:21] uh, welcome to task tracker. You can say
+[01:58:23] you can change to my super task tracker.
+[01:58:28] And then when you refresh this page, the
+[01:58:30] text can also be changed.
+[01:58:33] I only have two minutes. Oh my goodness.
+[01:58:35] Okay, cool. Um, yeah. So, this is about
+[01:58:38] the front end. Um,
+[01:58:43] what else can I do?
+[01:58:47] So, in the back end, what you can also
+[01:58:49] do is you can also have some Python
+[01:58:51] list. So, for example, for our project,
+[01:58:54] we need to have a t like a list of task.
+[01:58:56] So what you can do is you can also have
+[01:58:58] task uh you can define a task and then
+[01:59:02] it's a list and then you can have
+[01:59:04] multiple tasks for example one task is
+[01:59:06] task one blah
+[01:59:10] then task two blah and then you can
+[01:59:13] return task in return task in the front
+[01:59:18] end through sending for example blah
+[01:59:20] blah blah you can send the you can send
+[01:59:22] the data from back end to front end I'll
+[01:59:25] leave this for you to do a little bit
+[01:59:27] research after the lecture. But
+[01:59:30] remembering that when you are adding a
+[01:59:32] feature or you change something,
+[01:59:34] remember to check out to a new branch
+[01:59:36] first.
+[01:59:38] Do not make changes on main branch
+[01:59:41] directly. Like the main branch should
+[01:59:43] always be safe. If you want to play with
+[01:59:45] it, you want to change something, add a
+[01:59:47] feature, check out to a new branch, make
+[01:59:49] changes. And then we merge to main
+[01:59:52] branch. Ask another team member to
+[01:59:53] review that merge request for you before
+[01:59:56] actually merge that in to make sure that
+[01:59:58] your main branch is always safe. Do not
+[02:00:01] merge in broken code. Okay, cool. Um
+[02:00:05] have a look at the starter code later
+[02:00:07] after the lecture. If you still struggle
+[02:00:09] with the featured thing, no worries.
+[02:00:12] I'll talk a little bit more about uh
+[02:00:15] this every lecture. So all the lecture
+[02:00:17] every lecture I did take off every
+[02:00:18] lecture talk a little bit more about web
+[02:00:20] drum. Okay. Thank you so much everyone.
+[02:00:22] Thank you. Thank you online. Bye-bye.
+[02:00:31] >> Thank you professor.
+[02:00:32] >> Thank you.
+[02:00:35] >> Yeah
+[02:00:36] >> I have issues.
+[02:00:37] >> Uh sorry I'll just type by.
+[02:00:41] Okay. Uh so stop streaming otherwise
+[02:00:44] everyone can

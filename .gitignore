@@ -1,0 +1,49 @@
+# ---- OS ----
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+
+# ---- Claude Code local state ----
+.claude/settings.local.json
+
+# ---- youtube_to_md working files (keep only the final md/images/transcripts) ----
+**/_work/
+**/frames/
+**/sheets/
+**/gap/
+**/gsheets/
+mapping.txt
+*.mp4
+*.webm
+*.mkv
+*.m4a
+*.part
+*.ytdl
+
+# ---- Misc ----
+*.log
+*.tmp
+.env
