@@ -1,0 +1,1754 @@
+[00:00:27] Hello. Testing online. On online, can
+[00:00:30] you hear me? Testing
+[00:00:34] online. Testing.
+[00:00:48] Okay, cool.
+[00:00:50] Great.
+[00:01:01] All right. Um,
+[00:01:13] all right. I'll monitor the online.
+[00:01:21] Okay, cool. Perfect.
+[00:01:25] All right. Uh, week seven now. Uhoh,
+[00:01:28] that's freezing.
+[00:01:31] Okay, cool.
+[00:01:34] How was your spring, too?
+[00:01:38] Good.
+[00:01:40] Yeah. Okay, cool. That's great. So,
+[00:01:43] congratulations. Yay. two of the term.
+[00:01:47] Amazing. So, we now only have one
+[00:01:51] um sprint left, which is sprint three.
+[00:01:54] Yay. Almost there. Another three and a
+[00:01:58] half week to go roughly like almost four
+[00:02:00] weeks. Um so sprint three will be do
+[00:02:05] like there are two outlines for sprint
+[00:02:07] three like one is the demo uh will be
+[00:02:10] during your week 10 class you are going
+[00:02:12] to demo all the code like all the
+[00:02:14] stories that you have implemented
+[00:02:16] telling a story like who are your users
+[00:02:19] um what kind of value do you bring to
+[00:02:21] those users so storytelling in week
+[00:02:24] eight sorry week 10 class um and then
+[00:02:27] another deadline is week 10 Friday night
+[00:02:30] where you uh show the evidence of the
+[00:02:34] process to your tutors. Uh so you don't
+[00:02:37] need to demo anything anymore. So only
+[00:02:39] demo is during your week 10 class. But
+[00:02:42] you submit your codebase like submit
+[00:02:44] your report uh any report anything at
+[00:02:48] week 10 Friday night. So yeah that's it.
+[00:02:52] So almost there. We are almost there.
+[00:02:54] And there are also not much new concepts
+[00:02:57] left as well. So the content in the next
+[00:03:00] three weeks are pretty light. So the
+[00:03:04] heavy content has already done so far.
+[00:03:07] Yay. We are really close now. So the
+[00:03:10] only new concepts left for the term
+[00:03:16] uh
+[00:03:17] uh today we will talk about complexity
+[00:03:20] and persistence and next week uh it's
+[00:03:23] about risk management which is very
+[00:03:25] important for project management. Uh but
+[00:03:28] because next Monday is a public holiday.
+[00:03:31] Yay. And then uh there's no live
+[00:03:33] lecture. So what I'll do is I'll record
+[00:03:37] uh like recording for this lecture this
+[00:03:39] week before your next Monday lecture. So
+[00:03:43] you can feel free to watch it like
+[00:03:46] Monday if you're not on holiday or after
+[00:03:48] Monday. Um so sprint 3 will also have
+[00:03:52] some contents about risk management but
+[00:03:54] it's not that hard. Um and then week
+[00:03:57] nine is about portfolio packaging and
+[00:04:00] into the future. So what is it? So
+[00:04:02] portfolio is an individual uh part uh
+[00:04:05] submission of the project. So mainly uh
+[00:04:08] is talk about like what you have learned
+[00:04:11] uh what are the challenges you
+[00:04:12] encountered, how you address those uh
+[00:04:14] challenges um like any plan for the
+[00:04:16] future. So yeah and what do you have
+[00:04:19] contributed?
+[00:04:20] So you can see that count is not heavy
+[00:04:24] in the next three weeks. Okay. So
+[00:04:29] um do you prefer me talking about the
+[00:04:33] spring three gatlan first or do you
+[00:04:36] prefer me talking about the new concepts
+[00:04:38] first? Any preference?
+[00:04:42] Spring three. Okay. So okay cool cool
+[00:04:45] cool. Everyone's uh saying spritz rate.
+[00:04:47] No problem. So sprit three. Um so I'll
+[00:04:51] make it a bit larger.
+[00:04:55] Okay. Cool. Cool. So I would like to
+[00:04:59] thank our student volunteers who helped
+[00:05:02] reviewing the three three guidelines uh
+[00:05:04] over the weekend which is super super
+[00:05:06] helpful. Uh so the reason that I invited
+[00:05:09] some student volunteers to help review
+[00:05:11] this guideline was because for spring
+[00:05:13] one and two I received some feedback uh
+[00:05:16] like saying there was something that
+[00:05:17] were not that clear caused some
+[00:05:19] confusion from the guideline uh which I
+[00:05:22] thought was pretty clear and turned out
+[00:05:24] to be like I may be biased or I may have
+[00:05:27] some assumptions. So I feel like having
+[00:05:30] some student to look at the gut line
+[00:05:32] will be helpful. So it was very
+[00:05:34] successful. uh we had six six or seven
+[00:05:38] six uh student volunteers who helped
+[00:05:40] review the guideline and provide some
+[00:05:42] really really helpful feedback that I re
+[00:05:45] I didn't realize it was not that clear
+[00:05:47] before. So I have addressed all of the
+[00:05:49] feedback in this guideline. So hopefully
+[00:05:52] now it's clear enough. However, if you
+[00:05:54] still have some confusion while you are
+[00:05:56] reading this guideline, uh feel free to
+[00:05:58] ask in the on the forum or ask your
+[00:06:01] tutor uh and we will help you clear any
+[00:06:04] confusion that you have as early as
+[00:06:06] possible. Okay. So, let's talk about the
+[00:06:10] guideline for sprint spray. So, this is
+[00:06:12] the final sprint. So, the goal of this
+[00:06:15] sprint is to deliver your project.
+[00:06:18] Deliver your project. Deliver your
+[00:06:20] product to the stakeholders, the client.
+[00:06:23] So you need to have a package of
+[00:06:24] everything and then present it to the
+[00:06:26] clients to the stakeholders. So this is
+[00:06:29] the uh what this project uh this spring
+[00:06:32] is about. So um more specifically let's
+[00:06:36] have a look at the goals first and then
+[00:06:38] we'll go to more details. So first goal
+[00:06:41] is to complete the project. So you need
+[00:06:44] to complete this project in this sprint
+[00:06:46] spray which uh a coherent set of rich
+[00:06:49] user stories that together show a full
+[00:06:52] convincing product. So during your demo
+[00:06:55] in week 10 uh it's more like a formal
+[00:06:59] presentation which is different from
+[00:07:00] your spring one and spring two demo
+[00:07:03] which is very casual for this spring
+[00:07:05] three uh presentation is like a more
+[00:07:07] formal presentation like you present the
+[00:07:10] stories like you present your product.
+[00:07:13] So you are going to present all the work
+[00:07:15] from sprint one to sprint three. Um to
+[00:07:18] be able to do that you need to continue
+[00:07:20] implementing and refining your stories.
+[00:07:24] So if there's any important stories like
+[00:07:26] you feel is important but you haven't
+[00:07:28] done it yet continue doing it during
+[00:07:30] your sprint three. If any stories you
+[00:07:32] feel like I need to improve it like the
+[00:07:34] UX or UI or anything that you feel like
+[00:07:37] is not that good. Uh keep working on
+[00:07:39] those. Um you don't like the requirement
+[00:07:42] is not you implement all the stories
+[00:07:44] that you generate from swing one no
+[00:07:46] that's not the the requirement but like
+[00:07:49] for a you know like we always make
+[00:07:51] changes right we adapt to the new
+[00:07:54] changes new requirement anything new
+[00:07:55] make coming up so that's very common so
+[00:07:58] you can still modify your stories if
+[00:08:01] understanding change you can add or
+[00:08:04] change stories and you can also uh so
+[00:08:07] the goal is to create you clear user
+[00:08:09] value.
+[00:08:11] Um for sprint three again we we need to
+[00:08:14] ask for some new implementations so that
+[00:08:16] you can practice all the new things that
+[00:08:18] we learned. So at least one meaningful
+[00:08:21] product improvement in sprint three. So
+[00:08:24] it can be a new story can be an
+[00:08:27] improvement for your previous stories
+[00:08:29] that you have improved but it needs to
+[00:08:31] be a meaningful improvement. If you are
+[00:08:34] not too sure what meaningful means or
+[00:08:36] you are not sure that whether like I
+[00:08:38] feel this is meaningful is it also
+[00:08:40] meaningful for other people check with
+[00:08:41] your tutors check with your peers or ask
+[00:08:44] on the forum and we can confirm that for
+[00:08:46] you.
+[00:08:47] Um and then
+[00:08:50] um today we are going to talk about
+[00:08:52] complexity. So uh keep the project
+[00:08:55] sustainable as complexity grows. So it's
+[00:08:58] very common when you start implementing
+[00:09:00] more stories complexity grows. But how
+[00:09:03] can you make sure that your product is
+[00:09:05] still like maintainable? Your project is
+[00:09:07] still maintainable. So this is what we
+[00:09:09] are going to talk about and we are going
+[00:09:10] to practice that in sprint three and
+[00:09:12] also persistence. So this is also
+[00:09:14] something that we are going to talk
+[00:09:16] about today. Um and then in addition to
+[00:09:20] applying the new concept that we are
+[00:09:23] going to learn this week, next week and
+[00:09:25] the week after um continue the same core
+[00:09:28] practices from earlier sprints like TDD
+[00:09:31] testing, I uh g pipeline or all of
+[00:09:35] these. So these are still important um
+[00:09:38] things to take care of during your
+[00:09:40] sprint spray. Um and then managing
+[00:09:43] uncertainty through a risk report. And
+[00:09:46] this is what we are going to talk about
+[00:09:48] next week. Um package learning and
+[00:09:51] contribution in individual portfolio.
+[00:09:54] This is what you are going to do
+[00:09:56] probably in week nine and 10
+[00:09:59] summarizing, reflecting and planning
+[00:10:02] ahead. Um and then one more new thing
+[00:10:06] for spring three is we are going to have
+[00:10:08] a readme file. So what is a readmi file?
+[00:10:11] So now your readmi file maybe nothing.
+[00:10:15] So um maybe the one from the the where
+[00:10:20] is it? Uh
+[00:10:24] your rimy file may look something like
+[00:10:26] this. Right? So this is an introduction
+[00:10:29] about how to use the starter code. But
+[00:10:32] now your project has changed a lot.
+[00:10:34] Right? So uh you need to replace this
+[00:10:37] readmi file to a readmi for your
+[00:10:39] project. But it doesn't need to be this
+[00:10:43] detailed. This is a very very detailed
+[00:10:45] readme file for you to learn to use the
+[00:10:48] starter code. But the uh your readmi
+[00:10:51] file may include for example what this
+[00:10:53] project is about,
+[00:10:56] how to run your project. So other people
+[00:10:59] so people who uh continue working on
+[00:11:02] your project how they can run it any
+[00:11:04] environment settings they need to know
+[00:11:05] about any database settings they need to
+[00:11:07] know about. Yeah. question
+[00:11:12] >> developer.
+[00:11:15] Cool. Um yeah, I'll also give you a
+[00:11:19] template for it. So you don't need to
+[00:11:21] worry too much about that. So it doesn't
+[00:11:22] need to be very leny. So similarly with
+[00:11:25] the risk report and also the report on
+[00:11:29] refactoring and complexity. So we what
+[00:11:32] we are when you scroll down to the
+[00:11:34] details you will notice that we are not
+[00:11:36] asking for minimum length but all of
+[00:11:38] this we are asking maximum how many
+[00:11:41] words maximum how many pages the reason
+[00:11:43] that I added that upper limit is because
+[00:11:47] you don't need to write very lengthy
+[00:11:49] reports so that's not the goal of this
+[00:11:51] spring like for we aim for short brief
+[00:11:54] documentations as long as that's telling
+[00:11:57] enough stories okay so we all provided
+[00:12:00] an limit.
+[00:12:02] Okay. Again, weekly planner similar as
+[00:12:06] previous springs.
+[00:12:08] Um yeah, one note for feno demo is that
+[00:12:12] the deadline is not the same for all
+[00:12:15] groups. So some groups feno demo will be
+[00:12:18] like uh Tuesday, some group may be on
+[00:12:21] Friday. So you need to plan ahead. So
+[00:12:24] for example the groups who are doing the
+[00:12:26] demo on like week 10 Tuesday you may
+[00:12:29] want to make sure that your code is
+[00:12:32] ready before like week 10 Tuesday and
+[00:12:35] then you can use Wednesday Thursday and
+[00:12:37] Friday to focusing more on a report
+[00:12:39] portfolio like other documentations.
+[00:12:42] Well, groups who are doing the demo on
+[00:12:45] Friday like you may need to get
+[00:12:47] everything ready before Friday because
+[00:12:49] Friday you are going to do the demo and
+[00:12:51] the uh like on any code submission like
+[00:12:54] report portfolio everything. So you need
+[00:12:57] to plan ahead like managing the time. Um
+[00:13:01] yeah so in ter again we have detailed
+[00:13:04] explanation about different parts of the
+[00:13:07] practices
+[00:13:09] um agile practices exactly the same as
+[00:13:12] previous springs like g issue board
+[00:13:15] group ratio weekly meetings team
+[00:13:17] contract testing coverage cipline
+[00:13:20] maintain so everything is exactly with
+[00:13:23] previous sprint so nothing new just
+[00:13:24] continue doing that the only thing new
+[00:13:27] about agile practice is the rhymi file
+[00:13:29] because that's the fenos right you are
+[00:13:31] delivering your project and the risk
+[00:13:33] report we'll talk more about that in
+[00:13:35] week eight lecture okay so demo um demo
+[00:13:41] you are going to do that not only with
+[00:13:43] your project tutor but also another
+[00:13:47] tutor and also your classmates like
+[00:13:51] other groups
+[00:13:53] um the mark will be from both of that
+[00:13:56] tutors not only from your own tutors So
+[00:13:59] this is to make sure that the mark is
+[00:14:02] fire uh because different tutors they
+[00:14:05] may have like different bias or like
+[00:14:08] different thoughts. So we are going to
+[00:14:10] take the average mark from two different
+[00:14:12] tutors. So that is like more fair for
+[00:14:14] the groups. Um why we have students as
+[00:14:17] the audience as well because they can
+[00:14:19] also learn from each other. They can
+[00:14:21] learn from your presentation, your
+[00:14:24] project. So it's a great way to learn
+[00:14:26] from each other. You can also attend
+[00:14:28] other people's uh presentation. Other
+[00:14:29] people can also attend your presentation
+[00:14:32] and everyone can ask questions. So you
+[00:14:34] can ask other group questions, other
+[00:14:36] group people can also ask your group
+[00:14:38] questions. So it's a great learning
+[00:14:40] opportunity. Um and everyone is everyone
+[00:14:45] should have a turn in the presentation.
+[00:14:47] So all group members although you may
+[00:14:49] like focusing on more uh different
+[00:14:51] aspects in the project just present what
+[00:14:54] you focused more on. Um and everyone
+[00:14:57] should be able to answer questions on
+[00:14:59] your parts.
+[00:15:01] Um
+[00:15:04] yep.
+[00:15:06] Okay. In terms of deployment,
+[00:15:09] um
+[00:15:10] how was your deployment LA last week?
+[00:15:15] Do you find it useful?
+[00:15:17] Your question
+[00:15:20] >> asked this in our session.
+[00:15:24] >> Is it necessary?
+[00:15:26] to be on.
+[00:15:28] >> Uh do
+[00:15:29] >> things pretty simple.
+[00:15:33] >> Yeah. So the question is do we have to
+[00:15:36] deploy on waso only and only waso um for
+[00:15:41] spray we do not ask you to deploy your
+[00:15:44] project uh because of the US usw IP
+[00:15:48] concerns
+[00:15:50] like there are some student uh
+[00:15:52] intellectual property
+[00:15:54] uh because this is a group project so
+[00:15:56] there are some IP considerations so the
+[00:15:59] course cannot like ask all the groups to
+[00:16:02] deploy their project. However, if all
+[00:16:06] your group members are happy with
+[00:16:08] deploying it at a public URL, uh you can
+[00:16:12] feel free to do that, but as the course
+[00:16:15] cannot require you to do it. So for the
+[00:16:18] final demo, a local host will be enough
+[00:16:21] like per course requirement. Uh but we
+[00:16:24] also got a very uh interesting feedback
+[00:16:26] from one of the student uh student
+[00:16:29] reviewers. um like they suggested
+[00:16:32] optional deployment app viewing I think
+[00:16:35] this is a great learning opportunity um
+[00:16:38] so what I'm going to do is after week
+[00:16:40] nine like when most groups uh the
+[00:16:43] codebase is ready I'll create a channel
+[00:16:45] on the forum on our forum where you can
+[00:16:48] post the link to your deployed URL uh
+[00:16:53] maybe a brief introduction to why your
+[00:16:56] project is special uh making great value
+[00:17:00] to the customers or stakeholders and you
+[00:17:02] can learn from each other and provide
+[00:17:04] feedback to each other. So this is a
+[00:17:06] great opportunity for us to learn or if
+[00:17:08] you are not deploying your uh project
+[00:17:10] what you can do is you can take a short
+[00:17:12] recording maybe five minutes introducing
+[00:17:15] your product right and post it on that
+[00:17:18] channel on discord channel I'll I'll
+[00:17:20] share that channel later after week
+[00:17:21] night and then we can provide feedback
+[00:17:23] from each other as well
+[00:17:26] um yep so again scope of this demo is
+[00:17:30] across sprint one to three
+[00:17:34] Um
+[00:17:36] so during this demo you are you do not
+[00:17:38] need to go through the code base like
+[00:17:40] explain this file is but what that
+[00:17:43] function is about that. It's more about
+[00:17:46] telling a story about your project. So
+[00:17:49] who are your users? Why what you are
+[00:17:52] doing is important? How you addressed
+[00:17:55] the users need? What kind of value do
+[00:17:57] you bring to the stakeholders? So this
+[00:17:59] is the main purpose of the demo. Um so I
+[00:18:03] also provided a brief flow
+[00:18:06] recommendation for the flow of the
+[00:18:08] presentation but you can make
+[00:18:10] adjustments um based on your own group's
+[00:18:13] scenario. Um
+[00:18:16] yeah so I've already mentioned those. So
+[00:18:19] for in terms of timing for the
+[00:18:21] presentation it's about 10 to 15 minutes
+[00:18:24] not too short not too long um with up to
+[00:18:27] five minutes Q&A.
+[00:18:29] Okay. Um, yeah. So, this is about the
+[00:18:32] demo.
+[00:18:34] Any questions so far?
+[00:18:40] Oh, good.
+[00:18:42] So, if you have any question later, no
+[00:18:44] problem. Just ask. Um, and then
+[00:18:48] complexity, persistence, and technical
+[00:18:50] depth. We are going to talk about that
+[00:18:52] today and I'll come back to this section
+[00:18:54] to explain the more details. So, some of
+[00:18:57] those may not make sense to you yet, but
+[00:18:59] they should make sense to you after the
+[00:19:01] lecture. Um, in terms of portfolio,
+[00:19:04] we'll talk a little bit more about that
+[00:19:05] in week nine, but just very briefly,
+[00:19:08] it's about what you worked on across the
+[00:19:11] springs uh with links and references,
+[00:19:15] evidence. Yeah, this is the evidence
+[00:19:17] with links. Um, your reflections, what
+[00:19:21] improved, how would you do differently,
+[00:19:23] what you have learned? uh plan to the
+[00:19:25] future and maximum words. Again, we we
+[00:19:28] don't encourage very lengthy report.
+[00:19:31] Okay, quality is more important. Um here
+[00:19:36] are the AC assessments and success
+[00:19:39] criteria. So for sprint three, there are
+[00:19:43] in total 40 marks to sprint three which
+[00:19:46] is pretty heavy. Um but we split them
+[00:19:49] into different sections. The final demo
+[00:19:52] takes 15 marks.
+[00:19:55] We look at the user problem.
+[00:19:58] Oh wow. Magic.
+[00:20:01] Uh we look at the user problem value and
+[00:20:04] decision like why you are doing what you
+[00:20:06] are doing. So this is about why you are
+[00:20:08] doing what you're doing. How did you
+[00:20:09] make the decision? And then this is
+[00:20:12] about uh the flow of you're running the
+[00:20:17] product like does everything works. If
+[00:20:19] the T ask you, can you click on that
+[00:20:21] button? Show me. And then if that button
+[00:20:24] works. Okay. Um and then Q&A two marks.
+[00:20:29] Yeah. And then 15 marks for the practice
+[00:20:34] made visible. Can we see the process?
+[00:20:37] Not only the end product is important
+[00:20:39] but also the process is important. So
+[00:20:42] this is where we look at the process. So
+[00:20:44] what are the process about? Uh the
+[00:20:47] process about like ship to work
+[00:20:49] traceability like the git uh history the
+[00:20:53] merger request um
+[00:20:56] uh the AC like acceptance criteria of
+[00:20:59] the stories whether those acceptance
+[00:21:01] criteria were met if any of the criteria
+[00:21:03] was not met uh do you have any
+[00:21:05] explanation uh why is it because of
+[00:21:07] short of timing or is it because it's
+[00:21:10] not that important so you decided to
+[00:21:11] change it um yeah um And then
+[00:21:16] engineering quality like your test, your
+[00:21:19] pipeline, your design and the risk
+[00:21:21] report is four marks. Refactoring and
+[00:21:23] complexity report three marks. Ideal
+[00:21:26] practice two marks. You notice that the
+[00:21:28] marks for this one has like dropped down
+[00:21:31] a lot because we put more emphasis in
+[00:21:33] other parts in sprint rate three. And
+[00:21:36] then me is two marks. And then for
+[00:21:39] individual 10 marks for that part. Uh
+[00:21:42] portfolio takes six marks. get two
+[00:21:44] marks, stand up two marks.
+[00:21:48] Uh again, uh based on another feedback
+[00:21:50] from another student reviewer, uh we
+[00:21:53] provided a checklist at the end of uh
+[00:21:57] the gut line in the submission part. So
+[00:22:00] here's a checklist of what you need to
+[00:22:02] have uh by the time of the that line. So
+[00:22:05] I think this is also a very amazing
+[00:22:07] feedback from our students uh because I
+[00:22:10] know there are a lot of things to submit
+[00:22:11] although each of them is not like a lot
+[00:22:15] but there are some small parts here and
+[00:22:17] there. So uh I provided a checklist here
+[00:22:20] where to submit uh what to submit on
+[00:22:23] GitLab, what to submit on Mudo, what to
+[00:22:26] submit on teams
+[00:22:28] and other uh about demo and uh
+[00:22:32] attendance.
+[00:22:34] Any question about the assessments and
+[00:22:36] submission?
+[00:22:38] All good.
+[00:22:40] um for this sprint because we have a a
+[00:22:43] couple of report to submit uh but I want
+[00:22:47] to uh again have limit not putting you
+[00:22:52] to spend too much effort on writing the
+[00:22:54] documentation. So you can use genai
+[00:22:57] tools to help with your documentation
+[00:23:00] writing
+[00:23:02] but you need to acknowledge properly how
+[00:23:05] you use the AI to support your writing.
+[00:23:09] um like use it ethically and follow the
+[00:23:13] USW guideline on using AI tools. Um you
+[00:23:18] can only use it for organize your
+[00:23:20] writing like for example tracking
+[00:23:22] grammar or anything. Uh there's one
+[00:23:24] advanced use of genai for this report.
+[00:23:27] For example, uh one thing that I learned
+[00:23:30] a couple of weeks ago is you can use
+[00:23:33] journey to summarize your commit
+[00:23:35] messages
+[00:23:37] and then to tell a story about what you
+[00:23:40] have done using the commit messages. So
+[00:23:43] they um but one important thing to know
+[00:23:46] is gener sometime can make
+[00:23:49] assumptions itself. So sometime the
+[00:23:53] information that they give you is not
+[00:23:55] correct. So, make sure that you review
+[00:23:58] and double check and addit. Um, for
+[00:24:02] spring one, uh, a couple of tutors
+[00:24:05] noticed that, um, they know the group
+[00:24:08] did a great job because they knew it
+[00:24:10] from observing the groups during the lab
+[00:24:12] classes. they know that they had a a
+[00:24:14] very good uh discussion meetings but
+[00:24:18] then the meeting minutes and the commit
+[00:24:20] messages and stuff is not reflecting the
+[00:24:22] quality of the discussion during
+[00:24:26] uh the lab session and it's very obvious
+[00:24:28] those are generated from AI like AI is
+[00:24:31] not doing a good work sometimes
+[00:24:33] so you need to make sure that you verify
+[00:24:36] what AI generated for you make sure that
+[00:24:38] it reflects the facts otherwise you get
+[00:24:41] the lower mark because of you use AI
+[00:24:44] because the quality is not as good as
+[00:24:46] what you should have done instead. Okay,
+[00:24:49] so use AI tools to support you properly.
+[00:24:53] Make sure that you review everything AI
+[00:24:55] helped you written.
+[00:24:59] Um,
+[00:25:01] yep. Anything else that I'm missing?
+[00:25:12] All good.
+[00:25:14] Any question?
+[00:25:17] How do you feel about the workload?
+[00:25:21] How was the workload for spring one and
+[00:25:23] two?
+[00:25:40] Uh so sorry. Can you
+[00:25:54] Yeah, it depends on what you aim for.
+[00:25:56] >> Yeah.
+[00:25:57] >> So, if you aim for high, the workload is
+[00:25:59] high. If you aim for low, workload is
+[00:26:01] low. Is that what you mean?
+[00:26:03] >> Yeah. Okay. That's that's a good news
+[00:26:05] for me. Uh, anything else? How do you
+[00:26:08] feel about the workload so far? And the
+[00:26:10] workload for Yeah. Question. Well,
+[00:26:12] sorry. comment.
+[00:26:23] >> Okay. Not too bad. Okay. Cool. Cool.
+[00:26:25] Cool. Cool. That's good to know. Uh I
+[00:26:28] think for sprint three, it should be the
+[00:26:30] same. Like you can spend a lot of hours
+[00:26:32] if you aim for high, but like aiming for
+[00:26:36] a pass shouldn't be too hard. Um
+[00:26:41] Okay, cool. Uh if no other comments or
+[00:26:45] questions about sprint three guideline,
+[00:26:48] we can go to the con new concepts for
+[00:26:51] today.
+[00:26:53] Okay, cool. So the first new concepts
+[00:26:58] for today
+[00:27:00] is called posistence. So what does it
+[00:27:03] mean? So let's have a look at our code
+[00:27:07] example from
+[00:27:09] last lecture
+[00:27:11] from previous lecture. So this was of a
+[00:27:15] um lecture demo for task tracker where
+[00:27:19] we had a few rods um
+[00:27:22] adding a new task, deleting a task and
+[00:27:27] also displaying a task. So let's run it.
+[00:27:30] Okay.
+[00:27:32] 3 apyson.
+[00:27:36] Oh, sorry. Typo.
+[00:27:40] Okay. So, where is it?
+[00:27:44] It's here.
+[00:27:48] All righty.
+[00:27:50] All right. So, this is the uh code base
+[00:27:53] that we used for our demo in previous
+[00:27:56] lectures. So, let's try to add a new
+[00:27:58] task. For example, I call this task
+[00:28:00] persistence. Uh this t perfect I refresh
+[00:28:04] it. It's still here. However, when I
+[00:28:09] restart the
+[00:28:13] what?
+[00:28:15] Okay. So, when I restart this server,
+[00:28:19] it's gone. Why?
+[00:28:28] Yeah, because uh this task list is only
+[00:28:33] stored in memory.
+[00:28:36] Yeah. So that's why um is this
+[00:28:41] like will this task tracker work
+[00:28:45] properly in this way?
+[00:28:48] >> No.
+[00:28:53] until
+[00:28:55] >> yes that t should be there until I click
+[00:28:58] on delete button right so that should be
+[00:29:01] the ideal case scenario so that's what
+[00:29:03] we are going to talk about today is
+[00:29:06] called persistence
+[00:29:08] so why why this is important data is a
+[00:29:11] critical part of nearly every software
+[00:29:14] system project so let's understand it
+[00:29:16] interactions so um storing the task
+[00:29:20] properly uh It's important uh if you
+[00:29:24] have any deadline or assigne ee for
+[00:29:26] those tasks those information those kind
+[00:29:28] of data should also be saved properly or
+[00:29:31] if you have different users those user
+[00:29:33] information should also be stored
+[00:29:35] properly right so these are all about
+[00:29:37] persistence
+[00:29:43] okay so let's have a look at data in
+[00:29:46] applications
+[00:29:50] so Um with the software system there may
+[00:29:53] be different people have different ways
+[00:29:56] of different uh describing the layers in
+[00:29:58] a software system but this is an example
+[00:30:01] one of them. So at the top layer is the
+[00:30:04] interface layer which is what we can see
+[00:30:07] right and this is often statelessly
+[00:30:10] what does stateless mean like it's not
+[00:30:13] persistent like it's okay like uh I
+[00:30:16] don't need to have information about I
+[00:30:19] um zoomed in this interface like that
+[00:30:24] it's okay to lo that information and
+[00:30:26] also another layer about business logic
+[00:30:30] uh it It's about executing behaviors
+[00:30:33] defined by um the stakeholders. For
+[00:30:36] example, it means if I click on that
+[00:30:39] button, it should go to the previous
+[00:30:40] page showing showing me the previous
+[00:30:42] page. Right? So this is the business
+[00:30:44] logic. Um and then there may be some
+[00:30:48] service layer. For example, I have a
+[00:30:50] shopping cart. I have a a story about
+[00:30:54] like people can add uh new task. So
+[00:30:57] these are about service layer. And then
+[00:30:59] at the bottom is the data layer where we
+[00:31:03] store the data about everything about
+[00:31:06] the user about like um the task that you
+[00:31:10] created and change and addit. So data
+[00:31:14] layer uh often we call them database. So
+[00:31:17] database is what used to describe a
+[00:31:19] store of data. Are you using any
+[00:31:22] database for your project?
+[00:31:28] Some yes, some no, no problem. So I know
+[00:31:31] like this is a post-graduate course. So
+[00:31:33] student coming from different
+[00:31:34] backgrounds. So a very diverse. So which
+[00:31:36] is great. So if you are already using
+[00:31:39] database, great. If you are not using
+[00:31:42] database yet, today we are going to
+[00:31:44] introduce a very simple, very basic
+[00:31:47] database that you can use which can be
+[00:31:49] pretty enough for a student project like
+[00:31:52] task tracker. But if you are already
+[00:31:54] using a database, no problem. you are
+[00:31:56] going to probably learn a new probably
+[00:32:00] new for you uh another way to store data
+[00:32:03] in a very easy very simple way.
+[00:32:06] Okay. So um the way that we stored our
+[00:32:10] data in this example was in memory. So
+[00:32:14] this is in memory and when we restart
+[00:32:16] the system the server everything lost.
+[00:32:18] Uh oh where is it? Yep. Um so there's a
+[00:32:22] very simple way to store not very
+[00:32:25] complicated data is by storing the data
+[00:32:28] in file in a file is called filebased
+[00:32:32] uh database or infile uh persistence.
+[00:32:36] What does it mean? For example, I have a
+[00:32:40] folder in my laptop with all the lecture
+[00:32:44] slides. All of them are files, right?
+[00:32:48] they are files like they are PDFs maybe
+[00:32:50] you have word documents maybe you have
+[00:32:52] excels maybe you have other types of
+[00:32:54] like files and when I reset my laptop
+[00:32:58] those files are still there
+[00:33:00] right so this is actually a kind of
+[00:33:04] database I'm storing my data somewhere
+[00:33:06] it's not getting lost and it's storing
+[00:33:09] the data in the form of a file so that's
+[00:33:13] called filebased database or infile
+[00:33:16] persistence
+[00:33:18] But more complicated if you have very
+[00:33:20] complicated data that they have a lot of
+[00:33:22] relationship dependencies
+[00:33:24] um you can use more complicated
+[00:33:27] databases like uh SQL or nSQL. So as you
+[00:33:32] move down the list the barrier to entry
+[00:33:34] becomes higher but also the like the
+[00:33:36] performance is also difference but for
+[00:33:38] this project a felbit system should be
+[00:33:41] enough.
+[00:33:43] Okay. Um so let's have a look how we can
+[00:33:48] actually
+[00:33:50] do it. Um before that just some concepts
+[00:33:54] persistence so we talk about persistent
+[00:33:56] what does persistence mean? Persistence
+[00:33:58] means that the program state outlives
+[00:34:00] the process that created it means that
+[00:34:02] when we restart system the data is still
+[00:34:04] there that means persistence.
+[00:34:07] Okay. Uh and this is achieved by storing
+[00:34:10] the data storing the state as data in
+[00:34:12] computer uh storage. Uh
+[00:34:17] okay. So cool. Now this is the project
+[00:34:21] that we have the moment which only has
+[00:34:24] an uh inmemory
+[00:34:28] uh
+[00:34:30] resistance.
+[00:34:32] So I have another example in my another
+[00:34:37] branch called persistence. Okay. So let
+[00:34:39] me show you this one. Let me run it
+[00:34:41] first and I'll explain it.
+[00:34:45] Let's get this URL again.
+[00:34:48] And then I'll refresh it. Add
+[00:34:51] persistence again. Persistence.
+[00:34:54] Okay. And then uh I'm stopping the
+[00:34:59] server. Restarting the server. refresh
+[00:35:02] the page and the persistence is still
+[00:35:05] here. So you see the difference,
+[00:35:09] right? However, when you look at my code
+[00:35:12] base, I didn't change much.
+[00:35:15] It's still only a few lines, right?
+[00:35:18] Maybe about maximum five or six extra
+[00:35:23] lines. So how did I do it so simply?
+[00:35:27] I used a JSON file to store the task
+[00:35:31] leak task. Where is it? It's here.
+[00:35:36] It's a JSON file. It's called
+[00:35:37] tasks.json.
+[00:35:40] So what is a JSON file? So JSON file is
+[00:35:44] another type of file that stores data.
+[00:35:48] It cannot we cannot run the file. It's
+[00:35:51] not like JavaScript or Python that can
+[00:35:53] run something. you can ask the functions
+[00:35:56] the file and can do something for you.
+[00:35:58] So it's just like a Google doc or Excel
+[00:36:01] sheet it store some data in it. Uh we
+[00:36:05] have already seen some of these for
+[00:36:07] example the YAML file where we use for
+[00:36:09] the pipeline right. So YAML file is
+[00:36:11] another like type of file that stores
+[00:36:14] some data. So JSON file is another one I
+[00:36:17] think there's oh empty file. So markdown
+[00:36:19] file is also a a type of file that stop
+[00:36:23] storing data like you cannot run it and
+[00:36:25] JSON file is another but JSON file is
+[00:36:29] more powerful
+[00:36:31] uh when communicating with programming
+[00:36:33] languages for example Python like you
+[00:36:36] can easily read data from a JSON file
+[00:36:40] and change it into a Python object or
+[00:36:44] Python list
+[00:36:46] or as a JavaScript object.
+[00:36:48] So it's very powerful when interacting
+[00:36:51] with the uh programming languages. So
+[00:36:54] when we save data in files, uh JSON file
+[00:36:58] is a very good option. But now this is a
+[00:37:01] very simple list. It's just a list. But
+[00:37:03] you can also store data sorry object
+[00:37:06] like Python objects.
+[00:37:09] Okay. So let's have a look at what I've
+[00:37:11] changed here. So to be able to use JSON
+[00:37:14] file, I need to import this module like
+[00:37:16] import JSON. so that later I can like
+[00:37:19] use I can change my Python list into a
+[00:37:24] JSON object or JSON list. Okay. Uh what
+[00:37:27] I also added is another module called
+[00:37:29] pass. Why do I need that? Because I need
+[00:37:32] to know where to save this data, right?
+[00:37:36] I need a pass. And in person we use the
+[00:37:39] module the library called pass. How do
+[00:37:42] we use them? Let's have a look. So this
+[00:37:45] is one new line that I have added. Uh
+[00:37:48] what is it? It's a directory to your
+[00:37:51] path. So letting your project know where
+[00:37:56] to save the data. So where's the JSON
+[00:37:58] file, where to read from and where to
+[00:38:01] write to. So a directory, a pass. And
+[00:38:04] the pass is this one. It's called
+[00:38:07] tasks.json.
+[00:38:08] You can name it any other way you want.
+[00:38:10] It's just a name.
+[00:38:12] Okay. Um and here are my initial task.
+[00:38:17] So if we have already saved it before we
+[00:38:19] can just simply load the the data from
+[00:38:22] the file uh rather than using the task
+[00:38:25] here. So we say if data do file exists
+[00:38:29] we open this file and then we load the
+[00:38:35] file we load the data from the file and
+[00:38:38] make it a python list rather than
+[00:38:41] storing it still as a JSON file. So how
+[00:38:43] do we do that through JSON vlo
+[00:38:51] um JSON file. So the data in a JSON file
+[00:38:54] is just a string. So there's no logic
+[00:38:57] there's no uh like um so it's not a list
+[00:39:03] and saying well these are the first
+[00:39:05] value this is the second value or object
+[00:39:07] so it's just a string so you can see it
+[00:39:10] just as a string however by using
+[00:39:14] JSON load it can change transform the
+[00:39:18] JSON string into a person list or pass
+[00:39:22] object
+[00:39:25] and then You can use the
+[00:39:27] here's the task. It's a list. This is a
+[00:39:30] list. You can use the list for your
+[00:39:32] future purposes like adding some adding
+[00:39:34] a value to the list or deleting a value
+[00:39:37] uh or like uh updating any value in the
+[00:39:40] list.
+[00:39:42] Does that make sense? So this is how you
+[00:39:46] can save the data in a file and then
+[00:39:49] read the data from a file. Oh, here we
+[00:39:51] only talk about like reading from a
+[00:39:53] file. How can we save data to a file? We
+[00:39:56] we can define another function called
+[00:39:58] save and then we open the file again
+[00:40:02] and write the the task data to the file
+[00:40:06] by using JSON.dump.
+[00:40:09] So I can do something here. So um I can
+[00:40:14] say test.
+[00:40:17] I'm not updating the data from
+[00:40:20] the browser, right? Okay, I'm just
+[00:40:23] updating the data from the JSON file.
+[00:40:25] And then when I refresh it,
+[00:40:29] it's not loading.
+[00:40:32] Okay, where is my terminal?
+[00:40:36] Where is my terminal?
+[00:40:41] Okay, it's playing.
+[00:40:47] Yep. So there are different ways that
+[00:40:50] you can interact with um the the data
+[00:40:54] that you stored. So not only you can
+[00:40:57] send in the data through the UI like the
+[00:41:00] browser maybe you can have play
+[00:41:02] something more tricky. For example by
+[00:41:04] emailing something you're adding a new
+[00:41:07] data or by doing something you are
+[00:41:11] changing the data. For example if you
+[00:41:13] have some like uh uh like button if you
+[00:41:16] like something other data change for
+[00:41:19] example the the number of lengths right
+[00:41:21] so there are different ways that you can
+[00:41:23] trigger the changes of the data through
+[00:41:26] your back end not only through the front
+[00:41:28] end
+[00:41:30] this is very powerful so by defining
+[00:41:34] this save function so every time you
+[00:41:37] make any changes for example here I add
+[00:41:39] some task right I called it save
+[00:41:42] function I delete a task I call it save
+[00:41:45] function so all the changes you made to
+[00:41:48] the task list can be updated by saving
+[00:41:53] the new data in your JSON file.
+[00:41:58] And if you're having more data, you may
+[00:42:00] have task.json.
+[00:42:02] Uh you may also if it's becoming more
+[00:42:04] and more comp complex, you can also have
+[00:42:06] for example users.json file,
+[00:42:11] >> right?
+[00:42:14] What if I want to save a picture?
+[00:42:16] >> What if I want to save a picture? That's
+[00:42:18] a really good question. Uh any thoughts?
+[00:42:22] How can we do that?
+[00:42:35] fells any other.
+[00:42:38] >> Uhhuh.
+[00:42:46] >> Uhhuh.
+[00:42:48] >> Yeah. So maybe an address that is saved
+[00:42:51] somewhere but needs to be in the
+[00:42:53] project.
+[00:42:54] >> Yeah.
+[00:42:57] >> Or it can be a URL from another another
+[00:43:00] website that you are saving the URL.
+[00:43:04] Right? There should be other ways to do
+[00:43:07] it as well. Choose the best way that
+[00:43:09] suits for your projects the best. You
+[00:43:13] can try different ways to do it.
+[00:43:19] >> Uhhuh. I think all the above ways that
+[00:43:21] we mentioned should work, right? But you
+[00:43:24] also need to consider for example the
+[00:43:26] size of the image.
+[00:43:28] >> Yep. Things to consider.
+[00:43:40] Oh, you wanted them to sign for it. Oh,
+[00:43:43] wow.
+[00:43:55] Yeah. Okay.
+[00:43:58] >> Yeah, that's a
+[00:44:01] >> Yeah, that's a good idea. Um, I think a
+[00:44:03] lot of the project will need some type
+[00:44:06] of image, right? For example, the user
+[00:44:09] profile.
+[00:44:11] Um, but again, depends on a lot of
+[00:44:13] different factors. For example, the size
+[00:44:16] of the picture, the image. Any other
+[00:44:19] question?
+[00:44:23] persistence.
+[00:44:25] Yeah. So, uh for sprint three, if you
+[00:44:28] plan to have add some uh persistence and
+[00:44:31] you feel like SQL that kind of
+[00:44:33] complicated database is more than
+[00:44:36] enough, it's too complicated for your
+[00:44:37] project, maybe you can consider this
+[00:44:39] kind of info uh storage or persistent
+[00:44:42] should serve some like simple purposes
+[00:44:45] and it's very easy
+[00:44:48] and quick to implement.
+[00:44:51] Um cool. So that's persistence.
+[00:44:59] Yeah. Uh we have already mentioned this.
+[00:45:04] Um
+[00:45:06] in terms of the
+[00:45:09] project like spring stray um like
+[00:45:12] persistence is not required. It depends
+[00:45:15] on your stories. Uh but I assume
+[00:45:18] majority of the project will need some
+[00:45:19] type of persistence. Um it just how uh
+[00:45:24] complicated the database is.
+[00:45:27] Um
+[00:45:30] yep
+[00:45:33] I think we already talked about that.
+[00:45:35] Okay. Cool. So that's everything about
+[00:45:37] posistence. Very straightforward. A
+[00:45:40] short lecture on that. Uh shall we have
+[00:45:42] a break? Yep. Uh let's come back at 7
+[00:45:46] p.m. and we'll talk about complexity.
+[00:45:53] Short break to 7 a.m.
+[00:46:02] Okay.
+[00:54:17] Hello online. Online, can you hear me?
+[00:54:22] Online, can you hear me?
+[00:54:31] Can you hear me?
+[00:54:35] >> Okay.
+[00:54:37] >> Scary.
+[00:54:38] Okay. Um, yeah. So during the break uh
+[00:54:42] one of our students uh recommended this
+[00:54:46] uh div cover so it can calculate the
+[00:54:50] coverage like code coverage for the code
+[00:54:53] that you change for that merge request
+[00:54:55] or that uh g div which is quite helpful
+[00:54:59] for groups that you wanted to know the
+[00:55:01] code coverage that merging by like each
+[00:55:04] group members or any merge request. I
+[00:55:06] think this is a very powerful one.
+[00:55:08] Thanks for recommending.
+[00:55:11] Cool. So, let's get back to our
+[00:55:13] contents. Um, complexity.
+[00:55:16] So, I think we've mentioned briefly
+[00:55:18] about complexity a few times already.
+[00:55:20] Like we said that we want to avoid
+[00:55:22] complexity. We said that the more
+[00:55:24] complex of a software project is, the
+[00:55:27] harder to maintain, is easier to make
+[00:55:29] mistakes. Okay. So, let's talk a bit
+[00:55:31] more about that. So today we'll talk
+[00:55:34] about how to properly define or
+[00:55:39] understand complexity because if we just
+[00:55:41] say complexity you may ask like what do
+[00:55:43] you mean by complexity? How can we
+[00:55:45] measure complexity right or what kind of
+[00:55:48] complexity it is? So knowing those can
+[00:55:52] be helpful for like reducing complexity
+[00:55:55] and knowing when we need to work on
+[00:55:57] complexity
+[00:55:59] right some literature reference uh a
+[00:56:04] very famous paper called no y oh sorry
+[00:56:08] thank you
+[00:56:11] okay we are not missing anything cool so
+[00:56:14] uh this is a definition or um like
+[00:56:18] categorization of software complexity
+[00:56:20] from a very famous paper from uh long
+[00:56:23] time ago is called no silver bullet. Uh
+[00:56:26] it describes software complexity by
+[00:56:28] dividing it into two categories. One is
+[00:56:31] essential complexity and the other one
+[00:56:34] is called accidental complexity. So what
+[00:56:37] are they? So essential complexity are
+[00:56:40] the type of complexity that is inherent
+[00:56:42] to the problem. Like for example, if the
+[00:56:45] client or the user or the stakeholder
+[00:56:47] they ask for 30 things, we need to have
+[00:56:49] the 30 things. Even though it sounds
+[00:56:52] very complicated like we have 30 things
+[00:56:54] to do, right? This is inherent
+[00:56:56] complexity. It's called essential. Um
+[00:56:59] but the other part is called accidental
+[00:57:02] complexity that the complexity is not
+[00:57:04] inherent to the problem that can be
+[00:57:06] addressed.
+[00:57:08] for example, generating or passing data
+[00:57:10] in specific format,
+[00:57:13] there should be a way to address that
+[00:57:15] for that specific problem. Um, so
+[00:57:18] essential complexity is fundamental and
+[00:57:20] cannot be removed but can be managed
+[00:57:23] with good software design. For example,
+[00:57:26] you can have um
+[00:57:29] low coupling, high coherent
+[00:57:32] um high cohesion. Uh we'll talk a little
+[00:57:34] bit more about that today as well. Um
+[00:57:37] but accidental uh complexity can be
+[00:57:40] somewhat mitigated by engineering
+[00:57:42] decisions for example smart use of
+[00:57:44] libraries that you do not need to write
+[00:57:45] everything from scratch right so it kind
+[00:57:48] of reduces the complexity uh can by
+[00:57:51] following the standard so it's easier
+[00:57:53] for everyone to understand because you
+[00:57:56] are following the standards uh like how
+[00:57:59] everyone's doing the things u but it's
+[00:58:01] hard to remove entirely knowing
+[00:58:06] we'll see some examples. Okay, so let's
+[00:58:09] have some quick quizzes although we
+[00:58:11] don't have exams. Um so according that
+[00:58:13] no silver bullet paper, which of these
+[00:58:16] following best describes it essential
+[00:58:19] complexity?
+[00:58:22] One minute.
+[00:58:31] Anyone chooses a
+[00:58:36] one. Okay. A says complexity that arises
+[00:58:40] from pool design choices.
+[00:58:45] Okay. Anyone choices B? Essential
+[00:58:48] complexity.
+[00:58:50] Okay. A few
+[00:58:52] for B. Anyone for C? Complexity caused
+[00:58:56] by programming languages.
+[00:58:59] No one.
+[00:59:02] How about D? Complexity introduced by
+[00:59:04] developers accidentally
+[00:59:08] one. Okay, so we have one A, one D, a
+[00:59:11] few B and a few give up. So um
+[00:59:16] why A?
+[00:59:23] So what is essential complexity?
+[00:59:27] complexity that is inherent to the
+[00:59:29] problem that we cannot remove for
+[00:59:32] example the yeah so poor design choices
+[00:59:36] can we remove that
+[00:59:39] yes so that's not essential complexity
+[00:59:42] right so that's accidental complexity
+[00:59:45] how about uh B says complexity inherent
+[00:59:50] to the problem domain is the definition
+[00:59:53] so it's correct but how about D. Is it
+[00:59:57] correct? Like complexity introduced by
+[00:59:59] developers accidentally.
+[01:00:06] >> It can somehow be removed but not
+[01:00:08] entirely. Yes. So this is called
+[01:00:12] accidental
+[01:00:14] complexity that can be somehow removed
+[01:00:16] although not 100%.
+[01:00:18] Yeah. So um I'm quite surprised that no
+[01:00:22] one chose C and that's the only choice
+[01:00:25] that no one chose uh caused by
+[01:00:27] programming languages.
+[01:00:31] >> You can use other program language.
+[01:00:33] Yeah, that's true. That's true. Sure.
+[01:00:36] Cool. Okay. Here are a few questions for
+[01:00:41] you. Um the first one is there a
+[01:00:44] concrete process for distinguishing
+[01:00:46] accidental and essential complexity.
+[01:00:53] No.
+[01:00:56] Why?
+[01:01:02] Yeah, I agree. It is no fully concrete
+[01:01:05] algorith algorithmatic process
+[01:01:10] like you can say well follow this step
+[01:01:12] by say well this is accidental that is
+[01:01:15] essential it requires human judgment
+[01:01:19] like you know the best of your project
+[01:01:21] whether you know whether this is
+[01:01:23] requirement from the stakeholders or
+[01:01:25] whether this is like design by design
+[01:01:27] like can be addressed somehow or by
+[01:01:30] modeling or tooling. Um so typically
+[01:01:33] typically teams distinguish them through
+[01:01:36] abstraction or domain modeling what left
+[01:01:39] is essential and what can be removed is
+[01:01:43] accidental.
+[01:01:45] Um for example here in a payroll system
+[01:01:50] tax logic is essential like you need to
+[01:01:53] follow that tax logic right by law.
+[01:01:55] Well, manual database handling is
+[01:01:58] accidental like how you man uh how you
+[01:02:02] manage the database can be addressed and
+[01:02:06] the complexity can be somehow reduced
+[01:02:09] right. Um so the boundaries also shifts
+[01:02:12] as technology evolves. For example, in
+[01:02:15] the past when we only have like program
+[01:02:18] uh lowlevel
+[01:02:20] programming language like C, right?
+[01:02:24] Managing the memory needs to be manual,
+[01:02:28] very complicated, right? But now we have
+[01:02:31] higher level programming languages for
+[01:02:34] example Pas and JavaScript the memory
+[01:02:37] can be automatically handled. You do not
+[01:02:41] need to manually handle the pointers the
+[01:02:43] memory allocation right. So the
+[01:02:46] complexity
+[01:02:48] in the past like memory memor managing
+[01:02:51] inmemory
+[01:02:53] sorry in the past managing memory
+[01:02:57] manually when we were using C this is
+[01:03:01] essential but now since we have higher
+[01:03:04] level programming language we do not
+[01:03:06] need to manually managing the memory. So
+[01:03:09] if you are still managing it manually
+[01:03:12] this is accidental like this kind of
+[01:03:13] complexity can be removed.
+[01:03:17] How much of a complexity of a modern
+[01:03:19] software is accidental. So a very large
+[01:03:22] portion. So when we look at the uh
+[01:03:25] research data that look at the uh
+[01:03:27] popular software systems
+[01:03:30] um even Microsoft systems or uh Google
+[01:03:35] there are a lot of accidental complexity
+[01:03:37] that can be somehow addressed and
+[01:03:40] reduced.
+[01:03:42] So for example there may be some human
+[01:03:44] process factors right um people are not
+[01:03:49] like managing the collaboration properly
+[01:03:51] that can add accidental complexity to
+[01:03:54] the process or there may be some
+[01:03:57] documentation overload or they are using
+[01:04:00] very complicated tooling for example
+[01:04:02] they are having like 13 or 30
+[01:04:06] environment uh variables right so this
+[01:04:09] is very complicated and can't somehow be
+[01:04:11] addressed
+[01:04:12] So to what degree has a will accidental
+[01:04:15] complexity be removed in the future? I
+[01:04:18] don't know. So you may tell me in the
+[01:04:21] future.
+[01:04:23] Okay. So for your sprint spray you will
+[01:04:27] need to identify some essential and
+[01:04:30] accidental complexity in your project
+[01:04:34] and why they are essential why they are
+[01:04:36] accidental.
+[01:04:38] Right? So any question about
+[01:04:40] differentiating the different types of
+[01:04:42] complexity?
+[01:04:46] So maybe one minute thinking about some
+[01:04:48] essential and accidental complexity for
+[01:04:51] your project.
+[01:04:58] Do you know what you're going to write
+[01:04:59] down in the report?
+[01:05:03] Yes.
+[01:05:05] Okay, that's good. If no, no problem.
+[01:05:08] Have a discussion with your teammates
+[01:05:10] and um think about that.
+[01:05:14] Um so next question is how can we
+[01:05:17] measure software complexity?
+[01:05:20] Why do we need to measure?
+[01:05:23] We want to improve maintainability,
+[01:05:25] right? We know complexity accidental
+[01:05:28] complexity is not that good. We want to
+[01:05:31] uh for for better maintainability we
+[01:05:33] want to address them. So we want to
+[01:05:34] measure it like see wow this component
+[01:05:37] of our software project is too
+[01:05:39] complicated let's address that for that
+[01:05:41] component let's measure it and oh that's
+[01:05:44] okay that's good complexity level so we
+[01:05:47] can leave it we do not need to worry too
+[01:05:48] much about that and it's also very
+[01:05:51] useful for estimating effort and cost.
+[01:05:54] So for example, if you are doing some
+[01:05:56] refactoring or we are changing some of
+[01:05:58] the stories or some modules of your
+[01:06:00] software project and if the complexity
+[01:06:03] is pretty high for that component and
+[01:06:06] then we when we plan ahead we need to
+[01:06:09] like for example allocate longer time
+[01:06:11] more time for that part because it's
+[01:06:14] very complex. There are a lot of things
+[01:06:15] that we need to consider. Maybe there
+[01:06:17] are a lot of other components that
+[01:06:19] depend on this module, right? And you
+[01:06:22] are doing some refactoring about that
+[01:06:24] module. You need to be very careful or
+[01:06:26] there are a lot of people involved in
+[01:06:28] like people factors, people complexity
+[01:06:31] involved in that. You also need to
+[01:06:32] allocate more time for that complicated
+[01:06:34] part. Um, another reason that we want to
+[01:06:38] measure complexity is we want to assess
+[01:06:40] software quality. So for better software
+[01:06:42] quality
+[01:06:44] remove accidental complexity and can
+[01:06:47] also be helpful for guiding refactoring
+[01:06:49] and design decisions. So we know we need
+[01:06:52] to address. So how can we measure? Um
+[01:06:55] there are three ways that we talk about
+[01:06:58] in this course but there are actually
+[01:06:59] more ways to measure complexity. The
+[01:07:02] first one is coupling. The second one is
+[01:07:04] coherent. Cohesion have you heard of
+[01:07:07] these two terms? Yeah. from our
+[01:07:10] maintainability lecture, right? The
+[01:07:12] design principles. Do you do you
+[01:07:15] remember what they are?
+[01:07:17] >> How about coupling?
+[01:07:21] What is coupling?
+[01:07:27] >> Yes. So less dependencies on each other.
+[01:07:30] So put related put unrelated things
+[01:07:35] separate related things together. So if
+[01:07:38] you feel like there are a lot of
+[01:07:40] dependencies on this function
+[01:07:43] uh so this def function depends on that
+[01:07:46] that so there are a lot of dependencies
+[01:07:49] and if you change one of them a lot of
+[01:07:51] other modules need to be updated so
+[01:07:53] that's not good right so we aim for low
+[01:07:56] coupling
+[01:07:58] so low coupling is good less
+[01:08:00] dependencies good cool so we say loose
+[01:08:05] coupling or low coupling For example,
+[01:08:08] web applications tend to have a front
+[01:08:10] end that is loosely coupled from the
+[01:08:12] front end. Why?
+[01:08:34] >> Yeah. Uh anyone can give an example.
+[01:08:47] The back end is not complicated. So
+[01:08:49] shouldn't affect the front. It depends.
+[01:08:52] It depends on the stories, right? Some
+[01:08:55] project are more complicated in the back
+[01:08:57] end.
+[01:09:10] So back end has a lot of data logic.
+[01:09:14] >> Yeah.
+[01:09:19] Issues.
+[01:09:19] >> Uhhuh. So back end is not always
+[01:09:21] perfect. Sometime it have some issues.
+[01:09:25] >> Uhhuh.
+[01:09:28] >> Yeah. So if
+[01:09:30] needed anymore affecting the stuff that
+[01:09:33] you actually
+[01:09:34] >> ah so if there's something in the back
+[01:09:36] end you don't need anymore it shouldn't
+[01:09:38] affect the front end
+[01:09:40] >> yes that's right so the logic should be
+[01:09:42] separate so they shouldn't depend too
+[01:09:44] much on each other so less impact on
+[01:09:46] each other when you are making some
+[01:09:47] changes they shouldn't impact each other
+[01:09:51] too much right great perfect that's
+[01:09:54] great so next concept is called co
+[01:09:57] cohion do you remember what is hat.
+[01:10:03] Huh?
+[01:10:05] >> Sorry.
+[01:10:09] >> Tied it like related to Oh, related
+[01:10:12] things tied it together. Yeah. So any
+[01:10:14] example,
+[01:10:23] >> huh?
+[01:10:28] >> Like different groups of features.
+[01:10:31] >> Yeah. Put them together. Yeah. So um so
+[01:10:36] high cohesion is good. It means that
+[01:10:39] elements belong together. Uh if they are
+[01:10:42] somehow related. Um
+[01:10:48] yeah, like putting stories together is
+[01:10:50] definitely making sense.
+[01:10:53] Um
+[01:10:57] I'm just thinking of more examples.
+[01:11:02] Do you have any other example
+[01:11:05] putting related things together
+[01:11:10] and unrelated things separate? Right.
+[01:11:17] >> Delete.
+[01:11:21] >> Click on the check.
+[01:11:25] >> Ah, so when you click on the check box,
+[01:11:28] so for the task and then it's deleted.
+[01:11:30] So the logic is related.
+[01:11:33] >> Uhhuh.
+[01:11:37] >> Ah, so the deleting logic the process
+[01:11:40] like thing code for that logic is
+[01:11:43] connected together. Yeah, that sounds
+[01:11:46] good. Makes sense to me. Amazing. Thank
+[01:11:48] you for the examples. So let's uh recap.
+[01:11:53] Have a quiz. Think about that. Which
+[01:11:55] statement about coupling is true?
+[01:12:00] High coup is desirable because it
+[01:12:02] promotes reusability. I'm not you read
+[01:12:04] it and tell me which one
+[01:12:16] any A's
+[01:12:22] any B.
+[01:12:24] Yes. Yes.
+[01:12:27] any C
+[01:12:31] D
+[01:12:34] everyone agrees on B. So B says low
+[01:12:38] coupling means fewer dependencies
+[01:12:39] between modules. That's right. So in
+[01:12:42] your project
+[01:12:47] you'll also have a look at your code
+[01:12:49] base and identify
+[01:12:53] if any parts of your code needs
+[01:12:56] refactoring because of coupling or
+[01:12:58] coherent issues.
+[01:13:02] So I feel like sometime when you look at
+[01:13:04] your own code it's really hard to
+[01:13:06] identify that. But if you look at other
+[01:13:09] people's code, it's easier.
+[01:13:12] So what you can do is you can do that as
+[01:13:14] a group and refactoring other people's
+[01:13:18] code.
+[01:13:20] That should be easier. Like looking at
+[01:13:22] your own code is really hard to find the
+[01:13:25] issues.
+[01:13:27] >> Yeah.
+[01:13:30] >> That's nice. Yeah.
+[01:13:33] Cool. Use that trick. looking at
+[01:13:36] reviewing your own code is hard. Um okay
+[01:13:40] so next one how do we actually measure
+[01:13:43] the level of complexity?
+[01:13:46] One way to do that is through cyclomatic
+[01:13:49] complexity
+[01:13:50] is a way to measure the branching
+[01:13:53] complexity of functions.
+[01:13:56] What does that mean?
+[01:13:59] When you have a function that logic is
+[01:14:01] very complicated like you have a lot of
+[01:14:03] if else for
+[01:14:05] well loop. So those are branching
+[01:14:08] complexity that you can either go
+[01:14:11] through if else if else. So there are a
+[01:14:16] lot of branches. It doesn't mean the
+[01:14:18] branches from gate. It means the logic
+[01:14:20] branches or well loop those. So those
+[01:14:23] those are like the arrow and then arrow
+[01:14:26] right. So those are branching
+[01:14:28] complexity. So uh researchers found that
+[01:14:31] branching complexity introduces the most
+[01:14:34] complexity in a function.
+[01:14:36] So this is why psychomatic complexity is
+[01:14:39] important.
+[01:14:41] It's based on its control flow
+[01:14:43] structure.
+[01:14:46] Have a look at this example. So every
+[01:14:50] decision point like a branch can take a
+[01:14:53] different path, right? It increases the
+[01:14:55] number of possible execution roles. So
+[01:14:59] this is complex not only from like
+[01:15:01] execution execution point of view but
+[01:15:03] also from testing point of view right
+[01:15:06] like every branch you need to have a
+[01:15:07] test for it. Um so for example this one
+[01:15:12] there are two independent paths like
+[01:15:14] true or false. So that cyclomatic
+[01:15:16] complexity is two. This is the most
+[01:15:19] straightforward way to consider that.
+[01:15:22] But when it becoming more and more
+[01:15:23] complicated, how can you calculate that?
+[01:15:26] There's a formula for you to use. E
+[01:15:29] stands for ages, N stands for nose, and
+[01:15:34] plus two. Let's have a look at this
+[01:15:36] example.
+[01:15:38] So this is an if else uh function. So
+[01:15:42] starts from a. If a is true,
+[01:15:46] then that's b. We do B and to the end D.
+[01:15:53] If A is not true then C and then answer
+[01:15:56] D. So how many ages added? 1 2 3 4. How
+[01:16:01] many uh nos added? 1 2 3 4. So four
+[01:16:04] minus 4 + 2. So the secometric
+[01:16:07] complexity for this example is two.
+[01:16:12] Right? Okay. So let's have a look at
+[01:16:14] another example. Uh oh, I'm not showing
+[01:16:17] you that. So, if you have a pen, paper,
+[01:16:21] or a laptop, uh you can do it together
+[01:16:24] with me. So, what I'm doing is I'm using
+[01:16:30] this wet board from Microsoft Teams.
+[01:16:34] I'm starting from A.
+[01:16:37] Um if A is true, then go to B.
+[01:16:46] and then
+[01:16:48] else go to
+[01:16:52] C. If C is true then go to
+[01:16:58] D.
+[01:17:00] So let's do it together.
+[01:17:04] Uh
+[01:17:06] if C is not true,
+[01:17:10] I'll put it here instead because
+[01:17:15] Uh
+[01:17:18] then I'll need a D
+[01:17:20] uh E sorry. So uh if A is true then B
+[01:17:28] else go to C.
+[01:17:32] If C is true then go to D. Else go to E.
+[01:17:38] I feel like I'm missing something.
+[01:17:42] If a is true
+[01:17:47] then b
+[01:17:50] else go to c
+[01:17:56] oh after d we also go to e right is that
+[01:18:00] right
+[01:18:03] after
+[01:18:06] um
+[01:18:10] you See
+[01:18:13] if
+[01:18:16] is it right?
+[01:18:19] Um is there any other ages? I feel like
+[01:18:21] there should be another age.
+[01:18:24] I see.
+[01:18:28] Huh?
+[01:18:30] No. Oh, so E is uh like after this
+[01:18:34] branch we go to
+[01:18:38] E.
+[01:18:40] Right after this branch, we also go to
+[01:18:42] E. So that means
+[01:18:45] all the branches ends up at a note.
+[01:18:49] Right?
+[01:18:50] But I feel like I'm missing something.
+[01:18:54] If A then
+[01:18:58] let's have a look at the answer.
+[01:19:01] Cheating. Uh yeah. Yes. So after B we
+[01:19:04] also go to the end, right? After D we
+[01:19:07] also go to the end. So the branches that
+[01:19:10] I'm missing are here and uh here.
+[01:19:18] So it's it's okay to be confused
+[01:19:21] sometimes. No problem. Cool. So how many
+[01:19:25] uh ages are there? How do we calculate
+[01:19:27] that cyclomatic complexity? How many
+[01:19:29] ages? So it's one, two, three, four,
+[01:19:32] five, six. How many nodes are there?
+[01:19:34] One, two, three, four, five. and then +
+[01:19:37] 2 = 3. So the secularatic complexity of
+[01:19:41] this function should be three.
+[01:19:45] Okay. So this example I'm showing the
+[01:19:49] answer correctly. Um so this is a well
+[01:19:53] loop.
+[01:19:54] Uh we start from A, right? If A is true
+[01:19:59] then we go to B and then go back to A
+[01:20:01] again, right? If it's not true, we go to
+[01:20:05] C directly.
+[01:20:10] So, how many ages? 1 2 3. How many
+[01:20:12] knows? 3 + 2 equals 2.
+[01:20:17] All right. Uh oh, here's a complicated
+[01:20:21] one. Do you want to try this one
+[01:20:23] yourself?
+[01:20:28] Don't have no uh anyone want to do it
+[01:20:30] here? I do have a marker if anyone wants
+[01:20:35] to use. We are not judging you. Just
+[01:20:38] somewhere for you to write.
+[01:20:42] If anyone wants a marker at the front,
+[01:20:44] we do have one here
+[01:20:47] and a rubber.
+[01:20:51] Uh, unfortunately, we only have one
+[01:20:53] here.
+[01:20:56] Here we only have one.
+[01:20:59] Or if you want to do together with me is
+[01:21:02] also fine.
+[01:21:13] So for your project um for the report
+[01:21:16] complexity report you can also pick some
+[01:21:18] of the functions and calculate it
+[01:21:22] cyclomatic complexity.
+[01:21:39] I'll do it here.
+[01:21:45] I'm showing you the result.
+[01:21:59] It starts from days
+[01:22:02] uh greater than
+[01:22:07] and then
+[01:22:12] well
+[01:22:23] small
+[01:22:31] here.
+[01:22:33] Um,
+[01:22:38] if the the
+[01:22:40] finished I just started
+[01:22:48] Here's
+[01:22:57] greater than 366
+[01:23:01] and then
+[01:23:04] done.
+[01:23:07] Anyone else finished?
+[01:23:10] No. Let's give some more time.
+[01:23:19] and then
+[01:23:30] so if
+[01:23:42] small
+[01:23:47] And then
+[01:23:58] well
+[01:24:00] if
+[01:24:05] it is
+[01:24:16] should be here.
+[01:24:20] Oh my god, I'm so lost.
+[01:24:29] Sorry, I'm I'm lost here. Sorry. Have a
+[01:24:32] look. There's
+[01:24:35] uh if that is true, then we go to here.
+[01:24:42] Uh if li is not true
+[01:24:46] then we go to
+[01:24:50] uh days
+[01:24:52] 365
+[01:24:54] and then year
+[01:24:57] last one. Oh my goodness. You finished?
+[01:25:02] Sorry I'm so slow. Um
+[01:25:09] entry
+[01:25:11] and then
+[01:25:15] online. Let me know if you have
+[01:25:16] finished.
+[01:25:21] I need help.
+[01:25:24] For those who has finished, what's your
+[01:25:26] answer? Four.
+[01:25:30] What else?
+[01:25:31] What did you get?
+[01:25:36] still working on it.
+[01:25:42] >> Yeah, I haven't finished. Sorry, I'm so
+[01:25:44] slow. Uh, she finished but I haven't.
+[01:25:47] So, what was your answer? What's your
+[01:25:50] answer?
+[01:26:08] should be another one is
+[01:26:13] here.
+[01:26:17] I haven't finished.
+[01:26:23] Who got four?
+[01:26:29] What did you get? Oh, are you still
+[01:26:32] working on it?
+[01:26:37] Do you need more time?
+[01:26:40] No,
+[01:26:42] you lost same as me
+[01:26:46] or you got different answer.
+[01:26:49] Okay, let me have a look. So, uh let's
+[01:26:52] do it together. Uh so, let's start from
+[01:26:56] days is greater than 365.
+[01:26:59] If that's true, then we check if is lip
+[01:27:03] year is true or not. If is lip year is
+[01:27:07] true, we check if this is greater than
+[01:27:11] 366.
+[01:27:14] If that's true, we go here. What if is
+[01:27:18] not true?
+[01:27:21] Back to here. Right? So, we need a note
+[01:27:26] from here to here. Sorry to be a little
+[01:27:29] bit messy. Uh, put it here.
+[01:27:33] And then for the other branch, if leave
+[01:27:36] here is not true, then we go to else.
+[01:27:40] For else, this is what we do. After
+[01:27:43] else, we also go back to here, right? We
+[01:27:46] go back to the well loop.
+[01:27:50] Uh,
+[01:27:52] but I feel like I'm still missing
+[01:27:54] something.
+[01:27:56] This shouldn't be like that. Let me
+[01:28:00] double check
+[01:28:02] uh for checking if this is greater than
+[01:28:06] 65. If that's true, then we go here. If
+[01:28:11] it's not true,
+[01:28:14] huh?
+[01:28:22] Sorry. Can you say that again? Yeah.
+[01:28:25] Come here. Thank you. You're saving my
+[01:28:28] life. I'm so lost.
+[01:28:30] >> Restart.
+[01:28:31] >> No, no. Just do it here. Do you want to
+[01:28:33] do it here?
+[01:28:33] >> I don't know how to do that cuz I just
+[01:28:35] do the board.
+[01:28:36] >> You want to do the board? Sure. Okay. Um
+[01:28:39] Okay. Great. Thank you.
+[01:28:43] Thank you so much. Uh I'll see if people
+[01:28:46] online can see you. Let me have a look.
+[01:28:57] Oh my god.
+[01:29:01] So, where did you get lost?
+[01:29:05] At the beginning.
+[01:29:09] Okay. Oh my god. I don't think people
+[01:29:11] can see it.
+[01:29:14] >> Uh I think it's too small. So, let me
+[01:29:18] Do you want to go together with me?
+[01:29:20] >> Yeah.
+[01:29:21] >> Come here.
+[01:29:22] >> No. No. No. No. Here. Here yeah here
+[01:29:23] yeah here yeah here yeah here yeah here
+[01:29:23] yeah here yeah here yeah here yeah here
+[01:29:23] yeah here so people online can can see
+[01:29:25] it so let's start from if days is
+[01:29:27] greater
+[01:29:27] >> if days is greater than 365 so if it is
+[01:29:30] yes it is leap year
+[01:29:32] >> it goes to if
+[01:29:33] >> no it returns the year
+[01:29:36] >> yes returns the year so again is leap
+[01:29:38] year if it's yes it's days greater than
+[01:29:40] 36 and then if it's no it's days minus
+[01:29:44] equal to 366 year plus and if it's yes
+[01:29:46] for days greater than 366 it goes to
+[01:29:49] days - 36 and year and then you just go
+[01:29:52] back to
+[01:29:53] This goes back.
+[01:29:54] >> This one also goes back.
+[01:29:55] >> Yeah.
+[01:29:56] >> Okay. Let's put it here.
+[01:30:01] >> Sorry. I'll fix the mess.
+[01:30:05] >> Sorry. I'll go put it here. And then
+[01:30:07] there's another one missing. Oh, yes.
+[01:30:09] So, after this,
+[01:30:11] >> it goes back.
+[01:30:11] >> Goes back.
+[01:30:12] >> That's it.
+[01:30:13] >> That's it.
+[01:30:15] >> Okay. Yeah. Uh, yay.
+[01:30:20] Thank you. Amazing. So that's the line
+[01:30:24] that I missed. Perfect. Thank you so
+[01:30:27] much. Amazing. Any question?
+[01:30:36] No question. Yeah, when I look at the
+[01:30:37] answer, I also had no question. But when
+[01:30:39] I do it myself, I was like, "Oh, so
+[01:30:41] complicated." No problem. Okay. I
+[01:30:43] believe you are smarter than me than me.
+[01:30:46] So,
+[01:30:48] no, no, no. Everyone's smarter than me.
+[01:30:49] Okay. No problem. So amazing. So the
+[01:30:52] answer is four. Yay, you did it.
+[01:30:55] Perfect. So um question no. So this is
+[01:31:01] one way to do it. So checking
+[01:31:05] uh day to year,
+[01:31:07] right? But you may notice well can we
+[01:31:09] refactor this function to make the
+[01:31:12] complexity
+[01:31:14] drop?
+[01:31:16] Actually yes. So you may notice that
+[01:31:20] there are multiple ways to do the same
+[01:31:22] thing.
+[01:31:25] Do you want to do another practice or
+[01:31:27] you can do it after the lecture?
+[01:31:31] You can do it after the lecture. You can
+[01:31:32] use this as an example.
+[01:31:35] Cool. Amazing. So what you are going to
+[01:31:37] practice in your project is finding one
+[01:31:40] function that looks quite complicated to
+[01:31:43] you that has a lot of branches like well
+[01:31:47] loop for loop if else things like that
+[01:31:51] and then calculate this cyclomatic
+[01:31:54] complexity
+[01:31:55] and then try to reduce the cyclatic
+[01:31:58] complexity. This is a pretty challenging
+[01:32:01] one. Uh so if you struggle a little bit
+[01:32:03] with it no problem. is very normal. Have
+[01:32:06] a discussion within your group and see
+[01:32:08] how you can reduce the complexity.
+[01:32:10] Okay.
+[01:32:12] Um
+[01:32:14] yeah and some people argue 10 should be
+[01:32:16] the maximum cyclomatic complexity of a
+[01:32:19] function while others argue eight. So if
+[01:32:23] you are not having any function that has
+[01:32:25] more than eight or 10 cyomatic
+[01:32:28] complexity that should be fine. But you
+[01:32:30] do not need need to calculate all your
+[01:32:32] functions. No need to do that. just pick
+[01:32:34] one of them like feels like the most
+[01:32:36] complicated and calculate it complexity
+[01:32:39] and try to reduce it.
+[01:32:42] However, um like having this cyclatic
+[01:32:45] complexity is great like it provides us
+[01:32:49] a way to know and calculate the
+[01:32:52] complexity. However, there are also some
+[01:32:54] drawbacks. Um one of the drawback is
+[01:32:57] assuming that nonbranching statements
+[01:32:59] have no complexity. Like for psychometic
+[01:33:02] complexity we are only calculating the
+[01:33:04] branching complexity right but there are
+[01:33:06] other lines like for example you are
+[01:33:08] assigning a with the value one we are
+[01:33:11] doing like a + b equals blah right so
+[01:33:15] these kind of things they are not part
+[01:33:17] of any branches so we are assuming that
+[01:33:19] there has no complexity which shouldn't
+[01:33:21] be true right so this is one of the
+[01:33:24] drawbacks of uh using cyclomatic
+[01:33:26] complexity however keeping cyclatic can
+[01:33:29] also encourage
+[01:33:31] like splitting functions. So you may
+[01:33:33] have a very complicated uh function that
+[01:33:36] complexity is more than eight or nine.
+[01:33:38] How can you address that? Maybe you want
+[01:33:40] to split that but it's not always good
+[01:33:42] idea, right? It may not make sense. They
+[01:33:45] should bring to belong to one function
+[01:33:47] but you are just like splitting the
+[01:33:50] functions only for reducing the
+[01:33:52] cyclomatic complexity. That shouldn't be
+[01:33:55] the good idea
+[01:33:57] even for a project. So if you just feel
+[01:33:59] like I can't remove the complexity, this
+[01:34:02] function is just super complex by
+[01:34:05] nature. It's okay to leave it. You just
+[01:34:08] say well it's just complicated by
+[01:34:11] nature. I can't reduce the complexity
+[01:34:14] and I I shouldn't split the function.
+[01:34:16] It's fine.
+[01:34:19] Um there are also some tools depending
+[01:34:21] on the programming language and do
+[01:34:23] automatic calculations. Uh but we need
+[01:34:26] to know how we get the answer like the
+[01:34:28] formula and how to draw that um the
+[01:34:32] graph.
+[01:34:35] Cool. Cool. So I'm further reading.
+[01:34:39] Yep. Amazing. So let's have a look at
+[01:34:42] the sprint three guideline now uh and
+[01:34:45] see if you have any question about the
+[01:34:48] complexity part after the lecture.
+[01:34:53] So what addressing complexity here means
+[01:34:56] for your sprint spray?
+[01:34:58] Instead of shrinking the feature set or
+[01:35:00] pretending the problem is simple, you
+[01:35:04] are expected to show that you can name
+[01:35:06] and act on structural issues like what
+[01:35:10] complexity is essential to your pro
+[01:35:12] problem like your users need versus what
+[01:35:15] are those accidental ones like for
+[01:35:17] example duplicated logic or unclear
+[01:35:20] boundaries.
+[01:35:21] Right. Uh so what do you need to include
+[01:35:24] in your report? You need to um first
+[01:35:31] addressing the coupling and coh
+[01:35:33] coherent. Um you may do some refactoring
+[01:35:36] to address coupling and a coherent
+[01:35:39] problem and then in your report you can
+[01:35:41] say well here I did some refactoring for
+[01:35:44] coupling there I did some refactoring
+[01:35:47] about coherent but you do not need to do
+[01:35:49] an extensive refactoring about every
+[01:35:52] single line of your project not
+[01:35:54] necessary just do some practice using
+[01:35:57] your project will be enough so similarly
+[01:35:59] with psychatic complexity choose one of
+[01:36:01] them choose one of the most complicated
+[01:36:03] ated ones and calculate and try to
+[01:36:05] reduce its complexity.
+[01:36:08] Um again treat the complexity as a
+[01:36:11] project management problem as well as a
+[01:36:14] technical one. So keep the
+[01:36:15] responsibilities clear. So you may have
+[01:36:18] uh like an issue
+[01:36:21] about refactoring for complexity
+[01:36:24] and you can have more specific detail
+[01:36:26] for coherent for coupling or for
+[01:36:29] psychometic complexity and assign
+[01:36:31] somebody to it to work on that. Um
+[01:36:36] yeah so this is important prefer small
+[01:36:39] reviewable merge requests over big bound
+[01:36:41] changes right try not to have very big
+[01:36:45] merger request do a lot of refactoring
+[01:36:49] um so this is for if your project
+[01:36:51] requires persistence so this is a
+[01:36:53] checklist
+[01:36:55] that summarize what we just mentioned
+[01:36:57] above so in your report you have
+[01:37:00] something about essential accidental
+[01:37:01] complexity you have some structure
+[01:37:04] uh complexity about co coherent and
+[01:37:07] coupling and then you have something
+[01:37:08] about the measurement like psychometric
+[01:37:10] complexity
+[01:37:12] and then what you do is you can um add
+[01:37:16] an MD file like a markdown file in a
+[01:37:18] report um you don't need to finish the
+[01:37:22] report as in one go you can like have
+[01:37:24] multiple commits to finish the report
+[01:37:27] maybe one commit about like essential
+[01:37:29] accidental complexity and another commit
+[01:37:31] about blah blah blah blah Okay. So,
+[01:37:34] similar as other things. All good. Any
+[01:37:37] question about what do you need to do
+[01:37:38] for Smith Ray about complexity and
+[01:37:41] persistence?
+[01:37:45] All good. Yeah. Any question online?
+[01:37:51] Nope. Well, cool. Great. 15 minutes back
+[01:37:55] to you.
+[01:37:57] Good luck with your final sprint and any
+[01:38:00] midterm exams and all the best for the
+[01:38:04] long weekend. Enjoy. See you in week
+[01:38:08] nine.
+[01:38:11] >> Week eight will be a recording.
+[01:38:12] >> Oh yeah.
+[01:38:14] >> Yeah. Week eight Monday is a public
+[01:38:17] holiday, the Easter Monday. So we'll do
+[01:38:19] a recording instead. So see you in week
+[01:38:22] nine and that will be our final lecture.
+[01:38:24] Yay. So scary. I know. Okay, thank you
+[01:38:29] everyone.
+[01:38:31] >> Thank you

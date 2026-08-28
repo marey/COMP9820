@@ -1,0 +1,1726 @@
+[00:01:39] See?
+[00:01:44] Okay. Um, welcome to week five. Oh, week
+[00:01:48] four, sorry. Um, and first of all, uh,
+[00:01:52] congratulations on finishing sprint one.
+[00:01:54] Yay.
+[00:01:56] [laughter]
+[00:01:57] Yay. So that's already onethird of the
+[00:02:01] term which is quite crazy I know. Um how
+[00:02:05] do you feel about spring one?
+[00:02:08] >> I have a question.
+[00:02:09] >> Yeah sure.
+[00:02:10] >> I noticed that we should submit two kind
+[00:02:14] of different.
+[00:02:21] >> Uhhuh. In main uh like the the files to
+[00:02:24] be submitted to the main branch.
+[00:02:26] >> Yes.
+[00:02:26] >> Yeah.
+[00:02:28] I want to I want to
+[00:02:35] first
+[00:02:41] >> the second one
+[00:02:46] >> the team what contract.
+[00:02:48] >> Yes teamwork contract
+[00:02:51] I I saw it show
+[00:02:55] after we
+[00:03:00] just in case
+[00:03:07] yesterday. So I want to ask
+[00:03:10] the second one.
+[00:03:17] >> Uh the question is whether we need to
+[00:03:19] submit a teamwork contract uh before the
+[00:03:22] deadline.
+[00:03:23] >> Um
+[00:03:25] since
+[00:03:26] Yeah.
+[00:03:29] >> Um so teamwork contract is not a
+[00:03:31] summarization of contribution. Uh it's a
+[00:03:34] contract between your group members on
+[00:03:37] how you plan to do your work. So uh more
+[00:03:41] details are provided on the court's
+[00:03:43] website. So for example, this is the
+[00:03:45] teamwork contract with a template and it
+[00:03:48] it shows it it tells you what team
+[00:03:51] contract is about. Like this document
+[00:03:53] sets clear expectations for how your
+[00:03:55] team will work will work together
+[00:03:57] communicate and deliver. Treat it as a
+[00:03:59] living document like update as your team
+[00:04:01] learn how things work. So it's not a
+[00:04:03] summarization of the contribution but
+[00:04:05] about how your group plan to work
+[00:04:07] together.
+[00:04:09] >> It's okay like spring one is already
+[00:04:11] passed but now you know how uh and why
+[00:04:14] we need to have it. Uh so you can use it
+[00:04:17] for your next spring. So you can see
+[00:04:19] that you plan for like what kind of
+[00:04:21] skills you will bring bring to the team,
+[00:04:24] how you plan to communicate
+[00:04:27] and how you are going to distribute
+[00:04:29] work. So this is all about planning not
+[00:04:32] about reflection.
+[00:04:34] I think the one that you are talking
+[00:04:36] about is the uh spring retro. So it's
+[00:04:40] called spring reactive.
+[00:04:43] So that's another thing.
+[00:04:45] >> Yes. So that's more like a reflection
+[00:04:48] about uh how things went in the past. So
+[00:04:51] that is at the end of the sprint. Uh I
+[00:04:55] know there are some confusion. I also
+[00:04:56] had a look at the on the discord forum
+[00:04:59] and there are some confusion about when
+[00:05:01] to submit that one. So normally we we
+[00:05:03] ask that to be submitted before the
+[00:05:05] deadline but I know there are some
+[00:05:07] confusion about that. So we accept late
+[00:05:09] submission for that one. So team like
+[00:05:12] spring Rachel, spring one Rachel um late
+[00:05:15] submission until your class this week
+[00:05:18] will be also accepted but for spring two
+[00:05:20] and spring three that will need to be
+[00:05:23] submitted before the deadline. I will
+[00:05:25] clarify that in the next spring
+[00:05:26] deadline.
+[00:05:28] >> Okay.
+[00:05:28] >> Yeah. Question.
+[00:05:34] >> Uh you need to submit a document all
+[00:05:37] about that meeting.
+[00:05:39] >> It doesn't need to be very
+[00:05:41] Yeah.
+[00:05:43] >> Yeah. So, it doesn't need to be very uh
+[00:05:46] detailed. It doesn't need to have a very
+[00:05:48] long document. Just shows that uh you
+[00:05:50] have that meeting uh you follow that
+[00:05:53] process and what how you have learned
+[00:05:55] from that retro and what kind of changes
+[00:05:57] you want to to make for the next sprint
+[00:06:00] that will be enough.
+[00:06:01] >> So, usually you should have the
+[00:06:02] retrospective once
+[00:06:05] the project is done.
+[00:06:06] >> Yeah. At the end of that sprint.
+[00:06:08] >> So, once the sprint is done something
+[00:06:14] Uh I would recommend doing it before the
+[00:06:17] deadline. Uh the reason is because
+[00:06:19] sprint two will start from this week. So
+[00:06:23] if you do that ritual late at the
+[00:06:26] beginning of sprint two that will eat
+[00:06:27] into your time for sprint two. So it's
+[00:06:30] better to do it at a at the end of
+[00:06:31] sprint one so you know when you start
+[00:06:33] sprint two what kind of changes you need
+[00:06:35] to make.
+[00:06:36] Yeah. I hope that makes sense. Yeah. But
+[00:06:39] you do not need to submit a very long
+[00:06:41] document. Just some reflection will be
+[00:06:43] enough.
+[00:06:44] All good. Yep. Otherwise, how do you
+[00:06:47] feel about sprint one?
+[00:06:58] >> A lot of things to do. Really?
+[00:07:02] >> Really? Okay. Um, I'll have a look at
+[00:07:05] some of the submissions tomorrow and see
+[00:07:08] how it looks like because my original
+[00:07:10] intention was as less documentation as
+[00:07:14] possible. Uh, but if that's what you
+[00:07:17] felt, uh, I'll see what I can do to
+[00:07:19] change for spring two and sprint three.
+[00:07:22] Thanks for the feedback. Um, in terms of
+[00:07:24] feedback, I also had a look at the
+[00:07:26] feedback form. Uh so um
+[00:07:32] I think there is some confusion about um
+[00:07:36] like the features to have for spring one
+[00:07:39] like the add and delete uh features. Um
+[00:07:42] yeah and I only got to know about the
+[00:07:45] confusion today which is already past
+[00:07:47] the deadline. So if you have any
+[00:07:49] confusion, if you have any question
+[00:07:50] about the guideline or anything that is
+[00:07:52] required for like the project, just
+[00:07:55] email me or put on the forum and we can
+[00:07:59] clarify that early. So you do not need
+[00:08:01] to wait till the end of that spring and
+[00:08:03] realize well I still I'm still not clear
+[00:08:06] about what that means or what I need to
+[00:08:08] do. So just letting us know early that
+[00:08:10] you have questions about this or that
+[00:08:12] and we'll try to clarify as early as we
+[00:08:15] can. So that's also a problem with the
+[00:08:18] feedback form because the feedback form
+[00:08:20] is more about improvement for longer
+[00:08:22] term. For example, at the end of spring
+[00:08:24] two one I'll see okay what I can improve
+[00:08:27] for spring two and three. So uh if you
+[00:08:29] need a like a early reply I feel like
+[00:08:32] forum will be a better place to put your
+[00:08:34] questions and you can get like much
+[00:08:37] earlier response to your questions.
+[00:08:40] Okay. Okay, so the feedback form is not
+[00:08:41] for questions but more for like
+[00:08:43] long-term improvement for the course.
+[00:08:45] But thanks anyway for all the feedback.
+[00:08:48] I'll try to improve for spring 2. Um,
+[00:08:52] okay. So spring 2 guideline has already
+[00:08:55] been released here on the course
+[00:08:57] website. Uh, but I only released the
+[00:08:59] very high level things about spring 2
+[00:09:02] for now because there's no content yet
+[00:09:05] about spring 2 is taught. So I will
+[00:09:07] gradually release uh things week by week
+[00:09:10] as well. Uh but in overall um sprint 2
+[00:09:14] moves from like focus on building
+[00:09:17] something to building something well. So
+[00:09:20] this is the uh the transition of the
+[00:09:22] focus. Um more specifically we will have
+[00:09:26] like automat automated testing uh
+[00:09:29] continuous integration code quality
+[00:09:31] getting the app ready to run in a real
+[00:09:33] environment and everything. So you may
+[00:09:35] not know about these things yet, but
+[00:09:37] we'll use the next three weeks to teach
+[00:09:39] you all the contents um for this. And
+[00:09:42] then here's also a suggested weekly
+[00:09:44] planner. Uh same as sprint one. Uh if
+[00:09:48] you are following this planner each
+[00:09:50] week, you will be sure to be okay at the
+[00:09:53] end of the sprint.
+[00:09:55] Uh for sprint two, we'll continue asking
+[00:09:58] about some like team project management
+[00:10:02] practices. So this is the same as uh
+[00:10:05] spring one but with a higher like
+[00:10:08] expectations. So for example for for our
+[00:10:12] week one we didn't ask for any weekly
+[00:10:15] meetings. We only asked for standups but
+[00:10:17] no meetings but from uh spring two we
+[00:10:21] will be asking at least one full team
+[00:10:23] meeting per week. So I think this is not
+[00:10:26] very high stand just one meeting per
+[00:10:28] week will be enough and you can actually
+[00:10:29] do this meeting during your live class
+[00:10:31] when everyone is together. Um and you
+[00:10:35] will need to have a meeting minutes at
+[00:10:37] the end of the meeting. Uh if you feel
+[00:10:39] like I don't like documentations and
+[00:10:41] stuff all you can do is you can use some
+[00:10:44] like recording app. For example
+[00:10:46] Microsoft Teams can help with recording
+[00:10:48] and can summarize the meeting. So
+[00:10:50] Microsoft team now has some AI features
+[00:10:52] that can help you summarize the team
+[00:10:54] into meeting minutes. So you can use
+[00:10:56] that directly. So you do not need to
+[00:10:57] write everything manually for the like
+[00:10:59] documentations if this is something that
+[00:11:01] you're not that interested in. So all we
+[00:11:04] wanted to do is you had that meeting,
+[00:11:06] you had some action items uh like from
+[00:11:08] that meeting. So you had some planning.
+[00:11:11] So this is everything we want. Um yeah.
+[00:11:15] So uh for the issue board we also uh we
+[00:11:19] are also looking for more advanced usage
+[00:11:21] of it. So for example for spring one we
+[00:11:24] mentioned about linking merge requests
+[00:11:27] to issues. We talk about that but we
+[00:11:29] didn't actually ask for that. We didn't
+[00:11:31] require that. But for spring two we will
+[00:11:34] um [laughter] you don't remember about
+[00:11:36] that. No problem. If we have time at the
+[00:11:38] end of today's lecture I'll talk a
+[00:11:40] little bit more about that. But it just
+[00:11:41] said that you can close the uh the can
+[00:11:45] close an issue in the merge request
+[00:11:47] description.
+[00:11:49] So this is how you can link the merge
+[00:11:52] request to issues. Um milestones and
+[00:11:55] labels this are optional. I'll put a
+[00:11:58] optional here but link merge request to
+[00:12:00] issues they will be required. Uh G and
+[00:12:02] merge request request will be the same
+[00:12:04] as sprint one. However, we'll not asking
+[00:12:08] for like one merge request per uh
+[00:12:11] member. We'll give more flexibility
+[00:12:14] because for spring one, we asked one
+[00:12:16] merge request per uh member was because
+[00:12:18] we want to make sure that everyone get
+[00:12:20] get a chance to practice. But from
+[00:12:22] spring two, we'll give you more
+[00:12:24] flexibility. So, you can based on your
+[00:12:26] like reality like team reality, you can
+[00:12:29] design and plan um on what you wanted to
+[00:12:32] do. pipeline we'll talk about today. Uh
+[00:12:35] participation standups. Um so for sprint
+[00:12:38] one we asked for one standup sorry two
+[00:12:40] standups per week. For sprint two we
+[00:12:42] asked for three but stand up should be
+[00:12:44] like shouldn't be very timeconuming. It
+[00:12:46] should be maximum 15 minutes maximum and
+[00:12:49] normally you can just take five minutes.
+[00:12:51] Uh sprint ritual is the same as sprint
+[00:12:53] one and then the deadline for sprint two
+[00:12:56] is week seven Monday. So uh in another
+[00:13:00] three weeks.
+[00:13:03] Okay. Any question?
+[00:13:10] I'll see if online has any question.
+[00:13:15] All good.
+[00:13:16] All good. About the overall high level
+[00:13:19] goes of sprint 2.
+[00:13:22] Okay. Cool. So today's topic.
+[00:13:28] Okay, today this is the topic. So what
+[00:13:31] is it? Um
+[00:13:34] so when we talk about when we talk about
+[00:13:37] a uh software uh management we mentioned
+[00:13:41] that we want a feedback right we value
+[00:13:44] feedback and we wanted to have uh
+[00:13:47] shorter iterations. We want to make
+[00:13:50] changes based on the feedback right
+[00:13:52] rather than like after a long time we
+[00:13:55] realize well there are some changes we
+[00:13:57] need to make. So this kind of feedback
+[00:13:59] not only limited to feedback from the
+[00:14:01] users the customers or the clients or
+[00:14:04] the other stakeholder not only from
+[00:14:05] those humans but also feedback on how
+[00:14:09] your code your project works. For
+[00:14:12] example, is there any bugs?
+[00:14:15] Right? Uh is your software product doing
+[00:14:18] what you want it to do?
+[00:14:21] Right? So this is also another type of
+[00:14:23] feedback and you wanted to get that
+[00:14:25] feedback as early as possible. Right?
+[00:14:28] You you want to know whether your
+[00:14:30] software does what you want it to do.
+[00:14:32] Okay? And how do you do it? So one way
+[00:14:35] to get this kind of fast feedback is
+[00:14:38] through testing. So through test your
+[00:14:40] software and make sure that it works as
+[00:14:44] what you want it um to do. Okay. So um
+[00:14:48] for your spring one have you tried to
+[00:14:51] test your softwares
+[00:14:54] like how a software works? Have you
+[00:14:57] tried that? No. Uh yet some yet some no.
+[00:15:01] So I did something for example this is
+[00:15:04] my spring one uh project and how do I
+[00:15:09] know my t my task works? I put some
+[00:15:12] test. Okay, it shows here. I know. Okay,
+[00:15:14] it works. And I delete it. It's deleted.
+[00:15:17] Okay, it works. So, this can be a way of
+[00:15:19] testing,
+[00:15:22] right? Have you done that?
+[00:15:24] >> Yes. Uh, anything else you have done to
+[00:15:28] make sure that your software works?
+[00:15:36] >> Huh?
+[00:15:39] uh print nothing and then add task and
+[00:15:41] see if it works. Yes, perfect. Um or
+[00:15:45] have you tried to print out something
+[00:15:50] like to see whether the the value of
+[00:15:52] that variable changed. For example, you
+[00:15:55] may have an array of task.
+[00:15:59] >> Yeah.
+[00:16:01] >> Yeah. print statement and see whether uh
+[00:16:04] like for example the task leaks task
+[00:16:06] leaks is updated. Right? So these are
+[00:16:08] all sorts of like verifying that your
+[00:16:12] software works as you intend it to be.
+[00:16:16] Right? However, this requires some like
+[00:16:19] manual work,
+[00:16:21] right? So you can only have it first and
+[00:16:23] then you do some manual work to know
+[00:16:26] whether oh it works, it doesn't work.
+[00:16:29] Um, is there a way that things can be
+[00:16:32] done
+[00:16:34] faster,
+[00:16:36] easier,
+[00:16:37] and then less manually?
+[00:16:41] Sorry.
+[00:16:43] >> You can automate it. How?
+[00:16:50] >> Yeah, this is what we are talking about
+[00:16:52] today. So, we'll show you some ways to
+[00:16:55] do this kind of testing easier, faster,
+[00:16:58] more frequently, and more visually.
+[00:17:01] Okay, cool. Amazing. So,
+[00:17:05] let's go back to our slides.
+[00:17:11] Okay, so the speed of feedback matters,
+[00:17:13] right? The more quickly you get
+[00:17:14] feedback, the more quickly you can
+[00:17:16] adjust and correct mistakes. and
+[00:17:18] testdriven uh deploy uh development is
+[00:17:21] one way to to speed up feedback. It
+[00:17:23] verifies your code. That's what you
+[00:17:25] expect. So this is a summarization of
+[00:17:27] what we just talked about. So what is
+[00:17:30] this testdriven development? So it is
+[00:17:34] TDD for short.
+[00:17:37] It means that you write a test first to
+[00:17:41] describe the behavior that you want.
+[00:17:45] Run it. It may fail because you haven't
+[00:17:48] write the production code. You only
+[00:17:50] write the test, right? And then write
+[00:17:52] the smallest amount of code to make it
+[00:17:55] pass. Repeat it in small steps. Okay,
+[00:17:59] this may sound a little bit weird. So it
+[00:18:02] actually means that for example um I
+[00:18:05] haven't implemented this at task yet
+[00:18:09] or al although I have this button here
+[00:18:12] but imagine that I haven't got this at
+[00:18:14] task yet. So if I put something here
+[00:18:17] and I click on this button, will the
+[00:18:20] task be added?
+[00:18:23] No, because I haven't implemented at
+[00:18:25] task yet.
+[00:18:27] Right? So similarly, I'll see I'll say
+[00:18:30] like well I wanted to I want to test
+[00:18:32] like I want to have a feature that can
+[00:18:34] delete a task but I haven't implement
+[00:18:37] the deletion yet. If I click on the
+[00:18:39] button will that work? Will that task be
+[00:18:41] deleted? No, it won't. But you may ask
+[00:18:44] like why do we need to do this? Like why
+[00:18:46] do we want to have a test first be
+[00:18:48] before it's actually implemented?
+[00:18:52] Any guess about that?
+[00:19:00] >> It's easier to make mistakes first.
+[00:19:04] >> You can correct it.
+[00:19:05] >> Yeah. So that may be one reason. What
+[00:19:08] else?
+[00:19:14] So um there's another reason uh there
+[00:19:18] are a few reasons actually. So there's
+[00:19:20] another reason which is um remember that
+[00:19:23] last week we when we talk about user
+[00:19:25] stories and um like requirement
+[00:19:27] engineering we said that everything
+[00:19:29] needs to start from the users point of
+[00:19:31] view like what kind of value that we can
+[00:19:33] pro provide to the users right so uh
+[00:19:37] using this kind of testdriven
+[00:19:39] development uh can help you with that
+[00:19:41] act uh as well so you start with what do
+[00:19:44] you wanted to achieve
+[00:19:47] what kind of things your you want your
+[00:19:49] software we're product to be able to do
+[00:19:51] and then actually implement the details.
+[00:19:55] So it's like design it first, plan it
+[00:19:57] first and then do the implementation. So
+[00:20:01] this is another reason. One more reason
+[00:20:03] is that um it's also so the test so when
+[00:20:07] you write like this at when you add uh
+[00:20:10] click on the add task button the test
+[00:20:12] will be added. So it's also living like
+[00:20:15] living documentation. So you do not need
+[00:20:17] to write separate documentation on what
+[00:20:19] your software can do right but when
+[00:20:21] people looking at the test they know
+[00:20:23] okay so these are the things the
+[00:20:25] software can do and when the future when
+[00:20:28] in the future you want to make some
+[00:20:29] changes to your uh like production code
+[00:20:32] like for example you want to make it
+[00:20:33] more elegant you want to add some
+[00:20:36] comments or whatever changes you want to
+[00:20:37] make and the test is keep the same so
+[00:20:40] when you run a test you know like
+[00:20:42] whether works as what you want it to
+[00:20:47] Right.
+[00:20:50] Okay. Um actually there's also another
+[00:20:53] reason for writing the test first. Uh
+[00:20:55] because when you start the
+[00:20:58] implementation like writing the code
+[00:21:00] first and then writing the test later
+[00:21:03] always in your mind you already have an
+[00:21:04] assumption of how things make should
+[00:21:07] work when you write the test because you
+[00:21:09] wrote the implementation first. So you
+[00:21:11] already got an assumption of how things
+[00:21:13] should work. So that will have an impact
+[00:21:17] on your test. However, if you start with
+[00:21:20] your test and test is from the stories
+[00:21:24] you know what are the like expected
+[00:21:26] behavior of your system.
+[00:21:30] Okay. So it will be less biased.
+[00:21:34] Oh there's a question from online. Um
+[00:21:38] I'm not sure whether the question is
+[00:21:39] about spring one or spring two. So the
+[00:21:41] question is we were told the standup can
+[00:21:45] be we message where a group we post in
+[00:21:49] the group about what we are doing. When
+[00:21:51] you say 50 minutes does that mean we
+[00:21:53] need to have with them as a video call.
+[00:21:55] No no no no just uh some messages uh in
+[00:21:59] your Microsoft teams channel will be
+[00:22:00] enough. I'm saying 50 minutes just
+[00:22:02] wanted to emphasize it shouldn't take
+[00:22:03] you too long like it should be like
+[00:22:06] quite fast quite quick. Although we ask
+[00:22:08] for like two or two three times two
+[00:22:10] times per week for spring one and three
+[00:22:12] times per week for spring two but it
+[00:22:15] shouldn't take you too much time. That's
+[00:22:16] it. That's all I mean. Okay. Uh coming
+[00:22:20] back to test. Okay. So now the question
+[00:22:23] is we were talking about test right? So
+[00:22:26] what is the test? So the test this is
+[00:22:28] one way of doing that but it's very
+[00:22:30] manually. Um in software engineering
+[00:22:32] when we say test we can write some code
+[00:22:35] to do the test. So the test can be
+[00:22:38] achieved through writing some code.
+[00:22:41] For example, you load the index page,
+[00:22:44] check that task name appears in the
+[00:22:45] response. If it does, the test passed.
+[00:22:49] Uh but this can be written in some code.
+[00:22:55] I'll show you more demo very soon uh
+[00:22:58] about how to write this code.
+[00:23:02] Um
+[00:23:04] yeah, I'll come back to this later
+[00:23:06] actually. Okay, so how to write code? So
+[00:23:09] how to how to write the test? So this is
+[00:23:11] an example of test for my task tracker.
+[00:23:19] So um this this one what I want to test
+[00:23:23] is that the index page. So the index
+[00:23:26] page is my main page. I only have one
+[00:23:29] page now which is this index page. Uh I
+[00:23:33] want to make sure that the index page uh
+[00:23:36] shows this one shows uh this uh this
+[00:23:41] line in the response.
+[00:23:45] So this is a test. So this is one
+[00:23:49] example of test. And to do this test you
+[00:23:53] do not need to start your server and see
+[00:23:56] oh is this test here is it exactly the
+[00:23:59] same uh is there any typo uh is it like
+[00:24:03] is there anything wrong with it but you
+[00:24:05] can actually write some code to achieve
+[00:24:08] that
+[00:24:09] uh where is it? Yep.
+[00:24:12] Okay.
+[00:24:17] But how do you actually do this? like
+[00:24:19] where do we put this test and how does
+[00:24:21] the test work
+[00:24:25] any guess about that
+[00:24:29] do you have any idea
+[00:24:33] so uh because we are using Python right
+[00:24:37] for person there's a framework so
+[00:24:40] someone has already built a framework
+[00:24:43] for us to do this testing so you do not
+[00:24:46] need to write everything from scratch
+[00:24:48] But there's already a framework that has
+[00:24:50] already built for us. All we need is to
+[00:24:53] put these test cases like what do you
+[00:24:55] want to test in that using that
+[00:24:57] framework and that framework is called
+[00:25:00] pest or piest.
+[00:25:04] So uh it's like that. Uh oh the wrong
+[00:25:07] one. Yep. So it's called pi test. So you
+[00:25:11] can install this framework by using pip
+[00:25:15] install pyest for windows or Linux
+[00:25:17] systems or pips free install py for
+[00:25:20] macros uh systems and then you can
+[00:25:23] install this framework. It finds and run
+[00:25:27] any function that names at this. So it
+[00:25:31] will find all
+[00:25:33] your functions names like this
+[00:25:37] to run auto all the test for you.
+[00:25:40] So when they they will try so this frame
+[00:25:43] when you install this framework and when
+[00:25:44] you run test it will find these ones for
+[00:25:47] example
+[00:25:49] uh let me show you
+[00:25:53] this one.
+[00:25:55] So they will find these functions starts
+[00:25:58] with test and then you can put a name um
+[00:26:02] to make it more sense like what this
+[00:26:04] test is about and then um
+[00:26:09] for example this is the uh the URL or
+[00:26:11] the request that we are send just the
+[00:26:13] index right we only have an index for
+[00:26:15] now and then we check whether uh this
+[00:26:18] complete flux tutorial is in the
+[00:26:20] response data
+[00:26:23] that's it very straightforward,
+[00:26:27] right? So, let me show you more in
+[00:26:31] practice.
+[00:26:36] So, what we do um so my suggestion is to
+[00:26:40] create a folder called test slash. So,
+[00:26:43] the folder is named as test and you put
+[00:26:46] all your test cases under this folder.
+[00:26:49] Uh but this is not required. So as long
+[00:26:52] you have those test uh underscore
+[00:26:55] something. Python file uh that pi test
+[00:26:59] framework will find those files and then
+[00:27:01] they will find all those test cases in
+[00:27:04] those files. But my suggestion is to
+[00:27:06] have this folder to group your test. So
+[00:27:09] it's more clear like the structure the
+[00:27:11] logic is more clear. Well this
+[00:27:13] everything in this folder is about test.
+[00:27:17] Okay. And this is uh just me copy and
+[00:27:19] pasting the example from the slides. And
+[00:27:23] now your question maybe how do we
+[00:27:25] actually run it right? Uh when we test
+[00:27:29] like uh our project well we hadn't you
+[00:27:32] like some interface that we can see we
+[00:27:34] know whether it works or not but now you
+[00:27:36] are saying that you can write some code
+[00:27:37] to verify to test. How do we actually do
+[00:27:40] it? Since I have already installed the
+[00:27:44] pad test, I can I'll clear it to make it
+[00:27:47] more clear for you. So all you need to
+[00:27:51] do is do pad test and then it will start
+[00:27:57] testing all the testing test uh test
+[00:27:59] cases here and this is the only test
+[00:28:01] cases that I have and it shows one pass.
+[00:28:06] So it means that it can find
+[00:28:09] this in the response when you send the
+[00:28:13] request. This one this is the URL. So
+[00:28:15] get this URL. So this is the request and
+[00:28:18] this line is in the response.
+[00:28:22] So you do not need to have this URL
+[00:28:24] working. So you don't need to have this
+[00:28:26] UI working because a lot of times when
+[00:28:28] you have like partially implemented
+[00:28:31] project there's nothing that can be
+[00:28:33] displayed in the UI right you cannot
+[00:28:36] verify it yet when your front end is not
+[00:28:39] working perfectly yet but what you can
+[00:28:41] do is you can write those cases now I
+[00:28:44] can add more cases for example I've
+[00:28:47] already got something planned here oh
+[00:28:54] Sorry.
+[00:28:57] So I have more cases written here. Uh
+[00:29:00] for example, this first one is test this
+[00:29:03] load. So um
+[00:29:07] and then shows initial task and uh the
+[00:29:11] other ones. So you may notice well I
+[00:29:13] have a class here. Why do I have a class
+[00:29:16] here on top of those task functions? So
+[00:29:20] this is useful when you want to group
+[00:29:22] those testes into categories or you have
+[00:29:25] a lot of test cases. You may have a long
+[00:29:27] list here and it's really hard to read
+[00:29:30] and really hard to know well uh this
+[00:29:32] what what is it about? So you can have a
+[00:29:35] higher level grouping for the test
+[00:29:38] cases. For example, all my test cases
+[00:29:41] here are about test index page. So I can
+[00:29:44] say well text index and put everything
+[00:29:47] relevant under it.
+[00:29:51] Okay. So let me run this again. Pi test.
+[00:29:54] You can see well three pass all this
+[00:29:57] works. However what happens if something
+[00:30:00] is wrong right? Like what do we see? For
+[00:30:02] example I can add more
+[00:30:05] um to this test case. I'll say I want to
+[00:30:09] see haha haha in response data which
+[00:30:14] actually I don't have right so what
+[00:30:18] would we see so let's have a look so you
+[00:30:21] get something right
+[00:30:24] when you run p test
+[00:30:27] it will be like uh the first two pass so
+[00:30:30] the green dots here means pass and the
+[00:30:35] right f means fail
+[00:30:37] So here we have two cases passed which
+[00:30:42] are
+[00:30:43] this one and this one but the third one
+[00:30:46] this one failed and it also it also
+[00:30:50] tells you where it fails like does it be
+[00:30:54] haha so this case
+[00:30:57] failed so you know okay um is it because
+[00:31:02] my test case is wrong or is it because
+[00:31:05] like something's missing in my
+[00:31:07] implementation or something wrong in my
+[00:31:09] implementation. So you know okay I need
+[00:31:12] to look back into my implementation and
+[00:31:14] see how I can make it like pass. So
+[00:31:18] normally what we do is we start with
+[00:31:21] those test cases without actually
+[00:31:23] writing the actual implementation of the
+[00:31:26] production code. So we write those test
+[00:31:28] cases first. So other things you may
+[00:31:30] want to have for example you want to
+[00:31:32] test like whether uh when you have
+[00:31:35] nothing
+[00:31:36] uh for so when you have nothing here
+[00:31:41] if you add task like whether it will be
+[00:31:43] adding nothing or it will have a blank
+[00:31:46] something with a delete button here
+[00:31:48] right so these are all the things that
+[00:31:50] you can test and we write those tests
+[00:31:54] first and then go back to write
+[00:31:55] implementation
+[00:32:01] okay any question
+[00:32:04] any questions so
+[00:32:07] Let me see online. On online. Yep.
+[00:32:13] Okay. Um so some more details about the
+[00:32:17] writing the test. Um you may ask like
+[00:32:19] what is this client right? What do you
+[00:32:22] mean by assert? What do you mean by be
+[00:32:24] or what we mean by response data? So um
+[00:32:28] client here is
+[00:32:31] like without actually running the server
+[00:32:36] pest can help you test whether giving a
+[00:32:40] request whether you get the specific
+[00:32:42] response.
+[00:32:45] So everything is already like
+[00:32:47] pre-implemented for you in that
+[00:32:49] framework in that phat the piest
+[00:32:52] more people call it pi test some people
+[00:32:55] call it p so for okay so uh where do we
+[00:32:58] uh like define this client is in this
+[00:33:01] confest py this person file so this is
+[00:33:06] where we define this client so here I
+[00:33:08] only have like define the initial task
+[00:33:12] and when we when I define this client I
+[00:33:14] ask them to um like reset before each
+[00:33:19] test. This is very important because
+[00:33:22] sometimes you may have a test about like
+[00:33:24] testing about adding something or adding
+[00:33:27] a task or deleting the task and your
+[00:33:30] previous test may impact your later
+[00:33:34] test. For example, in your previous
+[00:33:36] test, you may already deleted some of
+[00:33:38] the task and in your later uh test you
+[00:33:42] are like for example testing whether the
+[00:33:44] number of task increases by one. So this
+[00:33:47] may be
+[00:33:50] >> it's okay. So there may be some uh
+[00:33:53] impacts between the different test. So
+[00:33:57] it's very important to make sure that
+[00:33:58] you have some resets
+[00:34:01] and when you put the uh what do you
+[00:34:04] wanted to reset in this comp test it
+[00:34:06] will be automatically
+[00:34:08] um
+[00:34:10] triggered for your each test. So this is
+[00:34:13] also another powerful thing of pi test.
+[00:34:17] So this and the f the file needs to be
+[00:34:19] named as cf test py. So this is required
+[00:34:24] and it will like uh the the pi test
+[00:34:27] framework will automatically find this
+[00:34:29] file and find like how you wanted to
+[00:34:31] reset the task or like any inmemory
+[00:34:34] things that you want to have.
+[00:34:39] Okay.
+[00:34:45] All good so far. It may sounds a little
+[00:34:47] bit weird. So when the first time when I
+[00:34:50] learn about testing I feel like oh this
+[00:34:52] is so vague I have no idea what it why
+[00:34:57] it works like that but when you actually
+[00:34:59] write something will be become like much
+[00:35:01] more and more clear for you like it
+[00:35:03] takes some actual practice to really
+[00:35:06] understand it. Okay. Um
+[00:35:14] yeah let me know if you have any
+[00:35:16] questions.
+[00:35:17] Okay. Otherwise, I'll go back to the
+[00:35:20] slides.
+[00:35:24] Okay. So, in the slides, I'll put some
+[00:35:26] more uh details about but I've already
+[00:35:29] talked about them. But this is like
+[00:35:30] something for you to um refer to later.
+[00:35:34] For example, the class uh the def um the
+[00:35:39] text cases, the response response data.
+[00:35:42] Oh, I haven't mentioned about this one.
+[00:35:44] So B here in the response data uh
+[00:35:47] because the response we got back from
+[00:35:51] the server are bets. So this is why we
+[00:35:54] had the B here.
+[00:36:01] Yep. So now um if you are working on
+[00:36:07] your project so you are implementing
+[00:36:09] more features now right? So you have the
+[00:36:11] stories from your sprint one and you are
+[00:36:13] implementing them in your sprint two. So
+[00:36:16] what are you going to do next?
+[00:36:19] So now for example you are uh working on
+[00:36:22] your project tomorrow
+[00:36:24] right. So what's your plan next if you
+[00:36:28] want to follow this test driven
+[00:36:30] development
+[00:36:36] make the test cases. Yes. So have a look
+[00:36:39] at your stories
+[00:36:41] and use those stories to write test
+[00:36:44] cases
+[00:36:47] but at the beginning your test cases may
+[00:36:49] not be comprehensive enough. For
+[00:36:52] example, at beginning you may have uh
+[00:36:54] for the test index you may have just
+[00:36:57] show all the existing task
+[00:37:00] and then you have like the major feature
+[00:37:02] about adding task but later on you
+[00:37:05] realize there's some age cases for
+[00:37:07] example what if I put nothing here and I
+[00:37:10] click on add task so there may be
+[00:37:12] another age case you want to add later
+[00:37:15] and say well uh the test case is the the
+[00:37:19] case that I want to test is that when
+[00:37:21] there's nothing here and the client
+[00:37:25] click on at task it should remain the
+[00:37:28] same right so you may want to start from
+[00:37:31] the user stories
+[00:37:34] focusing on the major test cases at the
+[00:37:38] beginning and then gradually you may
+[00:37:41] realize well there are these age cases
+[00:37:43] that I want to add there are those age
+[00:37:45] cases that I want to add okay so what
+[00:37:48] else do you want to to plan to do
+[00:37:50] tomorrow.
+[00:37:53] So what are the other things or steps?
+[00:38:00] So my question is do I write all the
+[00:38:03] test cases first and then start all the
+[00:38:07] implementations?
+[00:38:12] No. So not strictly like that. So you
+[00:38:15] start with the core test cases and then
+[00:38:18] do your implementations. At any point
+[00:38:21] you feel like there are some missing uh
+[00:38:23] like test cases go back at those test
+[00:38:25] cases
+[00:38:29] but make sure that um do not write any
+[00:38:34] okay so this is a question for you. Um
+[00:38:37] so now I have a test case and I have
+[00:38:40] written some production code and I after
+[00:38:44] I write that production code my test
+[00:38:46] case passed
+[00:38:52] uh I'll reframe my question. So I have a
+[00:38:55] test case first and now I'm writing the
+[00:38:57] production code. Okay. But I feel like
+[00:39:00] my production code is not good enough.
+[00:39:03] For example, I feel like um instead of
+[00:39:06] writing this array like that like I can
+[00:39:09] reframe like blah blah blah or the logic
+[00:39:11] the what if the logic I want to change
+[00:39:13] blah blah blah. So do I make this change
+[00:39:17] first or do I make sure the test case
+[00:39:22] pass before making those changes?
+[00:39:31] >> Yes. So first step write the test cases
+[00:39:35] right and then when we write the
+[00:39:37] production code for the test cases we
+[00:39:40] aim for minimum effort minimum time to
+[00:39:45] make sure the test case pass
+[00:39:48] and then in like when we have time maybe
+[00:39:51] later on we can refactor that code to
+[00:39:54] make sure like the code is more elegant
+[00:39:56] or feel like it's more efficient like
+[00:39:58] that but the primary go primarily like
+[00:40:02] we want to make sure that the test case
+[00:40:04] pass before we actually improving the
+[00:40:07] code.
+[00:40:09] Now another question
+[00:40:11] um I already knew that I want to have
+[00:40:14] multiple users for my task tracker and I
+[00:40:18] have an idea about how to write the code
+[00:40:22] like it's quite clear for me. I feel
+[00:40:24] like oh this is so easy like I can just
+[00:40:27] have a array for just an example I have
+[00:40:29] an array like this is the user one this
+[00:40:31] is user two
+[00:40:33] um I'm very confident that this can be
+[00:40:36] correct do I write the code and then do
+[00:40:42] the test later or do I pause a little
+[00:40:45] bit write the test and then go back to
+[00:40:48] write the code
+[00:40:54] write a fee test.
+[00:40:59] >> Yeah.
+[00:41:00] Uh
+[00:41:02] how about the others?
+[00:41:06] >> Still write the test first. Yes. Still
+[00:41:09] write the test first.
+[00:41:12] Even if you are very confident about
+[00:41:15] like that your implementation,
+[00:41:18] still write the test first. Um
+[00:41:22] yeah
+[00:41:24] cool cool cool cool cool cool cool cool
+[00:41:25] cool cool cool cool cool cool cool cool
+[00:41:25] cool cool cool cool cool cool cool cool
+[00:41:28] yeah yeah so here are some more examples
+[00:41:30] about the process for example about the
+[00:41:33] add you already have that one so empty
+[00:41:36] task not added so this is not required
+[00:41:38] for like spring one so spring one is
+[00:41:40] very simple just as long as you can add
+[00:41:42] and delete task that's it but for spring
+[00:41:45] two for example just an example this is
+[00:41:47] one of your stories you want to have
+[00:41:50] like empty task not added.
+[00:41:53] What do you do? The process is starting
+[00:41:54] from red. Red means fail, right? So test
+[00:41:57] that posting empty task leaves the task
+[00:42:00] count unchanged
+[00:42:02] and then
+[00:42:04] make it grain like make it work in the
+[00:42:08] ignore empty or white space only input
+[00:42:10] blah blah blah and then refactor and
+[00:42:13] then repeat this process. So start with
+[00:42:15] writing the test, writing the
+[00:42:17] implementation, refactor and then repeat
+[00:42:20] add another test or you can have
+[00:42:22] multiple test but not all test
+[00:42:27] uh doesn't have to be all test like
+[00:42:31] any other question
+[00:42:34] the process.
+[00:42:37] Okay, so now we have got more idea about
+[00:42:41] how in reality it works.
+[00:42:45] Um, some rules about TDD like testdriven
+[00:42:49] development. Don't write any production
+[00:42:51] code unless you have a failing test
+[00:42:54] because we wanted to have faster
+[00:42:56] iterations, right? Like everything is
+[00:42:58] driven by the test. TDD is test driven
+[00:43:01] because you start with test write enough
+[00:43:03] code to make the test part. So this is a
+[00:43:06] very common mistake to make especially
+[00:43:09] for early stage uh developers.
+[00:43:14] Um we often assume that in the future I
+[00:43:19] will need that line of code. We thought
+[00:43:23] that well this is so good in the future
+[00:43:26] I will definitely need that.
+[00:43:29] So these are all assumptions about the
+[00:43:32] future. uh and in very very often in
+[00:43:37] reality we don't need that line of code.
+[00:43:40] So you are actually writing more code
+[00:43:42] and this is something that we want to
+[00:43:44] avoid because the more lines of code you
+[00:43:47] write the more lines of code you need to
+[00:43:49] maintain and make sure that it works.
+[00:43:53] So the more lines of code you write the
+[00:43:56] potentially more mistakes more bugs will
+[00:43:58] be in there. And in the future if you
+[00:44:01] want to make some changes like all those
+[00:44:04] lines of code I think that you need to
+[00:44:06] worry about right so do not write any
+[00:44:10] code that you assume in the future you
+[00:44:11] will need okay uh start with a t and
+[00:44:15] only write a t enough code to make the
+[00:44:18] test pass. So your first step is to
+[00:44:20] think what behavior do you want and
+[00:44:22] where did you get the answer to this
+[00:44:24] question your user stories and then what
+[00:44:27] test will fail until that behavior
+[00:44:30] exist. The test should check behavior
+[00:44:33] not implementation. So this is also
+[00:44:36] another reason that why we write the
+[00:44:37] test first rather than writing the
+[00:44:39] implementation first because when you
+[00:44:42] write the implementation you will
+[00:44:43] already have an like assumption of how
+[00:44:45] things should work and your test will be
+[00:44:48] biased by that.
+[00:44:51] Okay. So here's a summarization about
+[00:44:53] the process as we just mentioned. So uh
+[00:44:58] here's a summarize summarization of YTD.
+[00:45:01] So first of all fast feedback design
+[00:45:03] from the outside. So someone also called
+[00:45:06] this as black box testing. It means that
+[00:45:09] you do not need to worry about inside of
+[00:45:12] the box like how things work. All you
+[00:45:14] need to worry about is how it behaves.
+[00:45:18] It's like for example um when you drive
+[00:45:21] a car, right? Do you actually need to
+[00:45:24] know how the engine is functioning?
+[00:45:28] No. All you need to know is you can turn
+[00:45:32] left by rolling it to the left or turn
+[00:45:34] right by rolling it to the right. Right?
+[00:45:37] So you need do not need to worry about
+[00:45:38] how inside works. You only worry about
+[00:45:41] how outside works. So it's called
+[00:45:43] blackbox testing as well. So did TDD
+[00:45:47] also works as a living documentation.
+[00:45:49] Like when people read your test cases,
+[00:45:51] it knows what your software can do. Is
+[00:45:53] safe refactoring. Why is it safe for
+[00:45:56] refactoring?
+[00:46:02] Yeah. So less production code. What
+[00:46:04] else?
+[00:46:10] It's because when you run pi test,
+[00:46:13] right? No matter what changes you have
+[00:46:15] made, when you run pi test, you know
+[00:46:18] whether the test pass or not because
+[00:46:20] there may be some in like dependencies
+[00:46:23] between different functions features,
+[00:46:27] right? So when you implement one
+[00:46:28] feature, it may have some impact on
+[00:46:31] other features. So although you won't
+[00:46:34] your intention wasn't changing anything
+[00:46:36] about that feature, but when you change
+[00:46:38] the other feature, it may somehow change
+[00:46:41] that feature. When you run pi test, all
+[00:46:44] the test for your software product or
+[00:46:47] for specific sections of your product
+[00:46:49] will be tested. So when you are making
+[00:46:52] changes it's safer
+[00:46:55] and then you can run it often right like
+[00:46:57] you can run pest often like uh whenever
+[00:46:59] you're making some changes after you
+[00:47:01] have done that run pest making sure
+[00:47:03] everything works and in the future want
+[00:47:05] to make some changes as well like pest
+[00:47:07] will make sure like all the test pass
+[00:47:09] and then you feel oh okay it's safe
+[00:47:11] right uh I have met all the requirements
+[00:47:15] and confidence and control when the test
+[00:47:18] pass you know okay yay I'm feeling and
+[00:47:20] confident, right?
+[00:47:23] Um, oh, this is a very important one.
+[00:47:26] So, my question now is,
+[00:47:30] um, you run your p test, everything's
+[00:47:33] green, nothing's in red. Can you say
+[00:47:39] that your software does what you want it
+[00:47:42] to do?
+[00:47:47] No.
+[00:47:50] No. So, so TDD doesn't prevent mistakes.
+[00:47:54] So, maybe there's something missing from
+[00:47:57] your test, right? Maybe it's just your
+[00:47:59] test is not comprehensive. Maybe I just
+[00:48:01] forgot to add the one about testing like
+[00:48:03] the blank uh inputs.
+[00:48:07] So, that is great. Although I had blank
+[00:48:09] input and I add add task, right? It
+[00:48:12] doesn't mean that everything's correct.
+[00:48:14] It just means that what you are what you
+[00:48:18] are testing is all correct.
+[00:48:22] Right? It's helpful for like re uh
+[00:48:25] revealing bucks
+[00:48:28] but it doesn't prevent bugs.
+[00:48:31] Um
+[00:48:33] yeah cool. So this is why PDD
+[00:48:37] um yeah so I think we have already
+[00:48:39] talked about that.
+[00:48:41] Yeah we already talked about that. Uh
+[00:48:45] yeah, I think we also talk about that.
+[00:48:48] Perfect.
+[00:48:50] So that's everything about um TDD and
+[00:48:55] testing. So uh I think the lecture is
+[00:48:59] helpful for explaining the higher level
+[00:49:03] logic and why and what is it. Uh but for
+[00:49:07] actually knowing how to do it, I feel
+[00:49:11] like the lecture can only serve as an
+[00:49:13] introduction. So you need to actually do
+[00:49:16] it, write some test cases, uh practice
+[00:49:19] the process and then you can get deeper
+[00:49:21] understanding about how it works and you
+[00:49:23] may have like further questions later.
+[00:49:26] This is very common. So this is um the
+[00:49:30] first part of the lecture. Now, let's
+[00:49:32] take a break and come back at 700 p.m.
+[00:49:35] and we'll learn about how to make it
+[00:49:37] even faster.
+[00:57:17] focusing on something else.
+[00:57:19] >> Yeah. Okay. I will clarify this as a
+[00:57:22] group. Sorry. Uh it's 700 p.m. So, yeah.
+[00:57:24] No, sorry about that. I'll clarify it a
+[00:57:28] little bit.
+[00:57:32] Okay.
+[00:57:36] Okay. Um there's a very good question
+[00:57:38] during the break uh which is about uh
+[00:57:42] what actually we are doing. So what what
+[00:57:44] kind of features we are having for
+[00:57:46] spring 2. Um for sprint one uh we gave
+[00:57:51] everyone the same features which is
+[00:57:54] adding and deleting task. Uh that was
+[00:57:57] because we haven't learned about stories
+[00:58:00] yet. So we we told you where everyone's
+[00:58:02] doing adding and deleting task but since
+[00:58:06] now you have already got your stories
+[00:58:09] um you can decide what features to have
+[00:58:13] for spring 2 and spring 3.
+[00:58:18] So there will so this part I haven't
+[00:58:20] done that yet. So uh I'm still drafting
+[00:58:23] it. So I'm not releasing it yet but I'll
+[00:58:26] get that available to everyone latest
+[00:58:29] tomorrow. So tomorrow the latest uh I'll
+[00:58:32] get so I will work on this tonight as
+[00:58:34] well. Um but in overall so you will be
+[00:58:38] implementing
+[00:58:40] features
+[00:58:42] from your stories.
+[00:58:44] So the course will not be asking you
+[00:58:47] well add a login button add users at
+[00:58:51] that lines blah blah blah blah. So you
+[00:58:53] will be implementing your own stories
+[00:58:58] at the end of the sprint will mark um
+[00:59:02] like what kind what kind of value you
+[00:59:05] bring to the users. Your question
+[00:59:08] >> I was wondering if there
+[00:59:13] >> we're still making those stories on our
+[00:59:15] own.
+[00:59:16] >> Yeah
+[00:59:17] >> that's the sort of minimum requirement
+[00:59:20] we have to make. So any
+[00:59:24] features are too less.
+[00:59:27] >> Uh yeah, this is a very good question.
+[00:59:29] So the question is uh is there a
+[00:59:31] baseline like how many features do we
+[00:59:34] need to have? Um
+[00:59:38] what what do you suggest actually I
+[00:59:40] wanted to know your ideas like from the
+[00:59:43] students point of view like what do you
+[00:59:44] think make more sense to students to
+[00:59:47] people who are actually doing the work?
+[00:59:51] Yeah,
+[00:59:52] >> I mean
+[00:59:55] I think it
+[00:59:59] probably already
+[01:00:15] >> uh so you were saying that like uh it's
+[01:00:18] in a production mode like people can use
+[01:00:20] it. So that's the baseline. So minus and
+[01:00:24] induct this is already in production
+[01:00:26] mode [laughter]
+[01:00:28] >> and there's another track which is
+[01:00:30] already in production.
+[01:00:35] like incomparable to something else like
+[01:00:37] the GitLab issue board
+[01:00:41] >> but GitLab issue board is pretty
+[01:00:43] featurer like it has a lot of features
+[01:00:47] and some groups user stories may be like
+[01:00:50] I don't think that's necessary for
+[01:00:52] example
+[01:01:00] Okay.
+[01:01:05] >> Number of features.
+[01:01:07] Um
+[01:01:09] yeah, I also thought about that
+[01:01:11] actually. Um the reason that I didn't
+[01:01:13] take the uh like number of features was
+[01:01:16] because I don't want to because I know
+[01:01:18] marks is important to everyone, right?
+[01:01:21] like I don't want to make people feel
+[01:01:24] like the more features that I have uh
+[01:01:27] the higher marks that I will get or I'll
+[01:01:30] aim for minimum number of features while
+[01:01:34] ignoring the quality of the feature or
+[01:01:36] the process of the feature.
+[01:01:39] Um
+[01:01:41] yeah,
+[01:01:43] I'll think a little more about that. But
+[01:01:46] if you have any suggestions, uh, uh,
+[01:01:49] could you please put in the feedback
+[01:01:51] form by the end of tomorrow?
+[01:01:56] Um, I'll also put this through today's
+[01:02:00] newsletter asking everyone's suggestion,
+[01:02:03] ideas.
+[01:02:05] Um, and then I'll finalize the marking
+[01:02:09] criteria tomorrow night.
+[01:02:12] But for now uh some things for sure is
+[01:02:16] that there's no course required stories.
+[01:02:19] So you have that flexibility. You can do
+[01:02:21] whatever you want from your stories and
+[01:02:24] you will need to continue working on the
+[01:02:26] stories. So by the end of the term uh
+[01:02:30] like at the end of sprint three you will
+[01:02:33] need to have some like working project
+[01:02:38] right. Um the reason that like at the
+[01:02:41] beginning I also thought about like
+[01:02:42] because we are learning testing maybe we
+[01:02:45] just mark for the testing because we are
+[01:02:47] learning part CI like maybe we just mark
+[01:02:49] for the CI not asking you to implement
+[01:02:51] more features but later on I thought
+[01:02:53] about like if we are not implementing
+[01:02:55] more features how can we practice like
+[01:02:57] writing test before implementation right
+[01:03:00] like how can we practice like pipeline
+[01:03:03] collaboration everything if we are not
+[01:03:05] actually writing the code writing the
+[01:03:07] new features is
+[01:03:09] um yeah how can we know whether teamwork
+[01:03:11] contract works or not like um yeah so
+[01:03:14] that's the reason that we I thought like
+[01:03:16] we still need to aim for a good end
+[01:03:19] product uh so that we can practice
+[01:03:21] everything that we learn in the course
+[01:03:24] like in real practice rather than just
+[01:03:26] imagine things
+[01:03:29] um but I'm happy to take feedback um let
+[01:03:32] me know what you think um by the end of
+[01:03:35] tomorrow
+[01:03:36] um and I will finalize the marking
+[01:03:39] criteria tomorrow night.
+[01:03:43] Okay. Uh let's create a course together.
+[01:03:46] Everyone's contributor of the course
+[01:03:49] design. So this is the first time the
+[01:03:51] course is run. So um I really appreciate
+[01:03:54] everyone's feedback whether it's
+[01:03:56] positive, negative, anything. I love to
+[01:03:59] know what you think.
+[01:04:02] Okay.
+[01:04:03] So let's come back
+[01:04:08] to the topic. So continuous integration.
+[01:04:12] Um
+[01:04:14] so now my question is okay so now I have
+[01:04:18] those test cases right um but I still
+[01:04:21] need to manually run pi test in the
+[01:04:26] terminal to run those test. Sometime may
+[01:04:30] forgot to run those test and bugs may
+[01:04:34] slip through my fingers.
+[01:04:36] All right. All my team members are not
+[01:04:39] like um checking their like doing their
+[01:04:43] p test properly.
+[01:04:45] All right. So, how can I know everyone's
+[01:04:50] like getting feedback frequently
+[01:04:54] um easily? How can we do that? So
+[01:04:57] there's a tool actually can help you uh
+[01:05:00] help us achieve that goal and it is
+[01:05:03] called pplan and it's part of continuous
+[01:05:07] integration. Okay. So I'll explain what
+[01:05:10] that is.
+[01:05:14] So the purpose is to scale multi-user
+[01:05:16] software projects. When we work in
+[01:05:19] collaboration in a group to manage the
+[01:05:21] project together we need automated ways
+[01:05:24] to integrate and test our code. So this
+[01:05:27] is the purpose of introducing this new
+[01:05:30] concept. So by definition continuous
+[01:05:34] integration is the practice of
+[01:05:36] automating the integration of code
+[01:05:38] changes from multiple contributors into
+[01:05:40] a single software project which is very
+[01:05:43] important. So there are a lot of key
+[01:05:45] words like automating
+[01:05:48] uh code changes multiple contributors
+[01:05:52] single software project. So from those
+[01:05:54] keyword you can see how important this
+[01:05:56] is right. Um and in more concrete terms
+[01:05:59] happy making change merge into master or
+[01:06:02] main more frequent and stable like
+[01:06:04] frequent we know how frequent feedback
+[01:06:06] is important right we also know how
+[01:06:08] stable software is important like stable
+[01:06:10] is very important.
+[01:06:13] Um
+[01:06:16] yeah so to oversimplify things
+[01:06:20] continuous integration allows us to
+[01:06:21] automatically run pi test on every
+[01:06:24] commit. So whenever we make a commit
+[01:06:28] piest will be automatically run for us
+[01:06:32] and it will also give a visual okay or
+[01:06:35] not okay summary of this on gitlab
+[01:06:37] including more details.
+[01:06:41] So let me show you some examples. So for
+[01:06:44] example, this is some of my projects
+[01:06:47] that I've been pre uh preparing for the
+[01:06:50] course. And you can see here is a green
+[01:06:54] button,
+[01:06:56] a green tick next to my project here.
+[01:07:01] But here for my lecture slice project,
+[01:07:03] there's a red
+[01:07:06] here. So these are
+[01:07:09] visual uh indicators of whether the
+[01:07:12] pipeline passed or the pepline failed.
+[01:07:16] So pipeline passed means all test
+[01:07:18] passed. So all the steps in my test
+[01:07:22] passed. And if it's a red it means that
+[01:07:25] some parts of my test failed.
+[01:07:29] Okay. So let's have a look at more
+[01:07:30] details. For example this one. When I go
+[01:07:33] into this project, I can click on this
+[01:07:36] green button. I can see more details
+[01:07:40] about the testing pipeline. So the
+[01:07:42] pipeline means there are a few things
+[01:07:45] that we are testing. We put it in
+[01:07:46] different stages like for example uh it
+[01:07:50] needs to pass this stage to be able to
+[01:07:52] do another test or there are a few tests
+[01:07:54] we wanted to do in parallel. Right? So
+[01:07:57] this is what we call pipeline. So now
+[01:07:59] there's only one uh group of tests here
+[01:08:02] and you can click on it to see more
+[01:08:03] detail like how's the process and what
+[01:08:05] is passed. So here I only do this the
+[01:08:08] the I'm not actually testing anything
+[01:08:11] and shows drop succeed. However, if
+[01:08:13] there's if it is a red button let me
+[01:08:15] show you the red button one
+[01:08:19] uh personal project the red button. Okay
+[01:08:23] failed
+[01:08:25] click on it. It shows where they got an
+[01:08:29] error. So what went wrong? So every
+[01:08:32] commit you make any merge request you
+[01:08:34] make this pip one all the tests will be
+[01:08:38] automatically run and you get a report
+[01:08:40] of how things works and you also get a
+[01:08:42] green tick or the right thing. So all
+[01:08:46] group members will be able to see it. Uh
+[01:08:48] so you can like support each other
+[01:08:50] right. Uh this is also very important to
+[01:08:52] make sure that you are not merging in
+[01:08:55] broken code to men. So when you merge a
+[01:08:58] feature branch into men, first check
+[01:09:02] that feature branch has that green tick
+[01:09:05] before you merge that into men.
+[01:09:08] Okay.
+[01:09:10] Um yeah, so let's go back to the slides.
+[01:09:13] Oh, I just thought about another
+[01:09:14] question that will ask during the break.
+[01:09:16] So I'll just mention in case I forgot.
+[01:09:19] So the question was about like do we
+[01:09:21] need any documentation about test before
+[01:09:24] implementation? No, you do not need need
+[01:09:27] any separate document for that
+[01:09:29] documentation because your git history
+[01:09:33] will be the documentation about the
+[01:09:35] process. For example, you may write some
+[01:09:37] test first. You commit those changes.
+[01:09:40] You make a comment about that commit,
+[01:09:42] right? So in this commit I'm adding some
+[01:09:45] test about blah blah blah blah, right?
+[01:09:47] And then you write the implementation
+[01:09:49] about the test and you commit them and
+[01:09:52] in the commit say I'm writing
+[01:09:53] implementation for blah blah blah blah
+[01:09:55] blah. So this like g history is already
+[01:09:58] a living document. You don't need to
+[01:10:00] have any separate documentation for
+[01:10:02] demonstrating like test before
+[01:10:04] implementation.
+[01:10:06] Yeah sorry I just thought about that in
+[01:10:08] case I forgot later. Um I'm just double
+[01:10:12] checking online. Okay cool. Okay, so now
+[01:10:15] we know what is continuous in
+[01:10:17] integration and why we need it, why it
+[01:10:19] is important and how it looks like when
+[01:10:23] this is added to the project. So now the
+[01:10:25] question is how do we actually add this
+[01:10:28] to the project
+[01:10:31] actually gitlab helps us with that. So,
+[01:10:33] GitLab, so GitLab has that issue board,
+[01:10:36] right? GitLab has this, GitLab had that.
+[01:10:38] GitLab also has this pipeline, this
+[01:10:40] continuous integration tool that can be
+[01:10:43] added to it. So, how do we do that? Uh,
+[01:10:50] yep. to set up um continuous integration
+[01:10:55] or this pipeline.
+[01:10:58] Um every G website has its own way of
+[01:11:02] handling continuous integration. So in
+[01:11:05] this course we are using GitLab but
+[01:11:07] there are other G platforms for example
+[01:11:10] GitHub, Bitbucket. So they are all G
+[01:11:13] platforms and they use its own way of
+[01:11:16] handling CIS. Uh but for GitLab the way
+[01:11:21] we do it is by adding this file called
+[01:11:24] gitlab-ci.yamlo
+[01:11:27] file. Let me show you an example. So let
+[01:11:32] me go back to that project
+[01:11:36] this one.
+[01:11:38] So this is the file that I added.
+[01:11:42] Um it has to be named like that so that
+[01:11:45] gitlab can recognize. Okay. So this is
+[01:11:48] the file for the pipeline. If you name
+[01:11:51] it something else, they will be like oh
+[01:11:53] what is it? Um and y so it stands for
+[01:11:58] yaml file. So what is yaml file? So is
+[01:12:02] like the md file. So it's like the uh
+[01:12:05] markdown file. So it's not runnable like
+[01:12:08] python file. You can write some code,
+[01:12:10] you can run that code, you can do
+[01:12:12] something, right? But for yaml file or
+[01:12:14] markdown file it's like you are putting
+[01:12:17] some data in it but you cannot run it.
+[01:12:20] It's not ex executable right just
+[01:12:23] putting some data in it. So what is
+[01:12:25] inside this one? So in this example
+[01:12:29] what's in my pipeline file I'll make it
+[01:12:32] a bit larger
+[01:12:34] is uh I put
+[01:12:37] I have stage I have some drops. So these
+[01:12:39] are names of the job.
+[01:12:43] And this name of the job happen as at
+[01:12:45] the test stage. The reason that we have
+[01:12:48] different stages is because uh in this
+[01:12:51] course we only cover test uh and deploy
+[01:12:54] but uh in reality there may be another
+[01:12:57] stage before testing which is building
+[01:12:59] but we are not talking about that in the
+[01:13:01] course and there's another stage called
+[01:13:03] deployment after testing. So when you
+[01:13:06] write the pipeline uh you may want to to
+[01:13:09] separate them in different stages and
+[01:13:11] you say well only if the build passed I
+[01:13:15] go to the testing stage only if the
+[01:13:18] testing stage pass I test like the
+[01:13:20] deployment stage. So there are different
+[01:13:23] stages but here we only have this test
+[01:13:25] stage and we only have this one single
+[01:13:28] drop and it's it happens at this stage
+[01:13:31] and this is the script. So what is
+[01:13:33] script? script is the actual action
+[01:13:36] items
+[01:13:38] that you put in the pipeline. For
+[01:13:42] example, here I'm actually doing
+[01:13:44] nothing. I'm just printing out
+[01:13:45] something. I'm just printing out. So,
+[01:13:47] eco means like printing out. I print out
+[01:13:49] running unit test. This will be take
+[01:13:51] about 20 60 minute and I sleep for 60
+[01:13:53] minutes and then print out like code
+[01:13:55] coverage. I haven't talked about code
+[01:13:57] coverage yet, but we'll talk about next
+[01:13:59] week I think. Yeah. So, this is the
+[01:14:02] script. But for us the actual actions
+[01:14:06] that we want to take is the pi test. So
+[01:14:09] the script here you want to put in this
+[01:14:12] pipeline is pi test.
+[01:14:15] So
+[01:14:17] instead of equaling blah blah blah and
+[01:14:19] sleep equal blah blah put like pi test.
+[01:14:23] What it means is that when this pipeline
+[01:14:25] is triggered it runs pi test.
+[01:14:31] Okay.
+[01:14:33] So this is how it looks like. Um and
+[01:14:37] GitLab is very powerful in
+[01:14:41] supporting you with this process. For
+[01:14:44] example, let me show you.
+[01:14:49] Uh here's another project that I haven't
+[01:14:51] add any pipeline yet. I'll show you how
+[01:14:55] to add that pipeline. Uh the way you do
+[01:14:58] that is by like there are a few ways you
+[01:15:01] can do it like first of all you can just
+[01:15:03] go to your project add a file and make
+[01:15:06] it g uh where was the name? So just
+[01:15:10] double checking the name of the file
+[01:15:14] where is it
+[01:15:17] uh gitlab- cm. So you can just name it
+[01:15:23] g uh gitlab-ci
+[01:15:28] yiml file. So this is one way of adding
+[01:15:32] this yaml file. Right? But what you can
+[01:15:35] also do is you can do it through gitlab
+[01:15:38] UI. For example, you can do a final
+[01:15:43] project with no pipeline. For example,
+[01:15:45] this project had no pipeline. And then
+[01:15:47] you can go to build here. So at the menu
+[01:15:52] on the left hand side there's a build
+[01:15:54] and there's a pipeline and there's also
+[01:15:57] a pipeline editor that you can add this
+[01:15:59] pipeline through GitLab UI and there are
+[01:16:02] some support provided by GitLab as well.
+[01:16:05] So I can add a new pipeline
+[01:16:09] and then
+[01:16:12] new pipeline.
+[01:16:14] Go to the pipeline editor.
+[01:16:17] Okay. So it will give you a template to
+[01:16:20] start with.
+[01:16:23] It also has some like guidelines on how
+[01:16:26] to use this template, some links about
+[01:16:30] further information, documentation, blah
+[01:16:32] blah blah. It also starts with like
+[01:16:35] different bridges sorry different stages
+[01:16:38] some drop some unit testing drop
+[01:16:41] but we don't need that for the course
+[01:16:43] yet we only need a test so there's
+[01:16:46] something for you to start with is well
+[01:16:48] supported by uh gitlab and also just
+[01:16:51] another good thing about uh using the
+[01:16:54] pplan editor from gitlab is that it has
+[01:16:56] a peplan syntax checker so yamo file is
+[01:17:01] very strict with the syntax back. So if
+[01:17:04] you have more space here, it will be an
+[01:17:09] error or if you do something like that
+[01:17:13] will be an error. Say like this CI
+[01:17:16] configuration is invalidate is
+[01:17:18] invalidated. So uh it helps you check
+[01:17:22] your syntax.
+[01:17:24] So you can do this directly here.
+[01:17:30] Any question? No.
+[01:17:34] Okay.
+[01:17:37] Cool. Cool. Cool. Cool. Cool. So, let me
+[01:17:40] just try to have
+[01:17:43] Let me show you how this looks like
+[01:17:45] after I add this to the project. Now, I
+[01:17:49] only need this test.
+[01:17:53] I only need this test. I'll delete
+[01:17:57] everything else.
+[01:18:00] Okay.
+[01:18:03] Why? Oh, I delete too much. See, there's
+[01:18:07] some like um checks for you.
+[01:18:11] Uh I'll delete those.
+[01:18:15] Okay, pipeline syntax is correct.
+[01:18:18] Perfect. So now I'm going to commit this
+[01:18:21] change. Remember that what CI pipeline
+[01:18:24] does when you commit any changes when
+[01:18:27] you make any merge request
+[01:18:30] it will trigger that pipeline. This is
+[01:18:32] what I'm going to show you now. So I'm
+[01:18:34] now committing these changes checking
+[01:18:36] pipeline status. In the meanwhile I can
+[01:18:38] go back to here. You can notice well
+[01:18:40] there wasn't this button in the past
+[01:18:43] right? It shows that this pipeline is
+[01:18:45] running. When you click on it, it shows
+[01:18:48] you what they have been going through
+[01:18:51] and the pros
+[01:18:54] grades.
+[01:18:55] Please pass. Please pass. I think it
+[01:18:58] will pass. It's it's actually doing
+[01:18:59] nothing.
+[01:19:01] Let's give them a few minutes. So, um
+[01:19:04] you may ask like how is this working?
+[01:19:08] Like why GitLab can run my code, right?
+[01:19:11] Why GitLab can test my code? Like how
+[01:19:14] does it everything works? So actually
+[01:19:17] those pipelines or those like CI
+[01:19:19] pipelines are running on a server or a
+[01:19:23] rena. So what is a runner? Ren re runn
+[01:19:26] rena is like another machine
+[01:19:29] that gets your code, gets your project
+[01:19:32] code
+[01:19:34] and run the pipeline on that machine. So
+[01:19:37] there's actually another machine running
+[01:19:39] everything.
+[01:19:41] So that's called a runner.
+[01:19:43] Okay. So it has done the first step.
+[01:19:45] Okay, drop succeed. So now when I go
+[01:19:48] back to this project, I can see that.
+[01:19:50] Okay, great. I've got this green tick.
+[01:19:57] Okay, all good. Any questions so far?
+[01:20:05] So this is how it looks like.
+[01:20:09] Um yeah, I have already showing this.
+[01:20:14] Yeah, we have already done that. Yeah.
+[01:20:16] So this is actually the rena. So all the
+[01:20:19] projects are sharing some rena. So rena
+[01:20:22] is just another machine like another
+[01:20:23] computer run all those jobs
+[01:20:27] right. Uh so for example in your group
+[01:20:30] you may have a few people right working
+[01:20:32] on the project and you all push to the
+[01:20:36] same repository
+[01:20:38] and the repository like multiple repos
+[01:20:41] Gitlab repos they are using the same
+[01:20:43] runner to run all these drops. So
+[01:20:45] sometimes you may notice that the run is
+[01:20:47] very very slow like uh just now when I
+[01:20:50] run it it's not fast like we still
+[01:20:52] waited a few like we wait for we queued
+[01:20:56] for one second which is pretty fast and
+[01:20:59] took about like 1 minute 5 seconds. Uh
+[01:21:02] when you have more test it will take
+[01:21:04] longer and when a lot of people are
+[01:21:07] using the pipeline the run will get very
+[01:21:10] slow. So try to avoid
+[01:21:14] uh pushing everything making all the
+[01:21:16] commits last minute before the deadline
+[01:21:19] because everyone all the groups will be
+[01:21:22] using that same renderer at that time.
+[01:21:26] So it will be very busy. So you may
+[01:21:28] notice you have long queuing time and it
+[01:21:30] will take longer for the pipeline to
+[01:21:33] run.
+[01:21:35] Okay. Cool cool cool.
+[01:21:39] Uh
+[01:21:41] yeah. So in your own so if you wanted to
+[01:21:44] practice this pipeline in your own
+[01:21:47] personal projects and the gitlab it may
+[01:21:50] not work. Uh the reason is that you may
+[01:21:54] you may get a notice and say there's no
+[01:21:56] render available. So but your project
+[01:21:59] like your group project anything under
+[01:22:01] 6020
+[01:22:03] uh will work because uh 9820 sorry 9820.
+[01:22:08] So everything under 9820
+[01:22:10] um will work because CSC has a runner to
+[01:22:14] run all of your uh pipeline all your
+[01:22:16] works. Okay. Uh but for some like more
+[01:22:20] commercial products like GitHub or big
+[01:22:22] bucket they have an array of runners
+[01:22:24] that are used for people with g reports
+[01:22:27] and they normally ask for payments about
+[01:22:30] that like extra pay to use that runner
+[01:22:33] but you don't need to do that. Um yeah
+[01:22:36] cool. So if while you are practicing
+[01:22:39] that uh you may sometime you know oh
+[01:22:41] there's no runner available maybe you
+[01:22:42] are just practicing under your own
+[01:22:43] personal ripple. So that's why just
+[01:22:46] practice and the course and it will work
+[01:22:51] for our projects. Okay. So uh we showed
+[01:22:55] some general pipeline about how it looks
+[01:22:59] like um how our project should how the
+[01:23:04] pipeline for our project should look
+[01:23:06] like. So um so we need to make sure that
+[01:23:11] that runner so that computer runs your
+[01:23:13] job has Python installed so that they
+[01:23:16] can run your Python code right. So we
+[01:23:18] need to have a Python image and it looks
+[01:23:21] like this. So you need to have an image
+[01:23:24] uh Python and the version of that Python
+[01:23:28] uh to make sure that everyone on your
+[01:23:30] group is using the same version. That is
+[01:23:32] to make sure that people will claim well
+[01:23:35] the code project works on my computer
+[01:23:37] and the other group member will say it
+[01:23:38] doesn't work on my computer and maybe
+[01:23:40] because you are using different version.
+[01:23:42] So make sure that you have the same
+[01:23:44] version running. Um and then
+[01:23:48] uh what does this mean like before
+[01:23:50] script? So before script means that the
+[01:23:53] command that runs before the script. So
+[01:23:56] the script that you want is the pi test
+[01:23:59] to run all the test right but before
+[01:24:03] test like we want to install all the
+[01:24:05] requirements for python project you know
+[01:24:07] like there needs to be a requirement.tst
+[01:24:09] tst. Uh, so make sure that they install
+[01:24:13] all the dependencies before you actually
+[01:24:15] run that script to avoid things like uh
+[01:24:18] the test failed because the dependencies
+[01:24:21] are not available.
+[01:24:24] Um, yeah. So some people may want to add
+[01:24:27] some more to this pipeline. For example,
+[01:24:29] you can add like um you can add
+[01:24:32] something called only dot dot and then
+[01:24:36] main. It means that the pipeline only
+[01:24:38] runs on main branch. So your group may
+[01:24:40] have a lot of different feature branch
+[01:24:42] and you don't want it to be very slow
+[01:24:44] because every commit you make is have
+[01:24:47] like uh triggering the pipeline. You
+[01:24:50] want to have only the commits to the
+[01:24:53] main for example by merge request like
+[01:24:56] merging the feature branch to main. So
+[01:24:58] that triggers the pipeline. So this is
+[01:25:00] just an example. You see what works well
+[01:25:02] for your group. Okay. Uh there are other
+[01:25:06] things that I'll leave that for you to
+[01:25:09] explore after the class.
+[01:25:13] Yeah, I think we've already talked about
+[01:25:16] that after you push the test drop.
+[01:25:22] Oh, good. So, let me show some more
+[01:25:26] examples.
+[01:25:30] But before I do anything like make any
+[01:25:35] changes to the project,
+[01:25:38] what do I do?
+[01:25:41] I get pull
+[01:25:44] but I think I forgot something.
+[01:25:47] Okay, I get p uh I got the new pipeline.
+[01:25:53] um copy pasting this from the lecture
+[01:25:57] slides
+[01:25:59] here.
+[01:26:01] Okay, I get status to check. Okay, so so
+[01:26:06] far I've made a few changes for example
+[01:26:09] here. What are the changes that I made?
+[01:26:15] Oh, I changed the port number for test
+[01:26:18] cases. Uh
+[01:26:20] um removing this one because uh oh
+[01:26:26] okay cool let me get status to double
+[01:26:30] check
+[01:26:32] um
+[01:26:34] before I make any changes what should I
+[01:26:37] do first
+[01:26:40] >> get add so yeah I'm going uh the reason
+[01:26:44] that I'm do what I'm doing I'm doing now
+[01:26:46] is I want to show you how
+[01:26:49] commit will trigger the pipeline. I'm
+[01:26:52] going to show you. Okay. Um so I'm going
+[01:26:56] to do get add. So last time like in week
+[01:26:59] one when we talk about g we talk about
+[01:27:01] like g add uh for example we can add
+[01:27:04] this file and add that file. But there's
+[01:27:06] an easier way to do that is by g add
+[01:27:09] dash uh and all. It will add all changes
+[01:27:14] here. all the files that you have
+[01:27:17] checked. But be careful using gad
+[01:27:21] all uh because you only wanted to do
+[01:27:24] that uh when you are pretty sure that
+[01:27:27] you want to group them together like
+[01:27:29] commit them together, right? So I'm
+[01:27:32] pretty sure now and then
+[01:27:36] I'll say ready to demo CI and then I'm
+[01:27:40] going to do a g push and it will trigger
+[01:27:43] the pipeline. Let's have a look.
+[01:27:48] Uh where is it? Where is it? Where is
+[01:27:50] it? Ah, it's here. It's here. It's here.
+[01:27:52] Okay, you can see it's running now.
+[01:27:57] Right. So, whenever you are making
+[01:27:59] commit, push it to the pipeline.
+[01:28:02] Oh, sorry. Push to the GitLab repo. It
+[01:28:04] will trigger it. Okay, pass. Amazing.
+[01:28:07] So, what is run here is the pi test.
+[01:28:14] Okay. So the pep plan will also be
+[01:28:18] triggered when you make merge request.
+[01:28:20] So I'll show you how
+[01:28:24] this is done. I'm going to make some
+[01:28:27] merge request.
+[01:28:30] Create a new merge request from let's
+[01:28:33] say start from men. I have a many
+[01:28:38] blah blah blah features that I was
+[01:28:40] playing with.
+[01:28:43] So compare branch and continue.
+[01:28:46] Uh and then create merge request.
+[01:28:54] Am I doing the right thing?
+[01:29:01] Where am I merging?
+[01:29:05] Sorry.
+[01:29:10] >> H Yeah, it should matter. Okay, it's
+[01:29:12] here because maybe because we were
+[01:29:14] running for the rena, waiting for the
+[01:29:15] rent. Now that it's here. So before I
+[01:29:17] click on merge, I wanted to see this
+[01:29:21] green tick. So when you are reviewing
+[01:29:24] your team members merge request, make
+[01:29:27] sure that you can see this green tick
+[01:29:29] before you approve. And when the
+[01:29:32] original contributor merge also please
+[01:29:36] double checking you get that green tick
+[01:29:38] for the pipeline passed.
+[01:29:43] Okay.
+[01:29:44] Yep. I'm not merging it in because it
+[01:29:47] will make it really messy but I'm just
+[01:29:49] wanted to show you this great tick uh
+[01:29:52] when you are doing the merge request.
+[01:29:55] Um
+[01:29:58] yeah, I think that's the thing that I
+[01:30:02] want to show you.
+[01:30:09] Yep. So this is the summary of
+[01:30:11] continuous integration. So in summary,
+[01:30:14] CI assists us in making frequent code
+[01:30:17] changes because we can red test write
+[01:30:19] implementation push to gitlab at merge
+[01:30:21] request make sure we have the green tick
+[01:30:22] and merging confident merging
+[01:30:25] confidently. So this is the process
+[01:30:27] right red test red implementation push
+[01:30:30] merge make sure we have green tick and
+[01:30:32] then merging
+[01:30:34] a summary of the process.
+[01:30:38] Uh
+[01:30:40] yeah.
+[01:30:42] So this is important rule to follow is
+[01:30:45] your main branch should always be green.
+[01:30:49] No code should be merged into it unless
+[01:30:51] you get the green tick. Some further
+[01:30:54] reading for us. Um both of these are
+[01:30:58] great resource. I have read both of
+[01:31:01] them. They are both great. So for
+[01:31:04] example for GitLab
+[01:31:06] um
+[01:31:10] there are some videos documentations a
+[01:31:12] lot more about uh CI for Alassian as
+[01:31:16] well. Alasia has a lot of great um
+[01:31:19] tutorials or guidelines about things
+[01:31:22] like CI, GitLab, G in general. Um
+[01:31:27] yeah, so yeah, Alassia has a lot of
+[01:31:30] great resources. So I put these two
+[01:31:31] links here. uh feel free to have a look
+[01:31:34] at them at your own time.
+[01:31:37] Um
+[01:31:39] yeah, I think that's all for today that
+[01:31:41] I planned which is quite rarely I finish
+[01:31:43] early [laughter] because normally I
+[01:31:45] struggle to finish everything in time.
+[01:31:46] Let me see if any question online.
+[01:31:55] Cool cool cool.
+[01:32:10] Okay.
+[01:32:18] Cool. Cool. Cool. Cool. I think that's
+[01:32:21] everything. No questions online. Okay.
+[01:32:24] Amazing. Uh 30 minutes back to you. Uh
+[01:32:29] thank you. Uh oh, there's a question
+[01:32:31] online. Did you say that we don't have
+[01:32:33] to meet outside class time, meaning we
+[01:32:36] can have our weekly meeting in class? Uh
+[01:32:40] I didn't say that you don't have to meet
+[01:32:42] outside class time. Like many groups
+[01:32:44] find that um meeting outside class time
+[01:32:47] is very helpful. I'm just saying that
+[01:32:49] meeting during class can save you some
+[01:32:51] time because everyone will be there. Um
+[01:32:54] and actually
+[01:32:59] yeah but yes you can use your your class
+[01:33:02] time for meeting but it doesn't mean
+[01:33:03] that you don't want to meet outside of
+[01:33:06] class. Yeah that's the minimum
+[01:33:08] requirement like one meeting one meeting
+[01:33:10] per week. Okay. Thank you. Thank you so
+[01:33:13] much everyone. Have an hour back to you.
+[01:33:15] Enjoy your night.
+[01:33:18] Thank you.

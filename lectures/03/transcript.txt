@@ -1,0 +1,2289 @@
+[00:03:14] Testing, testing, testing for online.
+[00:03:17] Can you hear me?
+[00:03:20] Testing
+[00:03:22] testing the voice. Testing the voice,
+[00:03:28] testing,
+[00:03:31] testing, testing. Okay, cool. Amazing.
+[00:03:35] Okay.
+[00:04:15] Okay. Um, welcome to week three. H we
+[00:04:22] are almost
+[00:04:24] onethird
+[00:04:26] into the term now. So, so fast. Um,
+[00:04:29] okay. So the focus of this week, so as
+[00:04:33] you may have seen on the sprint planner,
+[00:04:38] so the focus of this week is more about
+[00:04:41] planning. So planning ahead, planning
+[00:04:43] for the rest of the term, planning for
+[00:04:45] the rest of your project. So planning is
+[00:04:47] the major focus of this week. So other
+[00:04:50] than planning, there's also something
+[00:04:52] new uh which is called spring retro. So
+[00:04:54] this is about like reflecting back. So
+[00:04:57] looking back at your past three weeks,
+[00:05:00] how's everything going? Like uh we
+[00:05:02] mentioned that uh a software project
+[00:05:05] management is adaptive, right? Rather
+[00:05:08] than predictive. So it's a good time for
+[00:05:11] you to look back at the past uh three
+[00:05:14] weeks and see uh what works well, what
+[00:05:17] uh we need to change to improve to make
+[00:05:19] things better. Okay. So this is the
+[00:05:21] topic of today's lecture and also the
+[00:05:24] topic for this week. So plan and uh
+[00:05:27] ritual. Okay. So let's get started with
+[00:05:30] the first one. So software planning and
+[00:05:34] stories.
+[00:05:36] So why
+[00:05:38] why do we need this? Okay. So when
+[00:05:41] people talking about software project,
+[00:05:43] what came to your mind at first or
+[00:05:46] talking about software projects?
+[00:05:52] Coding.
+[00:05:55] programming.
+[00:05:58] Um yeah so uh last week I was talking
+[00:06:03] with one of our students uh this term
+[00:06:06] from this cohort and they are a founder
+[00:06:08] of a startup. So when we when I talked
+[00:06:12] with them and um a theme arises was that
+[00:06:15] a common theme that we notice um in the
+[00:06:18] world of software engineering is that a
+[00:06:20] lot of people think well web development
+[00:06:23] well software engineering just coding
+[00:06:25] right you're just coding something
+[00:06:28] writing some code or some programming
+[00:06:30] and then you have a website or web app
+[00:06:32] or some kind of software
+[00:06:34] u but actually uh software is much more
+[00:06:38] than that and software engineering or
+[00:06:40] software project management is much more
+[00:06:42] than just coding. So this is a very
+[00:06:44] common confusion. A lot of people
+[00:06:46] thought about that. So when CSE was
+[00:06:48] doing some renovation uh they were
+[00:06:50] designing uh the entrance like they
+[00:06:53] wanted to have a very big picture there
+[00:06:55] to represent CSE and some people
+[00:06:57] recommended like shall we have coding
+[00:07:00] uh as the main theme of that big picture
+[00:07:03] to represent CSE. Other people say uh
+[00:07:06] how about programming? But then uh a lot
+[00:07:09] of my colleagues said that well CSC is
+[00:07:12] much much more than just coding and
+[00:07:14] programming like although coding
+[00:07:16] programming may seem as the foundation
+[00:07:19] uh or the tool for a lot of things that
+[00:07:21] we are doing nowadays like artificial
+[00:07:23] intelligence is enabled by coding
+[00:07:24] programming right but it's just one part
+[00:07:28] of software or computer science is just
+[00:07:31] the fundament like one found it's the
+[00:07:34] foundation right it's a tool of doing a
+[00:07:36] lot of things But it's much more than
+[00:07:39] that. So a very important part of the
+[00:07:42] real world of software engineering or
+[00:07:44] software project management or computer
+[00:07:47] science is making a real impact for
+[00:07:49] people right so you need to have a
+[00:07:53] impact to provide some value for people.
+[00:07:57] So today's topic is about to know what
+[00:08:01] do you need to do like to plan ahead
+[00:08:04] like what kind of value do you want to
+[00:08:05] provide for your customers for the real
+[00:08:07] users and then you can know what you are
+[00:08:10] going to code. So that's what we are
+[00:08:12] going to talk about. So how do you know
+[00:08:15] what you are going to have for your
+[00:08:17] software project?
+[00:08:19] Okay. So this is about like software
+[00:08:21] planning and stories.
+[00:08:24] So last week when we talk about IGEL
+[00:08:26] software team practices like when we
+[00:08:28] talk about the values of a uh one what
+[00:08:33] let me let me just show you
+[00:08:36] let's have a recap actually
+[00:08:38] um do you remember what are the core
+[00:08:41] values of agile
+[00:08:44] can anyone think of any core principles
+[00:08:48] or core values of agile
+[00:08:52] Collaboration.
+[00:08:54] Yep. So people is more important than
+[00:08:56] process, right? What else?
+[00:09:02] Sorry.
+[00:09:05] >> Yes. So working on the working product
+[00:09:09] uh rather than working like focusing
+[00:09:12] more on the documentation. Yep. That's
+[00:09:14] another one. What else?
+[00:09:15] >> Iteration.
+[00:09:16] >> Huh?
+[00:09:17] >> Iteration.
+[00:09:18] >> Sorry.
+[00:09:19] >> Iteration.
+[00:09:20] >> Iteration. like having like shorter
+[00:09:22] sprints. Yep. So that's another one like
+[00:09:25] being adaptive rather than predictive,
+[00:09:27] right? So shorter iterations and then
+[00:09:30] reflect back and then improve rather
+[00:09:32] than plan for a really long term. What
+[00:09:35] else?
+[00:09:37] I think you have mentioned the majority
+[00:09:39] of them already. Uh let me just show you
+[00:09:44] here. So here are the key values of
+[00:09:47] agile. So individuals interactions over
+[00:09:50] process and tools, working software over
+[00:09:52] comprehensive documentation, customer
+[00:09:54] collaboration over contract negotiation,
+[00:09:56] responding to change over uh following a
+[00:09:59] plan. So we said like uh we wanted to uh
+[00:10:02] be more adaptive rather than predictive.
+[00:10:05] Why do we need still to have a plan? Uh
+[00:10:08] so I wanted to explain or emphasize
+[00:10:11] here. It doesn't mean that the values on
+[00:10:14] the right hand side they are not
+[00:10:16] important. They are also important. It
+[00:10:18] just we have uh like priorities. So we
+[00:10:23] prioritize responding to change over
+[00:10:25] following a plan. But we still need a
+[00:10:27] plan.
+[00:10:29] Okay. Um yeah. Okay. Let me go back to
+[00:10:33] here. So the most important part of
+[00:10:35] building a system is actually figuring
+[00:10:38] out what you need to do. So when uh a
+[00:10:41] client came to you comes to you and say
+[00:10:43] uh can I have a software uh product for
+[00:10:47] for example time sheet management and
+[00:10:49] then you need to figure out what do you
+[00:10:51] actually need to have what kind of
+[00:10:52] values that's the customer or the users
+[00:10:55] will need right so this is the thing
+[00:10:58] okay so in a so how do we plan for agile
+[00:11:02] projects
+[00:11:04] there are few common practices uh for
+[00:11:08] example stories
+[00:11:09] So stories means plan work in small
+[00:11:12] customer centered pieces rather than
+[00:11:15] saying oh we need to have this kind of
+[00:11:17] database uh it has this blah blah blah
+[00:11:20] and then the front end is using this um
+[00:11:23] like text back end is using Python or
+[00:11:26] JavaScript or whatever. So rather than
+[00:11:28] that uh we we say that we uh focus more
+[00:11:31] on the customer's value. So we this is
+[00:11:33] the focus of today like we will talk a
+[00:11:36] lot about stories. What is stories? how
+[00:11:38] to write stories and where are the
+[00:11:39] stories coming from. Um the second
+[00:11:42] practice for a job project is called
+[00:11:44] adaptive planning. It means balance
+[00:11:47] adapt adaptability
+[00:11:50] with predictability.
+[00:11:52] So um we need a balance for that but
+[00:11:55] like emphasize more for adaptability
+[00:11:57] rather than predict
+[00:12:00] sorry um visual planning. Uh some people
+[00:12:03] they uh
+[00:12:06] they think that like using some drawings
+[00:12:10] uh like to demonstrate the process like
+[00:12:12] they start from this page to the other
+[00:12:13] page or start from this value this
+[00:12:16] process to another stage. Um if we have
+[00:12:19] time we can talk a little bit about that
+[00:12:21] but I'm not too sure if we can have
+[00:12:23] time. Uh but this is something that uh
+[00:12:26] feel free to learn outside of the
+[00:12:28] course. uh it some people prefer more
+[00:12:30] about visual um stuff. So yeah, this may
+[00:12:34] be a good tool for you. Uh planning game
+[00:12:38] uh we won't be covered that but feel
+[00:12:40] free to have a look outside of course
+[00:12:43] again real customer customer
+[00:12:45] involvement. We'll talk about that about
+[00:12:47] that because that's very important when
+[00:12:49] we talk about the agile value. This is
+[00:12:51] one of the core values right so we'll
+[00:12:53] talk about real customer involvement and
+[00:12:56] uh incremental requirement it means that
+[00:12:58] determine detail just before needed so
+[00:13:01] traditional way of software engineering
+[00:13:04] uh
+[00:13:06] they have very long documentation about
+[00:13:08] requirements like very detailed very
+[00:13:10] region so today still some software
+[00:13:13] project they still follow this kind of
+[00:13:15] documentation uh especially for um the
+[00:13:19] software products or project that's
+[00:13:22] about safety about like uh money
+[00:13:27] uh about health uh so those kind of
+[00:13:31] software projects do follow those very
+[00:13:33] rigorous uh software engineering process
+[00:13:38] okay but for us we will do this
+[00:13:40] incremental requirement more agile okay
+[00:13:44] so now the first one uh which is stories
+[00:13:49] what stories. So, uh in the past, this
+[00:13:53] is how people read stories. So, people
+[00:13:56] uh this is still very common uh in some
+[00:13:59] industry like people are still doing
+[00:14:00] that like people coming together in a
+[00:14:03] room. Uh you can do this together as a
+[00:14:06] group as well and in then you can write
+[00:14:09] on some cards and say well now we are
+[00:14:14] doing uh we are designing a task tracker
+[00:14:17] software product right so what does the
+[00:14:21] customer value they may value oh okay uh
+[00:14:24] I wanted to manage my task right they
+[00:14:28] may say I wanted to keep track of my
+[00:14:31] task they want to say uh I want to use
+[00:14:34] the software to allocate task right so
+[00:14:36] those are the values so you can write
+[00:14:38] those cards uh and then can be very very
+[00:14:42] brief you don't need a long paragraph or
+[00:14:46] a few pages to describe just I wanted to
+[00:14:48] manage my task right managing task and
+[00:14:52] bring value to uh our customers it's
+[00:14:55] just for brief reminders to spark
+[00:14:58] conversation to have discussions with
+[00:15:00] the client users or your other
+[00:15:03] stakeholders or people in your team. It
+[00:15:05] doesn't need to be very detailed. It
+[00:15:07] just for uh as some notes for future
+[00:15:10] discussions very very brief.
+[00:15:14] Um but this is a very helpful template
+[00:15:18] uh that we will also ask you to practice
+[00:15:20] in this course to write stories. um like
+[00:15:23] in the real world uh like some
+[00:15:26] industries or some company they won't
+[00:15:28] require uh their software engineers or
+[00:15:31] people to write in this specific format.
+[00:15:33] Uh but the reason that we ask us to
+[00:15:35] write this in this format is because it
+[00:15:38] will remind you to keep the users at the
+[00:15:41] center of your stories because this
+[00:15:44] format says as a row like as a specific
+[00:15:47] type of user I want to do something so
+[00:15:50] that I I can achieve some goal. So the
+[00:15:52] result here is the value that this story
+[00:15:56] brings to the users and it starts with
+[00:15:59] the user and it centers on what users
+[00:16:02] can do rather than what our system can
+[00:16:04] do. So this is a very good structure to
+[00:16:07] help you to remind you to put the value
+[00:16:10] put the customer put a user at the
+[00:16:13] center of everything that you do.
+[00:16:16] Okay. So let's see some examples. So
+[00:16:20] let's use our project as example. So
+[00:16:22] here are some uh stories that I wrote uh
+[00:16:26] for our task tracker uh software
+[00:16:28] project. So as a student student I want
+[00:16:31] to add a new task so that I can keep
+[00:16:34] track of my assignments. So can as a row
+[00:16:39] I want to do something so that I can
+[00:16:42] achieve a goal.
+[00:16:44] So this is the structure. But here the
+[00:16:46] other ones they are al also start with
+[00:16:49] as a student as a student but you can
+[00:16:51] have different type of users for your
+[00:16:54] task tracker. So for example as a group
+[00:16:57] mentor I can do something right or as a
+[00:17:02] product owner
+[00:17:05] your your group may have different roles
+[00:17:07] right if you prefer to have a role. So
+[00:17:08] you can say like as different roles I
+[00:17:10] can do something or as a lecturer as an
+[00:17:13] admin or as blah blah blah. So you can
+[00:17:17] have different rows for a product. So
+[00:17:19] the first thing to write those stories
+[00:17:21] is to figure out what are the roles for
+[00:17:24] your software projects
+[00:17:26] for products right and then uh thinking
+[00:17:29] about what kind of thing what kind of
+[00:17:31] values uh we can bring to them and how
+[00:17:34] they can achieve those values.
+[00:17:37] This is the uh uh structure of the
+[00:17:40] stories.
+[00:17:43] Any questions so far about the
+[00:17:45] structure?
+[00:17:48] All good.
+[00:17:49] Okay. So you can see that there are two
+[00:17:52] important characteristics for the sto uh
+[00:17:55] for the stories. The first one is called
+[00:17:57] customer value. All the stories are
+[00:18:00] about customers. Right? We start from
+[00:18:02] the user end with the value for the
+[00:18:05] user. Right? There's nothing about the
+[00:18:08] implementation details whether there's a
+[00:18:11] bug or whether you wanted to add a
+[00:18:14] database or what kind of algorithm you
+[00:18:17] want to use. Um nothing nothing about
+[00:18:20] implementation details. The second
+[00:18:23] characteristic is that it has clear
+[00:18:25] complete completion criteria. Um the
+[00:18:29] customers needs to understand what done
+[00:18:31] that means. uh we'll talk a little bit
+[00:18:33] more about that later but for now let's
+[00:18:36] uh talk uh start from the first one
+[00:18:39] customer value.
+[00:18:41] So it must be written from the
+[00:18:43] customer's point of view. Uh why like
+[00:18:47] why do we need to write those stories in
+[00:18:50] simple plain language that the customers
+[00:18:53] can understand
+[00:18:55] why like first thing like it can remind
+[00:18:57] us we need to bring value to the
+[00:18:59] customer right but there are actually
+[00:19:01] other reasons
+[00:19:08] >> yes so when we read those stories h it's
+[00:19:12] very common that we write those stories
+[00:19:13] in collaboration with the actual users
+[00:19:17] who will be using those uh system all
+[00:19:19] the softwares and they don't have the
+[00:19:22] technical background when you say
+[00:19:24] database they have no idea what you are
+[00:19:27] talking about so they cannot give you
+[00:19:29] feedback on your stories and say well
+[00:19:31] this is actually what I needed or they
+[00:19:34] will say oh I need something else they
+[00:19:36] because they don't know it so you need
+[00:19:38] to write in plain language that everyone
+[00:19:41] can understand
+[00:19:45] um yeah so the customers will be
+[00:19:49] involved in writing those story so
+[00:19:51] sometime we also ask the actual users to
+[00:19:54] write the stories themselves so when
+[00:19:57] they write when they are writing the
+[00:19:59] story they may not be following the
+[00:20:01] exact format and then you can rewrite
+[00:20:03] that in the format but they can provide
+[00:20:04] you with some ideas on well I want to
+[00:20:07] manage my task
+[00:20:09] right this is some kind of value I want
+[00:20:11] And you can also ask them to help you
+[00:20:13] with prioritiz prioritizations.
+[00:20:17] So you may get a lot of things that you
+[00:20:18] want to have, right? So it's very common
+[00:20:20] like, oh, I want to have 100 things for
+[00:20:23] my task tracker, but I only have 10
+[00:20:25] weeks and now I only have eight and a
+[00:20:29] half weeks. So I can't do everything. I
+[00:20:31] need a prioritization. How can I do
+[00:20:33] that? Ask the customer to do it for you.
+[00:20:36] It's very commonly used. Um best
+[00:20:39] practice on set customer write the
+[00:20:41] stories themselves with your help.
+[00:20:44] Uh some examples of bad stories add a
+[00:20:49] button to the login page. Although you
+[00:20:51] may you may feel like well they should
+[00:20:54] understand this right like everyone
+[00:20:56] should understand like we need what
+[00:20:58] button means like what login page means
+[00:21:01] but still this is too implementation
+[00:21:04] focused. it doesn't let us know or let
+[00:21:07] anyone know what kind of value this
+[00:21:09] button is providing like it's not clear
+[00:21:13] why we need a button here. So this is
+[00:21:16] also an example of bad stories. It's
+[00:21:18] also very hard for the customer to
+[00:21:20] prioritize because they don't know what
+[00:21:22] is it for and it doesn't explain why and
+[00:21:24] what value it provides or uh another bad
+[00:21:28] example is add a database table for task
+[00:21:30] technical details again no customer
+[00:21:32] value but you can rewrite that from the
+[00:21:35] point from the customer's point of view
+[00:21:38] for example allow users to save task if
+[00:21:41] you don't have a database you can't save
+[00:21:43] the task right so this you are bring
+[00:21:46] value to the customers you just need to
+[00:21:48] write it from the customer's point of
+[00:21:50] view for your stories. So it's clear
+[00:21:53] what kind of value we are providing for
+[00:21:55] the customers.
+[00:21:57] Okay, cool. Um so another very very
+[00:22:02] common thing that if you realize while
+[00:22:03] you are writing the stories is you will
+[00:22:05] find that some of your stories very very
+[00:22:07] big. For example, the one that I I was
+[00:22:10] talking about like managing task.
+[00:22:14] This is a very big story like managing
+[00:22:17] task can mean a lot of things. So while
+[00:22:20] you are writing your story you you
+[00:22:22] notice that you are you will have
+[00:22:24] similar problem like those stories are
+[00:22:26] very big. So when the stories are too
+[00:22:29] big um
+[00:22:32] it's too general and it's hard to
+[00:22:34] prioritize which part of that big story
+[00:22:36] is more important. and what are the
+[00:22:39] specific value that we are actually
+[00:22:40] bringing to the customers. So sometime
+[00:22:43] we need to splitting the stories.
+[00:22:47] Um
+[00:22:48] for example uh there's another uh story
+[00:22:52] for uh like checkout page like check out
+[00:22:55] can mean a lot of things right. How can
+[00:22:59] we splitting the stories to have more
+[00:23:03] visibility about what those stories
+[00:23:06] about and have more control over the
+[00:23:08] stories like which one to prioritize. Um
+[00:23:12] so there are a few ways to do it. Uh
+[00:23:14] first one like very very commonly used
+[00:23:17] is by priorities.
+[00:23:20] So for example in this example again a
+[00:23:23] task management system a big story and
+[00:23:26] we can split it into a few like create a
+[00:23:30] task very high prioritization right
+[00:23:33] right like they need to create a task so
+[00:23:35] that they can manage it uh later and
+[00:23:38] then addit a task so here I mark it as
+[00:23:40] high your group may have different
+[00:23:42] understanding you may think like uh
+[00:23:44] editing a task is not that important I
+[00:23:46] can just delete it and create a new one
+[00:23:47] right so uh talk to the customers, talk
+[00:23:50] to the real users and then you will get
+[00:23:52] a different uh priorities and then
+[00:23:54] delete a task set task reminders and you
+[00:23:57] may have more than that. So this is how
+[00:24:00] you can split the task management
+[00:24:02] systems based on priorities.
+[00:24:05] So the same broad task uh uh broad story
+[00:24:09] about task management you can also split
+[00:24:12] that based on the operate operations
+[00:24:14] performed like steps stages. For
+[00:24:17] example, first you need to create a task
+[00:24:19] and then view all the task, edit a task
+[00:24:22] and delete a task. So there are
+[00:24:24] different ways to split a same story.
+[00:24:27] You can decide which one you want to use
+[00:24:29] for your specific uh stories.
+[00:24:32] Uh you can also split a task by for
+[00:24:35] example data boundaries. Here is an
+[00:24:38] example called collect billing
+[00:24:40] information.
+[00:24:42] The information can means a lot of
+[00:24:44] things right? So it may mean collect
+[00:24:46] credit card info. It may means uh may
+[00:24:50] mean like collect gift card info,
+[00:24:51] collect PayPal info. So you can also
+[00:24:54] split by the data types, split the
+[00:24:57] stories.
+[00:25:02] Yep. So um the reason that we wanted to
+[00:25:05] split stories is because we want to
+[00:25:07] prioritize those stories separately and
+[00:25:10] then oh sorry uh can be done in any
+[00:25:14] order take practice it isn't always
+[00:25:17] sometimes it it's not that possible to
+[00:25:19] split some of the stories you will
+[00:25:22] realize that sometime it's just
+[00:25:24] impossible to split it's okay just leave
+[00:25:26] it like that but do practice uh and to
+[00:25:29] split wherever you can however do
+[00:25:32] splitting into too small. So sometime
+[00:25:35] you may notice well some stories are too
+[00:25:37] small like it can be finished in one
+[00:25:39] hour. So you may also want to combine
+[00:25:41] some of the stories together based on
+[00:25:43] the common theme or uh subcategories but
+[00:25:47] combining stories is much easier than
+[00:25:49] actually like splitting the stories but
+[00:25:52] both take some practice.
+[00:25:56] Okay. Um so these are the most common
+[00:26:01] um
+[00:26:04] definition of stories like as a user I
+[00:26:07] want to do something so that I can
+[00:26:08] achieve some value. Uh but sometimes
+[00:26:12] some uh software projects they also
+[00:26:15] include some special story types. So
+[00:26:17] they are not um very directly
+[00:26:22] talking about the user's value or about
+[00:26:26] the users's needs. Uh but they also
+[00:26:29] contribute somehow to uh the end product
+[00:26:32] or make some contributions or bring some
+[00:26:34] value. For example, making a demo or
+[00:26:38] adding a documentation for the users on
+[00:26:40] how to use the software product. So this
+[00:26:43] is like actually also helping the users
+[00:26:46] but it's not a ve um like very directly
+[00:26:49] bring value for the customers in terms
+[00:26:52] of what customer can do with it. For
+[00:26:54] example, documentation stories,
+[00:26:56] nonfunctional stories, cleanup stories,
+[00:26:58] operation or even security stories.
+[00:27:01] Yeah. So those are also stories but they
+[00:27:03] are special to uh type of stories.
+[00:27:10] Here's a summary of the best practices.
+[00:27:14] uh non-technical language keeping the
+[00:27:16] customer as the core uh user goal
+[00:27:20] focused ideally describe problem or
+[00:27:22] solution. Oh, this is a very common um
+[00:27:28] mistake that like I also made this
+[00:27:30] mistake sometimes like I
+[00:27:34] uh jump into the solution too early.
+[00:27:37] Uh this is very common for engineers
+[00:27:40] like we may already have in our mind a
+[00:27:42] solution to solve that problem. Uh but
+[00:27:45] before that please uh identify the users
+[00:27:48] needs first before jumping to the
+[00:27:50] solution too early.
+[00:27:53] Okay. So um when we talk about
+[00:27:59] here
+[00:28:00] we said that there are two
+[00:28:05] important characteristics. One is
+[00:28:07] customer value, right? So we have talked
+[00:28:09] a lot about custom value so far. And
+[00:28:12] then the second important characteristic
+[00:28:14] of uh story uh is clear compilation
+[00:28:17] criteria.
+[00:28:19] So why do we need that? So for stories
+[00:28:23] uh like when we identify a user story or
+[00:28:26] a story uh we say well for this sprint
+[00:28:29] for this one day or two day I'll focus
+[00:28:32] on like getting done this story. So uh
+[00:28:35] for agile we focus on bringing value to
+[00:28:37] the customer for the user right for
+[00:28:39] those two days I'll be focusing on that
+[00:28:41] uh that story but how do I know whether
+[00:28:45] I have done that story
+[00:28:48] whether I can move on to another story
+[00:28:52] like how do we define this then so we
+[00:28:56] need a clear completion criteria
+[00:29:00] and we call that user acceptance
+[00:29:03] criteria IA.
+[00:29:05] So for each user story, we need a user
+[00:29:09] acceptance criteria before actually
+[00:29:12] implementing that story. So we know what
+[00:29:15] are the goals for that story. So we can
+[00:29:18] do um like goal oriented like starting
+[00:29:20] from the go to actually writing the
+[00:29:22] code.
+[00:29:25] Um again this user acceptance criteria
+[00:29:28] is also written in natural languages. Uh
+[00:29:31] the reason is the same. uh because the
+[00:29:35] actual users, clients, customers, they
+[00:29:38] are going to review this acceptance
+[00:29:39] criteria. They will confirm, they will
+[00:29:42] give feedback on your uh user acceptance
+[00:29:45] criteria and say well this is what I
+[00:29:47] meant by done done
+[00:29:49] right or you are missing something can
+[00:29:51] you please add that to your um
+[00:29:53] completion criteria
+[00:29:56] but can be refined before
+[00:29:58] implementation. So we wanted to be
+[00:30:00] adaptive, right? If anything changed, we
+[00:30:03] uh we adapt to that change can be
+[00:30:06] changed.
+[00:30:09] Cool. So this is an example. Uh here's a
+[00:30:12] user story. As a student, I want to
+[00:30:14] create a task with a due date so that I
+[00:30:17] can track my assignments.
+[00:30:19] And a user criteria, we write we can
+[00:30:22] write that in bulle points. Uh the first
+[00:30:24] one is user can enter a task name. Okay.
+[00:30:28] So when after your coding you can look
+[00:30:30] back oh can the user enter task name and
+[00:30:34] the second one user can set a due date
+[00:30:36] task appear in the task le after
+[00:30:37] creation task shows the due date user
+[00:30:39] receive confirmation when task is
+[00:30:41] created so when you have done
+[00:30:44] implementation you can check against
+[00:30:46] this user acceptance criteria have I
+[00:30:48] done this story can I move on to the
+[00:30:51] next story
+[00:30:54] and this is also very helpful when uh
+[00:30:56] you know what you wanted to implement
+[00:30:58] ment
+[00:31:01] very specific.
+[00:31:04] Uh other example as a user I can login
+[00:31:08] through a social media account because I
+[00:31:10] always forget my password and the user
+[00:31:12] acceptance criteria here it uh specify
+[00:31:15] like how or what kind of social media
+[00:31:18] account they can use
+[00:31:21] like after I implement uh the Facebook
+[00:31:23] login after I implement linking login
+[00:31:25] after I implement Twitter login I know
+[00:31:27] well I've done this story I do not need
+[00:31:29] to worry about other login like USW
+[00:31:32] account login or other login I do not
+[00:31:33] need to worry worry about that because
+[00:31:35] they are not specified in this user
+[00:31:36] acceptance criteria. It means that the
+[00:31:38] user did not ask for that.
+[00:31:42] Okay.
+[00:31:46] So, how to write good user acceptance
+[00:31:48] criteria? It shouldn't be too broad or
+[00:31:51] shouldn't be too narrow. You may feel
+[00:31:53] like oh this is so hard like how do I
+[00:31:55] know whether I'm being too broad or
+[00:31:57] being too narrow. Uh after you implement
+[00:32:00] a few user stories, you know uh whether
+[00:32:03] you have been like too broad, too narrow
+[00:32:05] and then you can reflect back on that
+[00:32:07] and plan better for the next stories or
+[00:32:10] next sprints.
+[00:32:12] Minimize technical detail. Um it can be
+[00:32:16] more technical than the story itself but
+[00:32:19] the clients do need to understand them.
+[00:32:21] For example, login through Twitter,
+[00:32:23] login through Facebook. These are a
+[00:32:25] little bit more technical uh but users
+[00:32:27] can still understand them. They can be
+[00:32:31] updated during development. Let's be
+[00:32:33] adaptive.
+[00:32:35] Um
+[00:32:37] yep. Cool. So the bullet point type of
+[00:32:42] acceptance criteria is called rue based
+[00:32:45] user acceptance criteria. So that is one
+[00:32:48] of the ways to write user acceptance
+[00:32:50] criteria. Uh but there are some
+[00:32:53] alternatives. For example, here's
+[00:32:55] another one called scenariobased.
+[00:32:59] So let's see the structure of a scenario
+[00:33:02] oriented acceptance criteria. This can
+[00:33:06] be done in a given one then format. So
+[00:33:09] more format. For example, given some
+[00:33:12] precondition. So there's a pre
+[00:33:14] precondition for that story. When I do
+[00:33:17] some action, when I trigger something,
+[00:33:19] right, then I can accept I can ex expect
+[00:33:23] some results. Let's have a look at this
+[00:33:26] example.
+[00:33:28] Um the user story here is as a user I
+[00:33:34] want to be able to recover the password
+[00:33:36] to my account so that I will be able to
+[00:33:39] access my account in case I forgot the
+[00:33:42] password and to write this user
+[00:33:45] acceptance criteria in the scenario
+[00:33:47] oriented way. So let's give a name for
+[00:33:50] that scenario is called password like
+[00:33:53] forgot password and given so this is a
+[00:33:56] precondition for this user story is that
+[00:34:00] the user has navigated to the login page
+[00:34:04] very specific if they are not on the
+[00:34:06] login page they cannot reset the
+[00:34:08] password so there's a precondition for
+[00:34:10] this one when the user selected forgot
+[00:34:13] password option so this is the action
+[00:34:16] that user did like how do we trigger
+[00:34:21] and then there's something that needs to
+[00:34:24] uh happen in parallel uh which we use
+[00:34:27] the end and entered a valid email to
+[00:34:31] receive a link for password recovery.
+[00:34:34] Then the system send a link to the
+[00:34:36] entered email. So these are the two
+[00:34:39] things that the user needs to do like
+[00:34:42] they need to select forgot password
+[00:34:44] option
+[00:34:46] and they need to enter a valid email so
+[00:34:49] that the system can send the link to the
+[00:34:51] entered email. So this is the result and
+[00:34:54] then the user may do something else like
+[00:34:57] the user received the link we are the uh
+[00:35:01] email. So this is the precondition for
+[00:35:03] the next stage and when the user
+[00:35:06] navigated through the link received in
+[00:35:08] email then the system enables the user
+[00:35:11] to set a new password.
+[00:35:15] What do you feel about the two types of
+[00:35:18] user acceptance criteria?
+[00:35:27] What are the differences like which one
+[00:35:28] would you like to use?
+[00:35:32] this one. Why?
+[00:35:35] >> More details and more logic, right?
+[00:35:39] Anyone prefers the first one? Like the
+[00:35:41] rubase one.
+[00:35:47] It's like here's the rubase one. This is
+[00:35:52] an example of the rubase one.
+[00:35:55] So, um,
+[00:35:58] it's easier to read because it's less
+[00:36:01] words, right? Um, it's easier to read,
+[00:36:05] easier to write. So, it's more like
+[00:36:08] neat.
+[00:36:10] So, you can choose which one you wanted
+[00:36:13] to use. Uh, you can also practice both
+[00:36:16] of them. Like, you can use one way to
+[00:36:18] write for one story and the other way
+[00:36:20] for another story. So, you can try both
+[00:36:22] of them. Uh but like in uh real software
+[00:36:28] projects uh there may be reasons to
+[00:36:30] choose this one or that one like the
+[00:36:33] second one uh the scenario oriented one
+[00:36:36] is easier for writing tests. So uh later
+[00:36:40] on in the following we will talk about
+[00:36:41] how to write tests for our software
+[00:36:43] projects. So this kind of more logic uh
+[00:36:47] type of user acceptance criteria is more
+[00:36:50] helpful for writing test. Uh but the
+[00:36:53] other one the Rubik's one is more neat
+[00:36:55] like it's easier to read, manage,
+[00:36:56] change. So they have their own
+[00:37:00] um
+[00:37:03] um like pros and cons. So you can see
+[00:37:06] that scenario based acceptance criteria
+[00:37:08] are more likely to be implemented as
+[00:37:10] test. So later on it may help you uh
+[00:37:12] when you are writing test. But the rule
+[00:37:15] based one are simpler and generally work
+[00:37:17] for all sorts of stories.
+[00:37:20] But for spring one, you can choose the
+[00:37:22] one that you want to use and you can
+[00:37:24] practice both of them.
+[00:37:27] Okay. So, let's do some activities now
+[00:37:31] so that you can get some early feedback
+[00:37:33] before you actually work on your sprint
+[00:37:36] one uh task for this week. So, can you
+[00:37:39] think of any or some of some stories for
+[00:37:43] task trackers? Let's do some practice
+[00:37:48] stories. user stories as a specific type
+[00:37:52] of user I can do something so that I can
+[00:37:55] get some value. So that's the structure
+[00:37:57] of stories.
+[00:38:02] Yep. Oh, it's not handsome. Sorry.
+[00:38:07] Okay. Uh any anyone want some early
+[00:38:10] feedback? Yep.
+[00:38:14] >> Sorry.
+[00:38:19] uh monitor the task.
+[00:38:22] >> Yes, that's a very good one. But how do
+[00:38:24] we write that in the format of stories
+[00:38:31] as a
+[00:38:33] student?
+[00:38:35] I wanted to be able
+[00:38:40] to like monitor is a little bit big
+[00:38:44] like it's really hard to implement
+[00:38:48] based on monitor because monitor may
+[00:38:50] means a lot of things right it may mean
+[00:38:52] like you can view the pending task it
+[00:38:56] may mean like you want to know what the
+[00:38:59] task assigned to. So this is a very good
+[00:39:01] example that you can practice splitting
+[00:39:04] the stories. It's very common like you
+[00:39:06] start with a very big story and then you
+[00:39:09] you start splitting them so you know the
+[00:39:12] more specific value and more specific uh
+[00:39:15] things the users can do.
+[00:39:18] >> Yeah.
+[00:39:26] >> Yeah. So your question is what what are
+[00:39:29] the type of users?
+[00:39:31] >> Yeah.
+[00:39:33] >> Okay. So that's a very good question. Um
+[00:39:37] different groups may identify different
+[00:39:39] type of users for your task trackers.
+[00:39:42] Like uh starting with a very broad
+[00:39:45] topic, you may end up with different
+[00:39:47] type of users for your system. And the
+[00:39:49] way that you identify what are the
+[00:39:51] potential type of users uh is by talking
+[00:39:54] with real customers or have a look at
+[00:39:57] other existing platforms like uh what
+[00:40:00] kind of users they have like how they
+[00:40:02] are using it. Um but yeah, you need to
+[00:40:05] talk with
+[00:40:07] the clients.
+[00:40:13] >> Yes, we'll talk a little bit more about
+[00:40:15] actually the process like how do we get
+[00:40:17] those stories. Uh but yes, so different
+[00:40:20] group may end up with different clients
+[00:40:22] and um because we only have 10 weeks, we
+[00:40:26] have the time limits. Uh so my
+[00:40:28] suggestion is do not make it too
+[00:40:30] complicated at the beginning like you
+[00:40:33] can prioritize only one or two types of
+[00:40:36] users and then uh in the later sprints
+[00:40:39] you may find oh I have more time I can
+[00:40:41] add more features I can add more
+[00:40:43] advanced things and then you can add
+[00:40:45] more type of user and add more features
+[00:40:47] later.
+[00:40:50] Yeah. Question.
+[00:40:51] >> Yeah, sure.
+[00:40:52] >> What exact?
+[00:41:16] >> Yeah.
+[00:41:19] Uh
+[00:41:21] >> cool. Yeah, that's a very very good
+[00:41:24] question. So your question is about you
+[00:41:27] don't know exactly what you are going to
+[00:41:29] do for sprint one and how you are
+[00:41:32] getting those stories.
+[00:41:35] That leads us to our next topic
+[00:41:37] actually. Uh but before we move on to
+[00:41:40] the next topic uh can we get another one
+[00:41:42] more user story so that we can provide
+[00:41:44] some feedback for you so that Yep.
+[00:41:47] As a business, I want to manage
+[00:41:52] task
+[00:41:54] or addition.
+[00:41:59] >> As a business manager, I wanted to be
+[00:42:02] able to add and delete multiple task so
+[00:42:06] that I can manage mo multiple tasks. Is
+[00:42:09] that what you said? Okay, cool. So, this
+[00:42:12] is also a good example. So um any
+[00:42:15] feedback for this user story?
+[00:42:19] I'll repeat that again. As a business
+[00:42:22] manager, I wanted to be able to add and
+[00:42:27] delete task so that I can manage
+[00:42:30] multiple tasks.
+[00:42:33] We can split that. Yes, that's that's
+[00:42:36] what I thought as well. So you mentioned
+[00:42:38] add task and delete task so that they
+[00:42:41] are actually different things. So you
+[00:42:43] can split that into two different um
+[00:42:47] uh yeah different stories because they
+[00:42:49] are bring different values for the
+[00:42:52] customer although both of them are about
+[00:42:54] managing the task but managing the task
+[00:42:57] in a different way and bring different
+[00:42:59] values.
+[00:43:02] >> Yeah.
+[00:43:05] As for customer, I want the message
+[00:43:09] and
+[00:43:12] >> as a customer I wanted the messages or
+[00:43:15] the task to be clearly so that I can
+[00:43:18] understand easily.
+[00:43:21] Oh wow, this is such a nice example. Any
+[00:43:24] feedback for this one?
+[00:43:34] Yeah. So that's my thought as well. So
+[00:43:37] this is a a very typical example of um
+[00:43:42] wake uh stories like you said easily to
+[00:43:46] understand uh clearly described. So this
+[00:43:49] kind of descriptive word is really hard
+[00:43:52] to implement
+[00:43:54] like what is clearly what does like when
+[00:43:57] do I know when it's clearly or when I do
+[00:44:01] I know my implementation make sure that
+[00:44:03] it um easy to understand
+[00:44:10] >> yeah you need to make it more specific
+[00:44:14] uh like it's very common that some
+[00:44:17] students start with writing stories like
+[00:44:20] um my software product is easy to use
+[00:44:24] with good usabilities.
+[00:44:27] Uh very common but this is too general
+[00:44:32] like no one knows what we mean by easy
+[00:44:36] to use or good usabilities. Like these
+[00:44:39] are very good features of software
+[00:44:40] product like we need to have software
+[00:44:42] product that are easy to use. This is
+[00:44:44] very important but we need to define
+[00:44:47] what we mean by easy to use
+[00:44:50] or good usability.
+[00:44:54] Yep. So when you communicate with the
+[00:44:56] customer, you can ask them like you can
+[00:44:59] ask them question like what do you think
+[00:45:02] uh how what kind of things that I can do
+[00:45:03] to make it easy to use for you and they
+[00:45:06] will tell you maybe they have challenges
+[00:45:09] in the past with other like task tracker
+[00:45:11] tools is too hard to use and because
+[00:45:13] they have blah blah blah blah blah blah
+[00:45:15] and then you can do something different
+[00:45:19] right.
+[00:45:21] >> Yeah. Yeah. Try again.
+[00:45:24] As for student, I want the message
+[00:45:33] to pick out what is important
+[00:45:37] and I want
+[00:45:44] >> table
+[00:45:51] to ask question.
+[00:45:54] Okay, I'll repeat your story. So you
+[00:45:56] said that as a student I wanted to
+[00:46:00] prioritize the task using different
+[00:46:02] colors
+[00:46:03] and
+[00:46:05] what was
+[00:46:07] >> if you have questions about
+[00:46:09] deliverables.
+[00:46:11] >> You can find a button to ask questions.
+[00:46:14] Okay. Any thoughts about this one? This
+[00:46:15] is our last one. Any thoughts about this
+[00:46:19] story?
+[00:46:25] First of all, you are talking about two
+[00:46:28] different things. One is prioritization.
+[00:46:32] The other one is asking questions.
+[00:46:35] They should be split into two stories
+[00:46:37] because they are very different things.
+[00:46:40] And the second uh feedback is that we
+[00:46:43] need to follow the structure as so for
+[00:46:46] example for your first part you can
+[00:46:48] rewrite that into as a student
+[00:46:52] I wanted to add different colors to my
+[00:46:55] task so that I can know the
+[00:46:58] prioritization of those task. So this is
+[00:47:00] the structure.
+[00:47:03] Okay. So the structure will be very
+[00:47:06] helpful for you to identify what are the
+[00:47:08] values that you are providing and what
+[00:47:11] are the actual features that the user
+[00:47:13] can do and what are the types of the
+[00:47:16] user right practicing following the
+[00:47:19] structures of the user stories. Okay no
+[00:47:23] more examples if you have any other uh
+[00:47:26] user stories that you want to feedback
+[00:47:27] feel free to come to me at the break.
+[00:47:30] Um, any questions so far about the
+[00:47:33] stories?
+[00:47:39] Okay. Okay. So, I had these stories. So,
+[00:47:44] the story sounds very similar to the
+[00:47:48] issues on issue board,
+[00:47:51] right? Last week we talked about issue
+[00:47:53] board. We said we wanted to put on the
+[00:47:55] issue board what we wanted to do next.
+[00:47:58] But stories is also about what you do
+[00:48:00] next. So what are the differences and
+[00:48:03] relationships between stories and issues
+[00:48:05] on issue board.
+[00:48:08] So when you identify the user story,
+[00:48:10] please put them on the issue board. So
+[00:48:13] the stories will become an issue
+[00:48:18] and issues are tracked on your issue
+[00:48:20] board. So that the stories are like you
+[00:48:23] plan on what to build and then issues
+[00:48:27] help you track
+[00:48:29] and manage the process. So this is the
+[00:48:33] relationship and differences.
+[00:48:37] So every story will end up as one of the
+[00:48:40] issues.
+[00:48:42] But issues can be more than stories. So
+[00:48:45] issues can be um we need a
+[00:48:50] uh
+[00:48:52] like teamwork contract.
+[00:48:55] This is not actually bring any value to
+[00:48:57] the customer, right? But this is
+[00:48:59] something that your group are going to
+[00:49:00] do. So it also goes on the issue board
+[00:49:03] as an issue. Or it may be well there's a
+[00:49:06] bug in that feature. Let's fix this bug.
+[00:49:09] So this may also be an issue but it's
+[00:49:11] not a like the type of story that we
+[00:49:14] talked about.
+[00:49:17] >> Huh?
+[00:49:21] >> So uh story is one kind of issues. So we
+[00:49:27] so stories will become one of one of
+[00:49:30] those issues but issues is more than
+[00:49:33] stories and stories just planning on
+[00:49:36] what kind of value what kind of features
+[00:49:38] you are going to have but issue board or
+[00:49:40] issues help you track the progress about
+[00:49:43] like how you are implementing those
+[00:49:45] stories and whether that story is done
+[00:49:47] okay let's move on to the next story
+[00:49:51] okay
+[00:49:54] cool so Yeah, I'll talk about that
+[00:49:57] later. So now let's get to your
+[00:49:59] questions about like how do we actually
+[00:50:02] get those stories. I cannot just write
+[00:50:05] the stories by imagination. I cannot
+[00:50:07] just imagine the customers will need
+[00:50:09] this, the customer will need that.
+[00:50:11] Right? So um we need to actually talk
+[00:50:14] with the customers to get those stories
+[00:50:17] and there's a process for getting those
+[00:50:20] stories is called requirements
+[00:50:22] engineering.
+[00:50:24] There's a process to get those stories
+[00:50:27] to get what kind of values the customers
+[00:50:29] need
+[00:50:31] and to prioritize them as well. And
+[00:50:34] typically there are four stages or four
+[00:50:37] steps for requirement engineering. Uh
+[00:50:40] the first one is called elic elicitation
+[00:50:42] and then analyze and then specification
+[00:50:44] and validation. We'll talk about them
+[00:50:47] one by one but before that let's take a
+[00:50:49] break for five minutes. Um, let's come
+[00:50:52] back at like sorry eight minutes. Come
+[00:50:55] back at 7 p.m.
+[00:50:58] Okay.
+[00:51:01] Uh, in the meantime, if you wanted to
+[00:51:03] wait here, you can have a look at at the
+[00:51:09] uh spring one. So, I made some updates
+[00:51:12] to spring one guideline and then we'll
+[00:51:14] talk about that today as well.
+[00:59:36] this one or is it just like one branch
+[00:59:39] would be enough for the whole project?
+[00:59:40] >> I think everyone should have
+[00:59:42] >> Yeah, if you don't have your own branch,
+[00:59:44] how can you merge that into main? So,
+[00:59:46] everyone needs to have a branch.
+[00:59:48] >> Actually, the problem was my part that I
+[00:59:50] decided was like you know uh debugging
+[00:59:53] or you can say testing and
+[00:59:55] communication.
+[00:59:56] >> Okay, which I feel like I need to
+[00:59:58] Because otherwise I'll be losing marks.
+[00:59:59] I won't be able to merge and do the
+[01:00:01] same. That's your problem.
+[01:00:02] >> No. Yeah. Change. You need to change.
+[01:00:07] >> Is it possible? I can still change the
+[01:00:09] >> Of course you can change anytime.
+[01:00:11] >> Yeah. Anytime you can change that.
+[01:00:15] >> And check out a new branch.
+[01:00:18] >> Sorry. Um we need to get started with
+[01:00:19] the lecture. So after lecture. Thank
+[01:00:21] you. Thank you.
+[01:00:25] >> Okay. Uh welcome back. Uh I got some
+[01:00:28] questions about the sprint one
+[01:00:30] deliverables. Uh first question is um
+[01:00:34] about the features for sprint one. Uh
+[01:00:39] I got asked this question by a couple of
+[01:00:42] people. So um the feature that we need
+[01:00:45] to have is add task and issue. Oh sorry
+[01:00:48] this one add and delete task. So I got
+[01:00:52] questions about like whether the UI
+[01:00:54] matters. Do I need to make it really
+[01:00:55] pretty or do I need to email some
+[01:00:58] confirmation to uh the users or uh or
+[01:01:03] like database consistent? So what if I
+[01:01:05] reload the server whether I can still
+[01:01:06] see your data? No, we don't need any of
+[01:01:10] those. Just the minimum minimum minimum
+[01:01:13] will be enough. So as long as we can see
+[01:01:16] okay you are display uh you are
+[01:01:18] displaying those task you can add new
+[01:01:20] task you can delete task that's enough
+[01:01:23] I'll show you some
+[01:01:26] can online people hear me I'll just
+[01:01:28] double checking okay they can hear me
+[01:01:30] perfect so let me show you something
+[01:01:32] that I've got and this is actually more
+[01:01:35] than enough for spring one so you can
+[01:01:39] see that I can see some task I can
+[01:01:43] delete Um, I can add a new task. New
+[01:01:48] task.
+[01:01:50] That's enough. That's more than enough.
+[01:01:52] So your UI can be even easier, simpler.
+[01:01:58] Okay. So for spring one uh the main
+[01:02:02] focus is for everyone to understand the
+[01:02:04] starter code know how is what basically
+[01:02:07] fundamentally and practicing g uh
+[01:02:11] practicing like collaborating with your
+[01:02:13] team members uh reflecting and
+[01:02:16] everything planning
+[01:02:19] more than enough. So what I'm showing
+[01:02:20] you is pretty enough for uh sprint one.
+[01:02:25] So the question next question I got like
+[01:02:27] there's just very few things to do for
+[01:02:30] spring one like uh there's another
+[01:02:32] requirement on spring one to make like
+[01:02:35] everyone needs to have a merge request
+[01:02:37] into men like how can we do that there's
+[01:02:39] not much to do uh
+[01:02:42] you can decide how you split the work
+[01:02:44] with your team members so you can have
+[01:02:49] for example one person doing or two
+[01:02:51] person together I would suggest two
+[01:02:53] person doing together for one thing like
+[01:02:56] adding task another two person together
+[01:02:58] doing like uh deleting task and then you
+[01:03:02] say oh there are still other people like
+[01:03:03] I have nothing to do I have nothing to
+[01:03:05] merge so but there are other things like
+[01:03:08] you can still merge into team contract
+[01:03:11] right for today you are going to write
+[01:03:13] user stories you can merge in user
+[01:03:15] stories and everyone can merge in a new
+[01:03:18] one user story right you merging one the
+[01:03:21] other one merging one so the reason is
+[01:03:23] just to make sure that everyone gets a
+[01:03:25] chance to practice. It may sounds a
+[01:03:28] little bit weird like in real world no
+[01:03:30] one will do like this like for such
+[01:03:32] simple spring one we have at least five
+[01:03:36] branches and then they all merge into
+[01:03:38] May. It may sounds weird but the reason
+[01:03:40] that we design spring one like this is
+[01:03:42] to make sure that everyone gets a chance
+[01:03:44] to practice and we know that you know
+[01:03:47] how like git works. So that's the reason
+[01:03:50] behind the requirements.
+[01:03:53] Um
+[01:03:55] okay so another question that I got
+[01:03:57] during the break is uh when we talk
+[01:04:00] about the stories we said that there can
+[01:04:02] be different type of users for the the
+[01:04:04] project. Uh the question was how do we
+[01:04:07] know uh or what kind of users to have
+[01:04:09] can we make the decision? Uh the answer
+[01:04:12] is yes. Your group make the decision of
+[01:04:15] what are the types of the users for your
+[01:04:18] project.
+[01:04:20] Uh another question that I got was uh
+[01:04:23] will spring two and three build on top
+[01:04:26] of sprint one? Will this whole uh 10
+[01:04:29] weeks working on the same project? The
+[01:04:31] answer is yes. So uh what we are doing
+[01:04:35] this week is planning for the rest of
+[01:04:37] the term like what are the features you
+[01:04:39] are going to implement for the rest of
+[01:04:41] the term. So you are going to write
+[01:04:44] stories as a way of planning for the
+[01:04:46] rest of the term.
+[01:04:48] Okay. Oh, one more question that I got
+[01:04:51] during the break. Can I still change the
+[01:04:53] teamwork contract? The answer is yes.
+[01:04:55] You can always update your teamwork
+[01:04:56] contract. It's a live document. It
+[01:04:59] doesn't mean that you said, well, this
+[01:05:00] is a contract. I can't change it for the
+[01:05:02] rest of the term. No, you can always
+[01:05:04] change it whenever needed. It's a live
+[01:05:06] document. Did do you have a question?
+[01:05:09] Yep.
+[01:05:13] >> Yes.
+[01:05:16] Yeah, we are doing the task tracker
+[01:05:17] project for the three three springs.
+[01:05:34] >> So the question is for sprint one what
+[01:05:37] features do we need to have? All you
+[01:05:40] need to have is displaying those tasks,
+[01:05:43] being able to delete the task, add task
+[01:05:46] enough.
+[01:05:48] >> That's it.
+[01:05:51] Easy marks. Easy marks. I know spring
+[01:05:53] one is is spring one is more about
+[01:05:55] setting up the fun the foundation making
+[01:05:58] sure that everyone's on track everyone
+[01:06:01] knows what we are doing because I know
+[01:06:03] some of you have some background in
+[01:06:05] computer science of engineering from
+[01:06:07] your like undergraduate or your previous
+[01:06:09] courses but we also have other people
+[01:06:12] who don't have that background we want
+[01:06:13] to make sure that everyone contri can
+[01:06:15] can contribute for the whole term so if
+[01:06:19] you if you have a group of diverse
+[01:06:22] students students from diverse
+[01:06:23] background. I would suggest the more
+[01:06:25] advanced people spend some time helping
+[01:06:28] the people who are new to the world of
+[01:06:31] software engineering so that everyone on
+[01:06:34] the team can contribute for the rest of
+[01:06:35] the term.
+[01:06:39] Okay. And it's a good opportunity for
+[01:06:41] everyone to catch up. Okay. Question.
+[01:06:46] >> No problem.
+[01:06:50] What exactly?
+[01:06:55] >> So what's the topic of the project?
+[01:06:59] >> Pass tracker.
+[01:07:10] >> Time table. No, no, no, no. So the
+[01:07:14] project will be about task tracker.
+[01:07:17] >> Task track.
+[01:07:18] >> Yeah. tracking tasks. So you can read
+[01:07:20] the story at the beginning of sprint one
+[01:07:22] so you can know some background. So
+[01:07:24] imagine that I am your client. I have a
+[01:07:28] problem. I have some needs. I came to
+[01:07:31] you and say well this is my problem. Can
+[01:07:33] you solve my problem?
+[01:07:38] any language just just
+[01:07:42] >> language Python background back end
+[01:07:45] needs to be Python and front end HTML
+[01:07:48] CCS CSS CS um yeah
+[01:07:53] cool any other question before we move
+[01:07:56] on to requirement engineering yeah
+[01:07:58] question
+[01:08:12] The question is for adding task and
+[01:08:15] deleting task. Do we need them to be
+[01:08:17] separate or together? Can I get some
+[01:08:20] answer from the audience?
+[01:08:24] >> Separate. Yeah, I heard people saying
+[01:08:26] separate because they are different
+[01:08:28] things. We need to split them.
+[01:08:31] Yep. So you need to have more features
+[01:08:35] uh sorry more user stories than just
+[01:08:36] adding and deleting task.
+[01:08:40] I'll talk about requirement managing you
+[01:08:41] will know what I mean. Okay so now the
+[01:08:46] topic is how oh one question online
+[01:08:48] sorry when will the guideline for spring
+[01:08:51] 2 be released? It will be released next
+[01:08:54] week week four. We are not there yet.
+[01:08:57] You just need to worry about spring one.
+[01:08:59] Um, so even though for spring one I'm
+[01:09:02] still only releasing it like week by
+[01:09:05] week. Uh, the reason is that I don't
+[01:09:07] want to overwhelm
+[01:09:09] you with things that you haven't learned
+[01:09:11] yet. So I'm just releasing it everything
+[01:09:14] week by week. Okay, cool, cool, cool.
+[01:09:16] Requirement engineering. Okay, so
+[01:09:18] requirement doesn't just appear out of
+[01:09:20] thin air. We need to derive them. We
+[01:09:22] need to have a way to figure them out.
+[01:09:24] Okay. So requirement engineering is a
+[01:09:26] set of activities focusing on
+[01:09:28] identifying the purpose and goal of a
+[01:09:30] software system
+[01:09:32] and may involve end users, managers,
+[01:09:35] engineers involved in maintain a lot of
+[01:09:38] things. So these are all stakeholders.
+[01:09:40] So if possible try to have a
+[01:09:43] conversation with all stakeholders.
+[01:09:46] So what are stakeholders? Stakeholders
+[01:09:48] is more than just users. Stakeholders
+[01:09:52] may include uh it will for sure include
+[01:09:56] the users who are actually using your
+[01:09:58] system but it will also involve people
+[01:10:01] who are maintaining the system or the
+[01:10:03] experts in that domain. For example, you
+[01:10:05] are making a software projects product
+[01:10:08] for like health care and you have no
+[01:10:10] background in healthcare. How do you
+[01:10:12] know what kind of features you need to
+[01:10:15] have? talk with the healthcare experts
+[01:10:18] or if you are like uh designing a
+[01:10:20] software system for self-driving car you
+[01:10:22] may also want to talk about people who
+[01:10:25] knows about privacy
+[01:10:27] right about security
+[01:10:29] right so these are all stakeholders uh
+[01:10:32] but for task tracker the reason that we
+[01:10:34] choose task tracker as the project was
+[01:10:37] because everyone has used some type of
+[01:10:40] task tracker so everyone knows what is
+[01:10:42] it so um you can play the roles within
+[01:10:46] your team take turns and say well no I'm
+[01:10:48] the end user right and you are like that
+[01:10:51] background okay so there are few there
+[01:10:53] are a few steps to do it and the first
+[01:10:56] step of requirement engineering to get
+[01:10:59] those stories is called elicitation
+[01:11:04] so what it means is to get the data so
+[01:11:09] what it means is to get the data talk
+[01:11:11] with people talk with those stakeholders
+[01:11:14] is right do some research about the
+[01:11:17] market. So for example what we are doing
+[01:11:20] is a task tracker right? So GitLab issue
+[01:11:22] board is also a task tracker. Have a
+[01:11:25] look at what other people are are doing
+[01:11:27] to track the task. There are other
+[01:11:30] examples like Jira right some people ask
+[01:11:32] me about Jira. So Jira is also a task
+[01:11:34] tracker. Other task tracker like Trello.
+[01:11:38] Do some research about those task
+[01:11:40] trackers. They may have their own pros
+[01:11:42] and cons. Some of you may have used some
+[01:11:45] of them. So, how do you feel about using
+[01:11:48] them? Are they easy to use? Did you have
+[01:11:51] any challenges using them? Right? Are
+[01:11:54] they too fancy like to have to use too
+[01:11:57] many features? You may want to have a
+[01:11:59] focus for specific type of people like
+[01:12:01] students for group projects maybe or
+[01:12:04] other like business owners to track
+[01:12:06] their software projects maybe. You may
+[01:12:08] have a specific target, specific focus.
+[01:12:10] So, you do not need those fancy
+[01:12:12] features. So, think about that. Do some
+[01:12:14] market research. Do some interviews with
+[01:12:17] stakeholders. What does interviews mean?
+[01:12:19] Asking questions. Talking with people,
+[01:12:23] right? So the f difference between focus
+[01:12:25] group and interviews is like interviews
+[01:12:27] is normally one- on-one conversation.
+[01:12:30] You talk with one specific people, get
+[01:12:33] more like in-depth uh information from
+[01:12:35] them uh from their specific point of
+[01:12:38] view. You can ask a lot of following up
+[01:12:39] questions. You can ask them can you
+[01:12:41] expand on what do you mean by that? You
+[01:12:43] can ask like what's your experience
+[01:12:44] using Trello? Did you have any
+[01:12:46] challenges uh while using Trello or what
+[01:12:49] are your needs? So what what do you feel
+[01:12:51] about if there's something cancelled
+[01:12:52] blah blah blah blah you can ask them
+[01:12:54] those questions but for focus group is
+[01:12:57] that you bring a group of people
+[01:12:59] together and they may bring different
+[01:13:02] backgrounds different expertise to the
+[01:13:04] conversation. So the focus group may
+[01:13:07] involve people uh who are like end users
+[01:13:10] like so all um people with specific
+[01:13:13] domain expertise or uh software
+[01:13:17] engineers who knows about like technical
+[01:13:19] capabilities limitations and stuff. So
+[01:13:22] focus group you can bring a group people
+[01:13:24] together and ask them question like what
+[01:13:27] if what is how's your experience with
+[01:13:30] this or that or um what do you need what
+[01:13:33] are challenges you faced
+[01:13:35] ask them questions
+[01:13:38] uh for our projects for task tracker
+[01:13:41] what you can do is you can interview or
+[01:13:44] do focus group with potential users like
+[01:13:46] your classmates or friends maybe from
+[01:13:49] your own group maybe not in your group
+[01:13:52] but in the same class or you can also
+[01:13:55] talk with your friends. Everyone should
+[01:13:57] have used some kind of task tracker. Ask
+[01:14:00] them questions.
+[01:14:02] Observe how people currently manage
+[01:14:04] task. Um it's hard to observe uh in uh
+[01:14:10] but you can ask them questions about
+[01:14:12] like how you use task trackers. Ask
+[01:14:15] about and brainstorm with your team
+[01:14:17] about the features and then research
+[01:14:19] similar tools. ask what problem do
+[01:14:21] students have managing task if students
+[01:14:24] are your target user but you decide what
+[01:14:27] are who are your target user okay so
+[01:14:29] this is the first step talk with people
+[01:14:32] get the data
+[01:14:34] and the next step after you have got the
+[01:14:37] data
+[01:14:38] you need to analyze the data you may
+[01:14:41] notice that a lot of people mention the
+[01:14:43] same problem they have faced with tr
+[01:14:46] with uh gitlab issue board so this may
+[01:14:49] be a prioritization for for you. So this
+[01:14:50] may be a theme like a common problem
+[01:14:53] people are facing or you may notice well
+[01:14:56] there are some dependencies well to be
+[01:14:58] able to editing task they need to create
+[01:15:01] the task first. So this is an example
+[01:15:03] but you may notice other dependencies
+[01:15:06] and you may also notice that there are
+[01:15:08] some conflicts for example some people
+[01:15:11] say well this is such a bad feature I
+[01:15:13] hate it my life so difficult and other
+[01:15:16] people saying well I love it this is
+[01:15:18] amazing this is fantastic I cannot live
+[01:15:20] without that feature so you may notice
+[01:15:23] some conflicts so you may need to get
+[01:15:26] more data asking more people or asking
+[01:15:28] them why what is so helpful for you and
+[01:15:30] ask the other group of people why this
+[01:15:32] is so challenge challenging for you. So
+[01:15:33] you may want to get the underlying
+[01:15:36] reason for their experience.
+[01:15:39] Okay. And then establish priorities.
+[01:15:41] What's the most important thing for next
+[01:15:44] sprint? You do not need to worry about
+[01:15:46] the sprint three, sprint four, sprint
+[01:15:48] 10, sprint 100. You don't need to worry
+[01:15:50] about that long term. Just worry about
+[01:15:52] next sprint. So what are the most
+[01:15:55] important feature I definitely need to
+[01:15:57] have for next sprint? Identify those
+[01:16:01] priorities.
+[01:16:02] based on the data that you collected
+[01:16:04] from the step one and step three is
+[01:16:07] called specification. What actually
+[01:16:09] means it just means writing those user
+[01:16:11] stories.
+[01:16:14] Use the data that you collected from
+[01:16:16] step one. Use the analysis result that
+[01:16:18] you got from step two and then write
+[01:16:20] those user stories. Put them on the
+[01:16:24] paper. Write them down. write stories in
+[01:16:27] customer centric language like uh and
+[01:16:30] then add acceptance criteria to each
+[01:16:32] story. So um in step one we said like we
+[01:16:36] talk to customers, right? Does that mean
+[01:16:38] that we only talk with customers in step
+[01:16:40] one?
+[01:16:42] No, we talk with customers all the time.
+[01:16:46] Not only at step one but also step two.
+[01:16:49] You may ask them following up questions
+[01:16:51] like why did you love that feature? Why
+[01:16:52] did you hate that feature? If you feel
+[01:16:54] feel like I forgot to ask that question
+[01:16:55] or I didn't realize there was a
+[01:16:57] conflict, talk with them. Ask them why.
+[01:17:00] And then step three, when you write the
+[01:17:01] stories,
+[01:17:03] talk with your customers again and
+[01:17:05] asking them, is this actually what you
+[01:17:07] want? Will this be helpful for you? Uh
+[01:17:10] how about those acceptance criteria? Am
+[01:17:12] I missing something or am I prioritizing
+[01:17:14] something that isn't that important?
+[01:17:17] Right? Talk with customers all the time.
+[01:17:19] And you can find your customers
+[01:17:21] everywhere. Your group members have
+[01:17:22] customers, right? You can talk with your
+[01:17:24] group members. You can set up some
+[01:17:26] meetings and then split the large needs
+[01:17:29] into smaller and manageable stories. We
+[01:17:31] mentioned that it's very common to start
+[01:17:33] with large story. Very very common.
+[01:17:35] Split them.
+[01:17:38] Okay. Any question about the first four
+[01:17:40] steps?
+[01:17:43] Talk with customer. Talk with customer.
+[01:17:44] Do some research. This is the most
+[01:17:46] important thing. Um and then the last
+[01:17:49] step for requirement engineering is
+[01:17:51] called validation.
+[01:17:53] Checking you haven't gotten lost. Making
+[01:17:56] sure that you are on the right track.
+[01:17:58] How do you do that? Talk with customers.
+[01:18:01] Yeah. Okay. Um so this is
+[01:18:06] so in the latest we'll talk more about
+[01:18:08] talking with customers. For example, you
+[01:18:10] may have some like not perfectly working
+[01:18:15] software feature like not fully working
+[01:18:18] features yet, but you have something
+[01:18:20] working.
+[01:18:22] Bring that to your customer and ask them
+[01:18:26] is this solving your problem? How do you
+[01:18:28] feel about the features that I have
+[01:18:30] already got? Right? Like regularly,
+[01:18:33] often frequently asking for customers
+[01:18:37] idea, opinion, feedback. customer
+[01:18:40] involvement is one of the core value for
+[01:18:42] agile.
+[01:18:46] Okay.
+[01:18:47] Um so while you are doing this
+[01:18:49] requirement engineering like while you
+[01:18:51] are getting those uh stories you may
+[01:18:54] notice that there are some challenges
+[01:18:57] it's not a very easy process I promise
+[01:18:59] you uh there are a few challenges you uh
+[01:19:03] uh get like for example requirements
+[01:19:05] sometimes only understood after design
+[01:19:07] or build has already begun.
+[01:19:10] So at the beginning when you talk with
+[01:19:11] the customer before you actually have
+[01:19:13] something to show them they may say well
+[01:19:16] I love this user story this is fantastic
+[01:19:18] and when you actually start building it
+[01:19:20] and then you bring something that can
+[01:19:23] demonstrate to your customer say well
+[01:19:26] this is not what I meant or I don't need
+[01:19:28] it anymore. So uh
+[01:19:32] so this is also another reason that why
+[01:19:34] we need to go back to the customers or
+[01:19:36] the users frequently is that you need to
+[01:19:40] know that uh some of the requirement or
+[01:19:44] user stories is no longer valid and you
+[01:19:46] need to stop that feature and move on to
+[01:19:49] something that is actually really
+[01:19:52] bringing value to the users. Yeah. So do
+[01:19:56] not be afraid or scared or being sad
+[01:19:59] about like oh I've been working on that
+[01:20:00] feature for a few days now and then now
+[01:20:03] user saying oh I don't need it anymore.
+[01:20:05] Uh like you are uh stop wasting more
+[01:20:08] time.
+[01:20:10] Okay. And then clients or customers
+[01:20:12] sometime don't know what they want. Oh
+[01:20:14] this is so common. They don't know what
+[01:20:16] they want until they actually see the
+[01:20:19] product. They'll know well this is what
+[01:20:21] I want or this is not what I want. So
+[01:20:24] get some working software. Do not aim
+[01:20:26] for perfectionism. Just working software
+[01:20:29] will be enough. And going back to the
+[01:20:30] customers, the users, the stakeholders
+[01:20:32] and then ask for feedback.
+[01:20:35] And customers sometime change their
+[01:20:37] mind. Oh, this is also very common
+[01:20:39] happens. Uh developer may not understand
+[01:20:42] the subject domain like task tracker is
+[01:20:44] okay. But for some subject domain, I
+[01:20:47] heard some people who are doing some
+[01:20:48] project for people in specific locations
+[01:20:52] in the world like in Africa or people
+[01:20:54] like don't have the access to people in
+[01:20:56] that area. So they don't they don't
+[01:20:59] really understand their needs.
+[01:21:02] Limited access to stakeholders. This is
+[01:21:04] similar to that one. Jumping into
+[01:21:06] details of solution too early. Wow. The
+[01:21:08] chicken and egg problem. Um this is also
+[01:21:11] very very common for engineers that we
+[01:21:14] jump to solution very early and then in
+[01:21:16] the end we realize that we are not
+[01:21:19] solving a really existed problem. We
+[01:21:23] need to make sure that there's a problem
+[01:21:24] first before we actually solving it
+[01:21:27] right otherwise you are just doing
+[01:21:29] something that is not actually bringing
+[01:21:31] value to the users.
+[01:21:34] So requirement engineering or getting
+[01:21:36] the stories is not very easy. So this is
+[01:21:38] also why we say we only need to worry
+[01:21:40] about next sprint rather than worry
+[01:21:42] about like 100 springs later. So things
+[01:21:46] may change. You may understand your
+[01:21:48] stakeholders better and better.
+[01:21:51] Okay, cool. Any question about the
+[01:21:54] process to get the stories?
+[01:22:01] All good so far? Okay. So earlier this
+[01:22:05] lecture we got an example of uh the
+[01:22:08] story saying talking about usability or
+[01:22:10] easy to use or clear understand. So
+[01:22:13] those kind of stories are not actually
+[01:22:16] about what the users can do.
+[01:22:20] Did you realize that like whether your
+[01:22:23] task tracker are displaying the task
+[01:22:26] clearly or describing the task clearly
+[01:22:30] or whether it is easy to use. It's
+[01:22:34] important right like very important but
+[01:22:37] they are not actually about what the
+[01:22:40] users can do.
+[01:22:43] So these kind of features or these kind
+[01:22:45] of requirements they are actually called
+[01:22:48] nonfunctional requirement
+[01:22:52] they are not about something the users
+[01:22:54] can do or the system can do.
+[01:22:58] So when you read stories you may notice
+[01:23:00] that some of them belongs to functional
+[01:23:04] and some of them belongs to
+[01:23:05] nonfunctional. So functional is
+[01:23:08] something that the user or the system
+[01:23:10] can do but nonfunctional requirement are
+[01:23:13] some like the
+[01:23:15] um how good they are like how how's the
+[01:23:19] usability. So these are the examples of
+[01:23:21] nonfunctional requirements. These are
+[01:23:24] also very important. It places a
+[01:23:26] constraint on how the system can achieve
+[01:23:28] that like the speed of the system. This
+[01:23:31] is also very important like accuracy
+[01:23:34] performance these are also very
+[01:23:35] important things for software systems
+[01:23:37] but they are nonfunctional this is not
+[01:23:39] what a users or the system can do it's
+[01:23:41] about the performance characteristics
+[01:23:45] so let's have a look at some examples so
+[01:23:49] functional requirements uh so for
+[01:23:52] example get
+[01:23:54] so this is not written in the format of
+[01:23:57] stories uh but you can get a sense of uh
+[01:24:00] what it means that that the system shall
+[01:24:02] send emails to no later than 30 minutes
+[01:24:05] after from such an activities. For
+[01:24:07] example, when you allocate a new task to
+[01:24:12] one of the members on the like the task
+[01:24:15] tracker, they should get an email
+[01:24:17] confirmation and this should happen no
+[01:24:19] later than 30 minutes after you assign
+[01:24:22] them the task.
+[01:24:24] This is one example of nonfunctional
+[01:24:27] ones.
+[01:24:30] So other ones maybe about like the
+[01:24:32] system shall be available to all clinic
+[01:24:35] during normal working hours. Downtime
+[01:24:37] within normal working hours shall not
+[01:24:39] exist 5 seconds in any one day. So this
+[01:24:41] is also another example of nonfunctional
+[01:24:43] but you need to um
+[01:24:47] these are also very important. Uh they
+[01:24:50] are uh like whether they can author
+[01:24:52] authenticate themselves into the
+[01:24:54] specific system using specific costs or
+[01:24:57] ids.
+[01:24:58] uh whether they are following any
+[01:25:00] privacy provisions.
+[01:25:04] Yep.
+[01:25:05] So you also need to have some
+[01:25:08] conversations with the stakeholders
+[01:25:10] about their needs or their values for
+[01:25:14] those nonfunctional requirements.
+[01:25:18] Okay, I'll skip those quizzes.
+[01:25:23] Okay, uh we'll talk about validate
+[01:25:25] later. Okay, so the question now we talk
+[01:25:28] about why we need stories, what are
+[01:25:32] stories and then how to get those
+[01:25:34] stories. So what do we need to do for
+[01:25:37] sprint one about the stories? Now is the
+[01:25:40] question um so I have put that on the
+[01:25:44] course website here. So you can see here
+[01:25:48] I make it a bit larger.
+[01:25:50] uh on the quotes website I add a new
+[01:25:54] section under spring one called planning
+[01:25:56] and the stories. So here I summarized
+[01:26:00] the steps that you need to do and what
+[01:26:02] do you need to submit. So first of all
+[01:26:04] you need to do some discovery which is
+[01:26:07] the requirement engineering that we just
+[01:26:09] talked about. You need to talk with the
+[01:26:12] users and document their how you
+[01:26:14] discover their needs. Whether you did
+[01:26:15] interviews, what kind of questions you
+[01:26:17] ask, what what are their like the main
+[01:26:20] themes that evolve from the data
+[01:26:22] discovery and then show you how you
+[01:26:24] organize and uh prioritize the features
+[01:26:27] and then write down your stories with
+[01:26:29] acceptance criteria
+[01:26:32] validation. So we I'll briefly talk
+[01:26:34] about that. Okay, so validation is very
+[01:26:37] very easy. uh just go back to the
+[01:26:40] customers, go back to the people you
+[01:26:42] talk with and ask them is this what you
+[01:26:44] actually meant or what is it actually
+[01:26:47] what you meant and is it actually what
+[01:26:49] you needed or am I bringing some value
+[01:26:52] for you. Okay. So this is called
+[01:26:54] validation to make sure that you have
+[01:26:56] the proper stories
+[01:26:58] and then um as part of this process you
+[01:27:02] need to have user stories. Make sure
+[01:27:04] that you follow the proper format and
+[01:27:07] making sure that you are having the
+[01:27:09] customer centric. So this is very
+[01:27:12] important for IGL again. And then you
+[01:27:14] need to include specific testable
+[01:27:16] acceptance criteria. There are two types
+[01:27:19] of acceptance criteria. One is called
+[01:27:21] scenario based. The other one is called
+[01:27:23] rub based. You can pick the one that you
+[01:27:26] prefer. There's no requirement for which
+[01:27:28] one you should use. Show you how split
+[01:27:30] large ideas into smaller stories. So
+[01:27:33] most likely you got only large stories
+[01:27:35] from the discovery process and you start
+[01:27:38] with large stories and then split them.
+[01:27:41] So you can say well at the end of the
+[01:27:43] discovery process we discover well this
+[01:27:46] is the theme like task management. This
+[01:27:48] is important and then we split them into
+[01:27:51] blah blah blah. those stories, show the
+[01:27:53] process
+[01:27:55] and then connect to GitLab. We mentioned
+[01:27:57] that we need to add all stories as
+[01:27:59] issues on issue board, right? So after
+[01:28:03] you got those user stories, connect to
+[01:28:05] GitLab, write, put those stories onto
+[01:28:08] GitLab.
+[01:28:12] Okay, remember that quality over
+[01:28:15] quantity. You do not need to have 100
+[01:28:18] user stories to get full marks. But the
+[01:28:20] quality like how you get how you got how
+[01:28:23] you get those stories is more important
+[01:28:25] like the and the quality of the stories
+[01:28:28] is more important.
+[01:28:30] Um
+[01:28:32] yeah cool the way that you submit this
+[01:28:36] part is by creating a new markdown file
+[01:28:39] like MD file that I showed last lecture.
+[01:28:42] I'll show you again the way that you do
+[01:28:44] that. So here is the starter code and
+[01:28:48] then under your project you can add a
+[01:28:50] new file. So for example you can name it
+[01:28:52] stories.md
+[01:28:54] and then you can document
+[01:28:56] uh the process and your uh stories here
+[01:28:59] and then push that uh into your main. So
+[01:29:03] before you do that you need to check out
+[01:29:04] to a new branch. Remember that we do not
+[01:29:07] we do not make any changes on the main
+[01:29:09] branch directly directly. We check out
+[01:29:12] to a new branch. You can call that
+[01:29:14] branch for example stories or user
+[01:29:16] stories or sprint one stories or
+[01:29:18] whatever um like following your own
+[01:29:20] naming convention of your group and then
+[01:29:23] create a new file called stories or MD
+[01:29:25] or user stories or MD or whatever you
+[01:29:28] want but it needs to make sense and then
+[01:29:30] you can write down what we just
+[01:29:32] mentioned here what is needed uh and
+[01:29:36] this markdown file
+[01:29:39] and then you add that MD file you commit
+[01:29:42] that MD file So you push that MD file
+[01:29:44] and if there's any changes you can
+[01:29:46] always like make the changes add the
+[01:29:49] things you change give it a proper
+[01:29:51] commit message like what you changed
+[01:29:53] about that stories um maybe you add a
+[01:29:56] new story maybe you addited a story
+[01:29:59] right so everyone get a chance to
+[01:30:01] practice g so I really wanted to make
+[01:30:03] sure that everyone get at least some
+[01:30:05] chances to practice g because g is so
+[01:30:08] important for software engineering
+[01:30:09] software projects
+[01:30:12] Okay. Yeah. Question
+[01:30:20] >> uh story time. So you mean the structure
+[01:30:22] of stories?
+[01:30:24] >> So this is the structure.
+[01:30:32] >> Um
+[01:30:36] no. So what you can do is potentially
+[01:30:39] you can copy this to your markdown file
+[01:30:43] and then under each subsection you add
+[01:30:46] like how you did elicitation how you did
+[01:30:48] analysis or some group they may uh do
+[01:30:50] elicitation or something on the like
+[01:30:53] written card not like typing at the
+[01:30:55] beginning. So what you can do is you can
+[01:30:57] do it together as a group and you take a
+[01:30:59] photo of the things that you you you
+[01:31:01] write on the cards. is also okay. And
+[01:31:03] then you attach that photo in your
+[01:31:05] markdown file.
+[01:31:07] So you do not need to tap everything and
+[01:31:09] you can still show or demonstrate that
+[01:31:11] you follow the process. So I think that
+[01:31:14] will be easier for some groups who
+[01:31:16] prefer to do like face in face person in
+[01:31:18] person um pro for this uh story process.
+[01:31:23] So you can actually do this during a lab
+[01:31:25] class this week. You can sit down at
+[01:31:28] your table. You can bring some papers.
+[01:31:31] You can uh have like smaller pieces of
+[01:31:33] paper. You start writing and doing some
+[01:31:35] interviews and then you take a photo of
+[01:31:37] all the stories and how you group them
+[01:31:39] into themes. How you end up with your
+[01:31:42] like final stories, user acceptance
+[01:31:45] criteria. Um yeah, up to you.
+[01:31:50] Yeah. Okay. As long as we can see you
+[01:31:53] are doing the process, you get a good
+[01:31:55] quality user story at the end and you
+[01:31:57] are adding the user story to the issue
+[01:31:59] board. That's it. That's that will be
+[01:32:00] enough. We do not want to have like you
+[01:32:03] submitting 20 or 30 pages for this one
+[01:32:06] like it's not necessary.
+[01:32:09] Okay. Uh we don't want to minimize
+[01:32:11] documentation. As long as we can see
+[01:32:13] that you are following the price a
+[01:32:15] process you're getting the good user
+[01:32:16] story that's enough. Okay. Any question?
+[01:32:23] Yeah. Question.
+[01:32:37] Uh the question is what if a group uh a
+[01:32:40] few people in your group is working on
+[01:32:42] the same uh thing? Do you check out
+[01:32:45] another new branch or do you work on the
+[01:32:47] same branch? um
+[01:32:50] working on the same branch will be
+[01:32:52] pretty enough and it will be less uh
+[01:32:57] because you are working on the same
+[01:32:58] thing, right? So you can use the same
+[01:33:00] branch but making sure that everyone
+[01:33:02] gets a chance in sprint one to merge
+[01:33:06] their feature branch into men so that
+[01:33:09] they can get a chance to practice the
+[01:33:11] merging process.
+[01:33:13] That will be good. Okay. It's just for
+[01:33:17] practicing. So, spring one is more about
+[01:33:19] practicing.
+[01:33:24] All good.
+[01:33:26] Yeah. Okay. Cool. Amazing. So, we
+[01:33:30] haven't we have another topic that we
+[01:33:32] haven't touched yet, but we should be
+[01:33:34] able to finish in the rest half an hour.
+[01:33:36] Uh, which is called sprint
+[01:33:38] retrospective.
+[01:33:41] Well, this is this should be pretty
+[01:33:43] quick. Okay.
+[01:33:46] So um
+[01:33:49] here
+[01:33:50] uh
+[01:33:53] let's go back to the agile values again.
+[01:33:55] So we'll we we'll look at this agile
+[01:33:57] values again again again throughout the
+[01:34:00] time because this is the main focus. So
+[01:34:03] um responding to change over following a
+[01:34:08] plan individual and interactions over
+[01:34:11] process and tools. So how can we achieve
+[01:34:14] that? We need to reflect,
+[01:34:18] right? We need to know what works, what
+[01:34:21] didn't work, how to improve, but how do
+[01:34:25] we actually do it,
+[01:34:27] right? So how do we actually have this
+[01:34:30] continuous improvement? How do we
+[01:34:32] actually achieve this adapt adaptability
+[01:34:35] adapt and blah? So the way that we do
+[01:34:39] that is through uh called sprint uh
+[01:34:42] retrospective or uh retrospective.
+[01:34:46] The purpose is to improve the team and
+[01:34:48] the process. There's no single standard
+[01:34:51] for all teams. Every team is different.
+[01:34:54] Uh so you need to reflect on your own
+[01:34:57] team's experience and then learn from
+[01:34:59] that experience to make sure that you
+[01:35:01] are making improvements all the time.
+[01:35:05] Okay. So agile team constantly look for
+[01:35:08] opportunities to improve their process,
+[01:35:10] work habits, relationship, environment
+[01:35:13] and many others
+[01:35:16] and retro is a great way to do so. And
+[01:35:19] there are different types of ratio or
+[01:35:21] different uh it's called retrospective
+[01:35:23] but normally we just say retro for
+[01:35:26] short. Um the most commonly used ones
+[01:35:29] are heartbeat retro and milestone retro.
+[01:35:33] So habit ratio is like we can do it
+[01:35:36] weekly or bi-weekly
+[01:35:39] just very often for us we do it every
+[01:35:42] sprint and there's also milestone re uh
+[01:35:45] ritual normally can be done like longer
+[01:35:48] but because the term only have 10 weeks
+[01:35:50] so we will not asking to do that it's
+[01:35:52] similarly just longer more intensive
+[01:35:55] like crucial meltstones deeper
+[01:35:57] reflections many external facilitators
+[01:35:59] but we are not doing that we are mainly
+[01:36:01] doing this one it's the most common type
+[01:36:04] uh we do it per sprint. So at spring at
+[01:36:07] the end of sprint one we do it at the
+[01:36:09] end of sprint two we do it at the end of
+[01:36:11] sprint three we'll do it um as well it
+[01:36:15] will take about 60 to 90 minutes uh I do
+[01:36:19] not suggest you doing it during your
+[01:36:22] class if your class is on Tuesday or
+[01:36:24] Wednesday uh because you have still
+[01:36:26] another week to go till the end of your
+[01:36:29] sprint one and there's still plenty to
+[01:36:31] do this week for example the stories so
+[01:36:33] if your class is on Friday night you can
+[01:36:36] do it during your class but you need to
+[01:36:37] do uh the stories before your class. You
+[01:36:41] can like schedule another time with your
+[01:36:43] group to do it. Okay. Um yep. So who
+[01:36:47] should participate in those rituals? The
+[01:36:50] whole team. You need to have the whole
+[01:36:52] team attending the ritual to make sure
+[01:36:55] that no one is falling behind. And who
+[01:36:58] should not attend? Anyone else. uh do
+[01:37:02] not get your mentor involved in the
+[01:37:04] ridge host unless there's any conflict.
+[01:37:07] Uh try to make it uh like private
+[01:37:12] just within your team. So and you also
+[01:37:15] need to have a facilitator for each
+[01:37:17] sprint ritual. You can rotate uh within
+[01:37:21] your row uh within your group for that
+[01:37:23] row. So for example, you can have one
+[01:37:24] people for sprint one ritual, another
+[01:37:26] people for sprint two ritual and another
+[01:37:28] people for sprint three ritual. So more
+[01:37:30] people get chance to do the facilitators
+[01:37:33] role but I would suggest having someone
+[01:37:37] who have more experience in project
+[01:37:41] management during the first retro uh it
+[01:37:44] doesn't have to be industry experience
+[01:37:46] but just relatively more experience with
+[01:37:49] projects
+[01:37:50] but anyone on the team can facilitate
+[01:37:53] and best to switch facilitators
+[01:37:56] frequently. uh the facilitators they do
+[01:37:59] not participate they just guide the
+[01:38:02] process. So we need one like one people
+[01:38:06] to not uh doing the discussion but more
+[01:38:08] about like facilitating uh the
+[01:38:11] discussion. Okay. So this is a very
+[01:38:14] important role. So anyone on your team
+[01:38:16] who wanted to develop more like
+[01:38:17] leadership skill can also try this
+[01:38:20] facilitator role to get experience with
+[01:38:23] that. Um but start with people who have
+[01:38:26] some experience with projects.
+[01:38:31] Yeah. So uh facility is very important
+[01:38:35] for rituals. Uh they have some key
+[01:38:37] responsibilities like keep the ritual on
+[01:38:40] track ensure everyone's voice is heard
+[01:38:42] does not otherwise participate and they
+[01:38:45] stay neutral. So they do not say oh I
+[01:38:48] agree with that or I disagree with that.
+[01:38:50] So they stay neutral.
+[01:38:53] If the team members having trouble
+[01:38:55] staying neutral, team can treat
+[01:38:57] facilitator. If you notice well our
+[01:38:59] facilitator although they have some
+[01:39:00] product experiments but they are not
+[01:39:02] staying neutral. Switch to someone who
+[01:39:04] can be neutral. Okay. So this is very
+[01:39:07] important. Uh facilitator must are great
+[01:39:09] to keep everything confidential.
+[01:39:12] So it needs to be a safe environment for
+[01:39:14] everyone to speak up. Um I'm not sure if
+[01:39:17] you remember last week when we talked
+[01:39:19] about IGL another thing very important
+[01:39:21] for team for collaboration for effective
+[01:39:25] group works is called psychological
+[01:39:27] safety
+[01:39:29] very very important everyone needs to
+[01:39:31] feel safe to speak up to give feedback
+[01:39:34] talk about their thoughts so yeah
+[01:39:39] there are also some important warning uh
+[01:39:41] everyone the team not just the
+[01:39:42] facilitator should pay attention but
+[01:39:44] everyone should be paying attention into
+[01:39:46] this uh ritual can sometime be damaging
+[01:39:49] when used to attack one another.
+[01:39:53] Okay. When others when there's blame,
+[01:39:56] criticism or when team member doesn't
+[01:39:59] treat each other with respect. If
+[01:40:02] anything of this happens, the group
+[01:40:04] member should risk this as soon as
+[01:40:06] possible and stop the ratio but focusing
+[01:40:09] more on building psychological safety.
+[01:40:13] That's more important.
+[01:40:20] So in terms of timing um so
+[01:40:24] I will talk about the steps. So there
+[01:40:26] are four to five steps for the ritual.
+[01:40:29] So at the beginning your group may
+[01:40:30] struggle to finish everything within six
+[01:40:33] to 90 minutes. It's very okay like take
+[01:40:35] some practice. Uh sprint one may be a
+[01:40:37] little bit hard but sprint two ritual
+[01:40:39] and sprint ritual three ritual becoming
+[01:40:41] easier and easier. So um but some group
+[01:40:45] will feel like oh I didn't use the full
+[01:40:47] 90 minutes for the first sprint ritual.
+[01:40:49] It's also okay like you do not need to
+[01:40:51] strictly follow the timing. More
+[01:40:53] important is the process. Okay. Um if it
+[01:40:57] goes extra you just give it some extra
+[01:41:00] time. If it finish earlier it doesn't
+[01:41:02] matter. It's okay. And don't be shy
+[01:41:04] about politely wrapping up and moving to
+[01:41:07] the next step. If you go too much, if
+[01:41:10] you go like two hours, that may be too
+[01:41:11] much. Um, practice makes perfect. That's
+[01:41:14] the same for everything. And there are
+[01:41:16] mainly five steps in the ratio. Okay.
+[01:41:20] So, here is the first step. So, what we
+[01:41:23] do in the first step is set the stage.
+[01:41:29] Everyone reads this out in your group
+[01:41:32] verbally. say regardless of what we
+[01:41:34] discover, we must understand and truly
+[01:41:37] believe that everyone did their best job
+[01:41:39] uh he or she could given what was known
+[01:41:42] at the time, his or her skills and
+[01:41:44] abilities, the resources available and
+[01:41:47] the situation at the time. So this is
+[01:41:50] very important to set the tone to make
+[01:41:52] sure that everyone is treated with
+[01:41:54] respect and they feel safe to speak up
+[01:41:57] in the later stage.
+[01:42:00] Okay. So the purpose is to create
+[01:42:02] psychological safety. Focus on learning
+[01:42:04] not blame. Everyone must agree verbally.
+[01:42:07] If anyone disagrees at this stage, they
+[01:42:10] should stop the ritual and focusing on
+[01:42:13] solving the conflicts uh like setting up
+[01:42:16] psychological safety. Okay. The step is
+[01:42:18] not me uh making it up. It's from a very
+[01:42:21] famous book. Uh if you are interested in
+[01:42:24] that, you can have a look. The book is
+[01:42:26] called the art of agile development.
+[01:42:27] talks a little bit more about the
+[01:42:29] process giving more details
+[01:42:31] explanations. Okay,
+[01:42:34] cool. So this is the stage one set the
+[01:42:36] stage. Stage two guided the data
+[01:42:39] brainstorming. So what we do is what you
+[01:42:41] can do is you can uh use the whiteboard
+[01:42:44] in your class or you can do it online as
+[01:42:46] well. Uh so you write on the whiteboard
+[01:42:49] like first you write like enjoyable this
+[01:42:51] is the call uh for and then frustrating
+[01:42:54] others and then you give everyone some
+[01:42:56] stickers and you write you do not need
+[01:42:59] to write everything you do only have one
+[01:43:01] for enjoyable one for frustrating one
+[01:43:03] for puzzling you do not need to do that.
+[01:43:05] So every anything that came comes to
+[01:43:07] your mind at that r you put that on the
+[01:43:09] sticker and everyone write this uh
+[01:43:13] brainstor do this brainstorming at their
+[01:43:16] uh like with themselves. It's not
+[01:43:18] there's no discussion. Everyone just do
+[01:43:20] this in silent by themselves and
+[01:43:23] simulate is a simulated a simulaneous
+[01:43:27] process on cars or sticking stick no
+[01:43:30] discussion yet just capturing thoughts
+[01:43:32] and what you do is you put your stickers
+[01:43:35] you put your cars and the scenes for
+[01:43:39] example you can you may have a few for
+[01:43:41] enjoyable and one for keep continue
+[01:43:45] doing something. You put those stickers
+[01:43:47] under those categories and everyone do
+[01:43:49] that so that you can like you put all
+[01:43:52] the ideas together
+[01:43:55] and then you start some mapping. It
+[01:43:57] means that you group those stickers or
+[01:44:01] the source from the la the previous
+[01:44:04] stage into categories. For example, a
+[01:44:06] few people may say, well, I love the
+[01:44:09] daily standup. It's really effective for
+[01:44:12] us. Right? If everyone is saying that
+[01:44:14] they really enjoy that, this may be
+[01:44:16] something that you wanted to do, you
+[01:44:17] wanted to continue working on. Or you
+[01:44:20] may have a few people uh said something
+[01:44:24] about like we should have more uh
+[01:44:26] meetings. Maybe now we only have one
+[01:44:29] meeting and people say maybe another
+[01:44:30] meeting will be helpful. So you group
+[01:44:33] the the stickers into categories into
+[01:44:35] themes.
+[01:44:37] But this is still silent sorting. You're
+[01:44:39] not discussing yet. And then you can use
+[01:44:43] some voting to select which cluster to
+[01:44:45] improve. So you may notice well after
+[01:44:48] you group them into classes there are a
+[01:44:51] few clusters but it's really hard to um
+[01:44:57] make changes
+[01:44:59] uh for all those clusters for your next
+[01:45:01] spring because there may be too much
+[01:45:03] changes for you for your group. So you
+[01:45:06] need a way to prioritize. Well, these
+[01:45:08] are the most important thing that we
+[01:45:11] want to focus on for the next spring.
+[01:45:13] For example, adding one more meeting. We
+[01:45:15] only have one meeting before is not
+[01:45:17] enough. We need another one, right? Or
+[01:45:19] we need to um have more like safe space
+[01:45:24] for everyone to speak up or to provide
+[01:45:26] feedback or support for each other or
+[01:45:28] whatever. So you need to pick one. So
+[01:45:30] you can use some dot voting. So you can
+[01:45:33] uh if you have some those uh the dot
+[01:45:36] stickers, you can put those dot stickers
+[01:45:37] under the classes or if you don't you
+[01:45:39] can just tick you can write use some
+[01:45:41] like colored markers and take on the
+[01:45:44] cluster that you feel like you uh wanted
+[01:45:46] to focus more on. Um so this is the
+[01:45:50] mutant mapping and the next stage will
+[01:45:53] take a little bit more time is called
+[01:45:55] generating insets. So
+[01:45:59] uh this is time for us to ask questions
+[01:46:02] to understand
+[01:46:04] more deeply like why why questions like
+[01:46:07] why uh this cluster is more most
+[01:46:10] important why isn't the current
+[01:46:12] situation good enough why are things
+[01:46:14] done this way so figure out the
+[01:46:17] underlying reason
+[01:46:20] um you can have some discussions but
+[01:46:23] again no solution stage yet so at this
+[01:46:27] stage stage is still about understanding
+[01:46:29] what's going on and why people had that
+[01:46:32] feeling or why this happened and the
+[01:46:36] next stage is actually about moving
+[01:46:39] forward. So now we have decided well
+[01:46:41] that cluster is the most important thing
+[01:46:43] that we want to focus on on next sprint.
+[01:46:46] Okay. So how do we um make improvements?
+[01:46:51] Think of experiments that might make
+[01:46:54] things better. So you may not sure
+[01:46:56] whether change from one meeting to two
+[01:46:58] meeting will be helpful. This can be an
+[01:47:01] experiment for your group to try. Maybe
+[01:47:03] it works, maybe it doesn't work, right?
+[01:47:05] And but don't worry too much about that
+[01:47:07] because you will have another sprint. In
+[01:47:09] real life, a software project may takes
+[01:47:12] one year or two years, right? You will
+[01:47:13] have a lot of springs. But although for
+[01:47:15] this project, we only have three
+[01:47:17] springs, right? So it doesn't need to be
+[01:47:19] perfect. It doesn't need to be well, we
+[01:47:21] knew it will it will help. It doesn't
+[01:47:24] have to be that like that. And uh choose
+[01:47:26] one objective as well. Limit to just one
+[01:47:29] or two improvements because one sprint
+[01:47:31] is very short. Um like aiming for too
+[01:47:34] many changes, maybe too ambitious
+[01:47:36] because everyone's busy. You also have
+[01:47:38] other things deliverables to do. So
+[01:47:40] making too many changes a time may be
+[01:47:42] like harmful because everyone may be
+[01:47:44] overwhelmed and feel like we are not
+[01:47:46] achieving any of them good enough. Just
+[01:47:48] focusing on one and someone volunteers
+[01:47:51] to help following through. So you can
+[01:47:53] nominate one who also want to deliver
+[01:47:56] the lead uh leadership skills like I
+[01:47:58] wanted to follow up on this improve this
+[01:48:00] change I can like say I wanted to
+[01:48:02] volunteer.
+[01:48:04] So these are the five steps for rituals.
+[01:48:07] Um to close the ritual we want to make
+[01:48:10] sure that everyone agrees for the
+[01:48:12] selected objective for next sprint. Uh
+[01:48:16] if no consent choose another idea or try
+[01:48:18] again next time. Okay. Um,
+[01:48:23] yeah. So, sometime you may find it
+[01:48:25] helpful to add a task to your plan.
+[01:48:27] Maybe it is something you want to add to
+[01:48:29] your issue board. I'm not sure. Maybe
+[01:48:30] this something that I really want to to
+[01:48:33] actually do it and add to your issue
+[01:48:35] board. And checking daily. Uh, maybe
+[01:48:38] daily is too much. Maybe like two to
+[01:48:40] three times per week will be good
+[01:48:41] enough. And then in your standup you can
+[01:48:44] add a section uh to reflect on how you
+[01:48:48] um work on that improvement.
+[01:48:52] Okay.
+[01:48:55] Common problems, blaming, arguing,
+[01:48:57] nothing happens after some people won't
+[01:48:59] speak up. So maybe happen uh but again
+[01:49:02] psychological safety is the most
+[01:49:05] important thing for successful groups.
+[01:49:08] Um if blaming your arguing happens uh
+[01:49:11] step behind a little bit uh and focusing
+[01:49:14] on more on like team dynamic dynamic and
+[01:49:17] psychological safety first rather than
+[01:49:19] other things.
+[01:49:21] If you need help re uh ask for help from
+[01:49:25] your project tutor and they can work as
+[01:49:27] the outside help um for if any conflicts
+[01:49:32] happens.
+[01:49:34] uh what if nothing happens after so what
+[01:49:37] if your group said we want to make this
+[01:49:40] change this will improve this it will
+[01:49:42] solve that problem but nothing happens
+[01:49:44] after there may be a few reasons for
+[01:49:46] example the ideas may be too big right
+[01:49:49] it's really hard to change in only one
+[01:49:52] spring or it's really hard to achieve so
+[01:49:54] make them smaller so you can be adaptive
+[01:49:57] you do not need to wait till the next
+[01:49:59] spring ritual if you notice well it was
+[01:50:02] too big we cannot do this for this
+[01:50:04] brand. Change it. Okay, let's be
+[01:50:07] adaptive. May we not have enough slack
+[01:50:09] in schedule like everyone's busy. We we
+[01:50:11] have so many deliverables, so many
+[01:50:13] things to do and then we are aiming to
+[01:50:16] like a lot of things. So, um team may
+[01:50:19] not feel they have a voice. So, this is
+[01:50:21] again about psychological safety. Um
+[01:50:25] yeah, some people won't speak up. So, uh
+[01:50:27] some group may have shy people. That's
+[01:50:29] okay. No problem. So uh if you don't
+[01:50:32] want to speak up like verbally you can
+[01:50:34] use other ways for example you can use
+[01:50:36] the stand up opportunity to say well I
+[01:50:39] feel like this is not working at least
+[01:50:40] for me or other ways right um or they
+[01:50:44] may feel safe again psychological safety
+[01:50:45] so you notice the the pattern I'm
+[01:50:48] mentioning about psychological safety
+[01:50:49] again and again and again because it's
+[01:50:51] very very important okay sorry I'm
+[01:50:54] talking too fast um but you have the
+[01:50:57] recording so if you are uh missing Or
+[01:51:00] you feel like any point you are not
+[01:51:02] fully understand you can always go back
+[01:51:04] to the recording just I'm cautious about
+[01:51:06] the time. Okay. Any question about
+[01:51:09] Racho?
+[01:51:13] >> Is it similar to a meeting by the end at
+[01:51:16] the end of the spring? Uh yes it happens
+[01:51:18] during a meeting. It happens at the end
+[01:51:21] of a sprint but it has more structure
+[01:51:24] and more like uh specific focus for that
+[01:51:27] meeting. It's not about planning. It's
+[01:51:29] not about catching up but more about
+[01:51:31] reflecting.
+[01:51:33] >> Yeah.
+[01:51:38] >> Yeah. So you do need notes for uh retro
+[01:51:41] as well. So it's on the
+[01:51:44] uh sprint one got as well. So I added a
+[01:51:48] new section called sprint retro. Uh so
+[01:51:51] again you need another markdown file
+[01:51:53] another opportunity for everyone to make
+[01:51:55] a merge request and create opportunities
+[01:51:57] for for everyone to make merge request.
+[01:51:59] Okay so another markdown file for the
+[01:52:02] sprint retro check out your new branch
+[01:52:06] create this file add things to this
+[01:52:08] markdown file. Again, you can use
+[01:52:11] photos,
+[01:52:12] you can use notes,
+[01:52:15] you can use So, for example, if you do
+[01:52:18] it in person, you may have some stickers
+[01:52:20] on the whiteboard. You have may have
+[01:52:22] some writings, right? Just take a photo
+[01:52:24] and attach that photo in your markdown
+[01:52:27] file. You do not need to write
+[01:52:28] everything down again, right? That would
+[01:52:31] be some repetitive work. Um, we do not
+[01:52:34] need that. Um and then you may have like
+[01:52:37] who facilitate that how long it took
+[01:52:39] just very briefly write a name like
+[01:52:41] facilitator dot dot name how long it
+[01:52:44] took like timing dot dot and then see so
+[01:52:47] very quickly then uh data get what went
+[01:52:49] well what challenges what to do less or
+[01:52:52] more so these are captured on a
+[01:52:53] whiteboard take a picture attach it
+[01:52:55] that's it insets
+[01:52:59] so this may also be captured on the
+[01:53:01] whiteboard uh if you do not if you
+[01:53:03] didn't write that on a wet board. You
+[01:53:05] may also have someone taking notes,
+[01:53:07] right? So you can also put that notes as
+[01:53:09] part of your sprint rit or doc. And then
+[01:53:12] this is important. So what do you plan
+[01:53:15] to change,
+[01:53:16] right? So what are you going to improve
+[01:53:19] objectives for a team to commit it to?
+[01:53:22] Uh who volunteer to help follow through?
+[01:53:24] How you track the progress? So this is
+[01:53:26] very important. Make sure that you have
+[01:53:28] that down on your markdown file.
+[01:53:31] Okay. So we I have six minute. I I'll
+[01:53:35] keep it short. So for user stories, uh I
+[01:53:38] got some feedback about the marking
+[01:53:40] criteria was not clearly clear enough.
+[01:53:43] So I split that into bullet points. So
+[01:53:46] in the past they were like one big
+[01:53:47] sentence. So now I split them up into
+[01:53:49] some bullet points for the mark uh
+[01:53:52] marking criteria for user stories. uh
+[01:53:54] and also this spring ritual and teamwork
+[01:53:57] evaluation as some bullet points uh in
+[01:54:00] the marking criteria as well. So I hope
+[01:54:03] that's easier for everyone to read. Um
+[01:54:06] so talking about teamwork evaluation,
+[01:54:08] teamwork evaluation will happen after
+[01:54:11] the sprint is due. So it will start from
+[01:54:15] week four Monday after it's due. It will
+[01:54:18] open for I'll try to open it for three
+[01:54:21] days. Uh it will be on Mudo. So I will
+[01:54:24] send a link for that teamwork evaluation
+[01:54:27] next Monday. So not this week because it
+[01:54:30] will happen next week. And teamwork
+[01:54:32] evaluation will ask a few questions uh
+[01:54:36] like how's everyone's participation
+[01:54:38] depend.
+[01:54:39] So this information so your impro
+[01:54:42] submission for teamwork evaluation is
+[01:54:44] confidential. So your group member will
+[01:54:47] not be able to see it. only the tutors
+[01:54:50] and myself can see it and will not using
+[01:54:53] it for marking purposes. So it will not
+[01:54:56] have any impact on other parts of your
+[01:54:58] mark. It's only to be used for us to
+[01:55:02] know how your group is doing to help the
+[01:55:04] tutors to better support your group to
+[01:55:07] know whether anyone is falling behind
+[01:55:09] anyone is feeling like they are not
+[01:55:11] being treated well or they are feeling
+[01:55:13] like I'm being a superhero for that
+[01:55:15] group and like we are not contributing
+[01:55:17] equally or whatever. So just for the
+[01:55:19] tutors to know how your group is doing
+[01:55:23] and then to provide support for your
+[01:55:25] group.
+[01:55:26] Okay. But this is required to sub to
+[01:55:29] submit. So you need to submit to get the
+[01:55:31] mark for uh
+[01:55:35] here. So so this together takes five
+[01:55:39] mark 5% of the course mark the spring
+[01:55:42] ritual and teamwork evaluation. So you
+[01:55:44] make sure that you submit that teamwork
+[01:55:46] evaluation and your group if your group
+[01:55:48] member is not submitting teamwork
+[01:55:50] evaluation it will not impact your mark
+[01:55:52] for that 5%. they only have impact on
+[01:55:55] their own
+[01:55:56] uh yeah only they're 5% but I put it as
+[01:56:00] together and the group marks because
+[01:56:03] it's about the groups that's it okay any
+[01:56:06] question sorry about talking so fast I'm
+[01:56:09] so sorry about that I'll slow down next
+[01:56:11] lecture it's just timing okay question
+[01:56:15] any question on
+[01:56:19] okay no no okay thank you everyone good
+[01:56:23] night. Thank you. Thank you.
+[01:56:48] >> Thank you. Thank you.

@@ -1,0 +1,1715 @@
+[00:02:31] Okay.
+[00:02:40] Testing online. Can you hear me?
+[00:02:43] Testing. Testing.
+[00:02:47] Testing.
+[00:02:55] Testing. Testing.
+[00:03:02] Hello. Hello. Hello. Testing. Online.
+[00:03:05] Online. Can you hear me?
+[00:03:21] Testing online. Online online. Can you
+[00:03:24] hear me?
+[00:03:31] Okay, cool. Great. Thank you.
+[00:03:35] Perfect.
+[00:03:39] Good. Okay.
+[00:03:46] All righty. So, um today's lecture
+[00:03:51] should be quite relaxing like not very
+[00:03:54] hard although quite important but I
+[00:03:57] think it's pretty straightforward not
+[00:03:59] very challenging. Um, and I'll hope to
+[00:04:04] finish not in a rush but like early
+[00:04:08] today so we can give some time back to
+[00:04:11] you. Um, if you can work on your
+[00:04:14] project, work on your other assignments.
+[00:04:16] Um, yeah. So, welcome to week five. Is
+[00:04:21] it a busy week for everyone?
+[00:04:24] Yeah. Oh, really? Uh, do you have any
+[00:04:27] assignments due this week?
+[00:04:30] Oh.
+[00:04:31] Good luck. [laughter]
+[00:04:34] Yeah. Uh the good news is for this
+[00:04:36] course for 980 is not very challenging
+[00:04:39] week this week. The content this week is
+[00:04:42] pretty easy. Okay. Cool. Amazing. So um
+[00:04:47] today
+[00:04:49] so this course is called project
+[00:04:50] management, right? Software project
+[00:04:52] management. Um but we talk a lot so far
+[00:04:56] we talk a lot about agile project
+[00:04:58] management, right? So everyone on the
+[00:05:01] team makes an very important role to uh
+[00:05:05] manage the project together. Uh but
+[00:05:07] there's like other than the general team
+[00:05:10] members, there's also a role called
+[00:05:12] manager, right? So if you go to
+[00:05:14] industry, if you work on an industry
+[00:05:16] project, it will be a manager or if you
+[00:05:18] work on a startup, there will be like
+[00:05:20] founder, co-founder who manage the
+[00:05:22] project. So today's first lecture topic
+[00:05:25] will be uh focusing on the role of that
+[00:05:28] manager. So if you go to industry you
+[00:05:30] get a job of like a manager or if you
+[00:05:34] start your own startup you are managing
+[00:05:36] the project as a leader uh what should
+[00:05:40] you do or what can you do to make the
+[00:05:42] project agile uh bring value to the
+[00:05:45] customer efficient adaptable to uh like
+[00:05:49] changes. Okay cool. Um so let's start
+[00:05:54] with the story. So now you are a manager
+[00:05:58] of an IGL software project
+[00:06:02] and you checking with your group maybe
+[00:06:05] weekly or bi-weekly and then ask them
+[00:06:09] for demos. They show you what they have
+[00:06:12] done, maybe some new stories, deliver
+[00:06:15] some new features. Uh everything seems
+[00:06:18] okay. However, as time goes, you notice
+[00:06:23] that there are some bugs, more and more
+[00:06:26] bugs, right? Although the features are
+[00:06:28] delivered to you, but you get more and
+[00:06:30] more bugs. And uh when you deploy the
+[00:06:33] project to the end users, more and more
+[00:06:36] problems arised,
+[00:06:38] right? Uh what should you do in that
+[00:06:41] case?
+[00:06:47] What can you do?
+[00:06:51] You are the manager now.
+[00:06:54] Okay. But your project is delivering new
+[00:06:57] feature. Everything like at beginning
+[00:06:59] looks good. But like uh gradually you
+[00:07:02] starting to see the software project
+[00:07:03] becoming more and more buggy. Like more
+[00:07:05] and more um defects, more and more
+[00:07:09] issues came to you. What should you do?
+[00:07:14] Like how can you help the the team the
+[00:07:16] project getting better?
+[00:07:20] >> Sorry.
+[00:07:23] >> Have a like tracking system. Yep. Um
+[00:07:27] yeah. So what kind of information would
+[00:07:28] you like to track?
+[00:07:31] >> Performance.
+[00:07:32] >> Performance. Yeah. Like metrics.
+[00:07:35] >> Okay. Cool. So that's a very common
+[00:07:39] direction. A lot of uh managers do that.
+[00:07:42] Uh, so can you be a little bit more
+[00:07:44] specific? Like what would you do to help
+[00:07:47] the team success?
+[00:07:50] >> Huh?
+[00:07:52] >> Code reviews. Oh, that sounds really
+[00:07:54] good. What else?
+[00:08:00] [sighs]
+[00:08:01] Okay. So, um, this manager decided to
+[00:08:05] add some more code reviews as well as
+[00:08:07] more metrics. For example, the problem
+[00:08:10] that they had earlier was uh like
+[00:08:13] growing number of bugs although the
+[00:08:15] stories are delivered right. So they
+[00:08:18] want to see uh whether there's enough
+[00:08:20] number of tests whether all the features
+[00:08:23] are tested thoroughly right because
+[00:08:25] there are bugs like right we can add
+[00:08:28] more test add more metrics on the test
+[00:08:31] and then this is the decision made by
+[00:08:33] the manager okay so a few weeks passed
+[00:08:37] you see wow um
+[00:08:41] almost all of the features are covered
+[00:08:43] by test now but you saw a large number
+[00:08:46] of types Now, however, you got another
+[00:08:51] issue.
+[00:08:53] Um, although there are more test, your
+[00:08:55] software is still being buggy, right?
+[00:08:58] There's still a lot of bugs.
+[00:09:01] Um, and test is because the number of
+[00:09:04] tests grow a lot. The test also becomes
+[00:09:06] really slow,
+[00:09:10] right? Why is that? What can you do
+[00:09:14] next?
+[00:09:18] This is very common like now you're
+[00:09:20] starting a startup a software startup
+[00:09:23] and now you are facing this issue.
+[00:09:26] How can you solve it?
+[00:09:35] Maybe that's because um you are asking
+[00:09:39] for those numbers like show me how many
+[00:09:41] tests you've got. Show me if you have
+[00:09:44] covered all your functions with the
+[00:09:46] test. This was what you asked for,
+[00:09:49] right? So the team now is driven by that
+[00:09:53] matrix and starting to add a lot of
+[00:09:56] trivial test and their goal is to make
+[00:09:59] sure that every line of the code is
+[00:10:02] covered by a test
+[00:10:04] rather than having the go of like the
+[00:10:08] software project being stable, safe,
+[00:10:11] everything works as intended. So their
+[00:10:14] go changed shifted because of the
+[00:10:18] direction of the manager.
+[00:10:21] So this is very common. So how can we
+[00:10:24] balance that? How can we address this
+[00:10:26] issue? Like at the beginning there's no
+[00:10:28] metric, right? And then we got a lot of
+[00:10:30] bugs. Later on we add metrics but still
+[00:10:33] a lot of bugs. Like we are not solving
+[00:10:35] the fundamental issue.
+[00:10:37] Okay. So this is what we are going to
+[00:10:39] talk about today. uh we are talking
+[00:10:42] about the role of managers and how to
+[00:10:44] manage software projects with the
+[00:10:46] example of coverage report as the
+[00:10:49] metric. This is an example. Okay, cool.
+[00:10:52] So um to summarize the story that we
+[00:10:56] just talked about. So managers need to
+[00:10:58] know whether teams are working
+[00:11:00] efficiently and how to help them succeed
+[00:11:02] like where's the issue how to help them
+[00:11:04] succeed. um reports like metrics such as
+[00:11:08] coverage report are great example of how
+[00:11:11] metrics can help or harm depending on
+[00:11:14] how they are used. Okay, so let's get
+[00:11:18] started. So this is the story that we
+[00:11:20] just mentioned. Okay. So, um in 1990
+[00:11:25] something I can't remember exactly but
+[00:11:28] this person they um did a research uh
+[00:11:32] with a lot of software uh companies and
+[00:11:35] they realized that the majority of the
+[00:11:38] software companies they are either using
+[00:11:40] theory X or theory Y. So theory X means
+[00:11:45] that people they assume that people
+[00:11:48] avoid work like they just wanted to get
+[00:11:50] money get a job and they don't enjoy
+[00:11:53] their work. So this is their assumption
+[00:11:55] and they try to the managers try to
+[00:11:58] control the progress the performance
+[00:12:01] like the success with some extrinsic
+[00:12:05] incentives. For example, if you get all
+[00:12:08] of your functions covered back test, I
+[00:12:11] award you with like money or promotion
+[00:12:14] or whatever. So there some like
+[00:12:16] extrinsic incentives and they add a lot
+[00:12:19] of measurements with like metrics,
+[00:12:21] reports, documentations and stuff. And
+[00:12:24] with theory why the assumption is that
+[00:12:28] people seek responsibility like they
+[00:12:30] hope the project succeed right they aim
+[00:12:34] for success.
+[00:12:36] Um so
+[00:12:39] what is in this uh what is important
+[00:12:41] here is like we provide them with the
+[00:12:43] contact for example learning environment
+[00:12:46] uh support um and then people work with
+[00:12:49] autonomy and intrinsic and giving them
+[00:12:52] intrinsic motivation. See well see how
+[00:12:55] many users are using what you have done
+[00:12:57] like are actually using your code. Well,
+[00:13:00] IGL assumes theorywide like assumes
+[00:13:03] people having this kind of intrinsic
+[00:13:05] motivation or managers try to motivate
+[00:13:09] the uh the group the members with
+[00:13:12] intrinsic motivation like everyone wants
+[00:13:14] to succeed. So this is what assumes.
+[00:13:19] So um matrix can be useful. This is why
+[00:13:23] a lot of software company they use
+[00:13:25] metrics and metrics can give people
+[00:13:27] feedback. like for example
+[00:13:30] um how many commits you have made. It's
+[00:13:34] a way of demonstrating how much work you
+[00:13:37] have done
+[00:13:39] in some extent like to some extent or uh
+[00:13:42] other metrics like how many tests you
+[00:13:45] have got. It can shows how thorough your
+[00:13:48] test to some extent. Other metrics maybe
+[00:13:52] um how many lines of your code, how many
+[00:13:55] lines of code you have. So it shows
+[00:13:56] something but not everything right. Um
+[00:14:02] yeah
+[00:14:05] cool. So it can be useful sometime but
+[00:14:09] only uh if it's used carefully. For
+[00:14:12] example when the number becomes the
+[00:14:14] goal. Example, if I say I want everyone
+[00:14:17] of you write 100s of lines of code in
+[00:14:22] next two days, right? Then what we got?
+[00:14:27] Some lines of your code, some lines of
+[00:14:29] code that's of not good quality. It's
+[00:14:32] not working well, right? So um so the
+[00:14:38] healthy use of this kind of metric is
+[00:14:40] team use metric to inspect and improve
+[00:14:43] their own work system
+[00:14:46] right for example test uh you see
+[00:14:49] whether the test are cover all the
+[00:14:51] functions to make sure that uh there's
+[00:14:53] no functions that are not covered by
+[00:14:55] test and there are some bugs in that
+[00:14:58] function right so this is like good
+[00:15:01] intention or good use of metric and
+[00:15:04] management use them as a conversation
+[00:15:05] starter not a scoreboard. So you
+[00:15:08] shouldn't use that as like this is the
+[00:15:10] goal for you to get promotion but say
+[00:15:13] well um is there so as manager you can
+[00:15:16] say is there any function that's not
+[00:15:18] covered by test yet like as a start of
+[00:15:22] the conversation and then you can have
+[00:15:24] discussions with the team like um why
+[00:15:27] that wasn't covered yet is it because
+[00:15:29] like I give you too short time like you
+[00:15:32] need like more time to work on it
+[00:15:34] because of time or is it because it's a
+[00:15:37] blocker for you. You don't know how to
+[00:15:39] add a proper test for that function or
+[00:15:42] is it because you feel like that
+[00:15:43] function doesn't need a proper test yet
+[00:15:46] or what what is it? So you can use that
+[00:15:48] kind of metric as a starter of the
+[00:15:50] conversation but not the goal or like
+[00:15:53] leaderboard or something.
+[00:15:55] Okay. So now let's have a look at this
+[00:15:57] example. So we were talking about test
+[00:16:00] and uh coverage. So we use coverage
+[00:16:04] reports as a concrete example of here
+[00:16:07] like helpful engineering feedback and a
+[00:16:09] metric that's easy to miss. This is very
+[00:16:11] commonly misused by a lot of companies.
+[00:16:14] Um
+[00:16:16] yeah so coverage is a measure of how
+[00:16:18] thorough tests are. So now since last
+[00:16:22] week we talked about tests. So, how do
+[00:16:25] you know whether you have enough test or
+[00:16:27] not? Or how do you know
+[00:16:31] um whether you need to add more text for
+[00:16:34] here or there? Like how how do you know
+[00:16:37] that so far?
+[00:16:49] >> Depends on the number of features. Can
+[00:16:52] you expand expand that a little bit?
+[00:17:00] >> Uhhuh. So if we have more features, we
+[00:17:03] will need to have more test to cover it.
+[00:17:05] >> Yeah.
+[00:17:06] >> Yeah. Yeah. Yeah. That's true. Um
+[00:17:10] Yeah. So how do you know that um if you
+[00:17:15] need to have more test for anything?
+[00:17:23] So you may do it manually
+[00:17:26] right you can check you can have your
+[00:17:28] test file here have your implementation
+[00:17:31] file here and see oh um this feature
+[00:17:36] here this function is covered by this
+[00:17:39] test or this test cover that function
+[00:17:42] right uh but can we have some numbers or
+[00:17:46] metrics that we can use like for example
+[00:17:49] uh When we talk about pipeline, right,
+[00:17:51] there are some tools that can help with
+[00:17:53] automating a lot of things. When we use
+[00:17:56] g help, it helps us with like
+[00:17:58] collaborating with software projects,
+[00:18:01] right? For like coverage of test is
+[00:18:04] there a tool that can help us with the
+[00:18:06] process. So we don't need to do it
+[00:18:08] manually, right? So it is called uh test
+[00:18:11] coverage and the other one is called
+[00:18:14] coverage. So test coverage counts how
+[00:18:17] much of the feature set is covered with
+[00:18:19] test like it's often manually like human
+[00:18:21] judge. Well this is a feature about
+[00:18:23] adding a task and there's a test about
+[00:18:26] like adding a task. So this is manual
+[00:18:28] test manual check right well code
+[00:18:31] coverage can be computed and quantified
+[00:18:34] with a number like percentage.
+[00:18:37] It counts how much code is ex executed
+[00:18:41] during test. So for example uh let me
+[00:18:45] see this was the example that we used
+[00:18:50] last
+[00:18:52] week.
+[00:18:54] So
+[00:18:57] this was our back end right so you can
+[00:19:01] see there are a few stories here like
+[00:19:03] displaying
+[00:19:05] the uh the task adding task and deleting
+[00:19:08] task and here's our test suit. So what
+[00:19:12] we had was
+[00:19:15] uh we tested the showing task whe it
+[00:19:18] shows properly. Uh we also tested what
+[00:19:22] is it?
+[00:19:24] Uh loads the task shows initial task.
+[00:19:29] Okay. So this was the test that we had
+[00:19:31] from last week and all of these are
+[00:19:34] about showing task. So it's like from
+[00:19:37] menu checking we can see well adding and
+[00:19:40] deleting has not been checked with our
+[00:19:43] test yet right. So you know what
+[00:19:46] something is missing.
+[00:19:49] So this is called uh test coverage with
+[00:19:52] human judgment like see uh whether these
+[00:19:55] features or stories are covered by test.
+[00:19:57] Well code coverage is the focus of
+[00:20:00] today. Um it measures as a percentage of
+[00:20:04] statements or lines that executed. So
+[00:20:07] for example here
+[00:20:09] um so you can
+[00:20:13] because this code is pretty like short
+[00:20:15] pretty simple so we can see uh what is
+[00:20:18] tested here what is run during this
+[00:20:20] test. So we
+[00:20:23] had uh where is it? Respond client get
+[00:20:30] a rot
+[00:20:33] uh
+[00:20:35] at task indexed
+[00:20:37] where is indexed
+[00:20:40] client get assert response data.
+[00:20:46] So um those should be oh sorry here
+[00:20:55] uh
+[00:20:57] index load.
+[00:21:00] Yes. So those are the lines that are
+[00:21:02] clearly not covered by our test. So when
+[00:21:05] we run our test so those lines or those
+[00:21:08] statements are not covered by our test.
+[00:21:11] Right? So um
+[00:21:14] it's useful to highlight what did not
+[00:21:16] execute. So let's use our project from
+[00:21:20] last week as an example. So the tool
+[00:21:22] that we can use is from piest. So last
+[00:21:26] week we mentioned how to add a test, how
+[00:21:29] to write test uh using piest, right? But
+[00:21:32] there's more that pest can do. So piest
+[00:21:34] can also help with the code coverage
+[00:21:37] like how um which line of code in the
+[00:21:40] a.py P like py has been coveraged and
+[00:21:43] the way to install is by using pi uh pip
+[00:21:46] install pi test- cov that means coverage
+[00:21:51] but if you are using max system that
+[00:21:52] should be pips rate right so let's have
+[00:21:55] a try
+[00:21:57] copy this line from the slice
+[00:22:00] open terminal where's my terminal
+[00:22:04] here's my terminal
+[00:22:07] very messy I'll clear it okay copy and
+[00:22:10] pass I should
+[00:22:11] pip three for me because I'm using Mac
+[00:22:14] system. Okay, since I've already
+[00:22:16] installed that before earlier, so it's
+[00:22:19] pretty fast for you may take a few
+[00:22:21] seconds. Um and then what you can do is
+[00:22:25] you can also add this um pep test
+[00:22:27] coverage to the requirements.txt.
+[00:22:30] So that will be helpful especially when
+[00:22:32] you are using pipeline, right? Remember
+[00:22:34] that in the pipeline the uh g pipeline
+[00:22:38] you have like before script you install
+[00:22:41] everything from the requirement to make
+[00:22:44] sure that the runner has all the
+[00:22:46] packages installed like everything
+[00:22:47] required is installed in the rena. So it
+[00:22:50] is highly recommended to add pi test
+[00:22:53] coverage to your requirement.txt txt as
+[00:22:55] well so that um you can like in later
+[00:22:59] you can add the coverage uh to your
+[00:23:02] pipeline and then run pad test coverage
+[00:23:05] this one I'll copy it so that you can
+[00:23:08] get a coverage report in the terminal so
+[00:23:12] I copied it clear again so messy I pass
+[00:23:16] it so you can see okay perfect so now
+[00:23:19] you can see that this is an example of
+[00:23:22] the coverage report so you do not need
+[00:23:25] to manually check the like test coverage
+[00:23:28] or code coverage of your project. It
+[00:23:30] helps you with that. So now you can see
+[00:23:33] that the the files that were checked are
+[00:23:36] uh apy confess py test and those test f
+[00:23:41] and for this one there are few
+[00:23:45] statements a few lines that are missing
+[00:23:48] from the test. It means that when you
+[00:23:50] run the test, those lines of code are
+[00:23:53] not executed.
+[00:23:55] So it means that your test did not cover
+[00:23:58] those lines. So let's have a look at
+[00:24:00] those. So those are lines 18 to 21.
+[00:24:05] So 18 to 21. So those are the ones from
+[00:24:11] the uh the adding task rods, right? Uh
+[00:24:15] the other part was 25 to 27. 25 to 27
+[00:24:20] was about deleting yet we didn't have
+[00:24:22] any text for deleting
+[00:24:25] right so it's very straightforward very
+[00:24:27] supportive very powerful for us to get
+[00:24:30] an understanding about the code coverage
+[00:24:34] and then we'll know okay I need to add a
+[00:24:37] test here I forgot to have that earlier
+[00:24:39] but I'll need to have that why although
+[00:24:41] we are not following TDD here like for
+[00:24:43] TDD we said we need to have test first
+[00:24:45] and then writing the implementation
+[00:24:47] later, right? In this case, although we
+[00:24:51] already have the implementation, we
+[00:24:53] should still adding the test back. The
+[00:24:56] reason is because later on you may do
+[00:24:58] some refactoring to your code. You may
+[00:25:00] make some changes to your code,
+[00:25:03] right? And when when you make changes to
+[00:25:05] your code, how do you know your changes
+[00:25:07] is not your changes to the code is not
+[00:25:09] changing the behavior of the code? It's
+[00:25:12] by the test. When all the test pass, you
+[00:25:14] know, okay, the behavior is still the
+[00:25:16] same. it still works as intended,
+[00:25:20] right? So, it should still add the text
+[00:25:22] back.
+[00:25:24] Okay. But you may say, well, although I
+[00:25:28] have got this very powerful report, I
+[00:25:30] want to an even more convenient way of
+[00:25:34] looking at this data. And yes, there's
+[00:25:37] another way I'll show you. See how
+[00:25:39] powerful it is. I'll copy this one. So,
+[00:25:43] it helps you generate an HTML report.
+[00:25:46] You can view that report from HTML file.
+[00:25:49] It's even more powerful. I'll just copy
+[00:25:52] it. I'll clear and paste.
+[00:25:56] Okay. So, it tells you that coverage
+[00:25:59] HTML written to the directory of HTML
+[00:26:02] coverage which is here. And in this is a
+[00:26:07] new folder just created with this
+[00:26:12] command. So in this new folder there is
+[00:26:17] a file called index.html
+[00:26:20] and you can open it. Uh the way you open
+[00:26:23] it depends on um the code editor that
+[00:26:27] you use but for me I'm using uh visual
+[00:26:30] code studio. So I'll just open it here.
+[00:26:35] You can see
+[00:26:37] it's a better way to
+[00:26:41] see this report.
+[00:26:43] Right? And uh you can also click on it.
+[00:26:46] For example, you see well my major file
+[00:26:50] coverage is pretty low. Right? Only 58%
+[00:26:54] means that almost half of your of my
+[00:26:56] code was not covered by uh test yet. So
+[00:26:59] I can click on it and see more details
+[00:27:02] here. Very helpful. Right. So the green
+[00:27:07] ones are the ones that were run during
+[00:27:10] the test. means that those lines of a
+[00:27:13] code are covered are already covered by
+[00:27:16] your test and those
+[00:27:19] those uh eight lines that are in right
+[00:27:23] are missing from your test. So you need
+[00:27:26] to add test potentially not maybe it's
+[00:27:30] necessary maybe it's not depends on your
+[00:27:32] own like judgment you do not need to aim
+[00:27:35] for like 100%
+[00:27:38] right it's very unnecessary there maybe
+[00:27:40] just some lines of code that's not
+[00:27:44] needed for any test you will see that
+[00:27:46] during your implementation
+[00:27:49] so this is why like we say um sometime
+[00:27:53] it's not necessary to use metrics as the
+[00:27:57] only goal right but it can the metrics
+[00:28:00] can be very helpful. So this is the
+[00:28:01] metric right like 58% the green lines
+[00:28:05] the red lines this is metric it's very
+[00:28:09] helpful for you right if you use it
+[00:28:12] properly.
+[00:28:14] Cool. So you can also go back to index
+[00:28:18] and have a look at the other files
+[00:28:21] right it also tells you the total
+[00:28:24] coverage is 79%.
+[00:28:28] So let's have a look at these
+[00:28:31] statements. So what's your understanding
+[00:28:34] of statements?
+[00:28:37] So what what is this one?
+[00:28:41] What does statements mean?
+[00:28:48] So for example, let me write something
+[00:28:51] here.
+[00:28:52] Uh
+[00:28:55] for example, I have um
+[00:29:02] so let's have a look. Is this one
+[00:29:04] statements? One statement or one, two,
+[00:29:07] three, four, five statements.
+[00:29:11] One statement. Yes. So one statement
+[00:29:14] means one meaningful
+[00:29:18] uh block of code. So you can have for
+[00:29:22] example a = 1.
+[00:29:27] All right. So this is one statement
+[00:29:31] and this is also
+[00:29:33] one statement or you may have for
+[00:29:36] example you have um
+[00:29:41] can I find another example? So you may
+[00:29:45] have uh you put here
+[00:29:50] you put them together
+[00:29:52] right? Is it one statement or two
+[00:29:55] statement?
+[00:30:01] Who thinks this is one statement?
+[00:30:07] Who think this is one statement?
+[00:30:11] Who thinks this is two statements?
+[00:30:17] This is two statements.
+[00:30:19] You are doing two different things here.
+[00:30:24] Okay. So this is two statements.
+[00:30:28] So this is uh how you can understand the
+[00:30:31] coverage report from here.
+[00:30:35] Uh other than files this coverage report
+[00:30:38] you can also use like functions. You can
+[00:30:41] have um for example in this file
+[00:30:46] this function
+[00:30:48] there's no function what is it
+[00:30:52] uh
+[00:30:55] and some more obvious ones for example
+[00:30:57] delete task is a function
+[00:31:00] right and there are three state
+[00:31:02] statements in delete task function and
+[00:31:06] all the three statements are missing
+[00:31:09] with text has no test.
+[00:31:14] I love this HTML report. It's so
+[00:31:17] powerful, so helpful. Any questions so
+[00:31:19] far about how to get this coverage
+[00:31:21] report from both terminal and the HTML
+[00:31:24] file?
+[00:31:28] Any question about getting the report
+[00:31:31] or any question about using this report
+[00:31:35] or understanding this report?
+[00:31:40] Now think about how you can add this
+[00:31:42] coverage report to your own project
+[00:31:46] and how you are going to use the
+[00:31:48] coverage report to improve your project.
+[00:32:00] Now do you have any question?
+[00:32:04] Oh good. Okay.
+[00:32:06] >> Yeah.
+[00:32:10] every
+[00:32:23] >> uh so you were saying that in the pip
+[00:32:27] plan add a coverage report for every
+[00:32:30] feature.
+[00:32:32] Um,
+[00:32:34] I don't think that's possible to add a
+[00:32:36] coverage report for every feature. Oh,
+[00:32:38] you mean for every branch or every
+[00:32:40] feature?
+[00:32:46] >> Every feature.
+[00:33:00] Um,
+[00:33:04] great question.
+[00:33:06] Uh, to be honest, I don't know how to do
+[00:33:09] it. Like adding a coverage report for
+[00:33:12] each feature. um it may or may not be
+[00:33:16] possible.
+[00:33:17] So maybe you can do some research and
+[00:33:21] see whether it's possible and let us
+[00:33:23] know next lecture. We we we'd love to
+[00:33:25] know that. Yeah. But as a minimum what
+[00:33:28] you can do is you can get a coverage
+[00:33:31] report for uh your like the code on that
+[00:33:34] specific branch. Uh so normally what we
+[00:33:37] do is having a branch for uh
+[00:33:40] implementing a new feature
+[00:33:43] right so you can get the coverage report
+[00:33:46] for that branch
+[00:33:48] and then you can get an idea of the
+[00:33:50] coverage for that branch or that
+[00:33:52] feature. Um
+[00:33:55] cool any other question? No
+[00:34:03] >> sorry can you functions and classes at
+[00:34:06] the top.
+[00:34:07] >> What are the functions and classes at
+[00:34:09] the top? Okay, so let's have a look at
+[00:34:12] the function. I made it a little bit
+[00:34:13] larger.
+[00:34:15] So, uh I think a good example is this
+[00:34:18] delete and add task functions. So, you
+[00:34:21] can so in files you only have a list of
+[00:34:24] all the files and all the statements and
+[00:34:27] coverage together,
+[00:34:29] right? So uh in this app file there are
+[00:34:33] a lot of different functions. For
+[00:34:35] example, we had the
+[00:34:39] uh this at task function, we had this
+[00:34:41] delete task function, right? So you may
+[00:34:44] be interested in getting a coverage
+[00:34:47] report for each function. Like for this
+[00:34:50] function is pretty small but sometime
+[00:34:53] you may have larger functions or you may
+[00:34:55] have a lot of functions. So you wanted
+[00:34:57] to get an understanding about like um
+[00:35:02] is there any specific functions that
+[00:35:04] missing from test right? So what you can
+[00:35:07] do is you can click on functions here
+[00:35:09] I'll make it a bit larger again and then
+[00:35:11] f the function for example this add task
+[00:35:13] function in this app file you can see
+[00:35:15] that there are in total four statements
+[00:35:18] and four statements are missing from
+[00:35:20] tests.
+[00:35:24] Yep.
+[00:35:25] Cool. online online. If you have any
+[00:35:28] question, feel free to let me know. I'm
+[00:35:30] monitoring the chat as well.
+[00:35:33] Okay, let's get back to here.
+[00:35:38] Uh, you can get the instructions about
+[00:35:40] how to get the coverage report from the
+[00:35:42] slice. Uh, the only thing to note is
+[00:35:45] that if you are using a Mac system, it
+[00:35:48] should have a three here.
+[00:35:51] Cool. Uh, reading the coverage table.
+[00:35:54] We've already talked about that. So here
+[00:35:57] are definitions about statements miss
+[00:36:00] cover and missing.
+[00:36:03] So if you forget anything you can always
+[00:36:05] go back to the slides and double check.
+[00:36:10] Okay. Um the classic coverage mandate.
+[00:36:15] So you may notice that some
+[00:36:18] um software
+[00:36:22] startups or project they ask for like
+[00:36:26] minimum 90% coverage. Um I'm not saying
+[00:36:30] that it's wrong. uh it's just you need
+[00:36:33] to use that metrics carefully so that
+[00:36:36] people in the project in the team are
+[00:36:39] not just aiming for the number but
+[00:36:41] aiming for a good coverage of the test.
+[00:36:45] Um yeah so cheap test is not helpful but
+[00:36:50] harmful.
+[00:36:56] Cool.
+[00:36:57] We've already talked about that.
+[00:37:01] Yeah. So, it's useful when it's used for
+[00:37:05] like finding risky gaps that are missing
+[00:37:07] from test or getting where to add text
+[00:37:10] next. Uh but it's risky when use as KPI
+[00:37:13] or target or performance evaluation.
+[00:37:17] Um yeah, I think we've already so talked
+[00:37:21] about this how to use it safely.
+[00:37:27] Um
+[00:37:29] yeah, so this is a good thing. uh an
+[00:37:31] important thing to know. So when you
+[00:37:33] have some logic such as if else if else.
+[00:37:39] So it's very important that your test
+[00:37:41] coverage all scenarios.
+[00:37:44] So uh it's very common that when you
+[00:37:47] write the test you only cover one
+[00:37:49] scenario when everything's happy like
+[00:37:52] the happy rots, right? When everything
+[00:37:55] works well. However, there are many age
+[00:37:58] cases that you also need to consider.
+[00:38:00] You also need to consider what if the
+[00:38:03] user didn't use the product as it is
+[00:38:08] designed,
+[00:38:10] right? For example, uh the example that
+[00:38:13] we showed last week, when the user
+[00:38:15] putting nothing in the block and then
+[00:38:18] hit on at task, what should happen?
+[00:38:22] Right? So, that should be carefully
+[00:38:24] considered as well. Um although like
+[00:38:26] when you design your software
+[00:38:29] applications you may have an intended
+[00:38:33] way of people like how to use it but the
+[00:38:35] users may not use it as you designed for
+[00:38:38] it right people may use it like weirdly
+[00:38:41] some sometimes. So you also need to make
+[00:38:43] sure that you have proper consideration
+[00:38:45] of those age cases uh with your test and
+[00:38:48] also your implementation. So this is
+[00:38:50] very important to note.
+[00:38:52] Um,
+[00:38:54] cool cool cool cool cool.
+[00:39:03] Yep. Okay. So now the question uh thanks
+[00:39:06] for the feedback through the feedback
+[00:39:08] form. I have one student mentioned that
+[00:39:11] uh AI is changing a lot these days uh
+[00:39:14] especially in the world of engineering.
+[00:39:16] You may also have heard a news from like
+[00:39:18] very sad news from last year that they
+[00:39:20] cut a lot of their employees last week.
+[00:39:23] So I think it's very important that we
+[00:39:25] know those trend we learn about how AI
+[00:39:28] can be helpful and sometime can be
+[00:39:29] harmful. So like use it properly. Um
+[00:39:33] yeah so now um in terms of AI coverage
+[00:39:38] in practice so AI can be helpful in a
+[00:39:43] way that nowadays writing test is much
+[00:39:46] faster than the old days. Um
+[00:39:53] and AI can also help you interpret your
+[00:39:56] coverage report. Uh for example, if
+[00:39:59] there's anything that you are unsure
+[00:40:00] from the coverage report, maybe you can
+[00:40:02] check with AI. Um
+[00:40:05] yeah, but it's very harmful if you are
+[00:40:10] like just using AI blindly with like
+[00:40:13] test because I in my previous course
+[00:40:16] I've seen students using AI to write a
+[00:40:20] lot of cheap tests
+[00:40:22] and those tests only
+[00:40:25] improves the coverage metrics that you
+[00:40:28] are seeing the number growing
+[00:40:31] but it's not testing ing the project
+[00:40:35] properly and in the first few days or
+[00:40:38] even weeks everything should be okay.
+[00:40:42] But when you are making more and more
+[00:40:44] changes, adding more and more stories to
+[00:40:46] it
+[00:40:48] um
+[00:40:49] like because your test is not testing
+[00:40:52] properly your projects and when you make
+[00:40:55] changes and something's broken, your
+[00:40:58] test is not working as it should be like
+[00:41:01] giving you like right
+[00:41:04] um notes or something like in the long
+[00:41:07] run it will be more and more um risky.
+[00:41:13] Cool.
+[00:41:18] Yep.
+[00:41:20] Uh it's becoming easier to create
+[00:41:22] shallow low value test just to move the
+[00:41:24] number. So be mindful about the risk.
+[00:41:29] Um
+[00:41:31] however like in terms of leadership in
+[00:41:34] terms of ma uh managers using um metrics
+[00:41:38] so AI can be helpful like
+[00:41:41] for some reports for example
+[00:41:44] uh now you have those uh while you are
+[00:41:47] doing a project you have those commit
+[00:41:49] messages right you have those messages
+[00:41:52] for the merge requests so uh at the end
+[00:41:54] of a sprint or at iteration normally the
+[00:41:57] managers will need to write a report uh
+[00:42:00] for like what we did this iteration or
+[00:42:02] what we did this sprint. So here the air
+[00:42:06] can be helpful with the metric or the
+[00:42:07] report with like summarizing
+[00:42:11] the spring by using all the commit
+[00:42:13] messages,
+[00:42:15] right? So AI can help you write a report
+[00:42:17] directly. So less documentation writing
+[00:42:20] for people like they can write those
+[00:42:22] metrics, those report from the commit
+[00:42:24] messages and the merge request messages.
+[00:42:27] Um it can also
+[00:42:30] um
+[00:42:32] like turn a list of what shifted using
+[00:42:35] those commit messages into a short
+[00:42:37] narrative for the stakeholders like in
+[00:42:39] an easy to understand way for the
+[00:42:41] stakeholders so that spent le less time
+[00:42:43] like compiling reports for
+[00:42:45] organizations.
+[00:42:49] Cool. So what other ways do you think
+[00:42:50] can AI be helpful for managers? So these
+[00:42:54] are just things that I can think of but
+[00:42:56] you may have other ideas
+[00:42:59] like AI is also new to me as well.
+[00:43:01] [laughter]
+[00:43:02] So um so what do you think
+[00:43:06] can be used in a healthy way or what do
+[00:43:08] you think can be pretty risky?
+[00:43:19] >> If you not have some knowledge or you
+[00:43:22] can directly communis.
+[00:43:39] >> Yes. Yes. So you mentioned that the good
+[00:43:41] thing that AI can do is help you
+[00:43:44] understand something if you don't
+[00:43:45] understand. I can ask questions but it
+[00:43:48] can be risky when you use some AI
+[00:43:51] generated code without really
+[00:43:53] understanding it and it can be very
+[00:43:55] risky. That's a really good one. And I
+[00:43:57] was um browsing uh Reddit uh like some
+[00:44:02] for developer community and people were
+[00:44:04] saying the most
+[00:44:06] uh
+[00:44:08] regretful thing that they have done is
+[00:44:10] merging in a few lines of AI generated
+[00:44:12] code that they don't understand.
+[00:44:15] It totally broke their product. Uh which
+[00:44:18] is very very risky. So um yeah, I think
+[00:44:21] this is a lesson to learn as well like
+[00:44:23] do not merge in any AI generated code
+[00:44:27] that you don't understand or fully
+[00:44:29] understand. You need to really know what
+[00:44:32] is it otherwise it's so risky.
+[00:44:36] Um yeah cool.
+[00:44:40] So in a summary, AI will not remove the
+[00:44:43] need for thoughtful test like to write
+[00:44:46] good quality meaningful useful test it
+[00:44:49] still needs human to do it. Uh AI cannot
+[00:44:53] remove the need for that. If you reduce
+[00:44:55] the cost of producing medical artifacts
+[00:44:58] for example some metrics reports like AI
+[00:45:02] can summarize the reports for you. Uh
+[00:45:04] the advantage is knowing how to use AI
+[00:45:06] to strengthen good practices like you
+[00:45:09] should know those good practices first
+[00:45:11] and you know how to do it first and then
+[00:45:14] can use air to strengthen it and avoid
+[00:45:17] chasing like easy metrics just because
+[00:45:20] AM is easy to produce.
+[00:45:23] Cool. So that is our first lecture today
+[00:45:28] about management and how to use metrics
+[00:45:31] properly and what are the potential
+[00:45:34] risks and harms of using metrics if they
+[00:45:37] are not using properly.
+[00:45:39] Um do you prefer having a short break
+[00:45:42] now and then we move on to the next part
+[00:45:44] of the lecture or do you prefer we just
+[00:45:49] continue the next lecture? Start the
+[00:45:50] next lecture now.
+[00:45:53] take a break. Yeah, sure. So, let's come
+[00:45:57] back at 6:55.
+[00:46:00] So, five before five uh 7
+[00:46:04] uh sorry. Yeah. Uh 6:55. Yeah. 7 minutes
+[00:46:08] break. Okay. Cool. Cool. Cool.
+[00:52:41] Okay. Um,
+[00:52:45] welcome back.
+[00:52:51] Cool, cool, cool. So next topic uh for
+[00:52:55] today again not very hard. So the two
+[00:52:57] most of the topics today are pretty uh
+[00:53:00] easy and not very challenging. So the
+[00:53:03] second topic for today is um about
+[00:53:06] maintainability or refactoring or uh
+[00:53:10] writing maintainable code. So why is
+[00:53:13] this important? A few reasons. Um first
+[00:53:18] of all when we
+[00:53:20] had our very first lecture in week one
+[00:53:23] we mentioned that it's very common for
+[00:53:26] software projects to change over time
+[00:53:30] and the change may come from different
+[00:53:33] sources. For example the users need
+[00:53:36] changed right like they may ask for the
+[00:53:39] features to be differently than
+[00:53:41] originally they asked for or they may
+[00:53:43] ask for new features. So this is one
+[00:53:46] source of change. Uh another source of
+[00:53:48] change maybe come from the manager like
+[00:53:52] the direction of the project change or
+[00:53:55] uh the stack check stack change or um
+[00:54:00] maybe have new people joining the group
+[00:54:02] or people leaving the group,
+[00:54:05] right? Or maybe you just wanted to
+[00:54:08] change the code to be more elegant.
+[00:54:14] Um
+[00:54:16] yeah so there are a lot of different
+[00:54:17] sources of change. So to make the change
+[00:54:21] safe
+[00:54:23] there are a few things that we need to
+[00:54:24] do right we need to have the project to
+[00:54:28] be maintainable
+[00:54:30] or being less risky to change.
+[00:54:34] Uh have you seen something like this?
+[00:54:39] [laughter]
+[00:54:40] I've seen a lot of different versions of
+[00:54:42] this. Uh the first stage is add a small
+[00:54:46] function to perfectly working code right
+[00:54:49] the code works perfectly originally
+[00:54:53] it's just a small function
+[00:54:56] but then everything completely breaks
+[00:55:00] and then you remove all your changes
+[00:55:02] cost you broken right I've seen a lot of
+[00:55:06] different version so this is very common
+[00:55:07] why this happens just because
+[00:55:13] making changes to the project requires
+[00:55:15] the project to be maintainable like less
+[00:55:19] risky to change. Um how can we do that?
+[00:55:23] So uh software changes over time. It's
+[00:55:26] very very common for it to change and I
+[00:55:29] team shipping in small increments like
+[00:55:30] they get feedback they change they get
+[00:55:32] feedback and they change. Changing is
+[00:55:35] happening all the time. If your code is
+[00:55:38] hard to change, you can't keep the pace
+[00:55:40] for long, right? Like maybe you may rush
+[00:55:43] to write some code and it deliver some
+[00:55:45] stories really quickly, but later on
+[00:55:48] when you add more stories, when you make
+[00:55:50] more changes, you'll get slower and
+[00:55:53] slower.
+[00:55:55] But if you write maintainable code, you
+[00:55:58] can implement new features without
+[00:56:00] breaking the old ones. You can fix fix
+[00:56:02] bucks faster. You can collaborate with
+[00:56:05] merge requests with others because other
+[00:56:07] people can read your code easily and
+[00:56:10] easily extend your code. You can also
+[00:56:13] work effic effect effectively with AI
+[00:56:15] tools because AI also needs to work on
+[00:56:17] your code, right? If your code is very
+[00:56:19] messy, it makes even harder for the AI
+[00:56:22] to help you. And it if you have
+[00:56:25] maintainable code, it makes onboarding
+[00:56:27] new teammates easier, including the
+[00:56:30] future you. So you don't want your
+[00:56:32] project to be like only last for one
+[00:56:35] month or two months and then you throw
+[00:56:37] it away, right? You want it to be used
+[00:56:39] by actual users and um getting better
+[00:56:42] and better throughout through the time
+[00:56:43] and leave forever ideally, right? So uh
+[00:56:48] you may go back to your own code. So how
+[00:56:50] to help yourself your futures you on
+[00:56:52] board um for your old projects. So
+[00:56:56] sustainable uh means that like speed and
+[00:57:00] uh so uh speed in software is how
+[00:57:03] quickly you can make a safe change not
+[00:57:05] just a change right not how fast you tap
+[00:57:08] as well and maintainability keeps that
+[00:57:10] speed as the code base grows
+[00:57:14] it's more important than raw performance
+[00:57:16] so at the beginning you may like write
+[00:57:18] really speeding have some good
+[00:57:20] performance but it doesn't long uh for a
+[00:57:23] long time.
+[00:57:25] But how? The question more important
+[00:57:27] here like we know it is important to
+[00:57:29] write maintainable code like to be
+[00:57:31] easier to make changes, right? Um but
+[00:57:33] how
+[00:57:36] how do we do that?
+[00:57:38] Uh there are a few ways to help you to
+[00:57:40] have more maintainable projects. The
+[00:57:43] first is having tests. So having those
+[00:57:46] tests making sure that when you make
+[00:57:48] some changes you know whether it's still
+[00:57:50] good or not, right? If some there's some
+[00:57:53] bugs, if there's something not working
+[00:57:55] as originally intended, you can quickly
+[00:57:57] fix it without like uh having impact on
+[00:58:00] the future or other parts of the code.
+[00:58:02] So adding test is very important for
+[00:58:05] maintainability. Uh we have already
+[00:58:07] covered that. Um another way to have
+[00:58:10] maintainable project is by system design
+[00:58:13] by high level system design. Uh however
+[00:58:17] we cannot cover this in this course but
+[00:58:20] feel free to explore it later with your
+[00:58:23] own time. Um another way to have
+[00:58:26] maintainability is through like lower
+[00:58:28] level code design. So thinking about
+[00:58:31] code as a high level or low level
+[00:58:34] details in terms of what makes things
+[00:58:36] resilient to adapt to inevitable changes
+[00:58:39] in the future. So this is what we are
+[00:58:41] going to talk about today and we'll also
+[00:58:43] talk about why this cannot be replaced
+[00:58:46] by AI like AI can only help you with
+[00:58:49] that but cannot replace your row for
+[00:58:52] writing maintainable code.
+[00:58:55] So code design is something that happens
+[00:58:57] between writing test and writing code.
+[00:59:00] So last week when we talk about TDD we
+[00:59:02] mentioned that we start with the test
+[00:59:05] and then we write just enough code to
+[00:59:07] make that test pass. And the next step
+[00:59:10] is refactoring that code to make the
+[00:59:13] code maintainable. So that's the third
+[00:59:15] step and this is where the code design
+[00:59:17] comes in. So it's when you know what
+[00:59:20] solution needs to do but needs to plan
+[00:59:22] how that how it does it and make it
+[00:59:24] maintainable.
+[00:59:26] Um and there are six design questions to
+[00:59:31] ask. So when you do your refactoring
+[00:59:34] like when you have your test first write
+[00:59:36] the minimum uh spend a minimum effort to
+[00:59:38] make the test pass and then you go back
+[00:59:41] and then ask those six design questions
+[00:59:43] to yourself. We'll go through them one
+[00:59:46] by one today. The first one is is there
+[00:59:50] one source of truth for this? What does
+[00:59:53] it mean? Let me show you an example. Uh
+[00:59:57] where is it?
+[01:00:00] Uh
+[01:00:03] yeah this is the one
+[01:00:08] here. So here is an example. So uh you
+[01:00:13] are implementing an online shopping
+[01:00:16] system
+[01:00:18] and you wanted to tell people how much
+[01:00:22] in the shopping cart how much does each
+[01:00:25] item cost. So you need you need a price
+[01:00:27] for each item like how much each for
+[01:00:29] that item and how many item the the
+[01:00:32] customer put into the shopping cart for
+[01:00:34] that item right? So for example the
+[01:00:36] first one for item one the price is 10
+[01:00:39] the quantity of that first item is two
+[01:00:41] and uh the total price for first item is
+[01:00:45] the that and then you tell the customers
+[01:00:47] well like item item one total is this
+[01:00:50] this and the user may add item two item
+[01:00:53] three and later on may have item four
+[01:00:55] five 6 8 9 10 11 right so this is the
+[01:01:00] original code what's the problem you see
+[01:01:04] here.
+[01:01:13] >> It's redundant.
+[01:01:14] >> It's redundant. Yes. So you may have
+[01:01:17] endless blocks of code like this,
+[01:01:22] right? This is one thing. The other
+[01:01:24] thing is if something change like for
+[01:01:28] example the way you calculate the co
+[01:01:31] like the total price or the uh like the
+[01:01:35] send like the print message you want to
+[01:01:38] show your uh customer change for example
+[01:01:40] you don't want to say item one total you
+[01:01:42] want to say item one cost
+[01:01:45] and then you will also need to change
+[01:01:47] item two change item two cost you need
+[01:01:50] change item three cost
+[01:01:53] Right? When you have a lot of blocks
+[01:01:56] like this, it's very easily you may have
+[01:01:58] a typo here. I forgot to put s here or I
+[01:02:01] forgot to have a O here or I had an
+[01:02:04] extra O here. It's easy to make mistakes
+[01:02:07] because you wanted to make the changes
+[01:02:09] consistently,
+[01:02:12] right? And you need to change every time
+[01:02:14] this message in your code,
+[01:02:18] right? Redundancy is one issue but like
+[01:02:22] this kind of redundancy also brings in
+[01:02:25] another problem which is easier to make
+[01:02:28] errors having bucks because you need to
+[01:02:32] change every time it shows here. So this
+[01:02:35] is where this first um principle comes
+[01:02:38] in. So when you repeat yourself a change
+[01:02:42] in that value or capability request
+[01:02:44] changes in all locations and it's very
+[01:02:46] easy to forget to change it in all
+[01:02:48] locations or change it inconsistently in
+[01:02:52] those locations. So try not to repeat
+[01:02:55] yourself to avoid this we follow this
+[01:02:57] principle called don't repeat yourself
+[01:03:00] or you may see dry. So this is a
+[01:03:03] commonly used principle in um like um
+[01:03:07] software project. It's called dry. When
+[01:03:09] you see DIY, it means that don't repeat
+[01:03:12] yourself. It focuses on reducing
+[01:03:15] reputation and code. The same code
+[01:03:18] should ideally not be written in
+[01:03:19] multiple places. However, this is not
+[01:03:22] that strict. We'll talk about that
+[01:03:24] later. So every piece of knowledge must
+[01:03:26] have a single unambiguous authorative
+[01:03:29] representation within the system. So
+[01:03:32] reputation like this should be avoided
+[01:03:34] especially if you are going to have a
+[01:03:36] lot of these like you may have five
+[01:03:38] items, six item, 10 or even 20 items in
+[01:03:41] the shopping cart then you need to make
+[01:03:43] changes in many different places.
+[01:03:47] Okay, so this is that example. The
+[01:03:50] second principle or second question to
+[01:03:53] ask yourself is is this as simple as
+[01:03:56] possible?
+[01:03:59] every line of code that we write needs
+[01:04:01] to be maintained.
+[01:04:04] So remember that try to have less lines
+[01:04:07] of a code. Uh then you will have less
+[01:04:09] things to maintain and less things to
+[01:04:12] change in the future. Um for example, if
+[01:04:15] there's an existing Python library or
+[01:04:18] function that you can use directly, do
+[01:04:20] you write your own? No. Right? Like we
+[01:04:24] can just call that function or use that
+[01:04:25] library. Right? So then you have much
+[01:04:28] less lines of code to manage. Um every
+[01:04:32] line of code you don't write is bug
+[01:04:34] free. So that's the core message here.
+[01:04:38] Um and this principle is called kiss.
+[01:04:41] It's called kis principle. It means keep
+[01:04:45] it simple stupid.
+[01:04:47] Don't show people how clever you are. Oh
+[01:04:50] I can write this function although
+[01:04:52] person already have that function.
+[01:04:54] Right? Uh the idea is that software
+[01:04:56] system works best when things are kept
+[01:04:58] simple. It is the belief that complexity
+[01:05:01] and errors are correlated
+[01:05:03] right. So clear code is much much more
+[01:05:08] important than clever code.
+[01:05:13] No same people likes clever code if it
+[01:05:15] could be simpler. So let's have a look
+[01:05:18] at this example.
+[01:05:23] So what we wanted to do here is swiping
+[01:05:25] to variables.
+[01:05:28] Have a look at those three ways doing
+[01:05:30] it. Which one do you prefer?
+[01:05:44] A, B or C? A. Anyone prefers A?
+[01:05:51] Do you understand A?
+[01:05:54] Yeah, takes some time but yeah,
+[01:05:56] understandable. Okay. Anyone prefers B?
+[01:06:01] A few. Okay. Anyone prefers C?
+[01:06:06] Okay. So, for people prefers B, can you
+[01:06:09] tell us why?
+[01:06:14] >> Huh?
+[01:06:18] >> Oh, okay. Okay. Any other ones like any
+[01:06:21] other source why you choose
+[01:06:22] >> because this works in many languages.
+[01:06:25] >> It works in many languages. Yeah. So no
+[01:06:28] matter what
+[01:06:33] you are using.
+[01:06:35] >> Yeah.
+[01:06:41] >> Yes.
+[01:06:47] >> Yes.
+[01:06:50] So it works the same for many different
+[01:06:53] languages. For people who are used to C
+[01:06:56] or JavaScript, it works for all of them.
+[01:07:00] Very easy to understand, right? Uh for
+[01:07:02] people who choose C, why do you prefer
+[01:07:05] C? The last one. Yep. Oh, sorry. What's
+[01:07:10] do you Yeah, the girl in the front. Did
+[01:07:13] you say anything? No.
+[01:07:16] Oh, you Sorry. What did you say?
+[01:07:20] >> Listen to maintain. Okay. What else?
+[01:07:30] >> Uhhuh.
+[01:07:33] >> Uhhuh. Because we are using Python for
+[01:07:36] our project. So it makes sense to use
+[01:07:38] the P. Sorry, we are writing our project
+[01:07:40] in Python. So it makes sense to use the
+[01:07:42] Python way of doing things. Uh anything
+[01:07:45] else? Any other thoughts?
+[01:07:49] very simple. Yeah. So,
+[01:07:53] both of these are okay.
+[01:07:57] [laughter] Um it mainly depends on your
+[01:07:59] preference.
+[01:08:01] Um either one is pretty simple and easy
+[01:08:06] to understand. So, either one is okay,
+[01:08:08] but try to avoid something
+[01:08:11] like this,
+[01:08:13] right? It shows that you are very smart,
+[01:08:16] you are very clever. Uh however it's
+[01:08:18] harder to maintain even for future
+[01:08:21] yourself.
+[01:08:23] Cool. So this is the second principle
+[01:08:25] called kiss k i s. It means that making
+[01:08:28] things as simple stupid as possible.
+[01:08:33] The third question to ask is is this
+[01:08:36] overdesigned or underdesigned?
+[01:08:42] Let's have a look at an example first.
+[01:08:45] I'll show this in here.
+[01:08:49] Uh
+[01:08:53] where is it?
+[01:08:56] Okay.
+[01:08:59] So this is our example for this
+[01:09:01] principle. So we have a login uh
+[01:09:07] function and there are two rows for our
+[01:09:12] for this project. There are admin and
+[01:09:14] there are moderator and there are the
+[01:09:16] only two rows for this specific software
+[01:09:22] and we want to send email to each of
+[01:09:26] them when they log in as the specific
+[01:09:29] row. So this is one way of doing it. And
+[01:09:34] here's another way of handle logging
+[01:09:38] when people loging as their specific row
+[01:09:41] and we sent them the message either like
+[01:09:44] admin dashboard ready for admin or
+[01:09:48] moderator panel ready for moderator. So
+[01:09:52] which one do you prefer?
+[01:09:58] Anyone prefers a
+[01:10:02] A few. Do you need more time?
+[01:10:05] Any more people prefers A?
+[01:10:09] Anyone prefers B?
+[01:10:16] A few. Again, anyone prefers A?
+[01:10:21] Anyone prefers B?
+[01:10:25] Okay. So people who prefers a why?
+[01:10:38] >> Uh the structure is clear.
+[01:10:41] >> Mhm. Anything else?
+[01:10:49] >> It's more readable. Readable and clearly
+[01:10:52] defined.
+[01:10:54] Yep.
+[01:10:55] Do you have anything else to add?
+[01:11:04] >> Only two rows are there. So, is that
+[01:11:06] what it
+[01:11:10] >> doesn't have extra stuff?
+[01:11:13] >> Maintaining could be easy.
+[01:11:28] Uhhuh. So what you said was if there are
+[01:11:31] more rows you'll be a very long line
+[01:11:34] here or even multiple lines here.
+[01:11:41] >> Uhhuh. Okay. So for people who prefers
+[01:11:45] the second one uh
+[01:11:48] why
+[01:11:55] >> less lines written so less lines to
+[01:11:58] maintain. Is that what you said?
+[01:12:01] >> Okay.
+[01:12:03] Yep. Anything else?
+[01:12:17] It will be easier to expand in the
+[01:12:19] future if there's more rows.
+[01:12:26] >> Uhhuh.
+[01:12:32] >> Uhhuh. Okay. So, um Yeah. So you can see
+[01:12:38] that we have different opinions. So uh
+[01:12:40] for people who chose the first one, do
+[01:12:41] you want to convince the people who
+[01:12:43] chose the second one? Or people who
+[01:12:45] chose the second one, do you want to
+[01:12:46] convince the people who chose the first
+[01:12:48] one?
+[01:12:50] Debating class. [laughter]
+[01:13:06] If you wanted to have more rows, you can
+[01:13:07] just add more rows here. Okay. Um my
+[01:13:12] preference is also the first one.
+[01:13:16] Yeah. Um I understand why some of you
+[01:13:19] chose the second one because we just
+[01:13:21] mentioned that we want to have less
+[01:13:22] lines, right? We just mentioned that the
+[01:13:25] the lines uh the less lines the easier
+[01:13:28] to maintain. We just mentioned that. But
+[01:13:30] why are you here chose choosing the one
+[01:13:32] that having more lines? Um this is
+[01:13:36] because
+[01:13:40] it's easier to read [laughter]
+[01:13:42] like the logic is much clearer. So this
+[01:13:45] one is different from uh this one where
+[01:13:48] potentially we may have 10 or 20 items
+[01:13:51] adding to the shopping cart. Well, this
+[01:13:54] one now we only have two rows and
+[01:13:58] maximum we may have one or two more rows
+[01:14:01] maximum. And you may want to send
+[01:14:04] different me emails to different people
+[01:14:06] depending on the rows that may be
+[01:14:08] possible like in the future you want to
+[01:14:09] change. Um and another reason as the
+[01:14:12] girl in the front mentioned that when
+[01:14:14] you have a lot of different rows you may
+[01:14:15] have a very long line here. So it's
+[01:14:18] harder to read. But as you can see like
+[01:14:21] different people have different opinion
+[01:14:22] and there's no single truths for this
+[01:14:25] one like which one is right or wrong.
+[01:14:27] There's no like right or wrong answers
+[01:14:29] here. just which one you feel more
+[01:14:31] comfortable with. Um it also depends on
+[01:14:36] um the exact scenario like whether you
+[01:14:40] will be adding a lot of different other
+[01:14:42] rows or whether you are pretty sure well
+[01:14:45] there's just two rows.
+[01:14:47] It depends on the scenario.
+[01:14:50] Cool cool cool. This is the overdesigned
+[01:14:54] or underdesigned.
+[01:14:59] So it's very common that we start from
+[01:15:02] under design like examples like this
+[01:15:05] one. This is a very obvious and designed
+[01:15:08] and then gradually we becoming smarter
+[01:15:11] and smarter do some like design like
+[01:15:14] this or uh design like that but
+[01:15:18] gradually we'll find a balance that's
+[01:15:21] right for us or right for you. Okay.
+[01:15:24] Take some time to practice.
+[01:15:28] Okay, the next one.
+[01:15:31] Are related modules kept close together?
+[01:15:36] Are unrelated modules kept far apart?
+[01:15:43] What does that mean?
+[01:15:46] So, let me show you an example.
+[01:15:51] this.
+[01:15:56] Okay. So, we are using the task tracker
+[01:16:01] as an example. So, this is the first way
+[01:16:06] of doing things. This is the second way
+[01:16:09] of doing things. So, what we are doing
+[01:16:11] here? So for for for the first way like
+[01:16:15] we have a definition called add task and
+[01:16:18] we add task and then we have another
+[01:16:21] function called delete task we delete
+[01:16:24] task. We have another uh function called
+[01:16:27] uh about display task and we format the
+[01:16:30] task list and display the task three
+[01:16:34] different functions. Well another way is
+[01:16:37] we can have one function can do
+[01:16:40] everything.
+[01:16:41] We can Uh the action can be add, the
+[01:16:45] action can be delete and no matter what
+[01:16:47] action is triggered, we display the
+[01:16:50] tasks.
+[01:16:52] What do you think of the two different
+[01:16:55] ways of writing these functions or
+[01:16:59] writing these features?
+[01:17:03] So the reason that I'm showing this
+[01:17:05] example because what we want ideally is
+[01:17:09] we want related components to be
+[01:17:11] tactically coupled and unrelated
+[01:17:14] components to be loosely coupled. So
+[01:17:16] what does coupling mean? It means how
+[01:17:20] much one piece of code relies on another
+[01:17:23] piece of code. Why is this important?
+[01:17:27] Because we are talking about maintaining
+[01:17:29] code. We are talking about changing
+[01:17:31] code, right? So if you have functions
+[01:17:34] that depending on each other like this
+[01:17:38] and if you change one of them, it's very
+[01:17:42] likely your change to one of them will
+[01:17:44] have an impact on the other parts of
+[01:17:47] your product like on other functions,
+[01:17:50] right? But if you have like two
+[01:17:52] functions or two things that are and
+[01:17:55] like separate and you change one of
+[01:17:58] them, it will not have impact on the
+[01:18:00] other one.
+[01:18:04] Right? So coupling means how much one
+[01:18:08] piece of code relies on another piece of
+[01:18:10] code. Um if your project getting bigger
+[01:18:13] and bigger. So now in sprint two it
+[01:18:15] should be okay. But when you move on to
+[01:18:18] sprint stray and you are collaborating
+[01:18:20] together with more and more features
+[01:18:23] stories or more complex ones you will
+[01:18:26] notice that your work will depends on
+[01:18:29] each other's work. So for example group
+[01:18:31] member A will be saying like oh I'm
+[01:18:34] waiting for member B to finish his work
+[01:18:36] so that I can start mine or I change my
+[01:18:40] change will have an impact on group
+[01:18:42] member C's um like features or whatever.
+[01:18:45] It's very very common to happen. So you
+[01:18:48] wanted to have them uh like if they are
+[01:18:51] not that related to each other, you want
+[01:18:53] to just separate them.
+[01:18:56] But if they are just by nature uh
+[01:18:59] related to each other, you can just keep
+[01:19:01] them together. No problem.
+[01:19:04] Cool. So extensive coupling can also
+[01:19:07] lead to spaghetti code. Spaghetti code
+[01:19:10] means like code like like this like
+[01:19:12] everything connected to each other. So,
+[01:19:14] can anyone tell me why the second way is
+[01:19:18] spaghetti? Like why
+[01:19:21] why the second one can be messy,
+[01:19:24] can have can be problematic.
+[01:19:37] >> Yeah. So these two functions can be
+[01:19:39] independent, right? like add tiles and
+[01:19:41] delete tiles and display tiles can be
+[01:19:43] independent. But now if we put them all
+[01:19:46] together
+[01:19:49] like you are putting
+[01:19:52] something can be unrelated together like
+[01:19:55] but why is it problematic? Why do you
+[01:19:57] put like the actions with displacing
+[01:20:00] task being problematic?
+[01:20:15] large.
+[01:20:18] >> Yeah.
+[01:20:19] Exactly.
+[01:20:23] >> It's very easy to
+[01:20:25] >> Yeah.
+[01:20:26] >> Uhhuh. So it's much harder to maintain
+[01:20:29] because everything's mixed together,
+[01:20:32] right? Harder to read as well. Um and
+[01:20:35] printing logic is also very different
+[01:20:38] with the action logics. So adding task,
+[01:20:42] deleting, deleting, they are like logics
+[01:20:44] about actions that user trigger.
+[01:20:47] However, like how you are going to
+[01:20:49] formatting
+[01:20:51] the task can be very different and now
+[01:20:54] you are putting everything together um
+[01:20:58] it can be problematic.
+[01:21:02] Cool.
+[01:21:04] Okay, the last question to ask this is a
+[01:21:08] very very very common
+[01:21:12] uh mistakes that beginning beginner
+[01:21:14] programmers make like am I speculating
+[01:21:17] about how necessary this is? Uh we
+[01:21:20] briefly touched about this last week in
+[01:21:23] the testing lecture. We mentioned that
+[01:21:25] we only write enough code to make the
+[01:21:27] test pass right at the beginning. Um, so
+[01:21:32] this means that are we thinking well
+[01:21:34] this lines of code may be useful in the
+[01:21:37] future and then we write that line of
+[01:21:39] code or am I like I think this helper
+[01:21:43] function can be very helpful like
+[01:21:44] although I now for now I only need this
+[01:21:47] helper function once but I'm really sure
+[01:21:50] that this helper function will be used
+[01:21:52] again again so I separate this part of
+[01:21:54] my code as a helper function.
+[01:21:57] So I'm speculating about the future. So
+[01:22:02] that helper function may not be helpful
+[01:22:05] in the future. You are thinking about
+[01:22:07] the future.
+[01:22:09] So only if you really see the need for
+[01:22:12] the helper function or for that line of
+[01:22:14] code or for that blocks of code, you
+[01:22:17] write that blocks of code. Otherwise,
+[01:22:19] just keep things simple.
+[01:22:22] And this principle is called yageni.
+[01:22:26] It means that you aren't gonna need it
+[01:22:29] like Y A G N I.
+[01:22:34] Okay. This helps remove unnecessary code
+[01:22:37] and therefore results in having less to
+[01:22:39] maintain.
+[01:22:42] Here's an example question. Should we
+[01:22:45] add export to PDF for the task tracker
+[01:22:49] task links before anyone has asked for
+[01:22:52] it?
+[01:22:56] No. Right. So all the stories should be
+[01:22:59] from the uh requirement engineering that
+[01:23:03] you had in the spring one. Right. Like
+[01:23:05] when you interview people, when you do
+[01:23:07] the market research, when you did the
+[01:23:09] observations, you got those stories,
+[01:23:11] right? So if during that stories uh
+[01:23:14] generating process, you notice well this
+[01:23:17] is highly needed like export media and
+[01:23:21] people were asking for it. Then yes, if
+[01:23:23] this is prioritizing your stories and
+[01:23:26] you can have this feature, but if no one
+[01:23:28] has ever asked for it, do you need to
+[01:23:31] have it? No, you may just having some
+[01:23:34] redundancy
+[01:23:35] um in redundant features in your
+[01:23:38] project.
+[01:23:40] Oh, we have one more. Okay. Um does this
+[01:23:43] follow standard conventions? Okay, this
+[01:23:45] is a very good question. Will you be
+[01:23:47] writing a web application using C
+[01:23:50] programming language?
+[01:23:55] No,
+[01:23:57] no. Um, why?
+[01:24:04] >> Huh?
+[01:24:13] efficiency
+[01:24:15] like when I'm control also some loops
+[01:24:20] myself instead of like using
+[01:24:24] that is more efficient.
+[01:24:25] >> Yeah, you're saying like for example
+[01:24:28] using C to write a web web application
+[01:24:31] is more efficient. Um like I'm not
+[01:24:35] saying you can't use C to write a web
+[01:24:38] web application. Yes, you can. Uh
+[01:24:41] however this is not following the
+[01:24:43] standard convention. uh
+[01:24:47] like the more popular the approach is
+[01:24:49] the more likely there are resources that
+[01:24:51] you can use and make things easier to
+[01:24:54] maintain like from the maintainability
+[01:24:56] perspective like if you have libraries
+[01:25:00] framework to use but for example if
+[01:25:02] you're using Python or JavaScript
+[01:25:05] but if you're using C notice that um
+[01:25:08] very few maybe there are are people
+[01:25:11] using C but very pe few people are using
+[01:25:13] C it means that there are much less
+[01:25:15] resources and support you can get and
+[01:25:19] there may be a reason that why people
+[01:25:20] not are not using C
+[01:25:23] right it's possible to use C to write a
+[01:25:26] web web application but it's harder to
+[01:25:30] maintain because it's not falling how
+[01:25:32] people are normally doing it and in the
+[01:25:35] future when people wanted to contribute
+[01:25:37] to your web application they may have no
+[01:25:39] experience using C to write a web
+[01:25:41] application but many people most people
+[01:25:44] will have experience using like Python
+[01:25:46] or JavaScript. So um like no single
+[01:25:52] person can write a big industry sized
+[01:25:55] software project. It needs to be a
+[01:25:57] teamwork. It needs to be a group work.
+[01:25:59] You need to work with people. Even
+[01:26:01] though like any genius cannot write on
+[01:26:03] YouTube, right? They can write something
+[01:26:06] like YouTube but they cannot write the
+[01:26:08] size of YouTube. It needs to be a group
+[01:26:10] of people. So if you follow the standard
+[01:26:13] convention it's easier to maintain not
+[01:26:15] just for you but for other people who
+[01:26:18] are contributing to the project.
+[01:26:21] Cool. So similarly other examples like
+[01:26:24] uppercase con uh con constant or to
+[01:26:28] elaborate choices for example plus is
+[01:26:30] very popular a lot of resources for it.
+[01:26:33] Uh people are easy to contribute to it.
+[01:26:39] Cool.
+[01:26:41] Yeah,
+[01:26:44] this is the um the one that I mentioned
+[01:26:48] having a helper function what which is
+[01:26:51] unnecessary.
+[01:26:55] So refactoring what does refactoring
+[01:26:57] mean? So we mentioned that following the
+[01:26:59] TTD process we start with testing just
+[01:27:01] enough code to make the test pass and
+[01:27:04] then refactoring right refactoring is
+[01:27:06] the process of restructuring existing
+[01:27:09] code without changing its intended
+[01:27:11] behavior. So uh from the black box
+[01:27:14] perspective
+[01:27:16] um it's like you are changing things in
+[01:27:19] that black box but from outside that
+[01:27:22] black box things still behave in the
+[01:27:25] same way
+[01:27:27] like after you refactor your code it may
+[01:27:29] be faster maybe easier to maintain
+[01:27:32] easier to change but just within that
+[01:27:34] black box but from outside is still the
+[01:27:37] same behavior.
+[01:27:39] Um typically this is to fix poor design
+[01:27:43] in existing code to make things more
+[01:27:45] maintainable.
+[01:27:47] Um
+[01:27:50] yeah and refactoring is strongly
+[01:27:52] discouraged if you don't have a strong
+[01:27:54] test suit. So refactoring only happens
+[01:27:58] when you have a strong testing suit. So
+[01:28:02] you know that your changes is not
+[01:28:05] breaking the project. So you know things
+[01:28:08] are still working.
+[01:28:10] Okay. Now the question that why does it
+[01:28:14] still matter with AI? I'll not show you
+[01:28:17] the slice. Tell me your thinking. Do you
+[01:28:21] think like AI can be helpful for
+[01:28:24] refactoring or do you think as have
+[01:28:27] limitations for refactoring?
+[01:28:35] >> It depends.
+[01:28:38] of your uh project and it depends the
+[01:28:42] user
+[01:28:44] >> you need to have the architecture in
+[01:28:47] your brain and
+[01:28:50] AI and AI will know that you cannot use
+[01:28:54] hey
+[01:28:56] >> yeah so you can't just tell AI
+[01:28:58] refactoring refactor this right you need
+[01:29:01] to have a higher level of understanding
+[01:29:05] what and How to refactor? Yeah. Any
+[01:29:09] other thoughts?
+[01:29:12] >> Mistakes.
+[01:29:12] >> AI can make mistakes.
+[01:29:14] >> Yep.
+[01:29:20] >> Uhhuh.
+[01:29:22] >> Nobody responsible.
+[01:29:24] >> Yeah. Nobody's responsible for it. Like
+[01:29:26] the one who
+[01:29:28] quit converging and those two people are
+[01:29:31] responsible for. [laughter]
+[01:29:34] Yeah. Any other thoughts?
+[01:29:36] >> I think it's probably one of the things.
+[01:29:58] So it can to some extent help with
+[01:30:01] refactoring because it knows the
+[01:30:04] principles. Is that what you mean?
+[01:30:07] >> No.
+[01:30:08] >> No.
+[01:30:12] >> I mean this is something that
+[01:30:15] JavaScript elements and then
+[01:30:19] >> instead
+[01:30:22] >> in a case like
+[01:30:24] it principle would be the same. you know
+[01:30:27] what it has to do.
+[01:30:28] >> Uhhuh.
+[01:30:29] >> And that implementation already exists
+[01:30:31] in JavaScript.
+[01:30:32] >> You have to apply it to another
+[01:30:33] language.
+[01:30:34] >> Yeah. Okay. So the uh just to summarize
+[01:30:38] for people online. So what you just
+[01:30:40] mentioned is that for example you may
+[01:30:42] have a project that were originally the
+[01:30:45] back end written in JavaScript and using
+[01:30:47] the JavaScript framework for the back
+[01:30:49] end and later on you want to change the
+[01:30:52] JavaScript project into Python using FL
+[01:30:55] framework and then you are just
+[01:30:57] refactoring it from one language to
+[01:31:00] another language while the behaviors the
+[01:31:02] logic still stays the same. So in that
+[01:31:06] case AI can be helpful.
+[01:31:08] Yeah. Uh that's a very good thoughts
+[01:31:11] actually. I haven't thought about that
+[01:31:12] before like moving from one language to
+[01:31:15] the other. Um
+[01:31:19] is there any risk in doing that like
+[01:31:21] changing the whole project from one
+[01:31:24] language to the other one relying on AI?
+[01:31:28] >> Yes.
+[01:31:30] Yeah. I thought so too. Yeah. Because as
+[01:31:34] we mentioned earlier, we shouldn't merge
+[01:31:36] in any line of code that we are not
+[01:31:39] fully understand. But changing the whole
+[01:31:42] project from one programming to another
+[01:31:44] language there will be a lot of code for
+[01:31:47] you to review like um
+[01:31:51] like the workload of reviewing the AI
+[01:31:54] generated code is also huge.
+[01:31:58] Yeah.
+[01:32:01] Cool. So here's what I have got. So
+[01:32:05] um AI suggest ideas based on your code
+[01:32:09] base. So if your code base is very
+[01:32:11] spaghetti
+[01:32:13] uh messy or um duplicated.
+[01:32:19] So
+[01:32:21] it makes
+[01:32:24] the air will make even messier
+[01:32:26] refactoring if your original codebase is
+[01:32:30] messy and not following the proper
+[01:32:33] um principles.
+[01:32:35] So you need to have a clear structure
+[01:32:38] from you from human at the beginning. So
+[01:32:41] that makes both human and AI changes
+[01:32:43] safer in the later.
+[01:32:47] Um and then uh we mentioned this a few
+[01:32:50] times already like you still need to
+[01:32:52] read and approve every change, right? So
+[01:32:56] you need to know those good principles
+[01:32:59] of maintainable code. So when you re
+[01:33:02] review those and approve those changes
+[01:33:06] you know well this is good or that is
+[01:33:09] not good.
+[01:33:11] So you need to know those principles and
+[01:33:13] you know you need to know what is good
+[01:33:15] and what is wrong.
+[01:33:18] Um and AI only implements what you asked
+[01:33:21] for. It doesn't decide what should be
+[01:33:23] simple or flexible. So it cannot make
+[01:33:26] that decision for you like the deci
+[01:33:28] design decisions should be stew from
+[01:33:31] humans.
+[01:33:33] So yeah
+[01:33:36] you decide what better means like humans
+[01:33:39] should still make the decision.
+[01:33:46] Bottom line AI can write and change
+[01:33:48] code. It doesn't replace the need for
+[01:33:50] good design. Maintainability is what
+[01:33:52] keeps the code base a place where both
+[01:33:54] human and air can work efficiently or
+[01:33:56] effectively together.
+[01:34:00] Okay, cool. So that's all the contents
+[01:34:03] for today. So after this lecture, what
+[01:34:07] you can do for your project
+[01:34:09] is starting to refactor your project
+[01:34:12] code.
+[01:34:14] Ask those seven questions.
+[01:34:17] looking at code asking a question am I
+[01:34:20] following the dry principle the key
+[01:34:22] principle the Yagi proof principle uh am
+[01:34:25] I duplicating myself am I overdesigned
+[01:34:29] or underdesigned asking those questions
+[01:34:31] to yourself but before refactoring any
+[01:34:34] line of code making sure that you have a
+[01:34:36] strong test suit before you refactoring
+[01:34:39] anything okay any question about
+[01:34:42] refactoring
+[01:34:45] or maintainable
+[01:34:47] code.
+[01:34:49] Oh, good. Uh, there's a question online
+[01:34:52] from
+[01:34:54] B Navi Prat Deep. I don't know how to
+[01:34:57] pronounce that. Sorry about that. So,
+[01:34:58] the question is, when can they expect
+[01:35:00] the marks for spring one, please? Uh,
+[01:35:03] it's already released to you on Mudo.
+[01:35:07] I'm just drafting the newsletter and
+[01:35:09] making the announcement. I'll put a link
+[01:35:10] in the newsletter. Uh but if you go to
+[01:35:13] mudo go to the grace tab you should be
+[01:35:16] able to see your spring one marks. Um
+[01:35:19] but the feedback I think some tutors
+[01:35:22] give pretty detailed feedback but some
+[01:35:24] are pretty abstract. But anyway uh
+[01:35:26] during your class today or sorry this
+[01:35:29] week during your this week's class your
+[01:35:31] tutor will explain the feedback to you.
+[01:35:33] So if you have any concern Mr. Mark any
+[01:35:36] question about the feedback make sure
+[01:35:38] that you ask your tutor during your
+[01:35:40] class this week.
+[01:35:42] Okay, any other question?
+[01:35:46] Yeah, I believe sprint one marks is
+[01:35:50] really really high. Uh the average mark
+[01:35:53] for spring one was above HD.
+[01:35:58] So the average mark is above HD. Very
+[01:36:00] high marks for spring one. Well done
+[01:36:01] everyone. Congratulations. Yay. Uh very
+[01:36:05] well done. Uh for spring two you will
+[01:36:07] notice that the uh the marking matrix
+[01:36:10] the rubrics is becoming more
+[01:36:12] challenging. Uh for spring two uh more
+[01:36:15] work to do higher quality required so it
+[01:36:18] will be less easier to get HD comparing
+[01:36:22] with sprint one. Yeah. So more work is
+[01:36:26] required and sprint three will be even
+[01:36:28] more challenging than sprint two. So
+[01:36:31] make sure that you build a strong
+[01:36:32] foundation like we are still building
+[01:36:34] foundation all the way to spring three.
+[01:36:36] So for example spring two we are using
+[01:36:39] what we have learned in both spring two
+[01:36:40] and spring one. Right? Spring three will
+[01:36:42] be the same. You'll be applying all the
+[01:36:45] concept and knowledge you learned.
+[01:36:47] Okay cool cool. Any other questions?
+[01:36:51] Nope.
+[01:36:53] Nope. Okay cool. Thank you so much
+[01:36:56] everyone. 20 minutes back to everyone.
+[01:36:58] Yay. I love it. Okay, cool. Thank you.
+[01:37:01] See you next week.
+[01:37:03] >> Thank you. Thank you. Thank you.

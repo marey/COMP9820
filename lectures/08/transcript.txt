@@ -1,0 +1,693 @@
+[00:00:00] All right. So this is a recording of the
+[00:00:04] lecture on risk management. Um so
+[00:00:09] what is risk management and why do we
+[00:00:11] care about it? Um in our very first
+[00:00:14] lecture we talked about um for software
+[00:00:17] projects there may be a lot of
+[00:00:19] uncertainties. Um maybe there are some
+[00:00:21] people changes there are some
+[00:00:23] requirement changes. Uh there may be
+[00:00:26] some like unexpected other changes. for
+[00:00:28] example, new technologies
+[00:00:31] um and new laws, new rules. So, uh given
+[00:00:35] all these uncertainties, risk management
+[00:00:38] helps us to improve time, cost and
+[00:00:40] quality outcomes and the general
+[00:00:43] outcomes as well. Okay. So, this is what
+[00:00:46] we are going to talk about. So, um given
+[00:00:49] that we know that there are those
+[00:00:51] uncertainties, how do we actually manage
+[00:00:54] the risk and what are the risk? So by
+[00:00:56] definition risk management is a
+[00:00:59] framework for ant anticipating what
+[00:01:01] could go wrong in software projects
+[00:01:04] before it becomes expensive.
+[00:01:07] Why would it be become expensive?
+[00:01:11] Yeah. So if you um have no plan for uh
+[00:01:16] what would happen when things will go
+[00:01:19] wrong uh you may spend extra time or go
+[00:01:22] um the direction that cost more time and
+[00:01:25] money and resources.
+[00:01:27] So um here's a road map of what we are
+[00:01:31] going to talk about in this lecture.
+[00:01:33] First of all, we are going to talk about
+[00:01:35] what exactly is software risks and why
+[00:01:38] do we manage risk? is about cost, trust
+[00:01:42] and reputation and some strategies. Um
+[00:01:45] and we'll also talk about how we can
+[00:01:48] apply what we learned in this lecture in
+[00:01:50] our projects.
+[00:01:52] Cool. Amazing. Now the first one um this
+[00:01:55] is a recap of what we talked about in
+[00:01:57] our week two lecture week one or week
+[00:02:02] two um about why software projects fail.
+[00:02:06] So um
+[00:02:09] yeah so a lot of the time the uh
+[00:02:12] software fail not because of technical
+[00:02:14] issues but more about like management
+[00:02:17] issues for example poor communication or
+[00:02:21] structure for example uh the
+[00:02:24] communication between the developers and
+[00:02:27] the stakeholders right so for example
+[00:02:29] the users may say well I have this
+[00:02:32] challenge right can you solve the
+[00:02:34] problem for me But they may um the
+[00:02:37] stakeholders and developers may have
+[00:02:39] different understanding about the
+[00:02:42] challenge. So the uh the solution to
+[00:02:45] that uh to the challenge may not um fit
+[00:02:49] well what uh the stakeholders expect.
+[00:02:51] Right? And also maybe there are some bad
+[00:02:54] estimates about uh for example the
+[00:02:58] complexity of the problem. Right? Maybe
+[00:03:01] also bad estimates about um time uh weak
+[00:03:07] planning, tracking and weak risk
+[00:03:09] management. They may also cause the
+[00:03:12] software projects to fail.
+[00:03:15] So um we aim for the projects to deliver
+[00:03:18] on time right and within budget and with
+[00:03:21] quality and then we say well this
+[00:03:23] project is successful. Um however given
+[00:03:28] those uh potential uncertainties and
+[00:03:31] risk uh a proper and good management of
+[00:03:35] the risk help the team to spot threats
+[00:03:37] early um potential also reduce some
+[00:03:39] rework because you have already
+[00:03:41] accommodated the potential risks at the
+[00:03:44] beginning and make the outcomes more
+[00:03:46] predictive although it's likely to be
+[00:03:49] very predictive but uh more predictable.
+[00:03:54] Okay. some foundations to the idea of
+[00:03:58] risk management. First of all is what is
+[00:04:00] risk right? Um to understand what is
+[00:04:04] risk uh there are different definitions
+[00:04:08] from different uh research uh references
+[00:04:12] or books about software engineering. Um
+[00:04:15] but uh in general uh some like two easy
+[00:04:21] to adopt definitions of risk include
+[00:04:24] first one um a problem that could cause
+[00:04:27] loss of threat in success but hasn't
+[00:04:29] happened yet potentially can cause uh
+[00:04:33] lost and risk can also be an um abnormal
+[00:04:37] event of failure or uh the consequences
+[00:04:41] for users oper operators or environment.
+[00:04:45] Um
+[00:04:47] yeah so um there's also some related
+[00:04:52] concepts uh which uh about the risk uh
+[00:04:56] which are uncertainty and opportunity.
+[00:05:00] So uh risk and uncertainty. So what's
+[00:05:03] your understanding of risk and
+[00:05:04] uncertainty?
+[00:05:06] They sound very similar, right? But they
+[00:05:09] um they have some relationships with
+[00:05:11] each other like uh they're different. So
+[00:05:14] uncertainty results from lack of
+[00:05:17] information. So there are some
+[00:05:19] uncertainties about the future that we
+[00:05:21] don't know of um for example we don't
+[00:05:25] know whether in the future there will be
+[00:05:26] new technologies
+[00:05:28] right maybe we don't know whether there
+[00:05:30] will be some people changes these are
+[00:05:32] all uh this will all bring uncertainties
+[00:05:37] to the project. Well, risk is cate
+[00:05:40] categorized by the probability of any
+[00:05:42] one that will result in a negative
+[00:05:45] impact plus a categorization of the
+[00:05:47] negative impact on the project. So the
+[00:05:51] risk is often a result of uncertainty
+[00:05:54] given that we don't know what is going
+[00:05:56] to happen in the future. Um and this
+[00:05:59] kind of uncertainty may have a negative
+[00:06:01] impact to the project.
+[00:06:05] But on the other hand side like converse
+[00:06:07] of race is opportunity right. So there
+[00:06:10] are some uncertainties about the future
+[00:06:12] but it may not be always negative
+[00:06:14] impact. Sometime maybe some new
+[00:06:16] possibilities coming up right maybe some
+[00:06:18] new opportunities maybe a new technology
+[00:06:21] will help the process go smoother.
+[00:06:25] Um given now that we know what is risk
+[00:06:29] there are some uncertainties maybe some
+[00:06:31] negative impact on the project given the
+[00:06:33] uncertainties and that those risk. So
+[00:06:37] risk management is the process of
+[00:06:40] identifying potential problem
+[00:06:43] and then either addressing them or
+[00:06:47] eliminating them where possible. So
+[00:06:50] writing them maybe like I um reduce the
+[00:06:54] potential harm to the project maybe um
+[00:06:59] not uh not spending too much time or um
+[00:07:03] if the uh there's something um negative
+[00:07:07] uh sorry there's some if the risk
+[00:07:10] accident happens right so we try to
+[00:07:13] address them so to reduce the potential
+[00:07:16] negative impact or if possible We
+[00:07:19] eliminating that means that um we remove
+[00:07:24] the negative impact and then eventually
+[00:07:28] what we wanted to have is preventing
+[00:07:30] them from damaging cost schedule quality
+[00:07:33] or team moral
+[00:07:36] and this right like the uncertainties
+[00:07:39] the risk may come from different um
+[00:07:43] resources for example uh different
+[00:07:46] stakeholder groups pulling in different
+[00:07:47] directions. This is very common in
+[00:07:50] reality, right? So the client who pays
+[00:07:52] for the project and the actual users may
+[00:07:55] wanted to have different features or
+[00:07:57] they may have like different uh there
+[00:08:00] may be some conflicts as well and there
+[00:08:03] may be also political influence
+[00:08:05] affecting funding or appointment. So
+[00:08:08] this is more
+[00:08:10] um common or um in uh research projects
+[00:08:18] there's some uh additional resource if
+[00:08:20] you are interested know more about the
+[00:08:22] threats and how to analyze external
+[00:08:25] threats
+[00:08:26] but sometime risk come from people too.
+[00:08:29] So not just from the um technical aspect
+[00:08:33] maybe uh the coordinating or
+[00:08:36] collaboration issues can also introduce
+[00:08:38] risks. Uh for example nowadays a lot of
+[00:08:41] people are doing virtual or uh online
+[00:08:46] collaboration. So this may introduce
+[00:08:48] some barriers for clear uh
+[00:08:51] communication. So this can introduce
+[00:08:53] risk as well. And there may be some um
+[00:08:56] very commonly have uh like cross team
+[00:08:59] handover uh without a proper devop um op
+[00:09:05] uh process. Uh the team who develop the
+[00:09:08] software who review the software and who
+[00:09:10] release software maybe different uh
+[00:09:13] maybe different teams are responsible
+[00:09:15] for different parts and they don't have
+[00:09:16] enough or proper communication. So this
+[00:09:19] may introduce risk. Okay. So more
+[00:09:22] specifically typical collaboration risk
+[00:09:25] syn terms include for example uh
+[00:09:28] communication gaps such as meets the
+[00:09:32] requirements. Uh this is communication
+[00:09:34] between the stakeholders
+[00:09:36] uh with the developer team and also
+[00:09:39] perception gaps. So different ideas of
+[00:09:41] dine and credit is one of the example.
+[00:09:43] So this is perception gap uh within the
+[00:09:46] team like different team members may
+[00:09:48] have different ideas of what is done and
+[00:09:51] what is correct or what is finished but
+[00:09:53] there may be also perception gaps
+[00:09:55] between the stakeholders and the team as
+[00:09:57] well. There may be some other like
+[00:09:59] structural issues uh for example the
+[00:10:03] review process right or uncleared rows.
+[00:10:06] So who is responsible for what what is
+[00:10:09] the rows of the management team right
+[00:10:11] and then also low recovery as well such
+[00:10:14] as problem unnoticed late because
+[00:10:16] feedback loops are weak. So this is why
+[00:10:19] we emphasize a lot in this course that
+[00:10:22] uh feedback uh fast feedback and
+[00:10:24] feedback loop is very important.
+[00:10:28] So here are some examples of
+[00:10:31] collaboration risks in the context of
+[00:10:34] our task tracker projects. For example,
+[00:10:38] um even in this kind of small uh app
+[00:10:43] projects, this can happen such as delete
+[00:10:46] semantic and clear, right? And
+[00:10:48] inconsistent assumption about persistent
+[00:10:51] timing. So when is it a good time to
+[00:10:54] save the JSON file or update the JSON
+[00:10:58] file or there may be some gaps in test
+[00:11:00] coverage. Uh some people may say well um
+[00:11:04] here are those age cases but some people
+[00:11:08] um may didn't u may not realize it as
+[00:11:10] early as possible and very commonly
+[00:11:12] there may be some unclear ownership but
+[00:11:14] given that we have three springs so
+[00:11:16] hopefully uh like ownership problem is
+[00:11:19] properly solved. Uh there may be some
+[00:11:22] other kind of risk coming from security
+[00:11:25] or ethical ethical issues. For example,
+[00:11:30] uh security risk can include leaking
+[00:11:32] secrets, h how we handle tokens or users
+[00:11:36] login details, right? In either code or
+[00:11:40] logs. Um for ethical risk, there may be
+[00:11:43] some concerns about privacy and consent.
+[00:11:46] So what kind of data you can store,
+[00:11:48] right? Um do you get consent from the
+[00:11:51] user how you store the data, how you use
+[00:11:54] the data and there may be uh ethical
+[00:11:57] issues about the transparency like how
+[00:11:59] you get um the answer or what do you
+[00:12:04] give the uh the users for example now a
+[00:12:07] lot of the applications are not using uh
+[00:12:11] AI uh APIs like for example open as APIs
+[00:12:15] so there may be a lot of transparency
+[00:12:17] issue like How and why do the users see
+[00:12:22] the information that you give them? All
+[00:12:25] right,
+[00:12:27] cool. So, um
+[00:12:31] some people sometime you heard of the
+[00:12:33] term called risk retirement. So, what
+[00:12:36] what's that mean? So, risk retire means
+[00:12:39] that a risk goes away, right? And a ret
+[00:12:42] a risk is retired when you implement the
+[00:12:46] mitigation like how you handle how you
+[00:12:48] address the risk and you implement that
+[00:12:51] maybe you consider some age cases uh
+[00:12:53] maybe you show some error messages or
+[00:12:56] like how you reduce the potential harm
+[00:12:58] to the project. So after you implement
+[00:13:01] the mitigation, the risk is retired. Or
+[00:13:05] there may be evidence shows that the
+[00:13:07] risk behavior no longer happens like you
+[00:13:11] um
+[00:13:14] you eliminate the risk, you remove the
+[00:13:17] potential harm or negative impact to the
+[00:13:22] um project.
+[00:13:24] In the context of track tax task
+[00:13:27] tractor, we also have some examples such
+[00:13:29] as if the risk is persistence may load
+[00:13:34] in valid state and it can be mitigated
+[00:13:37] by strengthening persistence test adding
+[00:13:40] more test adding more like meaningful
+[00:13:42] tests.
+[00:13:46] Okay. So why do you manage risk? I think
+[00:13:48] this is quite obvious. Um because if you
+[00:13:51] don't manage risk the organization may
+[00:13:53] lose money, trust from the stakeholders
+[00:13:56] and reputation as well. For example, if
+[00:13:59] you are not dealing with the users uh
+[00:14:02] data ethically
+[00:14:04] uh and uh making sure that is like
+[00:14:07] securely storing the data, you may lost
+[00:14:10] the users data and eventually lost
+[00:14:12] trust, money or reputation and potential
+[00:14:16] viability as well.
+[00:14:19] Yeah. So this is very important.
+[00:14:24] So good task management they tend to
+[00:14:28] focus effort on high impact problem
+[00:14:30] areas. For example the ethical issues uh
+[00:14:35] the privacy issues. These are very high
+[00:14:38] impact problem areas. Uh and to reduce
+[00:14:41] the chance of surprise failures. This is
+[00:14:43] very important. So even though we manage
+[00:14:47] the risk properly, there may be still
+[00:14:49] failures like for example delaying the
+[00:14:51] project late right but what we wanted to
+[00:14:54] avoid or reduce is the chance of
+[00:14:57] surprise failures. So if we know there's
+[00:15:00] some uncertainties there uh if we know
+[00:15:03] there may be some um potentially uh
+[00:15:08] negative uh impact on something uh we
+[00:15:11] manage it properly. We either try to
+[00:15:14] avoid it to happen um although we may uh
+[00:15:18] spending longer time uh implementing
+[00:15:21] that feature for the age cases or we may
+[00:15:26] um know that if there's something active
+[00:15:29] happens uh how do we address that right
+[00:15:32] and also speed completion by lowering
+[00:15:35] overall project risk and improve
+[00:15:37] schedule probability.
+[00:15:42] Yeah, but you may know you may say well
+[00:15:45] um eventually the goal is to deliver the
+[00:15:49] project on time with good quality,
+[00:15:51] right? Um but if we are spending a lot
+[00:15:54] of time on uh understanding the risk
+[00:15:57] management instead of implementing the
+[00:16:00] stories and then we spend a lot of
+[00:16:03] upfront cost like time and effort on
+[00:16:06] those risk assessment and risk
+[00:16:08] management plan right but early
+[00:16:10] prevention is often cheaper than
+[00:16:12] reacting after failure because for
+[00:16:15] example if you already got a failure um
+[00:16:18] you may lose trust uh you may lose your
+[00:16:22] reputation, right? So that that is more
+[00:16:24] harmful. So we need to balance how much
+[00:16:27] uncertainty is worth reducing and how
+[00:16:30] expensive mitigation becomes. So we
+[00:16:32] don't want to spend too much time on
+[00:16:34] risk management or risk assessment. But
+[00:16:37] we need to make sure that the um
+[00:16:42] um those kind of risks that have a very
+[00:16:45] um important harms on the project needs
+[00:16:48] to be managed properly.
+[00:16:51] Okay. So um now we know what is risk and
+[00:16:56] what is risk management. Then we want to
+[00:16:59] know like who is responsible for this
+[00:17:01] right? What are the roles in the process
+[00:17:03] of um risk management and the ownership
+[00:17:08] of risk management is often split
+[00:17:11] between the organization and the project
+[00:17:14] team. So the ownership is shared and
+[00:17:17] splitted between the organization and
+[00:17:19] the project team.
+[00:17:22] Not all project needs the same desk of
+[00:17:24] assessments.
+[00:17:26] So for example uh a clinical
+[00:17:30] uh you application that is used for
+[00:17:34] clinical purposes. So there may be um we
+[00:17:38] need more we need deeper assessments of
+[00:17:41] risk management. Right? But for um
+[00:17:47] a smaller project that is only uh to be
+[00:17:50] used for small group people maybe the
+[00:17:52] depth of the assessment uh will be
+[00:17:54] shallower. For example uh there here's a
+[00:17:58] practical approach to
+[00:18:00] uh the process. So normally we start
+[00:18:03] with an initial assessment to
+[00:18:05] identifying the potential risk and
+[00:18:07] increase regs
+[00:18:09] indicate is necessary. So we do not need
+[00:18:12] to um we do not need to have a very
+[00:18:16] detailed as um
+[00:18:19] risk management plan for all the risks
+[00:18:22] but we uh focus on the more important
+[00:18:26] ones.
+[00:18:28] The risk ownership is shared but respond
+[00:18:31] responsibilities differ uh between the
+[00:18:33] organization the project team. So the
+[00:18:37] organization focus more on the
+[00:18:38] governance ensuring an ongoing risk
+[00:18:41] process and the governance. So it set up
+[00:18:44] set a tone for uh
+[00:18:48] like the tone of risk process. For
+[00:18:51] example, uh the governance may say well
+[00:18:53] risk management is important. Here are a
+[00:18:56] priority focusing area and this is our
+[00:18:59] process for managing the risk. Well, the
+[00:19:02] project manager focusing on more
+[00:19:04] day-to-day risk, handling day-to-day
+[00:19:07] risk and monitoring. Well, here are the
+[00:19:09] risks that are relevant to the stories
+[00:19:12] that we are implementing in this sprint
+[00:19:15] and here are the relevant risks and how
+[00:19:17] do we handling and monitoring them.
+[00:19:21] All right. So
+[00:19:25] now we talked about why risk management
+[00:19:28] is important. what is risk management
+[00:19:30] and who are responsible for risk
+[00:19:33] management. And now we are going to talk
+[00:19:35] about the more practical step by step uh
+[00:19:39] step blueprint like how how do we
+[00:19:42] actually manage the risks. So in
+[00:19:46] practice organizations choose a balance
+[00:19:49] between accepting consequences or paying
+[00:19:52] for avoidance or mitigation.
+[00:19:56] So if the race is not that harmful um
+[00:19:59] you may choose to well I can accept the
+[00:20:01] consequence it's okay right like um we
+[00:20:05] can address them later or paying for
+[00:20:10] avoidance like they plan ahead uh
+[00:20:13] spending some time and money in
+[00:20:15] identifying and applying for uh planning
+[00:20:19] for the risk. So there are two wheel
+[00:20:22] points on risk. The first one is
+[00:20:24] technical and the second one is
+[00:20:25] business. The technical viewpoints
+[00:20:28] include the tools, techniques in
+[00:20:30] environment and technical import impact
+[00:20:34] while the business one has for example
+[00:20:36] productivity,
+[00:20:39] profit, performance, demand, budget and
+[00:20:42] business case.
+[00:20:44] So our risk management should connect
+[00:20:47] both across the software life cycle. So
+[00:20:50] uh both of them are important.
+[00:20:53] So what does it mean practically about
+[00:20:56] risk management? So first of all we need
+[00:20:59] to identify the potential risk factors.
+[00:21:03] So we had some examples earlier in the
+[00:21:06] slides about the risk factors. For
+[00:21:08] example the people factors right the
+[00:21:10] collaboration communication factors.
+[00:21:12] There are also risk factors about like
+[00:21:15] privacy, ethics and uh technical risk
+[00:21:18] factors. And then after we identify the
+[00:21:22] risk factors, we analyze the probability
+[00:21:26] and the potential impact of the risk
+[00:21:29] factors
+[00:21:31] like how likely the risk is going to
+[00:21:35] happen, right? For example, the
+[00:21:38] persistence one. So the risk can be
+[00:21:41] about uh we are not uh we we do not have
+[00:21:45] a proper communication or agreement on
+[00:21:48] when to save the data in the persistence
+[00:21:52] file. Right? So there's a a
+[00:21:54] communication risk and how likely is
+[00:21:56] that going to happen? You may have like
+[00:21:59] high very high chance very low chance or
+[00:22:02] medium moderate right and the potential
+[00:22:06] impact of that risk factor. So if we
+[00:22:10] have uh inconsistent understanding about
+[00:22:13] how to save the persistent data, what
+[00:22:16] will happen? What is the impact of that
+[00:22:19] risk factor?
+[00:22:22] And then after we identify the risk
+[00:22:24] factor and analyze the probability and
+[00:22:27] potential impact, next what we need to
+[00:22:30] do is to prioritize the risk factors.
+[00:22:34] Why? The reason is because you may
+[00:22:37] identify a lot of risk factors
+[00:22:41] and managing or planning about those
+[00:22:44] risk factors also takes time, money and
+[00:22:47] resources. So we need to identify the
+[00:22:50] most important risk factors that may
+[00:22:54] have a very high chance to happen or
+[00:22:57] have a very big impact on the project to
+[00:23:00] use the what we had here to prioritize
+[00:23:04] the risk factors. And then for those
+[00:23:08] prioritized risk factors, we de uh we
+[00:23:12] develop mitigation strategies to either
+[00:23:16] reduce the probability or minimize the
+[00:23:19] negative impact if it happens or both.
+[00:23:23] So this is the practical
+[00:23:26] uh process or steps that we manage the
+[00:23:29] risks in the pro in a software project.
+[00:23:34] Um it is also very important to revisit
+[00:23:37] periodically during the project life
+[00:23:39] cycle. What does it mean? It means that
+[00:23:43] after you identify the risk factors,
+[00:23:45] analyze the the the risk um and then
+[00:23:49] having those strategies, we need to
+[00:23:52] always monitor how we manage those
+[00:23:55] risks. uh are those uh risks retired or
+[00:24:01] um do we need to increase the uh
+[00:24:05] prioritize as uh prioritize level of the
+[00:24:08] risk factors? Is there any other change
+[00:24:11] we need to make? Um and we also need to
+[00:24:14] pay special attention to the software
+[00:24:16] quality risk. Uh for example, the safety
+[00:24:18] and security risks uh which we
+[00:24:21] emphasized earlier. Uh
+[00:24:24] okay. So let's have a a look at this
+[00:24:27] example uh for task tracker project. Uh
+[00:24:30] this is about concurrent rights. Uh what
+[00:24:33] it means? It means that for example you
+[00:24:36] have a task tracker app right? You can
+[00:24:39] um submit a new task to it. What happens
+[00:24:42] if multiple users
+[00:24:45] add a task at the same time? So they
+[00:24:48] save a task a different task at the same
+[00:24:51] time. So these are an example. This is
+[00:24:54] an example of concurrent rights to the
+[00:24:56] task.json on shared holding right. So
+[00:25:00] what if the uh one of the user delete
+[00:25:03] the task and the other user added that
+[00:25:05] task or added that t added the same task
+[00:25:08] at the same time. So what will happen on
+[00:25:10] the data file. Okay. So this is one
+[00:25:13] example of the risk factor. So the first
+[00:25:17] step is that we need to identify it
+[00:25:20] right. Estimate moderate probability and
+[00:25:23] high in uh impact for this one. So why
+[00:25:27] is mo moderate pos uh probab
+[00:25:30] probability? You may want to justify it.
+[00:25:33] Uh and why it is high I also uh think
+[00:25:37] this is very high impact and if you
+[00:25:40] agree well you can justify well why why
+[00:25:43] do you think is high impact and what are
+[00:25:44] the impact. So after identifying the
+[00:25:47] next step will be prioritizing
+[00:25:51] um the t risk factors right. So we may
+[00:25:55] say well we prioritize this risk above
+[00:25:58] man some UI issues. So there may be some
+[00:26:01] risk about the UI issues as well but the
+[00:26:03] UI issues is not um as important as this
+[00:26:07] concurrent rights um risk factor. And
+[00:26:11] then uh you need to think about how do
+[00:26:14] you want to mitigate this risk right? So
+[00:26:17] you may want to define a save or merge
+[00:26:20] rule or add backups or autoomic rise or
+[00:26:25] others. Here are just some examples. So
+[00:26:28] I would say you need a more detailed
+[00:26:30] plan for mitigation like how are you
+[00:26:33] going to address that risk factor and
+[00:26:37] this is about when you uh already have
+[00:26:40] an um
+[00:26:43] risk management plan. We still need to
+[00:26:47] revisit these risk factors after
+[00:26:50] changing position or deployment
+[00:26:52] to double check and making sure the plan
+[00:26:56] the risk management plan works right
+[00:26:58] everything works properly.
+[00:27:02] Um does risk management actually improve
+[00:27:05] IT project outcomes? That's a open
+[00:27:08] question for you. What do you think? Do
+[00:27:10] you think risk management actually
+[00:27:12] improve IT project outcomes?
+[00:27:17] There's some studies about this
+[00:27:19] question. Um and this is one of the um
+[00:27:23] very famous paper in 2009.
+[00:27:26] It finds that there are still very
+[00:27:29] little empirical evidence that risk
+[00:27:31] knowledge is actually used in project.
+[00:27:35] Uh and the content factor is hard. It is
+[00:27:39] difficult to prove what would have
+[00:27:41] failed result or risk management. Right?
+[00:27:43] So it's hard to know whether risk
+[00:27:46] management actually improved the atti
+[00:27:48] project success
+[00:27:50] and the stakeholder perceptions and
+[00:27:52] behavior appear very central to the
+[00:27:54] question as well.
+[00:27:57] Yeah. So if you're interested in
+[00:28:00] understanding more about why sorry does
+[00:28:03] risk management actually improves
+[00:28:05] success here's a really interesting
+[00:28:07] paper that you can have a read.
+[00:28:12] Um so I think this is more a more
+[00:28:15] relevant question like when does risk
+[00:28:17] management work? So this is what we care
+[00:28:19] about right? So when does it actually
+[00:28:21] work and evidence suggests that risk
+[00:28:24] management may be effective only under
+[00:28:26] specific conditions.
+[00:28:29] For example when it changes stakeholders
+[00:28:31] awareness.
+[00:28:33] Uh this is very common like people don't
+[00:28:35] care about risk management.
+[00:28:38] uh a risk management only work when they
+[00:28:42] aware of those potential risk to harm
+[00:28:44] the impact right and or when the
+[00:28:48] expectations and behavior adjusted based
+[00:28:50] on risk information.
+[00:28:53] So the risk management plans not just on
+[00:28:55] paper um but is actually changing the
+[00:28:58] behavior of the team and when
+[00:29:01] practitioners pay attention to risk more
+[00:29:03] than just following the prescripts.
+[00:29:06] So it's more like um a mental uh thing
+[00:29:11] like a culture thing.
+[00:29:16] Okay. So now we have learned about the
+[00:29:19] risk management.
+[00:29:21] Now it is important like how we can
+[00:29:23] practice using risk management uh
+[00:29:27] strategies process for our project.
+[00:29:31] Okay. So let's have a look. Um in sprint
+[00:29:35] three we will have a risks report. Uh it
+[00:29:40] should be actionable enough that you can
+[00:29:42] map what are the risks, how you are
+[00:29:45] going to mitigate the risk factors and
+[00:29:48] how you are going to know it worked.
+[00:29:52] There are a few required fuse for the
+[00:29:55] risk report. It's like what you write
+[00:29:57] actually on the risk report. So we need
+[00:30:01] one block per risk. So this is one block
+[00:30:05] per risks. Um for example the first one
+[00:30:09] is the risk statement. So we give you a
+[00:30:13] structure about how to write risk
+[00:30:16] statement. Uh where is it? Yeah the risk
+[00:30:22] statement formula. So if something
+[00:30:25] happens, the cause happens then the bad
+[00:30:29] outcomes because of what reason. So you
+[00:30:33] can use this structure to write your uh
+[00:30:37] risk statement and then as we mentioned
+[00:30:40] it's important to analyze that risk
+[00:30:43] factor uh about the likelihood of how
+[00:30:47] likely it is going to happen and the
+[00:30:50] impact of that risk factor if it
+[00:30:53] happens. So we need to justify them as
+[00:30:56] well. uh the owner of this risk. So who
+[00:31:00] monitors it? You may want to nominate
+[00:31:03] one of your group member or a few group
+[00:31:06] members as the owner of this risk
+[00:31:08] factor. How you are going to mitigate or
+[00:31:12] continue uh or like your your plan to
+[00:31:15] address the risk factor? What will do
+[00:31:19] before the failure if it happens or if
+[00:31:22] it happens anyway? Right? So how are you
+[00:31:25] going to reduce the negative impact on
+[00:31:28] the project and make sure that uh is you
+[00:31:32] are not losing a lot of money, time or
+[00:31:35] resources or failure of the project.
+[00:31:39] Uh this is also very important. So we
+[00:31:43] also need to like um we need to address
+[00:31:46] the risk factor, right? But we need an
+[00:31:49] evidence like how we address the uh risk
+[00:31:53] factor. For example, you may add some
+[00:31:56] more test for the persistence when
+[00:31:59] there's a concurrent rights to the
+[00:32:01] database. Right? So, uh did you have an
+[00:32:05] issue for this risk management? Uh did
+[00:32:09] you add test for it as a part of
+[00:32:11] mitigation plan? Uh what what is the
+[00:32:14] link to the merge request or any commit
+[00:32:17] that support the mitigation?
+[00:32:19] Right? Is the risk factor still open or
+[00:32:23] has been mitigated or has been accepted
+[00:32:25] or resolved? The status of the risk
+[00:32:28] factor and the time when you last
+[00:32:31] reviewed the risk factor.
+[00:32:34] It is recommended to save the uh risk
+[00:32:38] report. Enter your report and link it
+[00:32:40] from your root read file.
+[00:32:46] We also provide you with um
+[00:32:51] a template. So the template is
+[00:32:59] uh here. So here's a template that you
+[00:33:02] can use for your RIT report but this is
+[00:33:05] optional. You can have your own
+[00:33:07] structure but this is somewhere uh you
+[00:33:10] can start from.
+[00:33:14] Cool
+[00:33:18] example about the persistence
+[00:33:20] uh risk factor again uh for the risk
+[00:33:24] statement. So uh if task.json becomes
+[00:33:28] invalid by for example corrupted JSON
+[00:33:32] then the app may crash on load because
+[00:33:35] it does JSON.load without recovery. So
+[00:33:38] this is an example for you to use. Um I
+[00:33:42] also provided you with this uh example
+[00:33:47] about the posistence failure like what
+[00:33:49] is your risk statement uh the likelihood
+[00:33:52] and impact and your justification for
+[00:33:55] them and uh oh I think this is not
+[00:33:58] showing the full thing. Um
+[00:34:03] yeah I'll have a look at that. Um so
+[00:34:06] there are three places for this example.
+[00:34:10] Uh you can have like evidence uh for it.
+[00:34:13] For example, how you address studying
+[00:34:15] applied
+[00:34:18] the text file and the conf text test
+[00:34:21] file as well.
+[00:34:25] Yeah. More examples.
+[00:34:31] Yeah. So this is a continuing example or
+[00:34:34] a continuing um example.
+[00:34:45] Yeah. So here are the references that I
+[00:34:47] just mentioned about where we got the uh
+[00:34:50] definition of risk management software
+[00:34:52] engineering and uh how do we know uh the
+[00:34:56] risk management contribute to the ID
+[00:34:59] project success. Perfect. So this is a
+[00:35:02] pretty short lecture on risk management.
+[00:35:04] So it is not a very challenging
+[00:35:07] concepts. Uh have a try practicing
+[00:35:10] applying what we have learned in this
+[00:35:12] lecture uh for your project and uh using
+[00:35:16] the template and the structure to have
+[00:35:19] your own risk management plan. All
+[00:35:22] right, good luck.

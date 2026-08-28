@@ -1,0 +1,1223 @@
+[00:04:44] Testing online online can hear me.
+[00:04:51] Online testing testing.
+[00:05:00] Can you hear me?
+[00:05:02] Online online testing for online.
+[00:05:09] Okay, cool.
+[00:05:11] They can hear us. Perfect.
+[00:05:14] All right. Um
+[00:05:18] Thank you. Before we get started, uh
+[00:05:22] could I please ask everyone to move a
+[00:05:25] little bit closer together because
+[00:05:27] today's lecture is a very interactive.
+[00:05:30] So, if you can sit next to someone,
+[00:05:33] that'll be great.
+[00:05:35] Oh, that noise here.
+[00:05:37] Um
+[00:05:38] And for those who are online, if you can
+[00:05:41] prepare a piece of paper, that'll be
+[00:05:43] helpful as well.
+[00:05:46] Um for those who are here in person, if
+[00:05:49] you have a piece of paper, that'll be
+[00:05:51] fine, too.
+[00:05:53] Yeah, if you are sitting alone, that'll
+[00:05:54] be a little bit tricky for you to do the
+[00:05:56] activities today. Um
+[00:05:59] Yeah, but up to you. Okay, cool. A lot
+[00:06:02] of activities today.
+[00:06:04] I know this is our very last lecture
+[00:06:08] of the term and it's autumn now, so it's
+[00:06:11] dark outside. So, I know everyone can be
+[00:06:14] a little bit tired, uh
+[00:06:16] dizzy, or sleepy. It's fine. I'll try my
+[00:06:19] best to make this lecture interactive,
+[00:06:21] engaging, so you are not that sleepy.
+[00:06:24] So, for the ones who just arrived, if
+[00:06:26] you can sit next to someone, that'll be
+[00:06:28] very helpful because all of our
+[00:06:30] activities today will be very
+[00:06:31] interactive. I'm not sure if you heard
+[00:06:33] me, but let's go ahead. Okay, so um ooh
+[00:06:37] hoo. I really hate this noise. I don't
+[00:06:41] know why.
+[00:06:43] All right, I'll put it here. All right.
+[00:06:44] Um so, today's lecture is mainly about
+[00:06:48] reflection, so looking back at the past
+[00:06:52] eight or nine weeks,
+[00:06:54] uh what we have learned, how we can move
+[00:06:57] into the future, uh and next steps. So,
+[00:07:01] there's not too much new today, uh but I
+[00:07:04] feel like every time the very last
+[00:07:06] lecture is the most meaningful one
+[00:07:08] because you cannot put every pieces into
+[00:07:11] one coherent picture and you find the
+[00:07:13] relationship and you summarize and uh
+[00:07:16] get the main takeaway from the course.
+[00:07:19] So, it's very helpful. Okay, cool. So,
+[00:07:21] um Now we have talked about software
+[00:07:24] project management for a term now, um
+[00:07:28] what's your understanding about software
+[00:07:31] project management and why do you think
+[00:07:33] it is important?
+[00:07:35] So, this is our main focus of today.
+[00:07:38] Um
+[00:07:39] Cool. So, uh we started our course in
+[00:07:43] our very first lecture talking about why
+[00:07:45] it matters. Uh is after the weeks of
+[00:07:49] practicing the activities and the
+[00:07:51] project, so now what why do you think it
+[00:07:54] is important?
+[00:07:56] Yeah.
+[00:08:01] How to be structured?
+[00:08:04] Uh-huh.
+[00:08:17] Uh-huh. Especially when you are working
+[00:08:19] with people. I or a large group people,
+[00:08:23] right? Yeah, ex- exactly. So, um
+[00:08:26] software project management is important
+[00:08:28] especially when you are working with
+[00:08:30] large scales. Large scale project or
+[00:08:32] large scale groups, but for us, although
+[00:08:34] we work in a group of like three or five
+[00:08:36] people, but you still get a some
+[00:08:38] opportunities to see uh the importance.
+[00:08:40] What else? So, what's your understanding
+[00:08:43] about software project management now?
+[00:08:45] Or um what what do you think is the
+[00:08:47] difference between other project
+[00:08:50] management like engineering project
+[00:08:52] management?
+[00:08:53] Or what's the difference between
+[00:08:57] just software project development
+[00:09:00] in general?
+[00:09:13] Uh-huh.
+[00:09:20] Yeah.
+[00:09:23] Uh-huh.
+[00:09:26] Yeah.
+[00:09:28] Uh-huh.
+[00:09:30] Yeah.
+[00:09:32] Uh-huh.
+[00:09:35] Mhm.
+[00:09:42] Mhm. Yeah, so for software project
+[00:09:44] management, there are specific systems
+[00:09:46] or tools that we use. For example, Git.
+[00:09:49] Right? So, Git is very specialized for
+[00:09:52] software project management, not for
+[00:09:54] general engineering project management.
+[00:09:56] And also, for example, pipelines. Right?
+[00:09:59] So, these are automation tools that are
+[00:10:00] specialized for software projects. Yeah,
+[00:10:03] so this is different.
+[00:10:05] Um okay. So, find a neighbor if
+[00:10:10] possible. Let's do some warm-up
+[00:10:12] activities for 90 seconds. So, partner
+[00:10:15] A, name one idea from this course you
+[00:10:17] would happily mention in a job interview
+[00:10:20] or a inter- like interview chat. And
+[00:10:23] partner partner B, do the same and then
+[00:10:25] try to find something in common if
+[00:10:27] possible.
+[00:10:30] You still have time to move if you want.
+[00:10:33] Or you can just think for yourself.
+[00:10:35] Okay, start.
+[00:10:38] Yay.
+[00:10:50] Maybe I can give you some inspiration
+[00:10:52] and a reason why we are doing this.
+[00:10:54] Because I
+[00:10:55] What I found is that this kind of
+[00:10:57] specialized course is very useful for
+[00:11:00] job applications rather than like very
+[00:11:02] general ones. So, I hope you can take
+[00:11:05] away something from the course that you
+[00:11:07] can bring to your job interview or a
+[00:11:09] portfolio that you used to apply for a
+[00:11:12] job. So,
+[00:11:13] yeah, so there may be something that you
+[00:11:15] have learned but you haven't realized
+[00:11:17] that you learned that. So, such kind of
+[00:11:19] conversation can help each other give
+[00:11:22] some like inspirations. So, that's why
+[00:11:24] we are doing that. Okay, have have a
+[00:11:27] have some
+[00:11:28] chat.
+[00:11:30] For those who are online, feel free to
+[00:11:32] pop in the chat your thoughts.
+[00:11:38] Hi. Do you mind sitting next to that
+[00:11:40] girl so that you can have a chat? Thank
+[00:11:42] you.
+[00:11:49] Yeah, sit next to the girl over there.
+[00:11:51] Thank you. Because we're doing some
+[00:11:52] activities as in pairs.
+[00:11:55] Yeah, thanks.
+[00:12:15] Do you want to move together with the
+[00:12:17] other girls?
+[00:12:19] Sorry.
+[00:12:47] All right, time for partner B.
+[00:13:44] All right, time. I know some of you are
+[00:13:47] still having discussions, but we would
+[00:13:49] like to hear some ideas from you.
+[00:13:52] Um
+[00:13:53] All right, I have a mic now.
+[00:13:55] All right. Ooh, sorry.
+[00:13:58] I'm checking for online to make sure
+[00:13:59] that they can hear us. Anyone wants to
+[00:14:03] have a try? Yeah, all right.
+[00:14:08] There you go.
+[00:14:33] Yeah.
+[00:14:37] Uh-huh.
+[00:14:40] Yeah.
+[00:14:49] Uh-huh.
+[00:14:55] Uh-huh.
+[00:15:00] Yeah, do you have anything to add?
+[00:15:09] Mhm.
+[00:15:19] Mhm.
+[00:15:27] Mhm.
+[00:15:37] Mhm. Yeah, okay. So, let me just
+[00:15:39] summarize what do you mention
+[00:15:42] for the online people. So,
+[00:15:44] there are few things that you mentioned.
+[00:15:46] One is collaborating in a software
+[00:15:49] project using Git, for example,
+[00:15:53] merge request, pipeline. The other
+[00:15:58] that The other thing that you mentioned
+[00:15:59] was about issue board. Like how people
+[00:16:02] can collaborate using issue board to
+[00:16:03] make sure that everyone's on the same
+[00:16:05] page, like knowing what's the next step.
+[00:16:08] So, what what are next thing that the
+[00:16:10] team needs to do. Okay, amazing. So, um
+[00:16:14] anything else that you want to mention
+[00:16:17] during your job interview about project
+[00:16:19] management skills that you have learned?
+[00:16:24] Documentation.
+[00:16:25] Okay, so what kind of documentation?
+[00:16:30] Keeping everything on track?
+[00:16:32] Yeah, that's good. So, what have you
+[00:16:34] learned about documentation?
+[00:16:43] Uh-huh.
+[00:16:46] Everyone has a view of what everyone's
+[00:16:48] doing.
+[00:16:50] Yeah, that's very important. So, that's
+[00:16:53] that's what we call traceability
+[00:16:55] actually in in software project
+[00:16:56] management. It's very important to have
+[00:16:58] this kind of traceability for other team
+[00:17:01] members, for your future self, or for
+[00:17:04] future new team members. So, it's very
+[00:17:07] important and also for stakeholders as
+[00:17:09] well. Amazing. That's great. So,
+[00:17:12] it's great that you learned something
+[00:17:14] from the course that you can take to a
+[00:17:15] job interview. We can continue this
+[00:17:17] discussion with your team members. So,
+[00:17:19] there may be something you have learned
+[00:17:21] but you haven't realized you have
+[00:17:22] learned that. Okay?
+[00:17:24] Yeah, so let's put what we have learned
+[00:17:27] so far in the course in one picture. So,
+[00:17:30] what we have learned? So, we started by
+[00:17:32] learning organizing the work and the
+[00:17:34] team. So, managing the people, so
+[00:17:37] teamwork.
+[00:17:38] Using tools, for example, Git as you
+[00:17:41] mentioned about Git, like merge request,
+[00:17:44] and issue board. And we also learn
+[00:17:46] about, for example, psychological
+[00:17:48] safety.
+[00:17:49] Right? So, every people should be able
+[00:17:51] to
+[00:17:52] speak
+[00:17:53] um feeling safe during, for example,
+[00:17:56] sprint retros.
+[00:17:57] Right?
+[00:17:58] And we also learned about verifying
+[00:18:00] quality and the change. We mentioned
+[00:18:03] that change is so common, so normal in
+[00:18:06] software projects. And how we can making
+[00:18:10] sure that giving all those changes we
+[00:18:12] can still feeling well, this
+[00:18:14] everything's verified. We can confirm
+[00:18:16] the quality is good.
+[00:18:18] We used testing, we used the CDD, we
+[00:18:21] used the pipeline. We used this kind of
+[00:18:23] quality control. We also learn about
+[00:18:25] shipping and operate.
+[00:18:28] I know like deployment in this course is
+[00:18:30] not required for IP
+[00:18:32] uh
+[00:18:33] considerations, but if you haven't done
+[00:18:35] the deployment lab, I would strongly
+[00:18:37] encourage you to have a try that one.
+[00:18:38] That is very interesting to see your
+[00:18:41] application is up online.
+[00:18:44] Okay, and we also talk about, for
+[00:18:46] example,
+[00:18:47] maintainability. So, when the software
+[00:18:49] project is done but not that kind of
+[00:18:51] done, how you maintain it, how you
+[00:18:54] manage complexity of the
+[00:18:56] the project and also
+[00:18:58] uh the the principles of good software
+[00:19:01] code. Right? We also talk about like
+[00:19:04] uncertainty, like talk about risks and
+[00:19:07] how do we manage risks.
+[00:19:08] Okay, so here are some more details.
+[00:19:11] Have a look and see if there's something
+[00:19:14] you are still not that confident in.
+[00:19:17] Maybe you want to learn more
+[00:19:19] in the next couple of weeks or in the
+[00:19:21] future. For example, in the early weeks
+[00:19:24] we talk about processing collaboration,
+[00:19:27] for example, Agile.
+[00:19:29] Do you Do you remember the principles of
+[00:19:32] Agile?
+[00:19:35] >> [laughter]
+[00:19:38] >> Any of them?
+[00:19:42] Sort of.
+[00:19:44] Collaboration, yes.
+[00:19:47] So, a group of people can do much more
+[00:19:51] one single genius.
+[00:19:53] Right? What else?
+[00:19:58] Adapt Adaptable
+[00:20:00] Adaptate
+[00:20:01] >> [laughter]
+[00:20:02] >> Adaptability
+[00:20:04] over
+[00:20:06] planning. Right? Doesn't mean that
+[00:20:08] planning and organization is not
+[00:20:09] important, but adaptability is more
+[00:20:11] important like flexibility.
+[00:20:14] Right? But there are also other ones. If
+[00:20:17] you forget, no problem. Have a look back
+[00:20:19] in the first lecture. The second one or
+[00:20:22] the first one? I can't The The first
+[00:20:25] one, I think. Or the second one. Anyway,
+[00:20:28] uh we also talk about teamwork. And the
+[00:20:30] core of teamwork is psychological
+[00:20:32] safety. Right?
+[00:20:34] Um and also Git workflow, uh merge
+[00:20:37] conflicts. Very, very common. How do you
+[00:20:40] resolve that? Right? Practical ones. And
+[00:20:43] planning. How do you know what you are
+[00:20:45] going to build?
+[00:20:48] By talking with stakeholders. Right?
+[00:20:50] Talking with potential users. And do the
+[00:20:53] requirement engineering process.
+[00:20:56] So, what are the requirement engineering
+[00:20:58] process?
+[00:20:59] The first stage is collecting data by
+[00:21:02] talking with people.
+[00:21:03] The second step is analyzing the data.
+[00:21:07] Finding priorities.
+[00:21:09] And the third step was
+[00:21:14] No, the planning phase.
+[00:21:18] It's okay. You still have the slides.
+[00:21:21] Have a look at the slides
+[00:21:23] and making sure that when you do your
+[00:21:25] next project you still know what what
+[00:21:27] what was the process to follow.
+[00:21:31] Right? Uh the third part was
+[00:21:33] consolidation. So, having the
+[00:21:35] documentations. And the fourth step was
+[00:21:37] validation. So, coming back to the
+[00:21:39] stakeholders to verify validate your
+[00:21:42] assumption about the stories.
+[00:21:45] Right? So, um
+[00:21:47] after those early weeks in the middle of
+[00:21:50] the term, we talk about quality and the
+[00:21:52] change.
+[00:21:54] Including testing. Like how to write
+[00:21:57] unit test.
+[00:22:00] Using Pytest. Right? For the back end.
+[00:22:02] But there are other There are ways to
+[00:22:04] test for the front end as well. Although
+[00:22:07] it's out of the scope for this course,
+[00:22:09] but I will encourage you to have a look
+[00:22:10] in the future to make sure that your
+[00:22:12] front end is safe as well.
+[00:22:15] We also talk about TDD, which is
+[00:22:21] Test driven development. Right? Uh What
+[00:22:25] What does that mean?
+[00:22:28] You write the test first.
+[00:22:30] And implement that. Yeah. Do we write
+[00:22:33] all the test first and then write all
+[00:22:35] the implementation later?
+[00:22:37] No.
+[00:22:40] Yeah, it's a way of black box testing.
+[00:22:43] Like you don't need to know how that
+[00:22:45] function or how that unit uh is
+[00:22:49] implemented in detail, but you can write
+[00:22:51] the test based on the stories.
+[00:22:54] Right? Or other documentations. Now it's
+[00:22:57] the CI. What is CI?
+[00:23:03] Continuous integration. Yes. So, how do
+[00:23:07] we manage continuous integration?
+[00:23:10] Using pipeline. Yeah. So, in GitLab, how
+[00:23:14] do we add a pipeline?
+[00:23:18] Sorry?
+[00:23:19] The YAML file. Yes, the YAML file. But
+[00:23:22] for different Git platforms, uh there
+[00:23:25] maybe they they have their own ways of
+[00:23:27] managing the pipeline. But the basic
+[00:23:30] idea that the the um the logic behind is
+[00:23:33] the same.
+[00:23:35] We also talk about coverage.
+[00:23:38] What is coverage?
+[00:23:44] Yes. So, how's the percentage of the
+[00:23:48] test covering
+[00:23:50] your code? Making sure that there's no
+[00:23:54] uh code or branches or logic in your
+[00:23:59] code is not covered by test. Why is that
+[00:24:02] important?
+[00:24:09] Or what bugs? Yes. What else?
+[00:24:15] Because we are always making changes to
+[00:24:18] the project. Right? And when we making
+[00:24:21] the change, we want to make sure that we
+[00:24:23] are not breaking anything. How do we
+[00:24:26] know that we are not breaking anything?
+[00:24:29] By having those test. Yes. So, if we
+[00:24:32] miss some test for some of the functions
+[00:24:35] and we make some changes to the
+[00:24:36] functions,
+[00:24:38] we won't know whether it's still working
+[00:24:41] or not. Right? So, when we talk when we
+[00:24:44] were talking about TDD, we mentioned
+[00:24:45] that after we write the test, we only
+[00:24:48] write enough code to make sure the test
+[00:24:50] passed. Right? So, the code may not be
+[00:24:52] perfect. It just make the test pass. So,
+[00:24:55] in the future we may want to do some
+[00:24:57] like refactoring to the function.
+[00:25:00] Following the principles that we talked
+[00:25:02] about. For example,
+[00:25:12] What are
+[00:25:13] Can you think of any example?
+[00:25:19] Try to make uh your code as simple as
+[00:25:21] possible. Right? Any single line of code
+[00:25:24] you write, you need to maintain it. This
+[00:25:25] is one of them. Right? Uh
+[00:25:28] What else?
+[00:25:32] Don't assume
+[00:25:34] the future. Don't make assumptions about
+[00:25:36] the future. Don't write something and
+[00:25:38] assume, "Well, in the future I will need
+[00:25:40] that."
+[00:25:41] What are the What are the other
+[00:25:43] principles?
+[00:25:47] Sorry?
+[00:25:50] What was that? Can you
+[00:25:54] >> [laughter]
+[00:25:54] >> It's okay. So, we also talk about
+[00:25:57] coherent cohesion.
+[00:25:59] And uh
+[00:26:03] Sorry?
+[00:26:05] Coherent and cohesion. Yeah. So, one
+[00:26:08] request to be
+[00:26:10] high and the other one
+[00:26:13] ideally to be low. Which one's high?
+[00:26:15] Which one's low? Have a think about
+[00:26:17] that. If you're not sure, go back to the
+[00:26:19] lecture and have a look.
+[00:26:22] Okay, there are other ones as well.
+[00:26:27] Um
+[00:26:28] Would you For example, would you prefer
+[00:26:32] clear code or smarter code?
+[00:26:36] Clear code.
+[00:26:38] Right? Yeah. What else?
+[00:26:41] All right. Time
+[00:26:43] work for you after this lecture. All
+[00:26:45] right? Have a look at the principles
+[00:26:47] after lecture.
+[00:26:49] Um we also talk about maintainability.
+[00:26:53] So, maintainability is about the
+[00:26:54] principles. So, we have already
+[00:26:56] mentioned that. Now.
+[00:26:58] All right. For those people who are
+[00:27:00] online, feel free to join us in the
+[00:27:02] chat. I'll be monitoring the chat. Okay?
+[00:27:06] So, after that middle uh section of the
+[00:27:10] uh the term, we talk about
+[00:27:13] delivery and scale. So, deployment lab
+[00:27:18] strongly strongly encourage everyone to
+[00:27:20] do it if you haven't. Uh persistence.
+[00:27:24] What's persistence?
+[00:27:29] Persistence means that when you restart
+[00:27:31] the server, the data is not lost.
+[00:27:35] For example, the user adding something
+[00:27:38] to the shopping cart.
+[00:27:40] They log out. They log in.
+[00:27:43] Is the data or the items are still in
+[00:27:45] the shopping cart or not?
+[00:27:48] All right? Or when you add a new task to
+[00:27:51] your task tracker and you restart the
+[00:27:53] server, will that task still be there?
+[00:27:57] So, this is persistence. How can we have
+[00:28:00] persistence layer in our project in the
+[00:28:03] easiest way?
+[00:28:07] By having a database. So, what's the
+[00:28:09] easiest database that you can have?
+[00:28:14] Huh?
+[00:28:15] In uh
+[00:28:16] In memory's not a database.
+[00:28:19] >> [laughter]
+[00:28:20] >> Yeah, you can save the data in a file.
+[00:28:23] Right? And the most commonly used file
+[00:28:26] to store uh storage this kind of data is
+[00:28:29] JSON file.
+[00:28:31] Right?
+[00:28:32] Okay. Next one what we learned was
+[00:28:35] complexity. Why do we care about
+[00:28:39] complexity?
+[00:28:44] Yeah, because we need to maintain it.
+[00:28:46] Right? Writing the uh software, testing
+[00:28:49] it is not the end of its life cycle. Uh
+[00:28:52] we need to maintain it. And making sure
+[00:28:54] the software is not too complex uh makes
+[00:28:58] the maintain easier. What else? What are
+[00:29:01] the other reasons that we care about
+[00:29:03] complexity?
+[00:29:06] Sorry?
+[00:29:08] Because of all the changes, it's less
+[00:29:10] likely to make mistakes or add new bugs.
+[00:29:14] What else? Why do we care about
+[00:29:16] complexity?
+[00:29:23] Because in the future when we want to
+[00:29:25] make some changes, we need to estimate
+[00:29:27] how long it will take.
+[00:29:30] Right?
+[00:29:31] And knowing the complexity of that unit
+[00:29:35] or software component or module
+[00:29:38] helps us in estimating the time, effort,
+[00:29:42] people, resources that we need to put in
+[00:29:45] to that refactoring or change.
+[00:29:48] Cool. Um Um more recently we talked
+[00:29:51] about uncertainty and governance
+[00:29:54] including risk management and having
+[00:29:57] evidence for um
+[00:30:00] for example, the risk management and
+[00:30:02] traceability.
+[00:30:04] So, this was a recording. So, a very
+[00:30:07] short recording. If you haven't watched
+[00:30:09] that recording yet, uh it's just a 40
+[00:30:13] minutes or half an hour recording, very
+[00:30:15] short. So, if you haven't watched that,
+[00:30:16] have a look at that. Um but if you don't
+[00:30:19] want to watch the recording, the slides
+[00:30:21] is also very detailed. So, you can also
+[00:30:23] have a look at the slides.
+[00:30:27] >> [cough]
+[00:30:28] >> Okay. Um try to find a partner. I don't
+[00:30:33] need to be three or four, uh but just a
+[00:30:35] partner. Pick one concrete topic from
+[00:30:38] the course.
+[00:30:40] And complete the sentence.
+[00:30:43] That topic mainly helped us manage blah
+[00:30:45] blah blah because blah blah blah. So,
+[00:30:48] this can be useful for your job
+[00:30:49] interview as well. So, have a try.
+[00:30:54] 2 minutes.
+[00:32:33] Finished?
+[00:32:36] >> [laughter]
+[00:32:39] >> I'll just give some more time for those
+[00:32:41] online.
+[00:32:53] All right.
+[00:32:55] So, um which topic did you choose?
+[00:33:01] Quality.
+[00:33:03] So, how quality helped you?
+[00:33:13] Uh sorry, 1 second. Let's give you a mic
+[00:33:15] to make sure that everyone can hear you.
+[00:33:23] There we go.
+[00:33:48] Mhm. Cool. Amazing. Anyone else? Want to
+[00:33:51] have the mic?
+[00:33:54] Yeah.
+[00:33:55] Cool. Thank you.
+[00:34:17] Mhm.
+[00:34:21] Mhm. Yeah. Yeah, cool. I think the two
+[00:34:24] topics are related. Like one is about
+[00:34:26] quality and the other one is like type
+[00:34:28] plan. Yeah, very relevant.
+[00:34:32] Cool. Great. Thank you. Anyone else want
+[00:34:34] to
+[00:34:35] choose a topic?
+[00:34:38] >> [laughter]
+[00:34:39] >> Okay. Thank you.
+[00:34:57] Mhm.
+[00:35:07] Yeah.
+[00:35:08] Yeah, cool. Thank you. So, the topic was
+[00:35:10] retro. So, that's where every group
+[00:35:13] member comes together and talk about
+[00:35:16] what we need to change, how everything
+[00:35:19] works, right? You can keep the mic for
+[00:35:20] now. Thanks. Cool. Amazing. Uh have a
+[00:35:24] chat with your team member as well about
+[00:35:26] that. So, it's a great way for
+[00:35:29] reflection.
+[00:35:31] Cool. So, now we talk about what helped
+[00:35:34] us. So, now let's talk about what
+[00:35:36] stretched you the most.
+[00:35:41] Hands up if people and process stuff
+[00:35:44] stretched you the most this term.
+[00:35:48] A few.
+[00:35:50] Okay.
+[00:35:51] >> [laughter]
+[00:35:52] >> Cannot fly.
+[00:35:53] Uh hands up if technical deliveries such
+[00:35:56] as test, deploy, persistence stretched
+[00:35:59] you the most.
+[00:36:05] All right. So, I think majority of
+[00:36:07] people choose the people
+[00:36:10] and manage.
+[00:36:12] >> [laughter]
+[00:36:13] >> Uh why?
+[00:36:26] Do you feel managing a team challenging?
+[00:36:33] Depends on the people.
+[00:36:36] >> [laughter]
+[00:36:38] [gasps]
+[00:36:38] >> Cool.
+[00:36:39] Uh no problem. We'll do some more
+[00:36:41] activities about that very soon. All
+[00:36:43] right. So,
+[00:36:45] um I'm not going to talk through the
+[00:36:47] details here, but I put these in the
+[00:36:49] slides about uh what we learned in this
+[00:36:54] course and some key takeaways. So, for
+[00:36:56] example, the first takeaway in the
+[00:36:59] course is that delivery is a social and
+[00:37:02] a technical system. Like software system
+[00:37:04] is both social and technical. So, for
+[00:37:07] people who are good at coding, it
+[00:37:09] doesn't necessarily mean they are good
+[00:37:11] at software project or software project
+[00:37:14] management. So, it's both social and
+[00:37:15] technical. So, you need to have both
+[00:37:18] skills so you can be a master in
+[00:37:20] software engineering.
+[00:37:22] Um tooling is part of how you manage
+[00:37:25] coordination change. So, in this course
+[00:37:27] we introduced a few tools that you can
+[00:37:30] use, but there are more tools that's
+[00:37:32] available. For example, um Jira.
+[00:37:37] That's a more powerful project
+[00:37:39] management tool. Um and now there are
+[00:37:41] some AI tools as well, uh new ones. Um
+[00:37:45] I'm not introducing any specific ones in
+[00:37:47] the course because I'm not too sure if
+[00:37:50] any of them is mature enough to be
+[00:37:52] introduced in a course like this, but
+[00:37:55] you can feel free to explore them
+[00:37:57] yourself. Uh there are a few that are
+[00:37:59] specifically for software project
+[00:38:01] management, not for coding, but for
+[00:38:04] project manage software project
+[00:38:05] management.
+[00:38:06] Okay. Um another takeaway in the second
+[00:38:10] uh block of the course was plan will be
+[00:38:12] wrong.
+[00:38:13] Have you exper- experienced that
+[00:38:16] in the project? You had wrong plans?
+[00:38:19] No.
+[00:38:21] >> [laughter]
+[00:38:22] >> Uh you're very lucky. But it's very
+[00:38:24] often very common that plan goes wrong.
+[00:38:28] It's okay, right? We are Agile. Like we
+[00:38:30] are doing weekly meetings. We are doing
+[00:38:33] like bi-weekly sprints or three week
+[00:38:36] three week sprints. So, it's okay. Uh we
+[00:38:38] can always go back. Uh plan loop uh
+[00:38:41] feedback loop are important. Like we
+[00:38:43] plan, we act, and then we review. So,
+[00:38:45] that's why
+[00:38:46] uh retro is very very important here.
+[00:38:49] All right. Um for the third block, some
+[00:38:52] key takeaway is quality is habitual.
+[00:38:56] Right? It's quality is building your
+[00:38:58] habit. So, um
+[00:39:01] making sure that you have test first,
+[00:39:03] following the TDD uh approach, uh making
+[00:39:06] sure that your test cover um
+[00:39:09] your
+[00:39:10] code
+[00:39:12] and use pipelines to help you with the
+[00:39:14] process.
+[00:39:15] All right. It works on my machine. Is it
+[00:39:18] enough?
+[00:39:19] No. No, it's not enough. It needs to be
+[00:39:22] available for other people to use. And
+[00:39:25] you need to be able to manage a software
+[00:39:27] project even after it's available for
+[00:39:30] other people to use, right? For
+[00:39:32] refactoring, for adding new features,
+[00:39:34] and making new changes.
+[00:39:37] Um uncertainty is very important. Plans
+[00:39:39] can be wrong, right? So, uncertainty is
+[00:39:41] also very common. How we can act upon
+[00:39:44] those uncertainties and managing those
+[00:39:46] risks is also important.
+[00:39:49] All right. So, a very quick activity
+[00:39:51] here. So, now we have three themes that
+[00:39:55] arise from the previous slides. One is
+[00:39:58] traceability. So, what does traceability
+[00:40:00] mean? So, documentation is one, right?
+[00:40:02] The merge request is one traceability.
+[00:40:04] The issues are traceability. The
+[00:40:06] documentations
+[00:40:08] are commit messages. So, these are all
+[00:40:10] about traceability. So, why is it
+[00:40:12] important for your future self, for
+[00:40:14] other team member, right? Um and the
+[00:40:17] other one is automation. If we do
+[00:40:19] everything manually,
+[00:40:21] when we have a very large code base,
+[00:40:24] it is very time-consuming, so
+[00:40:26] ineffective. So, we need those
+[00:40:27] automation controls. And we also need
+[00:40:30] psychological safety. So, these are the
+[00:40:31] three core themes arise from the course.
+[00:40:35] And here are some
+[00:40:38] um
+[00:40:39] examples. So, can you pair the theme
+[00:40:42] with the examples here? So, first one,
+[00:40:45] A, merge request with a linked issue.
+[00:40:48] So, which theme?
+[00:40:51] Traceability. Next one, CI pipeline on
+[00:40:55] every push.
+[00:40:58] Automation. Rachel, where people admit a
+[00:41:01] deadline mistake without blame.
+[00:41:04] Psychological safety. Perfect.
+[00:41:07] Great.
+[00:41:11] Yeah. So, this was just summarizing what
+[00:41:14] we just mentioned.
+[00:41:17] Um yeah, I'll leave that for you to do
+[00:41:20] with your group. Uh so, this is a retro
+[00:41:24] for the whole term.
+[00:41:26] Not for specific sprint.
+[00:41:29] Okay?
+[00:41:30] Um
+[00:41:31] Yeah, I'll leave that for you to do it.
+[00:41:34] Um
+[00:41:35] Yeah, let's do this now. Uh this is a
+[00:41:38] solo activity. Uh 2 minutes or 1 minute
+[00:41:41] and a half should be enough.
+[00:41:42] Uh w-
+[00:41:43] one surprise about coordinating people
+[00:41:46] under constraints, like time
+[00:41:47] constraints,
+[00:41:49] deadline constraints, stakeholder
+[00:41:52] requirement constraints, or other
+[00:41:53] constraints. One surprise that you
+[00:41:56] didn't realize before.
+[00:41:58] One thing that you will do in week one
+[00:42:00] of the next software project.
+[00:42:04] Not this term.
+[00:42:08] All right.
+[00:42:09] These two questions.
+[00:43:31] I think probably 1 minute should be
+[00:43:33] enough.
+[00:43:53] Time.
+[00:43:55] Yep. Anyone want to share? Yep. Can you
+[00:44:00] grab the mic over there, please? Thank
+[00:44:02] you.
+[00:44:08] Uh so,
+[00:44:10] I think the three things I wrote down
+[00:44:11] are all pretty much related to
+[00:44:13] consistency. Mhm. So, the first thing I
+[00:44:15] wrote is uh
+[00:44:17] so, for the practice, you know, for how
+[00:44:19] we manage quality and risks, it was um
+[00:44:22] we had pretty consistent uh
+[00:44:25] reviews whenever someone was trying to
+[00:44:27] merge. Mhm. And by consistency, I mean
+[00:44:30] every time I think we were checking,
+[00:44:32] okay, how is this affecting the other
+[00:44:34] code that someone might have written?
+[00:44:35] Mhm.
+[00:44:36] And uh
+[00:44:38] obviously, you know, commit messages
+[00:44:39] improved over time, that's one thing.
+[00:44:41] Mhm. The surprise was uh
+[00:44:44] even in something like this, because of
+[00:44:46] task tracker, people can have different
+[00:44:48] ideas of how the same feature
+[00:44:50] should be made. Mhm. So, I think it was
+[00:44:53] finding common ground over there because
+[00:44:57] if it's uh something as simple as, you
+[00:44:59] know,
+[00:45:00] what should be the structure for how
+[00:45:01] we're adding the date and time of a
+[00:45:03] task,
+[00:45:04] how we do it, everyone probably has a
+[00:45:06] different idea. Mhm.
+[00:45:07] Finding that common ground.
+[00:45:09] The first thing I will do in week one of
+[00:45:11] the next software project is make
+[00:45:13] everyone use a virtual environment. So,
+[00:45:16] we we don't have uh
+[00:45:18] unnecessary issues with different
+[00:45:20] library versions. Okay. That's the main
+[00:45:23] thing. Yeah, very interesting.
+[00:45:27] So, I think the first one you mentioned
+[00:45:29] about the review process, this is so
+[00:45:31] valuable. I'm so grateful that you
+[00:45:32] mentioned about that. So, in software
+[00:45:34] project, the review process is so
+[00:45:36] important. So, even though a people is
+[00:45:39] like working really hard trying to make
+[00:45:41] the merge request perfect, there may be
+[00:45:43] something missing or they didn't realize
+[00:45:47] earlier. So, having another person to
+[00:45:49] review is very, very useful. So, having
+[00:45:50] a consistent process for the review is
+[00:45:53] very, very
+[00:45:54] good. It's a great
+[00:45:55] practice. The second one you mentioned
+[00:45:58] was about
+[00:46:00] um
+[00:46:02] What was that?
+[00:46:03] Oh, my memory.
+[00:46:05] It was just people having different
+[00:46:07] ideas on Oh, yeah.
+[00:46:10] People have different ideas about how to
+[00:46:12] implement specific things.
+[00:46:14] Yeah, because we all decide to work on
+[00:46:16] one thing, then I might want to do it
+[00:46:19] one way, someone else Uh-huh. and
+[00:46:22] envision it differently. Yeah. You kind
+[00:46:24] of have to come to one singular point.
+[00:46:26] Yeah. So, how did you end up solving
+[00:46:28] that problem?
+[00:46:30] I think we just started splitting our
+[00:46:31] tasks better. We're like, okay, you
+[00:46:33] know, you have your vision for this
+[00:46:35] part, you work on that. Uh-huh. Don't
+[00:46:37] touch this other part. Okay.
+[00:46:40] Yeah, that's a great way. Just come back
+[00:46:42] to me later. Uh-huh, splitting the work.
+[00:46:44] Yeah, and the third one you mentioned
+[00:46:47] was about having everyone agree on using
+[00:46:50] virtual environment from the first week.
+[00:46:53] Yeah. So, how about other groups? Do you
+[00:46:54] have similar issue?
+[00:46:57] Yes?
+[00:47:00] Uh the practice is that what we have
+[00:47:02] done as team members
+[00:47:04] is the mobile part. Uh-huh. Yeah, we
+[00:47:06] will ask everyone before approving any
+[00:47:08] merge Mhm. review and
+[00:47:10] as a team, they have local libraries.
+[00:47:12] Mhm. And then they can approve this
+[00:47:14] merge.
+[00:47:15] Mhm. Uh the surprise is that someone
+[00:47:18] will give some
+[00:47:20] uh a good review, and I never
+[00:47:22] I never imagined that. Mhm. And the
+[00:47:26] brainstorming Mhm. uh of every
+[00:47:30] uh every sprint, they also will give
+[00:47:32] some good idea also. Mhm.
+[00:47:35] The thing I have to do is teach everyone
+[00:47:37] how to deal with the conflicts. Ah.
+[00:47:41] In the first week, it's very important
+[00:47:43] do not delete others' code.
+[00:47:47] Merge conflict. Yep, so, Git is a very
+[00:47:50] tricky one. So, I realized that a lot of
+[00:47:54] our students
+[00:47:56] takes
+[00:47:57] a lot of weeks to really get the idea of
+[00:48:00] Git.
+[00:48:01] So, it's very common. It's not a very
+[00:48:03] easy to understand idea. Like, I feel
+[00:48:05] like a lecturer has covered everything
+[00:48:07] about Git, but for students to really
+[00:48:10] understand what it means and how to use
+[00:48:12] it takes practice and time. Yeah. Mhm.
+[00:48:15] That's a very important part. Mhm.
+[00:48:19] In the first week, I don't Mhm.
+[00:48:21] Yeah, yeah. That's it takes time.
+[00:48:25] So, for their next project, hopefully,
+[00:48:28] it will be easier for everyone.
+[00:48:30] Yeah. Cool. What else? Do you have
+[00:48:32] anything that you want to share?
+[00:48:38] No?
+[00:48:39] It's okay.
+[00:48:41] No problem. All right. So, uh
+[00:48:45] cool. Uh have a try this with your group
+[00:48:47] member as well.
+[00:48:49] Uh
+[00:48:50] do some retro like that
+[00:48:52] uh about the term, not about that
+[00:48:53] sprint.
+[00:48:56] All right. So, this is a practice for
+[00:48:59] your interview.
+[00:49:01] So, if you are asked in your interview
+[00:49:04] about, so, for example, the question may
+[00:49:06] be
+[00:49:07] um what do you know about software
+[00:49:10] project management?
+[00:49:14] Can you demonstrate your software
+[00:49:17] project management skill using a project
+[00:49:20] that you have done during your study?
+[00:49:24] What would you say?
+[00:49:26] Here's a structure that potentially can
+[00:49:28] use.
+[00:49:29] Uh this is our task tracker project. And
+[00:49:32] our project shows I can help with
+[00:49:34] software project management because of
+[00:49:37] some evidence.
+[00:49:40] Have a try.
+[00:49:41] And then the other person in your group
+[00:49:43] can provide some feedback.
+[00:49:46] All right. 2 minutes.
+[00:50:44] This is a great opportunity for cheap
+[00:50:46] practice. Don't waste it.
+[00:51:06] Or you can hand up and give your
+[00:51:10] practice and the people here can give
+[00:51:12] you feedback as well.
+[00:51:24] All right. Time. Sorry for finishing
+[00:51:26] early. You guys are so quiet. I know
+[00:51:29] it's late night and yeah, everyone's
+[00:51:31] tired. It's It's okay. No problem. So,
+[00:51:35] um anyone wants to have a try and we can
+[00:51:38] give feedback.
+[00:51:41] Yeah.
+[00:51:42] Sorry, could you please help give the
+[00:51:43] microphone to her, please? Thank you.
+[00:51:48] Yeah, everyone listen and try to give
+[00:51:50] her some feedback.
+[00:51:54] And
+[00:52:29] Yeah. Okay.
+[00:52:31] So, what about you reframe that as an
+[00:52:36] evidence for your job interview
+[00:52:38] question?
+[00:52:48] Uh-huh.
+[00:52:49] Okay. Cool. Cool. Cool. That's That's
+[00:52:51] good. Any feedback for her?
+[00:52:54] As a job interview statement?
+[00:52:59] No?
+[00:53:01] >> [laughter]
+[00:53:02] >> Anyone wants to try? Anyone else wants
+[00:53:04] to say? Okay. Can you give the
+[00:53:05] microphone? Yeah.
+[00:53:11] Um so, what
+[00:53:13] I think the software project management
+[00:53:17] I can bring is to follow strictly a
+[00:53:20] strictly follow the guidelines in the
+[00:53:23] >> like the tutor told me. Uh-huh. And
+[00:53:25] doing the really good documentation in
+[00:53:28] the GitLab.
+[00:53:29] >> Uh-huh.
+[00:53:30] And so, what I found is
+[00:53:33] um doing making correctly the
+[00:53:37] documentation helps your teammates to
+[00:53:40] know your progress. Yeah.
+[00:53:43] Um
+[00:53:44] be clear about what they are going to
+[00:53:46] do, what they are going to do. Uh-huh.
+[00:53:50] And
+[00:53:52] like um in the GitLab, there's some
+[00:53:55] features like the issue board. I think
+[00:53:57] it's really useful. You can keep track
+[00:54:00] of everything and
+[00:54:02] keep your progress Yeah. all time. Okay.
+[00:54:06] Cool. Great. So, I think your ones can
+[00:54:08] complement with each other. So, I think
+[00:54:11] the his ones is better in giving some
+[00:54:14] examples. So, he mentioned like for
+[00:54:16] example, I used the issue board to blah
+[00:54:19] blah blah.
+[00:54:21] All right. And I think you can learn
+[00:54:23] from her example is that she mentioned
+[00:54:26] that here's some
+[00:54:27] evidence like I can show them this is
+[00:54:29] our project and here are our
+[00:54:31] documentation. So, I think your ones can
+[00:54:33] learn from each other and complement
+[00:54:35] each others.
+[00:54:37] Yeah. Cool. Great. Thank you. You can
+[00:54:38] keep the microphone for now. Thank you.
+[00:54:41] Anyone wants to try before we move on to
+[00:54:43] the next one?
+[00:54:48] All good?
+[00:54:49] Okay. Cool. Online online online, I'm
+[00:54:52] looking for some examples from online.
+[00:54:55] Okay. Cool. Um
+[00:54:57] Okay. So,
+[00:54:59] um
+[00:55:00] looking ahead, you are going to write
+[00:55:05] your portfolio.
+[00:55:07] You can use what we have practiced today
+[00:55:09] in this lecture for your portfolio.
+[00:55:14] So,
+[00:55:15] um
+[00:55:16] have you seen any portfolio before?
+[00:55:21] Like other software developers'
+[00:55:23] portfolio?
+[00:55:25] Yeah. So, there are some examples
+[00:55:28] online. So, if you search
+[00:55:31] software engineer portfolio examples,
+[00:55:34] there are plenty online.
+[00:55:38] So,
+[00:55:39] in the course in this course
+[00:55:41] specifically, we won't have that high
+[00:55:43] expectations of your portfolio because
+[00:55:45] those examples online takes very long
+[00:55:49] time to achieve that level. Uh you can
+[00:55:51] just make it a PDF, that'll be enough.
+[00:55:53] But what they did was
+[00:55:57] some very interesting ones. Uh-oh,
+[00:55:59] what's going on?
+[00:56:01] Why? Why is all like that?
+[00:56:06] I just randomly pick one. So, this is a
+[00:56:08] portfolio of a
+[00:56:11] full stack developer, front end
+[00:56:12] developer.
+[00:56:13] Um so, what they put is they put some of
+[00:56:16] their projects in the portfolio.
+[00:56:19] Oh, where's my images? What's going on
+[00:56:21] here? So, uh what you can do is you can
+[00:56:25] just write a portfolio for yourself for
+[00:56:28] this single project for now. But in the
+[00:56:31] future, you may have other student
+[00:56:32] project and you can gradually put
+[00:56:34] everything together. And that portfolio
+[00:56:37] is very helpful for your interviews. So,
+[00:56:39] when you apply for a job in your CV, you
+[00:56:42] not only list what the name of your
+[00:56:44] project. You have a link to your
+[00:56:46] portfolio where they can actually click
+[00:56:48] in and have a look what do you have
+[00:56:50] done. What's What's your project about?
+[00:56:53] What's your role? Right? Some evidence.
+[00:56:57] Uh-oh.
+[00:56:59] I think my Wi-Fi is not working proper
+[00:57:02] properly today.
+[00:57:04] I can't see anything.
+[00:57:08] But anyway, what I want to show you is
+[00:57:10] there There are plenty of examples
+[00:57:12] online for software project portfolios.
+[00:57:16] Uh let me have a look at this one. My
+[00:57:18] work.
+[00:57:20] Yeah, this is one of their work. So, you
+[00:57:22] can see they used these languages.
+[00:57:25] There's some library
+[00:57:27] introduction to the project. So, if you
+[00:57:30] click into that,
+[00:57:32] you can see more details about what they
+[00:57:35] have done, documentations,
+[00:57:38] blah blah blah.
+[00:57:40] What else they have done? Other project.
+[00:57:43] Oh, this is a very fancy one.
+[00:57:51] Yeah.
+[00:57:52] Uh do they have any project?
+[00:57:57] This one doesn't have any project.
+[00:58:00] Okay, just randomly choose one.
+[00:58:07] Yeah. Uh but if you have a look at those
+[00:58:09] portfolios, most of them don't
+[00:58:12] talk about a lot of details.
+[00:58:15] Uh but for us, we ask you to write more
+[00:58:18] details. In the future, you can like
+[00:58:20] shrink it, summarize it for your like
+[00:58:22] official real portfolio. But in the
+[00:58:25] course, we ask you for more details.
+[00:58:27] Sorry, my Wi-Fi connection is not very
+[00:58:29] good today.
+[00:58:31] Yeah, but you can have a look after the
+[00:58:33] lecture. Plenty of examples. You don't
+[00:58:35] really need to have a website for your
+[00:58:36] portfolio. Just a
+[00:58:37] upload PDF document, that'll be enough.
+[00:58:41] All right. So, where are we now?
+[00:58:45] Um
+[00:58:48] Yeah.
+[00:58:49] So, you can have some evidence for your
+[00:58:51] portfolio
+[00:58:52] like your test, some examples of a test,
+[00:58:55] how to write your test, some of your
+[00:58:57] documentations for those who love
+[00:58:59] documentations.
+[00:59:00] Uh what's your contribution to risk and
+[00:59:02] some short narratives about what do you
+[00:59:04] contribute, how you manage the
+[00:59:06] tradeoffs, what do you would improve
+[00:59:08] next time. Some more instructions can be
+[00:59:11] found in the spring three guideline as
+[00:59:14] well.
+[00:59:16] Um
+[00:59:18] They
+[00:59:21] here.
+[00:59:23] So, what do you work done across the
+[00:59:24] springs
+[00:59:26] with evidence.
+[00:59:28] Right?
+[00:59:29] Link to merge request, issue commit,
+[00:59:31] screenshot. So, these are things that
+[00:59:32] you can show to the interviewer
+[00:59:36] at job applications as well. So, you can
+[00:59:38] show them. Although this is a group
+[00:59:39] project, but this is what I have done,
+[00:59:42] what I have contributed, what I have
+[00:59:43] learned, some evidence for myself.
+[00:59:45] Right?
+[00:59:46] Uh some reflections as well. So, a lot
+[00:59:48] of time
+[00:59:49] during job application, they are
+[00:59:51] interested in your reflection as well.
+[00:59:52] So, they know that this is a short
+[00:59:54] student project. There are space um that
+[00:59:58] you can improve, but you just don't have
+[01:00:00] the time. It's okay, but you should have
+[01:00:02] some reflections that if you do it next
+[01:00:04] time, there should be something
+[01:00:06] different.
+[01:00:07] And what you have learned about software
+[01:00:09] project management and process.
+[01:00:11] So,
+[01:00:12] hopefully this can be helpful for your
+[01:00:14] next job interview.
+[01:00:17] All right.
+[01:00:19] Uh what you can do is GitLab also
+[01:00:21] provide some um analysis
+[01:00:26] features that you can use. Let me show
+[01:00:28] you examples.
+[01:00:31] Let me go to my own ones.
+[01:00:36] Groups.
+[01:00:37] I just want to go to my own.
+[01:00:41] Uh
+[01:00:42] How can I go to my own project?
+[01:00:49] No.
+[01:00:52] No, not that one.
+[01:00:55] All right.
+[01:00:56] Just do
+[01:01:00] For example, in stuff.
+[01:01:03] I have this tutor guide, and there's a
+[01:01:06] analyze here. So, you can analyze some
+[01:01:09] CI/CD analyze. I don't have CI/CD set
+[01:01:12] up. Repository. There's nothing. What?
+[01:01:18] But there should be something like
+[01:01:19] commit statistics, like you can show but
+[01:01:21] there are other but my project is very
+[01:01:25] simple, so not too much.
+[01:01:28] Uh issue analytics,
+[01:01:31] model experiments, contributor
+[01:01:33] analytics. So, you can have a look at
+[01:01:35] that. Uh potentially can use the
+[01:01:37] analytics for your portfolio as well.
+[01:01:40] So, you can show them, well I committed
+[01:01:42] the majority to the documentation. Or I
+[01:01:45] communicated a lot to the test. Or I
+[01:01:49] committed a lot to the functions,
+[01:01:51] writing the codes.
+[01:01:54] Okay.
+[01:02:00] Yeah. So, in this course because we only
+[01:02:02] have
+[01:02:04] nine weeks of lectures. So, there are a
+[01:02:06] lot of other things about project
+[01:02:07] management that we haven't covered and
+[01:02:10] we don't have space to cover. Um feel
+[01:02:12] free to explore them at your own time.
+[01:02:14] For example, security engineering.
+[01:02:17] So, it's also very important for
+[01:02:18] software project management, product
+[01:02:21] discovery, distributed system, formal
+[01:02:23] masses. So, they are very interesting
+[01:02:25] topics as well.
+[01:02:27] Uh but for what we have learned, we now
+[01:02:30] have a map. Right? So, from the
+[01:02:32] beginning, the middle,
+[01:02:34] towards the end what you have learned,
+[01:02:35] you should have a map in your mind at a
+[01:02:37] moment. Right?
+[01:02:39] Cool. Exit. The end of this lecture.
+[01:02:44] One sentence. You do not need to write
+[01:02:47] that. I just have a
+[01:02:48] think. So, after comp 9820
+[01:02:51] software project management habit I will
+[01:02:53] keep is
+[01:02:55] Think about that.
+[01:02:56] >> [snorts]
+[01:02:57] >> Or the habit I will stop or change
+[01:03:00] is some key takeaways.
+[01:03:04] It may take some time to think about
+[01:03:06] that, so no rush for that.
+[01:03:10] All right. So,
+[01:03:12] um thank you for the energy that you
+[01:03:14] bring to the course. I really enjoyed
+[01:03:17] the lectures and talking with everyone.
+[01:03:20] Uh a lot of interesting insights you
+[01:03:23] bring to the lectures, the forum, uh and
+[01:03:25] the the lab classes. So, thank you so
+[01:03:28] much everyone. Uh let's keep the loop
+[01:03:30] short. Uh
+[01:03:32] we start with planning,
+[01:03:34] build,
+[01:03:35] test, deploy, and reflect.
+[01:03:38] And this is the heart of software
+[01:03:41] project management.
+[01:03:43] All right.
+[01:03:44] Cool. Amazing.
+[01:03:47] Thank you so much everyone.
+[01:03:49] Um
+[01:03:50] Yeah, I do have another very short
+[01:03:52] lecture prepared, but uh
+[01:03:56] I don't think that's
+[01:04:00] very helpful. So, I don't want to waste
+[01:04:02] everyone's time. So, but I have the
+[01:04:04] slides up here on the course website.
+[01:04:09] So, it's about done done. So, the reason
+[01:04:12] that um
+[01:04:13] I had this lecture about done done was
+[01:04:15] because I noticed that a lot of group
+[01:04:16] have different uh
+[01:04:18] a lot people in the same group have
+[01:04:20] different understanding about what is
+[01:04:22] done.
+[01:04:23] >> [laughter]
+[01:04:24] >> So, this is very common, but the reason
+[01:04:26] that I don't want to talk about this
+[01:04:28] lecture anymore was because I think done
+[01:04:31] is also different for every group.
+[01:04:34] So,
+[01:04:35] um in your future project, you may want
+[01:04:37] to put a definition of done in your
+[01:04:40] contract. So, group contract.
+[01:04:43] All right. So,
+[01:04:45] amazing. Thank you so much everyone. The
+[01:04:47] very last thing is the Mac experience.
+[01:04:50] Do you know what is Mac experience
+[01:04:52] survey?
+[01:04:54] Yeah. Yeah. So, this is very important
+[01:04:56] for the course, for myself, and for your
+[01:04:59] tutors. So, if you have a phone, feel
+[01:05:01] free to scan this QR code and let us
+[01:05:03] know your feedback. So, the feedback can
+[01:05:05] be what we can improve,
+[01:05:08] um what we did really well that you
+[01:05:10] encourage us to continue, or if you
+[01:05:12] don't have any specific feedback, just
+[01:05:15] say, "You are doing great." Or "You are
+[01:05:17] doing so bad."
+[01:05:19] So, we have a general idea about how
+[01:05:21] things goes for everyone. Um
+[01:05:23] and I would also love to thank everyone
+[01:05:25] for your patience this term, especially
+[01:05:27] when this is the first time the course
+[01:05:29] is run. So, you are very patient with
+[01:05:31] all the changes, and I'm very grateful
+[01:05:34] for all the feedback you provide
+[01:05:35] throughout the term, especially the
+[01:05:37] student reviewer who helped review
+[01:05:40] uh the sprint guidelines. Super super
+[01:05:42] helpful.
+[01:05:44] Okay, any question from anyone?
+[01:05:53] Nope.
+[01:05:55] Yeah. No problem. Uh if you have any any
+[01:05:57] question, feel free to come to me. I'll
+[01:05:59] stay for the next couple of minutes and
+[01:06:02] uh we can have a chat.
+[01:06:03] All right. Thank you so much.
+[01:06:10] Yay. Thank you. Thank you. Thank you.
+[01:06:12] Thank you.
+[01:06:24] Hey. Oh, thank you.
+[01:06:26] Thank you so much.
+[01:06:47] Bye.
+[01:06:51] No. No, not next term. Yeah, I'm taking
+[01:06:54] a leave for the rest of the year. Yeah,
+[01:06:57] I'll come back next year.
+[01:07:01] Oh, thank you so much. Thank you. Enjoy.
+[01:07:03] Bye.
