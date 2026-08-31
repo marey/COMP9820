@@ -22,7 +22,7 @@ Turn a recorded lecture into: `transcript.txt`, a slide-by-slide Markdown (origi
    ffmpeg -ss A -t (B-A) -i work/video.mp4 -vf fps=1 -q:v 3 work/gap/gA_%05d.jpg
    ```
    then crop to the slide area before diffing (presenter webcam + cursor otherwise defeat dedupe).
-6. **Measure crop geometry once** on one frame (frames are 854x480 at 480p): print row/column means to find the browser chrome top, Dock bottom, window right edge and the presenter-overlay box. Defaults in `export_slides.py` fit a Safari full-screen + bottom-right webcam layout.
+6. **Measure crop geometry once** — first check the frame size (`Image.open(frame).size`). Defaults in `export_slides.py` fit 854x480 frames with a Safari full-screen + bottom-right webcam layout. If the best stream was only 360p (640x360), scale every coordinate by 0.75: `--top 46 --bottom 330 --right 557 --overlay-x 491 --overlay-y 279 --navbar 19`. For a different layout, print row/column means to find the browser chrome top, Dock bottom, window right edge and the presenter-overlay box.
 7. **Export slides**: write `mapping.txt` (`f_0077  08_agile_manifesto`), then
    ```bash
    python3 scripts/export_slides.py work/frames OUT_DIR/images mapping.txt

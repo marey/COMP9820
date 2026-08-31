@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>COMP9820 一页速览</title>
+<style>
+  @page { size: A4; margin: 10mm; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Helvetica Neue", "Noto Sans CJK SC", Arial, sans-serif; color:#1c1c1c; margin:0; background:#fff; }
+  .page { width: 190mm; min-height: 277mm; margin: 0 auto; padding: 0; font-size: 9.3pt; line-height: 1.38; }
+  header { border-bottom: 2px solid #1a4d8f; padding-bottom: 3px; margin-bottom: 5px; display:flex; justify-content:space-between; align-items:flex-end; }
+  h1 { margin:0; font-size: 14.5pt; white-space:nowrap; color:#1a4d8f; letter-spacing:.2px; }
+  header .sub { font-size: 7.6pt; text-align:right; max-width:60mm; color:#444; }
+  .quote { font-style: italic; color:#555; margin: 2px 0 5px; font-size: 8.2pt; }
+  h2 { font-size: 10pt; color:#1a4d8f; margin: 5px 0 2px; border-left: 3px solid #1a4d8f; padding-left: 5px; }
+  ul { margin: 1px 0 3px 14px; padding: 0; } li { margin: 0 0 1px; }
+  table { border-collapse: collapse; width: 100%; margin: 2px 0 4px; }
+  th, td { border: 1px solid #c9d3e0; padding: 2px 4px; vertical-align: top; text-align:left; }
+  th { background: #e8eef7; font-weight: 600; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .warn ol { margin: 1px 0 0 15px; padding:0; } .warn li { margin-bottom: 1px; }
+  code { font-family: Menlo, Consolas, monospace; font-size: 7.8pt; background:#f3f5f8; padding: 0 2px; border-radius: 2px; }
+  footer { text-align:center; margin-top: 5px; font-weight: 600; color:#1a4d8f; border-top: 1px solid #c9d3e0; padding-top: 3px; }
+  b.k { color:#1a4d8f; }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1>COMP9820 Software Project Management · 一页速览</h1>
+  <div class="sub">UNSW 26T1 · 讲师 Dr. Yuchao Jiang · 无考试 · 一个 10 周小组项目「Task Tracker」</div>
+</header>
+<div class="quote">"You cannot <b>use</b> Agile, you can only <b>be</b> Agile." —— 把小组当创业公司，每个人都是经理，每个人都写代码。</div>
+
+<h2>🎯 这门课是什么</h2>
+<ul>
+  <li>面向已有编程基础（COMP9021 或同等）的研究生；<b>不教编程/Web 开发</b>，教的是多人协作时如何<b>管理代码、管理项目、管理人</b>。</li>
+  <li>唯一考核：4–5 人随机组队，用 <b>Python Flask + HTML</b> 开发 Task Tracker，分 <b>3 个 Sprint</b> 交付；每个 Sprint 末向扮演客户的 tutor demo。</li>
+  <li>三条贯穿主题：<b class="k">Traceability 可追溯 · Automation 自动化 · Psychological safety 心理安全</b>。</li>
+</ul>
+
+<h2>📅 课程重点（9 周讲座）</h2>
+<table>
+<tr><th style="width:4%">周</th><th style="width:26%">主题</th><th>一句话</th></tr>
+<tr><td>1</td><td>SPM 导论 · Git 单人/团队</td><td>瀑布 vs 敏捷；add/commit/push/pull、分支、Merge Request、peer review</td></tr>
+<tr><td>2</td><td>敏捷团队实践</td><td>敏捷宣言与哲学；Sprint、团队契约、异步站会、Issue Board、冲突处理</td></tr>
+<tr><td>3</td><td>规划与用户故事 · 回顾</td><td>需求工程四步；"As a… I want… so that…" + 验收标准；五步 Retro</td></tr>
+<tr><td>4</td><td>测试/TDD · 持续集成</td><td>Red→Green→Refactor；pytest + conftest；<code>.gitlab-ci.yml</code>，main 永远绿</td></tr>
+<tr><td>5</td><td>覆盖率与管理 · 可维护性</td><td>Theory X/Y；指标是对话不是 KPI；DRY/KISS/YAGNI/耦合/惯例；重构</td></tr>
+<tr><td>6</td><td>部署 / DevOps</td><td>Deployment lab（Vercel）</td></tr>
+<tr><td>7</td><td>持久化 · 软件复杂度</td><td>JSON 文件持久化；本质 vs 偶然复杂度；耦合/内聚；圈复杂度 V(G)=e−n+2</td></tr>
+<tr><td>8</td><td>风险管理</td><td>识别→分析→排序→缓解；风险登记表；Avoid/Reduce/Transfer/Retain</td></tr>
+<tr><td>9</td><td>回顾与展望</td><td>课程全景；作品集与证据；Definition of Done</td></tr>
+</table>
+
+<h2>🏃 三个 Sprint</h2>
+<table>
+<tr><th style="width:11%"></th><th>Sprint 1 · 基础起飞</th><th>Sprint 2 · 质量与 CI</th><th>Sprint 3 · 交付与风险</th></tr>
+<tr><td>周 / 截止</td><td>W1–3 / <b>W4 周一 12:00</b></td><td>W4–6 / <b>W7 周一 12:00</b></td><td>W7–10 / <b>W10 周五 17:00</b></td></tr>
+<tr><td>权重</td><td>组 25 + 个人 5</td><td>组 25 + 个人 5</td><td>组 30 + 个人 10</td></tr>
+<tr><td>核心交付</td><td>显示/add/delete；契约、Issue Board、用户故事+UAC、Retro；每人 ≥1 MR；站会 ≥2/周</td><td>自己故事的新功能 + 测试；<b>CI 必做</b>；覆盖率；周会+纪要；站会 3/周；MR <code>Closes #n</code></td><td>≥1 个有意义改进；README；风险报告；重构与复杂度报告；个人 Portfolio（≤1000 词）；正式 Demo 10–15 min</td></tr>
+<tr><td>难度</td><td>最易</td><td>更难</td><td>最难</td></tr>
+</table>
+
+<div class="two">
+<div>
+<h2>🛠 技术总结</h2>
+<ul>
+  <li><b>Git/GitLab</b>：feature 分支 → 有意义的 commit → MR + peer review → 作者合并；分支名 <code>feature-add-task</code>；Issue=工作、Commit=实现、MR=集成。</li>
+  <li><b>测试</b>：<code>pytest</code>；<code>tests/test_app.py</code>；<code>conftest.py</code> 的 <code>client</code> fixture 每测试前重置；从用户故事写测试，先核心再边界；全绿≠没 bug。</li>
+  <li><b>CI</b>：根目录 <code>.gitlab-ci.yml</code>：<code>image: python:3.11</code> → <code>pip install -r requirements.txt</code> → <code>pytest</code>；push/MR 自动跑，没绿勾不合并。</li>
+  <li><b>覆盖率</b>：<code>pytest --cov --cov-report=term-missing|html</code>；看 Missing 行补测试，后端目标 &gt;70%，不追 100%。</li>
+  <li><b>设计 7 问</b>：唯一事实来源？够简单？过度/不足设计？相关靠近、无关分开？在臆测未来？遵循惯例？没有强测试不重构。</li>
+  <li><b>持久化</b>：<code>json</code> + <code>pathlib</code>，启动 <code>json.load</code>，变更后 <code>json.dump</code>；测试用 <code>tmp_path</code>。</li>
+  <li><b>复杂度</b>：松耦合、高内聚；圈复杂度参考上限 8–10；挑最复杂函数重构。</li>
+  <li><b>风险</b>：每风险 7 字段（If…then…because… / L·I / Owner / 缓解或应急 / 证据 / 状态 / 最近评审）。</li>
+</ul>
+</div>
+<div class="warn">
+<h2>⚠️ 注意事项（扣分高发）</h2>
+<ol>
+  <li><b>Push 到 main 即提交</b>；不接受迟交；不要最后一刻推（CI runner 共享排队）。</li>
+  <li><b>每个 Sprint 的 lab demo 全员必到，缺席记 0 分。</b></li>
+  <li>站会在 <b>MS Teams</b>（tutor 可见），Discord/WhatsApp 不算证据；按个人计分。</li>
+  <li><b>AI 可用但必须声明</b>，且要能解释每一行；不合并不理解的 AI 代码；AI 生成的失实纪要会扣分。</li>
+  <li>不按功能数量给分：<b>用户价值 + 过程证据</b>才是分数；报告只有上限，质量 &gt; 数量。</li>
+  <li>组员失联 48–72h：先关心安全、报告 tutor，然后继续推进；沟通能解决大多数冲突。</li>
+  <li>互评（Moodle）保密不计分，但<b>不交拿不到 Retro 分</b>。</li>
+  <li>有疑问尽早发论坛/邮件，别写在反馈表里；每周一看 newsletter。</li>
+</ol>
+</div>
+</div>
+
+<footer>保持回路短：Plan → Build → Test → Deploy → Reflect</footer>
+</div>
+</body>
+</html>
