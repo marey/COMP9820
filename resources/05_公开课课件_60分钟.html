@@ -1,0 +1,357 @@
+<title>COMP9820 一小时导览</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;900&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #FAFBF8;
+    --surface: #FFFFFF;
+    --surface-2: #F1F5EF;
+    --ink: #1C2822;
+    --muted: #5B6A61;
+    --line: #DDE5DC;
+    --accent: #1F7A4D;
+    --accent-soft: #E3F0E7;
+    --warn: #9A6B15;
+    --warn-soft: #FAF0DC;
+    --danger: #A63D33;
+    --danger-soft: #F9E9E6;
+    --quote-bar: #1F7A4D;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111713;
+      --surface: #18211B;
+      --surface-2: #1E2A22;
+      --ink: #E4ECE5;
+      --muted: #9AAB9F;
+      --line: #2B382F;
+      --accent: #4FC58C;
+      --accent-soft: #1B3327;
+      --warn: #D9A441;
+      --warn-soft: #33290F;
+      --danger: #E08074;
+      --danger-soft: #3A1F1B;
+      --quote-bar: #4FC58C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111713;
+    --surface: #18211B;
+    --surface-2: #1E2A22;
+    --ink: #E4ECE5;
+    --muted: #9AAB9F;
+    --line: #2B382F;
+    --accent: #4FC58C;
+    --accent-soft: #1B3327;
+    --warn: #D9A441;
+    --warn-soft: #33290F;
+    --danger: #E08074;
+    --danger-soft: #3A1F1B;
+    --quote-bar: #4FC58C;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1, h2, h3 { font-family: "Noto Serif SC", "Songti SC", serif; text-wrap: balance; line-height: 1.3; }
+  h1 { font-size: 2.4rem; font-weight: 900; margin: 8px 0 12px; }
+  h2 { font-size: 1.55rem; font-weight: 900; margin: 0 0 6px; }
+  h3 { font-size: 1.12rem; font-weight: 700; margin: 28px 0 10px; }
+  p { margin: 10px 0; }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+
+  .eyebrow {
+    font-size: .8rem; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700;
+  }
+  .subtitle { color: var(--muted); font-size: 1.05rem; max-width: 40em; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 0; }
+  .chip {
+    font-size: .82rem; padding: 4px 12px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--surface); color: var(--muted);
+  }
+  .chip.green { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); font-weight: 500; }
+
+  header.hero { padding-bottom: 36px; border-bottom: 1px solid var(--line); }
+
+  section { margin-top: 56px; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .timechip {
+    font-family: "IBM Plex Mono", monospace; font-size: .8rem; font-weight: 600;
+    color: var(--accent); background: var(--accent-soft);
+    padding: 3px 10px; border-radius: 6px; white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .sec-sub { color: var(--muted); margin-top: 2px; }
+
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; background: var(--surface); }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--surface-2); font-weight: 700; font-size: .85rem; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  td.mono, th.mono { white-space: nowrap; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 16px 0; }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .card h4 { margin: 0 0 6px; font-size: 1rem; }
+  .card .k { font-family: "IBM Plex Mono", monospace; font-size: .75rem; color: var(--accent); font-weight: 600; letter-spacing: .06em; }
+  .card p { margin: 6px 0 0; font-size: .9rem; color: var(--muted); }
+
+  .callout {
+    border-radius: 12px; padding: 14px 18px; margin: 16px 0;
+    background: var(--accent-soft); border: 1px solid var(--accent);
+  }
+  .callout.warn { background: var(--warn-soft); border-color: var(--warn); }
+  .callout.danger { background: var(--danger-soft); border-color: var(--danger); }
+  .callout strong.tag { display: block; font-size: .8rem; letter-spacing: .1em; margin-bottom: 4px; }
+  .callout.warn strong.tag { color: var(--warn); }
+  .callout.danger strong.tag { color: var(--danger); }
+  .callout:not(.warn):not(.danger) strong.tag { color: var(--accent); }
+  .callout p { margin: 4px 0; }
+
+  blockquote {
+    margin: 18px 0; padding: 10px 20px;
+    border-left: 3px solid var(--quote-bar);
+    color: var(--muted); font-style: normal;
+  }
+  blockquote .who { display: block; font-size: .82rem; margin-top: 6px; color: var(--accent); }
+
+  ol.big, ul.big { padding-left: 1.3em; }
+  ol.big li, ul.big li { margin: 8px 0; }
+  li::marker { color: var(--accent); font-weight: 700; }
+
+  .chain {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 18px; margin: 16px 0;
+    font-family: "IBM Plex Mono", monospace; font-size: .84rem;
+  }
+  .chain .node {
+    background: var(--accent-soft); color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .chain .arrow { color: var(--muted); }
+
+  code {
+    font-family: "IBM Plex Mono", monospace; font-size: .85em;
+    background: var(--surface-2); border: 1px solid var(--line);
+    border-radius: 5px; padding: 1px 6px;
+  }
+  .footer-note { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+  a { color: var(--accent); }
+  @media (max-width: 600px) { h1 { font-size: 1.8rem; } .wrap { padding: 32px 16px 72px; } }
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">UNSW · COMP9820 · 26T1 · 公开课讲义</div>
+  <h1>软件项目管理：一小时导览</h1>
+  <p class="subtitle">Software Project Management —— 一门<strong>没有考试</strong>的研究生课：4–5 人随机组队，用 10 周、3 个 Sprint 交付一个 Task Tracker。这一小时讲清四件事：<strong>这门课是干啥的 · 重点是啥 · 哪些坑会扣分 · 高分怎么拿</strong>。</p>
+  <div class="chips">
+    <span class="chip green">⏱ 60 分钟</span>
+    <span class="chip">讲师 Dr. Yuchao Jiang</span>
+    <span class="chip">无考试 · 无 quiz</span>
+    <span class="chip">1 个项目 × 3 个 Sprint</span>
+    <span class="chip">Python Flask + HTML</span>
+    <span class="chip">先修：COMP9021 或同等</span>
+  </div>
+</header>
+
+<!-- ══════════════ 议程 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>本节课议程</h2></div>
+  <div class="tablewrap"><table>
+    <tr><th class="mono">时间</th><th>环节</th><th>回答的问题</th></tr>
+    <tr><td class="mono">00 – 05</td><td><strong>开场</strong>：一门"没有考试"的课</td><td>为什么这门课长得不一样</td></tr>
+    <tr><td class="mono">05 – 15</td><td><strong>课程是干啥的</strong>：一个项目、三个 Sprint</td><td>学什么、怎么考核</td></tr>
+    <tr><td class="mono">15 – 30</td><td><strong>课程重点</strong>：三大主题 + 九周地图 + 工具链</td><td>重点是啥</td></tr>
+    <tr><td class="mono">30 – 42</td><td><strong>注意事项</strong>：扣分与踩坑高发区</td><td>什么千万别做</td></tr>
+    <tr><td class="mono">42 – 55</td><td><strong>如何拿高分</strong>：评分哲学与实操清单</td><td>分数从哪来</td></tr>
+    <tr><td class="mono">55 – 60</td><td><strong>一页带走</strong> + Q&amp;A</td><td>只记一件事记什么</td></tr>
+  </table></div>
+</section>
+
+<!-- ══════════════ 1. 开场 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>① 开场：一门"没有考试"的课</h2><span class="timechip">00:00 – 05:00</span></div>
+  <p class="sec-sub">先打破预期：这不是编程课，也不是背理论的管理课。</p>
+
+  <blockquote>"You cannot <em>use</em> Agile, you can only <em>be</em> Agile."<span class="who">—— 讲师开宗明义：敏捷是哲学不是流程</span></blockquote>
+
+  <ul class="big">
+    <li><strong>不教编程、不教 Web 开发</strong>——默认你已有编程基础（COMP9021 或同等）。教的是：多人协作时如何<strong>管理代码、管理项目、管理人</strong>。</li>
+    <li><strong>没有期末考、没有 quiz、lab 不计分</strong>。全部 100% 来自一个小组软件项目。</li>
+    <li>把小组当作<strong>创业公司</strong>：每个人都是经理，每个人都写代码——不写代码就学不会管理代码、处理冲突。</li>
+  </ul>
+
+  <p>🎤 <em>开场互动建议：举手调查"有多少人用过 Git 的分支和 Merge Request？"——引出这门课解决的真实痛点。</em></p>
+</section>
+
+<!-- ══════════════ 2. 课程是干啥的 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>② 课程是干啥的：一个项目、三个 Sprint</h2><span class="timechip">05:00 – 15:00</span></div>
+  <p class="sec-sub">唯一考核：随机组队 4–5 人，开发「Task Tracker」，分 3 个 Sprint 交付，每个 Sprint 末向扮演客户的 tutor demo。</p>
+
+  <h3>项目背景故事</h3>
+  <p>"Procrastination Warriors" 们用便利贴、聊天记录、截图记任务，结果任务遗忘、deadline 错过——于是你们要开发神奇的 <strong>Task Tracker</strong>：添加、编辑、删除、分配任务。讲师和 tutor 扮演<strong>客户</strong>："我有问题和需求，你来解决。"</p>
+
+  <h3>考核结构（合计 100 = 组分 80 + 个人分 20）</h3>
+  <div class="tablewrap"><table>
+    <tr><th></th><th>Sprint 1 · 基础起飞</th><th>Sprint 2 · 质量与 CI</th><th>Sprint 3 · 交付与风险</th></tr>
+    <tr><td><strong>周期 / 截止</strong></td><td class="mono">W1–3 / W4 一 12:00</td><td class="mono">W4–6 / W7 一 12:00</td><td class="mono">W7–10 / W10 五 17:00</td></tr>
+    <tr><td><strong>权重</strong></td><td>组 25 + 个人 5</td><td>组 25 + 个人 5</td><td>组 30 + 个人 10</td></tr>
+    <tr><td><strong>核心交付</strong></td><td>显示 / add / delete；团队契约、Issue Board、用户故事 + 验收标准、Retro；每人 ≥1 MR；站会 ≥2/周</td><td>自己故事里的新功能 + 测试；<strong>CI 必做</strong>；覆盖率；周会 + 纪要；站会 3/周；MR <code>Closes #n</code></td><td>≥1 个有意义改进；README；风险报告；重构与复杂度报告；个人 Portfolio（≤1000 词）；正式 Demo</td></tr>
+    <tr><td><strong>难度</strong></td><td>最易（"easy marks"）</td><td>更难</td><td>最难</td></tr>
+  </table></div>
+
+  <ul class="big">
+    <li><strong>Week 1 lab 随机分组</strong>（公平起见），不能到场要提前邮件 tutor 保留位置。</li>
+    <li>技术栈锁定 <strong>Python Flask + HTML/CSS</strong>：保证组里每个人都能贡献，而不是只有一两个会 JS 的人干活。</li>
+    <li>Starter code 已备好：<code>app.py</code> + <code>templates/index.html</code> + <code>requirements.txt</code>，GitLab 仓库每人已建。</li>
+    <li>每个 Sprint 末 tutor 都给反馈——不会到期末才知道自己什么水平。</li>
+  </ul>
+</section>
+
+<!-- ══════════════ 3. 课程重点 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>③ 课程重点：三大主题 + 九周地图 + 工具链</h2><span class="timechip">15:00 – 30:00</span></div>
+  <p class="sec-sub">所有讲座、所有评分，都绕着三条贯穿主题转。</p>
+
+  <div class="cards">
+    <div class="card"><span class="k">THEME 1</span><h4>Traceability 可追溯</h4><p>Issue ↔ MR ↔ Commit ↔ 测试 ↔ 报告，tutor 要能从仓库<strong>验证</strong>你做了什么，而不是推断。</p></div>
+    <div class="card"><span class="k">THEME 2</span><h4>Automation 自动化</h4><p>pytest + CI pipeline + 覆盖率报告：main 分支永远是绿的，机器替你守门。</p></div>
+    <div class="card"><span class="k">THEME 3</span><h4>Psychological Safety 心理安全</h4><p>敢说"我卡住了"、Retro 不指责、冲突先沟通。团队氛围本身就是被考核的工程实践。</p></div>
+  </div>
+
+  <h3>九周讲座地图</h3>
+  <div class="tablewrap"><table>
+    <tr><th class="mono">周</th><th>主题</th><th>一句话</th></tr>
+    <tr><td class="mono">W1</td><td>SPM 导论 · Git 单人/团队</td><td>瀑布 vs 敏捷；add/commit/push/pull、分支、MR、peer review</td></tr>
+    <tr><td class="mono">W2</td><td>敏捷团队实践</td><td>敏捷宣言与哲学；Sprint、团队契约、异步站会、Issue Board</td></tr>
+    <tr><td class="mono">W3</td><td>规划与用户故事 · 回顾</td><td>需求工程四步；"As a… I want… so that…" + 验收标准；五步 Retro</td></tr>
+    <tr><td class="mono">W4</td><td>测试 / TDD · 持续集成</td><td>Red → Green → Refactor；pytest + conftest；<code>.gitlab-ci.yml</code></td></tr>
+    <tr><td class="mono">W5</td><td>覆盖率与管理 · 可维护性</td><td>Theory X/Y；指标是对话不是 KPI；DRY / KISS / YAGNI；重构</td></tr>
+    <tr><td class="mono">W6</td><td>部署 / DevOps</td><td>Deployment lab（Vercel）</td></tr>
+    <tr><td class="mono">W7</td><td>持久化 · 软件复杂度</td><td>JSON 持久化；本质 vs 偶然复杂度；圈复杂度 V(G)=e−n+2</td></tr>
+    <tr><td class="mono">W8</td><td>风险管理</td><td>识别→分析→排序→缓解；风险登记表；Avoid / Reduce / Transfer / Retain</td></tr>
+    <tr><td class="mono">W9</td><td>回顾与展望</td><td>课程全景；作品集与证据；Definition of Done</td></tr>
+  </table></div>
+
+  <h3>你会带走的工具链（这门课最"值钱"的部分）</h3>
+  <ul class="big">
+    <li><strong>Git/GitLab 团队流</strong>：feature 分支 → 有意义的 commit → MR + peer review → <strong>作者自己合并</strong>；分支名如 <code>feature-add-task</code>；绝不直接改 main。</li>
+    <li><strong>测试</strong>：pytest + <code>conftest.py</code> 的 client fixture 每测试前重置；从用户故事写测试，先核心再边界。</li>
+    <li><strong>CI</strong>：根目录 <code>.gitlab-ci.yml</code>（python:3.11 → pip install → pytest），push/MR 自动跑，<strong>没绿勾不合并</strong>。</li>
+    <li><strong>覆盖率</strong>：<code>pytest --cov --cov-report=term-missing</code>，看 Missing 行补测试；后端目标 &gt;70%，<strong>不追 100%</strong>。</li>
+    <li><strong>设计 7 问</strong>：唯一事实来源？够简单？过度/不足设计？相关靠近？在臆测未来？遵循惯例？——没有强测试不重构。</li>
+    <li><strong>风险登记表</strong>：每条风险 7 字段（If…then…because… / 可能性·影响 / Owner / 缓解或应急 / 证据 / 状态 / 最近评审）。</li>
+  </ul>
+
+  <p>🎤 <em>此处可现场演示 2 分钟：开一个 GitLab MR + 绿勾 pipeline 的真实页面，比十页幻灯片都直观。</em></p>
+</section>
+
+<!-- ══════════════ 4. 注意事项 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>④ 注意事项：扣分与踩坑高发区</h2><span class="timechip">30:00 – 42:00</span></div>
+  <p class="sec-sub">先讲三条"红线"（直接 0 分级别），再讲五个高频小坑。</p>
+
+  <div class="callout danger">
+    <strong class="tag">红线一 · DEMO 缺席 = 0 分</strong>
+    <p>每个 Sprint 的 lab demo <strong>全员必须到场</strong>，缺席该 Sprint 记 0 分（除非批准的 special consideration）。</p>
+  </div>
+  <div class="callout danger">
+    <strong class="tag">红线二 · 不接受迟交</strong>
+    <p><strong>Push 到 main 即提交</strong>，评分取截止前 main 上最新 commit。所有组共用 CI runner——最后一刻集中 push 会排长队，别赌。</p>
+  </div>
+  <div class="callout danger">
+    <strong class="tag">红线三 · AI 可用但必须声明、必须能解释</strong>
+    <p>demo 时 tutor 可能要求你<strong>现场改一行代码</strong>验证是本人工作；解释不了 = 不了解自己的工作 = 抄袭，该 Sprint 记 0。不要合并任何自己没完全理解的 AI 代码。</p>
+  </div>
+
+  <h3>五个高频小坑</h3>
+  <ol class="big">
+    <li><strong>站会必须发在 MS Teams</strong>（tutor 可见）。Discord / WhatsApp 出了冲突课程无法查证，不算证据；站会按<strong>个人</strong>计分。</li>
+    <li><strong>过程证据要真实</strong>：真实案例——某组 lab 讨论质量很高，但会议纪要和 commit message 明显是 AI 批量生成、内容失实，<strong>反而拿了更低的分</strong>。</li>
+    <li><strong>互评（Moodle）不交，拿不到 Retro 那 5 分</strong>——它本身保密不计分，但提交是拿分前提。</li>
+    <li><strong>组员失联 48–72 小时</strong>：先关心安全、报告 tutor，然后当其不会回来继续推进。大多数冲突先直接礼貌沟通就能解决。</li>
+    <li><strong>有疑问尽早发论坛/邮件</strong>，别写在反馈表里（讲师截止后才看得到）；每周一记得看 newsletter。</li>
+  </ol>
+
+  <div class="callout warn">
+    <strong class="tag">⚠ 文档误区</strong>
+    <p>所有报告只有<strong>上限</strong>没有下限——"质量 &gt; 数量"，不要交 20–30 页凑字数；讲师原话：短小的文档只要把故事讲清楚就够了。</p>
+  </div>
+</section>
+
+<!-- ══════════════ 5. 如何拿高分 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>⑤ 如何拿高分：评分哲学与实操清单</h2><span class="timechip">42:00 – 55:00</span></div>
+  <p class="sec-sub">先理解"分数从哪来"，再给一张可执行的清单。</p>
+
+  <h3>评分哲学：三句话</h3>
+  <ol class="big">
+    <li><strong>不按功能数量给分。</strong>官方原文："groups will not be penalised having a very simple or few stories"——奖励的是有说服力的<strong>用户价值故事</strong> + 能跑通的流程 + GitLab 上可验证的<strong>过程证据</strong>。</li>
+    <li><strong>可追溯性是评分主线。</strong>每个 rubric 都在问同一个问题：tutor 能不能沿着这条链验证你的工作——</li>
+  </ol>
+  <div class="chain">
+    <span class="node">Issue + 验收标准</span><span class="arrow">→</span>
+    <span class="node">MR "Closes #n"</span><span class="arrow">→</span>
+    <span class="node">Commit</span><span class="arrow">→</span>
+    <span class="node">测试 / CI 绿勾</span><span class="arrow">→</span>
+    <span class="node">报告 / README 链接</span>
+  </div>
+  <ol class="big" start="3">
+    <li><strong>每个 rubric 分四档</strong>（Strong / Developing / Limited / Not demonstrated），官方指导："Use <strong>Strong</strong> as the target"。</li>
+  </ol>
+
+  <h3>分 Sprint 的高分策略</h3>
+  <div class="cards">
+    <div class="card"><span class="k">SPRINT 1</span><h4>把"easy marks"全拿满</h4><p>契约、Issue Board、站会"照做就得分"；Features Demo 只占 30 分中的 5 分。Sprint 1 平均分高于 HD——这里丢分最可惜。每人 ≥1 个合入 main 的 MR、每周 ≥2 次站会，机械地保证。</p></div>
+    <div class="card"><span class="k">SPRINT 2</span><h4>让 git 历史替你说话</h4><p>TDD 的证明就是 git 历史（先提交测试再提交实现），不用另写文档。CI 必做、MR 必须 <code>Closes #n</code>、周会必须有纪要（出席人、决策、行动项）。</p></div>
+    <div class="card"><span class="k">SPRINT 3</span><h4>报告互相链接成网</h4><p>README（用模板）链接风险报告和复杂度报告；Issue/MR 标注 "Mitigates R3"；后端覆盖率 &gt;70%；正式 demo 讲"用户·问题·价值·决策"（8 分），不要做 feature 流水账。</p></div>
+  </div>
+
+  <h3>个人分怎么拿（20 分常被忽视）</h3>
+  <ul class="big">
+    <li><strong>Portfolio 占 Sprint 3 个人分 6/10</strong>：写"我做了什么 → 创造了什么价值 → 学到了什么"，每个说法都附<strong>证据链接</strong>（issue/MR/commit/截图）；要有取舍与成长，不是流水账时间线。≤1000 词，Moodle 提交。</li>
+    <li><strong>Git 贡献可归因</strong>：有意义的 commit + Sprint 3 至少一个 substantial MR，并和 issue/风险/故事对得上。</li>
+    <li><strong>站会规律参与</strong>：具体（"写了 2 个用户故事"而非"做了些东西"）、暴露 blocker、帮队友解 blocker。</li>
+  </ul>
+
+  <div class="callout">
+    <strong class="tag">✓ 一条隐藏加分逻辑</strong>
+    <p>验收标准没达成不一定扣分——但你要<strong>能解释</strong>：是时间不够，还是判断它不重要而主动砍掉。会取舍、能说明理由，本身就是项目管理能力的证据。</p>
+  </div>
+</section>
+
+<!-- ══════════════ 6. 一页带走 ══════════════ -->
+<section>
+  <div class="sec-head"><h2>⑥ 一页带走 + Q&amp;A</h2><span class="timechip">55:00 – 60:00</span></div>
+
+  <blockquote>保持回路短：<strong>Plan → Build → Test → Deploy → Reflect</strong>——这是 SPM 的心跳。<span class="who">—— 全课总纲</span></blockquote>
+
+  <ul class="big">
+    <li>这门课考的不是"你会不会写代码"，而是<strong>你的协作过程能不能被验证</strong>。</li>
+    <li>三大主题：<strong>Traceability · Automation · Psychological safety</strong>。</li>
+    <li>三条红线：<strong>demo 全员到场 · 截止即终点 · AI 必须声明且能解释</strong>。</li>
+    <li>高分公式：<strong>用户价值故事 + 真实过程证据 + 全链路可追溯</strong>，Strong 为目标。</li>
+    <li>按周计划表走就不会掉队；卡住了<strong>立刻说</strong>，别等 deadline 才说"我卡了两周"。</li>
+  </ul>
+
+  <p>🎤 <em>预留 3–4 分钟 Q&amp;A。常见问题：随机组队遇到不干活的怎么办（沟通 → tutor → 个人分保护你）；没有前后端经验能拿高分吗（能，Sprint 1 功能只占 5 分）；能不能用 React（不能，锁定 Flask + HTML）。</em></p>
+</section>
+
+<div class="footer-note">
+  资料来源：COMP9820 26T1 Week 1–9 讲座整理（<span class="mono">lectures/01–09</span>）、Sprint 指南与评分表（<span class="mono">springs/00–03</span>）、课程宣传资料 A4。引用评分细则以课程网站当学期版本为准。
+</div>
+
+</div>
