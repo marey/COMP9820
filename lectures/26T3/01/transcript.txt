@@ -1,0 +1,2424 @@
+[00:01:01] 19820.
+[00:01:02] >> Okay. I thought I made a mistake from
+[00:01:08] what's
+[00:01:30] Come on.
+[00:04:26] Hello.
+[00:04:27] >> Yes. How can I help you?
+[00:04:34] I think
+[00:04:45] Robert Webster lecture theater a y
+[00:04:58] for the live streaming.
+[00:05:06] Yeah, I mean I can see I joined online.
+[00:05:09] I can see things live but I don't see
+[00:05:12] the slides or the camera is not the
+[00:05:15] slides and myself.
+[00:05:44] Let us see from the
+[00:06:52] able
+[00:07:05] to see that
+[00:07:08] this lights
+[00:07:12] can see live.
+[00:07:17] I'm not sure. I just
+[00:07:30] Is
+[00:07:58] Can you hear me now? Okay, that's good.
+[00:08:01] All right, thank you.
+[00:08:07] >> Thank you. Can Can someone help now or
+[00:08:37] All right. Good evening everyone and
+[00:08:39] welcome to the first lecture of COM
+[00:08:42] 9820. So, thank you for your patience.
+[00:08:44] We're just trying to fix the issue with
+[00:08:47] the live streaming. I believe students
+[00:08:49] who are online, they should hear us and
+[00:08:52] they should see the slides. However,
+[00:08:54] there's a technical issue with the
+[00:08:56] camera. They can't see pretty much this
+[00:08:58] side. So, if anyone is online or
+[00:09:03] checking online, just let us let me know
+[00:09:05] if there's an issue. So, some students
+[00:09:07] are joining with the live streaming. All
+[00:09:10] right. So, welcome to the COM 9820 uh
+[00:09:13] the software project management course.
+[00:09:16] Uh this is the first lecture ever for
+[00:09:18] TEM 3. So I hope you all settled in your
+[00:09:22] uh classes in your uh schedule and
+[00:09:25] everything. Uh so today we will actually
+[00:09:28] have a quick course introduction to
+[00:09:31] cover the important details about the
+[00:09:33] course. Uh we'll have a quick
+[00:09:35] introduction about software engineering
+[00:09:37] software development and then we'll move
+[00:09:40] on the two important topics virgin
+[00:09:44] control and working in groups.
+[00:09:47] All right. So
+[00:09:50] first of all I would like to acknowledge
+[00:09:51] the traditional owners of Australia and
+[00:09:54] recognize their continuing connection to
+[00:09:56] the land water and culture. I am
+[00:09:59] currently on the land of the Gajal
+[00:10:00] people of the Eura nation and pay my
+[00:10:02] respects to their elders past and
+[00:10:05] emerging. I further acknowledge the
+[00:10:07] traditional owners of the country on
+[00:10:09] which you are on and pay respect to
+[00:10:12] their elders past and present and
+[00:10:14] future.
+[00:10:16] All right. A quick outline for today. So
+[00:10:19] we have a lot of things to cover. Please
+[00:10:22] listen the very important information. A
+[00:10:24] lot of important things that will set up
+[00:10:26] for the whole term. Uh very short term,
+[00:10:29] nine weeks. Uh so I'll try to cover all
+[00:10:31] these important information to make sure
+[00:10:34] you are all have the same expectations.
+[00:10:37] Um and then I will move on to some
+[00:10:39] introductory topics that will get you to
+[00:10:41] get started with your course.
+[00:10:45] All right.
+[00:10:46] So my name is Bassim Solleman. I'm the
+[00:10:49] lecturer in charge and course convenor
+[00:10:51] for this course. Uh I am actually
+[00:10:54] leading also the capstone project which
+[00:10:56] has a strong link with this course. I
+[00:10:59] actually proposed this course last year
+[00:11:01] in order to make sure students are
+[00:11:03] prepared for 9900. So I will talk more
+[00:11:06] about this but this is actually my
+[00:11:08] profile and some of the research I do in
+[00:11:11] relation to doing some capstone projects
+[00:11:13] or doing some research. Uh some students
+[00:11:16] might be interested to actually talk
+[00:11:18] about some of the research I'm doing. So
+[00:11:21] we've got some more information online
+[00:11:22] to check and I always work with on this
+[00:11:25] kind of emerging AI and uh uh Asian tech
+[00:11:29] AI with relation to education
+[00:11:31] recommended system and web services or
+[00:11:34] online services. Um right okay so in
+[00:11:40] terms of the teaching team as well so we
+[00:11:42] have great tutors and admin support. Uh
+[00:11:46] so the names of the people who
+[00:11:48] supporting and helping here so the admin
+[00:11:50] is uh Daniel Gautella he's actually the
+[00:11:53] admin you might hear a lot about him uh
+[00:11:55] from discourse and other kind of
+[00:11:58] communication channels and he's also
+[00:11:59] leading one of the labs. So in terms of
+[00:12:02] discourse the forum which we use for
+[00:12:04] discourse so we've got Mikeo and Yumna
+[00:12:07] Zahed who are actually managing the
+[00:12:10] discourse forum uh mood so it's run also
+[00:12:13] by Mike and Trixie. So who will help to
+[00:12:16] update model which we use for the course
+[00:12:18] content and the assessment. We will be
+[00:12:21] using GitLab as one of the tools that
+[00:12:23] you will be working on. Uh and the one
+[00:12:25] who is managing that is Baky Sed and for
+[00:12:28] special consideration ELB or ELS. So
+[00:12:31] Gadier will be taking care of that. So I
+[00:12:33] just wanted to make sure that you know
+[00:12:35] the people who will be helping and
+[00:12:37] supporting. So if you receive any emails
+[00:12:38] or communication, you know those people.
+[00:12:41] All right. So we have also a great team
+[00:12:43] of tutors. tutors who are software
+[00:12:45] engineers, professionals, some of them
+[00:12:48] they graduated, they're working, some of
+[00:12:50] them with a long industry experience. So
+[00:12:52] you are very well equipped with those
+[00:12:54] tutors and uh you got a lot of support
+[00:12:57] through these tutors. So what I'm
+[00:12:58] showing here is um the tutorials we have
+[00:13:02] or the labs along with the some of the
+[00:13:04] details the day, time, location and
+[00:13:05] tutors is to make sure everyone knows
+[00:13:08] who are their tutors and which labs we
+[00:13:10] are running and so on. So this
+[00:13:13] information should be also available on
+[00:13:14] model and it came to my attention there
+[00:13:17] was some issues with the model uh
+[00:13:19] syncing or showing up to some students.
+[00:13:21] I think it should have been fixed and
+[00:13:23] everyone should be able to see model
+[00:13:25] online.
+[00:13:28] All right so you are here so you know
+[00:13:30] the lecture location some students left.
+[00:13:32] I thought I am I don't know my where's
+[00:13:34] my lecture. So uh great you're here and
+[00:13:37] you know I would like to see faces every
+[00:13:39] week. So it is a live stream lecture but
+[00:13:42] it would be great to also be engaged uh
+[00:13:44] in boom and see students attending. So
+[00:13:48] the lecture will be available also
+[00:13:50] through live streaming. Uh you can
+[00:13:52] access the link from moodle. So directly
+[00:13:55] takes you to echo 360 and you can join
+[00:13:58] with the live streaming and the
+[00:13:59] recordings will be also available in
+[00:14:01] echo 360. So the link also is on mood.
+[00:14:06] We have yeah we have 10 weeks nine
+[00:14:09] teaching weeks with one week is a flexi
+[00:14:11] week six uh so I'll cover more about
+[00:14:14] that and the topics we will be talking
+[00:14:16] about later on. So as I mentioned in
+[00:14:20] terms of communication which is very
+[00:14:22] important aspect of any course so we
+[00:14:25] will be using discourse and the
+[00:14:27] discourse link is available in mood.
+[00:14:29] When you access model, you click on the
+[00:14:31] discourse forum or link that will take
+[00:14:34] you there and you should be able to see
+[00:14:36] all the posts and announcements.
+[00:14:39] Um,
+[00:14:41] please use this course for
+[00:14:42] communication. Check this course to get
+[00:14:45] updates on the latest. We communicate
+[00:14:48] with all students on this course because
+[00:14:50] we can make it easy for everyone. And if
+[00:14:52] you ask questions, we answer them there.
+[00:14:55] That helps other students. What I
+[00:14:57] usually say check this course before
+[00:14:59] bossing because you can find some useful
+[00:15:01] information and some students ask very
+[00:15:03] good questions so you can learn from
+[00:15:05] that keep an eye on it. Uh it is the
+[00:15:07] platform we always use to communicate
+[00:15:09] and we expect students to check
+[00:15:10] regularly like their Facebook and
+[00:15:12] Instagram.
+[00:15:14] Um all right so you can post publicly
+[00:15:16] and privately. So of course if you need
+[00:15:18] to publish or post something specific to
+[00:15:20] you you don't want to share with
+[00:15:22] everyone or make it public feel free to
+[00:15:24] do so and we will look into that. the
+[00:15:26] teaching team will be able to see that
+[00:15:28] and we will address it in private way as
+[00:15:31] well.
+[00:15:34] All right. So you can also reach out to
+[00:15:37] your tutor directly if you want to
+[00:15:39] communicate with them outside the lab.
+[00:15:41] So the lab will provide a great
+[00:15:43] opportunity for real interactions and I
+[00:15:45] strongly recommend that you use this
+[00:15:47] time uh in which we actually allocate
+[00:15:51] specific time for each team for the
+[00:15:53] tutors and the students to talk and
+[00:15:55] interact about any matters. So this will
+[00:15:57] be much more effective compared to other
+[00:16:00] mechanisms.
+[00:16:02] Uh so we have a course email but as we
+[00:16:05] experienced before so sometimes
+[00:16:06] addressing these things but through the
+[00:16:08] email it actually create a lot of
+[00:16:10] issues. What we do sometimes we answer
+[00:16:12] one question and we want everyone to
+[00:16:14] know about that. So if this question is
+[00:16:16] posted on discourse so that will be even
+[00:16:19] much better. So please use this course
+[00:16:21] first and last if you want to get
+[00:16:23] anything escalated you can reach out to
+[00:16:25] me as a lecturer in charge or course
+[00:16:26] convenor. I'm always open for any
+[00:16:29] feedback and any questions or any thing
+[00:16:32] you want to discuss with me.
+[00:16:35] All right. Also, I just want to pay your
+[00:16:37] attention to the uh ELS and special
+[00:16:40] consideration process. So, you might be
+[00:16:42] aware about this from other courses. But
+[00:16:44] in case if you're not aware, it come to
+[00:16:46] my attention that some students didn't
+[00:16:48] know about these services and how it can
+[00:16:50] help them in their assessments. Some
+[00:16:52] students they go through the special
+[00:16:54] considerations or special circumstances.
+[00:16:56] they have special conditions and needs
+[00:16:59] ills and uh special consideration can
+[00:17:01] actually help and support the students.
+[00:17:04] So you have access to all these
+[00:17:05] services. Please make sure you use them
+[00:17:07] uh and use them at the right time uh
+[00:17:10] beforehand because sometimes it takes
+[00:17:11] time to process these kind of requests.
+[00:17:14] So the person who will be handling or
+[00:17:15] helping me to handle this is Gadier and
+[00:17:17] this is her email and you might hear
+[00:17:19] from her. She will usually talk to me
+[00:17:22] and I always be in the loop about any of
+[00:17:24] these cases.
+[00:17:28] All right. So this course uh is six
+[00:17:31] units of a credit a boss graduate
+[00:17:33] course. I'm super excited about this
+[00:17:34] course because I did propose this course
+[00:17:37] last year and as one who actually
+[00:17:40] transformed the capstone project 99900
+[00:17:43] into industry based client uh working
+[00:17:46] with the client on real projects and
+[00:17:48] real challenges. I thought you know
+[00:17:50] postgrad students need a lot of support
+[00:17:52] before they join the capstone project
+[00:17:54] and this course is actually the one we
+[00:17:56] have decided to transform into a form
+[00:17:59] that will prepare you before you go to
+[00:18:01] the capstone project right so
+[00:18:04] I think it is offered twice a year so
+[00:18:07] one and three I think you need to enroll
+[00:18:09] in advance or beforehand so you make
+[00:18:11] sure that you can enroll in your last
+[00:18:13] term uh for the capstone project now
+[00:18:16] what we covering so the cost name is
+[00:18:19] software project management, but we look
+[00:18:21] specifically at the software or modern
+[00:18:23] software uh uh methodologies and how uh
+[00:18:28] professionals manage software and the
+[00:18:31] practices involved in managing software
+[00:18:33] during the development of any projects
+[00:18:36] or software projects. So you will be
+[00:18:38] exposed to this kind of modern software
+[00:18:40] management processes and practices that
+[00:18:42] are widely adopted and used in industry.
+[00:18:45] So that will prepare you for the
+[00:18:46] industry or for your career force. Uh we
+[00:18:49] will cover all these tools and
+[00:18:50] technology and help you to work
+[00:18:52] collaboratively together to actually
+[00:18:54] plan, develop, build and test and
+[00:18:56] release software. Uh and we will uh be
+[00:19:00] eager to build your skills managing
+[00:19:01] software development in team
+[00:19:03] environments using practices and tools.
+[00:19:05] And we aim to help students to prepare
+[00:19:07] for their their roles in the future
+[00:19:09] especially those who aim to be more
+[00:19:11] senior like as a kind of team leader or
+[00:19:14] maybe a a software or IT project
+[00:19:16] manager.
+[00:19:19] The key areas that this course focus on
+[00:19:21] is actually agile. So this is all around
+[00:19:24] centered around agile software
+[00:19:25] development which is widely widely
+[00:19:27] adopted in industry. Um so we will look
+[00:19:31] at how you do planning and building
+[00:19:33] software and how you deploy and maintain
+[00:19:36] software as a team. Uh you will be
+[00:19:39] working as teams teams of six in agile
+[00:19:42] and following agile principles uh and
+[00:19:44] scrum as we will cover that in more
+[00:19:46] detail in one of the lectures. And on
+[00:19:49] top of that you will be using modern
+[00:19:51] tools to support you doing the work in
+[00:19:53] terms of planning, designing,
+[00:19:55] development and managing the software.
+[00:19:58] And importantly we try to get you to the
+[00:20:00] practices of thinking how you deploy and
+[00:20:03] release software with different versions
+[00:20:05] and how you manage these versions um in
+[00:20:09] real environments.
+[00:20:14] All right. So this is part of our
+[00:20:16] commitment to you. So again the course
+[00:20:20] is designed specifically to get you
+[00:20:22] really well prepared for the capstone
+[00:20:24] project and what you see here is pretty
+[00:20:26] much a lot of the things that you are
+[00:20:28] expected to be very good at when you're
+[00:20:31] starting the capstone projects right so
+[00:20:35] the experience I had when I started
+[00:20:37] transforming the capstone projects into
+[00:20:39] real world industry projects and working
+[00:20:41] with the clients a lot of the things are
+[00:20:43] not covered in in any course some
+[00:20:46] courses they cover them for the
+[00:20:47] undergrads but for the postgrads they
+[00:20:49] actually lack this kind of uh uh
+[00:20:52] experiences. Uh and I think the
+[00:20:54] challenge we had I did actually redesign
+[00:20:56] the whole capstone project to make sure
+[00:20:58] students are supported and over two
+[00:21:00] years of time I did that and we have a
+[00:21:03] great success with it. However the only
+[00:21:05] challenge remain for bosgrad students
+[00:21:07] that they have to learn and work on the
+[00:21:09] projects at the same time in that
+[00:21:11] course. Now you have the opportunity for
+[00:21:13] 10 weeks to have the practice and to
+[00:21:16] learn and gain the experience without
+[00:21:18] feeling the risk of I have a real
+[00:21:20] projects and a client that pushing me
+[00:21:21] hard that I should be prepared for it.
+[00:21:24] Right? So what I want you to do is
+[00:21:26] actually take this as an opportunity to
+[00:21:29] really get the hands-on experience. The
+[00:21:32] learning learning experience is
+[00:21:34] important. So this is a kind of
+[00:21:36] experimentation for you before you move
+[00:21:37] into working to on real real projects
+[00:21:40] and with real clients. All right. So
+[00:21:42] let's get started with uh other
+[00:21:44] important things about the course. Very
+[00:21:48] important. You all coming from different
+[00:21:49] diverse backgrounds and knowledge and
+[00:21:52] skills. I think one of the challenges we
+[00:21:54] did face what we expect from you when
+[00:21:57] you take this course pretty much you
+[00:21:59] should be the term just before the
+[00:22:01] capstone projects because it's supposed
+[00:22:03] to prepare you and you should be an
+[00:22:04] advanced level and we expect you to be
+[00:22:07] competent at least in one programming
+[00:22:08] language because this course will not
+[00:22:10] teach you programming languages right um
+[00:22:13] so we expect most common languages is
+[00:22:16] Python or Java um we require some kind
+[00:22:20] of web development experience Again, the
+[00:22:23] course is not focused on how good are
+[00:22:24] you in in in programming. You should
+[00:22:26] have learned that in other courses such
+[00:22:28] as the one you've got here. Recommended
+[00:22:30] one com 9044 software construction tech
+[00:22:34] tools techniques and tools. And the
+[00:22:36] other one that can help as well is COM
+[00:22:38] 6080 web front end. And we know that
+[00:22:41] some many students do these courses. So
+[00:22:43] this will give you very good background
+[00:22:45] before you start this course.
+[00:22:48] Right. in terms of our labs. So what you
+[00:22:51] will get in our labs this actually
+[00:22:52] special labs and how they are organized.
+[00:22:55] So we have these kind of weekly labs in
+[00:22:57] which we divided students into groups.
+[00:23:01] Now we will have one part of the lab
+[00:23:02] covering important things uh in that
+[00:23:05] that actually link to the lecture topics
+[00:23:07] and to your project work. So to give you
+[00:23:10] hands-on experience and some exercises
+[00:23:12] to do within the lab and get support
+[00:23:14] from your tutors as well as to also have
+[00:23:17] the opportunity to try things and
+[00:23:19] discuss with your teammates or with the
+[00:23:21] tutors. On top of that, the lab is so
+[00:23:24] important that we do have a lot of
+[00:23:27] things happening in the lab including
+[00:23:28] the project work. So we have the
+[00:23:31] mentoring time. Each group is allocated
+[00:23:34] about 20 to 30 minutes with their mentor
+[00:23:37] to discuss indirectly with their mentor,
+[00:23:39] their progress on their project work,
+[00:23:42] any matters related to their assessment,
+[00:23:44] individual contributions, the progress
+[00:23:46] with the project work, clarification on
+[00:23:48] the assessment and so on so forth. Some
+[00:23:50] of the labs are dedicated for um for
+[00:23:54] actually doing demonstrations and uh
+[00:23:57] reporting or uh demonstrating the work
+[00:23:59] you progress with. I will cover this in
+[00:24:01] more details in the following slides. So
+[00:24:04] attendance of the lab is some it's
+[00:24:06] mandatory because most of the learning
+[00:24:08] is happening in the lab whether it's
+[00:24:10] coming to meeting with your teammates
+[00:24:12] discussing discussing with your tutor or
+[00:24:14] your mentor the progress and what you're
+[00:24:16] doing and clarifying any matters or
+[00:24:19] issues or any assessment or any work
+[00:24:22] with your mentor. So it is so important
+[00:24:24] that's why we made it mandatory because
+[00:24:26] you will gain a lot of uh learning from
+[00:24:29] from these labs. So if you you are not
+[00:24:32] able to join one of these labs in
+[00:24:34] particular when you have the assessment
+[00:24:36] you must apply for special consideration
+[00:24:38] otherwise if a student is absent without
+[00:24:42] uh approved reason so they will actually
+[00:24:45] receive a zero mark for their work
+[00:24:47] because the work is a group work.
+[00:24:50] All right. So you can actually make this
+[00:24:52] kind of regular meeting. Uh labs are a
+[00:24:54] great opportunity. Students can find it
+[00:24:56] difficult to find a good time. But the
+[00:24:58] lab time is confirm that everyone is
+[00:25:00] available. Right? Before the lab or
+[00:25:02] after the lab, you have time to meet
+[00:25:03] because everyone is there. Even
+[00:25:05] sometimes during the lab time because
+[00:25:07] you will have about half an hour or 40
+[00:25:09] minutes exercises you do individually
+[00:25:11] with the tutor and then you have a group
+[00:25:13] time. The group time will be only
+[00:25:15] specific to each group giving them 20 or
+[00:25:17] 30 minutes and then the rest of the lab
+[00:25:19] time is for the team or for the
+[00:25:21] individuals to work. So this will be a
+[00:25:23] great opportunity but it's not the only
+[00:25:25] time you should be meeting. When we
+[00:25:27] learn about agile you will learn about
+[00:25:29] doing uh standups and make sure that you
+[00:25:32] have regular meetings even if they are
+[00:25:34] short and concise.
+[00:25:37] All right. So what resources are
+[00:25:38] available for you? So lectures uh so
+[00:25:42] lecture slides and lecture topics will
+[00:25:44] cover the fundamentals and the
+[00:25:45] principles. We'll focus on understanding
+[00:25:47] what are the aspects or important things
+[00:25:50] you need to learn about before you start
+[00:25:52] doing and understanding actually why we
+[00:25:55] need to do that and in principle how
+[00:25:59] things work. Now then you move on to the
+[00:26:00] lab and then you have exercises to have
+[00:26:02] hands-on experience and trying things
+[00:26:04] and make mistakes and learn from that.
+[00:26:07] Right? So in a year of AI I think I
+[00:26:11] believe one of the key things that we
+[00:26:13] have been discussing in many many
+[00:26:15] conferences many events I attended last
+[00:26:18] week I just came from one of these
+[00:26:19] engineering education conferences and
+[00:26:22] how the challenges we are faced and the
+[00:26:23] students are faced. One of the most
+[00:26:25] important things as a human that we need
+[00:26:28] we need to actually to understand how
+[00:26:30] things work even if AI can do some of
+[00:26:32] the work because you could be working
+[00:26:34] with an AI agent or you could be leading
+[00:26:38] a number of AI agents to do the work
+[00:26:40] that means you should understand how
+[00:26:42] what are the processes we follow the
+[00:26:44] practices now before we start doing this
+[00:26:46] is important we've seen a lot of
+[00:26:48] students they're good in doing and now
+[00:26:50] AI is good in doing but who can actually
+[00:26:53] advise or inform for AI how we plan what
+[00:26:56] we should plan what we should do the one
+[00:26:59] who is experienced with all these tools
+[00:27:01] with these practices and processes and
+[00:27:03] understand the project they work on and
+[00:27:05] this is where I want you to actually
+[00:27:06] build this good understanding before you
+[00:27:08] moving on to say doing a lot of students
+[00:27:11] start doing and then they miss this part
+[00:27:14] now things will get very complex when
+[00:27:15] you work in a team where you are
+[00:27:17] individual you might manage and deal
+[00:27:18] with the issues and challenges because
+[00:27:20] you by sell you will be working in a
+[00:27:22] team from start to end. Now this is
+[00:27:25] where you need the team to all
+[00:27:26] understand the processes you follow and
+[00:27:28] we want to see all team members are
+[00:27:30] following the practices applying them
+[00:27:33] and they using the tools
+[00:27:34] collaboratively. They're not just
+[00:27:36] someone is doing the work or someone is
+[00:27:38] good in that and the rest of the team is
+[00:27:39] not. This is actually a team work. So
+[00:27:41] they will make big difference when you
+[00:27:43] understand how things work. So there
+[00:27:45] will be bit of self- learning. There are
+[00:27:46] a lot of materials are online and things
+[00:27:49] that can help you. That's great. we try
+[00:27:51] to provide you with the one that is
+[00:27:52] specific for your assessments and
+[00:27:54] support you through your projects and
+[00:27:57] through your learning. Um if someone is
+[00:27:59] keen to learn about project management
+[00:28:01] in general and this is a kind of maybe
+[00:28:03] the project management professional or
+[00:28:05] the certification in general. So this
+[00:28:08] book could be one of the good books you
+[00:28:10] can look at. um the things that or the
+[00:28:12] one that we will learn about is more
+[00:28:14] about software project management in
+[00:28:16] particular and we will actually cover a
+[00:28:19] lot of things about scrum and agile
+[00:28:20] process along with the tools and
+[00:28:22] practices and I will be sharing more
+[00:28:24] resources as we go it's not kind of one
+[00:28:26] textbook it's more as in every lecture
+[00:28:28] we use some materials I will share some
+[00:28:30] of these resources
+[00:28:32] um
+[00:28:34] all right
+[00:28:39] okay so we talked about some of the
+[00:28:41] expected knowledge or assumed skills and
+[00:28:43] knowledge. I think making sure that you
+[00:28:45] have this will help the team. Uh these
+[00:28:47] are the learning out outcomes that we
+[00:28:49] will make sure we will through our
+[00:28:52] assessment the lectures and the labs we
+[00:28:55] try to cover them to make sure you're
+[00:28:57] meeting all these learning objectives.
+[00:29:01] Right?
+[00:29:03] So all the information I have shown so
+[00:29:05] far so it's all available in the unit
+[00:29:07] outline. I just wanted to walk through
+[00:29:09] to make sure uh we are all at the same
+[00:29:10] page. Uh maybe I'll stop a little bit
+[00:29:13] and ask if you have any questions so you
+[00:29:15] can take questions before we move on to
+[00:29:17] the next slides.
+[00:29:20] Any questions?
+[00:29:23] >> Yes, I will publish the slides. So I've
+[00:29:26] been yes after the class. Yeah, I've
+[00:29:28] been actually doing a bit of major
+[00:29:30] revamp for the for the slides.
+[00:29:33] Um
+[00:29:36] Right. So I think see
+[00:29:41] sure I think I need to turn on the air
+[00:29:43] con because I feel it's a bit uh warm
+[00:29:47] here. All right. So let's look at the
+[00:29:50] project the project work that you need
+[00:29:51] to do in this course. So how we
+[00:29:54] structure things as I mentioned. So
+[00:29:57] we've got students will be forming
+[00:29:59] groups uh group of six the same size. I
+[00:30:03] think we do a lot of things similar to
+[00:30:04] the capstone project that will also get
+[00:30:06] you more ready. You get used to this
+[00:30:08] environment of working with six
+[00:30:10] students, not three. Maybe in other
+[00:30:12] courses you did three or four. The the
+[00:30:14] thing uh or the setup is six students.
+[00:30:17] Uh so each lab has 24 students. That
+[00:30:20] means we're going to have four teams
+[00:30:22] ideally and we should have two tutors
+[00:30:26] now to v provide you with more support.
+[00:30:28] Each tutor or mentor will be supporting
+[00:30:30] two teams throughout the whole term.
+[00:30:33] That means we've got two tutors, two
+[00:30:35] teams with each tu two tutors and um
+[00:30:40] we also have the other things that we
+[00:30:42] will provide support. So tutors will
+[00:30:43] allow to also support if they are taking
+[00:30:46] more time with some teams they have
+[00:30:48] another tutor to support them during the
+[00:30:50] uh lab.
+[00:30:53] All right. So I think one recommendation
+[00:30:55] I'll talk about this later on. You will
+[00:30:57] do group formation in week one labs. Now
+[00:31:00] try your best to complete that by end of
+[00:31:02] week one because week two we're supposed
+[00:31:04] to get move to the next stage but we'll
+[00:31:07] give you the opportunity and the details
+[00:31:08] how you do that in the lab with your
+[00:31:10] tutor. Your tutor will help you to do
+[00:31:12] that. So and that so week one is so
+[00:31:15] important as well. If you miss that you
+[00:31:17] you don't have the opportunity to talk
+[00:31:19] in person to other students within your
+[00:31:21] lab.
+[00:31:24] All right. So I spoke about the other
+[00:31:26] things. Now in some cases if they are
+[00:31:28] everyone is allocated. So we've got
+[00:31:30] students or team with five. We accept
+[00:31:33] that if everyone is allocated if you
+[00:31:35] have a team of five and we have some
+[00:31:37] students are not allocated. We we will
+[00:31:39] allocate more students to your team
+[00:31:41] because we need to support them right.
+[00:31:43] We can't leave them alone without any
+[00:31:44] team. So if you don't want to be someone
+[00:31:47] or some students added to your team you
+[00:31:49] need to actually to form a team of six.
+[00:31:54] Right. So I think in terms of team
+[00:31:56] formation this will be happening in week
+[00:31:58] one and um in the lecture I will be
+[00:32:02] covering these topics and I'll talk
+[00:32:04] about important topic related to team
+[00:32:07] dynamics and working in groups. This is
+[00:32:09] really important. So today's lecture
+[00:32:10] will cover some of that as well. So we
+[00:32:14] aim to finalize t group formation in
+[00:32:17] week one. However we expect some teams
+[00:32:19] are not finalized by week two. So we
+[00:32:22] recommend to do your best by early week
+[00:32:24] two or week two to finalize that because
+[00:32:28] we're going to actually start working on
+[00:32:29] you and the sprints from week two as
+[00:32:31] well first sprint of your project. Your
+[00:32:34] mentors will provide support to ensure
+[00:32:35] that everyone is settled and uh they
+[00:32:38] they get their team team formation. So
+[00:32:40] we have a process for that. We prepared
+[00:32:42] something special for you. So activity
+[00:32:44] and guidelines so that makes your life
+[00:32:46] easy and to help to provide you guidance
+[00:32:48] on that. We leave it to you then to
+[00:32:50] actually finalize the teams
+[00:32:53] in terms of the project. Uh so we're
+[00:32:56] going to provide you with a project.
+[00:32:57] This project will be divided into
+[00:33:00] sprints following the scrum methodology.
+[00:33:02] Um and the first sprint will start with
+[00:33:05] a common project. And this project we
+[00:33:08] have selected for all teams called
+[00:33:09] shared expense splitter. Something you
+[00:33:12] all experience when you go together to
+[00:33:15] restaurant or something you need to
+[00:33:16] share split the expenses together.
+[00:33:19] Um all right so that's something close
+[00:33:20] to all of you maybe um so this will be
+[00:33:23] the same specs for all teams for
+[00:33:25] everyone now sprint two and three we
+[00:33:27] will ask you to think about variation
+[00:33:29] after you build some functionality
+[00:33:31] common functionality you say okay choose
+[00:33:33] a variation so it could be something
+[00:33:35] related to hotel to restaurant or
+[00:33:38] something like that so we'll provide you
+[00:33:39] the themes for that and that will help
+[00:33:42] the team to actually take control after
+[00:33:44] from sprint two we give you the starting
+[00:33:46] point we sit you with some specs And
+[00:33:48] then you have a control to lead and to
+[00:33:50] define your requirements or specific
+[00:33:52] requirements for that theme you choose
+[00:33:55] with your team. Uh okay. So
+[00:34:00] we will release the details of each uh
+[00:34:02] of the specs for each variation on
+[00:34:04] Moodle. So that will give you a bit of
+[00:34:06] framework for what you expect to make
+[00:34:08] things under control. So not to go too
+[00:34:10] wild and find it difficult for you to
+[00:34:12] work on it.
+[00:34:14] Um
+[00:34:15] now as I said teams uh need to extend
+[00:34:18] and adapt their sprint one solution
+[00:34:20] rather than starting over when we move
+[00:34:22] on to sprint two
+[00:34:26] right. Okay. So
+[00:34:29] in terms of the schedule this is the
+[00:34:31] schedule for uh this course. So as I
+[00:34:34] mentioned 10 weeks we try to align the
+[00:34:38] content of each week with what you are
+[00:34:41] supposed to do with your labs and with
+[00:34:43] your projects. Uh it's a bit difficult.
+[00:34:46] We try to cover content in advance. So
+[00:34:48] we make sure when you start that week
+[00:34:50] you cubed with what you need to know and
+[00:34:52] these are the different topics we will
+[00:34:54] be covering. They are all highly related
+[00:34:57] to the industry practice, the
+[00:34:58] professional practice and they are all
+[00:35:01] going to help you for not only this
+[00:35:03] course but also for the capstone course.
+[00:35:04] So it's a great investment for all the
+[00:35:06] time and the effort you put for this
+[00:35:08] that will actually have a great return
+[00:35:10] for your effort and your time.
+[00:35:15] All right. Now quick overview of the
+[00:35:18] assessments and what you will be working
+[00:35:20] on.
+[00:35:21] So as I mentioned uh and I'm actually a
+[00:35:24] big fan of projects and project based
+[00:35:26] learning. So I feel like exams might not
+[00:35:29] give students great opportunity to show
+[00:35:31] their good talent. So there's no exam
+[00:35:34] here. We have a project and you're going
+[00:35:36] to work on this project software project
+[00:35:39] uh for the whole term as a group and
+[00:35:42] this is different maybe to other
+[00:35:43] courses. from week one or week two, you
+[00:35:46] start as a group for the whole term. Uh
+[00:35:48] and you will be provided with all the
+[00:35:50] environment. Um so you need to apply and
+[00:35:53] practice what you we cover in the course
+[00:35:55] and in the lab to ensure that you
+[00:35:58] actually adopt all these practices and
+[00:36:00] processes you're supposed to follow and
+[00:36:02] aligns with the industry practice.
+[00:36:05] So we have three development sprints as
+[00:36:07] I mentioned. We'll cover this later on
+[00:36:10] in terms of the marks. So we've got
+[00:36:13] actually
+[00:36:16] project demonstrations worth 35%
+[00:36:19] from the uh total marks. So team reports
+[00:36:23] 45%
+[00:36:25] and we've got individual reports plus
+[00:36:27] beer evaluation 15% individual
+[00:36:30] reflection reflection is 5%. So this
+[00:36:33] will give a total of 100%. As I
+[00:36:35] mentioned, no exam is involved in this,
+[00:36:37] but a lot of project work and practice
+[00:36:39] as a group and as individuals.
+[00:36:45] Right? So, a bit of timeline for the
+[00:36:47] sprints. We have three sprints as I
+[00:36:49] mentioned. Um, sprint one should start
+[00:36:52] from week two to four in which you will
+[00:36:55] start uh defining your user stories and
+[00:36:58] start implementing and planning the work
+[00:37:00] you need to do and managing the work to
+[00:37:02] deliver a demo at the end of that
+[00:37:05] sprint. So you've got um a group
+[00:37:09] assessment worth 25% which is due by end
+[00:37:12] of the sprint week four. uh and we have
+[00:37:15] individual component if you notice
+[00:37:17] actually we have different components
+[00:37:19] for each sprint one is group 25% we've
+[00:37:23] got individual 5%. Now what thing we did
+[00:37:27] so for the group we have a demo plus
+[00:37:29] report to be submitted as a group. Demo
+[00:37:32] will be done during the lab week for lab
+[00:37:34] for the first sprint or the first demo.
+[00:37:37] Right now we allow students to submit
+[00:37:41] their individual contribution or report
+[00:37:44] uh after they finish the sprint. So that
+[00:37:47] means week five for the first sprint and
+[00:37:49] the same thing goes on for the other
+[00:37:51] sprints. Now same thing for sprint two
+[00:37:54] and three. Week five to eight. Now what
+[00:37:56] we do week five we give you one week and
+[00:37:58] we will support you to think about the
+[00:38:00] variation and defining your user stories
+[00:38:03] you need to work on for sprint two and
+[00:38:04] three. We give you one week to prepare
+[00:38:07] and ahead of time. So and then you
+[00:38:10] actually work on because we have week
+[00:38:12] six. So you're going to have week seven
+[00:38:15] and eight for this kind of sprint too
+[00:38:17] and following the same thing 25% for the
+[00:38:21] group report and the demo and 5% for the
+[00:38:24] individual requ uh contribution which
+[00:38:26] will be after week nine uh after week
+[00:38:29] eight which is week nine. The final one
+[00:38:31] is a little bit more 30%, this is the
+[00:38:33] final project demonstration and final
+[00:38:36] report and we have the 10% individual
+[00:38:40] contribution uh and the final
+[00:38:42] reflection. So we have a reflection on
+[00:38:44] the work you've done individually going
+[00:38:46] to reflect on the whole project and what
+[00:38:48] did you learn and a lot of authorities
+[00:38:51] like Australian computer society
+[00:38:53] engineer Australia they ask students to
+[00:38:54] report on their learning and how the
+[00:38:57] learning or these kind of practices or
+[00:38:59] things uh they actually help them in the
+[00:39:01] in in working in the groups or adopting
+[00:39:04] these practices. So this is the kind of
+[00:39:06] thing you expect to do as engineers or
+[00:39:08] software engineers or people working in
+[00:39:09] the field.
+[00:39:12] All right. So this hopefully give you a
+[00:39:14] clear structure for the sprints,
+[00:39:16] deadlines and deliverables.
+[00:39:20] Now I think we did speak about these
+[00:39:22] ones just to uh showing them in a
+[00:39:25] different uh visualization and highlight
+[00:39:28] the summary of all these ones. All
+[00:39:31] right. So of course they will be
+[00:39:32] detailed uh published on mood for all
+[00:39:35] the assessment. Okay. Just give us time
+[00:39:37] so we will make it available for you as
+[00:39:40] soon as possible and as you need it.
+[00:39:43] Um okay so these are the different types
+[00:39:47] of assessment. You are expected to do a
+[00:39:49] live demonstration of the software or
+[00:39:51] the features you implement in your
+[00:39:53] software during your lab as a group and
+[00:39:56] you're expected to submit a report. It's
+[00:39:58] a kind of technical documentation of the
+[00:40:00] work you have done uh uh same week of
+[00:40:03] your demo for each sprint. So we have
+[00:40:06] beer assessment. So you need to evaluate
+[00:40:08] your teammates contributing to the
+[00:40:10] project and this is one of the practices
+[00:40:12] people are doing nowadays uh giving
+[00:40:15] feedback and evaluating other team
+[00:40:17] members and that will help team members
+[00:40:18] to actually reflect on the feedback
+[00:40:21] given by others how they could improve
+[00:40:23] and also assessing their work. So we
+[00:40:27] have the individual reports that will
+[00:40:28] help you to tell us about your
+[00:40:30] contributions which is important. We
+[00:40:32] need to know that and we can also track
+[00:40:34] and see things in the tools and through
+[00:40:36] the mentors and the individual
+[00:40:39] reflection which is pretty much the
+[00:40:40] reflection for the entire project at the
+[00:40:42] end of the project.
+[00:40:46] All right. In terms of AI, the key
+[00:40:48] advice I give to my students, everyone's
+[00:40:50] saying AI is doing everything. All
+[00:40:52] right. I tell that we need to show
+[00:40:55] employees that we need humans, we need
+[00:40:57] software engineers or IT managers to
+[00:41:00] work with AI agents to lead the work
+[00:41:04] right and this is your role to build the
+[00:41:06] skills. uh what we actually do we don't
+[00:41:09] want to say okay let's do it with AI
+[00:41:11] right even if some companies do that the
+[00:41:14] roles are changing actually we are the
+[00:41:16] one should demonstrate to companies that
+[00:41:18] we need humans I think I did you did
+[00:41:20] hear maybe about the news meta
+[00:41:22] considered releasing a lot of software
+[00:41:24] engineers but at later stage they
+[00:41:26] realize that we need humans more we need
+[00:41:28] software engineers so things change some
+[00:41:31] companies are rushing to make decisions
+[00:41:32] but the key thing when you go for
+[00:41:34] interview you're actually going to
+[00:41:35] demonstrate why we need a human. Yes, we
+[00:41:38] can work with AI agents but you need
+[00:41:39] someone who lead these AI agents and
+[00:41:41] this is your opportunity to build the
+[00:41:44] skills and knowledge to tell them how we
+[00:41:46] can do that right. Uh so for us we are
+[00:41:50] not going to use AI for writing code or
+[00:41:52] stuff like that. So the level we are
+[00:41:54] adopting according to the university
+[00:41:55] policy is symbol editing assistance and
+[00:41:58] this is pretty much we are not using AI
+[00:42:01] to do the work. We want you to do the
+[00:42:02] work and to work with the team and
+[00:42:04] experience that work with the team right
+[00:42:06] so I'm sure you can learn other things
+[00:42:08] how I can use AI to do the work and you
+[00:42:10] can do it outside but working in a team
+[00:42:13] with using set of practices tools and in
+[00:42:16] a certain environment is the skill you
+[00:42:18] can get with AI right so make sure you
+[00:42:21] uh experience and excel that
+[00:42:24] so this is what it means and you can
+[00:42:27] find the policy online this is the
+[00:42:28] university policy so I just wanted to
+[00:42:30] make it clear which one we using? We're
+[00:42:32] using symbol editing uh assistance.
+[00:42:37] All right. So I think this also
+[00:42:39] clarification on what you can use with
+[00:42:41] AI and what you cannot use to make sure
+[00:42:43] that you understand it uh well.
+[00:42:48] So what we will do and what maybe
+[00:42:50] companies do actually checking what you
+[00:42:53] the tools you use GitLab
+[00:42:55] uh tracking management system where who
+[00:42:58] did who did what and so on to ensure
+[00:43:00] that people were working and uh they
+[00:43:02] were contributing to the project work.
+[00:43:06] All right. So some advice for you to do
+[00:43:08] well uh in this course
+[00:43:10] very important time management. We're
+[00:43:12] talking about software management. Time
+[00:43:14] management is key. Don't leave things to
+[00:43:16] the last minute. work every week and
+[00:43:19] following scrum and agile will help you
+[00:43:20] to do so that will make your life easy.
+[00:43:23] So next week I think I'm covering that.
+[00:43:25] So we'll tell you what are the roles how
+[00:43:28] you plan the work how you execute the
+[00:43:30] work how you monitor the work. So if you
+[00:43:32] follow the practices agile or scrum is
+[00:43:34] there to help you to make things more
+[00:43:36] efficient and more effective. Um so
+[00:43:40] pay attention to that and apply it. This
+[00:43:42] is what I say students always ask do I
+[00:43:44] need to do standup meetings? Do I need
+[00:43:46] to do this? Do I need to do that?
+[00:43:48] Companies? Yes, they do. Look, they do
+[00:43:51] the practices or variation of these
+[00:43:53] practices. But if you know the practices
+[00:43:54] and you do it really well, if they have
+[00:43:56] a variation, you manage to do with the
+[00:43:58] company. So, you need to participate in
+[00:44:01] the lectures and labs. Uh practice and
+[00:44:04] reflect. You know, uh you will do a lot
+[00:44:07] of practicing, a lot of learning and
+[00:44:08] reflecting on what you learn and enjoy
+[00:44:10] the learning. Of course, don't feel it's
+[00:44:12] something, you know, make your life
+[00:44:14] difficult. It's pretty much investing in
+[00:44:16] your future.
+[00:44:18] So this is the teaching philosophy I
+[00:44:21] like to adopt with the students. If you
+[00:44:23] want to get real learning, basically
+[00:44:26] it's all about involving the students to
+[00:44:28] learn, not to teach them to remember.
+[00:44:31] That's why we don't have exam. And this
+[00:44:33] is pretty much where we need you to be
+[00:44:35] part of the process of the learning. So
+[00:44:38] it's all centered around you. And the
+[00:44:40] sitting is different than other courses
+[00:44:42] where you work on a project for three
+[00:44:44] sprints as a group and all adopting the
+[00:44:46] same tools and the practices. So this
+[00:44:49] make big difference. So your involvement
+[00:44:52] week by week is so critical for
+[00:44:53] learning.
+[00:44:56] All right. So just quickly I will
+[00:44:58] highlight some of the links for the of
+[00:45:00] this course to uh 90 900 the industry
+[00:45:05] capstone projects. Now I have introduced
+[00:45:08] this industry capstone projects uh 24
+[00:45:11] early 24 for all students and over time
+[00:45:15] I have evolved the model to work really
+[00:45:17] well and scale it for large number of
+[00:45:19] students. So these are some of the
+[00:45:21] challenges we try to address in the
+[00:45:23] capstone projects to get students real
+[00:45:26] learning. Now in normal settings what we
+[00:45:28] do we just say okay the requirements we
+[00:45:31] clarify the requirements we try to make
+[00:45:32] it perfect we just say everything is
+[00:45:35] clear for the students the reality is
+[00:45:38] when you work with the client or with a
+[00:45:39] company they need you to figure out this
+[00:45:42] right it's not ideal that the problem we
+[00:45:45] try to solve is ambiguous we need to
+[00:45:46] elaborate more in the requirements
+[00:45:48] understand the needs and the bins really
+[00:45:50] well before we build the software
+[00:45:52] because that's actually so important
+[00:45:54] there are complexity with the team doing
+[00:45:56] as I mentioned you might do in some
+[00:45:58] courses one project for one or two weeks
+[00:46:00] or three weeks here we're doing for the
+[00:46:02] whole term with the three sprints
+[00:46:05] we also try to look at the how we assist
+[00:46:08] students considering group and
+[00:46:10] individual contribution and you notice
+[00:46:11] that in the assessment it's well
+[00:46:13] reflected and we want you to build this
+[00:46:15] skill of working with someone as a
+[00:46:17] client now in this course we don't have
+[00:46:19] clients but this is what we try to do
+[00:46:21] for the capstone now your tutor will
+[00:46:23] somehow act as a client to give you
+[00:46:25] feedback back as a client. So sometimes
+[00:46:27] they wear the hat of tutor and sometimes
+[00:46:29] they they wear the hat of clients.
+[00:46:32] say we the model is trying to close this
+[00:46:35] gap between
+[00:46:37] uh the traditional academic projects or
+[00:46:40] capstone projects and the real world and
+[00:46:42] this has been published in a research
+[00:46:45] paper I presented last year in one of
+[00:46:47] the education conferences and I
+[00:46:49] presented last week a new version of
+[00:46:52] this for 25
+[00:46:55] uh in another conference in Europe they
+[00:46:57] actually covers this and had I had a lot
+[00:46:59] of interaction from academics in the
+[00:47:01] field they were so much interested to
+[00:47:03] know how we can actually do this in in
+[00:47:05] their courses.
+[00:47:08] All right. So this is the whole
+[00:47:09] framework of this capab. The main thing
+[00:47:13] in the center is you guys. So we're
+[00:47:15] going to build this authentic learning
+[00:47:17] experience for you through these four
+[00:47:19] components we try to provide in the
+[00:47:21] capstone project and make sure that we
+[00:47:24] can prepare you in a similar way those
+[00:47:26] who do intention but you actually not
+[00:47:28] working individually working in a team
+[00:47:30] in a similar company environment
+[00:47:34] right so this will be a preparation
+[00:47:37] before you move there so I hope that
+[00:47:39] when you move to the capstone project
+[00:47:40] you find yourself much more confident to
+[00:47:43] face or to work with these challenges
+[00:47:44] Just I want to share with you some of
+[00:47:46] the stories from the capstone. What did
+[00:47:48] we hear from the clients who offered
+[00:47:49] projects to our students in the capstone
+[00:47:51] projects in some of the past semesters.
+[00:47:54] This is one of the projects we always
+[00:47:55] get from Atlassian. We get five projects
+[00:47:58] from them. The students build on these
+[00:48:00] kind of the forge app and the forge app
+[00:48:03] has they are Atlassian are building AI
+[00:48:05] services. Now our students for I think
+[00:48:08] two years uh they actually been working
+[00:48:11] and building some of these features that
+[00:48:14] are going to be used by many many
+[00:48:16] software engineers and many people using
+[00:48:18] Atlassian platform and this is some of
+[00:48:20] the feedback we got from them. It's
+[00:48:22] really amazing and it's very promising
+[00:48:26] some of them they actually get that
+[00:48:27] great experience before they graduate.
+[00:48:30] And there are many other projects where
+[00:48:32] we got some industry partners or you
+[00:48:34] know the Royal Hospital for women. So
+[00:48:36] we've got some feedback about building
+[00:48:38] this kind of milk checker app and they
+[00:48:40] were so highly interested to deploy that
+[00:48:42] and use it within the hospital.
+[00:48:46] So some uh success stories within our
+[00:48:49] school and the university some clients
+[00:48:51] offering projects from the school or the
+[00:48:52] faculty or the university and some
+[00:48:54] students managed to do excellent work.
+[00:48:56] They embrace the academics. Some of them
+[00:48:58] they got full scholarship out of this
+[00:49:01] project because they managed not only to
+[00:49:03] do the work but also to publish a
+[00:49:04] research paper. Uh so putting or
+[00:49:08] investing the effort is providing a lot
+[00:49:09] of great outcomes. These are some of the
+[00:49:13] students feedback who actually after
+[00:49:15] they graduated they walked into
+[00:49:16] companies they started to think how this
+[00:49:19] course helped me and this is great. So a
+[00:49:21] lot of students are making a very
+[00:49:24] positive experience from this capstone
+[00:49:26] project and now I hope that you get this
+[00:49:29] to build well before you move on to the
+[00:49:31] capstone project so you can excel when
+[00:49:32] you work on real world projects with
+[00:49:35] real clients.
+[00:49:36] So more feedbacks from the clients as
+[00:49:39] well. So some of the clients who
+[00:49:40] actually provided really very positive
+[00:49:42] feedback. So we had some challenges we
+[00:49:44] had to work around them. So we've been
+[00:49:46] training the students to say you know
+[00:49:49] this is the reality you're going to work
+[00:49:50] with. How you going to man manage a
+[00:49:52] client with uh different expectations or
+[00:49:54] changing requirements. This is one of
+[00:49:57] the biggest challenges but I think for
+[00:49:59] us it's all about training them before
+[00:50:00] they graduate or walk into interview
+[00:50:02] because they can actually demonstrate
+[00:50:04] their understanding and confidence
+[00:50:06] before going to interviews.
+[00:50:09] All right. So
+[00:50:11] now I think that's all about what I want
+[00:50:13] to talk about the course. Um, next is
+[00:50:17] actually a quick introduction to
+[00:50:18] software engineering development. I
+[00:50:20] usually give a break in the middle so we
+[00:50:22] can maybe have five minutes break to
+[00:50:24] stretch and refresh and then we can
+[00:50:26] continue uh in in five minutes like 7
+[00:50:28] o'clock.
+[00:50:30] So
+[00:50:32] feel free if anyone want to eat dinner
+[00:50:34] or do something during the lecture
+[00:50:36] that's that's fine. So I know it's late
+[00:50:39] and um if you need to have your dinner
+[00:50:42] feel free to do so.
+[00:51:16] to change
+[00:51:33] sometimes.
+[00:51:42] There's a wedding that will happen.
+[00:52:20] responsible for this course. Uh you can
+[00:52:23] find the names. You can't see the
+[00:52:26] discourse announcement.
+[00:52:37] responsible for it.
+[00:52:41] He will take it
+[00:52:45] available after
+[00:53:35] The teacher might help
+[00:53:52] also.
+[00:54:03] You are investing money. If you are not
+[00:54:07] involved, I
+[00:54:21] can change our
+[00:54:29] We will give you an activity
+[00:54:32] that will help you to think about
+[00:55:04] audio visual
+[00:55:07] because this is this it's directly set
+[00:55:09] up by them. So
+[00:55:12] you have a number or
+[00:55:14] you can make
+[00:55:32] or actually send me send
+[00:55:54] Yeah, I mean everything is set up and I
+[00:55:57] called them before
+[00:55:59] they say they see it and it works.
+[00:56:01] always firstly Facebook always
+[00:56:05] audio audio visual team usually they say
+[00:56:08] it works but it doesn't now I reported
+[00:56:10] that
+[00:56:12] >> yeah actually
+[00:56:15] we will take it further I will ask
+[00:56:36] So I check though
+[00:56:55] >> which one of these labs
+[00:57:07] This is this is in the time table,
+[00:57:09] right?
+[00:57:09] >> Yes.
+[00:57:14] >> You can email Daniel. Uh Daniel
+[00:58:10] question 10
+[00:58:38] It should be live stream. I was talking
+[00:58:40] to them because I
+[00:58:42] working
+[00:58:47] live streaming students
+[00:58:56] because this is managed by other people.
+[00:59:19] We have
+[00:59:42] wide range of applications.
+[01:00:00] You can take
+[01:01:49] All right. So,
+[01:01:51] I hope you had a good refresher.
+[01:01:55] Um
+[01:01:56] so we'll continue with the
+[01:01:59] quick introduction to software
+[01:02:01] engineering or development. Now I just
+[01:02:03] want to mention one thing. You might
+[01:02:05] have experienced some of the things we
+[01:02:07] covering in this course in some other
+[01:02:09] courses in your postgrad or before. Our
+[01:02:12] goal is to make sure everyone is at the
+[01:02:15] same page and this is one of the biggest
+[01:02:16] problems we face when students started
+[01:02:18] the capstone projects. Many students
+[01:02:21] reported to us saying that my teammates
+[01:02:23] they don't know how to do front end or
+[01:02:24] back end or they don't know how to use
+[01:02:26] git or they don't know how to docker and
+[01:02:29] so so on so forth and it created a lot
+[01:02:32] of tensions and issues. Now our goal is
+[01:02:34] to we can't just assume someone knows
+[01:02:36] and someone doesn't. So we need to
+[01:02:37] actually make sure everyone at the same
+[01:02:39] page and the course is really going
+[01:02:41] through the introduction not to look
+[01:02:43] maybe at the very advanced the main goal
+[01:02:46] to make sure that you guys can do what
+[01:02:49] or apply all what you learn here as a
+[01:02:51] team in a kind of environment similar to
+[01:02:54] the industry. This is the challenge and
+[01:02:56] I can promise you you will learn things
+[01:02:58] you will find it very easy but when you
+[01:03:00] start working in a team of five or six
+[01:03:02] and you say we want to do scrum all
+[01:03:05] scrum practices and we want to use jira
+[01:03:07] or we want to use github or gitlab and
+[01:03:10] we want to do this and that the the
+[01:03:12] complexity start to emerge when you are
+[01:03:14] team of six and managing the dynamics
+[01:03:16] and all these things and this is the
+[01:03:18] experience I want you to focus on you
+[01:03:20] don't need to be stressed out about a
+[01:03:22] lot about the software we want you to to
+[01:03:24] you you're building software but the
+[01:03:27] quality of the software will come by
+[01:03:29] following the processes and the
+[01:03:30] practices as a team collaboratively
+[01:03:34] if one team member is not believing in
+[01:03:35] the scrum values and they're not
+[01:03:37] implementing that it will impact the
+[01:03:38] whole team now we want to make sure
+[01:03:40] everyone is at the same page with all
+[01:03:42] that so just a quick intro and I think a
+[01:03:45] lot of you have maybe experienced this
+[01:03:48] in their degrees we are talking about
+[01:03:50] software and building software and you
+[01:03:53] can see nowadays Software is everywhere
+[01:03:55] everywhere with AI even we expect to see
+[01:03:58] everything is a software where people
+[01:04:00] building a software for everything even
+[01:04:02] little thing in their life right um so
+[01:04:05] but thinking of you as software
+[01:04:07] engineers you're going to build software
+[01:04:08] that could actually be managing your
+[01:04:12] power plants or you could be managing
+[01:04:15] the telecommunication like communication
+[01:04:18] apps that has millions if not billions
+[01:04:20] of users that little thing goes wrong
+[01:04:22] getting back millions of users. But
+[01:04:25] think about also building software where
+[01:04:28] we have more mission critical software
+[01:04:30] that controlling traffic lights or
+[01:04:32] flights or so on so forth. How important
+[01:04:36] is to actually follow a rigorous
+[01:04:38] software development process uh to make
+[01:04:41] sure we build a reliable software and
+[01:04:43] this comes through following these
+[01:04:44] practices and tools we are going to get
+[01:04:46] you to adopt.
+[01:04:49] Now of course software is a bit of huge
+[01:04:53] uh now part of a huge economies or big
+[01:04:56] countries uh some of the reports are bit
+[01:04:59] old but I think you can find most recent
+[01:05:02] reports showing that uh software and
+[01:05:05] software development is is a kind of a
+[01:05:06] huge economy for us and many many other
+[01:05:09] companies or countries.
+[01:05:13] Now what we see as challenges because
+[01:05:15] everything is software we see high risk
+[01:05:17] of issues or security issues or impact
+[01:05:21] last week I think uh UK flights have
+[01:05:25] been delayed and canled because of in
+[01:05:28] software right managing the flights and
+[01:05:30] so on just think about it if you're part
+[01:05:32] of that team building this software how
+[01:05:34] complex is it going to be and they
+[01:05:37] literally need the team to be following
+[01:05:39] all the practices and using the tools
+[01:05:41] and all what they supposed to be doing
+[01:05:44] as software engineers to ensure that
+[01:05:46] these things are minimized but we can't
+[01:05:48] say 100% it's it's constant. So security
+[01:05:51] is one of the concerns but we always
+[01:05:52] worry about also other kind of concerns
+[01:05:54] when we build software. So when we talk
+[01:05:58] about software engineering and you hear
+[01:06:01] about many engineering degrees, building
+[01:06:03] these kind of buildings and the
+[01:06:06] structural buildings and bridges are
+[01:06:08] important in in our life and engineers
+[01:06:11] follow these kind of very strong
+[01:06:13] engineering processes and practices to
+[01:06:15] ensure they are reliable because humans
+[01:06:18] life are involved in these. When we talk
+[01:06:20] about software for me it's not a big
+[01:06:22] difference. We are building software
+[01:06:23] that use everywhere. Even a software is
+[01:06:25] used to actually design the architecture
+[01:06:27] of the building. Anything goes wrong
+[01:06:30] with the software can also goes wrong
+[01:06:31] with the implementation of this
+[01:06:33] architectural design. Right? So some
+[01:06:36] people underestimate the importance of
+[01:06:38] software engineering. And some people
+[01:06:39] are arguing if software engineering is
+[01:06:42] important or not. And interestingly you
+[01:06:45] find that software engineers is one of
+[01:06:47] the u uh one of the jobs that are
+[01:06:51] peaking in the United States in many
+[01:06:52] countries. Right. Uh none of the list.
+[01:06:55] So talking about software engineering,
+[01:06:57] it's a whole engineering discipline that
+[01:06:59] involves different things in building
+[01:07:02] software. So this kind of word cloud
+[01:07:05] showing some of the important things.
+[01:07:06] When people say what is software
+[01:07:08] engineering, you hear people saying
+[01:07:09] development and it's a big one.
+[01:07:13] However, development is only one thing.
+[01:07:15] And for me and for many other people who
+[01:07:17] are highly experienced before
+[01:07:18] development you need to have a very good
+[01:07:20] understanding of the problem of the
+[01:07:21] requirements of the users for who you're
+[01:07:23] building how you design a robust
+[01:07:26] software architecture or designs before
+[01:07:28] you build a software or before you write
+[01:07:30] a code right so there's a lot of more
+[01:07:32] things involved and people underestimate
+[01:07:34] that uh what is software engineering and
+[01:07:37] think it's only development but there's
+[01:07:39] a lot more involved in that so
+[01:07:43] why software engineering is important. I
+[01:07:46] just mentioned in one of the slides we
+[01:07:47] are building software that can be used
+[01:07:49] anywhere in our day-to-day life or in
+[01:07:52] our uh important aspects of life. So and
+[01:07:56] you can think about it safety is
+[01:07:58] important. We can think about we want to
+[01:08:00] build application or software that meets
+[01:08:02] our needs and help us to solve our
+[01:08:04] problems not to make more problems for
+[01:08:06] us. So user needs and understanding them
+[01:08:09] making this software reliable and
+[01:08:10] trustworthy is important otherwise
+[01:08:12] people won't use them.
+[01:08:14] Um any failure as I mentioned uh like
+[01:08:17] the case last week uh about the flights
+[01:08:21] cancelled in in in the United Kingdom uh
+[01:08:24] is is actually making big impact on
+[01:08:26] people life uh and it can be critical in
+[01:08:28] some point if something goes wrong you
+[01:08:30] know that could can lead to some
+[01:08:31] catastrophes
+[01:08:33] and of course one of the biggest biggest
+[01:08:35] issues having a software engineer to
+[01:08:37] help us when we build software is cost.
+[01:08:40] Some software projects goes forever for
+[01:08:43] a very long time and it costs so much
+[01:08:46] and at the end it doesn't actually give
+[01:08:48] any kind of useful application or
+[01:08:50] something that is uh can be used
+[01:08:54] and many companies are say we need to be
+[01:08:56] first in the market when we build
+[01:08:58] software we need to be the one who
+[01:08:59] building something first and you see the
+[01:09:00] race nowadays about building AI and
+[01:09:03] building applications uh and being first
+[01:09:06] in the market.
+[01:09:08] Now a quick definition of software
+[01:09:10] engineering. So again I mentioned that
+[01:09:12] it's an engineering discipline. Uh and
+[01:09:16] this is actually concerned with the
+[01:09:17] different aspects of software not only
+[01:09:19] the development. Uh looking at producing
+[01:09:22] a software uh and starting from the
+[01:09:25] early stages with understanding the
+[01:09:27] problem defining the requirements all
+[01:09:29] the way until we build and deploy the
+[01:09:32] applications and continue to maintain
+[01:09:33] and monitor that application. All these
+[01:09:36] aspects need to be monitored and managed
+[01:09:39] following engineering discipline not a
+[01:09:41] random way or ad hoc way.
+[01:09:45] Now these are some of the maybe
+[01:09:47] misconceptions as I mentioned. So it's
+[01:09:49] not about programming. There's a lot
+[01:09:51] more involved.
+[01:09:54] There's a lot involved in actually
+[01:09:55] making decisions about how we define
+[01:09:58] requirements, how we test, methods and
+[01:10:01] tools we use to help us to make the
+[01:10:02] software more reliable, more safe.
+[01:10:04] There's a lot of work, a lot of things
+[01:10:06] behind the scene that maybe people don't
+[01:10:08] see, but they might use a tool to help
+[01:10:10] them to do that. Um,
+[01:10:13] so and when you think about software,
+[01:10:14] some of the software will work with a
+[01:10:16] hardware on a hardware. So, and or give
+[01:10:18] instructions to hardware. We see a
+[01:10:19] robots, we see internet of things and
+[01:10:22] these kind of things will be working
+[01:10:24] with the hardware and make things more
+[01:10:26] even challenging. So, it considers some
+[01:10:29] of these hardware and environment in
+[01:10:30] which these devices or these software
+[01:10:32] will run.
+[01:10:35] So when we say software so or when we
+[01:10:37] build software we think there's a
+[01:10:39] process we follow and simply like when
+[01:10:41] you make a cake you have follow certain
+[01:10:43] steps to actually do that and the steps
+[01:10:46] you give maybe the same instructions to
+[01:10:47] two people you get at the end uh
+[01:10:49] different cakes or same cake with
+[01:10:52] different tastes different quality right
+[01:10:54] so there are a lot of things involved in
+[01:10:57] the software development these kind of
+[01:10:59] main stages or phases through which
+[01:11:02] software go through specifications or uh
+[01:11:06] defining the requirements we need to
+[01:11:08] build in our software. This is pretty
+[01:11:11] much the expected behavior of the
+[01:11:13] software. Designing
+[01:11:16] designing the different designs using
+[01:11:18] notations and understanding how things
+[01:11:21] work behind the scene before we actually
+[01:11:24] implement them. The implementation or
+[01:11:26] the coding this is about we all know and
+[01:11:28] we mostly familiar with testing is a
+[01:11:30] huge one. testing to ensure that the
+[01:11:34] software produce the expected behavior.
+[01:11:37] It doesn't create any errors or any
+[01:11:39] issues that could lead to uh any major
+[01:11:42] issues um and so on so forth. There's a
+[01:11:45] lot of types of testings and a lot of
+[01:11:46] testing is involved. So you will cover
+[01:11:48] this in in detail in one of the lectures
+[01:11:51] evolution that some people don't get
+[01:11:53] that after you build the software expect
+[01:11:56] this software to evolve and some
+[01:11:57] software last for for tens of years. You
+[01:12:01] need to think when you design the
+[01:12:02] software how it will evolve in the
+[01:12:04] future. Now we don't build it in a way
+[01:12:06] that we just say it's rigid. We can't
+[01:12:08] extend it. We can't maintain it. We
+[01:12:10] can't add more features or if we do so
+[01:12:13] we add we do it in a very complex way.
+[01:12:15] It cost us so much money. So you need to
+[01:12:17] build the software in a way it can
+[01:12:19] evolve in the future is not limited and
+[01:12:21] it should be able to or we should be
+[01:12:23] able to extend because sometimes it's
+[01:12:25] hard to replace completely this kind of
+[01:12:26] software after many years.
+[01:12:30] So the key point here we're talking
+[01:12:32] about this software development process
+[01:12:34] the the stages or the phases we go
+[01:12:37] through and each one of these actually
+[01:12:39] has a lot of work to do and a lot of
+[01:12:42] understanding. So it's actually each one
+[01:12:44] can be course by itself to understand
+[01:12:46] how we do specifications and dealing
+[01:12:48] with the challenges and so on so forth.
+[01:12:50] So it's a complex process. It's not a
+[01:12:52] simple or easy process where we say okay
+[01:12:54] let's write the requirements move on we
+[01:12:56] design we implement we test. There's a
+[01:12:59] lot involved in each one of these and
+[01:13:00] each one of these is a process by itself
+[01:13:02] that involve a lot of uh phases and work
+[01:13:05] and documentation being produced. It
+[01:13:08] involves this part which is important
+[01:13:11] people making decisions. When we talk
+[01:13:13] about all these things human factor is
+[01:13:17] key we're using tools to help us to
+[01:13:19] design to write our requirements. We
+[01:13:21] build we're using code or coding
+[01:13:24] languages. We're even using tools to
+[01:13:26] help us in testing. But who give the
+[01:13:28] thinking to this testing? It's not
+[01:13:30] automatic. You need to think what test
+[01:13:32] cases we should define and why.
+[01:13:34] This actually is very interesting.
+[01:13:36] There's one thing in testing that you
+[01:13:38] can't say my software is 100% reliable
+[01:13:41] or functional
+[01:13:43] because you can find software after 10
+[01:13:44] years that they have some bugs but they
+[01:13:46] have not been discovered before.
+[01:13:50] All right. So, so there's something
+[01:13:53] called software development process
+[01:13:55] model. A model tried to capture what are
+[01:13:57] the phases or how we do build a software
+[01:14:00] and they were some of these popular
+[01:14:02] models you might have come across
+[01:14:05] waterfall model and agile model. So
+[01:14:07] let's have some kind of maybe something
+[01:14:10] to do together. I want to show you I
+[01:14:13] want you to spot the differences between
+[01:14:14] the two models quickly. So we want to go
+[01:14:17] actually through this exercise. If you
+[01:14:19] scan the QR code or go to slido.com and
+[01:14:23] enter this code in the participation
+[01:14:26] and I want you to mention using the
+[01:14:29] question is there using keywords
+[01:14:32] tell me what do you know about waterfall
+[01:14:34] software development model so let me
+[01:14:38] know if that doesn't work because we
+[01:14:39] have it here
+[01:14:43] okay so the first one works here
+[01:14:46] let me
+[01:14:56] So okay let me resume back. So everyone
+[01:14:58] got this
+[01:15:01] using key words just describe the
+[01:15:04] waterfall software development model and
+[01:15:08] you've got something to explain it how
+[01:15:10] this works but just I want to see your
+[01:15:12] perception or your thinking about this
+[01:15:14] model.
+[01:15:24] All right, that's good. So we started to
+[01:15:26] see some
+[01:15:28] you let's take one minute two minutes
+[01:15:31] and then we'll see what most of you did
+[01:15:32] say about this model.
+[01:16:04] All
+[01:16:27] right. So maybe 30 seconds.
+[01:16:57] All right. So, you can continue typing.
+[01:17:00] I just want to share with you what
+[01:17:03] what did you say now one thing I want to
+[01:17:06] also share with you uh is that you're
+[01:17:09] going to work in teams together you
+[01:17:10] might have different understanding or
+[01:17:12] different way to express your ideas
+[01:17:14] right you need to consider that when you
+[01:17:16] work in a team you might have the same
+[01:17:18] point and you all agree but the way you
+[01:17:20] express that is different and you might
+[01:17:23] have different mis uh different
+[01:17:24] understanding of the concept of you're
+[01:17:26] going to apply or the principle so it's
+[01:17:28] important we get everyone at the same
+[01:17:30] age. Now a lot of you did mention
+[01:17:32] sequential and it's a traditional
+[01:17:36] uh big words as well requirement design.
+[01:17:39] There's a lot of emphasis on
+[01:17:40] requirements and design. Yeah. So we
+[01:17:43] spend a lot of time doing requirements
+[01:17:44] and design in big chunk of time and we
+[01:17:47] try to perfect it really well and then
+[01:17:49] later on we discover it's not
+[01:17:52] um step by step someone entered the code
+[01:17:56] for some reason as so instead of
+[01:18:00] entering that in there so no problem
+[01:18:01] that's fine planning a lot of planning
+[01:18:04] is involved in this kind of uh software
+[01:18:06] development model uh limited change
+[01:18:09] flexibility very good points is actually
+[01:18:12] it actually limits the change and the
+[01:18:14] flexibility.
+[01:18:15] Um yeah so they are testing you do
+[01:18:18] testing there uh useful I can't read
+[01:18:21] this word if someone can read it for me.
+[01:18:24] All right so what we actually you said
+[01:18:27] is true and this is maybe based on some
+[01:18:30] experiences or what you see here this is
+[01:18:33] actually a way to model the software
+[01:18:35] development process. If we want to tell
+[01:18:37] the software development team this is
+[01:18:39] how we're going to work the process
+[01:18:41] we're going to follow they should see or
+[01:18:43] understand of course this is very
+[01:18:44] abstract and under what each one of that
+[01:18:47] there's a lot of more details a lot of
+[01:18:49] more details but at least we know that
+[01:18:51] we start with the first phase which is
+[01:18:54] defining the requirements of the
+[01:18:56] software the expected behavior of the
+[01:18:59] software and what we need to build or
+[01:19:01] design we need to actually do design so
+[01:19:04] you mentioned design but what happens in
+[01:19:06] the water First of all, you spend months
+[01:19:08] working on this and special team who is
+[01:19:10] specialized in requirement analysis,
+[01:19:12] requirement engineering. They spend
+[01:19:14] months on doing this before they move on
+[01:19:17] to the design. The outcome is software
+[01:19:20] requirement specification which is given
+[01:19:22] to the another team who try to design
+[01:19:24] translate their requirements written in
+[01:19:26] English into designs visual designs
+[01:19:30] using UML or other ones. And then we
+[01:19:33] move on with team special team design
+[01:19:36] team work on that and they move on to
+[01:19:38] the implementation or they give the
+[01:19:40] designs to the programmers or
+[01:19:42] developers. You might be sitting here
+[01:19:43] and someone in the design team giving
+[01:19:45] you set of designs and ask you to
+[01:19:47] implement that. Now then as you can
+[01:19:50] imagine it's sequential as you mentioned
+[01:19:52] each phase focus on trying to complete
+[01:19:54] and perfect things before moving on. It
+[01:19:57] doesn't deal with uncertaintity. It just
+[01:19:58] assume that we should perfect and know
+[01:20:00] things in advance and we should do all
+[01:20:03] these kind of in kind of separate
+[01:20:06] phases. There's a bit of feedback loop
+[01:20:08] but this feedback loop when we discover
+[01:20:09] something wrong especially later on we
+[01:20:12] need to feed it back to the start and
+[01:20:15] fix the issues again which costs a lot
+[01:20:17] of effort and time. Right? And that's
+[01:20:19] why some of you mentioned it's not
+[01:20:21] flexible. It's rigid model. Right? This
+[01:20:23] is the traditional approach that lasted
+[01:20:25] for very long time and actually it
+[01:20:27] triggered the next model which is agile.
+[01:20:29] So let's see what do you think about
+[01:20:31] agile model. This is a bit of help for
+[01:20:34] you what agile life cycle looks like.
+[01:20:37] It's one of the representation for this
+[01:20:38] model. Uh so you can also do that but
+[01:20:42] let me start the poll for the second
+[01:20:45] one.
+[01:20:47] So
+[01:20:50] okay I think now we should be able to
+[01:20:51] answer the second one.
+[01:20:55] So again the same the same code the same
+[01:20:59] QR code just there's another question
+[01:21:01] about the agile software development
+[01:21:03] process model using keywords describe
+[01:21:06] this model. What do you think about
+[01:21:07] this? And let's see what the class
+[01:21:09] thinking about it.
+[01:21:32] So let's give it one or two minutes and
+[01:21:34] we will
+[01:21:37] look at your thoughts.
+[01:22:27] All right. So, what did we get for the
+[01:22:30] agile model? Oh,
+[01:22:33] that's great. So, I think you can pick
+[01:22:35] up on some of the issues from the
+[01:22:37] waterfall model and introduce it here.
+[01:22:39] So, agile came to actually fix some of
+[01:22:41] the issues with the water waterfall
+[01:22:43] model. And I can see one of the big key
+[01:22:45] words describing the model is iterative.
+[01:22:48] And this is what I used to say. It is
+[01:22:51] iterative incremental development.
+[01:22:54] uh we do go through iterations as I
+[01:22:56] mentioned you're going to have three
+[01:22:57] iterations or three sprints to build
+[01:22:59] your software
+[01:23:01] continuous that's great fast in the
+[01:23:05] cycle different development life cycle
+[01:23:07] we collect a lot of feedback during the
+[01:23:09] development and every time we do a bit
+[01:23:11] of requirement design implementation
+[01:23:13] testing and demo and get feedback from
+[01:23:15] your clients or from the person who is
+[01:23:18] or the end users who going to use the
+[01:23:19] software team collaboration is important
+[01:23:22] adaptive sprint and sustainable model.
+[01:23:26] Yeah. So the all really very good points
+[01:23:29] and actually makes me feel like that's
+[01:23:32] great. So we are at the same page. Um
+[01:23:36] now what you see here is one of the way
+[01:23:39] to represent that and there are many
+[01:23:40] ways to represent this model and other
+[01:23:42] models. It just we try to give you an
+[01:23:43] idea the phases we go through and how
+[01:23:46] the work is organized. Basically it
+[01:23:48] starts somewhere here where we start the
+[01:23:50] project with kind of defining our
+[01:23:52] requirements. The requirements doesn't
+[01:23:54] need to be complete or perfect. It can
+[01:23:56] be evolved over time. So you'll add more
+[01:23:59] and refining more. So you're not trying
+[01:24:01] not to perfect things. But it give you a
+[01:24:03] starting point to say okay we have some
+[01:24:06] functionality to build. Let's pick
+[01:24:08] something to build over two weeks. Some
+[01:24:10] user stories or features only focus on
+[01:24:12] those. We don't want to build
+[01:24:13] everything. And we go through
+[01:24:15] development and integration. This phase
+[01:24:17] is long. So we do development let's say
+[01:24:19] over one week, two weeks or three weeks.
+[01:24:21] So it should be a defined sprint time
+[01:24:24] and after we complete that we review and
+[01:24:26] make sure you know this is what we want
+[01:24:28] before the end and we collect feedback
+[01:24:30] from the clients or the end users who
+[01:24:32] supposed to use the software or agree
+[01:24:35] that this is actually meeting my
+[01:24:37] requirements or my expectations. This
+[01:24:39] feedback is important before we say are
+[01:24:42] we ready to release because we tested
+[01:24:43] and we got the feedback and we if yes we
+[01:24:46] can release the features or the
+[01:24:47] functions we implemented to the end
+[01:24:49] users or deploy it on the public
+[01:24:52] platform. If not we need to identify
+[01:24:56] changes and record them so we can adjust
+[01:24:58] and track in the next iteration.
+[01:25:01] And this cycle keeps going because you
+[01:25:03] might get feedback and continue building
+[01:25:05] or you might actually say you know we
+[01:25:08] done really well we don't need to make
+[01:25:10] changes let's move on to the next
+[01:25:12] iteration. So you might have a mix of a
+[01:25:13] change for from the previous
+[01:25:15] requirements and or set of new features
+[01:25:18] to move on to the next cycle. That's why
+[01:25:20] it says iterative and incrementally you
+[01:25:22] been building the software or the
+[01:25:24] application. Cool. That's good. Now
+[01:25:27] moving on. So this is a quick
+[01:25:28] introduction to software development,
+[01:25:30] software engineering, two different
+[01:25:32] models. We're going to use agile and in
+[01:25:34] particular one of the methods is a scrum
+[01:25:36] which is widely adopted. So we will talk
+[01:25:39] about this later on. I just wanted to
+[01:25:41] give you this quick intro to see this
+[01:25:44] where sitting in the course. Now next
+[01:25:47] thing is version control and a quick
+[01:25:49] introduction to git.
+[01:25:51] Now before talking about this I was
+[01:25:53] talking about software and basically you
+[01:25:57] over time when you work on a software
+[01:25:58] you build many you have many different
+[01:26:00] files software in involving the code and
+[01:26:04] if you think about it over time managing
+[01:26:06] these files and the changes in these
+[01:26:08] files becomes much more complicated
+[01:26:10] especially when you're working as a
+[01:26:11] team. Who did change what? What was the
+[01:26:15] latest version?
+[01:26:17] uh can we roll back to one of the older
+[01:26:20] versions we where we fix a bug or we did
+[01:26:22] something and we f figure out something
+[01:26:25] went wrong. things get much much more
+[01:26:28] complicated than when you work by sub.
+[01:26:29] If if you take a model of two people
+[01:26:31] working together on one document like
+[01:26:33] Google Docs, you did that maybe for your
+[01:26:35] reports before and you okay you make
+[01:26:37] changes you track changes someone has to
+[01:26:39] accept the change someone has to revert
+[01:26:41] the change how complex is that very
+[01:26:44] complex imagine that it's with a
+[01:26:46] software you have many files are being
+[01:26:49] generated uh within the code now we need
+[01:26:52] a way to manage these kind of uh the
+[01:26:54] different versions of these uh software
+[01:26:57] uh codes or files because this This is
+[01:26:59] the most important thing we build in in
+[01:27:01] software.
+[01:27:03] So and that's actually triggered the
+[01:27:05] need for this kind of version control
+[01:27:07] systems or version control. So as the
+[01:27:09] name suggests version control help you
+[01:27:11] to tracks all the changes of any file
+[01:27:14] and in software we use it to track
+[01:27:16] particularly software files but you can
+[01:27:18] do it also for other things right. Um it
+[01:27:22] leads you to see who change what and
+[01:27:26] when. So when people work in software
+[01:27:28] development team basically each one is
+[01:27:31] responsible for one user story or one
+[01:27:33] task or feature and this is assigned
+[01:27:35] through one of the ticketing systems or
+[01:27:37] management uh of these kind of issues
+[01:27:40] where say X is responsible for this
+[01:27:43] feature. When we actually do the work
+[01:27:44] with git we can track who did that. uh
+[01:27:48] and if we need to ask figure out some
+[01:27:50] issues there we say okay that change
+[01:27:52] introduced by that person created a bug
+[01:27:54] or made the system uh fail so we need to
+[01:27:58] roll back and fix from there right so it
+[01:28:00] leads you to revert to earlier saved
+[01:28:02] states or versions and it help you to
+[01:28:04] compare different versions over times
+[01:28:06] which is important sometimes when we
+[01:28:08] need to um fix bugs and and other things
+[01:28:13] and it works for anything but in
+[01:28:15] particular for code it can be really
+[01:28:16] great because you lots of these software
+[01:28:19] uh codes or artifacts you need to
+[01:28:21] manage. I did mention that this looks
+[01:28:23] familiar when you actually used to write
+[01:28:25] reports and keep changing the name and
+[01:28:27] mention this is final version or x
+[01:28:28] virgin. So it's u a nightmare. Uh what
+[01:28:33] is git? Uh git is actually one of these
+[01:28:36] uh distributed version control systems.
+[01:28:38] Now you can think about I can use get to
+[01:28:41] work by myself and I it helps me to
+[01:28:44] track the different verses I create by
+[01:28:46] myself only myself and there's also the
+[01:28:50] team collaboration or work where I need
+[01:28:53] to work with the team and the ves are
+[01:28:55] distributed in different pieces but we
+[01:28:58] have a central repository in which we
+[01:29:00] commit the changes right this make it
+[01:29:02] more more complicated now I say this
+[01:29:05] distributed version control system
+[01:29:06] because this is the second case where it
+[01:29:08] shows because they pissed out of git
+[01:29:11] when five or six people are working on
+[01:29:13] one software repository or code and then
+[01:29:17] they're working individually they're
+[01:29:19] making changes they syncing the changes
+[01:29:22] together git will help us to actually
+[01:29:24] manage that that's works really well so
+[01:29:27] and started through this kind of Linux
+[01:29:29] kernel uh development project that helps
+[01:29:32] in building the Linux uh code and
+[01:29:34] managing that really well uh so Every
+[01:29:38] developer holds a full copy of the
+[01:29:40] project history. When they actually try
+[01:29:41] to work on they build something, they
+[01:29:44] get a full copy on their local device.
+[01:29:47] They make change or write a new feature
+[01:29:49] or a new uh thing and then they can
+[01:29:52] actually push that or update the uh
+[01:29:55] central repository with these kind of
+[01:29:57] changes.
+[01:29:59] So we tracking the snapshots of your
+[01:30:02] projects and this is behind the scene.
+[01:30:04] Git is actually has a system to track
+[01:30:06] the different snapshots.
+[01:30:08] Uh and it understands what you add and
+[01:30:10] what you change and keep a track of each
+[01:30:12] one of that as a single object. So it
+[01:30:14] can easily track and fast or quickly
+[01:30:18] find out the changes you want because it
+[01:30:21] looks at actually at delta changes in
+[01:30:24] these snapshots.
+[01:30:26] How we do actually track when when we
+[01:30:28] need to make change we actually commit
+[01:30:29] or make commits to the uh uh the the our
+[01:30:33] repository. This is where we actually
+[01:30:35] making changes and we we um updating the
+[01:30:39] repo. So it can works fine uh offline.
+[01:30:43] So you can actually do things offline
+[01:30:45] and then when you need to push changes
+[01:30:46] or sync with the team, you can actually
+[01:30:48] push to the central repo. That's another
+[01:30:50] great advantage. So you don't need to be
+[01:30:52] connected all the time if you need to do
+[01:30:54] some work. Now first lab will focus on
+[01:30:57] understanding git and using commands and
+[01:30:59] having hands-on experience with these
+[01:31:01] commands.
+[01:31:03] Now for collaboration this actually what
+[01:31:06] I mentioned earlier when you have
+[01:31:07] multiple people working on the same
+[01:31:09] project and the most important thing we
+[01:31:11] don't want to we want to track track
+[01:31:13] every single change made by everyone and
+[01:31:16] we don't want to overwrite or create a
+[01:31:18] kind of conflicting uh changes
+[01:31:21] and here we track every single change
+[01:31:23] through get or using git and we
+[01:31:25] understand what changes made and why
+[01:31:28] because when you make comet you can
+[01:31:29] actually explain what that change about
+[01:31:31] is about which which is highly
+[01:31:32] recommended practice. One of the things
+[01:31:35] we can do is actually creating a kind of
+[01:31:37] a branch. You can think about
+[01:31:39] development is like you know one
+[01:31:41] development line in which we say we are
+[01:31:44] implementing things or changing things
+[01:31:46] but in order to make changes and
+[01:31:48] thinking of a team you can just say okay
+[01:31:50] let me make a branch from the code line
+[01:31:53] and that branch I will work on it and
+[01:31:55] add a new feature at the same time
+[01:31:57] someone else will make another branch
+[01:31:59] they will get the full copy of the code
+[01:32:02] at the time when they actually pull that
+[01:32:05] uh code and they work locally. They
+[01:32:07] build features. Now two people did
+[01:32:09] something they have different branch and
+[01:32:12] they say this person said I'm fixing bug
+[01:32:14] X and that person say I'm adding feature
+[01:32:16] Y now they both finish now they have
+[01:32:20] working on different branch they didn't
+[01:32:21] back the main line everything is up and
+[01:32:23] running right and now when we need to
+[01:32:26] measure or update the main cord line we
+[01:32:28] can merge this branch with the main line
+[01:32:32] and then that will help to actually get
+[01:32:34] things synced with the main line if my
+[01:32:36] bug fixes is is all good. So we can
+[01:32:39] merge it with the main line and then
+[01:32:40] that goes into the next release right at
+[01:32:43] the same time the other person can also
+[01:32:45] merge their new feature right and this
+[01:32:47] help us to manage to do work
+[01:32:49] independently five six people 10 people
+[01:32:52] or hundreds without impacting others
+[01:32:56] and even if something goes wrong with my
+[01:32:58] branch it doesn't impact the main line
+[01:33:00] right we don't merge until we make sure
+[01:33:02] that this doesn't break the main line if
+[01:33:05] you actually merge the content of your
+[01:33:07] bug fix with the main line and if it
+[01:33:10] produce any issues you build and test
+[01:33:12] the software. If say something goes
+[01:33:14] wrong we roll back to the this branch
+[01:33:15] and say okay keep the main line without
+[01:33:17] that and you merge and that way you can
+[01:33:20] control things you don't get into
+[01:33:21] tension or stress.
+[01:33:25] All right. So you can compare the code
+[01:33:27] versions that helps you to fix bugs and
+[01:33:29] also this is the industry standard that
+[01:33:31] is widely used and in collab
+[01:33:33] collaborative software development. The
+[01:33:35] thing is you need to build as like you
+[01:33:37] are working collaboratively and we need
+[01:33:39] to coordinate
+[01:33:41] uh and git will help us is one of the
+[01:33:43] tools will help us to do so. Imagine
+[01:33:46] that you don't have git. You're going to
+[01:33:47] fix this yourself. It's one of the
+[01:33:49] things you need to define how we're
+[01:33:50] going to work without overwriting, how
+[01:33:53] we can revert back, how we can do this,
+[01:33:55] we do that. You're moving from writing
+[01:33:57] code to fixing this issue. Now, this is
+[01:33:59] not happening here. You actually git
+[01:34:01] will help you to deal with that. But you
+[01:34:03] need to understand how to use it to make
+[01:34:05] the team effective. Right now, this is
+[01:34:09] how you can install uh git and configure
+[01:34:11] it. So there will be more things to do
+[01:34:13] in the labs and get you to have the
+[01:34:15] hands-on experience on that. Um so
+[01:34:18] different versions you might be working
+[01:34:20] on Windows, Mac or Linux. So you can
+[01:34:23] bring on your device and work on that
+[01:34:25] and you can use some of the commands
+[01:34:27] that by git commands that help you to
+[01:34:30] actually set up things or check the
+[01:34:32] versions you install to make sure that
+[01:34:34] git is installed and running. So to make
+[01:34:37] sure that who is doing what, one of the
+[01:34:39] key things you will do is using a get
+[01:34:41] config with some parameters like a
+[01:34:43] global and give a username with your
+[01:34:46] name uh or your email address. Uh and
+[01:34:49] and this is actually where you set up
+[01:34:53] who is doing what. If you make a change,
+[01:34:54] we know who is that user who did make
+[01:34:56] that change. We can track who did who is
+[01:34:58] doing what and same thing for the
+[01:35:00] setting up your email. So same commands
+[01:35:02] that uh g commands that will help you to
+[01:35:04] set up things. So you do this for the
+[01:35:07] first time when you bart off a team and
+[01:35:08] then we know everything you do. So you
+[01:35:11] have your uh contributions.
+[01:35:14] Now before just you know understanding
+[01:35:17] some of the concepts related to git uh
+[01:35:20] before running into the commands working
+[01:35:22] directory let me see if I have the
+[01:35:24] visual slides here. Yes.
+[01:35:28] So some of these things quickly I'll
+[01:35:30] talk about it here and then move on. So
+[01:35:34] you will be working or you have some of
+[01:35:36] the files you're doing in the working
+[01:35:37] directory. This is what you editing
+[01:35:40] right now on your machine. It is put in
+[01:35:42] a special directory called working
+[01:35:44] directory. This is when you start
+[01:35:46] editing something.
+[01:35:48] Now uh staging area is this is where you
+[01:35:52] have something ready to commit but it
+[01:35:53] has not been committed. So you made a
+[01:35:55] change, you say I'm ready, it's in the
+[01:35:56] staging area. It can go for commit.
+[01:35:59] Right? when we want to commit a change
+[01:36:01] to our repository to say commit this
+[01:36:04] change and update the version create a
+[01:36:06] new version with the updates we use a
+[01:36:08] quick commit command this is actually
+[01:36:10] where we create a snapshot of the
+[01:36:13] project at a point of time with the
+[01:36:14] changes I talked about creating a branch
+[01:36:17] at some point I might say don't work on
+[01:36:19] the main code line create a branch and
+[01:36:21] I'll work on this branch so with the
+[01:36:23] help of some command get command that
+[01:36:25] will help me to do so and then it help
+[01:36:27] me to deal with the things so When we're
+[01:36:30] working remotely with a repository that
+[01:36:32] is hosted online that everyone has
+[01:36:34] access to, we have this kind of uh
+[01:36:36] remote repo which we will uh everyone
+[01:36:39] will be working with. So, and you have
+[01:36:42] something where sometimes you're doing
+[01:36:43] changes and working in your local
+[01:36:45] machine and something is remote
+[01:36:47] something you need to commit or merge in
+[01:36:50] the remote. So, this is actually called
+[01:36:51] the remote the shared ribbo and the
+[01:36:54] local is the one working on your local.
+[01:36:56] Quickly, this is actually what I wanted
+[01:36:59] to show you about understanding this
+[01:37:02] basic workflow. What you do usually when
+[01:37:05] you have a git repo uh on your machine,
+[01:37:07] you have a folder, you have a greole. So
+[01:37:09] if we we can say get initiate and that
+[01:37:12] will give you make it as a greo that
+[01:37:14] means it will start tracking any changes
+[01:37:16] you make for any of the files in that
+[01:37:17] ribbo. Now basically I mentioned that we
+[01:37:21] have a three different uh things. Now
+[01:37:25] what do you usually do? We start with
+[01:37:30] uh
+[01:37:32] okay so we have a working directory. If
+[01:37:35] we try to check out the project so that
+[01:37:38] will go will be put in a working uh
+[01:37:40] directory that where we say we are now
+[01:37:42] editing the uh some of the files there.
+[01:37:45] So when we make changes we can stage or
+[01:37:48] move them to the staging area before we
+[01:37:50] do commit. And then if we run a commit
+[01:37:53] command or we want to commit the
+[01:37:54] changes, we actually move it to the g
+[01:37:56] repository where we say we committed the
+[01:37:58] change and now get track the new
+[01:38:00] version. Meaning that before we get the
+[01:38:02] changes committed to the git repository,
+[01:38:06] it goes through one of these two uh
+[01:38:08] repositories or directories if I want to
+[01:38:10] call it. So and this is where you make
+[01:38:13] sure that you don't you don't go through
+[01:38:14] this kind of mixup. So you need to know
+[01:38:16] that I'm currently nothing has been
+[01:38:18] committed. I'm in the working directory.
+[01:38:20] I'm editing something after I edit I
+[01:38:23] move it to the staging before I commit
+[01:38:25] and then I move I commit the changes
+[01:38:28] that means it has been tracked right so
+[01:38:31] this is how you actually try to think
+[01:38:33] about the workflow basic workflow when
+[01:38:35] you're working with git
+[01:38:37] so when you're working with it get you
+[01:38:39] need to have a command line uh that help
+[01:38:42] you to write just these commands get
+[01:38:44] commands that will give you control on
+[01:38:46] dealing with the uh uh uh your
+[01:38:48] repository or your code repo and also
+[01:38:51] you have some of this uh development
+[01:38:53] environment which will provide you with
+[01:38:55] this built-in git panel and gitlab
+[01:38:58] extensions that make it easier on
+[01:39:00] friendly.
+[01:39:01] Um so pretty much the user interface
+[01:39:04] will give you the access to these
+[01:39:05] commands. So you just you know through
+[01:39:07] user interface so if you know the
+[01:39:08] commands or the interface so you can
+[01:39:10] work with both. Some of the basic
+[01:39:13] commands you will be working with uh
+[01:39:15] making a a a directory as a kind of a
+[01:39:19] git repository so that it can start
+[01:39:21] tracking changes with git in it. So that
+[01:39:24] will help to do so or you might clone a
+[01:39:27] repository from the web and you need to
+[01:39:28] have the URL of that repository to clone
+[01:39:30] it on your machine and to start working
+[01:39:32] on that. you can check the status uh uh
+[01:39:36] uh show what status has changed since
+[01:39:38] your last commit and that will actually
+[01:39:40] list the changes made. So using get
+[01:39:42] status so you will be working with these
+[01:39:45] commands in the lab. So to make sure
+[01:39:46] that you understand how you do it and
+[01:39:48] the impacts or the changes being made.
+[01:39:51] Um so you can also make I did mention
+[01:39:55] that uh making changes so you can add in
+[01:39:58] a file. This is where you stage a change
+[01:40:01] and marking it ready to be saved. Ready
+[01:40:03] to be saved but it hasn't been
+[01:40:05] committed. Comet will commit that change
+[01:40:07] and we use the parameter n to specify a
+[01:40:11] message. A team of five or six or 10 if
+[01:40:13] everyone committing change and doesn't
+[01:40:15] say what is that create a lot of issues
+[01:40:18] to find out what did you change here and
+[01:40:20] it's highly important that you write a
+[01:40:22] message that tells what did you change I
+[01:40:24] fixed bug X or you actually linked to G
+[01:40:27] Jira ticket or something like that
+[01:40:30] um so you can view the history of your
+[01:40:32] commits all the commits have been made
+[01:40:34] and you can get the difference exactly
+[01:40:36] of what changed line by line to get the
+[01:40:38] difference between two versions
+[01:40:41] uh some of the other things for
+[01:40:43] branching which works more when you work
+[01:40:45] in teams and we will cover more about
+[01:40:46] this in week uh two or in g
+[01:40:50] collaboration as a team. So you do
+[01:40:52] branching and you switch between
+[01:40:54] branches
+[01:40:55] uh you merging a branch or merging your
+[01:40:58] branch with the main code line and and
+[01:41:00] so on so forth. These are kind of the
+[01:41:02] commands helps you to do so and keeping
+[01:41:04] control. Now some of the commands also
+[01:41:06] for the remote when you have the shared
+[01:41:08] repo you work together pushing code and
+[01:41:10] pulling a code from there and some other
+[01:41:13] kind of commands that help you to uh um
+[01:41:16] setting aside uncommitted changes such
+[01:41:18] as get starch.
+[01:41:20] So quickly so here we have things I did
+[01:41:23] mention before but again just to I you
+[01:41:26] start editing some files and once you
+[01:41:29] finish editing you move the file to
+[01:41:31] staging area you by using the command
+[01:41:33] get add if you add a file that means
+[01:41:36] that file is in the staging area it's
+[01:41:38] ready for commit it hasn't been
+[01:41:40] committed using the command get command
+[01:41:42] will push the change and the new version
+[01:41:45] will be created that means the old
+[01:41:46] version is has its own ID and the new
+[01:41:49] version is created
+[01:41:52] When you work in a team, the process
+[01:41:54] looks a bit different. This is what
+[01:41:56] you're going to go through. You're going
+[01:41:58] to actually do these things. You create
+[01:41:59] a branch. You commit changes and you
+[01:42:02] want to push back to the remote
+[01:42:03] repository before we actually merge the
+[01:42:06] content. We have to review it to make
+[01:42:07] sure it doesn't create an issues. And
+[01:42:09] sometimes that one person is assigned to
+[01:42:11] review all these kind of uh code changes
+[01:42:14] before we merge. Sometimes they return
+[01:42:16] it back to you say it doesn't work. You
+[01:42:18] have to fix it. that keeps control.
+[01:42:21] So, GitLab is one of the tools will help
+[01:42:23] you uh to actually uh use uh um this
+[01:42:27] kind of commands as well as working
+[01:42:29] collaboratively together and provide you
+[01:42:31] all the features. So, you don't need to
+[01:42:32] worry about how you're going to do this.
+[01:42:35] Uh this will be helpful also for adding
+[01:42:37] things like issue tracking, merging
+[01:42:39] requests, CI/CD which we will talk
+[01:42:40] about. So, it has all the features built
+[01:42:42] in and we will help you to set up things
+[01:42:44] and host your repositories and work as a
+[01:42:47] team. So we'll provide that and it's one
+[01:42:49] of the industry uh adopted uh uh tools.
+[01:42:55] All right. So what the difference
+[01:42:56] between git and gitlab? So basically git
+[01:42:59] is pretty much this kind of version
+[01:43:00] control tool that runs on your machine.
+[01:43:03] You lo locally and you use the commands
+[01:43:05] to control managing the versions. GitLab
+[01:43:08] this is more about hosting a a
+[01:43:10] repository where teams can work
+[01:43:12] collaboratively together and it help you
+[01:43:13] to manage all these details uh to work
+[01:43:17] remotely. Um,
+[01:43:20] right.
+[01:43:22] All right. So, you will have access.
+[01:43:24] We're setting up GitLab for you and we
+[01:43:26] will provide you access. We will require
+[01:43:28] you to login with UNSW single sign on to
+[01:43:30] make your life easy. We have access. We
+[01:43:32] can track and we can see the teams and
+[01:43:34] all of that because we need to give you
+[01:43:36] feedback. We need to check your work.
+[01:43:38] So, all this synced and uh organized
+[01:43:40] through single sign on. So, you need to
+[01:43:42] use Z ID and Z bus for that. More in the
+[01:43:44] lab. Uh, that will be covered for you.
+[01:43:49] All right. So this is for setting up
+[01:43:51] with SSH access as well. Uh so more will
+[01:43:54] be also covered in the lab. So I just
+[01:43:56] will quickly move on to the last part.
+[01:44:00] Uh quickly I want to talk about working
+[01:44:02] in teams. When you work in teams, team
+[01:44:04] dynamics emerge. This is not a negative
+[01:44:07] thing or bad thing. Uh it's a normal
+[01:44:09] thing. You need to learn how to deal
+[01:44:11] with team dynamics. to do so you need to
+[01:44:13] understand what it means when you work
+[01:44:15] in a development project as a team and
+[01:44:18] mostly you can think software
+[01:44:19] development is done as a group based uh
+[01:44:21] work it's not one person right even some
+[01:44:24] teams there are big uh in Google and
+[01:44:26] other companies they have tens of uh uh
+[01:44:29] developers working together
+[01:44:32] now what is important building a team
+[01:44:34] with a good cohesion they have different
+[01:44:37] skills and knowledge to help to do the
+[01:44:39] project and they have a team spirit this
+[01:44:41] is really important we work as a team.
+[01:44:42] It's not about you or me or how do you
+[01:44:44] work or how I work. We follow same
+[01:44:46] practices, same tools. This is how we
+[01:44:49] work. It's not about you know I want to
+[01:44:51] actually make my own way or
+[01:44:53] contributions.
+[01:44:54] So importantly people in the team need
+[01:44:56] to be motivated by the success of the
+[01:44:59] team not by individuals and having
+[01:45:01] individual views. They need to think of
+[01:45:03] others and understand the goals of the
+[01:45:05] as a team not as individual.
+[01:45:08] Uh a very important thing when you work
+[01:45:10] in a team you will interact and
+[01:45:12] communicate a lot and that's important.
+[01:45:13] We can't work without talking or
+[01:45:15] interacting right. Uh and very important
+[01:45:18] um sometimes uh flexibility is is kind
+[01:45:22] of limited in some teams but agile allow
+[01:45:24] things to be much more flexible as we
+[01:45:26] will learn about that later on. Uh
+[01:45:29] important things that things won't go as
+[01:45:31] planned. We might have deep technical
+[01:45:33] challenges. We need to actually deal
+[01:45:35] with that, work together to fix that. We
+[01:45:38] might have some technical bloggers uh
+[01:45:40] blockers uh that cannot actually help us
+[01:45:42] to move forward. So we need to fix them
+[01:45:44] before we move forward. Um there are
+[01:45:46] different contributions from different
+[01:45:48] members and different backgrounds. So we
+[01:45:51] need to kind of make sure that everyone
+[01:45:54] can contribute and they follow the same
+[01:45:56] practices uh uh the team is following
+[01:45:58] and follow these kind of agile practices
+[01:46:00] when we do the work and we need to
+[01:46:03] manage all these kind of stress around
+[01:46:04] especially when we have assessments or
+[01:46:06] when we have in real world deadlines we
+[01:46:08] need to deliver or release a new
+[01:46:10] version. Um
+[01:46:12] we we allow you to select your team
+[01:46:14] members but we want you to select wisely
+[01:46:16] and think what it means when you work
+[01:46:18] with a team. So you're going to think
+[01:46:20] about the different roles, the technical
+[01:46:21] skills, the knowledge and forming a team
+[01:46:24] that help you to be cohesive and share
+[01:46:26] the same goal and spirit. And this is
+[01:46:28] important. Now we guide you, we give you
+[01:46:30] an activity and we give you guidelines
+[01:46:32] and we ask you to choose, right? So but
+[01:46:35] we want you to be careful always the
+[01:46:36] conflicts and issues arise because of
+[01:46:38] not considering these aspects of what it
+[01:46:41] means working in a team. So you have to
+[01:46:43] have the right balance between the
+[01:46:44] personality and technicals. You don't
+[01:46:46] have to have all leaders or three
+[01:46:48] leaders in one team. It's good to have
+[01:46:50] one leader, right? But if you have three
+[01:46:52] leaders, we have a lot of conflict and
+[01:46:54] fight. So you need to think about maybe
+[01:46:56] if we have one leader and the rest can
+[01:46:58] work with that leader is important in
+[01:46:59] terms of personality and the technical
+[01:47:02] balance.
+[01:47:04] Communication is a key thing in agile
+[01:47:06] process. Uh we will learn more about
+[01:47:08] that and how you communicate in a
+[01:47:10] certain way. So communication can make
+[01:47:12] big difference making the team cohesion
+[01:47:14] and understand each other and make the
+[01:47:16] team more collaborative and productive.
+[01:47:19] So more to cover about this in in um
+[01:47:22] agile. Now the key point when you're
+[01:47:25] working in a team is conflict and
+[01:47:27] conflict could arise due to different
+[01:47:29] reasons. We might be compl competing
+[01:47:31] with each other. We might have different
+[01:47:32] views. We might think we are all right
+[01:47:35] and and so on so forth. So you might
+[01:47:37] just think of these things exist. It's
+[01:47:40] not something wrong, right? Uh it it
+[01:47:43] appears because we can't control the
+[01:47:45] personalities, the mindset and the
+[01:47:47] culture, the backgrounds and so on. Uh
+[01:47:50] these kind of conflicts there are a lot
+[01:47:52] of theories behind it and this really
+[01:47:54] interesting things. The conflicts in
+[01:47:56] increase in intensity. What we see in
+[01:47:58] the x-axis we try some of the uh
+[01:48:00] scholars try to actually model this
+[01:48:02] context and the intensity of it. So what
+[01:48:04] you see here is the intensity of the con
+[01:48:07] uh conflict going from low to high and
+[01:48:10] on the yaxis you see the impact positive
+[01:48:14] or negative to positive. What is
+[01:48:16] happening? What we looking at is
+[01:48:17] basically we say conflict exist. Now the
+[01:48:20] impact is important. If that conflict is
+[01:48:23] creating negative impact this is bad for
+[01:48:25] the team. Uh now this happens could
+[01:48:28] happen when you have too little conflict
+[01:48:30] and too much conflict. Interestingly,
+[01:48:32] too little conflict, everyone is silent.
+[01:48:35] They're not maybe they're hiding the
+[01:48:36] issues. Too much conflict when everyone
+[01:48:39] is talking and they try to prove they
+[01:48:41] are correct and so on. We should have
+[01:48:43] appropriate moderate level of conflict
+[01:48:45] that lead to positive outcome. Because
+[01:48:49] when we share ideas, discuss them and
+[01:48:51] take other people views, it help us to
+[01:48:53] discover issues or define things really
+[01:48:55] well. Dealing with the issues ahead of
+[01:48:57] time. We're not hiding them. So if we
+[01:48:59] just say someone has a good idea, we
+[01:49:01] ignore them or we just prove I am right
+[01:49:03] and they were right actually that
+[01:49:05] actually leave the issues to later on.
+[01:49:07] We need that to be discussed and find
+[01:49:09] the conflicts but take it as a
+[01:49:11] constructive way to say you know we can
+[01:49:13] help us to make the project better or
+[01:49:15] define the requirements better or build
+[01:49:17] something more reliable.
+[01:49:20] Yeah, this is what we want to say.
+[01:49:22] People are afraid to speak here at the
+[01:49:25] left. I think people are afraid to speak
+[01:49:26] up and share their opinion that leads to
+[01:49:30] too little conflict and people when they
+[01:49:32] actually start sharing more opinion or
+[01:49:33] creating too much conflict creating big
+[01:49:35] issues. This is the appropriate level of
+[01:49:38] conflict that is expected but leads to
+[01:49:41] positive results.
+[01:49:43] Now conflict is a process. It doesn't
+[01:49:45] happen overnight. It goes through
+[01:49:46] different stages as you see here. I will
+[01:49:49] not have much time to cover but this is
+[01:49:51] actually a bit of self uh explaining the
+[01:49:54] idea and you might feel if you go
+[01:49:57] through these stages you might feel that
+[01:49:59] we have at some point to say okay we
+[01:50:01] everyone will go through this they might
+[01:50:03] feel a conflict with someone or perceive
+[01:50:06] that and then what they do after that
+[01:50:09] they might just do one of these to deal
+[01:50:11] with the conflict and that might lead to
+[01:50:13] the behavior right and either negative
+[01:50:16] or positive uh kind of uh outcome.
+[01:50:20] Understanding this will help you to say
+[01:50:21] let's identify at some point we say
+[01:50:23] there's a conflict let's deal with it.
+[01:50:25] Now how we actually manage the conflicts
+[01:50:28] or what types of conflicts this is
+[01:50:30] actually different types of conflicts
+[01:50:31] why people disagree based on the goal
+[01:50:33] the administration of the work or
+[01:50:35] personal personality differences but
+[01:50:38] this is about the source of the
+[01:50:40] conflict. Basically some scholars ranked
+[01:50:43] the ones that with the highest conflict
+[01:50:45] that happens with two authors or two
+[01:50:47] scholars and one of the interesting
+[01:50:49] things that people have conflict over
+[01:50:51] the administrative procedures we have
+[01:50:53] conflict over technical opinions
+[01:50:55] sometimes this is ranked highly and the
+[01:50:57] last one personality conflict they are
+[01:51:00] both high
+[01:51:02] resolve conflict this is another model
+[01:51:04] to deal with resolving conflict what you
+[01:51:06] see on the x-axis
+[01:51:09] we have kind of way to be uncooperative
+[01:51:13] or to the right be cooperative on the y
+[01:51:17] axis being assertive or unassertive
+[01:51:20] right how much you attempt to satisfy
+[01:51:22] other people concerns when there is a
+[01:51:24] concern the x-axis is attempting to
+[01:51:27] satisfy other people's concern now that
+[01:51:30] lead to different types of resol
+[01:51:32] resolution of conflict right using this
+[01:51:34] model by the authors bake and mutton so
+[01:51:38] what actually we need to do if you do
+[01:51:40] this last slide or I think this is the
+[01:51:43] last thing. We're almost there. Uh I
+[01:51:46] think you just want to see if you can
+[01:51:47] capture this. Uh is it this one?
+[01:51:51] Let me see if you can see the last one
+[01:51:53] you have here. Different things. Now
+[01:51:56] I'll switch to the slides. It's the same
+[01:51:58] QR code.
+[01:52:01] Same QR code. Uh you should see the
+[01:52:05] question when you scan the QR code.
+[01:52:06] Basically what you have here
+[01:52:10] you have the model which might help you
+[01:52:12] to understand each description here we
+[01:52:15] have different description from one to
+[01:52:17] five of any of these ones here. So for
+[01:52:21] number one tell us which one is it is it
+[01:52:24] competing or compromising or avoiding.
+[01:52:26] So you order the things in in um slido
+[01:52:30] according to the descriptions you see
+[01:52:32] here. So what is number one slido you
+[01:52:34] have you can put it number one. the
+[01:52:36] willingness of one party in a conflict
+[01:52:39] to place opponent's interest over their
+[01:52:42] own.
+[01:52:43] You can just say which one is that and
+[01:52:46] put it number one in the slide. Move it
+[01:52:49] up. For the second one, you find which
+[01:52:52] one is it and move it up in the slide as
+[01:52:54] well.
+[01:52:58] I'll just give you some time to do it
+[01:52:59] and we'll finish off with that. So I
+[01:53:01] think just
+[01:53:08] you can just see that people are going.
+[01:53:15] So you can see it right?
+[01:53:18] >> Yeah.
+[01:53:23] Ah.
+[01:53:58] All right, that's good. So, we see
+[01:54:00] people are moving things around
+[01:54:04] to match the description we show on the
+[01:54:07] slide here, right?
+[01:54:15] All right. So,
+[01:54:18] What I want you to do is to reflect
+[01:54:20] about that model. It's an old model but
+[01:54:22] it is still reflecting the reality until
+[01:54:24] now. Uh I have ordered them here just
+[01:54:28] with the description to just make it
+[01:54:31] clear. So you can see them here in the
+[01:54:33] following slide which I will share what
+[01:54:36] we aim to do with the conflict. We don't
+[01:54:38] want to deal with this or go into this
+[01:54:41] area unassertive and cooperative. We
+[01:54:44] aiming to reach to a point of having
+[01:54:46] this kind of being cooperative and
+[01:54:49] assertive. This actually collaboration.
+[01:54:52] You need to collaborate. You don't want
+[01:54:54] to compromise. You don't want to
+[01:54:56] compete. You don't want to do other
+[01:54:58] things. You aiming for this.
