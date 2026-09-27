@@ -1,0 +1,2417 @@
+[00:00:00] [music]
+[00:05:49] Amen.
+[00:07:50] Good evening everyone. So sorry about
+[00:07:53] the delays. Just there's a problem with
+[00:07:54] the uh displays. So someone is coming to
+[00:07:58] help us. Last time we had a problem with
+[00:08:00] the camera. So it has been fixed.
+[00:08:02] However, we have a problem today in the
+[00:08:05] with the displays.
+[00:08:08] So I hope the people who are online can
+[00:08:10] hear us. So if there people attending
+[00:08:11] online
+[00:08:14] I need to mute here.
+[00:08:16] So
+[00:08:18] and
+[00:08:20] all right. So
+[00:08:23] just a few things I need to mention uh
+[00:08:25] for week one. So we had started last
+[00:08:28] week to get you through an activity to
+[00:08:30] form teams and that is a targeted
+[00:08:33] activity to help you to form teams with
+[00:08:36] kind of um having in mind a lot of
+[00:08:39] important things that can help you to do
+[00:08:41] the the project or the assessment right
+[00:08:44] so what I did learn that uh there are
+[00:08:46] many teams they still have less than
+[00:08:50] four or three members so if you didn't
+[00:08:53] join a team make sure you join a team so
+[00:08:55] week
+[00:08:56] lab was designed to help people to meet
+[00:09:00] with each other, do an activity to form
+[00:09:02] teams. Now, week two, we're going to
+[00:09:05] actually make sure that everyone is
+[00:09:06] allocated to to a team. So we allowed
+[00:09:10] you to choose your team members but we
+[00:09:11] guided you how considering different
+[00:09:14] aspects and I just want to make sure
+[00:09:16] this week you actually finalize your
+[00:09:18] team allocation or team formation
+[00:09:21] because your tutor will allocate members
+[00:09:23] to your team if it's still have room for
+[00:09:26] members right so that's a very important
+[00:09:28] thing you need to do so at last week we
+[00:09:32] had started looking at some of the
+[00:09:34] important things that we need to we need
+[00:09:37] you to work on uh uh when we actually
+[00:09:40] work on the project at later stage
+[00:09:41] especially in week three. So you started
+[00:09:43] working with the version control how to
+[00:09:46] use git command in order to make changes
+[00:09:49] to your local repository and also how
+[00:09:53] you can collaborate using git remote and
+[00:09:56] and gitlab. So basically in the past we
+[00:09:59] used to use GitHub which is one of the
+[00:10:01] tools that help you to manage uh a lot
+[00:10:04] of the uh changes you make in the uh
+[00:10:06] GitHub repository. Uh and that's suppose
+[00:10:09] you you're learning like
+[00:10:13] uh no I think it's not displaying the
+[00:10:15] screen have here
+[00:10:18] some reason.
+[00:10:27] So today we we are moving to talk about
+[00:10:29] important topic uh so a scrum uh agile
+[00:10:32] software development practices and a
+[00:10:34] scrum method in particular one of the
+[00:10:36] agile methods and this is actually what
+[00:10:38] you're going to use in your uh projects
+[00:10:40] for the three sprints or the three
+[00:10:43] iterations of development. All right.
+[00:10:45] So, um this is really important for your
+[00:10:50] project because we will assess a lot of
+[00:10:52] the things you're supposed to do in the
+[00:10:54] scrum development and make sure you are
+[00:10:57] doing it in the right way. Uh anyone did
+[00:11:01] scrum development in other courses? A
+[00:11:03] complete scrum sprint development or any
+[00:11:05] of the artifacts or the events?
+[00:11:09] Any anyone other courses?
+[00:11:12] Is it the first time you're going to
+[00:11:14] learn about it?
+[00:11:16] No. So, you did in other courses. Did
+[00:11:19] you do as a team or as individuals like
+[00:11:22] did things uh with a team development?
+[00:11:30] Not sure. That's why we have the course
+[00:11:33] here. So, we can do the uh uh scrum
+[00:11:35] development as a team through three
+[00:11:37] sprints. And you will be learning how
+[00:11:39] you do this uh through the uh course.
+[00:11:44] All right. So,
+[00:11:47] anyone has any questions before we
+[00:11:50] start? So, hopefully this will be
+[00:11:51] resolved soon. Any questions from week
+[00:11:55] one about the the course, about the
+[00:12:00] teams, the assessment,
+[00:12:03] right? Okay.
+[00:12:22] That works.
+[00:12:32] Thank you so much. I think that works.
+[00:12:35] Now, this one
+[00:12:37] >> is a stronger light.
+[00:12:41] >> I'm I'm sharing from here. I'll just
+[00:12:43] stop sharing. Ah, you stop the sharing.
+[00:12:45] Okay. Doesn't Okay, I will share from
+[00:12:47] here
+[00:12:48] >> or from here.
+[00:12:50] >> Okay. Thank you.
+[00:12:51] >> Yeah, no worries.
+[00:12:53] >> All right.
+[00:12:53] >> Thank you.
+[00:13:03] [clears throat]
+[00:13:10] >> All right. Thank you for your patience.
+[00:13:12] Uh so finally we got this is working.
+[00:13:15] Now this week we're going to actually
+[00:13:17] cover a very important topic. You
+[00:13:19] usually start with the development with
+[00:13:21] which is how you define your
+[00:13:23] requirements or software requirements
+[00:13:25] and then we will have also a walk
+[00:13:28] through through the agile software
+[00:13:29] development practices.
+[00:13:32] Right. So an acknowledgement of the
+[00:13:34] country. Um
+[00:13:37] first let me start with the agile
+[00:13:39] software development practices. This
+[00:13:41] naturally will lead us to how we do
+[00:13:43] software requirements in uh when we
+[00:13:45] start planning using agile practices. So
+[00:13:48] um now okay so when I talk about uh
+[00:13:53] agile an agile software development
+[00:13:55] there's no kind of clear definition for
+[00:13:58] agile but the closest for a definition
+[00:14:00] is what you know is like agile values
+[00:14:04] and these values define how teams or
+[00:14:07] software development teams work
+[00:14:09] together. Now what you will find
+[00:14:13] throughout learning agile software
+[00:14:14] development practices you will find that
+[00:14:17] this is actually the fundamentals for
+[00:14:20] anything we do on how we do things and
+[00:14:22] why we do it that way. Now this is this
+[00:14:25] did not come from nowhere. So team of
+[00:14:27] software development of software
+[00:14:29] practitioners and software engineers
+[00:14:32] they actually struggled for a very long
+[00:14:34] time using the agile software not agile
+[00:14:37] waterfall development and they actually
+[00:14:40] thought okay let's let's come up with
+[00:14:42] set of or a new way how we can actually
+[00:14:44] do software development to tackle the
+[00:14:47] challenges and the problems they face
+[00:14:48] over many many years and those actually
+[00:14:52] software engineers and practitioners
+[00:14:53] they came up with a better way how teams
+[00:14:56] can work together to build a software.
+[00:14:59] Now the the four values you see here
+[00:15:02] individuals and interactions over
+[00:15:05] processes and tools. What does it mean?
+[00:15:08] One of the key misconceptions from
+[00:15:10] people when you tell them I'm doing
+[00:15:11] agile software development they tell you
+[00:15:13] that we shouldn't use any tools or
+[00:15:15] processes. We shouldn't do any
+[00:15:18] documentation. we should not have a bit
+[00:15:21] of contract or negotiate a contract or
+[00:15:24] have a plan and so on so forth. And this
+[00:15:26] is actually the key mis misconception.
+[00:15:29] Basically uh these kind of values uh put
+[00:15:32] more emphasis on what you see on the
+[00:15:35] left hand side uh more on than what's on
+[00:15:38] the right hand side. So agile or agile
+[00:15:42] software development put more emphasis
+[00:15:44] on how individuals work together and
+[00:15:48] interact with each other in order to
+[00:15:51] deliver a good quality software. So
+[00:15:54] there's a lot of more emphasis on the
+[00:15:56] interaction and the communication
+[00:15:58] between the individuals even the
+[00:15:59] individuals themselves and what roles
+[00:16:01] they do. Uh we do have some processes
+[00:16:04] and tools but it is lightweight.
+[00:16:08] We don't do like what we do in in in u
+[00:16:11] uh waterfall approach where we spend
+[00:16:13] months and we try to define things
+[00:16:16] perfectly following a very long rigid
+[00:16:19] process. The process is very flexible.
+[00:16:21] So but the emphasis is more on how
+[00:16:23] individuals use these processes and
+[00:16:26] tools to work uh or build the software.
+[00:16:29] The second value or what agile manifesto
+[00:16:32] or values over uh comprehensive
+[00:16:36] documentation is building a working
+[00:16:38] software. Now this is critical. What's
+[00:16:40] the point of you having heaps of
+[00:16:42] documentation and nobody going to read
+[00:16:45] it? No, nobody going to use that
+[00:16:46] software. We're going to build something
+[00:16:48] that add value to the end users or the
+[00:16:51] people who going to use this software.
+[00:16:53] The customers, the stakeholders who are
+[00:16:55] interested in this software. So that's
+[00:16:57] another important value. The third one
+[00:17:00] is customer collaboration over contract
+[00:17:03] negotiations. So instead of spending a
+[00:17:06] lot of time to create legal contracts
+[00:17:09] and ask the customer or our stakeholders
+[00:17:12] to sign before we start building the
+[00:17:14] software which what used to happen with
+[00:17:16] waterfall development. We actually work
+[00:17:19] with them in iterative process to
+[00:17:22] understand better understand their needs
+[00:17:24] and build something they like to use
+[00:17:26] something they want not to just say you
+[00:17:29] signed on that I can't change anything
+[00:17:31] or if I want to make a change I have to
+[00:17:33] charge you a lot more so it's not about
+[00:17:36] the cost and the budget and the plan
+[00:17:38] it's more about um collaborating with
+[00:17:41] them in a certain way in order to
+[00:17:43] deliver something they want or something
+[00:17:45] they like and the last one is so
+[00:17:48] important It's all about when we talk
+[00:17:50] about software basically we say software
+[00:17:53] is all about evolution. We sometimes
+[00:17:56] think about building something and we
+[00:17:58] assume nothing will change. Everything
+[00:18:00] will work perfectly fine. But this
+[00:18:02] software is actually working in an
+[00:18:04] environment where you have customers,
+[00:18:06] users or environment in which it
+[00:18:08] operates. But a lot of changes happen.
+[00:18:11] what we need to actually do is uh
+[00:18:13] respond to these kind of changes rather
+[00:18:15] than say that we have a plan we can't
+[00:18:18] change anything right so the things on
+[00:18:21] the right hand side are actually the
+[00:18:23] trouble or the issues that caused so
+[00:18:26] much uh hassle for people when they
+[00:18:28] actually did software development and
+[00:18:30] what you see on the right hand on the
+[00:18:32] left hand side is actually what the uh
+[00:18:35] uh agile uh practitioners proposed to
+[00:18:38] solve these problems again just keep in
+[00:18:40] We value what's on the left hand side
+[00:18:42] more than what's on the right hand side.
+[00:18:44] That means we still do documentation. We
+[00:18:46] still use tools and follow processes but
+[00:18:49] it is a more lightweight approach.
+[00:18:52] Right? So this is the closest thing to
+[00:18:54] defining agile uh and what agile means
+[00:18:57] when you actually work in agile software
+[00:18:59] development. Now there are also on top
+[00:19:02] of the definition or the values. So we
+[00:19:04] have 12 principles. These principles
+[00:19:07] guide uh agile software development
+[00:19:09] teams.
+[00:19:11] Now I will quickly just show you the 12
+[00:19:13] principles here. Later on we will learn
+[00:19:15] about one of the agile methods which is
+[00:19:17] the scrum. And from that you will most
+[00:19:20] of the time refer to say why we doing
+[00:19:22] these things in this way? Why did we
+[00:19:24] have the team structure in this way? Why
+[00:19:26] we have this role and that role? You
+[00:19:28] will refer back to these principles you
+[00:19:30] will see here. So the principles is kind
+[00:19:32] of also guiding how agile teams work. It
+[00:19:35] looks at different aspects. Uh
+[00:19:39] one of these kind of things is
+[00:19:41] satisfying the customer throughout early
+[00:19:44] and continuous delivery of a valuable
+[00:19:46] software. A valuable software that
+[00:19:48] something can benefit the end users or
+[00:19:50] the customers. So this is the number one
+[00:19:53] priority when we want to actually build
+[00:19:55] the software. Uh second will come
+[00:19:58] changing requirements. Now we have a
+[00:20:01] kind of a flexible plan. We can change
+[00:20:03] the requirements even if we progress
+[00:20:05] with our developments. So we always
+[00:20:08] accommodate changes and we accept
+[00:20:10] changes. Changes allow us to build
+[00:20:12] something that the customer wants
+[00:20:13] because these changes usually come from
+[00:20:15] those end users or customers. Number
+[00:20:18] three, delivering working software
+[00:20:21] frequently. So this is pretty much
+[00:20:24] happening instead of spending long time
+[00:20:26] of designing, development or
+[00:20:27] documenting, we deliver something that
+[00:20:29] works to customers or end users. We
+[00:20:32] collect feedback and we try to address
+[00:20:34] the feedback early on before we move
+[00:20:36] forward. Uh number four um business
+[00:20:40] people and developers must work together
+[00:20:43] daily. Now some of the principles you
+[00:20:45] read here you find it links to previous
+[00:20:48] values. So we had this kind of customer
+[00:20:50] collaboration. So developers who
+[00:20:53] building the software work with the
+[00:20:54] business people. Now business people
+[00:20:56] they understand the business domain. You
+[00:20:58] might be say okay so how we should build
+[00:21:00] this feature there are rules maybe when
+[00:21:03] you want to approve a purchase order the
+[00:21:05] business people know what are the rules
+[00:21:07] and they should bring this input to the
+[00:21:09] developers developers should make should
+[00:21:11] not make this kind of things so they
+[00:21:13] need to work together on a daily basis
+[00:21:16] like this is very frequent it tells
+[00:21:18] about the frequency throughout the
+[00:21:20] project
+[00:21:22] principle number five uh build projects
+[00:21:25] around motivated individuals Now this
+[00:21:28] actually give a lot of freedom to the
+[00:21:30] development team and give them more
+[00:21:32] confidence to work on the project not to
+[00:21:34] be mandated by uh a project manager or
+[00:21:38] other roles. So what you need you need
+[00:21:40] to actually empower them by providing
+[00:21:42] them with a right environment uh and
+[00:21:45] support they need and give them the
+[00:21:47] trust so they can do the job and this is
+[00:21:49] actually happening through all these
+[00:21:50] kind of agile or scrum method which
+[00:21:53] define clearly how they should do so.
+[00:21:57] Principle number six, the most efficient
+[00:21:59] and effective method of conveying
+[00:22:01] information to and within development
+[00:22:04] team is face-to-face conversation. And
+[00:22:06] this actually tells about one of the
+[00:22:08] most common failures for projects which
+[00:22:11] is communication.
+[00:22:13] Lack of proper communication lead to
+[00:22:16] building a feature that a customer
+[00:22:17] doesn't want or developers talk about
+[00:22:20] building something they have
+[00:22:21] misunderstanding how we should implement
+[00:22:24] that that leads to building something
+[00:22:25] that we don't want or leading to bugs or
+[00:22:28] issues. So this principle tells us how
+[00:22:32] we should be communicating. So this is a
+[00:22:34] bit of more face-toface conversation is
+[00:22:36] way better than chatting and maybe
+[00:22:39] sending emails. And you might have
+[00:22:40] experienced that you have a lot of
+[00:22:42] misunderstanding when you're
+[00:22:43] communicating through other mechanisms.
+[00:22:47] Working software is the primary measure
+[00:22:49] of progress. This is how we say okay how
+[00:22:51] much did we progress. It's not about how
+[00:22:53] many pages of documentation we produced
+[00:22:55] or how many designs. It's more we build
+[00:22:58] something that works and the customer
+[00:23:00] want even if it's a small features but
+[00:23:02] they say we are done with these features
+[00:23:04] we are moving to the next one. So this
+[00:23:07] progress is measured through these kind
+[00:23:08] of working software.
+[00:23:10] Um number eight agile processes promote
+[00:23:14] sustainable development. Now this is
+[00:23:16] about
+[00:23:19] building features or doing software
+[00:23:21] development in a kind of constant base.
+[00:23:23] Even if you do little uh every every day
+[00:23:26] or every week. It's not about doing most
+[00:23:29] of the work in one week and then the
+[00:23:31] rest of the weeks you just start doing a
+[00:23:33] little a little less. Right? So this is
+[00:23:37] where you need to actually make this
+[00:23:39] kind of constant development because it
+[00:23:41] promotes sustainable model for building
+[00:23:44] and maintaining good progress.
+[00:23:47] Number nine is looking at um
+[00:23:51] um attention to techni uh to uh
+[00:23:53] technical excellence and good design. So
+[00:23:56] this will help to uh enhance or improve
+[00:23:58] a flexibility or agility.
+[00:24:01] Uh so you always have to pay attention
+[00:24:03] to the technical aspects as you build
+[00:24:05] and as you build a small part of your
+[00:24:07] software. Number 10 an interesting one.
+[00:24:10] We don't want to over complicate things.
+[00:24:12] We need to keep things very simple,
+[00:24:14] clear with a clear focus or goal. And
+[00:24:16] today we will be learning about how we
+[00:24:19] write our requirements in a more simple
+[00:24:20] way compared to what you used to think
+[00:24:22] or do. Uh number 11 is about the
+[00:24:26] architecture requirements and the
+[00:24:28] design. These comes the best ones of
+[00:24:30] these your software architecture the
+[00:24:32] design the requirements the best ones
+[00:24:34] are coming from self organizing teams. A
+[00:24:38] team is not directed or informed by
+[00:24:40] business people. You have to do it this
+[00:24:42] way. The team itself decide the best way
+[00:24:45] how we can do so and we will ask you to
+[00:24:48] do from sprint two to take over and
+[00:24:51] start defining your requirements and
+[00:24:52] leading things. So we were going to
+[00:24:53] start with the sprint one giving you a
+[00:24:55] bit of scaffolding and after that we say
+[00:24:58] you are in lead right so everything is
+[00:25:00] ready you can lead and take things
+[00:25:02] further more and last but not least this
+[00:25:06] is where the team need to reflect on how
+[00:25:09] they progressing in terms of not the
+[00:25:11] technicality in terms of the team the
+[00:25:13] processes they follow are we having any
+[00:25:15] roadblocks and are we having any issues
+[00:25:17] and so on so forth because any of these
+[00:25:20] can actually uh uh influence the team
+[00:25:22] progress ress and uh achieving u the
+[00:25:25] goals of this development. Now remember
+[00:25:28] last
+[00:25:30] uh last week we did talk about two
+[00:25:31] development models or software
+[00:25:33] development process models which is the
+[00:25:35] process we follow to build a software
+[00:25:37] and agile software development model is
+[00:25:40] one of these. This is the one that we
+[00:25:41] are adopting and this is often called
+[00:25:44] iterative and incremental development
+[00:25:46] model. If you look at this model and
+[00:25:49] reflect on these principles and values,
+[00:25:51] it's actually bring up some of these
+[00:25:53] things. We are doing a small iteration
+[00:25:54] of development where we define what we
+[00:25:56] want to build. We build and integrate
+[00:25:59] and test them. We review them here where
+[00:26:01] we get a customer, we get the uh
+[00:26:03] technical team to provide feedback and
+[00:26:05] we decide is it good? Do we need to
+[00:26:08] change something? So if you look at this
+[00:26:10] cycle, so it's not coming from nowhere.
+[00:26:12] It's based on the 12 principles and the
+[00:26:14] values and this actually captured this
+[00:26:16] individual way. There's a lot involved
+[00:26:19] in that and to get the team to do all of
+[00:26:22] this and follow certain process like the
+[00:26:24] agile development process is is a
+[00:26:26] challenge although it's a simple thing
+[00:26:28] but we will learn in a specific about
+[00:26:32] every cycle what should happen in agile
+[00:26:34] following one of the method which is
+[00:26:36] scrum. So we will cover that in much
+[00:26:38] more details what is happening inside
+[00:26:40] these kind of cycles later on. Now let
+[00:26:43] me start with the uh the method that we
+[00:26:46] want to adopt. So I talked about the
+[00:26:48] principles 12 principles and the values
+[00:26:50] and these are the base or the
+[00:26:51] foundation. There are many different
+[00:26:53] agile methods. Anyone did work with
+[00:26:55] extreme programming or game development
+[00:26:58] or something like that? No. Some people
+[00:27:02] who do gaming so actually worked with
+[00:27:03] extreme programming.
+[00:27:05] And this is actually uh XP is one of the
+[00:27:08] agile methods. It adopts some of the
+[00:27:11] principles and you will find some of the
+[00:27:13] diff some of the methods they have
+[00:27:15] common values and principles. They're
+[00:27:18] sharing some of that. Uh now the one we
+[00:27:21] will be adopting in this course is the
+[00:27:23] scrum software development process and
+[00:27:26] this is actually widely adopted and used
+[00:27:28] in industry and this is the one that you
+[00:27:30] will be using in this course as well as
+[00:27:32] in your capstone project 9900.
+[00:27:35] Now this is one of the agile methods. I
+[00:27:37] just have to emphasize on that. Uh it
+[00:27:40] help you to manage the software
+[00:27:41] development process and it focus on
+[00:27:44] delivering products of the highest
+[00:27:46] value. What does it mean? A product or a
+[00:27:49] software that is usable that is
+[00:27:52] addressing the customer needs or end
+[00:27:53] user needs. Right? So we you find maybe
+[00:27:58] some of the software we have in our
+[00:28:00] hands like Microsoft. Did anyone use
+[00:28:03] most of the features there? We have a
+[00:28:05] plenty of features we never touched. We
+[00:28:07] never touched even even we didn't know
+[00:28:09] about it. This is this is all about that
+[00:28:12] maybe some companies they think of we're
+[00:28:14] going to build everything that
+[00:28:15] everything looks cool but the reality
+[00:28:17] it's not all what I need when you think
+[00:28:19] about it mostly I want to actually write
+[00:28:22] I want to edit. I want to change I want
+[00:28:23] to save. These are the core features
+[00:28:25] that add most value to me. When we start
+[00:28:28] designing and building we should start
+[00:28:30] with these ones. Now it's nice to add
+[00:28:32] other things but if you start with
+[00:28:34] everything or you want to do all of
+[00:28:36] these you actually you might deliver
+[00:28:38] something the customer will look there
+[00:28:40] say is that all what I get confused I
+[00:28:43] say oh look there are so many things
+[00:28:45] which one is the most usually some
+[00:28:47] products like think of WhatsApp they
+[00:28:49] started with one simple thing instant
+[00:28:51] messaging as simple as that right and
+[00:28:55] it's it actually remain focused on that
+[00:28:57] one thing that all of us need and they
+[00:29:01] tried to make that instant messaging
+[00:29:03] better and better, more reliable, more
+[00:29:06] fast, right? Uh they added some
+[00:29:08] attaching files or images or something
+[00:29:11] like that. But it didn't start say let's
+[00:29:14] do video calls. It didn't shift that.
+[00:29:17] It's there now. But after what? After
+[00:29:19] they achieve the mainstream adoption
+[00:29:21] that everyone say I will use it, right?
+[00:29:23] This is where you start with the things
+[00:29:25] that add most value. And agile teaches
+[00:29:28] us start with the features and software
+[00:29:32] requirements or uh features that the
+[00:29:34] customer is mostly interested in or will
+[00:29:37] add big value for them. Right? So uh
+[00:29:41] what we will be covering in the scrum.
+[00:29:43] So that scrum covers teams and roles.
+[00:29:46] How teams work and what different roles
+[00:29:48] exist and how we should actually
+[00:29:50] implement them. Different events which
+[00:29:54] include the sprint itself. this software
+[00:29:56] development sprint, the sprint planning,
+[00:29:58] how we do planning for our each sprint
+[00:30:00] or each iterative uh development cycle,
+[00:30:04] daily scrum, sprint review and retro. So
+[00:30:06] we'll cover them in more details in the
+[00:30:08] following slide. And lastly, it also
+[00:30:11] covers the artifacts. They are during
+[00:30:13] the scrum development. I talked about
+[00:30:15] documentation, right? I said we in
+[00:30:17] agile, we do documentation. The
+[00:30:19] documentation is lightweight. We
+[00:30:21] generate set of artifacts that are
+[00:30:23] actually somehow documenting the
+[00:30:25] software. But it is lightweight and is
+[00:30:27] very focused and targeted. So we will
+[00:30:30] cover most of these kind of things and
+[00:30:32] the rules will guide you how to work
+[00:30:34] together collaboratively to improve the
+[00:30:36] quality and delivering the highest uh uh
+[00:30:39] value of your software. Now let's start
+[00:30:42] with the scrum team.
+[00:30:44] We have different roles and one of these
+[00:30:46] roles is the product owner. Now this is
+[00:30:48] new to us. If you worked in any software
+[00:30:51] development or any project maybe you
+[00:30:52] didn't have a role called the product
+[00:30:54] owner. Who is the product owner? The
+[00:30:56] product owner or PO this is the person
+[00:30:59] who thinks of how I can maximize the
+[00:31:01] benefit for the end users or the
+[00:31:02] customers for who we are building the
+[00:31:04] software. This person is advocating for
+[00:31:07] these users say okay we're going to
+[00:31:09] build this feature is it going to
+[00:31:11] benefit them somehow is it going to help
+[00:31:13] them to solve problem or overcome some
+[00:31:15] of the issues they face in their their
+[00:31:17] day-to-day work. This is a way of
+[00:31:19] thinking they think about it and they
+[00:31:21] try to advocate or put themselves in the
+[00:31:24] shoe of the end user or the customer or
+[00:31:26] the stakeholders for who we are building
+[00:31:28] this software. They always talk to the
+[00:31:31] customers or the clients understand
+[00:31:32] their problems and sometimes
+[00:31:34] understanding problems.
+[00:31:36] They know how to actually help to define
+[00:31:39] features to address these problems. Your
+[00:31:41] client or customers might not tell you
+[00:31:42] exactly how. They might say look I have
+[00:31:44] a problem. I always struggle to upload
+[00:31:46] all the files together. Now they told
+[00:31:48] you the problem how to come up with a
+[00:31:50] way to deal with that in a nice way.
+[00:31:52] It's something you can uncover as a
+[00:31:54] product owner. So you have this kind of
+[00:31:56] creative thinking on how we can address
+[00:31:58] some of these problems for them. This
+[00:32:01] person is responsible for managing the
+[00:32:04] product backlog. Now this one is you can
+[00:32:07] think about it. This is all our
+[00:32:09] requirements or the software features we
+[00:32:11] need to build in our software. We will
+[00:32:12] talk about the product backlog later on.
+[00:32:15] But the product owner should be the only
+[00:32:16] person handling that managing the
+[00:32:18] product backlog.
+[00:32:22] Um okay so managing their product
+[00:32:25] backlog in terms of what they can
+[00:32:26] actually record the product backlog
+[00:32:28] items and order it. Um they might
+[00:32:32] discover later on we we need to add more
+[00:32:34] features. We discover things that we
+[00:32:36] didn't think about we add it. So they
+[00:32:38] added as kind of uh features or items to
+[00:32:41] the product backlog. they optimize the
+[00:32:44] value for the work. So we try to focus
+[00:32:45] on what can add value and not to do too
+[00:32:48] many things that doesn't add much value.
+[00:32:51] Ensuring this kind of product backlog
+[00:32:53] and what we are working on is visible
+[00:32:55] and transparent to everyone. All team or
+[00:32:58] development team is aware of that and
+[00:33:00] this is really one of the important
+[00:33:02] things to make the team self-organizing
+[00:33:04] as we talked about it and keep them self
+[00:33:06] motivated. If you exclude them, you're
+[00:33:09] actually going to struggle with say why
+[00:33:11] did you add this feature? I don't think
+[00:33:13] it's important or they might think why
+[00:33:15] is someone telling us what to do we are
+[00:33:17] good how to do actually or define these
+[00:33:19] things and also ensuring the development
+[00:33:22] team understand the product backlog.
+[00:33:24] This is where we have someone is
+[00:33:26] advocating to make sure they understand
+[00:33:28] that. So one of your team members will
+[00:33:31] be a product owner. Now if you are a
+[00:33:34] product owner you need to know what
+[00:33:35] you're supposed to actually what is your
+[00:33:37] role and execute that role as you work
+[00:33:40] on every sprint right so this is part of
+[00:33:43] building your skill and when you go for
+[00:33:45] job interviews or talk about what you've
+[00:33:48] done in a project say I was the product
+[00:33:49] owner I did this I did that this
+[00:33:51] actually a way to communicate with
+[00:33:54] employers with people in the field who
+[00:33:56] understand when you say what you've done
+[00:33:58] now we have a formal language we don't
+[00:34:00] need to actually explain something and
+[00:34:01] say what is that what was that role? I
+[00:34:03] said this is a product owner. They
+[00:34:05] understand you very well and they
+[00:34:06] understand what you've done.
+[00:34:08] Now second role in the in the scrum
+[00:34:11] method is the development team. Of
+[00:34:13] course we have a team of developers,
+[00:34:16] software engineers like you and one of
+[00:34:19] the key things we talked about the
+[00:34:21] development team is they are
+[00:34:22] self-organizing.
+[00:34:24] Now they manage things together, they
+[00:34:26] work together, they blend things
+[00:34:27] together. things are not mandated on
+[00:34:30] them and this is really critical right
+[00:34:34] they make decisions together they
+[00:34:35] discuss with the product owner they
+[00:34:37] discuss with other with among each other
+[00:34:40] um one of the key questions about how
+[00:34:45] big or small is the agile team and this
+[00:34:47] is usually described of like two pizza
+[00:34:50] team uh it's a team where you can feed
+[00:34:53] with two pizzas right maybe the US size
+[00:34:57] uh usually four to nine members. Now
+[00:34:59] this is critical when it comes to a just
+[00:35:01] software development. We talked about
+[00:35:03] there are a lot of interaction between
+[00:35:04] the team members and you will see this
+[00:35:06] later on how this interaction. So we
+[00:35:08] have a lot of interaction happenings.
+[00:35:10] The bigger the team, you'll have a lot
+[00:35:12] of more complex interactions and
+[00:35:14] discussions, right? And the smaller you
+[00:35:16] might just not be able to deliver
+[00:35:18] something, right? Four to nine is a good
+[00:35:20] size and you find in industry people
+[00:35:22] working in like four to nine members. In
+[00:35:25] your teams, you're working in team of
+[00:35:26] six similar to the capstone this team of
+[00:35:29] six. So that will also get you to get
+[00:35:32] this exposure and the experience. And in
+[00:35:34] industry, we did hear about small teams
+[00:35:36] around this kind of uh six to nine
+[00:35:39] members.
+[00:35:40] Um okay so people should have different
+[00:35:43] cross functional so you should have a
+[00:35:45] skills people are good in front end
+[00:35:47] people are back end design and so on so
+[00:35:49] forth these are important things in your
+[00:35:52] week one labs we ask you to consider
+[00:35:54] when you form a team people with
+[00:35:56] different skills right and we said you
+[00:35:58] need people to know some front end and
+[00:35:59] back end design some people are good in
+[00:36:02] something and some other are good in
+[00:36:03] other things right this is where we need
+[00:36:05] different uh skills in the team and we
+[00:36:08] try to help you to into that uh rather
+[00:36:11] than do things randomly. Now the whole
+[00:36:14] team is accountable. Usually we don't
+[00:36:17] often we don't create sub teams in
+[00:36:19] agile. We try to focus on the whole team
+[00:36:21] will make decision work together. It's
+[00:36:23] not the architect who's deciding and
+[00:36:25] then the rest has to accept that. This
+[00:36:28] is really important and critical. Um and
+[00:36:32] there are less kind of emphasis on
+[00:36:33] titles. They are more everyone is
+[00:36:36] involved. Everyone is responsible. So we
+[00:36:38] don't actually exclude people or make
+[00:36:40] people more important than others. Um
+[00:36:44] and you couldn't believe how important
+[00:36:46] are these because these things usually
+[00:36:48] help to make team is self-organizing
+[00:36:51] motivated all contributing and be
+[00:36:55] transparent. You don't want to people
+[00:36:57] hiding things behind right because they
+[00:36:58] feel look why this person is the lead
+[00:37:00] and telling us what to do. If you have
+[00:37:03] two leaders, they have conflict usually,
+[00:37:05] right? We need to have the team to be
+[00:37:07] kind of cohesive and working
+[00:37:10] cooperatively together.
+[00:37:12] Right? Now, another new role in a scrum
+[00:37:16] development is the scrum master. Now,
+[00:37:19] we're saying we have to adopt as a team
+[00:37:21] a scrum method. Now, we need someone to
+[00:37:23] make sure the whole team is adopting or
+[00:37:26] doing scrum properly, following all
+[00:37:28] these practices properly. You need
+[00:37:30] someone to coach the team and monitor
+[00:37:32] the team. Make sure they are doing what
+[00:37:33] they're supposed to do in the right way.
+[00:37:36] At the end of the slides, I put one book
+[00:37:38] there, learning agile. This is one of
+[00:37:40] the books. I use a lot of content from
+[00:37:42] it and I found it very useful in terms
+[00:37:44] if you want to dig deep understanding
+[00:37:46] that. Now if you look at the scrum and
+[00:37:49] agile method you say it's all easy when
+[00:37:52] you experience doing all what we're
+[00:37:54] talking about as a team uh using the
+[00:37:57] tools like git gitlab and other things
+[00:38:00] you need to use collaboratively and do
+[00:38:02] all cicd other practices you start to
+[00:38:05] find the struggle what happens basically
+[00:38:08] you've got someone who might just not
+[00:38:10] believe on what we're saying what they
+[00:38:11] say why do we need to do every day a
+[00:38:14] standup meeting now this is one the
+[00:38:16] important uh agile events or scrum
+[00:38:19] events you have to do it. It has a
+[00:38:21] purpose and it has a structure. Even if
+[00:38:24] they say we will do it but we will not
+[00:38:25] do it properly. So that will impact the
+[00:38:28] benefit of scrum. Right now what you
+[00:38:31] need to watch out if you are a scrum
+[00:38:32] master and we will have a scrum master
+[00:38:34] in each team. Your role is to make sure
+[00:38:36] the team is adopting and implementing
+[00:38:38] the scrum and the agile practices in the
+[00:38:41] right way to maximize the benefit and
+[00:38:44] the productivity of the team because
+[00:38:46] agile is there to help the team to
+[00:38:48] actually achieve that. Now so you take a
+[00:38:51] kind of understanding the rules,
+[00:38:52] understanding the values and people
+[00:38:54] might ask you why do we need that and
+[00:38:56] you will hear it that they will say why
+[00:38:57] do we need to do every day a standup
+[00:38:59] meeting? There is a value in doing it
+[00:39:01] but some people they might do it wrong
+[00:39:02] and they feel it's a burden on us. Yes,
+[00:39:05] it becomes burden when you don't do it
+[00:39:07] properly. So they need to the scrum
+[00:39:09] master need to actually remove any
+[00:39:11] roadblocks for them like let's say we
+[00:39:13] are not able to organize a meeting
+[00:39:14] everyone is busy. Oh okay so I will help
+[00:39:17] to solve that problem right I will find
+[00:39:19] the right time for the team so the team
+[00:39:20] don't need to worry about that and so on
+[00:39:22] so forth. So there are important things
+[00:39:25] that the scrum master has uh or needs to
+[00:39:27] actually do. Now this will retain as a
+[00:39:29] benefit for the team to actually achieve
+[00:39:32] better agility and achieve better
+[00:39:35] outcomes and equality.
+[00:39:37] Now we're going to actually do something
+[00:39:39] before we move forward. So we learned
+[00:39:41] about the
+[00:39:43] um scrum team. So you've got something
+[00:39:46] on slido. Let me start it from here.
+[00:39:52] Um so there's a question. What do you
+[00:39:54] see on a screen? Two team structures.
+[00:39:58] Team A and team B, which team structure
+[00:40:01] do you think reflects better reflects a
+[00:40:04] scrum or agile
+[00:40:06] and think why after you answer?
+[00:40:09] So I think people can access that.
+[00:40:16] So can you take uh just you know start
+[00:40:18] doing that? I just need to login or I
+[00:40:21] think I have
+[00:40:30] So that works.
+[00:41:15] All right. So,
+[00:41:17] how much more time do you need?
+[00:41:22] Let's have a look here. um also people
+[00:41:25] online I think if there's anyone online
+[00:41:27] so they can also join the um discussion
+[00:41:32] right so looking at what you have looked
+[00:41:35] at so a lot of people said majority of
+[00:41:37] you said team A and I would like to hear
+[00:41:39] why what's your thoughts on these two
+[00:41:42] team structures
+[00:41:44] why did you say A why it's not B what's
+[00:41:46] the problem with team B for example
+[00:41:54] Openunication
+[00:41:58] stands for
+[00:41:59] >> 100%.
+[00:42:01] Communication and interaction is key and
+[00:42:03] this is somehow captured here where the
+[00:42:04] team members always discussing things
+[00:42:06] and they have a clear shared vision.
+[00:42:08] It's not everyone has a different idea
+[00:42:11] and think separately and implement
+[00:42:13] things based on their ideas separately.
+[00:42:16] This is critical. People are just
+[00:42:18] thinking you know what I understand this
+[00:42:21] this feature this way or the project
+[00:42:22] this way and then they work on their own
+[00:42:24] they have different understanding so
+[00:42:27] critical how you actually share or make
+[00:42:30] sure teams are on the same page you have
+[00:42:31] a very much shared communication and the
+[00:42:34] team discussing together and making
+[00:42:36] decisions together the whole team is
+[00:42:38] accountable right any other things you
+[00:42:40] spot in the team B for example what do
+[00:42:44] we have thinking of the roles
+[00:42:49] Well, I think we don't have a project
+[00:42:51] manager. So, we talked about some of the
+[00:42:53] roles. We do have a scrum master. We do
+[00:42:55] have a product owner. And I did share
+[00:42:58] with you the standard roles. They are
+[00:42:59] the development team, scrum master and
+[00:43:01] the product owner. You might find in
+[00:43:03] practice people make a variation of
+[00:43:05] agile. For example, they might just say
+[00:43:07] there is a team lead, right? you you the
+[00:43:12] the this is actually the pure virgin is
+[00:43:14] where these are the roles and this how
+[00:43:16] should we work but some other companies
+[00:43:18] they adopt a variation or make variation
+[00:43:20] because they think it's best
+[00:43:23] meeting their needs now but impossible
+[00:43:25] to say we have a project manager the
+[00:43:27] project manager is a more business
+[00:43:28] person and tell the development team
+[00:43:31] you're going to do this and you're going
+[00:43:32] to do it on this time and they plan for
+[00:43:35] you you know as a developer you say you
+[00:43:37] know they don't understand any of the
+[00:43:38] technical this takes longer than what
+[00:43:40] they thought and they blame for us to do
+[00:43:42] it within a short time. This is what's
+[00:43:43] happening in real projects and a lot of
+[00:43:45] projects fail in terms of delivering on
+[00:43:47] time or cost a lot more because they
+[00:43:50] think the project manager understood
+[00:43:52] everything and told us what to do. This
+[00:43:54] is what people felt for very long time
+[00:43:57] this kind of setup in team B
+[00:44:00] and you had even the business user who
+[00:44:02] has a problem we need to understand to
+[00:44:05] build for them they don't communicate
+[00:44:06] very much with the teams we said we have
+[00:44:09] the business people to also provide
+[00:44:11] input to the team as well now
+[00:44:15] as you can see it's not difficult but
+[00:44:17] when you start implementing things you
+[00:44:18] might find it is not really what we used
+[00:44:21] to do and it requires a change of
+[00:44:23] mindset for everyone in the team. scrum
+[00:44:26] master make sure that you don't have
+[00:44:28] someone you couldn't believe it I had in
+[00:44:31] the capstone some teams worked with me
+[00:44:33] in the 3900 900 and some of the people
+[00:44:36] say send me an email at the end of the
+[00:44:39] project say I I was the project manager
+[00:44:41] said we don't have a project manager in
+[00:44:43] this kind of scrum development where
+[00:44:46] where it comes from right but think if
+[00:44:48] you walk into an interview or when you
+[00:44:50] present or talk about something in the
+[00:44:52] assessment we actually look at how you
+[00:44:54] understand and you apply these things if
+[00:44:56] you tell someone in interview I was the
+[00:44:57] project manager in a scrum agile team
+[00:45:00] they say that's really definitely one of
+[00:45:02] the roles that it's not in in the scrum
+[00:45:05] right now let's move on uh to the scrum
+[00:45:09] events the second pillar of uh a scrum
+[00:45:11] one of the agile methods what are the
+[00:45:13] events there are many events that you
+[00:45:15] have to work or to go through the first
+[00:45:17] one is the sprint and we say agile is
+[00:45:20] iterative incremental development so we
+[00:45:23] divide the development or the the work
+[00:45:27] uh the software development into sprints
+[00:45:29] or iterations. So each iteration is one
+[00:45:31] cycle of development in which we try to
+[00:45:34] build something is usable even if we
+[00:45:37] build one feature or a few features
+[00:45:39] something that can be used and if we say
+[00:45:42] we are done with that we can release it
+[00:45:44] and customers can use it and benefit
+[00:45:46] from it. It adds value for them as
+[00:45:50] simple as that. It's not about building
+[00:45:51] too many features and none of these are
+[00:45:53] of interest to the end user or only one
+[00:45:55] is of interest to them. So in one
+[00:45:56] iteration or one cycle which we call
+[00:45:59] sprint or development cycle or
+[00:46:01] iteration. So you try to build something
+[00:46:03] that can be released as a product and we
+[00:46:06] say if we release that that's an
+[00:46:07] increment we add it to our uh software
+[00:46:10] or products. Now in agile uh we actually
+[00:46:13] time everything and timing will help us
+[00:46:17] to actually be disciplined right and
+[00:46:19] follow cycles. Remember when I said you
+[00:46:22] need to have constant base of
+[00:46:23] development it has to follow the same
+[00:46:25] time. So if your sprint is two weeks two
+[00:46:29] weeks you have to do every sprint two
+[00:46:31] weeks. If it's three weeks three weeks
+[00:46:33] and so on. Usually the timing you see
+[00:46:36] cycles two to four weeks. The heist you
+[00:46:39] see four weeks. If it goes longer that's
+[00:46:41] actually goes against agile. You build a
+[00:46:42] lot of work to show to the customer. You
+[00:46:45] build less and in a shorter time you
+[00:46:47] show to your customer. You get feedback
+[00:46:49] you can fix early at lower cost and you
+[00:46:52] get their feedback early. You
+[00:46:54] collaborate with them and work with them
+[00:46:56] early. So this is building this
+[00:46:58] consistent durations.
+[00:47:00] If you say I'm doing a sprint of two
+[00:47:03] weeks, every sprint has to be two weeks.
+[00:47:04] So you define what is it. In your
+[00:47:06] project we said it's two weeks and
+[00:47:08] that's actually try to align with the 10
+[00:47:09] weeks uh uh term right so in this sprint
+[00:47:14] you do you plan you do a planning at the
+[00:47:16] beginning you do some standups or daily
+[00:47:19] scrums you do development work and you
+[00:47:22] do a review and ritual we will going to
+[00:47:24] learn about all of these these events
+[00:47:26] happens during your sprint now starting
+[00:47:29] with the sprint planning when you start
+[00:47:31] to actually do each sprint you need to
+[00:47:33] plan what you want to do or what should
+[00:47:34] go in that sprint Sprint planning
+[00:47:37] basically we will start with defining
+[00:47:39] [clears throat]
+[00:47:40] a goal. So this sprint is all about
+[00:47:42] building user authentication. We might
+[00:47:44] just build features that are highly
+[00:47:46] related. Uh and these features we say
+[00:47:49] okay the goal is to make sure that we
+[00:47:50] can authenticate the users and so on.
+[00:47:54] So you identify what work needs to be
+[00:47:56] done to deliver this goal. If at the end
+[00:47:58] of the sprint we say we are able to
+[00:48:00] build uh uh features that help the users
+[00:48:02] to authenticate and do so on. So the
+[00:48:05] planning happens through two meetings
+[00:48:08] and this comes to what we said
+[00:48:09] communication interaction is key for
+[00:48:11] team to actually work together. We
+[00:48:13] conduct two meetings. It has actually
+[00:48:16] one meeting has two parts. It should
+[00:48:18] involve the scrum master product owner
+[00:48:19] and the development team. It's not the
+[00:48:22] project manager meet with the product
+[00:48:24] owner and make a decision and inform the
+[00:48:26] development team. Now the team is part
+[00:48:28] of this. Before the meeting we need to
+[00:48:30] prepare. So the product owner will
+[00:48:32] prepare prioritized list of most
+[00:48:35] valuable items that can contribute to
+[00:48:37] the goal we set right. Uh because the
+[00:48:41] product owner knows what most valuable
+[00:48:43] features we should build for the users
+[00:48:45] and which is which one is more
+[00:48:47] important. In the first meeting, the
+[00:48:50] product owner and development team
+[00:48:51] select items to be uh delivered at the
+[00:48:54] end of the sprint based on their value
+[00:48:56] and the team's estimate of how much work
+[00:48:59] they need. Right. And estimation we're
+[00:49:02] going to talk about this later on. It's
+[00:49:03] a key part. In the second part of the
+[00:49:06] meeting, the development team will
+[00:49:08] figure out the individual tasks instead
+[00:49:10] like say I have this feature or user
+[00:49:12] story. What task I need to do in order
+[00:49:14] to implement this feature. So break it
+[00:49:16] down into smaller tasks, right? And we
+[00:49:20] end up or what's the output of this kind
+[00:49:22] of sprint planning? We get what's called
+[00:49:24] a sprint backlog. The sprint backlog is
+[00:49:28] the list of features will go for this
+[00:49:30] sprint uh and it should be implemented
+[00:49:33] by the end of this sprint and deliver
+[00:49:35] what we need to deliver or defined as a
+[00:49:37] goal for this sprint
+[00:49:40] right okay
+[00:49:43] so how we do planning I think or the
+[00:49:46] team structure so this one it's not the
+[00:49:49] team structure it's more about team
+[00:49:50] describing the planning or iteration
+[00:49:53] process it's the same code.
+[00:49:56] You've got the QR code, but looking at
+[00:49:59] the team structures, team C and team D,
+[00:50:02] and how they do planning, which one
+[00:50:03] better reflect uh uh scrum or sprint
+[00:50:06] iteration planning?
+[00:50:09] Choose the one that you think is better
+[00:50:10] reflecting that.
+[00:50:51] So, you're going to tell us why did you
+[00:50:53] choose which team that does a proper
+[00:50:56] agile planning
+[00:50:58] or sprint planning?
+[00:51:06] Okay,
+[00:51:08] this is about the first one as the
+[00:51:10] second one. Okay, now we get some people
+[00:51:13] it's close team C and team D.
+[00:51:18] Anyone can tell us why do you think it's
+[00:51:20] team C
+[00:51:24] or is it team C or team D?
+[00:51:27] So,
+[00:51:29] okay. So, this is the one. Any thoughts
+[00:51:33] which one and why?
+[00:51:36] >> Yes, please.
+[00:51:38] >> Scrum.
+[00:51:39] >> Sorry.
+[00:51:40] >> The project manager doesn't exist in
+[00:51:41] scrum.
+[00:51:42] >> That's it. Usually
+[00:51:44] >> very good point. The in the traditional
+[00:51:46] projects project manager plan for the
+[00:51:48] team and say this is what you need to
+[00:51:50] deliver in a certain time right for the
+[00:51:53] whole project or for certain parts and
+[00:51:55] they actually create this kind of uh
+[00:51:57] Microsoft plan. I think they call used
+[00:51:59] to the most common tool they use they
+[00:52:02] create all these tasks and what we
+[00:52:04] should do and when we should deliver and
+[00:52:05] all of that and they talk to the
+[00:52:08] development team but somehow what they
+[00:52:11] do they actually dictating the decision
+[00:52:13] about the planning what's the interest
+[00:52:15] of the project manager maybe they want
+[00:52:17] to deliver to the uh end user by the
+[00:52:20] time they requested and then sometimes
+[00:52:22] they're pressuring the team and the team
+[00:52:24] is kind of say you guys have to do it
+[00:52:27] right so So this is where team members
+[00:52:30] don't share with the project managers
+[00:52:32] and just probably what happens is like
+[00:52:34] they might not deliver something good or
+[00:52:36] something with a value. They don't feel
+[00:52:38] they are engaged. They don't feel they
+[00:52:39] are part of the decision- making
+[00:52:41] process. And this actually tells you how
+[00:52:43] agile think about team or planning where
+[00:52:47] all team members are involved in the
+[00:52:49] process of making a plan and what we
+[00:52:51] should uh include in the current sprint
+[00:52:54] or in the current iteration. They
+[00:52:56] actually do this every time they plan.
+[00:52:58] Every sprint they plan all together with
+[00:53:00] the product owner and the scrum master.
+[00:53:03] Of course, the scrum master need to make
+[00:53:04] sure that the team is do also follow
+[00:53:06] their planning according to the
+[00:53:08] principles we learn here so they don't
+[00:53:09] do it wrong because it might lead to
+[00:53:11] some issues.
+[00:53:13] Now great. So team D is better
+[00:53:15] reflecting agile planning and this is
+[00:53:17] what you should be doing. You don't have
+[00:53:19] someone as a team lead or whatever is
+[00:53:21] the title telling the team what we
+[00:53:23] should do. Everyone will contribute why
+[00:53:25] we should use build this feature and how
+[00:53:28] long it will take. Should we include it
+[00:53:30] this sprint or did we include enough or
+[00:53:32] too much everyone has a say and you will
+[00:53:35] learn later on when we do estimation all
+[00:53:37] team members will be part of that and
+[00:53:38] have a say in it. Right? So what I want
+[00:53:43] to show or showing you in these
+[00:53:44] different structures don't adopt the
+[00:53:46] traditional approaches for doing
+[00:53:49] software development. We're doing things
+[00:53:51] differently and again changing the
+[00:53:54] mindset. Scrum master you need to change
+[00:53:56] the mindset. You need to tell people we
+[00:53:58] have we're going to do it this way. This
+[00:54:00] way will work better will make sure that
+[00:54:02] we have better results in in doing
+[00:54:04] things. What happens? You can't see or
+[00:54:08] smell things maybe until too late. What
+[00:54:10] happens basically if you don't do things
+[00:54:12] properly following agile people say
+[00:54:14] agile doesn't work. Why? Because you
+[00:54:16] have some members they don't believe in
+[00:54:18] it. some members they are not doing it
+[00:54:20] right and it leads to these kind of
+[00:54:22] issues right but it remains usually
+[00:54:24] hidden until you discover these things
+[00:54:26] when we talked about team dynamics we
+[00:54:28] mentioned where some people are
+[00:54:29] compromising and just say okay I'll
+[00:54:31] accept that even they know we're not
+[00:54:33] doing scrum properly so we don't need
+[00:54:35] that right so we need to be transparent
+[00:54:37] and discussing these things moving on
+[00:54:39] with the different other events daily
+[00:54:41] scrum meeting you know a lot of that
+[00:54:44] people when you say I do agile
+[00:54:46] development what do you do I do standups
+[00:54:47] meetings Everyone knows that and
+[00:54:50] everyone asked the question do we need
+[00:54:51] to do daily scrum meetings right so this
+[00:54:55] is the question that we always get and
+[00:54:57] even asking the people in the companies
+[00:54:58] they say the same thing people ask us do
+[00:55:01] we need to do it and do we need to stand
+[00:55:03] when we do it it's called a stand-up
+[00:55:05] meeting yes because it's only very short
+[00:55:07] concise 15 minutes meeting now it's a
+[00:55:10] standup because of that purpose keep it
+[00:55:12] short to the points if you're sitting
+[00:55:14] you are most likely going to be uh uh
+[00:55:16] extending the time you scrum master need
+[00:55:20] to make sure that we do it 15 minutes.
+[00:55:24] Now the timing might vary depending on
+[00:55:27] the size of the team. Remember when we
+[00:55:29] said it's four to nine, right? So if
+[00:55:31] it's a bigger team, it might take a
+[00:55:32] little bit longer because each team
+[00:55:34] member need to answer the three
+[00:55:35] questions here. And exactly that's what
+[00:55:38] each team member should do and focus on.
+[00:55:41] The scrum master has to make sure that
+[00:55:43] each team member is doing these things
+[00:55:45] and we don't go with uh a lot of
+[00:55:48] details. We try not to solve problems.
+[00:55:51] We try to say what did I do? Every
+[00:55:53] member will say what did I do yesterday
+[00:55:56] that helped the development team to meet
+[00:55:58] or achieve the sprint goal. What did I
+[00:56:01] do today or what will I do today to help
+[00:56:04] the development team to achieve the
+[00:56:06] sprint goal? So what I'm planning to do
+[00:56:08] and do I see any obstacles that stop the
+[00:56:11] team or prevent that the team from
+[00:56:13] achieving the goals. Now the first two
+[00:56:16] tells others who's working on what and
+[00:56:18] this is transparency and everyone knows
+[00:56:20] what's happening. If you have something
+[00:56:21] to do with one of the team members you
+[00:56:23] say ah I need to talk to you because I'm
+[00:56:25] doing the back end of that feature.
+[00:56:26] You're doing the front end. We're going
+[00:56:27] to talk or you get the brief update from
+[00:56:30] them on these when they answer two
+[00:56:32] questions. The third one if someone face
+[00:56:34] a problem and they share or briefly
+[00:56:36] mention that not the details they
+[00:56:39] actually tell okay that's impacting me I
+[00:56:41] have to talk to you or I have to know
+[00:56:43] more or I had the same problem tell me
+[00:56:45] how did you solve it but you don't
+[00:56:46] discuss this in the meeting you actually
+[00:56:48] make a follow-up meeting to discuss the
+[00:56:51] details this is how you keep the team
+[00:56:52] productive
+[00:56:54] if you get the team to start talking
+[00:56:56] about the details and some people
+[00:56:57] sitting there say let me do my work you
+[00:57:01] know this problem doesn't it's not
+[00:57:02] matter for me it's not important or
+[00:57:05] everyone sitting in the meeting
+[00:57:06] sometimes we feel we're sitting in the
+[00:57:08] meeting we do nothing or we feel the
+[00:57:10] discussion is not highly important to my
+[00:57:12] job or what I'm doing and this is how we
+[00:57:15] say yes do every day 15 minutes keep it
+[00:57:18] to these three questions scrum master
+[00:57:19] make sure this is happening and this
+[00:57:22] will keep it productive lightweight
+[00:57:24] productive it's not about to having too
+[00:57:27] many meetings if you do this in hours or
+[00:57:29] spend one hour meeting that's what will
+[00:57:32] happen. People will feel bored and it's
+[00:57:33] too much for them. Right? These are the
+[00:57:36] things that happens where people say
+[00:57:37] they implement it wrong and then they
+[00:57:39] get into issues or what's the point of
+[00:57:41] conducting the meeting and we don't
+[00:57:43] answer these questions or learn from
+[00:57:44] each other from it. So scrum master
+[00:57:47] should help with doing some follow-ups
+[00:57:49] to actually ensure the team is sharing
+[00:57:51] and discussing uh important information.
+[00:57:55] The development work itself this is
+[00:57:57] actually when the team build the work.
+[00:57:58] We have a plan. We have daily standups
+[00:58:01] to share and communicate and interact
+[00:58:03] briefly concisely. Now the development
+[00:58:06] work is what you supposed to do and what
+[00:58:08] we most of the time we do is actually
+[00:58:10] making sure that we are building the
+[00:58:12] features we defined in our sprints. We
+[00:58:14] are building and the product owner need
+[00:58:16] to make sure the team is doing so that
+[00:58:18] we're not going offsides. We started
+[00:58:21] building a feature and then we shift it
+[00:58:22] to other ones or we are not implementing
+[00:58:24] the feature in the way the customer or
+[00:58:27] end user need that the product owner
+[00:58:29] will make sure that this feature is
+[00:58:31] implemented in a way that it is it adds
+[00:58:34] value to the end user or to the
+[00:58:36] customer.
+[00:58:38] So and we must update the sprint backlog
+[00:58:41] basically to make sure that everyone
+[00:58:43] knows the progress. I am responsible for
+[00:58:46] this task or this uh feature. I have
+[00:58:49] this progress. I'm doing it or I'm done.
+[00:58:51] I will show you later on how you do
+[00:58:52] this. The sprint review. This is
+[00:58:55] actually at the end of the sprint. Now
+[00:58:57] we did the beginning planning during we
+[00:59:00] did standups and development. At the end
+[00:59:02] two main events sprint review and
+[00:59:05] retrospectives. Sprint review is all
+[00:59:07] about doing a demonstration of the what
+[00:59:09] you have built or the team has designed
+[00:59:12] and implemented. Uh I said here maximum
+[00:59:15] four hours. If you notice it depends on
+[00:59:17] how big is your sprint. If your sprint
+[00:59:21] is four weeks
+[00:59:24] that review can be long but if your
+[00:59:28] sprint is two weeks it might be around
+[00:59:30] one hour to two hours right again the
+[00:59:32] team decides on how long is a good time
+[00:59:34] but you don't keep it for too open you
+[00:59:36] set the time the scrum master
+[00:59:38] responsible for that timing help the
+[00:59:39] team to be productive and not to go on
+[00:59:43] unnecessarily discussions
+[00:59:45] so you demonstrate what has been done
+[00:59:47] completed and the goal of that to show
+[00:59:51] it's not about telling now I'm I'm
+[00:59:53] showing the customer or the end user who
+[00:59:56] is going to say it's good I'm happy with
+[00:59:57] it or I need changes and you're doing
+[01:00:00] this at the end of the sprint that means
+[01:00:02] you're collecting feedback and you're
+[01:00:03] collaborating with your customers or end
+[01:00:06] users early you're not waiting to finish
+[01:00:08] the whole thing and then show them so at
+[01:00:11] the end of each sprint you are showing
+[01:00:13] and you're collecting feedback you can
+[01:00:14] actually take the feedback and define
+[01:00:17] new features or new improvements to be
+[01:00:19] included in the next planning.
+[01:00:23] Um, [sighs]
+[01:00:25] okay. So, make sure you involve and
+[01:00:27] invite. Now, in your case, you're going
+[01:00:28] to work together, but you might have
+[01:00:30] someone you think they can influence the
+[01:00:32] decision, the stakeholder. Anyone can
+[01:00:34] influence the decision if the product is
+[01:00:37] radio or not or we can release or not.
+[01:00:39] Your role is to make sure that you
+[01:00:40] involve these stakeholders because their
+[01:00:42] opinion is important or what they going
+[01:00:44] to say. If you don't you are excluding
+[01:00:46] some of the people decision makers in
+[01:00:48] the process. Um okay so the output we
+[01:00:52] actually get revised product backlog and
+[01:00:54] maybe either we say everything is done
+[01:00:57] and the customer is happy we can say it
+[01:00:59] can go to the next release these
+[01:01:01] features or things we implemented or
+[01:01:03] some they need improvements which goes
+[01:01:05] to the next iteration or next sprint.
+[01:01:08] Right? So how you think about this kind
+[01:01:11] of scrum iteration or sprint process?
+[01:01:14] Basically what you see here we have
+[01:01:15] different iterations or sprints. Your
+[01:01:17] development will go through iterations
+[01:01:19] or sprints. Each sprint at the end of
+[01:01:21] the sprint you build some features.
+[01:01:24] These are the features you completed.
+[01:01:25] Iteration two you add more. Iteration
+[01:01:27] three you add more. As you can see what
+[01:01:30] you see here is the end product or what
+[01:01:32] we call is the increment of the
+[01:01:33] software. What we added or incremented
+[01:01:36] to the software.
+[01:01:38] Now [clears throat]
+[01:01:40] at the same time we have a product
+[01:01:41] backlog. So this is what we're doing at
+[01:01:43] each sprint where we say we build these
+[01:01:45] features when you start you have all the
+[01:01:47] features here you need to implement this
+[01:01:50] imagine this is all the features you
+[01:01:52] need to build at the end of your
+[01:01:53] software or your project. Now when you
+[01:01:56] do the first iteration you did two these
+[01:01:58] two are gone. When we move on with the
+[01:02:01] product backlog our product backlog or
+[01:02:03] set of requirements or features are
+[01:02:05] dropping should drop. However you might
+[01:02:07] add to them during the sprints because
+[01:02:10] you find some issues you need to fix.
+[01:02:12] Right? So most likely it should be
+[01:02:14] dropping over time uh and making sure
+[01:02:16] that you are updating the product
+[01:02:18] backlog and sprint backlog.
+[01:02:21] Right? Last thing in the events is the
+[01:02:23] retrospectives and this is maybe new.
+[01:02:26] This is all about team sitting together.
+[01:02:29] We don't want to talk about development.
+[01:02:30] We don't want to talk about any of that.
+[01:02:32] How did we go? What did go well? What
+[01:02:35] did it go wrong? How we can improve as a
+[01:02:38] team? And this is all about people,
+[01:02:41] relationships, processes and the tools
+[01:02:43] we use that should help us not to make
+[01:02:45] our life difficult. You don't talk about
+[01:02:48] the development of features. We did that
+[01:02:49] in the sprint review. We did that in the
+[01:02:51] development and so on. Now this one
+[01:02:53] should be purely about people,
+[01:02:56] relationships, processes and tools and
+[01:02:58] you identify things went well and how we
+[01:03:01] can improve to improve the team
+[01:03:02] productivity.
+[01:03:05] Now basically this will help us to
+[01:03:06] create some a plan for how we can
+[01:03:08] improve. We could have a better tools or
+[01:03:11] set up the tools in a better way to help
+[01:03:12] us to do the work more and collaborate
+[01:03:15] in more better ways. Um right how we do
+[01:03:19] this also scrum and agile tell us
+[01:03:22] exactly how we do it. It's not up to us.
+[01:03:24] Again remember everything I said is
+[01:03:26] timed. It's about one to two hours. You
+[01:03:29] shouldn't spend too long time otherwise
+[01:03:31] people say it doesn't work and it's too
+[01:03:33] much. So this retrospective one to two
+[01:03:36] hours again it depends on the sprint
+[01:03:38] duration. Usually the if it's shorter
+[01:03:41] you go with a shorter or less time. the
+[01:03:44] scrum master and the development team.
+[01:03:46] Maybe the product owner might join. It's
+[01:03:48] all about the scrum master identifying
+[01:03:51] roadblocks or issues for the team and
+[01:03:53] work with them to fix these. Now, each
+[01:03:56] person answered two questions. Each
+[01:03:58] person noticed that in this in the
+[01:04:01] retrospective and in the standups, each
+[01:04:03] person answered the questions. It's not
+[01:04:05] the lead. Everyone is involved. Everyone
+[01:04:08] is part of this. This actually make big
+[01:04:10] difference for you. you feel you belong
+[01:04:12] and you are part of the process. You're
+[01:04:14] not just told to to do certain things.
+[01:04:16] So what went well during the sprint and
+[01:04:19] what could be improved in the future.
+[01:04:20] Again, it keeps you focused on the
+[01:04:22] points and what add value for the team
+[01:04:24] to improve.
+[01:04:26] Um now scrum master takes a big role.
+[01:04:29] They need to actually not say
+[01:04:30] improvements and what we should do in
+[01:04:32] order to improve or fix some of the
+[01:04:34] issues have been identified. For
+[01:04:36] example, people mentioned that the build
+[01:04:38] server we use to build our software, it
+[01:04:40] takes a lot of time and it crashes. We
+[01:04:42] need to fix that. We need to set up a
+[01:04:44] better uh uh uh server or fix the issue
+[01:04:48] with it. Right? So the output of this is
+[01:04:51] to identify improvements that should be
+[01:04:53] implemented in the next sprint and this
+[01:04:55] is the team do self adaptation or
+[01:04:57] self-organizing. The team itself decided
+[01:05:00] what didn't go well and how we can
+[01:05:01] improve and they selforganize. next time
+[01:05:04] they improve. So you're going to do this
+[01:05:06] uh in as part of your team and practice
+[01:05:09] the retro at the end of each sprint. Now
+[01:05:12] this is one example just I think very
+[01:05:14] quickly.
+[01:05:17] Uh so what went well people said that
+[01:05:20] okay we made the sprint goal. This is
+[01:05:21] really good. we managed to actually meet
+[01:05:23] the sprint goal things maybe we had
+[01:05:26] duplicated work two two members
+[01:05:28] accidentally working on the same task
+[01:05:30] without knowing it could be a
+[01:05:32] communication issues right or
+[01:05:34] misunderstanding who's doing what or
+[01:05:36] invisibility so and then you try next
+[01:05:39] sprint to actually deal with that making
+[01:05:42] sure that we update things right and we
+[01:05:45] ensure that people are sharing during
+[01:05:47] the standups because they say I work on
+[01:05:49] this I worked on the something I'm going
+[01:05:52] to work on something else. So when we
+[01:05:54] share everyone knows that and they can
+[01:05:56] say hang on I'm doing this as well.
+[01:05:59] So and in the next cycle in the next
+[01:06:01] sprint you need to show us like okay
+[01:06:04] ident identify something to try that
+[01:06:06] goes into uh what you want to try and
+[01:06:09] define how did it go did it help the
+[01:06:12] team to solve the issue or not if not
+[01:06:14] you need to find another way to solve
+[01:06:16] it. Now what do you see here? It's part
+[01:06:18] of the retro and the retrospectives and
+[01:06:21] other things I've been talking about.
+[01:06:23] You should be doing it in your uh
+[01:06:25] sprints and in your development and we
+[01:06:27] will require you to record us to record
+[01:06:29] that to show us how did you do it to
+[01:06:32] actually assist your implementation of a
+[01:06:34] scrum in a proper way. Right? So you
+[01:06:38] need to pay attention to these details
+[01:06:40] so that we make sure you did it right.
+[01:06:43] Okay. So can we talk about or we can
+[01:06:48] take a break here actually scrum
+[01:06:49] artifacts uh it's almost more than
+[01:06:52] halfway so let's have a break maybe if
+[01:06:55] you want to stretch whatever have some
+[01:06:58] water break and let's start in five
+[01:07:00] minutes if you want to talk to me or
+[01:07:03] have questions please come down and talk
+[01:07:04] to me
+[01:08:05] So, I actually switched my tutorial last
+[01:08:19] So
+[01:08:21] okay. So Daniel is handling that. Daniel
+[01:08:24] got a lab and you have set up a link
+[01:08:28] where you can join there or they might
+[01:08:31] send the link only to the people in that
+[01:08:33] lab.
+[01:08:34] >> Yeah. But what happened was we were part
+[01:08:36] of an offline tutorial and then we
+[01:08:38] switched to
+[01:08:38] >> later online.
+[01:08:39] >> Now you are online.
+[01:08:40] >> So what you can do you can email Daniel
+[01:08:43] >> and tell him can we be added to the
+[01:08:45] online tutorial because we switched
+[01:08:48] >> right and that will he will add you or
+[01:08:50] make sure the t will add you
+[01:08:55] find.
+[01:08:59] >> Yeah.
+[01:09:14] So
+[01:09:16] we as a group join
+[01:09:21] you can either put that on the
+[01:09:30] >> look at the
+[01:09:32] But I will also
+[01:09:38] email
+[01:09:45] you.
+[01:10:40] It's like
+[01:11:07] Let's
+[01:11:26] go.
+[01:14:54] All right.
+[01:14:55] So, I hope you are refreshed.
+[01:15:01] Moving on with the
+[01:15:03] next important thing in the scrum. So
+[01:15:06] the artifacts
+[01:15:08] this is pretty much you can think about
+[01:15:10] is our documentation things that we
+[01:15:12] produce during the development during
+[01:15:14] the planning and so on so forth. So one
+[01:15:17] of these artifacts is the product
+[01:15:20] backlog. Now your product backlog
+[01:15:22] contains a set of all your features and
+[01:15:26] some features that you need to work on
+[01:15:28] or the development team need to work on
+[01:15:30] to build the product or the software.
+[01:15:33] You can think about it. It actually
+[01:15:35] described the features we need to
+[01:15:36] implement or functionality or
+[01:15:38] requirements whichever term is that and
+[01:15:42] we define also what enhancements and
+[01:15:44] fixes we need to do to actually deal
+[01:15:46] with issues we identified from previous
+[01:15:48] sprints. Usually these are expressed as
+[01:15:52] or written as user stories. This is
+[01:15:54] actually uh one of the most effective
+[01:15:58] ways to do it and to align with the
+[01:16:00] agile development and we will learn
+[01:16:02] about the user stories today. So we'll
+[01:16:05] cover that in more detail in the
+[01:16:07] following slides. It is the
+[01:16:09] responsibility of the product owner.
+[01:16:11] Again an emphasis is put on the product
+[01:16:13] owner is to ensure that the team is
+[01:16:16] working and ensuring that we collaborate
+[01:16:19] with our customer and the team is
+[01:16:21] working together in order to define this
+[01:16:24] product backlog. It's not mandated by
+[01:16:26] one person or one source.
+[01:16:30] Uh this is actually the source of the
+[01:16:32] product. When we say what are we
+[01:16:34] building? You look at your product
+[01:16:35] backlog. You say all what is described
+[01:16:37] there is our product and the features
+[01:16:39] and it's described in very simple way
+[01:16:42] but the most important thing to remember
+[01:16:45] compared to waterfall when if you
+[01:16:47] remember we said you start with set of
+[01:16:49] requirements you spend months and you
+[01:16:50] detail it and you produce software
+[01:16:53] specification document that is something
+[01:16:56] less likely to change. This product
+[01:16:58] backlog can evolve and should evolve.
+[01:17:01] Why? Because when we do sprint and we do
+[01:17:04] planning when we start we collect most
+[01:17:06] of the requirements and one of the
+[01:17:08] techniques people do you meet with the
+[01:17:11] stakeholders the end users the customers
+[01:17:13] the people those people who have take or
+[01:17:16] interest in the product you're building
+[01:17:18] and you collect most of the requirements
+[01:17:20] in a simple way. There are ways to do it
+[01:17:22] with boasted nodes and understand their
+[01:17:24] problem and define some of these
+[01:17:26] features and you create your product
+[01:17:28] backlog. But this is not complete and it
+[01:17:30] will never be complete.
+[01:17:32] Excuse me.
+[01:17:34] Yeah. So this will evolve and you need
+[01:17:38] to keep it in mind. People think once we
+[01:17:41] define we can't change and you need to
+[01:17:43] change this mindset. This should evolve
+[01:17:46] because the way we define the
+[01:17:48] requirements is a lightweight way where
+[01:17:50] it assumes that let's define what we
+[01:17:52] know and let's work with what we know
+[01:17:55] and as we progress we will discover a
+[01:17:57] lot more and we will redefine and we
+[01:17:59] will refine. This is how you think about
+[01:18:02] it about your product backlog. It should
+[01:18:04] evolve. If it's not evolving there's
+[01:18:06] something wrong where you assumed or
+[01:18:08] tried to define things in a perfect way.
+[01:18:12] Now of course you can't because you will
+[01:18:13] spend less time to do that you need to
+[01:18:15] move on. Um the sources of these things
+[01:18:20] where you things evolve when the team
+[01:18:22] start doing development they might say
+[01:18:24] you know hang on we define a feature
+[01:18:26] we're going to work on it when we
+[01:18:27] started implementing how should we
+[01:18:29] design here what information we should
+[01:18:30] capture and you start to ask right
+[01:18:32] questions okay now the product owner
+[01:18:35] jump say okay I understand what they
+[01:18:36] want and what the information they need
+[01:18:38] to capture because they know they spoke
+[01:18:40] to them uh to the client about the
+[01:18:42] problem and that product owner can help
+[01:18:45] or if they're not sure they can reach
+[01:18:47] out to the client and ask about this
+[01:18:49] information. But the point is once you
+[01:18:51] start you define some lightweight
+[01:18:53] requirements or features once you start
+[01:18:56] implementing you will find more
+[01:18:57] information as you go and this is a
+[01:19:00] lightweight planning in agile very
+[01:19:03] dynamic and things evolve and things
+[01:19:05] more we know more once we progress once
+[01:19:07] we start implementing. So rather than
+[01:19:09] spending long time to fix the issues or
+[01:19:12] perfect it
+[01:19:14] uh you need to in the product backlog
+[01:19:16] you need to have a priority which one uh
+[01:19:18] or a value a way to measure the value
+[01:19:21] which one is the most important usually
+[01:19:24] like when I say like if I building core
+[01:19:26] features and when you're building core
+[01:19:27] features in any product you're building
+[01:19:29] a minimal viable product these are set
+[01:19:32] of features if at the end of the
+[01:19:34] development or the software I have these
+[01:19:37] features in the software that can be
+[01:19:39] used by the a customer or end user and
+[01:19:42] these are the core features. Now it
+[01:19:44] would be nice to add more features but
+[01:19:45] these are if I don't add them the
+[01:19:48] product is still usable and useful for
+[01:19:50] the clients or the end user. Now you
+[01:19:54] think of what is important you could add
+[01:19:56] a lot of things as you progress but
+[01:19:58] remember to give a priority or a value
+[01:20:00] for that. said this is highly important
+[01:20:03] and this is nice to have so we can
+[01:20:07] prioritize it later. So we focus on what
+[01:20:10] add value first and we do first and this
+[01:20:12] is the essence of how you order your
+[01:20:14] items in the product backlog.
+[01:20:17] Now sprint backlog this is the product
+[01:20:20] backlog describe all the features we
+[01:20:22] need we should implement and it should
+[01:20:24] evolve over time. The sprint backlog
+[01:20:26] describe these items we select to go in
+[01:20:28] the next sprint to build. Right? This is
+[01:20:31] pretty much simple but for each sprint
+[01:20:34] it has a by kind of certain uh um items
+[01:20:38] we need to work on to implement that.
+[01:20:41] Right? So okay sprint backlog how we
+[01:20:45] organize things in a sprint backlog. Of
+[01:20:47] course using some tools but now I just
+[01:20:49] want to keep things simple and clear for
+[01:20:51] you. Basically the typical way to do
+[01:20:54] that we organize it into three main
+[01:20:56] columns. Uh things we need to do to do
+[01:20:59] these things goes into the sprint. Let's
+[01:21:02] say we are in a sprint one and we define
+[01:21:04] these features and the features
+[01:21:06] sometimes you divide it into tasks. You
+[01:21:08] say this is the feature these are the
+[01:21:09] tasks to implement that feature. So
+[01:21:12] these are the features we need to do.
+[01:21:14] Now when we start development we start
+[01:21:16] to assign who's doing what. So say
+[01:21:18] developer one is actually working on
+[01:21:20] this feature. they move it to the in
+[01:21:22] progress because they started working on
+[01:21:24] it. Now if someone look at this uh what
+[01:21:27] we call a task board or sprint task
+[01:21:29] board, we know who's doing what at any
+[01:21:31] time and how much we are progressing. We
+[01:21:33] look here, we say we have these features
+[01:21:36] are in progress. We have done nothing
+[01:21:38] yet. We didn't finish anything yet.
+[01:21:40] Right? So still we didn't deliver
+[01:21:42] something or we said it's all completed.
+[01:21:44] But at any point of time this is visible
+[01:21:46] to the whole team and the whole team is
+[01:21:48] knowing who's doing what. It's not
+[01:21:50] secret right and this is the sense of
+[01:21:53] having the team to organize that and
+[01:21:55] they are actually it's a transparent for
+[01:21:57] them
+[01:21:59] now okay so now we're going to actually
+[01:22:01] talk about the requirements because we
+[01:22:04] are talking about planning or we talked
+[01:22:05] about the sprints let's go through that
+[01:22:07] and we talked about the product backlog
+[01:22:09] which have that now where requirements
+[01:22:12] happens usually at the start of each
+[01:22:14] sprint you define this is where you see
+[01:22:16] you define requirements when you to
+[01:22:19] start planning uh for what it needs to
+[01:22:22] go in each sprint. You actually say
+[01:22:24] these are the requirements we need to
+[01:22:26] do. At the start as I mentioned you
+[01:22:28] define all the requirements that you
+[01:22:31] maybe through a workshop with the client
+[01:22:32] and they say this is our product backlog
+[01:22:34] and then when we start each sprint we
+[01:22:36] defi select the requirements that goes
+[01:22:38] to the next sprint.
+[01:22:41] Now what are the user stories or how we
+[01:22:43] express our features or requirements we
+[01:22:45] need to implement. I mean if you look at
+[01:22:47] the traditional ways people used to
+[01:22:49] write a lot of many pages to talk about
+[01:22:51] one feature or one thing to implement.
+[01:22:54] Now here it's a very lightweight
+[01:22:56] following agile principles. We talked
+[01:22:58] about it but we assume things will
+[01:22:59] evolve and we do it iteratively. So user
+[01:23:03] stories is one of these ways that help
+[01:23:05] us to write the software requirements in
+[01:23:07] a simple focused way. Basically works
+[01:23:11] well for the agile teams because things
+[01:23:13] will evolve over time. We keep it
+[01:23:15] simplified. We focus on things which add
+[01:23:18] value to the end user and we describe
+[01:23:20] the requirement from the end user point
+[01:23:22] of view the user who going to use this
+[01:23:25] feature which we're trying to build.
+[01:23:27] Focus on a value or benefit as you will
+[01:23:30] see later on. We're not focused on how
+[01:23:32] we're going to build that. We actually
+[01:23:34] think what the user want uh and why we
+[01:23:37] need that.
+[01:23:39] So in agile development during the
+[01:23:41] planning so we actually keep things
+[01:23:42] lightweight as I said. So it's iterative
+[01:23:44] incremental it's not we define things
+[01:23:46] and that's it. It cannot change it
+[01:23:48] evolve. Uh we make it small enough to
+[01:23:51] build and test within one sprint. So
+[01:23:53] when we define it's one feature one
+[01:23:55] thing. We don't define too many things
+[01:23:57] in one user story and we capture that in
+[01:24:00] a product backlog and sprint backlog.
+[01:24:03] Okay. So how we express that? So we use
+[01:24:05] one of the formats. One known format is
+[01:24:07] called conextra format or template and
+[01:24:09] is very simple. It has three elements
+[01:24:13] who, what and why.
+[01:24:15] If you like three W's as someone
+[01:24:20] want to do something and why they need
+[01:24:22] to do that thing, right? Basically, the
+[01:24:25] someone is actually who is the user for
+[01:24:28] who we're building uh this feature.
+[01:24:30] Thinking of who is the user can help you
+[01:24:32] to better design and implement this
+[01:24:34] feature.
+[01:24:35] uh you want to build some feature and
+[01:24:37] this you should remember when you
+[01:24:39] describe a user story it should be one
+[01:24:41] thing you don't want to say I want him
+[01:24:43] to do this and this and this and that
+[01:24:45] it's only one it's simple and focus on
+[01:24:48] one thing and this is what we're trying
+[01:24:50] to build
+[01:24:52] and the reason now someone asked why we
+[01:24:54] need the reason anyone can tell why we
+[01:24:56] need the reason why we're building this
+[01:24:58] feature we are talking about what we
+[01:24:59] want to build why we need to talk about
+[01:25:01] why this is important for the user
+[01:25:04] Any thoughts?
+[01:25:08] >> Motivation.
+[01:25:09] >> Motivation for
+[01:25:11] >> team
+[01:25:11] >> for the team that's good. So if the team
+[01:25:14] is motivated so they understand why the
+[01:25:17] user want this feature, we can better
+[01:25:18] design it and implement it. Right? So if
+[01:25:21] we don't understand what how it add
+[01:25:23] value to them, we might design it in a
+[01:25:25] way that might not add the value for
+[01:25:27] them. So understanding the value will
+[01:25:29] help you to just remain focused on the
+[01:25:31] end user uh value or benefits. Very
+[01:25:35] good. Uh okay. So some people might just
+[01:25:38] bit of different format and that's you
+[01:25:40] will see in the labs we have this slide
+[01:25:42] where we say role goal and benefit maybe
+[01:25:46] RGB if you want to remember that the
+[01:25:48] other one is three W's. So who is
+[01:25:51] actually asking for this or who for who
+[01:25:53] we are building this feature? the goal
+[01:25:54] of building this feature or what we what
+[01:25:56] the that person want to achieve and the
+[01:25:59] benefit why is it matter for them. So
+[01:26:01] again, just a different thing you might
+[01:26:03] see uh when you look at it. Some
+[01:26:05] examples
+[01:26:06] as an online shopper, I want to add an
+[01:26:10] item to my cart so that I can purchase
+[01:26:14] that item. Very simple, very clear
+[01:26:17] following their format. If you read
+[01:26:19] this, you can easily implement a feature
+[01:26:22] and make sure you help the user to check
+[01:26:25] out and purchase the item. Do not just
+[01:26:28] say they need to add the item. I don't
+[01:26:29] know why they might need to save it in a
+[01:26:31] wish list right so you know the goal of
+[01:26:33] that or the purpose of that so the
+[01:26:37] project you're going to work on this
+[01:26:38] kind of uh expense splitter sharing
+[01:26:41] expenses and as a group member this is a
+[01:26:45] specific user I want to record an
+[01:26:47] expense so that my group knows who paid
+[01:26:50] for that right so I need to know who
+[01:26:54] paid so when we are sharing uh these
+[01:26:56] kind of uh expenses together Now look at
+[01:26:59] it. It's very specific. I'm saying not
+[01:27:01] as a user online shopper. So I know this
+[01:27:04] online shopping platform or a group
+[01:27:06] member who's part of a group who sharing
+[01:27:08] expenses. So it's very specific and
+[01:27:11] clearly I just say what I want to do and
+[01:27:13] it's only one thing and what is the
+[01:27:15] value for that or what's the benefit if
+[01:27:17] actually you help me to implement that
+[01:27:19] feature. So you know that you're going
+[01:27:20] to help me to achieve what I want to
+[01:27:22] achieve and that actually help you to
+[01:27:24] better design it.
+[01:27:27] um how you write good user stories.
+[01:27:29] People say how can I measure you my user
+[01:27:31] story is good or not. I told you some of
+[01:27:33] the issues that um or some of the common
+[01:27:35] mistakes that students make in writing
+[01:27:37] user stories. Uh I think they very
+[01:27:41] generic they say as a user they don't
+[01:27:43] tell what specific role or user is that.
+[01:27:45] So you need to be very specific because
+[01:27:47] sometimes you are a system admin you are
+[01:27:49] a student in that platform you are
+[01:27:51] different role you need to be specific
+[01:27:54] and then what they want to do and a lot
+[01:27:56] of students do this with saying and I
+[01:27:59] need to search with this and this and
+[01:28:01] this so it over complicate things keep
+[01:28:04] it simple and clear and the value so but
+[01:28:06] one way to maybe measure or assess how
+[01:28:09] good is you use a story using what's
+[01:28:11] called uh invests and this is
+[01:28:14] abbreviation of each one of these words.
+[01:28:17] So it has to be independent. So can be
+[01:28:20] worked on without waiting for another
+[01:28:22] story. So it's quite independent,
+[01:28:24] negotiable. So details can be discussed
+[01:28:27] not fixed in stone. Valuable so that add
+[01:28:30] value as we discussed you can estimated
+[01:28:33] in terms of the size. You know how much
+[01:28:36] time you need to implement that small so
+[01:28:38] that fits in one sprint
+[01:28:41] and testable. So we can test or verify
+[01:28:44] that when it's done or completed. It's
+[01:28:46] not like an open-ended task.
+[01:28:50] So what do you think about this user
+[01:28:52] story?
+[01:28:54] So I want to cover the expense when I
+[01:28:57] join a group activity and store that in
+[01:29:00] the database persistently.
+[01:29:03] What issues do you if you are one of
+[01:29:07] your teammates did write this user
+[01:29:09] story? What do you think about it and
+[01:29:10] you're going to work on it?
+[01:29:12] You are the one who going to implement
+[01:29:13] it. What do you think?
+[01:29:20] What is missing?
+[01:29:24] >> The role.
+[01:29:25] >> Yes. Great.
+[01:29:28] We don't have a role.
+[01:29:32] So, we're telling what we want to do,
+[01:29:34] right? But we're talking about
+[01:29:37] database, etc. I mean user stories are
+[01:29:40] written in a language that even high
+[01:29:42] level it's not technical even if your
+[01:29:44] business people who actually work with
+[01:29:46] you or collaborate with you understand
+[01:29:48] it don't need to think about what is
+[01:29:50] business center means or what's the
+[01:29:52] database here you mean and so on so it's
+[01:29:54] a typo here sorry right so uh
+[01:30:00] thinking of you need to evaluate your
+[01:30:02] user stories think if it's good or not
+[01:30:04] see here it's a big different as a group
+[01:30:06] member I want to split an expense
+[01:30:08] unevenly so that the split matches how
+[01:30:11] group members shared the expense. It's
+[01:30:14] very clear, right? So I'm not really
+[01:30:16] mixing up things. So I can test that. I
+[01:30:19] can actually define test cases to
+[01:30:22] evaluate it and I can it actually
+[01:30:24] relates to real needs and very clear who
+[01:30:26] is the user. Right? Um another thing
+[01:30:30] related to user stories is defining what
+[01:30:33] we call acceptance criteria or
+[01:30:35] satisfaction conditions. These are kind
+[01:30:37] of criteria where where we define to say
+[01:30:41] how we actually going to evaluate if
+[01:30:44] that user story is completed or done
+[01:30:47] when we say we have implemented this
+[01:30:49] user story basically. So we need to
+[01:30:52] actually set the expectations because
+[01:30:54] six can be open. So if we don't set
+[01:30:56] right set of criteria for for which we
+[01:30:59] use to evaluate when the user story is
+[01:31:02] done and it's clear or it's evaluated or
+[01:31:04] completed. So we kind of dealing with
+[01:31:07] open issues. So this actually acceptance
+[01:31:10] criteria make things very clear what
+[01:31:12] we're building and how we're going to
+[01:31:13] test or evaluate that. Ensuring there's
+[01:31:16] a common understanding of the
+[01:31:18] functionality because it define set of
+[01:31:20] criteria for which we use to evaluate
+[01:31:23] and help the team members know when the
+[01:31:25] story is complete and this is important
+[01:31:26] in agile because we have a sprint we
+[01:31:28] have a specific time we need to measure
+[01:31:31] when we say we are done or we completed
+[01:31:33] with that. So and verifying or testing
+[01:31:37] that is key when we talk about CI/CD
+[01:31:41] continuous integration continuous
+[01:31:42] development testing is key and we have
+[01:31:44] to do testing for every feature we
+[01:31:46] implement. So you should define set of
+[01:31:48] criteria to use to test and turn these
+[01:31:50] kind of criteria into test cases.
+[01:31:53] Um right so when you're writing your
+[01:31:56] test criteras you have and if you
+[01:31:58] learned about testing before you should
+[01:32:00] think of not only the normal cases think
+[01:32:02] of the odd cases so usually we say okay
+[01:32:05] so I need to think of the uh negative
+[01:32:08] scenario of the case what if something
+[01:32:11] you know inputs in not expected so I
+[01:32:14] should input a number someone input a
+[01:32:15] string so you define a criteria say we
+[01:32:18] should accept or deal with this or the
+[01:32:20] the the feature should be implemented in
+[01:32:22] a way that it can deal with this
+[01:32:23] functionality or negative input. Looking
+[01:32:27] at some functional and non-functional
+[01:32:28] aspects, what if the user can log in to
+[01:32:31] their account however it takes 3
+[01:32:34] minutes? Is it acceptable? No, you can't
+[01:32:36] say I'm completed. So, you need to make
+[01:32:38] sure the time which is nonfunctional
+[01:32:40] requirement. The functionality they can
+[01:32:43] login however they it took longer much
+[01:32:47] longer. So, it's not acceptable. So
+[01:32:49] that's a nonfunctional uh use case or
+[01:32:52] testing. Uh performance is always coming
+[01:32:55] up as I mentioned. Now uh I think is a
+[01:32:57] key thing. Uh how well is that taking
+[01:32:59] into place? User experience aspects are
+[01:33:02] also very important. Yes, the user can
+[01:33:04] complete something. However, it was it
+[01:33:07] wasn't intuitive. It took them too long
+[01:33:09] to figure out how because the UI wasn't
+[01:33:11] intuitive. So these are some of the
+[01:33:13] things we consider when we test any
+[01:33:16] feature and we say it's complete or not.
+[01:33:18] These are the common ones.
+[01:33:21] All right. So this is some of examples
+[01:33:23] of you know if I say as an online
+[01:33:25] banking customer and for those online
+[01:33:28] banking customer see how specific is
+[01:33:30] that uh I want a strong password or I
+[01:33:33] want to define a strong password so that
+[01:33:36] my credit card information is secure and
+[01:33:39] then you say some of the criteria you
+[01:33:42] should define what makes a strong
+[01:33:44] password and make sure that the account
+[01:33:46] is secure and you define rules. We need
+[01:33:49] to make sure when the user create their
+[01:33:51] password they actually it follows
+[01:33:53] certain rules to make sure it's sec it
+[01:33:55] is secure right so and these kind of
+[01:33:57] things you see in in online banking
+[01:33:59] basically it's so important to when we
+[01:34:02] test this feature when someone
+[01:34:03] implemented and completed to say we
+[01:34:05] should test combination of these things
+[01:34:09] right
+[01:34:10] u all right so again just these are a
+[01:34:13] quick summary for the user stories keep
+[01:34:15] them short simple
+[01:34:18] think about them from the user
+[01:34:20] perspective. The user who going to use
+[01:34:22] what you're building or the feature
+[01:34:24] you're building, it should add value or
+[01:34:26] benefit, right? Describing a piece of
+[01:34:29] functionality or one piece of
+[01:34:30] functionality. Writing the stories as
+[01:34:33] team can help and uh using acceptance
+[01:34:36] criteria that will help to focus on uh
+[01:34:39] the important aspects you should test.
+[01:34:42] Right? Any questions before we move on
+[01:34:45] to the the planning, estimation and
+[01:34:48] monitoring? So this is the last bit.
+[01:34:52] All right. So this is the last bit about
+[01:34:54] the scrum. So we talked a little bit
+[01:34:57] about planning. So we're going to think
+[01:34:59] about estimation and monitoring. But
+[01:35:01] first I think we have this planning and
+[01:35:03] how you plan for the um iteration. So I
+[01:35:07] mentioned a little bit of this where the
+[01:35:10] product owner pick the items that will
+[01:35:12] be priority to implement in the next
+[01:35:15] sprint. So we can plan for the the
+[01:35:17] sprint and once we pick the item let's
+[01:35:19] say I have a user story we might divide
+[01:35:21] the user story into subtasks and say I
+[01:35:24] need to build the front end of that uh
+[01:35:26] user interface for that feature. So
+[01:35:29] allow the user to input the information
+[01:35:30] to login for example and we have to
+[01:35:33] build something in the back end right to
+[01:35:35] store this information and verify the
+[01:35:38] user and then we need to integrate both.
+[01:35:40] So these three subtasks to implement one
+[01:35:42] feature. So you start defining subtasks
+[01:35:45] or task and you need to think about when
+[01:35:48] we say if we pick this user story with
+[01:35:50] this subtask how long will it take or
+[01:35:52] how much time or effort is needed to
+[01:35:54] actually implement them.
+[01:35:58] All right. So how we do the estimation
+[01:36:00] and this is something will be done a bit
+[01:36:03] different what we used to do when
+[01:36:06] someone tells you I'll implement this
+[01:36:08] feature I need two days how do you
+[01:36:10] measure two days
+[01:36:14] is it 20 is it like for example 10 hours
+[01:36:19] or is it 24 hours or 48 hours
+[01:36:24] it's it is a bit vague because in the
+[01:36:26] two days let's say if I tell you I need
+[01:36:28] one hour one hour without any
+[01:36:31] interruptions like take an example when
+[01:36:34] you actually have eight eight hours
+[01:36:37] working hours in in a day
+[01:36:40] there's one hour lunch time right you
+[01:36:42] don't count this what about the time
+[01:36:44] when you get interruption someone talk
+[01:36:46] to you you get an email you have to
+[01:36:47] respond to an urgent issue this is not
+[01:36:49] counted this is where people say when
+[01:36:51] you want to describe something say how
+[01:36:53] much will take or estimate to implement
+[01:36:56] that you take talk about ideal days.
+[01:36:59] This is the ideal time. Basically, you
+[01:37:02] describe the actual time you will spend.
+[01:37:05] Don't include distractions or other
+[01:37:06] things. Right? Now, this is a bit
+[01:37:09] complicated. This is what we used to do.
+[01:37:10] There's a way to actually to help us to
+[01:37:12] track our progress, which is story
+[01:37:14] points. Now, basically, you think for
+[01:37:17] each story, we give it a number and that
+[01:37:19] number tell us the size of that story,
+[01:37:22] right? So, it's measuring the size of
+[01:37:25] the story. how big or small is that user
+[01:37:27] story. So that number will help us to
+[01:37:29] estimate how many user stories or story
+[01:37:32] points we can finish in one sprint. And
+[01:37:34] this is the purpose of it to help the
+[01:37:36] team to estimate and put a line
+[01:37:39] underestimate. It's an estimation. It
+[01:37:41] will never be 100% accurate. Right? So
+[01:37:44] you get a point value and sometimes you
+[01:37:47] get this kind of Fibonacci series like
+[01:37:49] where you get a number one 2 3 5 8 13
+[01:37:53] and so on. So you could assign a value
+[01:37:56] in one which is the smallest thing you
+[01:37:59] can implement or do right. So it could
+[01:38:01] be another technique to do that is
+[01:38:03] subsequent number twice of the number
+[01:38:05] preceding it. So it's as we you can see
+[01:38:08] the size is increasing as you progress.
+[01:38:11] Now we don't have time to look at this
+[01:38:14] planning boar but this is one of the
+[01:38:16] common techniques and I'll put the video
+[01:38:18] there so you can actually listen to
+[01:38:20] that. how teams work together to define
+[01:38:24] or to estimate
+[01:38:26] uh the size of the user stories and what
+[01:38:29] user story should go in one sprint to
+[01:38:31] say we can complete that work within
+[01:38:34] sprint duration right so look at the
+[01:38:37] video so that's very helpful uh and it
+[01:38:39] actually explains how people doing it in
+[01:38:41] in reality so I think I put the slides
+[01:38:44] for you on uh on mood as well so you
+[01:38:46] should have access to them but basically
+[01:38:49] team members will discuss discuss how
+[01:38:52] what story points we should assign to
+[01:38:54] each user story and everyone is involved
+[01:38:56] but the way we try not to influence each
+[01:38:58] other everyone will think about it and
+[01:39:00] then they share the number as like in a
+[01:39:03] car they say this is what I thought
+[01:39:05] someone say three someone say eight
+[01:39:07] points and you discuss why do you think
+[01:39:09] it's eight points someone say this needs
+[01:39:10] a lot of testing and setup for the
+[01:39:12] database and then you think oh I didn't
+[01:39:14] think about that okay let's think again
+[01:39:16] so you think again and you share again
+[01:39:18] and basically this way everyone can
+[01:39:21] contribute to determine or deciding on
+[01:39:23] the use the estimate and deciding on
+[01:39:26] what should we implement for next sprint
+[01:39:27] given the size right so the video
+[01:39:30] explain it in a with a good example and
+[01:39:33] show you how this works but everyone is
+[01:39:35] involved in that process is not the
+[01:39:36] project manager or someone dictating the
+[01:39:38] decision another way or common way
+[01:39:42] people used to actually estimate is
+[01:39:44] what's it called to make it easy and
+[01:39:45] relevant t-shirt size this is where you
+[01:39:48] say this user story is of a size X small
+[01:39:51] or small or medium large X large and so
+[01:39:54] on and usually they assign a number to
+[01:39:56] these kind of X small medium large and
+[01:39:59] make a bit of difference. So when I say
+[01:40:01] it's a small, it's different than large.
+[01:40:04] Right? Now the idea of this is to help
+[01:40:06] us to track later on when we say how
+[01:40:08] many how much did we progress and I'll
+[01:40:10] show you in a minute why this is
+[01:40:12] important. Now this is easy symbol uh it
+[01:40:15] relates to our thinking of you know
+[01:40:17] thinking of t-shirt size.
+[01:40:22] Okay. So this is a kind of example of a
+[01:40:24] user story and uh defining some
+[01:40:27] acceptance criteria and defining based
+[01:40:29] on the acceptance criteria and the user
+[01:40:31] story we defined or as a team decided to
+[01:40:34] be a size medium. Now this is where
+[01:40:36] people think of okay we're going to do
+[01:40:38] this kind of estimation together to
+[01:40:40] decide how much we can do. Remember it's
+[01:40:42] an estimate right before I move on to
+[01:40:46] the uh
+[01:40:49] before I move on to the final things I
+[01:40:52] want to talk about um monitoring and
+[01:40:54] tracking. So this is a quick summary of
+[01:40:56] a scrum of trying to put everything
+[01:40:58] together and very quickly you have all
+[01:41:01] the features you're going to work on to
+[01:41:03] build the software. This includes
+[01:41:04] everything you should implement to
+[01:41:06] deliver a software prioritize. So you've
+[01:41:09] got some details here. You pick some
+[01:41:11] items to say I want to actually work on
+[01:41:14] this item in the next sprint and I will
+[01:41:16] divide it into subtask and we start
+[01:41:18] working or implementing in two to four
+[01:41:21] weeks. It could be your sprint is two
+[01:41:23] weeks or four weeks or three weeks. This
+[01:41:25] is one sprint and you actually go every
+[01:41:28] 24 hours we have a standup or this kind
+[01:41:30] of standup meetings. I think we do have
+[01:41:33] a new functionality coming at the end of
+[01:41:34] each sprint. We need to review it. We
+[01:41:36] need to uh do retrospective and so on so
+[01:41:39] forth. It's a bit of trying to capture
+[01:41:41] some of these kind of things that
+[01:41:43] happens in iterations. Uh they try to
+[01:41:46] put uh different aspects of the scrum
+[01:41:48] method. Now with these kind of things
+[01:41:52] when it comes to planning running one
+[01:41:54] sprint I think we mentioned that uh you
+[01:41:58] do planning and you need to assign story
+[01:42:01] points for user stories and you need to
+[01:42:03] figure out how much a team can do right
+[01:42:06] how much the team can do to actually do
+[01:42:08] this task. one way to help you to track
+[01:42:10] and monitor your progress as a team.
+[01:42:12] What is called uh burndown charts and
+[01:42:16] this is pretty much tracking the
+[01:42:17] completion of the development work
+[01:42:19] throughout one sprint.
+[01:42:22] Uh everyone should see that so that they
+[01:42:25] see what's going on and basically it
+[01:42:27] relies on the story points you define in
+[01:42:29] order to help you to actually track
+[01:42:32] things. things are estimate and we might
+[01:42:36] burn down some features uh or we might
+[01:42:39] not do things in a ideal way. What do
+[01:42:42] you see here over time? So we have a
+[01:42:45] sprint of 30 days. So for starting day
+[01:42:48] zero up to 30 days. This is the sprint
+[01:42:50] size or the duration four weeks. On the
+[01:42:53] y-axis we have a story points. Let's say
+[01:42:56] we picked 24 story points or the total
+[01:42:59] story points of the user stories we have
+[01:43:02] picked for this sprint is 24 points. We
+[01:43:05] summed the story points for all the user
+[01:43:07] stories we had in that sprint or we
+[01:43:09] picked for that sprint. So we started
+[01:43:12] with 24 as we progress by the time we
+[01:43:15] started to finish or complete some user
+[01:43:17] stories. Once it's completed and tested
+[01:43:20] what you say we actually change the
+[01:43:22] number to say we have a drop down the
+[01:43:24] number 24 points to less I think here
+[01:43:27] two stories or two stories we finished
+[01:43:31] they banned seven points in about five
+[01:43:35] days right when we finish one user story
+[01:43:38] or someone finish the user story and
+[01:43:40] test it and say it's all done we say we
+[01:43:42] actually reduce the story points
+[01:43:44] remaining for the completion this uh
+[01:43:47] this is The ideal time over time we
+[01:43:49] should ideally
+[01:43:51] bring this down to zero. This actually
+[01:43:54] comes down to zero ideally but the
+[01:43:56] reality is like this. So it will not be
+[01:43:59] ideal. Why? Because we are estimating.
+[01:44:02] Nobody knows exactly how much we can do.
+[01:44:04] It's all about estimate and don't don't
+[01:44:07] feel anything bad if if things doesn't
+[01:44:09] go as planned because you are
+[01:44:11] estimating. You should be learning. This
+[01:44:12] is the ideal burndown. You should be
+[01:44:14] burning features and coming to zero by
+[01:44:17] the end. But you might have some user
+[01:44:19] stories will go into the next sprint.
+[01:44:23] Last term is I think about the tracking
+[01:44:25] velocity and this is actually measuring
+[01:44:27] the team rate of progress. How many
+[01:44:31] story points you complete every sprint
+[01:44:34] that the burndown charts look at one
+[01:44:36] sprint and the tracking of the burndown
+[01:44:39] of the story points. But this one is how
+[01:44:42] the team progress in relation to
+[01:44:44] [clears throat] how many story points
+[01:44:46] they can complete every sprint. So let's
+[01:44:49] say team completed three stories. Each
+[01:44:52] one of these stories is five story
+[01:44:54] points. Their velocity, the speed or the
+[01:44:57] rate of completion is 15 story points.
+[01:45:01] Now I'll show you later on some charts
+[01:45:03] but there are tools to help you to
+[01:45:05] implement agile whether it's a standup
+[01:45:07] or tracking monitoring bendout chart
+[01:45:10] velocity scrum uh sprint taskboard and
+[01:45:14] so on Jira is one of these in in our
+[01:45:17] course we will simplify things we are
+[01:45:18] using GitLab and we will not get into
+[01:45:21] all the tools so we will give you
+[01:45:23] freedom to choose in the capstone
+[01:45:25] project we are using Jira and a lot of
+[01:45:27] other things we integrated all together
+[01:45:29] to help you to do that. So, but I just
+[01:45:32] want to let you know the tools are there
+[01:45:33] to help you to implement these to make
+[01:45:35] your life easy not to get busy using
+[01:45:37] Excel sheet to do the work and when you
+[01:45:40] have the tools like this one for example
+[01:45:43] and Jira so you have actually you can
+[01:45:45] create your story uh sorry sprint or
+[01:45:48] scrum board this actually the things I
+[01:45:50] mentioned to-do in progress done and
+[01:45:53] some people they create even one more
+[01:45:54] column to say we have a code review
+[01:45:57] before we say things are completed
+[01:45:59] someone has to review the code as a
+[01:46:01] quality assurance and this is best
+[01:46:03] practice in development teams where they
+[01:46:05] say they have this additional column
+[01:46:07] there before they say they are done. But
+[01:46:09] this helps you to see who's done what
+[01:46:11] and the progress and using coloring to
+[01:46:13] say uh different things about it. And
+[01:46:16] you see there are more things you can
+[01:46:18] use in the tool to help you to do
+[01:46:19] things. Even you can record your
+[01:46:21] standups in the agile you've got you can
+[01:46:24] do your sprint planning by saying in
+[01:46:25] sprint two we are we chosen this these
+[01:46:28] kind of um items to go or task to
+[01:46:32] implement for the sprint too and our
+[01:46:34] product backlog is showing all the tasks
+[01:46:36] or the features we need to implement
+[01:46:39] right so it captures everything and help
+[01:46:41] you to visualize and see things and make
+[01:46:43] your life easy so you don't need to do
+[01:46:44] it yourself just you need to use the
+[01:46:46] tool to help you to do so it also help
+[01:46:49] you to do the bendown chart and I did
+[01:46:52] show you or explain that before but with
+[01:46:54] the tool you might find some tools they
+[01:46:56] help you to do this and help you to
+[01:46:58] track the bendout chart all what you
+[01:46:59] need to do when someone move a story
+[01:47:01] from to-d do to done when it's done it
+[01:47:05] actually deduct the points and then it
+[01:47:07] shows you in the uh diagram so you don't
+[01:47:09] need to do it manually so it does this
+[01:47:11] automatically so the tools are there to
+[01:47:13] support us and make life easy last one
+[01:47:16] also you can do velocity charts the
+[01:47:19] velocity chart. What do you see? We say
+[01:47:22] the progress rate of the team. Every
+[01:47:24] sprint, how many story points they
+[01:47:26] completed. What do you see in green is
+[01:47:29] what they completed and in blue is what
+[01:47:32] they committed for. Let's say in sprint
+[01:47:34] one, a team said estimated that they
+[01:47:36] will complete about 17 points. How much
+[01:47:41] they completed? 17. That's actually
+[01:47:43] perfect. In sprint two, they estimated
+[01:47:46] to do they were ambitious. is estimated
+[01:47:49] to do about 20. They completed something
+[01:47:51] below 15. Right? Velocity actually show
+[01:47:55] you the rate of progress. How much they
+[01:47:57] committed and how much they completed.
+[01:47:59] How many store it give you a bit of
+[01:48:01] measure how the team is progressing. Are
+[01:48:03] we what is important here is actually
+[01:48:06] showing that we are not doing too little
+[01:48:09] in one sprint and too much in another
+[01:48:11] sprint. Remember one of the principles
+[01:48:12] this constant base of development. do
+[01:48:16] try to be kind of consistent. You're not
+[01:48:18] doing really little bit and in in one
+[01:48:21] sprint doing too much. It's not a
+[01:48:22] healthy sign of development. But agile
+[01:48:25] can help to make things say making these
+[01:48:27] increments with a constant base of
+[01:48:30] development.
+[01:48:31] I think that's it. I think you have gone
+[01:48:33] through this just a revisit of version
+[01:48:36] control when you work in your local
+[01:48:38] machine. We talked about you change
+[01:48:41] things and that goes it's part of your
+[01:48:43] working directory. When you actually
+[01:48:45] want to add it to staging area, you use
+[01:48:47] the command add and when you want to say
+[01:48:50] I want to commit this change so now it's
+[01:48:52] in the staging area. So this will go
+[01:48:54] into the local repository on your
+[01:48:56] machine sitting on your machine not on
+[01:48:59] the remote. You use a command like comet
+[01:49:02] right? However, when we actually work as
+[01:49:04] a team be this is your machine. There's
+[01:49:07] one more thing you can do. Once I finish
+[01:49:09] my changes to the local repository, I
+[01:49:11] change feature or implemented a feature
+[01:49:14] or fix a bug. I can push the change to
+[01:49:16] the GitLab or the main repository we're
+[01:49:18] using where everyone see that and that
+[01:49:21] kind of change will be pushed to the
+[01:49:23] main repo and that will help the team to
+[01:49:26] see my changes. It's not no longer on my
+[01:49:28] machine. It's moving to the GitLab. This
+[01:49:30] is one of the most important scenarios
+[01:49:32] you will go through and some of the
+[01:49:34] things will happen with the version
+[01:49:36] control doing a lot of branching and
+[01:49:38] merging. So everyone is working on a
+[01:49:40] version of the software or building
+[01:49:43] something right. So you could actually
+[01:49:45] create a branch and take the work to
+[01:49:46] your local device and start implementing
+[01:49:49] changes and commit them locally. The
+[01:49:51] commit committing them locally will
+[01:49:53] create different versions. At some
+[01:49:55] point, if you figure out something went
+[01:49:57] wrong, I can go back to the previous
+[01:49:59] versions locally on my device. But at
+[01:50:01] some point, if you say, I'm done. I
+[01:50:03] tested everything. I can merge what I
+[01:50:06] branched. I can merge that to the main
+[01:50:09] or master line where I can merge the
+[01:50:12] changes I had with the changes made by
+[01:50:14] other people or on the main line. In the
+[01:50:16] meantime, you're going to think of
+[01:50:18] people are using or doing some stuff at
+[01:50:20] the same thing. These branches could
+[01:50:22] happen in parallel and when we start
+[01:50:25] merging things it becomes a bit
+[01:50:27] complicated. When we learn about
+[01:50:30] continuous integration, continuous
+[01:50:31] delivery, we will learn about the
+[01:50:33] practices and scenarios will help you as
+[01:50:35] a team to actually uh deal with this
+[01:50:37] situation to make sure everyone not
+[01:50:40] getting into too complex scenarios to
+[01:50:42] fix the issues. The version control is
+[01:50:44] there to help you. If you figure out
+[01:50:46] something when you push or change the
+[01:50:48] code, you can roll or actually push back
+[01:50:51] or revisit the work and improve it or
+[01:50:53] fix it and then push it again or merge
+[01:50:55] it again. All right, I think that's all.
+[01:50:58] There are some references here that can
+[01:51:00] help you if you want to actually read
+[01:51:02] more. But I hope that I covered most of
+[01:51:04] the important things for you to do scrum
+[01:51:07] development. Uh and and that's all for
+[01:51:09] today. Thank you so much.
+[01:51:14] Thank Thank you. And if you have any
+[01:51:16] questions or you want to talk about
+[01:51:17] anything, please uh come and talk to me.
+[01:52:17] information.
+[01:52:18] >> Assignment.
+[01:52:19] >> Yeah, assignment information.
+[01:52:20] >> It's a good question.
+[01:52:23] I think this week because
+[01:52:25] >> cuz I I tried to find you know
+[01:52:28] >> because we we actually changing it just
+[01:52:31] to make sure that it
+[01:52:35] so we will soon. So I think we plan to
+[01:52:38] revisit this week the final stage but I
+[01:52:41] think now getting you into teams and
+[01:52:42] getting started.
+[01:52:45] >> All right I get it. Um last question um
+[01:52:47] do we have final exams on
+[01:52:49] >> no final exam? No, no, it's all project.
+[01:52:52] All project work.
+[01:52:53] >> No worries.
+[01:52:59] >> Not a big fan of
+[01:53:33] Thank you. See you guys. Have a good
+[01:53:35] night.
