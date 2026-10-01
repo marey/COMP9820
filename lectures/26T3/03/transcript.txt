@@ -1,0 +1,2502 @@
+[00:01:07] All right. So, we we're ready to start.
+[00:01:10] Uh good evening everyone and welcome to
+[00:01:12] uh week three lecture of um software
+[00:01:15] project management. Um so, I hope you
+[00:01:18] you're doing well. uh after the first
+[00:01:20] two weeks things are settling down
+[00:01:23] you're in a team you see the big picture
+[00:01:27] of what you're planning to do in your
+[00:01:29] projects so I did release uh an
+[00:01:31] announcement regarding the first print
+[00:01:33] project so on mood um on actually this
+[00:01:37] course and the details are available in
+[00:01:39] mood so you can have a look at that
+[00:01:41] we'll have a also a quick uh
+[00:01:45] um kind of intro for that at the end of
+[00:01:48] the today's lecture right so now last
+[00:01:52] week we have covered really important
+[00:01:54] topic they're actually going to cover
+[00:01:56] what you're going to do in your sprint
+[00:01:58] one in your group project so we covered
+[00:02:01] the complete scrum method which actually
+[00:02:04] guide you on how to do agile planning
+[00:02:08] how you do the actual development
+[00:02:10] following all the rules the activities
+[00:02:14] how you update your artifacts how you
+[00:02:16] monitor and track your progress and so
+[00:02:17] on so forth. So most of these are
+[00:02:21] required in your first sprint project.
+[00:02:24] So it's a process you will follow to
+[00:02:26] plan uh build and monitor and adapt your
+[00:02:32] work. So today we're going to actually
+[00:02:34] move to a a different topic and you
+[00:02:37] might have observed that I'm trying to
+[00:02:40] actually adapt the content to make sure
+[00:02:42] that you do have uh you know we cover
+[00:02:45] the important topics in certain weeks
+[00:02:47] that help you. So
+[00:02:50] today we will be talking about uh
+[00:02:52] software architecture and software
+[00:02:54] design and in particular for the context
+[00:02:56] of the web or building web applications
+[00:02:58] as you will do in your uh application.
+[00:03:02] First of all uh an acknowledgement of
+[00:03:04] the country. So I acknowledge the biral
+[00:03:07] uh as the traditional custodians of the
+[00:03:10] land uh on we are meeting on today. I
+[00:03:14] bear my respect to elders past and
+[00:03:16] present and recognize the enduring
+[00:03:18] connection of the aboriginal tourist
+[00:03:21] strait u islanders people to the
+[00:03:24] country. I invite us all to reflect on
+[00:03:27] our shared responsibility to honor and
+[00:03:29] respect this land and its stories.
+[00:03:33] Awesome. Now, first a quick outline. So,
+[00:03:36] today will be a very busy lecture. We'll
+[00:03:39] be cover probably a topic that maybe has
+[00:03:41] not been covered in uh maybe other
+[00:03:44] courses. Hopefully, you have come across
+[00:03:46] some of these things. Uh but what I'm
+[00:03:48] covering today is something like can be
+[00:03:50] a topic by itself. a whole course about
+[00:03:53] how you actually design and architect
+[00:03:55] your applications. Nonetheless, uh my
+[00:03:58] goal today is to actually make sure that
+[00:04:00] I expose you to some of these important
+[00:04:03] concepts. So these concepts will uh
+[00:04:06] ensure that you build your understanding
+[00:04:09] as you will be building your
+[00:04:11] applications. Um I don't expect you to
+[00:04:14] apply a lot of this in your projects
+[00:04:17] because um the scope of the this course
+[00:04:20] is to focus on certain aspects uh and
+[00:04:23] going gradually from one sprint to
+[00:04:24] another covering the important bit and
+[00:04:27] pieces. However, I want you to actually
+[00:04:30] take the learning from this lecture and
+[00:04:33] think and reflect about what you're
+[00:04:35] doing as you start building your
+[00:04:36] applications and that will help you to
+[00:04:39] actually build a really good foundation
+[00:04:41] and understanding and take it further
+[00:04:43] with you to the capstone project. In the
+[00:04:46] capstone project com 9900,
+[00:04:49] you are expected to you have a big part
+[00:04:52] of your assessments covering design and
+[00:04:54] architecture, right? And there's element
+[00:04:57] in your proposal, element in your final
+[00:04:59] report and when you talk about the
+[00:05:02] technical aspect or excellence in your
+[00:05:04] application when you do the capstone
+[00:05:07] project. So I thought it's good to start
+[00:05:10] this uh in comp 9820 rather than waiting
+[00:05:13] for 9900 and just give you this exposure
+[00:05:16] and learn the basic uh uh principles and
+[00:05:19] concepts that will help you to actually
+[00:05:21] reflect on it as you progress with your
+[00:05:24] projects. Nonetheless, I did mention
+[00:05:26] that it will not be assessed uh in your
+[00:05:30] first sprint. Second and third, I
+[00:05:33] believe so as well.
+[00:05:35] All right. So, all right. So, let's
+[00:05:37] start with the key concepts first. Uh
+[00:05:40] what is a software architecture? What is
+[00:05:41] a software design?
+[00:05:44] Now, this is really important to
+[00:05:46] differentiate the two. uh you can start
+[00:05:49] thinking with the biggest blueprint for
+[00:05:52] your application or the road map for
+[00:05:55] your application and that is your
+[00:05:56] architecture.
+[00:05:58] So thinking of any building it has an
+[00:06:01] architecture before they start actually
+[00:06:03] putting all the details inside the
+[00:06:05] building right and that kind of a a blue
+[00:06:08] it gives actually a blueprint or road
+[00:06:10] map for the development of the rest of
+[00:06:13] the or the construction needs to happen
+[00:06:15] right so the architecture in in software
+[00:06:18] so covers the major parts of the system
+[00:06:21] or the boundaries of the system and
+[00:06:24] their relationships you can think about
+[00:06:26] it as like a very high
+[00:06:28] uh components that describing the major
+[00:06:31] parts of your system and the
+[00:06:33] relationships between them. Um now one
+[00:06:38] of the important thing when someone talk
+[00:06:39] about software architecture and software
+[00:06:42] design level of abstraction and the
+[00:06:45] reasoning process you go through it's
+[00:06:47] actually when we do design and
+[00:06:49] architecture we go through a process of
+[00:06:51] reasoning. We make decisions and these
+[00:06:53] decisions impact the future of your
+[00:06:56] application. How it evolves, how easily
+[00:06:59] it can be tested, how easily it can be
+[00:07:02] maintained and evolved and so on so
+[00:07:05] forth. So the architecture is maybe the
+[00:07:07] highest level of abstraction where try
+[00:07:09] to see things at a very very high level
+[00:07:12] but later on we need to actually scope
+[00:07:14] down or zoom in and focus on certain
+[00:07:17] aspects of your uh uh application.
+[00:07:21] So this is where you start to think
+[00:07:22] about the design of your application. In
+[00:07:24] my application, what responsibilities,
+[00:07:27] modules, interfaces and what are the
+[00:07:29] dependencies between these? Uh so this
+[00:07:32] is actually describing pretty much the
+[00:07:34] process or the reasoning behind your
+[00:07:36] design. Right? So so you go through this
+[00:07:40] process of saying we need to implement a
+[00:07:42] certain user story. What are the
+[00:07:44] responsibilities or the functionalities
+[00:07:46] involved with this user story? Right?
+[00:07:48] And then you might group them in
+[00:07:50] modules. You might have interfaces for
+[00:07:52] some of them because you allow other
+[00:07:54] components or modules to talk to them
+[00:07:56] and so on so so on so forth. So as you
+[00:07:58] can see we're moving from the
+[00:08:00] architecture to the design. We start to
+[00:08:02] think about more details in the how we
+[00:08:06] actually going to design and implement
+[00:08:08] the components or more of the components
+[00:08:11] of your application.
+[00:08:13] Now there's one thing related when we
+[00:08:15] talk about software architecture and
+[00:08:17] design design buttons. Now over a period
+[00:08:20] of time software engineers and software
+[00:08:22] developers came across a number of
+[00:08:24] problems when they wanted to design
+[00:08:27] certain applications and these problems
+[00:08:29] are repeatable the same. Think about uh
+[00:08:32] when you want to design a secure login
+[00:08:34] right. So this is pretty much we do or
+[00:08:37] authentication we do in most
+[00:08:38] applications and these kind of
+[00:08:40] developers they come up with some design
+[00:08:43] patterns that help you to uh design uh
+[00:08:46] or follow some guidelines to to design
+[00:08:49] your authentication or login and this
+[00:08:52] kind of thing you don't need to reinvent
+[00:08:53] the wheel because it's pretty much the
+[00:08:56] same thing. If you go to most of the
+[00:08:58] applications, they ask you for similar
+[00:08:59] things. And the way it's been designed
+[00:09:01] and implemented follow the same
+[00:09:03] reasoning. Right? Now, design patterns
+[00:09:06] help to actually create these reusable
+[00:09:09] structures for recurring design
+[00:09:10] problems. The same design problem that
+[00:09:13] we might face across different
+[00:09:14] applications. So, we provide for it a
+[00:09:17] kind of a design you can follow. How you
+[00:09:20] can implement that set of guidelines
+[00:09:21] that help you to actually do so. And
+[00:09:24] that's defined the design patterns. Now
+[00:09:26] the implementation this is where you
+[00:09:28] start to write in code function at a
+[00:09:31] very lower level. So we started with
+[00:09:33] something high level in conceptual high
+[00:09:36] level structure and then we started to
+[00:09:38] dig deeper. So functions classes data
+[00:09:41] structures code and your even tests test
+[00:09:45] cases. Now this is really important. I
+[00:09:49] did mention one thing. Design and
+[00:09:51] architecture focuses on decisions. It's
+[00:09:54] not only diagrams, right? What are the
+[00:09:56] decisions behind these diagrams or how
+[00:09:58] we we decided the responsibility to
+[00:10:00] split them and to uh how we can actually
+[00:10:04] connect them together.
+[00:10:07] Now what you start with when you start
+[00:10:09] your design and your architecture will
+[00:10:12] stick with you for maybe until the whole
+[00:10:15] application needs to be completely
+[00:10:17] redesigned and rearchitected. And that's
+[00:10:20] what happens with big companies after
+[00:10:23] five years they actually made big design
+[00:10:25] decisions at the start and they followed
+[00:10:27] a certain architecture and certain uh
+[00:10:30] principles to design and architect their
+[00:10:32] applications. what happens uh Facebook
+[00:10:35] for example at some point they actually
+[00:10:37] reach to a point where they cannot
+[00:10:38] really uh scale the all these kind of
+[00:10:42] user feeds or the feeds that happens in
+[00:10:44] the uh in in your in your uh Facebook
+[00:10:48] page because as you scroll down you
+[00:10:50] should see more and more things right
+[00:10:52] but the architecture they did follow
+[00:10:54] they reach to a limit where they say
+[00:10:55] okay now we have to change something
+[00:10:58] fundamentally in our architecture to
+[00:10:59] make this kind of scalability work or
+[00:11:03] make it kind of infinite uh uh
+[00:11:06] visibility of all the books and so on.
+[00:11:08] Um so the main thing is the big
+[00:11:11] decisions you make at the start early on
+[00:11:14] when you design and something from
+[00:11:16] scratch will actually stick around for a
+[00:11:18] long time and this is the importance of
+[00:11:20] making decisions and trade-offs and
+[00:11:22] justifying them and thinking thoroughly
+[00:11:24] before we actually start doing too much
+[00:11:26] implementations.
+[00:11:30] Right? So
+[00:11:32] now we have different levels and again I
+[00:11:34] just want to emphasize this point
+[00:11:36] looking at the highest level of
+[00:11:39] abstraction is the architecture and here
+[00:11:41] we look at the major parts uh major
+[00:11:44] components in our system or application
+[00:11:47] and how they communicate. Pretty much
+[00:11:50] you can think about it as boxes and
+[00:11:53] lines, right? And of course the boxes
+[00:11:56] are major major components in my system.
+[00:11:58] And we will see examples later on. We'll
+[00:12:00] show you uh different examples or
+[00:12:03] different architecture styles uh and how
+[00:12:05] we actually uh uh architect or draw
+[00:12:08] them. But remember focus on the highest
+[00:12:12] level things or highest level of
+[00:12:13] abstraction. Now the application
+[00:12:16] structures we we start to define or
+[00:12:18] thinking of this kind of architecture
+[00:12:20] dividing the big components into smaller
+[00:12:23] components and think what is inside uh
+[00:12:26] certain components when we need to think
+[00:12:28] about the application logic or the
+[00:12:30] structure. What are the responsibilities
+[00:12:33] and who's responsible for what and up to
+[00:12:35] what stage there's a boundary. So this
+[00:12:38] component can do certain things and then
+[00:12:41] if it moves to beyond that it goes to
+[00:12:43] another component. there should be
+[00:12:44] communication with another component.
+[00:12:48] Then we have this kind of thinking of
+[00:12:50] the components when we design our
+[00:12:52] components and these responsibilities
+[00:12:54] put them inside components. So basically
+[00:12:56] we think of we need to have interfaces.
+[00:12:59] So we allow other components to interact
+[00:13:02] and and talk to each other because we
+[00:13:04] have split things in certain way. So and
+[00:13:07] we start to create some dependencies and
+[00:13:09] as I mentioned the implementation they
+[00:13:11] actually focus on functions classes and
+[00:13:14] tests. This is pretty much reemphasizing
+[00:13:16] the points I mentioned in the previous
+[00:13:18] slide but try to show it in a different
+[00:13:20] perspective to ensure these kind of
+[00:13:22] different levels of abstractions.
+[00:13:28] What is recommended? If you start with
+[00:13:30] the code, it is difficult to actually
+[00:13:33] think of the highest level abstraction.
+[00:13:36] When you start with the big picture at
+[00:13:37] the top with your architecture, you
+[00:13:39] start with the big parts or major parts
+[00:13:41] of your system. What are the major
+[00:13:43] parts? It's my front end, my back end.
+[00:13:46] And my back end, I might divide it into
+[00:13:48] subcomponents and so on so forth. So,
+[00:13:51] it's easier when you start with your uh
+[00:13:53] uh highest level, it's easier than
+[00:13:55] starting with the code. And as you can
+[00:13:57] imagine, maybe you have the habit of
+[00:13:59] building or writing applications. You
+[00:14:01] start with functions, classes and tests.
+[00:14:03] And as these things you add more and
+[00:14:06] more classes, you start to think how
+[00:14:07] should I group them together into
+[00:14:09] components? How should I put them into
+[00:14:11] kind of a structure? How I structure my
+[00:14:14] application, right? And so on so forth
+[00:14:16] until to uh you reach to the
+[00:14:18] architecture. So thinking of
+[00:14:20] architecture and design is from the
+[00:14:22] beginning of your uh uh design after
+[00:14:25] your requirements as we will see later
+[00:14:27] on.
+[00:14:29] Now as software engineers uh how do they
+[00:14:32] think about design to be honest design
+[00:14:34] and architecture is not easy task. It
+[00:14:37] looks easy because at the end of the day
+[00:14:39] you look at it you just say we draw some
+[00:14:41] uh boxes and some lines and we have
+[00:14:44] different ones. we show the interaction
+[00:14:46] but the art of making decisions how we
+[00:14:48] split them how we divide them and so on
+[00:14:50] so forth at different levels is a
+[00:14:52] challenging these kind of uh questions
+[00:14:55] will help you as a guideline as a
+[00:14:57] beginner to think about the important
+[00:14:59] aspects when you want to design or build
+[00:15:01] an architecture so first of all
+[00:15:03] understanding the problem you're trying
+[00:15:05] to solve
+[00:15:07] um the application domain so you might
+[00:15:09] be building a kind of normal application
+[00:15:12] just just you know user login and they
+[00:15:14] see some data there and they can browse,
+[00:15:16] they can save, they can buy. But
+[00:15:19] sometimes there are some applications
+[00:15:21] they are event driven. So it when an
+[00:15:24] event triggers something will happen or
+[00:15:26] need to react. So this is two different
+[00:15:27] types of applications or problems we're
+[00:15:30] trying to solve in the application.
+[00:15:32] Thinking of what must change later on
+[00:15:35] and remember this is one of the key
+[00:15:37] principles we spoke about in agile.
+[00:15:39] Agile actually accommodate change. So
+[00:15:42] when we design and architect our
+[00:15:44] software or application, we have to
+[00:15:46] think about what could grow my database,
+[00:15:50] my application logic by adding more and
+[00:15:53] more rules and more logic. I might add
+[00:15:56] more services in the future. These
+[00:15:58] things grow or will change later on. So
+[00:16:01] knowing or understanding the components
+[00:16:02] that grow or change will help you to
+[00:16:05] design for that change from the start
+[00:16:08] that makes it easier to change and add
+[00:16:10] more of these services or expand your
+[00:16:14] data. What belongs together? This is
+[00:16:17] thinking about which component or maybe
+[00:16:20] classes I should put under one module
+[00:16:24] that have some logical uh relationships.
+[00:16:28] What should stay separate? Now
+[00:16:30] separating things from each other for
+[00:16:33] some reason we can separate things
+[00:16:35] because if we put everything in one file
+[00:16:38] when you want to change one thing we
+[00:16:40] suggest for the front end when you write
+[00:16:43] your HTML code and the styling right the
+[00:16:47] HTML describing the structure of your
+[00:16:49] document or the web page the styling
+[00:16:52] applies to that. If you put them all in
+[00:16:54] one file,
+[00:16:55] you actually when you need to make a
+[00:16:57] change to the one style, you have to
+[00:16:59] change the whole HTML file. So think
+[00:17:02] about do you need to separate things and
+[00:17:04] if you separate them that will help you
+[00:17:06] to change and make things easier to
+[00:17:08] understand and follow. It will be less
+[00:17:11] smaller components rather than one
+[00:17:13] complex file.
+[00:17:16] How will we test it? And if you observed
+[00:17:20] when we talked about user stories, we
+[00:17:22] define actually our requirements as a
+[00:17:24] small one. So we can actually test it.
+[00:17:26] And one of the things to say this is a
+[00:17:28] good user story is we can test it or we
+[00:17:31] can measure the progress with this user
+[00:17:33] story
+[00:17:34] and what could fail. So things that
+[00:17:37] could fail that could bring the whole
+[00:17:39] application down and then that could be
+[00:17:41] a high-risk component or class that we
+[00:17:43] need to maybe find a scenario or a
+[00:17:47] strategy to actually handle separately
+[00:17:49] not to bring the whole application down.
+[00:17:52] Now these some of the questions that uh
+[00:17:55] software engineers start to use to think
+[00:17:58] about you know uh important aspects to
+[00:18:01] actually start designing and
+[00:18:02] architecting their applications.
+[00:18:06] Now when we talk about software software
+[00:18:08] architecture we draw diagrams and just
+[00:18:11] important thing to mention diagrams is
+[00:18:13] not the software architecture.
+[00:18:16] Uh we actually show the major components
+[00:18:19] of the systems and the relationship and
+[00:18:22] the way we did show these kind of
+[00:18:24] components and relationships.
+[00:18:28] There are some reasoning behind some
+[00:18:30] people define put a lot of emphasis when
+[00:18:32] they define architecture set of design
+[00:18:35] decisions or set of decisions. The
+[00:18:37] decision why you decided to split things
+[00:18:39] or to put things together in one
+[00:18:42] component. The decision you did make a
+[00:18:44] communication one way not two ways and
+[00:18:46] so on so forth. Right? So
+[00:18:50] when we create architecture diagrams it
+[00:18:53] helped to actually do the communication
+[00:18:55] easier. So if you want to talk about
+[00:18:57] look at the source code files it is very
+[00:18:59] challenging to understand the big
+[00:19:02] picture. So when we create architecture
+[00:19:05] diagrams it help us to understand the
+[00:19:07] context who uses the systems because we
+[00:19:09] can capture that who is using the system
+[00:19:12] from where from a browser from a mobile
+[00:19:14] device or somewhere else. So that give
+[00:19:16] us the context.
+[00:19:18] We define the containers uh in this uh
+[00:19:21] architecture diagrams which actually the
+[00:19:24] uh what the applications and data uh
+[00:19:27] stores exist
+[00:19:30] and we also define the components uh and
+[00:19:33] what which include the responsibilities
+[00:19:35] sit inside the an application and the
+[00:19:38] flow how things flowing from which
+[00:19:40] component to another from which side to
+[00:19:43] another and what direction right there
+[00:19:45] are tools that help people to create uh
+[00:19:48] architectures and make designs. These
+[00:19:50] tools helps you to actually be more
+[00:19:53] efficient rather than to draw manually
+[00:19:55] or kind of h make handwritten uh
+[00:19:59] drawings for your architecture. So to
+[00:20:01] make you more efficient but some people
+[00:20:02] stuck with these tools and spend a lot
+[00:20:04] of time using the tools to actually
+[00:20:07] perfect designs. Think about it. The
+[00:20:09] decisions are important. These kind of
+[00:20:11] visual diagrams help to actually
+[00:20:13] communicate the big major components of
+[00:20:16] the system. how we divide and how they
+[00:20:18] interact and communicate um not only
+[00:20:22] these kind of visuals and the decisions
+[00:20:24] behind it right
+[00:20:29] now how we think as software engineers
+[00:20:31] in maybe a context of uh agile
+[00:20:34] development.
+[00:20:36] Now we learned about user stories def we
+[00:20:39] start with def understanding our
+[00:20:41] software requirements which we
+[00:20:43] documented as user stories. Now you will
+[00:20:45] realize that the user stories started to
+[00:20:48] make our life easier in terms of
+[00:20:51] dividing
+[00:20:53] functions into or software requirements
+[00:20:55] into small functions that we can
+[00:20:57] implement right uh as one core unit or
+[00:21:01] one small unit. So usually the user
+[00:21:04] story is focused on we ensure that what
+[00:21:06] we need to deliver to the end user and
+[00:21:08] the functionality and why this is
+[00:21:10] important for them. So this user story
+[00:21:12] will help us to actually define
+[00:21:14] responsibilities.
+[00:21:16] The responsibilities is what m what must
+[00:21:19] the system do uh to implement or to
+[00:21:22] realize this user story. They could be
+[00:21:24] multiple things. It's not one thing or
+[00:21:27] one function
+[00:21:28] and then we define the components where
+[00:21:31] each of these responsibility will live
+[00:21:33] inside these kind of uh uh components or
+[00:21:36] responsibilities.
+[00:21:38] the interfaces. This is where how the
+[00:21:40] components will actually communicate
+[00:21:42] with each other to in order to realize
+[00:21:45] one functionality or that one user story
+[00:21:48] and the quality checks. So ensuring that
+[00:21:52] what we actually the way we design
+[00:21:54] things it still remain secure. It
+[00:21:57] doesn't actually uh uh create any major
+[00:22:00] concerns in in relation to some
+[00:22:02] qualities such as security, performance,
+[00:22:05] how easy to test and change them.
+[00:22:09] Right now it's your turn now. Just want
+[00:22:15] you to tell me from what we have learned
+[00:22:17] from last week. So what guides what
+[00:22:20] guides agile teams in creating software
+[00:22:22] architecture and designs? So if you are
+[00:22:25] a team you say we are adopting scrum
+[00:22:28] this one of the agile methods what
+[00:22:31] guides you as a team to create your
+[00:22:32] software architecture and design. So you
+[00:22:35] will learn about software design and
+[00:22:37] architecture some of the notations you
+[00:22:39] will learn about something but what are
+[00:22:41] the main thing that we always refer to
+[00:22:44] to decide how in agile teams we create
+[00:22:46] our uh software design and architecture.
+[00:22:52] Any thoughts
+[00:22:59] as an agile team? What's your reference
+[00:23:02] when it comes to how we implement agile
+[00:23:04] or one of the agile methods?
+[00:23:07] What did we cover first when we talked
+[00:23:10] about agile?
+[00:23:16] So I'll put another question here. How
+[00:23:18] does the agile methodology approach
+[00:23:20] software architecture and design?
+[00:23:24] So if you think about the agile
+[00:23:26] methodology, what did we learn about it?
+[00:23:28] We didn't have one definition. We had a
+[00:23:30] set of values and principles. And if you
+[00:23:34] remember, you refer to these design uh
+[00:23:36] values and principles. Some of them
+[00:23:38] interestingly
+[00:23:40] talk about architecture and design.
+[00:23:44] So okay, let's review some of them from
+[00:23:47] here. Do can you just maybe think about
+[00:23:49] what we have a quick introduction about?
+[00:23:51] software architecture and design. Now we
+[00:23:53] want to start thinking in agile way uh
+[00:23:57] how we should approach these kind of
+[00:23:59] software design and architecture. So we
+[00:24:01] have the agile manifesto which has a set
+[00:24:04] of values guide how agile teams work. So
+[00:24:08] from these values do you recognize
+[00:24:10] something that can help you to think
+[00:24:11] about your design and architecture
+[00:24:13] differently?
+[00:24:18] Any thoughts? Just whatever you think is
+[00:24:20] is relevant to a to design and
+[00:24:23] architecture.
+[00:24:43] >> Very good.
+[00:24:45] >> Yes, that's great. So we actually build
+[00:24:47] with simplicity which aims to build
+[00:24:49] something simple but leading to working
+[00:24:53] software right even if we build little
+[00:24:55] things little functionality and when you
+[00:24:58] actually start thinking about what we
+[00:25:01] need to implement or how we should
+[00:25:02] design our architecture you don't start
+[00:25:04] with big complex architecture or designs
+[00:25:07] you actually start with simple set of
+[00:25:09] user stories and and and functionalities
+[00:25:12] you need to implement that's very good
+[00:25:14] point now we have elements When we it
+[00:25:16] comes to design and architecture, who
+[00:25:18] does uh this kind of design and
+[00:25:20] architecture?
+[00:25:26] Is it a project manager or a team lead?
+[00:25:30] >> Software architect.
+[00:25:31] >> Software architect. That's good. So, we
+[00:25:32] might have an experienced software
+[00:25:34] architect in the team or a senior
+[00:25:36] software engineer that has a very good
+[00:25:38] experience because design and
+[00:25:40] architecture needs this experience. So,
+[00:25:42] they can lead. But are they going to do
+[00:25:44] it by themselves?
+[00:25:46] So we have an element here we have a lot
+[00:25:49] of the individuals and their interaction
+[00:25:51] is important over the the process and
+[00:25:53] the tools. So it involves people to work
+[00:25:56] together. Now who are the people? We
+[00:25:58] have technical people and at some point
+[00:26:01] we have these customers who bring the
+[00:26:03] business domain. If you remember I
+[00:26:06] mentioned the context people might tell
+[00:26:08] us you know our application fully rely
+[00:26:10] on events stock trading any event
+[00:26:13] happens I need to buy and sell right
+[00:26:15] basically if you don't collaborate early
+[00:26:18] with your customer and regularly so you
+[00:26:20] might not make the right decisions about
+[00:26:22] your design and architecture and we'll
+[00:26:24] show one of the architecture design
+[00:26:26] patterns later on which is eventdriven
+[00:26:28] architecture right so this is important
+[00:26:31] and and I did talk about responding to
+[00:26:33] change. We are not going to build a
+[00:26:36] perfect design uh and architecture from
+[00:26:39] start or spend months or weeks on doing.
+[00:26:42] So we will start with something and we
+[00:26:45] will change it will evolve. It will grow
+[00:26:49] because it's very complex process and
+[00:26:50] you can't get it right in in one go. So
+[00:26:53] it has to be more iterative incremental.
+[00:26:55] That's good. Now my point here is if
+[00:26:57] people if you are part of an interview
+[00:27:00] or if you are a leading a team in in
+[00:27:02] industry when it comes to say how we
+[00:27:04] should think and approach design and
+[00:27:06] architecture you should refer to the
+[00:27:08] values and the 12 principles. Now from
+[00:27:11] the 12 principles can you see any very
+[00:27:13] explicit points about design and
+[00:27:16] architecture? You can name the the
+[00:27:18] principle you think it's highly
+[00:27:20] referencing or talking about design and
+[00:27:24] or architecture.
+[00:27:28] anyone
+[00:27:35] >> attention
+[00:27:36] >> continuous attention to uh that's number
+[00:27:38] nine right continuous attention to
+[00:27:41] technical excellence and good design
+[00:27:44] enhance agility. So we pay attention to
+[00:27:48] how we actually make these kind of
+[00:27:50] technical decisions uh because it will
+[00:27:52] influence how agile are we uh and how we
+[00:27:56] can build something that can evolve and
+[00:27:58] grow uh uh with agile approach. That's
+[00:28:01] very good point and you already
+[00:28:03] mentioned simplicity which is important
+[00:28:05] to simplify that can actually get uh the
+[00:28:09] things
+[00:28:11] okay so we don't need to evacuate.
+[00:28:15] All right. So, um, yeah. Any other ones
+[00:28:18] talking about
+[00:28:20] design architecture?
+[00:28:22] Very explicit ones
+[00:28:30] should be one. Uh,
+[00:28:33] okay. There's one here maybe because I
+[00:28:36] didn't highlight it. So, number 11. The
+[00:28:38] best architectures, requirements, and
+[00:28:40] design emerge from self-organizing team.
+[00:28:44] Now civil organizing team is the team
+[00:28:45] who actually make the decisions
+[00:28:47] together. It's not led by one person.
+[00:28:50] Even if we have a an an architect or a
+[00:28:53] senior software engineer, uh involving
+[00:28:56] other people in the decision making
+[00:28:58] process can bring a lot of good
+[00:29:00] important perspectives to our decisions.
+[00:29:03] Right? So and these are very important
+[00:29:05] ones. Now the the point I want to
+[00:29:07] mention that you you can always refer to
+[00:29:10] these principles and values to actually
+[00:29:12] derive your thinking around what we do
+[00:29:15] whether it's design or architecture and
+[00:29:17] in in the last week when I talked about
+[00:29:19] requirements I mentioned some of the
+[00:29:22] relevant principles
+[00:29:24] uh we I mentioned also working with
+[00:29:26] business people because this actually
+[00:29:27] will help to collaborate and refine our
+[00:29:30] decisions around the design and
+[00:29:32] architecture and make it in the right
+[00:29:34] direction from the start right um
+[00:29:38] awesome right so these are some direct
+[00:29:41] mentions to the design and architecture
+[00:29:44] and what guide us through the process
+[00:29:46] now let's go through the uh moving on
+[00:29:49] from agile principles or how these agile
+[00:29:52] principles create technical design
+[00:29:54] responsibilities
+[00:29:56] so I did talk about it in the in the
+[00:29:58] previous slide so trying to get your
+[00:30:00] thoughts around it and bring your
+[00:30:02] attention always refer to these
+[00:30:04] principles and values when you decide
+[00:30:08] we actually one of the values is having
+[00:30:10] this working software and you kind of
+[00:30:13] design enough you don't need to design
+[00:30:15] complex or complete structure to
+[00:30:17] actually deliver a usable increment
+[00:30:20] which is a set of user stories the very
+[00:30:22] uh focused user stories
+[00:30:25] responding to change this is really
+[00:30:27] important and now when we respond to
+[00:30:30] change so we need to keep
+[00:30:31] responsibilities and dependencies easy
+[00:30:33] to change. Now how we can response to
+[00:30:35] change when the user for example you
+[00:30:38] show a a review of the work or you show
+[00:30:40] a demo to your client and the client say
+[00:30:42] we need to change something. Now uh this
+[00:30:46] actually when you keep your
+[00:30:47] responsibilities and dependencies
+[00:30:50] somehow either separated so they are not
+[00:30:53] heavily dependent on each other. So if
+[00:30:55] you make one change it doesn't impact
+[00:30:56] many other uh responsibilities and
+[00:30:59] that's kind of say the set of
+[00:31:01] responsibilities that have to be uh
+[00:31:04] together and how which responsibilities
+[00:31:07] has to be implemented uh uh uh by itself
+[00:31:10] so that we can make changes I could make
+[00:31:12] a change only to the login I don't need
+[00:31:14] to change the whole process of the user
+[00:31:16] authentication
+[00:31:19] technical excellence uh using testing
+[00:31:22] refactoring a clear interface cases to
+[00:31:25] sustain the speeds. So this is when we
+[00:31:27] actually set up really good testing and
+[00:31:29] uh do a lot of refactoring to improve
+[00:31:32] the uh the code and improve uh uh the
+[00:31:36] functionality of the code and ensure
+[00:31:38] that it doesn't uh limit the the uh
+[00:31:41] design and customer collaboration. As I
+[00:31:44] mentioned getting feedback from your
+[00:31:45] customers early will help to understand
+[00:31:47] and prioritize your design decisions
+[00:31:49] early on in the process.
+[00:31:55] Now how are we moving? So we started
+[00:31:58] learning. I tried to actually build a
+[00:32:00] kind of a flow in your course so that it
+[00:32:03] make it a kind of easy flow. It's not an
+[00:32:05] easy thing to do to be honest. If I
+[00:32:07] think about it where to start should we
+[00:32:10] start with learning the tools like
+[00:32:12] GitHub, Git uh uh GitHub for example or
+[00:32:14] GitLab learning CI/CD uh learning about
+[00:32:18] requirements, learning about design and
+[00:32:20] architecture. So one flow I tried to
+[00:32:22] create here is say okay we learned about
+[00:32:24] agile planning and we learned
+[00:32:26] specifically about scrum and in
+[00:32:28] particular how we write user stories
+[00:32:30] acceptance criteria we plan for the
+[00:32:32] sprints and all the events and artifacts
+[00:32:35] and we start to do iterative development
+[00:32:38] through sprints.
+[00:32:40] Now taking this forward, we need to
+[00:32:43] actually start translating our user
+[00:32:45] stories into uh uh these kind of needs
+[00:32:49] uh that we need to implement and start
+[00:32:51] to think about them gradually about
+[00:32:53] components uh responsibilities and what
+[00:32:55] boundaries where they live which part of
+[00:32:58] the my architecture I should implement
+[00:33:00] this uh component and that component.
+[00:33:03] I'll show you later on an example of
+[00:33:04] that taking a user story and show how we
+[00:33:07] think about it in the different uh
+[00:33:09] components
+[00:33:11] and after that we need to shift to
+[00:33:13] building equality again from the start
+[00:33:16] and when we talk about quality software
+[00:33:19] equality people mentioned testing
+[00:33:20] testing is is one component of a whole
+[00:33:24] methodology or
+[00:33:27] uh approach which is devops under that
+[00:33:30] we have continuous integration
+[00:33:31] continuous delivery. So this kind of
+[00:33:34] CI/CD or DevOps will help you to
+[00:33:37] actually have this pipeline to ensure
+[00:33:40] the quality every time you change or you
+[00:33:42] refactor your test or you make a change
+[00:33:45] in your in your design and in your
+[00:33:47] components.
+[00:33:49] So that will ensure the quality. So the
+[00:33:51] agile principles make a bridge very
+[00:33:53] explicit. So we talked about them.
+[00:33:55] Continuous attention to technical
+[00:33:57] excellence and good design enhance
+[00:33:59] agility. Simplicity helps teams to avoid
+[00:34:02] unnecessary work and that's where we
+[00:34:04] don't need to create so many
+[00:34:06] responsibilities that are not needed in
+[00:34:08] our applications. Architectures and
+[00:34:10] designs can emerge through collaborative
+[00:34:13] or collaboration and feedback. Uh so
+[00:34:15] this touch base on interaction and
+[00:34:17] collaboration between de developers
+[00:34:19] themselves and the business users or uh
+[00:34:22] end users.
+[00:34:24] Right? So what I'm hoping to expose you
+[00:34:26] in this lecture is to go through these
+[00:34:28] things. So start to think about how you
+[00:34:32] identify the main components of uh a web
+[00:34:35] application and start to think about uh
+[00:34:38] architecture and design principles and
+[00:34:40] design patterns. So we have touched base
+[00:34:42] on this a little bit. So we'll see more
+[00:34:44] examples to help us to understand it
+[00:34:46] better with examples. Draw simple
+[00:34:48] architecture or request flow diagrams.
+[00:34:51] And again simple one to get you started
+[00:34:53] to think about the process because your
+[00:34:55] application is going to be a simple one.
+[00:34:59] using some kind of uh principles to
+[00:35:01] guide your thinking about how you should
+[00:35:03] design certain components within your
+[00:35:05] application. So such as the um uh how
+[00:35:09] you actually you want to separate things
+[00:35:11] from each other, how you put things
+[00:35:13] together or couple things together
+[00:35:16] and relate your design decisions to
+[00:35:18] other properties or sometimes we call
+[00:35:22] them non-functional requirements or some
+[00:35:24] people call them uh other things but
+[00:35:27] things that how we can design in a way
+[00:35:29] that we can easily maintain, test and
+[00:35:32] extend our code
+[00:35:35] and explain how design evolves within a
+[00:35:37] scrum and CI/CD. All right. Now,
+[00:35:42] so we talked about drawing architectures
+[00:35:45] and I did cover this in the previous
+[00:35:47] slide. So I think it's a bit repeat but
+[00:35:49] basically going through the context and
+[00:35:52] start thinking of your containers in
+[00:35:54] which we have some of these components
+[00:35:57] will be living uh the components the
+[00:36:00] modules and the responsibility will be
+[00:36:01] living inside these containers and these
+[00:36:03] will be implemented as a code and we
+[00:36:06] have tools to help us to do the work.
+[00:36:08] Usually the most common uh kind of
+[00:36:11] diagrams we draw when we draw diagram
+[00:36:13] architectures is a context diagram and a
+[00:36:16] container diagram. So these are usually
+[00:36:18] good enough to start with.
+[00:36:22] Right? So,
+[00:36:25] so let's dig deep on starting from a
+[00:36:28] user use story to web application
+[00:36:29] components
+[00:36:31] and again having this agile
+[00:36:34] uh uh design thinking or agile thinking
+[00:36:37] in in mind. So we start with the user
+[00:36:40] need this this usually expressed as a
+[00:36:43] user story. We start to make a small
+[00:36:46] design
+[00:36:47] uh and then we build a working slice.
+[00:36:50] This is an interesting thing. Later on I
+[00:36:51] will show you one example of this
+[00:36:53] working slice and how you should
+[00:36:54] approach it when you have a user story
+[00:36:56] as a starting point.
+[00:36:58] Now the goal this is really important to
+[00:37:01] early get some feedback from your
+[00:37:04] clients or uh end users or the
+[00:37:07] stakeholders who are interested in that
+[00:37:09] and then take that to evolve your
+[00:37:10] design. Right? So this is really
+[00:37:13] important to if you don't build or show
+[00:37:16] something that they will you will not
+[00:37:18] get this uh feedback early on to make uh
+[00:37:20] to adapt your design and change it.
+[00:37:24] Now thinking of design is not about I
+[00:37:26] will give my uh development team set of
+[00:37:28] uh design documents as people think
+[00:37:30] diagrams. There's also a set of
+[00:37:32] decisions that make the change faster,
+[00:37:35] cheaper and cleaner. Right? So this is
+[00:37:38] important other important aspects behind
+[00:37:40] the designs
+[00:37:43] right when we pick a user story. So we
+[00:37:45] have one example here uh as a registered
+[00:37:48] user I want to submit a request and it
+[00:37:51] track it is status so that I know that
+[00:37:53] it is happening right so we have this
+[00:37:57] user story so when we actually want to
+[00:37:59] implement this user story it's not going
+[00:38:01] to be one function or just one code
+[00:38:06] right it's more about it involves
+[00:38:08] different aspects or different
+[00:38:10] responsibilities
+[00:38:12] for for us we need to actually
+[00:38:15] submitting a request. We need to present
+[00:38:16] a form for the user to do so and this
+[00:38:19] will belong to somewhere in your in your
+[00:38:21] design or in your architecture. So the
+[00:38:24] user should see a form we need to
+[00:38:26] validate the request before even
+[00:38:28] submitting the form to the back end to
+[00:38:30] process the application.
+[00:38:32] Once it's validated and it's ready,
+[00:38:34] let's say we have to also apply business
+[00:38:36] rules to ensure that this user is is
+[00:38:39] allowed to submit this form or they have
+[00:38:41] access to what they ask for and so on.
+[00:38:44] And the final thing we need also to
+[00:38:46] store and retrieve certain st statuses
+[00:38:49] uh when we actually get the user to
+[00:38:51] update something so we know that this is
+[00:38:53] recorded in the system. So one user
+[00:38:56] story created different
+[00:38:58] responsibilities. These responsibilities
+[00:39:00] living in different components in your
+[00:39:03] application and this will start get you
+[00:39:06] to think about when I implement one user
+[00:39:08] story some part will go into front end
+[00:39:12] some part will be going to the back end
+[00:39:14] and the back end has multiple components
+[00:39:17] and there's a communication happening
+[00:39:19] behind it right submit the form will go
+[00:39:21] through an HTTP request will go to the
+[00:39:24] uh the application logic so and there's
+[00:39:26] a format for that or a contract so that
+[00:39:28] it can be follow.
+[00:39:31] Right? So
+[00:39:33] this is a basic web application
+[00:39:35] architecture where we say okay when the
+[00:39:37] user actually need to do something they
+[00:39:40] see they usually interact with the
+[00:39:41] browser or through an interface provided
+[00:39:44] through a mobile device or other
+[00:39:45] devices. So you've got this browser
+[00:39:48] let's say most common one which you
+[00:39:50] provide the front end the user forms or
+[00:39:53] they see the pages and they do something
+[00:39:56] they see things there they fill in a
+[00:39:58] form they could uh search they could uh
+[00:40:01] complete a form or they want to login
+[00:40:04] and that will go into through an HTTP
+[00:40:08] request or API application programming
+[00:40:10] interface to be so that request
+[00:40:13] submitted by the user going back to the
+[00:40:15] back end or the business logic which
+[00:40:18] will process the request for that user
+[00:40:21] and get access to the data or update the
+[00:40:24] data. Right? So you see there are clear
+[00:40:26] boundaries here of the responsibilities.
+[00:40:29] Although the user is doing one thing,
+[00:40:31] we're trying to do one thing. So we have
+[00:40:33] different responsibilities sitting in
+[00:40:35] different components and there's a clear
+[00:40:38] flaw for that. So we understand how
+[00:40:41] things happen behind the scene.
+[00:40:44] So this is the thinking we need to use
+[00:40:45] always to think about when we need to
+[00:40:47] write the code for it. So there are a
+[00:40:50] front end code uh we will request will
+[00:40:53] be sent through HTTP AI usually this is
+[00:40:56] something you don't need to deal with it
+[00:40:58] will be handled by the browser the
+[00:40:59] request and the response but you need to
+[00:41:01] understand how it works and that's it
+[00:41:03] most of this is taken care by the
+[00:41:05] browser
+[00:41:07] and the application logic will
+[00:41:08] understand when it receives this HTTP
+[00:41:11] request. So the information and what is
+[00:41:13] the user want is actually sent through
+[00:41:16] this kind of uh uh connection to the
+[00:41:19] back end and then it starts actually
+[00:41:21] processing the uh request.
+[00:41:25] Right? So now let's look at these kind
+[00:41:30] of uh activities.
+[00:41:32] Uh
+[00:41:35] okay so what do you see here? So we do
+[00:41:39] have some activities
+[00:41:41] or or front end and backend
+[00:41:43] responsibilities.
+[00:41:45] Uh they could be mixed up or they could
+[00:41:47] be together. So think of which ones are
+[00:41:51] front end activities or uh
+[00:41:53] responsibilities and which one are back
+[00:41:55] end. Which one we should do when we
+[00:41:57] implement our code. So after we have
+[00:42:00] seen how these kind of different
+[00:42:02] components work in the flow, what should
+[00:42:04] we do at the front end or what the
+[00:42:06] responsibilities we should implement at
+[00:42:08] the front end and what the
+[00:42:09] responsibilities we should implement at
+[00:42:11] the back end.
+[00:42:13] So
+[00:42:14] think about it and let's let's maybe see
+[00:42:17] what what do you think before we discuss
+[00:42:19] it together.
+[00:42:47] Any thoughts?
+[00:42:58] First of all, do you think it's um the
+[00:43:01] two groups are front end and back end
+[00:43:03] completely front end and back end? No.
+[00:43:06] Do you think something that should be
+[00:43:08] done in the they mixed up? Any
+[00:43:10] suggestions?
+[00:43:16] So what things we should do at the front
+[00:43:18] end as a responsibility before we send
+[00:43:20] the request back to the uh the back end.
+[00:43:31] >> The second column is
+[00:43:32] >> it looks like a front end, right? So a
+[00:43:34] lot of things we should do at the front
+[00:43:36] end. And what about this one? All good
+[00:43:38] for to be in the back end as a
+[00:43:40] responsibility. It doesn't make sense.
+[00:43:43] Now these are the decisions we make. I
+[00:43:45] was talking about decisions when we want
+[00:43:46] to implement a user story. It it could
+[00:43:49] involve some of the front end and
+[00:43:51] backend responsibilities. Which one
+[00:43:53] going front end and which one? Now if a
+[00:43:55] you if a a developer built some of the
+[00:43:57] backend responsibility in the front end,
+[00:43:59] they started to violate this kind of
+[00:44:01] design principles. We will learn about
+[00:44:03] it later on. Uh this is what we we don't
+[00:44:06] want to happen. Uh because that will
+[00:44:08] create issues, big issues, right? So now
+[00:44:13] what is pretty much is as you mentioned
+[00:44:16] uh so the front end they were in the
+[00:44:18] left hand side I think uh so the front
+[00:44:20] end we need to display information
+[00:44:22] accept input from the user when we want
+[00:44:24] to build a responsibility for that
+[00:44:27] manages interaction and the client side
+[00:44:29] state that also happening mostly on the
+[00:44:32] the client side
+[00:44:34] calls the uh the back end uh through an
+[00:44:37] API. Yes, we need to actually after we
+[00:44:39] get the information from the user
+[00:44:41] provides immediate feedback uh in in
+[00:44:43] case there are something before we send
+[00:44:45] the request and this comes to a point
+[00:44:47] where sometimes we do the validation
+[00:44:49] before we submit a request to also uh
+[00:44:52] make things more responsive handles
+[00:44:54] loading and error or and empty states
+[00:44:56] and so on if the user submit something
+[00:44:58] or something empty is returned. So the
+[00:45:01] back end is where we validate the
+[00:45:03] request again we validate the request.
+[00:45:05] Now this is important. Even if the front
+[00:45:08] end validated the request, it's still a
+[00:45:10] responsibility of the back end because
+[00:45:12] there's a way where the user
+[00:45:15] uh or the hackers they actually can send
+[00:45:17] you something is validated but it's
+[00:45:18] actually could break your code. So um so
+[00:45:23] they could inject some suspicious code
+[00:45:25] and they could bypass your validation at
+[00:45:27] the front end. Now we did the validation
+[00:45:30] the front end to ensure the performance.
+[00:45:31] We don't want to send it to the back end
+[00:45:33] and then wait for a response because
+[00:45:35] that will go through the network and it
+[00:45:37] takes time to get a response back. When
+[00:45:39] the user knows that this is invalid
+[00:45:41] email or password they we check it uh uh
+[00:45:45] as much as possible at the front end if
+[00:45:47] possible.
+[00:45:49] Right? So and you need to read write
+[00:45:51] data from the database maybe to answer
+[00:45:53] the query integrate external services.
+[00:45:55] Sometimes you might call external
+[00:45:57] services in order to answer the what the
+[00:45:59] user asks for and retaining useful
+[00:46:01] responses and errors and that will be
+[00:46:03] handled by the front end when it is
+[00:46:05] returned. Right now what you see we
+[00:46:10] talked about the front end and the back
+[00:46:11] end and what we have in the middle this
+[00:46:14] API or application programming interface
+[00:46:17] it's actually a contract. It's not just
+[00:46:19] a URL. That contract described what is
+[00:46:22] the URL uh the endpoint we use to
+[00:46:24] actually uh call the backend service to
+[00:46:27] reach out to that backend service or uh
+[00:46:30] where that functionality reside on your
+[00:46:32] server. What method are we calling
+[00:46:34] because there could be many methods
+[00:46:35] involved there to actually manipulate
+[00:46:37] the data what input we will provide the
+[00:46:40] response and error rules to handle that.
+[00:46:42] So this kind of is not really a URL
+[00:46:45] only. It's a contract that provides more
+[00:46:48] uh uh a kind of um
+[00:46:51] um systematic approach to handle the
+[00:46:53] request and when we get a response back.
+[00:46:58] All right. So this is where what this
+[00:47:01] simple exercise is to get you to think
+[00:47:03] about putting the right responsibilities
+[00:47:06] in the right components and make sure
+[00:47:08] the boundaries are set clearly. Right?
+[00:47:11] So there are things like the uh AI. So
+[00:47:14] you need to understand the AI contract
+[00:47:16] which give you the endpoint the method
+[00:47:18] the input uh parameters you can send and
+[00:47:21] how the response look like so that you
+[00:47:23] can process it when you get a response
+[00:47:24] back and so on. So that will help you to
+[00:47:27] understand uh how to actually handle
+[00:47:29] requests and responses when you have
+[00:47:31] this communication.
+[00:47:36] Now moving on to design principles which
+[00:47:39] actually uh help us to think about how
+[00:47:42] we follow certain principles to design
+[00:47:45] for something good something that can
+[00:47:48] make our life easy and help us to avoid
+[00:47:51] all these kind of technical issues. But
+[00:47:54] before that do you have any questions?
+[00:47:57] Any questions? Any thoughts or comments?
+[00:48:03] Right.
+[00:48:04] So we'll do this part and then we'll
+[00:48:06] have a little break. Uh right now
+[00:48:12] this is really important where when we
+[00:48:15] actually make a good structure we need
+[00:48:18] to make sure that this structure allow
+[00:48:20] us to change things easily because we
+[00:48:22] expect changes to happen. We expect our
+[00:48:25] architecture and design to evolve. It's
+[00:48:27] not a complete one.
+[00:48:30] And as we go, it's a very difficult and
+[00:48:32] challenging process because you do this
+[00:48:34] incrementally. It's not oneoff. So as
+[00:48:36] you go, you still need to keep making
+[00:48:38] decision decisions and refining your
+[00:48:40] decisions. So I would say the
+[00:48:42] experienced software engineers who did a
+[00:48:44] lot of projects over time they start to
+[00:48:47] capture things and think how we should
+[00:48:50] actually make these good decisions. And
+[00:48:52] usually you go from a junior software
+[00:48:54] engineer to senior software engineer to
+[00:48:56] an architect. This architect actually
+[00:48:59] have gone through a lot of development
+[00:49:01] work to understand what we're talking
+[00:49:03] about from coding until we get a full
+[00:49:05] architecture and they understand when
+[00:49:07] they make decisions at the start how
+[00:49:10] these decisions impacted their design
+[00:49:12] and architecture. So it needs a lot of
+[00:49:15] experience
+[00:49:16] uh and do a lot of development. Having
+[00:49:19] said that, I think nowadays if you think
+[00:49:21] about it, you might be talking to some
+[00:49:23] companies working with AI agents right
+[00:49:25] to do the coding for you what is what is
+[00:49:28] actually happening in industry and
+[00:49:30] people talking about this and we we we
+[00:49:32] discussing this in many conferences
+[00:49:34] about what we should cover or how we
+[00:49:36] should teach it's a very big question
+[00:49:38] but basically we did hear a lot of
+[00:49:41] things about junior software engineers
+[00:49:43] are no longer needed because AI can do
+[00:49:46] the coding we need someone more senior
+[00:49:49] Now more senior person is the person who
+[00:49:51] understands
+[00:49:53] you know more design decisions and
+[00:49:55] architecture decisions so that when they
+[00:49:57] work with the AI or AI write code they
+[00:49:59] can tell is this is a code or good code
+[00:50:00] or not and it ask it to make changes in
+[00:50:03] a certain way because you can't fully
+[00:50:05] trust on this agent to make sure this
+[00:50:07] decisions now some decisions it makes
+[00:50:10] it could be everything looks great it
+[00:50:12] works that's what people said and all of
+[00:50:15] a sudden they did see something failing
+[00:50:18] after we started scaling or running the
+[00:50:20] application with larger number of users.
+[00:50:22] Now these decisions are important early
+[00:50:24] on for someone to guide this AI agent.
+[00:50:27] They need to understand these design
+[00:50:28] principles. They need to understand
+[00:50:31] really good coding as well. So they can
+[00:50:33] look at these aspects.
+[00:50:36] Now when we talk about design
+[00:50:38] principles, there are plenty or many
+[00:50:40] design principles. So briefly I just
+[00:50:41] want to expose you to some of these to
+[00:50:43] think about and to keep in mind.
+[00:50:47] Uh so you can consider these design
+[00:50:50] principles when you actually make uh any
+[00:50:52] development in your sprints. The first
+[00:50:54] one separation of concerns. This is
+[00:50:57] where you try to different uh create
+[00:50:59] different responsibilities
+[00:51:01] and you should not actually put the
+[00:51:03] responsibilities together. So the front
+[00:51:06] end is responsible for certain things.
+[00:51:08] We define that in the example, right?
+[00:51:10] And the back end is responsible for
+[00:51:12] things. And this each one of these
+[00:51:14] responsibility goes into a function or
+[00:51:16] something. you do in your code but that
+[00:51:18] one sitting in the front end and the
+[00:51:20] other one sitting in the back end and
+[00:51:21] even the back end might be divided as
+[00:51:23] later on I'll show you another example
+[00:51:26] encapsulation
+[00:51:28] hiding internal details behind a clear
+[00:51:31] interface a good example of that when
+[00:51:33] you actually create classes inside your
+[00:51:36] class you have methods you have myth uh
+[00:51:38] data to manipulate the data you can
+[00:51:40] manipulate the data through the methods
+[00:51:43] in your class you define in your class.
+[00:51:47] So, and then you can talk to this class
+[00:51:49] because you have methods and it can
+[00:51:50] manipulate the data for you and it can
+[00:51:52] update something for you. Uh, third
+[00:51:56] design principle, high cohesion, right?
+[00:52:00] Keep things that are have related
+[00:52:02] behavior closely together for one
+[00:52:05] reason, for ease of change and try to
+[00:52:09] localize change. If these related
+[00:52:11] behaviors are sitting in different
+[00:52:12] components,
+[00:52:14] right? When you need to change one
+[00:52:16] behavior because this is related
+[00:52:18] behavior, you might need to change many
+[00:52:20] of these. And this change is expensive
+[00:52:22] because you have to test every single
+[00:52:24] one of that and make sure all of it
+[00:52:25] works together. Making it in one in one
+[00:52:28] kind of uh um component uh or module
+[00:52:32] that make it easier to actually test or
+[00:52:35] evaluate.
+[00:52:37] Uh the fourth one, fourth principle, low
+[00:52:40] coupling. Now some people say
+[00:52:42] decoupling. So uh there's high coupling
+[00:52:45] and low coupling. Low coupling is what
+[00:52:47] we should aim for. Now if you make high
+[00:52:49] coupling, this is where you have too
+[00:52:51] many components highly dependent on each
+[00:52:53] other. That means two each component
+[00:52:56] needs to call many other components in
+[00:52:58] order to do certain functionality or uh
+[00:53:01] implement certain behavior.
+[00:53:03] What we aim for it says minimize and you
+[00:53:06] can't avoid coupling minimize how much
+[00:53:10] one bot must know about another because
+[00:53:13] if it's heavily dependent on many other
+[00:53:15] components or other bots in your system
+[00:53:17] so that means a change also will be
+[00:53:19] expensive right and a call even to do
+[00:53:22] one thing you have to go through
+[00:53:24] multiple calls in order to do that.
+[00:53:27] uh another principle so simple
+[00:53:30] dependencies making dependency direction
+[00:53:32] visible and predictable. So sometimes a
+[00:53:36] component call another component that
+[00:53:38] component call another component is a
+[00:53:39] bit of transition dependencies. So you
+[00:53:42] try to minimize that in a way that you
+[00:53:45] actually make the dependencies clear and
+[00:53:48] visible uh and direct
+[00:53:51] design for change. We said that assume
+[00:53:53] that when you design you expect things
+[00:53:56] to change. I mentioned one of the
+[00:53:57] questions architects ask what will
+[00:53:59] change most of the time. Knowing what
+[00:54:02] will change most frequently will help
+[00:54:05] you to think about putting that into one
+[00:54:07] component or module to actually reduce
+[00:54:10] these kind of changes. Right? Um
+[00:54:14] uh another interesting one also talking
+[00:54:16] about simplicity uh you aren't going to
+[00:54:19] need it. This is coming to the principle
+[00:54:22] where just you need to implement
+[00:54:24] something keep it simple. There's
+[00:54:27] another one called case keep it simple
+[00:54:29] stupid just stupid it does one little
+[00:54:32] thing it doesn't need to do a lot of
+[00:54:34] things where it's not needed what what
+[00:54:36] developers might say in the future we
+[00:54:39] might need this and they might add a lot
+[00:54:41] of more responsibilities within one uh
+[00:54:43] class or one function or module and then
+[00:54:47] you might later on not need it at all.
+[00:54:48] So you already included something to
+[00:54:50] make it bigger and it's harder to
+[00:54:52] maintain and it's creating maybe more
+[00:54:54] issues to test and so on
+[00:54:57] and refactor continuously. This is where
+[00:54:59] design improve as you build a little
+[00:55:02] bit. Uh we build one user story but we
+[00:55:05] did see in the example one user story go
+[00:55:07] actually through many different layers
+[00:55:10] or a a vertical slice where it cover
+[00:55:12] different responsibilities in different
+[00:55:14] components. So that kind of thing will
+[00:55:17] help us to get feedback or test and find
+[00:55:20] issues early so we can refine our design
+[00:55:22] and make changes early.
+[00:55:26] Now let's go quickly through some of
+[00:55:28] these. I mean we did cover some of it in
+[00:55:30] in the in the uh um uh previous examples
+[00:55:34] separation of concerns. Here we did talk
+[00:55:37] about this kind of
+[00:55:40] uh form or the front end where we have a
+[00:55:43] form and feedback for the user
+[00:55:45] interface. So this actually focus on
+[00:55:47] collecting the feedback and the data
+[00:55:49] from the user. When we make a request,
+[00:55:51] we go through an API that will make the
+[00:55:54] request and handle the response when it
+[00:55:56] comes back. The business logic will
+[00:55:58] actually focus on uh validating uh
+[00:56:01] certain rules for uh the application
+[00:56:04] which we have here is expense uh rules.
+[00:56:07] Um
+[00:56:09] and then we can actually get access to
+[00:56:11] the data database uh but through a
+[00:56:14] component that focus on giving us access
+[00:56:16] or calling things from the database. So
+[00:56:18] the business logic is not directly
+[00:56:20] calling the database. Now if you look at
+[00:56:23] it, so we have here a user story
+[00:56:27] where we try to just make things but it
+[00:56:29] involves different uh things. These
+[00:56:31] different things are separated are not
+[00:56:34] implemented in one file or in one
+[00:56:36] module. So they are in different
+[00:56:38] components or living in different
+[00:56:39] components. Now if we need to change
+[00:56:42] something in our access to the database
+[00:56:44] or the data so we change this part and
+[00:56:47] the rest will not be impacted.
+[00:56:50] So and this makes it easy to change,
+[00:56:52] easy to maintain and evolve. We can add
+[00:56:55] more business rules without impacting
+[00:56:58] the rest. All what you do is write
+[00:57:00] calling the right business rule. So
+[00:57:02] given that we have we can add more of
+[00:57:04] these business rules here.
+[00:57:09] All right. So encapsulation
+[00:57:12] and you have this kind of dependency
+[00:57:14] direction. Um so what we what we try to
+[00:57:19] actually capture so what we have here as
+[00:57:21] an example so an expense service which
+[00:57:24] has certain operations record expense
+[00:57:26] and get balances right
+[00:57:29] now this one we're not trying to create
+[00:57:33] many layers we try to encapsulate the
+[00:57:35] methods that will help us to actually do
+[00:57:38] certain responsibilities
+[00:57:40] as explained here so get expense or
+[00:57:43] record expense and get balances And we
+[00:57:45] can add more responsibilities to this
+[00:57:47] one related to the expense service.
+[00:57:50] However, this expense service so it's
+[00:57:52] encapsulating these but it does not need
+[00:57:54] to deal with the data or the database or
+[00:57:57] put the logic here. So it can call the
+[00:58:00] database layer in order to actually uh
+[00:58:02] record expenses.
+[00:58:04] And if we need to make a notification,
+[00:58:07] we have an adapter which actually can
+[00:58:09] send a push notification or email to
+[00:58:11] notify that uh we have recorded a new
+[00:58:14] expense or a new expense has been
+[00:58:16] recorded. You can see that.
+[00:58:20] So this help us to actually test things
+[00:58:22] easily when we build and this is one of
+[00:58:24] the issues we might face when we're
+[00:58:26] building things. we actually can replace
+[00:58:29] this notification adapter by a mock
+[00:58:32] where we try to actually say this will
+[00:58:34] work in a certain way. So we create a
+[00:58:37] kind of test uh mock which actually try
+[00:58:41] to simulate how this works even if we
+[00:58:43] don't have access to real notification
+[00:58:45] server or service. Same thing for the
+[00:58:49] database people like you guys is
+[00:58:51] starting to do some work. We're not
+[00:58:52] worried much about the back end because
+[00:58:55] we want to simplify things and focus on
+[00:58:57] applying what you do. So we expect to
+[00:59:00] say okay build your front end and your
+[00:59:03] back end could be you actually mock it
+[00:59:05] up with a as a service where you say
+[00:59:07] this could be a file when you uh try to
+[00:59:10] read the file it returns you a string
+[00:59:12] right so you could simplify the
+[00:59:14] decisions but the way you designed it is
+[00:59:16] that this code is not inside it's
+[00:59:18] actually sitting in a separate uh
+[00:59:20] adapter or se separate component so and
+[00:59:23] we encapsulated the logic we need the
+[00:59:25] responsibilities inside this expense
+[00:59:27] service without the code of this
+[00:59:29] database. If we change the database, we
+[00:59:31] don't need to change our expense
+[00:59:33] service.
+[00:59:40] Now, yeah, this is something about this
+[00:59:42] separation of concerns and
+[00:59:43] encapsulation. So, when you tangle
+[00:59:45] responsibilities together, so that might
+[00:59:48] create a lot of issues and make it
+[00:59:50] difficult to uh uh to um uh um change.
+[00:59:55] uh so we try not to put everything in
+[00:59:57] one module. So we do have things split
+[01:00:00] into what we call the form or the where
+[01:00:02] we view things the expense or business
+[01:00:05] service which has the business logic. So
+[01:00:07] the data access to access our data and
+[01:00:09] the notification adapter. So we
+[01:00:11] separated things and the
+[01:00:13] responsibilities and they are not
+[01:00:14] tangled in one function or one module so
+[01:00:18] that it make it difficult to change
+[01:00:20] every time we change the adapter. So we
+[01:00:22] have to retest all of that.
+[01:00:27] cohesion and coupling.
+[01:00:30] So what we are aiming for when we design
+[01:00:34] is what you see on the left hand side
+[01:00:36] the green box high cohesion low coupling
+[01:00:41] and for the goal or for the aim what we
+[01:00:43] discussed that we need to actually make
+[01:00:45] things
+[01:00:46] uh logical components together. So we
+[01:00:49] can localize change we can make changes
+[01:00:51] within one component not many components
+[01:00:54] and um if things are low low coupled uh
+[01:01:00] so that will help us to actually uh uh
+[01:01:03] test easily. So it will help us to
+[01:01:06] actually change things easily because
+[01:01:07] all what I need is to remove one service
+[01:01:10] and change one service in a state.
+[01:01:14] So we're not aiming for low cohesion and
+[01:01:17] high coupling. Just remember that when
+[01:01:19] you actually decide on the
+[01:01:21] responsibilities and when where you
+[01:01:23] actually uh put them. So aim for high
+[01:01:26] cohesion and low coupling.
+[01:01:29] So
+[01:01:32] the question you always ask if I change
+[01:01:34] this responsibility how many under
+[01:01:37] unrelated places must I understand and
+[01:01:40] modify in the code and even to make it
+[01:01:43] makes it more difficult to change all
+[01:01:44] what I change is only highly
+[01:01:46] encapsulated or highly cohesive uh piece
+[01:01:49] of code.
+[01:01:52] All right. So
+[01:01:56] we have here two architecture or two
+[01:01:58] decisions about how we going to
+[01:02:00] architect or design certain components.
+[01:02:03] It should be design maybe design one and
+[01:02:04] design two. So which design or
+[01:02:07] architecture would you choose and why?
+[01:02:09] So this is the first one where we try to
+[01:02:11] build to put 12 services together, three
+[01:02:14] message brokers,
+[01:02:16] uh custom plugins, platform, global
+[01:02:19] multi-reion replication
+[01:02:22] because we expect things to evolve in
+[01:02:24] the future. Now bit of thinking about
+[01:02:26] what we're talking about and the design
+[01:02:29] to one deployable web app clear modules
+[01:02:33] well definfined AI boundaries automated
+[01:02:36] test and room to extract a service later
+[01:02:39] if evidence appears which design you
+[01:02:42] think is the right design or the
+[01:02:45] decisions to design for each of these
+[01:02:56] working software
+[01:02:58] >> going for two and the rational behind
+[01:03:01] that
+[01:03:05] >> working software
+[01:03:10] >> that that's good. So we have uh one
+[01:03:13] deployable web app. So instead of 12
+[01:03:16] services in one design or in one
+[01:03:18] application so we can deploy that web
+[01:03:21] app only and we have incrementally we
+[01:03:23] can add things to it. So we have a clear
+[01:03:25] clearly defined modules to add more and
+[01:03:27] more and the AI boundaries are defined.
+[01:03:31] So and we can extract to we can actually
+[01:03:34] add more services later if we need. So
+[01:03:36] we can add more services as we need. So
+[01:03:38] rather than thinking of let's do it now
+[01:03:41] in the future we need it but it's not
+[01:03:43] evidence that we need it. So there's no
+[01:03:45] value of adding all what we see in the
+[01:03:47] uh the first one.
+[01:03:50] So when you actually designing your
+[01:03:52] sprint so you need to make things simple
+[01:03:55] and you are you are not going to need it
+[01:03:59] is is the principle we use here. So
+[01:04:01] instead of thinking in one sprint I want
+[01:04:03] to do all of this where you speculate
+[01:04:05] that there are things but there's no
+[01:04:07] evidence. So you actually try to do this
+[01:04:09] thing right. So on the right hand side
+[01:04:12] the green one.
+[01:04:14] So designing for change um means
+[01:04:17] isolating known instability not
+[01:04:20] predicting every future features. That's
+[01:04:22] what we do in in user stories and in
+[01:04:24] scrum. We said we don't need to predict
+[01:04:26] the future. We design for what we know
+[01:04:29] and what we sure about and what we sure
+[01:04:31] will deliver a value in one increment or
+[01:04:33] in one iteration. And if we are
+[01:04:36] successful to do so, we get very good
+[01:04:38] feedback from our users. If they say we
+[01:04:39] need to add more services, we add but
+[01:04:42] once we show them that they actually
+[01:04:43] requested it.
+[01:04:46] All right. I think we we almost halfway
+[01:04:49] bit more than highway halfway. So we can
+[01:04:52] have um five minutes break. So we
+[01:04:54] continue 15 bus 7. So stretch and you
+[01:04:57] know have some refresh and come back in
+[01:05:01] 5 minutes.
+[01:10:49] All
+[01:11:08] right. So, any questions before we move
+[01:11:10] to the next part?
+[01:11:14] dig get a little bit more on the web
+[01:11:16] application and looking at some of the
+[01:11:19] different architecture
+[01:11:21] design buttons. Um, all right.
+[01:11:26] Now, when you work with web
+[01:11:27] applications, you as a user, you just do
+[01:11:30] a lot of things on the browser and you
+[01:11:32] do clicks, you actually request certain
+[01:11:34] things or you try to do certain things.
+[01:11:37] There's a lot of chain of
+[01:11:38] responsibilities happening behind the
+[01:11:40] scene. You don't see it. So you as
+[01:11:42] engineers you're actually going to
+[01:11:43] design this kind of chain of
+[01:11:46] responsibilities in order to make sure
+[01:11:48] that we uh the design and architecture
+[01:11:51] can uh help to do this in a safe uh easy
+[01:11:55] way. So thinking of the web application
+[01:11:59] and what you will be mostly doing this
+[01:12:02] is the simplest maybe useful web
+[01:12:04] architecture where you think about one
+[01:12:07] key component of this architecture is
+[01:12:09] the browser. Now the browser handles a
+[01:12:12] lot of things that relieve you uh as a
+[01:12:16] as an engineer that you don't need to do
+[01:12:18] a lot of these kind of things that
+[01:12:20] happening behind the scene in terms of
+[01:12:22] preparing the request response that will
+[01:12:25] be sent to the web server. All what you
+[01:12:27] need is to actually
+[01:12:30] create your uh pages style them write
+[01:12:34] JavaScript to help trigger certain
+[01:12:36] things to validate the user input to do
+[01:12:38] certain things. uh deal with the user
+[01:12:41] interaction and all these kind of state
+[01:12:44] of the UIs. So you've got an HTTP
+[01:12:48] request and HTTP response that will
+[01:12:50] trigger certain requests and sending the
+[01:12:52] data uh with different types. So when
+[01:12:55] you actually learn about web
+[01:12:56] development, you build more
+[01:12:57] understanding of the different methods
+[01:12:59] that are there to support you sending
+[01:13:01] requests to the server. And this is a
+[01:13:03] kind of HTTP protocol describe how
+[01:13:05] request response will be actually
+[01:13:08] communicated with the web server or the
+[01:13:10] AI server.
+[01:13:12] Now in the web or AI servers, this
+[01:13:15] actually where sometimes you define all
+[01:13:17] these kind of business rules, your
+[01:13:19] authentication, authorization, who can
+[01:13:21] access what. So you actually determine
+[01:13:23] or decide on this here and uh it
+[01:13:26] actually knows certain points in points
+[01:13:29] HTTPs where certain responsibilities are
+[01:13:32] sitting within your servers with a
+[01:13:34] description as a URL and uh uh other
+[01:13:37] parts with parameters being sent there.
+[01:13:40] So and then this server will actually as
+[01:13:43] you can see it's separate from the
+[01:13:44] browser. So but they communicate through
+[01:13:46] this kind of HTTP protocol.
+[01:13:49] uh so it will actually trigger certain
+[01:13:52] query or doing something to your
+[01:13:54] database
+[01:13:56] uh and that actually separating the
+[01:13:59] database from direct access by the
+[01:14:01] client. So we are separating things here
+[01:14:06] and we have certain responsibilities
+[01:14:08] have been unimplemented to do even one
+[01:14:10] one function or one user story right. So
+[01:14:13] you could be query you want to retrieve
+[01:14:15] certain thing from the database get the
+[01:14:17] users who meet certain criteria or the
+[01:14:19] expenses or the groups related to your
+[01:14:21] maybe expense splitter application.
+[01:14:26] uh so you query all right so but there's
+[01:14:28] a separation so there's no direct
+[01:14:29] connection here even your database let's
+[01:14:32] say if you need to connect to external
+[01:14:34] services you might make external call AI
+[01:14:37] call and talk to other external services
+[01:14:40] for example if you want to uh uh deduct
+[01:14:43] payments or connect to real payment
+[01:14:45] system so you connect through AIS and
+[01:14:47] configure that to happen uh uh through
+[01:14:50] the uh external services and that will
+[01:14:53] be stored in your database to ensure
+[01:14:55] that all this call has resulted on what
+[01:14:58] you want or sometimes you show a map or
+[01:15:00] do something like that.
+[01:15:04] Now think about it, the browser is not
+[01:15:06] your application. It's actually one part
+[01:15:08] of a larger system. It handles a lot of
+[01:15:10] work uh for you. But all what you need
+[01:15:12] is to focus on these aspects here. There
+[01:15:15] are a lot of things taken care by the
+[01:15:17] browser. Uh sometimes in order to build
+[01:15:20] fast responsive uh user interfaces and
+[01:15:23] applications you need to understand how
+[01:15:25] the browser work and that can help you
+[01:15:27] to optimize these request responses and
+[01:15:29] how you actually manage them.
+[01:15:34] Now thinking of the front end so what
+[01:15:36] belongs to the browser. So these are the
+[01:15:39] things presentation and the interaction.
+[01:15:42] uh you don't need to do kind of uh these
+[01:15:45] things uh in the business logic or
+[01:15:47] business rules in your browser but you
+[01:15:49] need to actually make sure you're
+[01:15:51] collecting the user input you render the
+[01:15:54] interface and the data you get you
+[01:15:55] render in the page so you manage the UI
+[01:15:58] states providing immediate validation
+[01:16:01] immediate validation and feedback before
+[01:16:03] you send a request to the server as I
+[01:16:06] mentioned earlier uh you deal with call
+[01:16:08] backends uh or calling backends and APIs
+[01:16:11] uh handle loading errors etc. So these
+[01:16:14] are the front end things you should do
+[01:16:16] when you design your front end.
+[01:16:21] So I mentioned that you validate at the
+[01:16:24] front end but the server will also
+[01:16:25] validate to ensure that there's nothing
+[01:16:27] bypassed by the front-end validation
+[01:16:29] because hackers know how to actually uh
+[01:16:32] uh bypass this validation and they might
+[01:16:34] actually corrupt your database or uh do
+[01:16:37] things that are not authorized.
+[01:16:41] Right. So the back end is actually doing
+[01:16:44] a lot of different things as well. So
+[01:16:46] and these kind of different
+[01:16:48] responsibilities sit in the back end. So
+[01:16:51] you've got the uh receiving this HTTP
+[01:16:55] request and it knows how to address that
+[01:16:57] as the HTTP protocol retaining a
+[01:17:00] structure response following the HTTP uh
+[01:17:03] uh request response protocol. It does
+[01:17:06] validation. It does authentication
+[01:17:08] ensuring that user is allowed to access
+[01:17:10] what they ask for. So we don't allow
+[01:17:12] anyone to access anything if they're not
+[01:17:14] allowed to or if they're not permitted
+[01:17:16] to. So we're ensuring that user is the
+[01:17:19] one who's claiming who who who they are.
+[01:17:21] And we also authorize what they want to
+[01:17:24] access. Are they allowed to access the
+[01:17:26] expense? Uh they can only access the
+[01:17:28] expenses the the group they are part of
+[01:17:30] but not other groups. They are not
+[01:17:32] authorized to access that. we can
+[01:17:35] actually calculate our splits, the
+[01:17:36] balances and other domain behaviors we
+[01:17:39] need to implement in our uh application.
+[01:17:42] We read write uh data to our database uh
+[01:17:45] through the uh data access layer and we
+[01:17:47] actually integrate external services or
+[01:17:50] calls and we need to do a lot of
+[01:17:52] observations
+[01:17:53] to log anything when we do any of these
+[01:17:56] to figure out if something goes wrong
+[01:17:58] where did it go wrong or what's the
+[01:17:59] issue is it when we read or write the
+[01:18:02] database. So if we have logs in every
+[01:18:04] single component of what we do, we can
+[01:18:06] tell what went wrong and that becomes
+[01:18:09] too complicated when you have too many
+[01:18:11] of these separations or
+[01:18:13] responsibilities.
+[01:18:15] The AI we talked about it the contracts.
+[01:18:18] So it connects the front end with the
+[01:18:19] back end following the certain protocol
+[01:18:22] and certain way how we can make a get
+[01:18:24] request or post request to save or store
+[01:18:28] something in the database or retrieve
+[01:18:30] something with a get request and
+[01:18:32] following certain structure and
+[01:18:34] following certain rules about the status
+[01:18:36] and the rules uh or the validation.
+[01:18:42] Now these good contracts reduce
+[01:18:44] coupling. So make law cumbling because
+[01:18:46] you're not heavily dependent. So this
+[01:18:48] code is not implemented here or here. So
+[01:18:51] it's more implemented in the contract
+[01:18:53] when you make a call. So you know what
+[01:18:54] to send and uh what information will be
+[01:18:57] processed
+[01:19:00] but still we have this coordination so
+[01:19:02] it doesn't happen. We have the coupling
+[01:19:03] but it is low. That's why we said it's
+[01:19:05] not decoupling it's low coupling.
+[01:19:08] Now let's look at some typical
+[01:19:10] architectural patterns. some patterns
+[01:19:12] that exist and widely adopted and used.
+[01:19:15] The first one is layered architecture
+[01:19:18] and this is where we create our
+[01:19:20] architecture
+[01:19:22] by trying to focus on the separation of
+[01:19:25] concerns uh principle and now you start
+[01:19:28] to see some of the principles we've been
+[01:19:30] talking about are in in life implemented
+[01:19:33] in this kind of uh common architectural
+[01:19:36] bets. So we separate things as we've
+[01:19:39] been talking the presentation and the
+[01:19:41] AI. So that is handled at the browser or
+[01:19:44] the uh the front end. We have some
+[01:19:47] application services. We have one layer
+[01:19:49] only focus on defining and implementing
+[01:19:52] application services that probably can
+[01:19:55] answer some of the queries or the
+[01:19:56] requests or need access to the domain
+[01:19:59] business rules first or the data access.
+[01:20:02] But what what is interesting in this
+[01:20:04] kind of layered architecture that the
+[01:20:07] presentation or the user when they
+[01:20:09] request something it can't go directly
+[01:20:11] to the data access layer or to the
+[01:20:13] database. It has to go through all the
+[01:20:15] way. So sometimes you send a request and
+[01:20:18] the application service can't answer
+[01:20:20] this for you. It doesn't need to ask the
+[01:20:22] domain or go through the business logic
+[01:20:23] and the database. It depends on what the
+[01:20:26] user is asking for. So it could be
+[01:20:27] something exists or lives in this layer
+[01:20:29] and that means you just get a response
+[01:20:32] straight away. But sometimes the user is
+[01:20:34] requesting to do something with the back
+[01:20:36] end. It has to go and be through the
+[01:20:38] business logic to test the rules to
+[01:20:40] ensure that you meet the business rule
+[01:20:42] or you might return something before we
+[01:20:44] access the database. So we have a
+[01:20:46] separation of concerns. We can add
+[01:20:48] business rules. We can change add
+[01:20:50] business services or modify our
+[01:20:52] application services. And we can change
+[01:20:55] the methods to access our database. If
+[01:20:57] we add a database uh or a new data, we
+[01:21:00] can just add a new method to access that
+[01:21:02] data specifically. That change doesn't
+[01:21:04] impact the rest. It only happens in this
+[01:21:06] layer. Now there's another important
+[01:21:09] aspect with this kind of architecture
+[01:21:12] security. I mentioned that users and
+[01:21:15] especially hackers, they can't directly
+[01:21:17] access your database. They have to go
+[01:21:20] all the way through and go through this
+[01:21:22] and a lot of different validations and
+[01:21:23] check to ensure this is an authorized
+[01:21:26] authenticated user authorized to do what
+[01:21:29] they asked to do. So a lot of checks
+[01:21:31] before they get access to the database
+[01:21:34] and we separate things. So the
+[01:21:36] communication happens uh over the
+[01:21:38] network but in reality so you might
+[01:21:41] consider different way how you deploy
+[01:21:43] and run this on in a cloud or in a
+[01:21:45] server. It could be each one of these
+[01:21:47] sitting on a separate server. This one
+[01:21:49] is in one server. This one is one server
+[01:21:51] and the way they talk to each other
+[01:21:52] through HTTP request or response or APIs
+[01:21:55] making a call over the network. Or you
+[01:21:58] can actually put all of them in one
+[01:21:59] server but they're living or sitting in
+[01:22:02] one separate components. They are
+[01:22:04] separated.
+[01:22:08] Right? So
+[01:22:10] now this is also the layered
+[01:22:11] architecture present in a different way.
+[01:22:14] I just want to show you that uh you
+[01:22:17] could actually do the same thing or do
+[01:22:19] the this layered architecture uh uh in
+[01:22:22] in uh in different ways you can
+[01:22:24] visualize that but this one focus on
+[01:22:26] kind of uh one user story we have record
+[01:22:30] an expense and what we do in this one
+[01:22:33] user story from start to end to
+[01:22:36] implement that user story you have to
+[01:22:38] actually implement an expense form in
+[01:22:42] the user interface httm ML and HTML and
+[01:22:45] CSS.
+[01:22:47] We have to make requests through this
+[01:22:48] form. It make requests when the user
+[01:22:50] clicks submit and it knows how to
+[01:22:52] prepare the request as a post request to
+[01:22:55] the expenses
+[01:22:57] uh uh file or or data
+[01:23:00] and it has to go through the service uh
+[01:23:02] which actually try to say call this
+[01:23:04] record expense but it might check on
+[01:23:06] something before uh we actually call the
+[01:23:09] service. the domain here uh component
+[01:23:12] that will actually validate the split if
+[01:23:13] it's a correct split or not before we
+[01:23:15] actually save it to our database right
+[01:23:18] and that that actually validate do the
+[01:23:20] final validation in the repository uh
+[01:23:22] saving the expense so we could have
+[01:23:24] different layers in which we check what
+[01:23:27] the user is expect what we need to do or
+[01:23:29] what the responsibility in each one of
+[01:23:31] these
+[01:23:32] now testing we can test things easily
+[01:23:35] because we have we can write tests for
+[01:23:38] this validate split we We can write test
+[01:23:40] for record expense. We can write test
+[01:23:43] for save expense. We don't need to say
+[01:23:45] all of that happen. It's all in one one
+[01:23:49] kind of uh component. We need to test
+[01:23:51] it. So it's very complicated to test
+[01:23:53] because we have to test all of them
+[01:23:54] together. So we run the test separately
+[01:23:57] and that's makes it easy to do.
+[01:24:00] Sometimes we can replace this with a
+[01:24:02] fake one. As I told you instead of
+[01:24:03] having real database here we might have
+[01:24:06] a file just we write and read from the
+[01:24:08] file. And this way we help us to
+[01:24:10] actually test the service with replacing
+[01:24:12] this real database with a symbol symbol
+[01:24:16] format like a file or something like
+[01:24:18] that.
+[01:24:20] We also have different types of tests.
+[01:24:22] We will talk about this next week.
+[01:24:24] Basically, we're going to make sure that
+[01:24:26] we have the integration of these
+[01:24:28] components. When we send the request, it
+[01:24:29] goes through all the way. So, we're
+[01:24:31] integrating all of that. The logic or
+[01:24:33] the behavior, expected behavior works
+[01:24:35] across all of these components.
+[01:24:40] Now another architectural button is
+[01:24:43] model view controller. Anyone did work
+[01:24:45] with the MVC? It's a nonbaton. A lot of
+[01:24:48] people teach that or cover that in
+[01:24:50] courses or in web development.
+[01:24:53] No. Okay. So it also focus on separation
+[01:24:57] of concerns and what we have three main
+[01:25:00] components uh model the view the
+[01:25:03] controller. Each one has a special
+[01:25:05] responsibility.
+[01:25:07] So let me start with the view because
+[01:25:10] where things happen. So this actually
+[01:25:12] defines the display or the user
+[01:25:14] interface how we should display anything
+[01:25:16] to the user and it gets the user input
+[01:25:20] and we try to actually process it right.
+[01:25:23] So user click something add to cart or
+[01:25:26] search that goes to what it goes to the
+[01:25:30] controller that actually controlling the
+[01:25:32] logic. So this one only focus on
+[01:25:35] displaying for the user taking user
+[01:25:37] input and interaction and send it to the
+[01:25:39] controller. It also displays anything
+[01:25:41] comes back from the controller as a
+[01:25:43] result or from the model.
+[01:25:46] Now the controller focus on this control
+[01:25:49] logic. When I get a request X the user
+[01:25:52] want to see something or the user want
+[01:25:53] to see uh to do certain thing. So it
+[01:25:56] receives the input with the data and it
+[01:25:58] knows which model to call. that model is
+[01:26:02] updating the or will have access to the
+[01:26:04] database whether you want to retrieve
+[01:26:06] something or update something but you
+[01:26:08] don't have access direct from the
+[01:26:10] controller to the database this is
+[01:26:12] actually go through the model and the
+[01:26:13] model define these kind of domain
+[01:26:15] behaviors data and domain behaviors for
+[01:26:17] example get me all the x things that the
+[01:26:20] user asks for so it goes through the
+[01:26:22] model and there are functions defined
+[01:26:23] there to do that so we define a
+[01:26:26] controller for each type of request or
+[01:26:28] URL the user will send we define where
+[01:26:31] it goes and then what logic it should
+[01:26:34] call in the model. So there's a mapping
+[01:26:36] between the three components.
+[01:26:39] Now let me put that in an example how
+[01:26:42] things work with the browser and this is
+[01:26:44] in something I used to teach in NodeJS
+[01:26:46] and ExpressJS
+[01:26:48] uh JavaScript. So the web browser where
+[01:26:51] the user see uh the web pages they might
+[01:26:53] see a form they might see uh uh items
+[01:26:56] and they want to add something to the
+[01:26:58] item or to the to the cart or do
+[01:27:00] something. So user will start something
+[01:27:02] with a clicking uh uh something that
+[01:27:05] will initiate HTTP request that goes to
+[01:27:08] what we call routers or routes. So these
+[01:27:11] routes knows the forwarding the logic to
+[01:27:13] certain controller. So what we say if
+[01:27:15] the request is is this type of request,
+[01:27:17] we know which controller will handle
+[01:27:19] that type of request, right? So we map
+[01:27:22] each request to certain controller. And
+[01:27:26] then we also have these kind of view
+[01:27:28] templates that will help us to view
+[01:27:30] things when we need to send a response
+[01:27:32] back. But this controller might need to
+[01:27:34] also call the model in order to retrieve
+[01:27:36] certain thing from the database. So it
+[01:27:39] needs to read write data from the
+[01:27:40] database. So there are specific
+[01:27:42] functions here for each type of
+[01:27:45] controller or for each type of logic to
+[01:27:47] access the database.
+[01:27:50] What I made the database is actually
+[01:27:52] where you have your data. So maybe it's
+[01:27:54] it's MySQL or other types of uh database
+[01:27:58] server. So it could be deployed on a se
+[01:28:00] separate server and this logic your
+[01:28:02] controller which sitting in one module
+[01:28:05] which has different files defining them
+[01:28:07] the the uh uh the mapping the roots the
+[01:28:10] views and the models they are sitting in
+[01:28:12] one server called the application or the
+[01:28:14] web server. You could also put both of
+[01:28:17] them on one server. So it's up to you.
+[01:28:19] But you think about it you're making
+[01:28:20] things separate. you're making call over
+[01:28:22] the network
+[01:28:24] and you're going to think about other
+[01:28:26] major things when you actually want to
+[01:28:28] scale. These are big things uh we're not
+[01:28:31] covering here. So, but uh there are
+[01:28:33] different ways you can deploy this same
+[01:28:34] thing. Even sometimes you might have
+[01:28:36] certain components uh split into
+[01:28:38] different servers.
+[01:28:40] So and then when we get a response so
+[01:28:42] the controller actually find the right
+[01:28:45] view or template to actually share or to
+[01:28:47] display the content for the or send it
+[01:28:50] back to the browser and the browser will
+[01:28:51] display it to the end user.
+[01:28:54] So this is pretty much what happening. A
+[01:28:56] request will come in into the
+[01:28:57] application. The request gets rooted to
+[01:28:59] the controller through the router and
+[01:29:02] then the controller may send request to
+[01:29:04] the model because it needs some data or
+[01:29:07] if it knows how to handle that it handle
+[01:29:09] it.
+[01:29:12] The model may need to talk to the
+[01:29:13] database or data source to manipulate
+[01:29:16] the data or to retrieve what the user
+[01:29:18] asks for. And the database will actually
+[01:29:20] send the data back to the model.
+[01:29:24] And the model will respond to the
+[01:29:25] controller and the controller will
+[01:29:28] actually uh uh control uh passing the
+[01:29:31] important things that we need to show in
+[01:29:33] the view to display for the end user and
+[01:29:35] that will be sent back as a response and
+[01:29:38] will be displayed by the browser on the
+[01:29:40] view. We have things separate and
+[01:29:43] there's a communication happens or flow
+[01:29:45] as you noticed
+[01:29:47] to actually answer one request from the
+[01:29:49] user. This is what's happening behind
+[01:29:51] the scene when you design and you
+[01:29:52] implement. You say I implement routers.
+[01:29:55] You say when I get request X, I know
+[01:29:57] this one goes to controller X. When I
+[01:29:59] get response uh request Y, it goes to
+[01:30:03] controller Y. There's a function mapping
+[01:30:05] for that. And then the controller
+[01:30:06] specify the logic how to call or to call
+[01:30:08] the model or not based on the logic or
+[01:30:11] that request and what's in sent in the
+[01:30:13] request and what type of request is it.
+[01:30:16] So things are split and I did show you
+[01:30:18] before where this database could be
+[01:30:20] sitting on a separate server and all of
+[01:30:22] these could be sitting on another server
+[01:30:24] physically or all of them you can put in
+[01:30:26] one server but they are implemented in
+[01:30:28] inside different modules as I think I do
+[01:30:31] have something for that like this. So
+[01:30:34] your controller code will sit in this
+[01:30:36] folder controller this is an application
+[01:30:39] architecture in or structure in u
+[01:30:42] nodejs.
+[01:30:43] So mo your models code sit here. Your
+[01:30:46] router's code sit here. Your views code
+[01:30:48] sit here. And there are other structures
+[01:30:50] for other files. All images files will
+[01:30:52] be here. CSS will be here. So this how
+[01:30:56] your coding. So each one of that tends
+[01:30:58] to be a module. Under the module we have
+[01:31:01] the files or source code files. This is
+[01:31:04] how you actually map things or from what
+[01:31:06] we see here as components and how split
+[01:31:09] them into an architecture for your code.
+[01:31:14] Right. So this is another way to
+[01:31:15] describe the model view controller in
+[01:31:17] modern web app. So this is adopted in
+[01:31:20] Python. I think in Python they call it
+[01:31:22] model template view and they consider
+[01:31:26] most of the processing of the client
+[01:31:28] logic events stage or state and AI calls
+[01:31:31] happens in the browser side and handled
+[01:31:35] in the browser side and the server side
+[01:31:36] will focus on the controller routting
+[01:31:38] the request to certain uh logic and that
+[01:31:41] takes to the model and to the database
+[01:31:44] but again this is implemented in Python
+[01:31:46] Django and that's actually make it easy
+[01:31:48] for you to implement that because you
+[01:31:50] it's a framework you can just use and it
+[01:31:53] give you all these functionality and
+[01:31:54] structure or design out of the box. So
+[01:31:57] you don't need to implement it from
+[01:31:58] scratch yourself.
+[01:32:01] Now this is where you see some um
+[01:32:03] programming frameworks or programming
+[01:32:05] languages adopt some of these design
+[01:32:07] patterns because they widely adopted and
+[01:32:09] they give you that as a framework or
+[01:32:10] library and then you can just easily use
+[01:32:13] this. You need to know how things are
+[01:32:15] structured, how you actually can call
+[01:32:17] this and how you send requests and
+[01:32:19] process responses and your life become
+[01:32:21] easy. You don't need to implement
+[01:32:22] everything from scratch.
+[01:32:27] one I think one last or two last
+[01:32:29] architectures micros service
+[01:32:32] architecture the microservices
+[01:32:34] architecture think of dividing every
+[01:32:37] single
+[01:32:39] one small functionality as a service and
+[01:32:41] it's called micro service is one little
+[01:32:44] thing this service is actually
+[01:32:46] authenticate the user allow them to
+[01:32:48] login checking the username password and
+[01:32:51] allow them to login successfully
+[01:32:54] uh for example Here we have user service
+[01:32:57] which has its own loan logic and expense
+[01:32:59] service for example which has its own
+[01:33:01] logic.
+[01:33:03] Now in the microservices architecture
+[01:33:06] you say each service will need to access
+[01:33:09] certain database. Even your data is
+[01:33:11] split into different small if you like
+[01:33:14] micro databases. This one only f has the
+[01:33:17] user data because this functionality
+[01:33:19] needs to only get the user data to
+[01:33:21] authenticate the user and this one has
+[01:33:23] the expense database which this expense
+[01:33:27] service will need to actually to access.
+[01:33:30] You don't need the user service to
+[01:33:32] access the Xins database, right? When
+[01:33:35] you need to create combined logic, you
+[01:33:36] might call service X, service Y, service
+[01:33:39] Z to get one logic or build maybe one
+[01:33:41] thing. Get me all the users in my group
+[01:33:44] who and show me who bid what, right? So
+[01:33:48] you might need to actually call
+[01:33:50] different services to get one bigger
+[01:33:51] piece of functionality or answer one
+[01:33:54] query for the users. Now as you can see
+[01:33:57] microservices
+[01:33:58] define this kind of if you like
+[01:34:00] responsibility into very small service
+[01:34:03] one small functionality just has its own
+[01:34:06] logic and there are AI calls and
+[01:34:09] interfaces for each one. So the AI
+[01:34:12] gateway when the user send a request
+[01:34:14] let's say it's a authenticate user
+[01:34:16] request it goes to this service it knows
+[01:34:18] which AI to call uh so this is why it's
+[01:34:21] called AI gateway and it knows to
+[01:34:24] actually talk to the database instead of
+[01:34:26] having one database and one business
+[01:34:28] logic we split the business logic into
+[01:34:30] smaller microservices now the benefits
+[01:34:33] of that scalability let's say the most
+[01:34:37] service that needs
+[01:34:39] to scale
+[01:34:41] Maybe user authentication or user
+[01:34:43] service doesn't need much changes or per
+[01:34:45] like it's not that um it doesn't get
+[01:34:48] that workload but too many requests
+[01:34:51] maybe we're getting uh thousand requests
+[01:34:54] per second on expense service. Now this
+[01:34:57] one becomes a bottleneck in the
+[01:34:59] application. What we can do we can
+[01:35:01] deploy this service on multiple servers.
+[01:35:03] when we get the request we can send it
+[01:35:04] to the one or more servers and that
+[01:35:07] makes it a better performance. So
+[01:35:10] instead of scaling the whole application
+[01:35:13] the whole logic we scale only the
+[01:35:15] component that is uh actually bottleneck
+[01:35:18] or the one that receives most of these
+[01:35:19] requests and need to be improved in
+[01:35:21] terms of performance.
+[01:35:24] If this service fails it doesn't impact
+[01:35:26] all other services. That's another
+[01:35:28] benefit. security. If someone compromise
+[01:35:31] or get access to this, they don't get
+[01:35:33] access to the other databases and other
+[01:35:35] microservices. So there are some
+[01:35:37] benefits and trade-offs of any
+[01:35:39] architecture design. You get some
+[01:35:41] benefits and you get some drawbacks. You
+[01:35:44] need to think of the trade-offs of each.
+[01:35:46] And when we do CI/CD where we need to
+[01:35:48] test and automate testing and and
+[01:35:51] integration, it looks like easier
+[01:35:54] because we just have these small
+[01:35:55] components we're building. they run as a
+[01:35:57] services and they're running as separate
+[01:36:00] components.
+[01:36:02] The I think the drawback some of the
+[01:36:04] things it's hard to trace when we have
+[01:36:05] too many services distributed on
+[01:36:08] different service because tracing is
+[01:36:10] become in different service or different
+[01:36:12] components on one server. So you need to
+[01:36:14] trace everyone
+[01:36:17] network failures and latency if
+[01:36:18] something goes wrong with the network.
+[01:36:20] So that will actually delays the access.
+[01:36:23] We need to make sure data is consistent
+[01:36:25] especially if we need to share and
+[01:36:26] update data among different components
+[01:36:28] or databases and so on. So you always
+[01:36:31] think there's no ideal solution or
+[01:36:33] there's no silver bullet. You need to
+[01:36:35] make decisions and trade-offs. You can't
+[01:36:38] get everything from an architecture
+[01:36:39] design.
+[01:36:41] That's where I said that architecture is
+[01:36:43] about design decisions or making design
+[01:36:46] decisions.
+[01:36:48] Right? So yep. So we cover I covered
+[01:36:52] that. Okay, don't choose microservices
+[01:36:54] because they sound scalable. Yes, they
+[01:36:56] sound scalable, but there are other
+[01:36:58] things you need to deal with this
+[01:37:00] complexity which is was not in the other
+[01:37:04] uh uh designs or other architectures
+[01:37:07] you can actually do. So some companies
+[01:37:09] adopted that and they did show the
+[01:37:11] benefits but for other types of it
+[01:37:13] depends on your application the what's
+[01:37:15] the domain what's the problem you try to
+[01:37:16] solve. This is really important, right?
+[01:37:19] So latency cannot be tolerated in some
+[01:37:21] applications of performance, right? And
+[01:37:23] because you have a lot of network AI
+[01:37:25] calls, you need to reduce that. So
+[01:37:28] making the architecture choices and
+[01:37:30] trade-offs. This is what I talked about
+[01:37:32] in in couple of slides, but basically
+[01:37:34] you ask different questions to actually
+[01:37:37] make a trade-offs. I mentioned what is
+[01:37:40] changing, how large is the team because
+[01:37:42] also the team is important, right? So
+[01:37:46] when you have bigger teams so
+[01:37:48] operational overhead becomes huge right
+[01:37:51] if we split things to too many
+[01:37:53] components or follow certain like
+[01:37:54] microser architecture for example think
+[01:37:57] what must scale you know what which bot
+[01:38:00] needs to scale and you know we can
+[01:38:01] actually help us to make a decision
+[01:38:03] which uh architecture design could could
+[01:38:05] help here
+[01:38:07] how will we deploy uh keeping the
+[01:38:10] architecture compatible with CI/CD
+[01:38:12] because every time we build something we
+[01:38:14] need to deploy it on the infrastructure.
+[01:38:17] We might need to deploy different
+[01:38:18] components on different servers. So that
+[01:38:21] might impact also our uh delays the the
+[01:38:24] delivery or the deployment and make it
+[01:38:26] more complicated tracing also.
+[01:38:30] Okay. So
+[01:38:32] what are the things to consider when you
+[01:38:34] actually make uh design decisions and
+[01:38:36] architectures? Performance. I talked
+[01:38:38] about this a little bit when we covered
+[01:38:40] the different ones. Remember when I
+[01:38:42] showed you the layered architecture? If
+[01:38:43] you put everything in one server
+[01:38:45] including your database, you don't need
+[01:38:46] to make calls over the network that make
+[01:38:48] it fast performing but security might be
+[01:38:51] impacted. If one compromising your
+[01:38:52] server, they can access the database and
+[01:38:54] everything, right? When it's in a
+[01:38:56] separate server, it's a different story.
+[01:38:58] So, it's always a trade-off. You can't
+[01:39:00] get everything there. Scalability, I
+[01:39:02] mentioned the uh microservices as an
+[01:39:05] example. scalability particularly
+[01:39:07] looking at how your application
+[01:39:09] performing when the number of users or
+[01:39:11] the data or the access or the workload
+[01:39:14] increase like if you have a 100 user
+[01:39:16] using your application let's say the
+[01:39:18] response time is to process one request
+[01:39:21] is about 600 millisecond what if you
+[01:39:24] have 1,000 or 10,000 will it be the same
+[01:39:27] response time it might be you know
+[01:39:29] latency will increase
+[01:39:32] reliability what happens when uh
+[01:39:34] dependency fails like you're depending
+[01:39:36] one component or one thing depending on
+[01:39:38] another component that fails you should
+[01:39:40] have a failover scenario that component
+[01:39:43] can be deployed automatically on another
+[01:39:45] server and that server becomes up and
+[01:39:47] running so user can't see this something
+[01:39:49] failing at all they don't see it at all
+[01:39:52] so that's actually part of the things
+[01:39:54] security I mentioned some of the things
+[01:39:56] about security and it could be other
+[01:39:58] other properties some properties here
+[01:40:00] the properties we look at or
+[01:40:02] non-functional requirements when we
+[01:40:03] design we say how easy to maintain and I
+[01:40:06] mentioned that many many times in the in
+[01:40:08] the lecture today understandability how
+[01:40:10] easy your teammates and yourself you can
+[01:40:12] understand and change the code if it's
+[01:40:15] in all in one big file it's hard there's
+[01:40:17] a lot of dependency a lot of calling or
+[01:40:19] becomes too complex to understand and
+[01:40:21] follow how easy is it to test that if
+[01:40:24] you split it into really good
+[01:40:26] responsibility and you show the
+[01:40:27] boundaries clear you can define good
+[01:40:29] test cases
+[01:40:31] modularity how modular is your code and
+[01:40:34] I did show you How did we modularize the
+[01:40:36] uh MVC in in files and in in in uh
+[01:40:40] structure or uh directories? How easy to
+[01:40:43] extend the behavior? And I did show some
+[01:40:46] examples where if you want to actually
+[01:40:48] change something, you can extend by
+[01:40:50] adding some services to the one
+[01:40:52] component. You don't need to change
+[01:40:53] other ones at all. The code even doesn't
+[01:40:55] change because all what it need is knows
+[01:40:57] that is a new service I can call with
+[01:40:59] this way.
+[01:41:01] and how easy we can deploy and make this
+[01:41:04] deployability easy uh in the future when
+[01:41:07] we add more and more things.
+[01:41:10] Now when you design you need to think
+[01:41:12] about these things. It's not about
+[01:41:13] saying that it works is fast performing.
+[01:41:15] You say there are other aspects we
+[01:41:17] consider when we design an application
+[01:41:19] and we create an architecture. Uh things
+[01:41:22] get very complex when the code becomes
+[01:41:26] bigger and bigger and and more added to
+[01:41:28] that.
+[01:41:31] Okay. So for your sprint, I think we did
+[01:41:33] talk about this part. When you implement
+[01:41:35] a user story, you're going to cover
+[01:41:38] different aspects, different
+[01:41:39] responsibilities across different
+[01:41:41] components and we did talk about that.
+[01:41:44] So think about each sprint can deliver a
+[01:41:47] small end-to-end capability instead of
+[01:41:49] disconnected technical layer. Now what I
+[01:41:53] want to show you here if you are
+[01:41:55] building in your sprint in one sprint or
+[01:41:57] couple of sprints building functionality
+[01:41:59] which one which design approach is
+[01:42:01] correct the one at the left hand side
+[01:42:03] where we build component design and
+[01:42:05] development or the vertical slice design
+[01:42:07] and development
+[01:42:10] as agile teams. What should you do in
+[01:42:12] your sprints? Should you do in sprint
+[01:42:14] one the database components in sprint
+[01:42:16] two the backend design and development?
+[01:42:18] sprint three the front end or what you
+[01:42:21] see here do a bit of story A B C uh with
+[01:42:25] different uh responsibilities across
+[01:42:28] different components which one
+[01:42:32] obviously yes the slicing you should
+[01:42:36] avoid and we have it in the capstone
+[01:42:39] project you don't say uh we did all the
+[01:42:41] back end and the other team is doing the
+[01:42:44] front end the whole thing and then we
+[01:42:45] will integrate and this what happens
+[01:42:47] what's called is a big bang integration
+[01:42:49] where you're going to get everything
+[01:42:51] together and then figure out what what
+[01:42:53] went wrong, right? So we go one story,
+[01:42:58] we build the UI for that the form, we
+[01:43:00] actually call the AI, we check the rule,
+[01:43:02] we check the database, we test it, we
+[01:43:04] say we we integrated with the rest of
+[01:43:06] the code. So we did one slice and then
+[01:43:08] we integrated with the rest of the
+[01:43:09] application. Story B we do the same
+[01:43:12] thing and we integrate and story C and
+[01:43:15] story D whether within the same sprint
+[01:43:17] or different sprints you do it this way
+[01:43:19] vertical slice
+[01:43:22] right so and the idea is when you do
+[01:43:25] this kind of in a sprint one you do
+[01:43:27] different stories with this slice you
+[01:43:30] get feedback early from your users or uh
+[01:43:34] from your clients and you can test and
+[01:43:37] refine your design and architecture as
+[01:43:39] we started
+[01:43:40] you gradually refine and change your
+[01:43:42] design and architecture. It's not one
+[01:43:44] off. It's not a one big decision you
+[01:43:46] make at the at the beginning and that's
+[01:43:47] it. And you have a clear evidence where
+[01:43:50] we need to change or how things work
+[01:43:52] whether it's they are things are not
+[01:43:55] working or when my traffic if I need to
+[01:43:57] test with bigger traffic I can tell
+[01:43:59] early if there's something wrong I can
+[01:44:01] change early on. Changes you make early
+[01:44:03] on in the design and development will
+[01:44:05] make your life easy as a team.
+[01:44:10] So this kind of emergent architecture
+[01:44:12] it's not accidental right. So you need
+[01:44:16] to have these kind of decisions you make
+[01:44:18] in in in place when every time we
+[01:44:20] actually build user stories or build
+[01:44:22] things and evolve our design and
+[01:44:24] architecture. So you just design enough
+[01:44:27] now you don't need to be perfect and
+[01:44:29] learn from the in increment from the
+[01:44:32] feedback from what you collected and
+[01:44:34] improve the structure uh in the next
+[01:44:36] sprint. You don't need to do it all
+[01:44:37] perfectly. Well, this is what we hoping
+[01:44:40] that you follow this kind of thinking
+[01:44:43] when you actually build features.
+[01:44:45] Although we're not asking you to show us
+[01:44:47] design and architecture, but I'm hoping
+[01:44:49] that will guide your decisions and
+[01:44:52] design thinking or thinking around the
+[01:44:54] design, how you should actually split
+[01:44:56] the responsibilities, the components,
+[01:44:58] where they sitting, where they living,
+[01:45:00] where they implemented and so on.
+[01:45:03] And think about changing things. It's
+[01:45:05] not end of the sprint doesn't mean end
+[01:45:07] of the project or end of the
+[01:45:09] development. You can improve things as
+[01:45:11] you collect more feedback.
+[01:45:14] These are some key takeaways just I
+[01:45:17] think I need to just have some time so
+[01:45:20] you can go through them. They just
+[01:45:22] summarize the key things we covered.
+[01:45:25] uh we release sprint one assessment
+[01:45:28] and sprint one focus on what we have
+[01:45:30] covered uh in week one and week two
+[01:45:33] pretty much week two I believe so we in
+[01:45:37] the sprint one we need you to do a demo
+[01:45:40] uh which worth 10% a demonstration
+[01:45:43] uh in your lab so this is actually one
+[01:45:45] way to get the students to talk and
+[01:45:48] communicate their uh work this is really
+[01:45:51] important
+[01:45:52] so each team will demo in their labs
+[01:45:56] So we need to have the recording
+[01:45:57] submitted as well. So as an evidence of
+[01:45:59] the demo. So we have a report as well.
+[01:46:02] So we have a demonstration and a report.
+[01:46:03] The report covering all the important
+[01:46:05] bits I will talk about in the following
+[01:46:07] slides. And we have a peer evaluation.
+[01:46:10] Every team member should evaluate other
+[01:46:11] team members. The goal is to get
+[01:46:13] constructive feedback not to blame
+[01:46:15] others on weaknesses but we help others
+[01:46:18] to actually improve and think about
+[01:46:20] their work for the next sprint.
+[01:46:23] The individual report this is actually
+[01:46:25] looking at how you individually
+[01:46:27] reflecting and thinking about the work
+[01:46:29] you've done and the contribution you
+[01:46:30] made. So this sprint is total 10 30%
+[01:46:34] right 25
+[01:46:36] 30 yes now it should be easy we are
+[01:46:39] talking about project sprint one
+[01:46:42] guidelines in model so we have them so
+[01:46:44] this is your demo it's about 10 to 12
+[01:46:47] minutes now we have guidelines for that
+[01:46:50] you need to present to your tutor and
+[01:46:51] the team think of different audience
+[01:46:53] this is the key message there every
+[01:46:55] member must attend and present if they
+[01:46:58] cannot for some special circumstances
+[01:47:00] they should apply Apply for special
+[01:47:01] consideration to get the team mark. So
+[01:47:04] you should uh present attend and
+[01:47:06] present. Show the shared expense
+[01:47:09] splitter features you have built
+[01:47:12] uh running live on your own machine and
+[01:47:15] show how the sprint was run. Now one
+[01:47:18] part is about the application. Show us
+[01:47:20] the features you implemented.
+[01:47:23] Now and you should have done agile or
+[01:47:26] followed the scrum method. So, you're
+[01:47:28] going to show us these things or
+[01:47:30] highlight these things. How did you do
+[01:47:32] the sprint? We want to make sure you did
+[01:47:34] it right as a team. Um, and we have a
+[01:47:37] recording that to be submitted.
+[01:47:40] So, we want the app to be running and
+[01:47:42] your GitLab uh tabs open before you,
+[01:47:45] this is actually for efficiency
+[01:47:47] team report covering the different
+[01:47:49] aspects you need in about 15 pages.
+[01:47:54] Um it has five bots looking at the scrum
+[01:47:57] roles, role allocation and meeting
+[01:47:59] minutes. Uh the planning, how did you do
+[01:48:02] your planning with user stories,
+[01:48:03] acceptance criteria, points and sprint
+[01:48:05] goal, the sprint tracking, issue board,
+[01:48:08] meetings, git workflow,
+[01:48:11] uh velocity, uh the points uh committed
+[01:48:14] versus completed and it's all about
+[01:48:16] explaining that there's no wrong or
+[01:48:18] right. Remember I talked about things
+[01:48:20] and I talked about different aspects of
+[01:48:23] that when I covered scrum and I
+[01:48:25] mentioned sometimes it's not about wrong
+[01:48:27] or right you need to explain and justify
+[01:48:29] showing that you did follow proper agile
+[01:48:31] scrum master should ensure that but also
+[01:48:35] you justify it if you tell us you you
+[01:48:37] you committed to do 10 story points or
+[01:48:41] let's say 15 story points you did 12 you
+[01:48:44] explain what happens it's about the
+[01:48:46] estimate we estimate we are not and and
+[01:48:48] this is the best sprint we run. So there
+[01:48:50] are things where you can explain and
+[01:48:52] justify. We need to see your
+[01:48:53] understanding not only following a
+[01:48:55] process blindly. You need to be able to
+[01:48:58] explain and articulate that in your
+[01:48:59] reports. So the beer evaluation this is
+[01:49:02] submitting you need to submit on time.
+[01:49:04] There's no late submission permitted for
+[01:49:06] that unless you have approved special
+[01:49:08] con or ALB. Uh an individual report.
+[01:49:11] This is where we want you as individual
+[01:49:13] after one week. So we want you to
+[01:49:15] actually talk about your contribution
+[01:49:16] evidence of your work. This will help
+[01:49:18] you to always think and reflect on what
+[01:49:20] you've been doing and think how you
+[01:49:21] could improve and think about what
+[01:49:23] you're making as contribution to the
+[01:49:25] team. Right? So, we need to evaluate
+[01:49:27] your individual contributions through
+[01:49:28] this assessment. I think these are some
+[01:49:31] of the references I did use. Uh you can
+[01:49:33] read more uh if you need to actually
+[01:49:35] check more content. And that's all.
+[01:49:38] Thank you so much for staying back and
+[01:49:40] thank you for your participation in
+[01:49:41] today's lecture. We're looking forward
+[01:49:43] to seeing you next week. So we'll cover
+[01:49:46] software testing is a big topic and it's
+[01:49:48] big part of your sprint 2 and three uh
+[01:49:51] which is uh will actually make an a
+[01:49:53] bridge before we start doing CI/CD
+[01:49:55] continuous integration. So this thing is
+[01:49:57] a big part of of the uh CI or continuous
+[01:50:00] integration. Thank you so much and if
+[01:50:03] you have any questions or if you want to
+[01:50:04] talk to me come down and I'll speak to
+[01:50:06] you. Thank you.
+[01:51:58] Are you
