@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Tracker</title>
+  <!-- url_for('static', ...) 会生成 /static/style.css；这样换部署路径也不用改 -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="card">
+    <h1>My Tasks</h1>
+
+    <!-- ====================== 添加任务（feature-add-task） ======================
+         表单提交到 /add（POST）。input 的 name="title" 对应后端 request.form["title"]。
+         required 只是浏览器层面的提示，真正的保护在后端。
+    -->
+    <form class="add-form" action="{{ url_for('add_task') }}" method="post">
+      <input type="text" name="title" placeholder="What needs to be done?" autocomplete="off" required>
+      <button type="submit" class="btn btn-primary">Add Task</button>
+    </form>
+
+    {% raw %}<!-- ====================== 显示任务列表（starter code） ======================
+         Jinja2 模板语法（这段注释用 raw 包起来，否则 Jinja 会把示例当真解析）：
+           {% for ... %} ... {% endfor %}  循环
+           {{ 变量 }}                      输出（自动做 HTML 转义，防 XSS）
+           {% if ... %} ... {% else %}      条件
+    -->{% endraw %}
+    {% if tasks %}
+      <ul class="task-list">
+        {% for task in tasks %}
+          <li class="task-item">
+            <span class="task-title">{{ task.title }}</span>
+
+            <!-- ====================== 删除任务（feature-delete-task） ==================
+                 每条任务一个独立的小表单，提交到 /delete/<id>（POST）。
+                 用表单而不是 <a href> 链接，是因为删除会改数据，不该用 GET。
+            -->
+            <form action="{{ url_for('delete_task', task_id=task.id) }}" method="post">
+              <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="summary">{{ tasks|length }} task{{ '' if tasks|length == 1 else 's' }}</p>
+    {% else %}
+      <p class="empty">No tasks yet. Add your first one above!</p>
+    {% endif %}
+  </main>
+</body>
+</html>
